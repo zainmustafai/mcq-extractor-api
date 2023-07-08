@@ -1,0 +1,77 @@
+import React, { useState } from 'react';
+import extractMCQsFromText from './extractMCQsFromText';
+import PreviewANDSubmit from './PreviewANDSubmit';
+
+const CreateNew = () => {
+  const [string, setString] = useState('');
+  const [MCQs, setMCQs] = useState([]);
+
+  const handleInputChange = (e) => {
+    setString(e.target.value);
+  };
+
+  const handleExtractData = (e) => {
+    e.preventDefault();
+    const extractedMCQs = extractMCQsFromText(string);
+    setMCQs(extractedMCQs);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // Handle form submission and data saving logic here
+    try {
+      // Perform necessary actions
+    } catch (err) {
+      // Handle error
+    }
+  };
+
+  return (
+    <div>
+      <h1 className='text-center text-3xl font-bold underline mt-8'>ADD STRING to Extract DATA</h1>
+      <form className='flex flex-col items-center justify-center px-16'>
+        <textarea
+          onChange={handleInputChange}
+          rows={15}
+          className='border-2 border-black p-2 m-2 w-full'
+          placeholder='Enter the string here'
+        ></textarea>
+        <button type='button' onClick={handleExtractData} className='border-2 border-black p-2 m-2 w-1/2'>
+          EXTRACT DATA FIRST
+        </button>
+      </form>
+
+      {/* PREVIEW */}
+      <div className='p-16'>
+        <div className='border border-dashed'>
+          {MCQs.length > 0 ? (
+            MCQs.map((MCQ, index) => (
+              <section key={index} className='border border-blue-400 mx-3 px-4'>
+                <h1 className='text-center text-xl font-bold underline my-4'>{MCQ.question}</h1>
+                <div>
+                  {MCQ.options.map((option, optionIndex) => (
+                    <span key={optionIndex}>
+                      {optionIndex + 1} {option}
+                      <br />
+                    </span>
+                  ))}
+                </div>
+                <h2 className='my-3 text-lg font-bold'>{MCQ.answer}</h2>
+                <br />
+                <p>{MCQ.explanation}</p>
+              </section>
+            ))
+          ) : (
+            <p>No MCQs found.</p>
+          )}
+        </div>
+      </div>
+
+      <button type='submit' onClick={handleSubmit} className='border-2 border-black p-2 m-2 w-1/2'>
+        SUBMIT ALL
+      </button>
+    </div>
+  );
+};
+
+export default CreateNew;
