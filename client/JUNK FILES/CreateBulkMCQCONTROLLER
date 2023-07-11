@@ -1,0 +1,45 @@
+
+
+export const createBulkMCQs = async (req, res) => {
+  try {
+    console.clear();
+    console.log("Creating bulk MCQs");
+    const subjectid = req.params.subjectid;
+    const chapterid = req.params.chapterid;
+    const mcqs = req.body.mcqs;
+    const subject = await Subject.findById(subjectid);
+    if (!subject) {
+      return res.status(404).json({ message: "Subject not found" });
+    }
+    const chapter = await Chapter.findById(chapterid);
+    if (!chapter) {
+      return res.status(404).json({ message: "Chapter not found" });
+    }
+    let createdMCQS = [];
+    if (subject && chapter) {
+      for (let i = 0; i < mcqs.length; i++) {
+        const mcq = mcqs[i];
+        const { question, options, answer, explanation } = mcq;
+        const mcqCreated = await MCQ.create({
+          question,
+          options,
+          answer,
+          explanation,
+          subject: subjectid,
+        });
+        chapter.mcqs.push(mcqCreated._id);
+        await chapter.save();
+
+        createdMCQS.push(mcqCreated);
+
+        console.log("MCQ created", mcqCreated._id);
+      }
+      res.status(201).json({ mcqs: createdMCQS });
+    }
+  } catch (error) {
+    console.log(error.message);
+    res
+      .status(500)
+      .json({ message: "Something went wrong. Cannot create MCQs" });
+  }
+};
