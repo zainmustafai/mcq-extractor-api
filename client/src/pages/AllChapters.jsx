@@ -5,10 +5,13 @@ import { Link, useParams } from 'react-router-dom';
 const AllChapters = () => {
     const [chapters, setChapters] = useState([]); //
     const { subjectid } = useParams();
+    console.log(subjectid);
     useEffect(() => {
         const fetchChapters = async () => {
             try {
-                const response = await axios.get(`http://localhost:8081/api/subjects/${subjectid}/chapters`);
+                const URL = `http://localhost:8081/api/subjects/${subjectid}/chapters`;
+                console.log(URL);
+                const response = await axios.get(URL);
                 console.log(response.data);
                 setChapters(response.data.chapters);
             } catch (err) {

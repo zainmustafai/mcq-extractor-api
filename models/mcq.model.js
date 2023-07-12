@@ -27,6 +27,11 @@ const mcqSchema = mongoose.Schema({
         ref: 'Chapter',
         required: true,
     },
+    department: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Department',
+        required: true,
+    }
 });
 
 

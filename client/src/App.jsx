@@ -17,8 +17,7 @@ function App() {
       </header>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route exact path='/subjects/' element={<Subjects />}>
-
+        <Route exact path=':departmentid/subjects/' element={<Subjects/>}>
         </Route>
         <Route path='subjects/:subjectid' element={<AllChapters />} />
         <Route path='/createnew/:subjectid/:chapterid' element={<CreateNew />} />
