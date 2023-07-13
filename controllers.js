@@ -13,28 +13,31 @@ export const createNewSubject = async (req, res) => {
 
     if (!department) {
       return res.status(404).json({ message: "Department not found" });
-    };
-    // const subject = await Subject.create({ name, departments: [] });
+    }
+
+    if (alreadyExists && alreadyExists.departments.includes(departmentid)) {
+      return res.status(400).json({
+        message: `Subject with the name: '${name}' already exists in the same department.`,
+      });
+    }
+
     if (!alreadyExists) {
       console.log("Creating new subject");
-      const subject = new Subject({ name, departments: [] });
-      subject.departments.push(subject._id);
+      const subject = new Subject({ name, departments: [departmentid] });
       console.log("Subject created", subject);
-      await department.save();
+      await subject.save();
       return res.status(201).json({ subject });
-    } else if (alreadyExists && !alreadyExists.departments.includes(departmentid)) {
-      console.log("Subject already exists");
-      alreadyExists.departments.push(departmentid);
-      await alreadyExists.save();
-      return res.status(201).json({ alreadyExists });
-    } else if (alreadyExists && alreadyExists.departments.includes(departmentid)) {
-      return res.status(400).json({ message: `Subject with the name : '${name}' already exists in the same department.` });
-    };
+    }
+
+    console.log("Subject already exists");
+    alreadyExists.departments.push(departmentid);
+    await alreadyExists.save();
+    return res.status(201).json({ alreadyExists });
   } catch (error) {
     console.log(error.message);
     res
       .status(500)
-      .json({ message: "Something went wrong. Cannnot create subject" });
+      .json({ message: "Something went wrong. Cannot create subject" });
   }
 };
 
@@ -47,9 +50,13 @@ export const createNewChapter = async (req, res) => {
       return res.status(404).json({ message: "Subject not found" });
     }
     if (subject) {
-      const chapter = await Chapter.create({ name });
-      subject.chapters.push(chapter._id);
-      await subject.save();
+      const chapter = new Chapter({ name });
+      chapter.subject = subject._id;
+      await chapter.save();
+      if (!chapter) {
+        return res.status(400).json({ message: "Cannot create chapter" });
+      }
+      console.log("Chapter created", chapter);
       return res.status(201).json({ chapter });
     }
   } catch (error) {
@@ -65,8 +72,11 @@ export const deleteChapterById = async (req, res) => {
     await Chapter.findByIdAndDelete(chapterid);
     return res.status(200).json({ message: "Chapter deleted successfully" });
   } catch (error) {
-    console.log(error.message); res.status(500).json({ message: "Something went wrong.Cannnot delete chapter" });
-  };
+    console.log(error.message);
+    res
+      .status(500)
+      .json({ message: "Something went wrong.Cannnot delete chapter" });
+  }
 };
 /************************************************************************************************************************************************************************************************* */
 export const createNewMCQ = async (req, res) => {
@@ -76,17 +86,17 @@ export const createNewMCQ = async (req, res) => {
     const department = await Department.findById(departmentid);
     if (!department) {
       return res.status(404).json({ message: "Department not found" });
-    };
+    }
 
     const subject = await Subject.findById(subjectid);
     if (!subject) {
       return res.status(404).json({ message: "Subject not found" });
-    };
+    }
 
     const chapter = await Chapter.findById(chapterid);
     if (!chapter) {
       return res.status(404).json({ message: "Chapter not found" });
-    };
+    }
     if (subject && chapter && department) {
       const { question, options, answer } = req.body;
       const mcq = await MCQ.create({
@@ -109,6 +119,7 @@ export const createNewMCQ = async (req, res) => {
 };
 
 export const createBulkMCQs = async (req, res) => {
+  console.log("Creating bulk MCQs");
   try {
     console.log("Creating bulk MCQs");
     const subjectid = req.params.subjectid;
@@ -126,6 +137,7 @@ export const createBulkMCQs = async (req, res) => {
           answer: mcq.answer,
           explanation: mcq.explanation,
           subject: subjectid,
+          chapter: chapterid,
         };
       }
     });
@@ -142,15 +154,19 @@ export const createBulkMCQs = async (req, res) => {
     }
     if (subject && chapter) {
       const createdMCQs = await MCQ.insertMany(mcqsTobeAdded);
+      if (!createdMCQs) {
+        return res.status(400).json({ message: "Cannot create MCQs" });
+      }
       console.log("Data inserted successfully");
       return res.status(201).json({ createdMCQs });
     }
   } catch (error) {
     console.log(error.message);
-    return res.status(500).json({ message: "Something went wrong. Cannot create MCQs" });
+    return res
+      .status(500)
+      .json({ message: "Something went wrong. Cannot create MCQs" });
   }
 };
-
 
 /********************** */
 export const getAllSubjects = async (req, res) => {
@@ -168,9 +184,13 @@ export const getAllSubjects = async (req, res) => {
 /********/
 export const getAllSubjectsByDepartmentId = async (req, res) => {
   try {
-    console.log("Getting all subjects by department id");
     const { departmentid } = req.params;
+    console.log("Getting all subjects by department id" + departmentid);
     const subjects = await Subject.find({ departments: departmentid });
+    if (!subjects) {
+      return res.status(404).json({ message: "Subjects not found" });
+    }
+    console.log("Subjects", subjects);
     return res.status(200).json({ subjects });
   } catch (error) {
     console.log(error.message);
@@ -184,26 +204,29 @@ export const deleteSubjectById = async (req, res) => {
   try {
     const subjectid = req.params.subjectid;
     await Subject.findByIdAndDelete(subjectid);
+    await Chapter.deleteMany({ subject: subjectid });
+    await MCQ.deleteMany({ subject: subjectid });
+
     return res.status(200).json({ message: "Subject deleted successfully" });
   } catch (error) {
     console.log(error.message);
     res
       .status(500)
       .json({ message: "Something went wrong.Cannnot delete subject" });
-  };
+  }
 };
 /*********************************************************************************************************************************************** */
 
 export const getAllChaptersBySubjectId = async (req, res) => {
   try {
-    console.log("Getting all chapters by subject id");
     const subjectid = req.params.subjectid;
+    console.log("Getting all chapters by subject id" + subjectid);
     const subject = await Subject.findById(subjectid);
     if (!subject) {
       return res.status(404).json({ message: "Subject not found" });
     }
     if (subject) {
-      const chapters = await Chapter.find({ _id: { $in: subject.chapters } });
+      const chapters = await Chapter.find({ subject: subjectid });
       return res.status(200).json({ chapters });
     }
   } catch (error) {
@@ -224,8 +247,10 @@ export const createNewDepartment = async (req, res) => {
     return res.status(201).json({ department });
   } catch (err) {
     console.log(err.message);
-    return res.status(500).json({ message: "Something went wrong. Cannot create department" });
-  };
+    return res
+      .status(500)
+      .json({ message: "Something went wrong. Cannot create department" });
+  }
 };
 export const getAllDepartments = async (req, res) => {
   try {
@@ -233,9 +258,11 @@ export const getAllDepartments = async (req, res) => {
     return res.status(200).json({ departments });
   } catch (err) {
     console.log(err.message);
-    return res.status(500).json({ message: "Something went wrong. Cannot get departments" });
+    return res
+      .status(500)
+      .json({ message: "Something went wrong. Cannot get departments" });
   }
-}
+};
 
 export const deleteDepartmentById = async (req, res) => {
   try {
@@ -244,7 +271,9 @@ export const deleteDepartmentById = async (req, res) => {
     return res.status(200).json({ message: "Department deleted successfully" });
   } catch (err) {
     console.log(err.message);
-    return res.status(500).json({ message: "Something went wrong. Cannot delete department" });
+    return res
+      .status(500)
+      .json({ message: "Something went wrong. Cannot delete department" });
   }
 };
 
@@ -254,7 +283,9 @@ export const getAllMCQs = async (req, res) => {
     return res.status(200).json({ mcqs });
   } catch {
     console.log(err.message);
-    return res.status(500).json({ message: "Something went wrong. Cannot get MCQs" });
+    return res
+      .status(500)
+      .json({ message: "Something went wrong. Cannot get MCQs" });
   }
 };
 /*********************************************************************************************************************************************** */
@@ -262,13 +293,12 @@ export const getAllMCQs = async (req, res) => {
 
 export const deleteMCQSBySubjectId = async (req, res) => {
   try {
-
   } catch (error) {
     console.log(error.message);
     res
       .status(500)
       .json({ message: "Something went wrong.Cannnot delete MCQs" });
-  };
+  }
 };
 
 /****************** */
@@ -277,19 +307,26 @@ export const deleteMCQSByChapterId = async (req, res) => {
   try {
     const { chapterid } = req.params;
     const { subjectid } = req.params;
-
+    console.log("Deleting MCQs by chapter id" + chapterid);
+    const subject = await Subject.findById(subjectid);
+    if (!subject) {
+      return res.status(404).json({ message: "Subject not found" });
+    }
+    const chapter = await Chapter.findById(chapterid);
+    if (!chapter) {
+      return res.status(404).json({ message: "Chapter not found" });
+    }
+    if (subject && chapter) {
+      await MCQ.deleteMany({ chapter: chapterid, subject: subjectid });
+    }
   } catch (error) {
     console.log(error.message);
     res
       .status(500)
       .json({ message: "Something went wrong.Cannnot delete MCQs" });
-  };
+  }
 };
-
-
 
 /*********************************************************************************************************************************************** */
 
-const removeDuplicateQuestions = async (req, res) => {
-
-};
+const removeDuplicateQuestions = async (req, res) => {};

@@ -115,10 +115,14 @@ const extractJSONData = (string) => {
   const withoutX = extractWithoutExplanation(string);
 
   let finalMCQs = withoutX;
-  for (let i = 0; i < withX.length; i++) {
+  for (let i = 0; i < withoutX.length; i++) {
+    if(withX[i].explanation !== ""){
+      // finalMCQs.push(withX[i]);
+      console.log('THERE IS A PROBLEM');
+    }
     finalMCQs[i].explanation = withX[i].explanation;
   }
-  console.log(finalMCQs);
+  // console.log(finalMCQs);
   console.log(withX.length);
   console.log(withoutX.length);
 

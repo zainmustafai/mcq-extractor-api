@@ -4,6 +4,7 @@ const mcqSchema = mongoose.Schema({
     question: {
         type: String,
         required: true,
+        unique: true,
     },
     options: [{
         type: String,
@@ -25,11 +26,6 @@ const mcqSchema = mongoose.Schema({
     chapter: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Chapter',
-        required: true,
-    },
-    department: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Department',
         required: true,
     }
 });

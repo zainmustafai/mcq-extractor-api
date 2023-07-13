@@ -7,6 +7,7 @@ import {
   createNewSubject,
   deleteChapterById,
   deleteDepartmentById,
+  deleteMCQSByChapterId,
   deleteMCQSBySubjectId,
   deleteSubjectById,
   getAllChaptersBySubjectId,
@@ -35,8 +36,13 @@ router.delete("/chapters/:chapterid",deleteChapterById);
 
 //mcqs:
 router.get("/mcqs",getAllMCQs);
-router.post(":departmentid/:subjectid/:chapterid/mcqs", createNewMCQ);
+
+router.post("/:subjectid/:chapterid/mcqs", createBulkMCQs);
+router.get("/:subjectid/:chapterid/mcqs", getAllMCQs);
+router.post("subjects/:subjectid/:chapterid/mcqs", createNewMCQ);
+
 router.delete("/:subjectid/mcqs", deleteMCQSBySubjectId);
+router.delete("/:subjectid/:chapterid/mcqs", deleteMCQSByChapterId);
 
 //
 
