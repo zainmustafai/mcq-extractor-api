@@ -1,0 +1,381 @@
+1. Which of the following systems allow short text messages to be exchanged?
+a) SMS
+b) IMS
+c) JVS
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Twitter is described as the prototypical example of this type of service.
+2. Point out the correct statement.
+a) Aggregation also can be done within software creating a custom Web page
+b) The Add Stuff link in iGoogle takes you to the content management system
+c) When you return to iGoogle, the feed appears within an Ajax frame that can be moved around on the page or moved to additional tabs that you can create
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: iGoogle’s syndication aggregation site is an example of a content management system.
+3. _____ builds on the older concept of Internet chat to add a more immediate response to text messages between individuals and groups.
+a) VM
+b) IM
+c) SM
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: IM stands for instant messaging.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following can be a form of Instant messaging application?
+a) Discrete instant messaging desktop clients
+b) Enterprise messaging services
+c) Browser-based IM clients
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: IM is meant to be instant communication between people.
+5. Point out the wrong statement.
+a) Syndicated content appears in iGoogle inside Ajax frames that can be arranged in pages
+b) RSS and Atom are prototypes of a class of XML specifications called syndication markup languages
+c) Webmail services are often free, browser-based, and platform-independent
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Webmail has broken out and is becoming widely adopted in companies and governments.
+Get Free Certificate of Merit in Cloud Computing Now!
+6. Which of the following feature is provided by Instant messaging?
+a) Rich contact management
+b) File transfers
+c) E-mail integration
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: IM is a very rich product category.
+7. Which of the following is also referred to as Windows Live Messenger native client contact?
+a) Friends list
+b) Buddy list
+c) Contact list
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: When messages arrive, the system shows an alert over the System Tray icon, sounds a bell or performs other actions to let you know.
+8. Which of the following should be replaced with question mark in the figure shown?
+Find the acrobat from the given diagram
+a) Glide
+b) Acrobat
+c) Google Docs
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Acrobat.com is Adobe’s application suite of cloud-based applications.
+9. Which of the following Webmail service has IM clients embedded in it?
+a) Yahoo Office Communications Server
+b) Microsoft Office Communications Server
+c) AOL Server
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: This category of software is sometimes referred to as Enterprise Instant Messaging (EIM).
+10. Which of the following feature is provide by standards shown in the following figure?
+Find the interoperability from the given diagram
+a) Scalability
+b) Interoperability
+c) Reliability
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Interoperability between different instant messaging clients has been a major area of contention.
+1. How many types of protocols are important for instant messaging?
+a) 2
+b) 3
+c) 4
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: In an effort to create an interoperability standard between different IM clients, several instant messaging protocols have been created.
+2. Point out the correct statement.
+a) Every third-party IM clients aim to allow their users to connect to the different major IM services
+b) SIP stands for Secure Initiation Protocol
+c) XMPP stands for Extensible Messaging and Presence Protocol
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: SIP stands for Session Initiation Protocol.
+3. Which of the following protocol is adopted for interoperability by top three IM service providers?
+a) SIP
+b) SIMPLE
+c) XMPP
+d) IMPS
+View Answer
+
+Answer: b
+Explanation: They allow their users to connect with the other services’ public users for a fee.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following protocol is not an Internet Engineering Task Force standard?
+a) SIP
+b) SIMPLE
+c) XMPP
+d) IMPS
+View Answer
+
+Answer: d
+Explanation: IMPS is an IM communications standard.
+5. Point out the wrong statement.
+a) All IM clients use peer-to-peer messaging
+b) IM software aimed at businesses such as XMPP, Lotus Sametime, and Microsoft Office Communicator use a client/server architecture
+c) Instant messaging is as popular in business as it is in personal communications
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Some IM clients use peer-to-peer messaging.
+Take Cloud Computing Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following IM client allow their users to connect to the different major IM services?
+a) Pidgin
+b) Miranda IM
+c) Trillian
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Trillian runs on Windows, Macintosh, IOS (iPhone OS), Android, Blackberry, and inside browsers.
+7. Which of the following is also referred to as Short Message Service?
+a) Mini-blogs
+b) Micro-blogs
+c) Nano-blogs
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: When a service collects your messages in a conversation, it is called a micro-blog.
+8. Which of the following is a good example of an SMS service organized into a social network and blog?
+a) Twitter
+b) Facebook
+c) Instagram
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: It is sometimes referred to as the SMS of the Internet or as a form of Internet Relay Chat (IRC).
+9. Which of the following language is used to build a message server queue in twitter?
+a) Ruby
+b) Scala
+c) Java
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The Twitter Web client was built using Ruby on Rails and deployed on the Ruby Enterprise Edition, with the message queue server written in Scala.
+10. Which of the following version of office suite is shown in the figure?
+Find the office suite from the given diagram
+a) Offline
+b) Online
+c) Online and Offline
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Glide Digital OS4 is a complete suite with office software, e-mail, and other tools that replicate an online desktop.
+1. Which of the following is the audio streaming application by Microsoft?
+a) Hangout
+b) Skype
+c) Voice
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Skype is a telecommunications application software product that specializes in providing video chat and voice calls from the computer.
+2. Point out the correct statement.
+a) Streaming files are a way of delivering large content in pieces so playback can begin more quickly
+b) Streaming is used for broadcasting current events
+c) Cloud computing provides large storage for maintaining libraries
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Cloud computing has a number of advantages that aid content providers and delivery systems.
+3. How many types of streamed material exist for audio/video streaming applications?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: Streamed material can be live or on-demand.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following streaming is also called progressive download?
+a) Offline
+b) Live
+c) On-demand
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Live streaming is called progressive streaming.
+5. Point out the wrong statement.
+a) Video streaming was among the first media applications to find widespread use on the Internet
+b) VoIP is a form of audio streaming with a set of specialized protocols
+c) Broadband connections and low-cost infrastructure have made video streaming services widely available
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Cloud computing has expanded the use of streamed audio to make radio, Webcasts, music sites, and other services widely available.
+Take Cloud Computing Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following streaming occurs from the material that is already stored to disk?
+a) Online
+b) Live
+c) On-demand
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Streaming media are files that are sent in pieces by service and played back by a client as the delivery continues.
+7. When a live stream is sent a multicast to 1,000 concurrent users at 500 kbps, the number of megabytes transferred is _______________
+a) 220 GB
+b) 220 MB
+c) 220 TB
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Formula for data transfer is: MB transferred = Bandwidth x Time x Number of Users.
+8. Which of the following is a stream sent from a service to an individual user?
+a) Unicast
+b) Multicast
+c) Broadcast
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: For many content services, such as the music services Last FM and Rhapsody, a vast number of files are being served to individual users and they go out using unicast protocols as individual streams.
+9. Applications that protect streamed content by playing the part of the file and discarding it are more aptly referred to as _________
+a) Streaming
+b) Scaling
+c) Gathering
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Even if delivery is always over a WAN connection, CDN (Content Delivery Network) still offers enormous inefficiencies.
+10. Which of the following transmission protocol is used in case of a streamed media scenario?
+a) TCP
+b) UDP
+c) HTTP
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: UDP stands for user datagram protocol.
+1. Google Talk is a Windows only VoIP service on the desktop that uses the ________ protocol.
+a) Jabber
+b) Jingle
+c) SIP
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: It supports communication with mobile XMPP clients such as the Nokia N900 Smartphone, Blackberry, iPhone, and Android phones.
+2. Point out the correct statement.
+a) Video streaming over the Internet has become one of the major broadcast transmission media
+b) The Internet’s “Wayback Machine” stores past versions of the Internet and includes some interesting and significant out-of-copyright video content
+c) Kyte is a video platform for live and on-demand content streamed to online, mobile, and social media platforms
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Video streaming is one of these technologies that benefits greatly from deployment in the cloud.
+3. Which of the following is the most widespread video streaming service?
+a) Flickr
+b) Dailymotion
+c) Metacafe
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Metacafe is an entertainment site with movie trailers, TV shows, video games, and more.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following is the largest video sharing site?
+a) YouTube
+b) YuMe
+c) Yahoo Video
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: YuMe is a video advertising company.
+5. Point out the wrong statement.
+a) Veoh serves TV and movie content from major studios, along with uploaded user content
+b) UStream.tv is a live video event streaming service
+c) RuTube is a popular Japanese video-sharing site
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: RuTube is a popular Russian video-sharing site.
+Become Top Ranker in Cloud Computing Now!
+6. Which of the following application is an example of TV over the Internet?
+a) Hulu.com
+b) MySpace
+c) Comcast
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Hulu was launched in 2007 as a joint venture by ABC, Fox, and NBC to offer content to viewers.
+7. Which of the following movie subscription service has moved to the cloud?
+a) AOL
+b) Netflix
+c) XBox
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Netflix also is expected to use the cloud deployment to expand the support of other devices.
+8. Which of the following can be best be described as a digital media receiver?
+a) Apple TV
+b) Google TV
+c) Windows Live
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Google TV is a media center software platform that will appear in some HDTVs.
+9. Which of the following media players can view HTML5 content?
+a) XBMC
+b) Media Player Classic
+c) Moovida Core
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Kodi (formerly XBMC) is a free and open-source media player software developed by the XBMC Foundation.
+10. Which of the following is the most widely used streaming video file container format?
+a) H.261
+b) H.262
+c) H.264
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: H.264 is used as the streaming format for most large video sites, such as YouTube and iTunes.

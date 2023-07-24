@@ -1,0 +1,491 @@
+1. The IETF standards documents are called ________
+a) RFC
+b) RCF
+c) ID
+d) DFC
+View Answer
+
+Answer: a
+Explanation: RFC stands for Request For Comments and they are documents that describe methods, behaviors, research, or innovations applicable to the working of the Internet.
+2. In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________
+a) Added
+b) Removed
+c) Rearranged
+d) Modified
+View Answer
+
+Answer: a
+Explanation: Each layer adds its own header to the packet from the previous layer. For example, in the Internet layer, the IP header is added over the TCP header on the data packet that came from the transport layer.
+3. The structure or format of data is called ___________
+a) Syntax
+b) Semantics
+c) Struct
+d) Formatting
+View Answer
+
+Answer: a
+Explanation: The structure and format of data are defined using syntax. Semantics defines how a particular pattern to be interpreted, and what action is to be taken based on that interpretation. In programming languages, syntax of the instructions plays a vital role in designing of the program.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Communication between a computer and a keyboard involves ______________ transmission.
+a) Automatic
+b) Half-duplex
+c) Full-duplex
+d) Simplex
+View Answer
+
+Answer: d
+Explanation: In simplex transmission, data flows in single direction which in this case refers to the data flowing from the keyboard to the computer. Another example would be of the mouse where the data flows from the mouse to the computer only.
+5. The first Network was called ________
+a) CNNET
+b) NSFNET
+c) ASAPNET
+d) ARPANET
+View Answer
+
+Answer: d
+Explanation: ARPANET stands for Advanced Research Projects Agency Networks. It was the first network to be implemented which used the TCP/IP protocol in the year 1969.
+Get Free Certificate of Merit in Computer Networks Now!
+6. A _______ is the physical path over which a message travels.
+a) Path
+b) Medium
+c) Protocol
+d) Route
+View Answer
+
+Answer: b
+Explanation: Messages travel from sender to receiver via a physical path called the medium using a set of methods/rules called protocol. Mediums can be guided (wired) or unguided (wireless).
+7. Which organization has authority over interstate and international commerce in the communications field?
+a) ITU-T
+b) IEEE
+c) FCC
+d) ISOC
+View Answer
+
+Answer: c
+Explanation: FCC is the abbreviation for Federal Communications Commission. FCC is responsible for regulating all interstate communications originating or terminating in USA. It was founded in the year 1934.
+8. Which of this is not a network edge device?
+a) PC
+b) Smartphones
+c) Servers
+d) Switch
+View Answer
+
+Answer: d
+Explanation: Network edge devices refer to host systems, which can host applications like web browser. A switch can’t operate as a host, but as a central device which can be used to manage network communication.
+9. A _________ set of rules that governs data communication.
+a) Protocols
+b) Standards
+c) RFCs
+d) Servers
+View Answer
+
+Answer: a
+Explanation: In communications, a protocol refers to a set of rules and regulations that allow a network of nodes to transmit and receive information. Each layer in the network model has a protocol set, for example, the transport layer has TCP and UDP protocols.
+10. Three or more devices share a link in ________ connection.
+a) Unipoint
+b) Multipoint
+c) Point to point
+d) Simplex
+View Answer
+
+Answer: b
+Explanation: A multipoint communication is established when three or many network nodes are connected to each other. Frame relay, Ethernet and ATM are some examples of multipoint connections
+1. When collection of various computers seems a single coherent system to its client, then it is called _________
+a) computer network
+b) distributed system
+c) networking system
+d) mail system
+View Answer
+
+Answer: b
+Explanation: A Computer network is defined as a collection of interconnected computers which uses a single technology for connection.
+A distributed system is also the same as computer network but the main difference is that the whole collection of computers appears to its users as a single coherent system.
+Example:- World wide web
+2. Two devices are in network if __________
+a) a process in one device is able to exchange information with a process in another device
+b) a process is running on both devices
+c) PIDs of the processes running of different devices are same
+d) a process is active and another is inactive
+View Answer
+
+Answer: a
+Explanation: A computer network, or data network, is a digital telecommunications network which allows nodes to share resources. In computer networks, computing devices exchange data with each other using connections between nodes. The nodes have certain processes which enable them to share a specific type of data using a distinct protocol.
+3. Which of the following computer networks is built on the top of another network?
+a) prior network
+b) chief network
+c) prime network
+d) overlay network
+View Answer
+
+Answer: d
+Explanation: An overlay network is a computer network that is built on top of another network. Some examples of an overlay network are Virtual Private Networks (VPN) and Peer-to-Peer Networks (P2P).
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. In computer network nodes are _________
+a) the computer that originates the data
+b) the computer that routes the data
+c) the computer that terminates the data
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: In a computer network, a node can be anything that is capable of sending data or receiving data or even routing the data to its destination. Routers, Computers and Smartphones are some examples of network nodes.
+5. Communication channel is shared by all the machines on the network in ________
+a) broadcast network
+b) unicast network
+c) multicast network
+d) anycast network
+View Answer
+
+Answer: a
+Explanation: In a broadcast network, information is sent to all stations in a network whereas in a multicast network the data or information is sent to a group of stations in the network. In unicast network, information is sent to only one specific station. The broadcast address of the network is the last assigned address of the network.
+Check this: Computer Science MCQs | Computer Science Books
+6. Bluetooth is an example of __________
+a) personal area network
+b) local area network
+c) virtual private network
+d) wide area network
+View Answer
+
+Answer: a
+Explanation: Bluetooth is a wireless technology used to create a wireless personal area network for data transfer up to a distance of 10 meters. It operates on 2.45 GHz frequency band for transmission.
+7. A __________ is a device that forwards packets between networks by processing the routing information included in the packet.
+a) bridge
+b) firewall
+c) router
+d) hub
+View Answer
+
+Answer: c
+Explanation: A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. They make use of routing protocols like RIP to find the cheapest path to the destination.
+8. A list of protocols used by a system, one protocol per layer, is called ________
+a) protocol architecture
+b) protocol stack
+c) protocol suite
+d) protocol system
+View Answer
+
+Answer: b
+Explanation: A protocol stack refers to a group of protocols that are running concurrently that are employed for the implementation of network protocol suite. Each layer in the network model has to use one specific protocol from the protocol stack.
+9. Network congestion occurs _________
+a) in case of traffic overloading
+b) when a system terminates
+c) when connection between two nodes terminates
+d) in case of transfer failure
+View Answer
+
+Answer: a
+Explanation: Network congestion occurs when traffic in the network is more than the network could handle. To avoid network congestion, the network management uses various open-loop and closed-loop congestion control techniques.
+10. Which of the following networks extends a private network across public networks?
+a) local area network
+b) virtual private network
+c) enterprise private network
+d) storage area network
+View Answer
+
+Answer: b
+Explanation: A virtual private network extends a private network across a public network, and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network.VPN provides enhanced security and online anonymity to users on the internet. It is also used to unblock websites which are unavailable in certain regions
+1. Which of this is not a constituent of residential telephone line?
+a) A high-speed downstream channel
+b) A medium-speed downstream channel
+c) A low-speed downstream channel
+d) An ultra-high speed downstream channel
+View Answer
+
+Answer: c
+Explanation: A low-speed downstream channel is not a constituent of a residential telephone line. But it might be just a two-way telephone channel. Internet can be provided through a high-speed downstream channel in a residential telephone line.
+2. DSL telcos provide which of the following services?
+a) Wired phone access
+b) ISP
+c) Wired phone access and ISP
+d) Network routing and ISP
+View Answer
+
+Answer: c
+Explanation: DSL stands for Digital Subscriber Line and ISP stands for Internet Service Provider. In a Digital Subscriber Line system, the same company which provides phone connection is also an ISP. The internet is provided through the pre-installed telephone lines.
+3. The function of DSLAM is to __________
+a) Convert analog signals into digital signals
+b) Convert digital signals into analog signals
+c) Amplify digital signals
+d) De-amplify digital signals
+View Answer
+
+Answer: a
+Explanation: DSLAM stands for Digital Subscriber Line Access Multiplexer and it’s used by Telcos to convert the analog signals to digital signals for the purpose of providing internet. The DSLAM located in a telco’s Central Office does this function.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following terms is not associated with DSL?
+a) DSLAM
+b) CO
+c) Splitter
+d) CMTS
+View Answer
+
+Answer: d
+Explanation: CMTS stands for Cable modem termination system. It is used in cable internet access. In cable internet access, internet is not provided through telephone lines and the companies that provide such connections don’t necessarily provide telephone access.
+5. HFC contains _______
+a) Fibre cable
+b) Coaxial cable
+c) A combination of Fibre cable and Coaxial cable
+d) Twisted Pair Cable
+View Answer
+
+Answer: c
+Explanation: Hybrid fiber-coaxial (HFC) is a telecommunications industry term for a broadband network that combines optical fiber and coaxial cable. It has been popularly used since the early 1990s. It is stronger than the optical fiber cables and faster than the co-axial cables.
+Check this: Computer Science MCQs | Computer Science Books
+6. Which of the following statements is not applicable for cable internet access?
+a) It is a shared broadcast medium
+b) It includes HFCs
+c) Cable modem connects home PC to Ethernet port
+d) Analog signal is converted to digital signal in DSLAM
+View Answer
+
+Answer: d
+Explanation: CMTS stands for Cable modem termination system. In cable access analog signal is converted to digital signal by CMTS. In cable internet access, internet is not provided through telephone lines. DSLAM is used by Telecom companies.
+7. Among the optical-distribution architectures that are essentially switched ethernet is __________
+a) AON
+b) PON
+c) NON
+d) MON
+View Answer
+
+Answer:a
+Explanation: AON stands for Active optical networks which are essentially switched Ethernets. Each user has his/her own dedicated optical fiber line connecting to the ISP in an AON.
+8. StarBand provides __________
+a) FTTH internet access
+b) Cable access
+c) Telephone access
+d) Satellite access
+View Answer
+
+Answer: d
+Explanation: StarBand was a two-way satellite broadband Internet service available in the U.S. from 2000–2015. It was discontinued from September 30 2015 due to increasing competition from other ISPs.
+9. Home Internet Access is provided by __________
+a) DSL
+b) FTTP
+c) Cable
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Home Internet Access is provided by DSL, FTTP, and Cable. FTTP provides the fastest speeds followed by the cable connections and then the DSLs. FTTP is popularly used in modern connections.
+10. ONT is connected to splitter using _________
+a) High speed fibre cable
+b) HFC
+c) Optical cable
+d) Twisted pair cable
+View Answer
+
+Answer: c
+Explanation: ONT stands for Optical Network Terminal. The ONT connects to the Termination Point (TP) with an optical fibre cable. It translates light signals from the fibre optic line to electric signals that the router can read.
+11. Which of the following factors affect transmission rate in DSL?
+a) The gauge of the twisted-pair line
+b) Degree of electrical interfernece
+c) Shadow fading
+d) The gauge of the twisted-pair line and degree of electrical interference
+View Answer
+
+Answer: d
+Explanation: Because DSL is made of twisted wire copper pair, the gauge of twisted pair line i.e. the protection and electrical interference would affect the transmission rate in DSL. Unlike DSL, FTTP is not really affected by these factors.
+1. How many layers are present in the Internet protocol stack (TCP/IP model)?
+a) 5
+b) 7
+c) 6
+d) 10
+View Answer
+
+Answer: a
+Explanation: There are five layers in the Internet Protocol stack. The five layers in Internet Protocol stack is Application, Transport, Network, Data link and Physical layer. The internet protocol stack model is also called the TCP/IP model and it’s used in modern Internet Communication.
+2. The number of layers in ISO OSI reference model is __________
+a) 5
+b) 7
+c) 6
+d) 10
+View Answer
+
+Answer: b
+Explanation: The seven layers in ISO OSI reference model is Application, Presentation, Session, Transport, Network, Data link and Physical layer. OSI stands for Open System Interconnect and it is a generalized model.
+3. Which of the following layers is an addition to OSI model when compared with TCP IP model?
+a) Application layer
+b) Presentation layer
+c) Session layer
+d) Session and Presentation layer
+View Answer
+
+Answer: d
+Explanation: The only difference between OSI model and TCP/IP model is that the functions of Presentation and Session layer in the OSI model are handled by the transport layer itself in TCP/IP. OSI is a generalized model and TCP/IP is an application specific model.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Application layer is implemented in ____________
+a) End system
+b) NIC
+c) Ethernet
+d) Packet transport
+View Answer
+
+Answer: a
+Explanation: Not only application layer, but presentation layer, session layer and transport layer are also implemented in the end system. The layers below are implemented outside the end system, for example, the network layer is implemented on the routers and the physical layer is implemented for the medium.
+5. Transport layer is implemented in ______________
+a) End system
+b) NIC
+c) Ethernet
+d) Signal transmission
+View Answer
+
+Answer: a
+Explanation: Application, Presentation, Session and Transport layer are implemented in the end system. The transport layer handles the process to process delivery of the packet through ports.
+Take Computer Networks Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. The functionalities of the presentation layer include ____________
+a) Data compression
+b) Data encryption
+c) Data description
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Some functions of the presentation layer include character-code translation, data conversion, data encryption and decryption, and data translation. It connects the application layer with the layers below converting the human readable text and media to machine readable format and vice-versa.
+7. Delimiting and synchronization of data exchange is provided by __________
+a) Application layer
+b) Session layer
+c) Transport layer
+d) Link layer
+View Answer
+
+Answer: b
+Explanation: The session layer provides the mechanism for opening, closing and managing a session between end-user application processes. The session layer 5 is responsible for establishing managing synchronizing and terminating sessions. In TCP/IP protocol stack, the functions of the session layer are handled by the transport layer itself and thus the session layer is missing from the TCP/IP model.
+8. In OSI model, when data is sent from device A to device B, the 5th layer to receive data at B is _________
+a) Application layer
+b) Transport layer
+c) Link layer
+d) Session layer
+View Answer
+
+Answer: d
+Explanation: In OSI reference model, the fifth layer is Session layer. Session layer provides the mechanism for opening, closing and managing a session between end-user application processes. In TCP/IP protocol stack, the functions of the session layer are handled by the transport layer itself and thus the session layer is missing from the TCP/IP model.
+9. In TCP IP Model, when data is sent from device A to device B, the 5th layer to receive data at B is ____________
+a) Application layer
+b) Transport layer
+c) Link layer
+d) Session layer
+View Answer
+
+Answer: a
+Explanation: In TCP/IP model, the fifth layer is application layer. When data is sent from device A to device B, the 5th layer to receive data at B is application layer. Application layer provides the interface between applications and the network. The user interacts with only this layer.
+10. In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______
+a) Added
+b) Removed
+c) Rearranged
+d) Randomized
+View Answer
+
+Answer: b
+Explanation: In OSI reference model, when data packet moves from lower layers to higher layer, headers get removed. Whereas when the data packet moves from higher layer to lower layers, headers are added. These headers contain the essential control information for the protocols used on the specific layer.
+11. Which of the following statements can be associated with OSI model?
+a) A structured way to discuss and easier update system components
+b) One layer may duplicate lower layer functionality
+c) Functionality at one layer no way requires information from another layer
+d) It is an application specific network model
+View Answer
+
+Answer: c
+Explanation: One layer may use the information from another layer, for example timestamp value. The information is contained in the header inserted by the previous layer. The headers are added as the packet moves from higher layers to the lower layers.
+1. OSI stands for __________
+a) open system interconnection
+b) operating system interface
+c) optical service implementation
+d) open service Internet
+View Answer
+
+Answer: a
+Explanation: OSI is the abbreviation for Open System Interconnection. OSI model provides a structured plan on how applications communicate over a network, which also helps us to have a structured plan for troubleshooting. It is recognized by the ISO as the generalized model for computer network i.e. it can be modified to design any kind of computer network.
+2. The number of layers in ISO OSI reference model is __________
+a) 4
+b) 5
+c) 6
+d) 7
+View Answer
+
+Answer: d
+Explanation: In OSI reference model, there are 7 layers namely Application, Presentation, Session, Transport, Network, Data Link and Physical layer. Each layer uses a protocol to perform its designated function, for example, the data link layer uses error detection protocols for error control functions.
+3. TCP/IP model does not have ______ layer but OSI model have this layer.
+a) session layer
+b) transport layer
+c) application layer
+d) network layer
+View Answer
+
+Answer: a
+Explanation: In OSI reference model, there are two layers which are not present in TCP/IP model. They are Presentation and Session layer. The functions of Presentation and Session layer in the OSI model are handled by the transport layer itself in TCP/IP.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which layer is used to link the network support layers and user support layers?
+a) session layer
+b) data link layer
+c) transport layer
+d) network layer
+View Answer
+
+Answer: c
+Explanation: Physical, data link and network layers are network support layers and session, presentation and application layers are user support layers. The transport layer links these layers by segmenting and rearranging the data. It uses protocols like TCP and UDP.
+5. Which address is used on the internet for employing the TCP/IP protocols?
+a) physical address and logical address
+b) port address
+c) specific address
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: The physical, logical, port and specific addresses are used in TCP/IP protocol. All the addressing schemes, that is physical (MAC) and logical address, port address and specific address are employed in both TCP/IP model and OSI model. In TCP/IP, the addresses are more focused on the internet implementation of these addresses.
+Check this: Computer Network Books | Computer Science MCQs
+6. TCP/IP model was developed _____ the OSI model.
+a) prior to
+b) after
+c) simultaneous to
+d) with no link to
+View Answer
+
+Answer: a
+Explanation: Several TCP/IP prototypes were developed at multiple research centers between 1978 and 1983, whereas OSI reference model was developed in the year 1984. TCP/IP was developed with the intention to create a model for the Internet while OSI was intended to be a general network model.
+7. Which layer is responsible for process to process delivery in a general network model?
+a) network layer
+b) transport layer
+c) session layer
+d) data link layer
+View Answer
+
+Answer: b
+Explanation: The role of Transport layer (Layer 4) is to establish a logical end to end connection between two systems in a network. The protocols used in Transport layer is TCP and UDP. The transport layer is responsible for segmentation of the data. It uses ports for the implementation of process-to-process delivery.
+8. Which address is used to identify a process on a host by the transport layer?
+a) physical address
+b) logical address
+c) port address
+d) specific address
+View Answer
+
+Answer: c
+Explanation: A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server. Some examples of port numbers are port 20 which is used for FTP data, port 22 which is used for SSH remote login ,and port 23 which is used for TELNET.
+9. Which layer provides the services to user?
+a) application layer
+b) session layer
+c) presentation layer
+d) physical layer
+View Answer
+
+Answer: a
+Explanation: In networking, a user mainly interacts with application layer to create and send information to other computer or network. Application layer provides the interface between applications and the network. It is the top-most layer in both the TCP/IP and the OSI model.
+10. Transmission data rate is decided by ____________
+a) network layer
+b) physical layer
+c) data link layer
+d) transport layer
+View Answer
+
+Answer: b
+Explanation: Physical layer is a layer 1 device which deals with network cables or the standards in use like connectors, pins, electric current used etc. Basically the transmission speed is determined by the cables and connectors used. Hence it is physical layer that determines the transmission speed in network. Some of the cables used for high speed data transmission are optical fiber cables and twisted pair cables.

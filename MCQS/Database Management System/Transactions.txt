@@ -1,0 +1,627 @@
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Implementation of Isolation Levels”.
+
+1. In concurrency control policy the lock is obtained on
+a) Entire database
+b) A particular transaction alone
+c) All the new elements
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: It is to avoid deadlock.
+2. A concurrency-control policy such as this one leads to ______ performance since it forces transactions to wait for preceding transactions to finish before they can start.
+a) Good
+b) Average
+c) Poor
+d) Unstable
+View Answer
+
+Answer: c
+Explanation: It provides a poor degree of concurrency.
+3. __________ are used to ensure that transactions access each data item in order of the transactions’ ____ if their accesses conflict.
+a) Zone
+b) Relay
+c) Line
+d) Timestamps
+View Answer
+
+Answer: d
+Explanation: When this is not possible, offending transactions are aborted and restarted with a new timestamp.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. EMPDET is an external table containing the columns EMPNO and ENAME. Which command would work in relation to the EMPDET table?
+a)
+
+UPDATE empdet
+SET ename = 'Amit'
+WHERE empno = 1234;
+b)
+
+Take Database Management System Tests Now!
+DELETE FROM empdet
+WHERE ename LIKE 'J%';
+c)
+
+CREATE VIEW empvu
+AS
+SELECT * FROM empdept;
+d)
+
+CREATE INDEX
+empdet_idx
+ON empdet(empno);
+View Answer
+Answer: c
+Explanation: View is the temporary space created for the database.
+ 
+ 
+5. In which scenario would you use the ROLLUP operator for expression or columns within a GROUP BY clause?
+a) To find the groups forming the subtotal in a row
+b) To create group-wise grand totals for the groups specified within a GROUP BY clause
+c) To create a grouping for expressions or columns specified within a GROUP BY clause in one direction, from right to left for calculating the subtotals
+d) To create a grouping for expressions or columns specified within a GROUP BY clause in all possible directions, which is cross-tabular report for calculating the subtotals
+View Answer
+
+Answer: c
+Explanation: View is the temporary space created for the database.
+6.
+
+Name	Null?	Type
+Cust_id	Not null	Number(2)
+Cust_Name		Varchar2(15)
+Evaluate the following SQL statements executed in the given order:
+
+ALTER TABLE cust
+ADD CONSTRAINT cust_id_pk PRIMARY KEY(cust_id) DEFERRABLE INITIALLY DEFERRED; INSERT
+INTO cust VALUES (1,'RAJ'); --row 1
+INSERT INTO cust VALUES (1,'SAM'); --row 2
+COMMIT;
+SET CONSTRAINT cust_id_pk IMMEDIATE;
+INSERT INTO cust VALUES (1,'LATA'); --row 3
+INSERT INTO cust VALUES (2,'KING'); --row 4
+COMMIT;
+Which rows would be made permanent in the CUST table?
+a) row 4 only
+b) rows 2 and 4
+c) rows 3 and 4
+d) rows 1 and 4
+View Answer
+
+Answer: c
+Explanation: View is the temporary space created for the database.
+7. Which statement is true regarding external tables?
+a) The default REJECT LIMIT for external tables is UNLIMITED
+b) The data and metadata for an external table are stored outside the database
+c) ORACLE_LOADER and ORACLE_DATAPUMP have exactly the same functionality when used with an external table
+d) The CREATE TABLE AS SELECT statement can be used to unload data into regular table in the database from an external table
+View Answer
+
+Answer: d
+Explanation: This will replicate the table as in the select statement.
+8. A non-correlated subquery can be defined as ______
+a) A set of sequential queries, all of which must always return a single value
+b) A set of sequential queries, all of which must return values from the same table
+c) A SELECT statement that can be embedded in a clause of another SELECT statement only
+d) A set of one or more sequential queries in which generally the result of the inner query is used as the search value in the outer query
+View Answer
+
+Answer: d
+Explanation: This will replicate the table as in the select statement.
+9. Evaluate the following SQL statements in the given order:
+
+DROP TABLE dept;
+CREATE TABLE dept
+(deptno NUMBER(3) PRIMARY KEY,
+deptname VARCHAR2(10));
+DROP TABLE dept;
+FLASHBACK TABLE dept TO BEFORE DROP;
+Which statement is true regarding the above FLASHBACK operation?
+a) It recovers only the first DEPT table
+b) It recovers only the second DEPT table
+c) It does not recover any of the tables because FLASHBACK is not possible in this case
+d) It recovers both the tables but the names would be changed to the ones assigned in the RECYCLEBIN
+View Answer
+
+Answer: b
+Explanation: This will replicate the table as in the select statement.
+10.
+
+CREATE TABLE digits
+(id NUMBER(2),
+description VARCHAR2(15));
+INSERT INTO digits VALUES (1,'ONE');
+UPDATE digits SET description ='TWO' WHERE id=1;
+INSERT INTO digits VALUES (2,'TWO');
+COMMIT;
+DELETE FROM digits;
+SELECT description FROM digits
+VERSIONS BETWEEN TIMESTAMP MINVALUE AND MAXVALUE;
+What would be the outcome of the above query?
+a) It would not display any values
+b) It would display the value TWO once
+c) It would display the value TWO twice
+d) It would display the values ONE, TWO, and TWO
+View Answer
+
+Answer: c
+Explanation: This will replicate the table as in the select statement.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “A Simple Transaction Model”.
+
+1. In SQL, which command is used to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction?
+a) CREATE PACKAGE
+b) CREATE SCHEMA
+c) CREATE CLUSTER
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: A database schema of a database system is its structure described in a formal language supported by the database management system and refers to the organization of data as a blueprint of how a database is constructed.
+2. In SQL, the CREATE TABLESPACE is used
+a) To create a place in the database for storage of scheme objects, rollback segments, and naming the data files to comprise the tablespace
+b) To create a database trigger
+c) To add/rename data files, to change storage
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Triggers are used to initialize the actions for an activity.
+3. Which character function can be used to return a specified portion of a character string?
+a) INSTR
+b) SUBSTRING
+c) SUBSTR
+d) POS
+View Answer
+
+Answer: c
+Explanation: SUBSTR are used to match the particular characters in a string.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4. Which of the following is TRUE for the System Variable $date$?
+a) Can be assigned to a global variable
+b) Can be assigned to any field only during design time
+c) Can be assigned to any variable or field during run time
+d) Can be assigned to a local variable
+View Answer
+
+Answer: b
+Explanation: A database schema of a database system is its structure described in a formal language supported by the database management system and refers to the organization of data as a blueprint of how a database is constructed.
+5. What are the different events in Triggers?
+a) Define, Create
+b) Drop, Comment
+c) Insert, Update, Delete
+d) Select, Commit
+View Answer
+
+Answer: c
+Explanation: A database trigger is a procedural code that is automatically executed in response to certain events on a particular table or view in a database.
+Get Free Certificate of Merit in Database Management System Now!
+6. Which is the subset of SQL commands used to manipulate Oracle Database Structures, including tables?
+a) Data Definition Language
+b) Data Manipulation Language
+c) Data Described Language
+d) Data Retrieval Language
+View Answer
+
+Answer: a
+Explanation: DDL are used to define schema and table characters.
+7. The SQL statement SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’,’b’), 4) FROM EMP; prints
+a) 6789
+b) 2345
+c) 1234
+d) 456789
+View Answer
+
+Answer: b
+Explanation: SUBSTR are used to match the particular characters in a string.
+8. Which of the following SQL command can be used to modify existing data in a database table?
+a) MODIFY
+b) UPDATE
+c) CHANGE
+d) NEW
+View Answer
+
+Answer: b
+Explanation: Syntax : UPDATE table_name
+SET column1=value1,column2=value2,…
+WHERE some_column=some_value; .
+9. When SQL statements are embedded inside 3GL, we call such a program as
+a) Nested query
+b) Nested programming
+c) Distinct query
+d) Embedded SQL
+View Answer
+
+Answer: d
+Explanation: SQL-99 is the most recent version of standard SQL prescribed by the ANSI.
+10. _______________ provides option for entering SQL queries as execution time, rather than at the development stage.
+a) PL/SQL
+b) SQL*Plus
+c) SQL
+d) Dynamic SQL
+View Answer
+
+Answer: d
+Explanation: Dynamic SQL enables you to write programs that reference SQL statements whose full text is not known until runtime.
+
+This set of Basic Database Questions and Answers focuses on “Transactions as SQL Statements”.
+
+1. Which of the following is a property of transactions?
+a) Atomicity
+b) Concurrency
+c) Isolation
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Atomicity, Concurrency, Isolation, and Durability are essential properties of transactions in database systems. They ensure that transactions are executed consistently, efficiently, and reliably, maintaining data integrity and consistency.
+2. SNAPSHOT is used for (DBA)
+a) Synonym
+b) Tablespace
+c) System server
+d) Dynamic data replication
+View Answer
+
+Answer: d
+Explanation: Snapshot gets the instance of the database at that time.
+3. Isolation of the transactions is ensured by
+a) Transaction management
+b) Application programmer
+c) Concurrency control
+d) Recovery management
+View Answer
+
+Answer: c
+Explanation: ACID properties are the properties of transactions.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Constraint checking can be disabled in existing _______________ and _____________ constraints so that any data you modify or add to the table is not checked against the constraint.
+a) CHECK, FOREIGN KEY
+b) DELETE, FOREIGN KEY
+c) CHECK, PRIMARY KEY
+d) PRIMARY KEY, FOREIGN KEY
+View Answer
+
+Answer: a
+Explanation: Check and foreign constraints are used to constraint the table data.
+5. Problems occurs if we don’t implement a proper locking strategy
+a) Dirty reads
+b) Phantom reads
+c) Lost updates
+d) Unrepeatable reads
+View Answer
+
+Answer: d
+Explanation: In a concurrent execution of these transactions, it is intuitively clear that they conflict, but this is a conflict not captured by our simple model. This situation is referred to as the phantom phenomenon, because a conflict may exist on “phantom” data.
+Check this: Computer Science MCQs | Computer Science Books
+6. Which of the following fixed database roles can add or remove user IDs?
+a) db_accessadmin
+b) db_securityadmin
+c) db_setupadmin
+d) db_sysadmin
+View Answer
+
+Answer: a
+Explanation: The database can be accessed by assigning the roles.
+7. By default sql server has ___________ isolation level
+a) READ COMMITTED
+b) READ UNCOMMITTED
+c) SERIALIZABLE
+d) REPEATABLE READ
+View Answer
+
+Answer: a
+Explanation: Read committed is used to commit the default read operation.
+8. Which of the following statements is/are not true for SQL profiler?
+a) Enables you to monitor events
+b) Check if rows are being inserted properly
+c) Check the performance of a stored procedure
+d) ALL of the mentioned
+View Answer
+
+Answer: c
+Explanation: Read committed is used to commit the default read operation.
+9. Which of the following is the original purpose of SQL?
+a) To specify the syntax and semantics of SQL data definition language
+b) To specify the syntax and semantics of SQL manipulation language
+c) To define the data structures
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Read committed is used to commit the default read operation.
+10. SQL can be used to:
+a) Create database structures only
+b) Query database data only
+c) Modify database data only
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: In a concurrent execution of these transactions, it is intuitively clear that they conflict, but this is a conflict not captured by our simple model. This situation is referred to as the phantom phenomenon, because a conflict may exist on “phantom” data.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Storage Structure”.
+
+1. The storage structure which do not survive system crashes are ______
+a) Volatile storage
+b) Non-volatile storage
+c) Stable storage
+d) Dynamic storage
+View Answer
+
+Answer: a
+Explanation: Volatile storage, is a computer memory that requires power to maintain the stored information, in other words it needs power to reach the computer memory.
+2. Storage devices like tertiary storage, magnetic disk comes under
+a) Volatile storage
+b) Non-volatile storage
+c) Stable storage
+d) Dynamic storage
+View Answer
+
+Answer: b
+Explanation: Information residing in nonvolatile storage survives system crashes.
+3. For a transaction to be durable, its changes need to be written to ________ storage.
+a) Volatile storage
+b) Non-volatile storage
+c) Stable storage
+d) Dynamic storage
+View Answer
+
+Answer: c
+Explanation: Similarly, for a transaction to be atomic, log records need to be written to stable storage before any changes are made to the database on disk.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4. The unit of storage that can store one are more records in a hash file organization are
+a) Buckets
+b) Disk pages
+c) Blocks
+d) Nodes
+View Answer
+
+Answer: a
+Explanation: Buckets are used to store one or more records in a hash file organization.
+5. A ______ file system is software that enables multiple computers to share file storage while maintaining consistent space allocation and file content.
+a) Storage
+b) Tertiary
+c) Secondary
+d) Cluster
+View Answer
+
+Answer: d
+Explanation: With a cluster file system, the failure of a computer in the cluster does not make the file system unavailable.
+Become Top Ranker in Database Management System Now!
+6. A file produced by a spreadsheet
+a) is generally stored on disk in an ASCII text format
+b) can be used as is by the DBMS
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: ASCII text format uses the standard text file for the changing the value.
+7. SDL means _____________
+a) Storage Discrete Language
+b) Storage Definition Language
+c) Storage Definition Localisation
+d) Storage Discrete Localisation
+View Answer
+
+Answer: b
+Explanation: It specifies internal schema and also mapping between two schemas.
+8. Which of the following are the process of selecting the data storage and data access characteristics of the database?
+a) Logical database design
+b) Physical database design
+c) Testing and performance tuning
+d) Evaluation and selecting
+View Answer
+
+Answer: b
+Explanation: Physical database design is the process of selecting the data storage and data access characteristics of the database.
+9. Which of the following is the oldest database model?
+a) Relational
+b) Hierarchical
+c) Physical
+d) Network
+View Answer
+
+Answer: d
+Explanation: Network model has data stored in a hierarchical network flow.
+10. The process of saving information onto secondary storage devices is referred to as
+a) Backing up
+b) Restoring
+c) Writing
+d) Reading
+View Answer
+
+Answer: c
+Explanation: The information is written into the secondary storage device.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Transaction Atomicity and Durability”.
+
+1. A transaction may not always complete its execution successfully. Such a transaction is termed
+a) Aborted
+b) Terminated
+c) Closed
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: If we are to ensure the atomicity property, an aborted transaction must have no effect on the state of the database.
+2. If an transaction is performed in a database and committed, the changes are taken to the previous state of transaction by
+a) Flashback
+b) Rollback
+c) Both Flashback and Rollback
+d) Cannot be done
+View Answer
+
+Answer: d
+Explanation: Once committed the changes cannot be rolled back.
+3. Each modification done in database transaction are first recorded into the
+a) Harddrive
+b) Log
+c) Disk
+d) Datamart
+View Answer
+
+Answer: b
+Explanation: After commit is issued the data are stored in a database and stored in drive.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. When the transaction finishes the final statement the transaction enters into
+a) Active state
+b) Committed state
+c) Partially committed state
+d) Abort state
+View Answer
+
+Answer: c
+Explanation: The commit statement has to be issued to enter into committed state.
+5. The name of the transaction file shall be provided by the operator and the file that contains the edited transactions ready for execution shall be called
+a) Batch. Exe
+b) Trans. Exe
+c) Opt. Exe
+d) Edit.Exe
+View Answer
+
+Answer: c
+Explanation: Transactions has to be managed by the executable files.
+Take Database Management System Tests Now!
+6. Which of the following is an atomic sequence of database actions?
+a) Transaction
+b) Concurrency
+c) Relations
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Transaction is a collection of operations that provides single logical function in database.
+7. If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called
+a) Consistent state
+b) Parallel state
+c) Atomic state
+d) Inconsistent state
+View Answer
+
+Answer: d
+Explanation: If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called in a consistent state.
+8. _______ means that data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.
+a) Serializability
+b) Atomicity
+c) Isolation
+d) Time stamping
+View Answer
+
+Answer: c
+Explanation: Isolation means that data used during the execution of a transaction can’t be used by a second transaction until the first one is completed.
+9. DBMS periodically suspends all processing and synchronizes its files and journals through the use of
+a) Checkpoint facility
+b) Backup facility
+c) Recovery manager
+d) Database change log
+View Answer
+
+Answer: a
+Explanation: DBMS periodically suspends all processing and synchronizes its files and journals though the use of Check point facility.
+10. Which of the following is not a state in transaction?
+a) Active
+b) Terminated
+c) Aborted
+d) Partially committed
+View Answer
+
+Answer: b
+Explanation: The transaction states are abort, active, committed, partially committed, FailedThis set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Transaction Concept”.
+
+1. Consider money is transferred from (1)account-A to account-B and (2) account-B to account-A. Which of the following form a transaction?
+a) Only 1
+b) Only 2
+c) Both 1 and 2 individually
+d) Either 1 or 2
+View Answer
+
+Answer: c
+Explanation: The term transaction refers to a collection of operations that form a single logical unit of work.
+2. A transaction is delimited by statements (or function calls) of the form __________
+a) Begin transaction and end transaction
+b) Start transaction and stop transaction
+c) Get transaction and post transaction
+d) Read transaction and write transaction
+View Answer
+
+Answer: a
+Explanation: The transaction consists of all operations executed between the begin transaction and end transaction.
+3. Identify the characteristics of transactions
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Because of the above three properties, transactions are an ideal way of structuring interaction with a database.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4. Which of the following has “all-or-none” property?
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Either all operations of the transaction are reflected properly in the database, or none are.
+5. The database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements. This property is referred to as
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Even though multiple transactions may execute concurrently, the system guarantees that, for every pair of transactions Ti and Tj, it appears to Ti that either Tj finished execution before Ti started or Tj started execution after Ti finished.
+Participate in Database Management System Certification Contest of the Month Now!
+6. The property of a transaction that persists all the crashes is
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: After a transaction completes successfully, the changes it has made to the database persist, even if there are system failures.
+7. __________ states that only valid data will be written to the database.
+a) Consistency
+b) Atomicity
+c) Durability
+d) Isolation
+View Answer
+
+Answer: a
+Explanation: If for some reason, a transaction is executed that violates the database’s consistency rules, the entire transaction will be rolled back and the database will be restored to a state consistent with those rules.
+8. Transaction processing is associated with everything below except
+a) Producing detail summary or exception reports
+b) Recording a business activity
+c) Confirming an action or triggering a response
+d) Maintaining a data
+View Answer
+
+Answer: c
+Explanation: Collections of operations that form a single logical unit of work are called transactions.
+9. The Oracle RDBMS uses the ____ statement to declare a new transaction start and its properties.
+a) BEGIN
+b) SET TRANSACTION
+c) BEGIN TRANSACTION
+d) COMMIT
+View Answer
+
+Answer: b
+Explanation: Commit is used to store all the transactions.
+10. ____ means that the data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.
+a) Consistency
+b) Atomicity
+c) Durability
+d) Isolation
+View Answer
+
+Answer: d
+Explanation: Even though multiple transactions may execute concurrently, the system guarantees that, for every pair of transactions Ti and Tj, it appears to Ti that either Tj finished execution before Ti started or Tj started execution after Ti finished.

@@ -1,0 +1,377 @@
+1. _______ blurs the differences between a small deployment and a large one because scale becomes tied only to demand.
+a) Leading
+b) Pooling
+c) Virtualization
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The virtualization of pooled resources—processors or compute engines, storage, and network connectivity—optimizes these investments and allows the cloud provider to pass along these economies to customers.
+2. Point out the correct statement.
+a) A branded cloud computing platform cannot extend customer relationships by offering additional service options
+b) A cloud computing platform extends the company’s products and defends their franchise
+c) The economies of scale cannot make a profitable business
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: This is the case for Microsoft’s Windows Azure Platform.
+3. A _____ is a facility that is a self-contained semiconductor assembly line.
+a) fab
+b) touch
+c) rep
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: Companies such as TSMC (Taiwan Semiconductor Manufacturing Company) have come along that provides fabrication based on customer designs, spreading their risk and optimizing their operation.
+4. How many laws exist for Cloudonomics by Weinman?
+a) 4
+b) 5
+c) 10
+d) 15
+View Answer
+
+Answer: c
+Explanation: Joe Weinman of AT&T Global Services has concisely stated the advantages that cloud computing offers over a private or captured system.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+5. Point out the wrong statement.
+a) Google App Engine allows a developer to scale an application immediately
+b) The customer relationship management provider SalesForce.com has a development platform called Force.com that is an IaaS offering
+c) A cloud computing provider can become a hub master at the center of many ISVs offerings
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: For Google, its office applications can be rolled out quickly and to large audiences.
+6. Cutting latency in half requires ______ times the number of nodes in a system.
+a) two
+b) three
+c) four
+d) seven
+View Answer
+
+Answer: c
+Explanation: Latency, or the delay in getting a response to a request, requires both large-scale and multi-site deployments that are a characteristic of cloud providers.
+Become Top Ranker in Cloud Computing Now!
+7. Weinman argues that a large cloud’s size has the ability to repel ______ and DDoS attacks better than smaller systems do.
+a) sniffers
+b) botnets
+c) trojan horse
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Superiority in numbers is the most important factor in the result of combat.
+8. The reliability of a system with n redundant components and a reliability of r is ____________
+a) 1-(1-r)n
+b) 1-(1+r)n
+c) 1+(1-r)n
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Therefore, when a datacenter achieves a reliability of 99 percent, two redundant data centers have a reliability of 99.99 percent (four nines) and three redundant data centers can achieve a reliability of 99.9999 percent (six nines).
+9. A __________ site is one that is environmentally friendly: locations that are on a network backbone.
+a) greenfield
+b) redfield
+c) greenful
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Private data centers tend to be located in places where the company or unit was founded or acquired.
+10. The peak of the sum is never ________ than the sum of the peaks.
+a) smaller
+b) greater
+c) equal to
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: A cloud can deploy less capacity because the peaks of individual tenants in a shared system are averaged over time by the group of tenants.
+1. Which of the following subject area deals with pay-as-you-go usage model?
+a) Accounting Management
+b) Compliance
+c) Data Privacy
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: For cloud computing, the pay-as-you-go usage model allows for costs to be applied to individual accounts directly.
+2. Point out the correct statement.
+a) Except for tightly managed SaaS cloud providers, the burden of resource management is still in the hands of the user
+b) Cloud computing vendors run very reliable networks
+c) The low barrier to entry cannot be accompanied by a low barrier to provisioning
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Often, cloud data is load-balanced between virtual systems and replicated between sites.
+3. ________ captive requires that the cloud accommodate multiple compliance regimes.
+a) Licensed
+b) Policy-based
+c) Variable
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Compliance with laws and policies varies by geographical area.
+4. Security methods such as private encryption, VLANs and firewalls comes under __________ subject area.
+a) Accounting Management
+b) Compliance
+c) Data Privacy
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: To ensure data privacy in the cloud, additional security methods such as private encryption, VLANs, firewalls, and local storage of sensitive data are necessary.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+5. Point out the wrong statement.
+a) Large cloud providers with geographically dispersed sites worldwide, therefore, achieve reliability rates that are hard for private systems to achieve
+b) Private data centers tend to be located in places where the company or unit was founded or acquired
+c) A network backbone is a very low-capacity network connection
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: On the Internet, an Internet backbone consists of the high-capacity routes and routers that are typically operated by an individual service provider such as a government or commercial entity.
+6. Which of the following captive area deals with monitoring?
+a) Licensed
+b) Variable but under control
+c) Low
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: For private systems, any monitoring system the organization wishes to deploy can be brought to bear.
+Take Cloud Computing Tests Now!
+7. Network bottlenecks occur when ______ data sets must be transferred.
+a) large
+b) small
+c) big
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: This is the case for staging,
+8. The reputation for cloud computing services for the quality of those services is shared by _________
+a) replicas
+b) shards
+c) tenants
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: Clouds often have higher reliability than private systems.
+9. Cloud ________ are standardized in order to appeal to the majority of its audience.
+a) SVAs
+b) SLAs
+c) SALs
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Custom SLAs that allow for multiple data sources are difficult to obtain or enforce.
+10. ___________ is a function of the particular enterprise and application in an on-premises deployment.
+a) Vendor lock
+b) Vendor lock-in
+c) Vendor lock-ins
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Vendor lock-in for a cloud computing solution in a PaaS model is very high.
+1. The cost of a cloud computing deployment is roughly estimated to be ___________
+a) CostCLOUD = Σ(UnitCostCLOUD / (Revenue – CostCLOUD))
+b) CostCLOUD = Σ(UnitCostCLOUD x (Revenue + CostCLOUD))
+c) CostCLOUD = Σ(UnitCostCLOUD x (Revenue – CostCLOUD))
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Unit cost is usually defined as the cost of a machine instance per hour or another resource.
+2. Point out the correct statement.
+a) Cloud resource pricing doesn’t always scale linearly based on performance
+b) Depending upon the service model type, other resources add additional unit costs
+c) Typical efficiency in data centers are between 10 and 55 percent
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Different cloud providers charge different amounts for these resources, some resources are free for one provider and charged for another, and there are almost always variable charges based on resource sizing.
+3. The costs associated with resources in the cloud computing model _______ can be unbundled to a greater extent than the costs associated with CostDATACENTER.
+a) CLOUD
+b) CostCLOUD
+c) CCLOUD
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The CostDATACENTER consists of the summation of the cost of each of the individual systems with all the associated resources.
+4. Security methods such as private encryption, VLANs and firewalls comes under __________ subject area.
+a) CostDATACENTER = 1nΣ(UnitCostDATACENTER / (Revenue –(CostDATACENTER/Utilization))SYSTEMn
+b) CostDATACENTER = 1nΣ(UnitCostDATACENTER x (Revenue –(CostDATACENTER/Utilization))SYSTEMn
+c) CostDATACENTER = 1nΣ(UnitCostDATACENTER x (Revenue +(CostDATACENTER/Utilization))SYSTEMn
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Sum includes terms for System 1, System 2, System 3, and so on.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+5. Point out the wrong statement.
+a) Data center operates under average loads
+b) Private cloud doesn’t pooling of resources that a cloud computing provider can achieve
+c) Private cloud doesn’t employ the same level of virtualization
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Capacity of the datacenter is fixed by the assets it has.
+6. For a server with a four-year lifetime, you would therefore need to include an overhead roughly equal to ___ percent of the system’s acquisition cost.
+a) 10
+b) 20
+c) 25
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: The costs of a system in a datacenter must also include the overhead associated with power, cooling, and the physical plant.
+Take Cloud Computing Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+7. The overhead associated with ____ staff is a major cost.
+a) Data Center
+b) IT
+c) Non IT
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: It is not uncommon for the burden cost of a system in a datacenter to be 150 percent of the cost of the system itself.
+8. Moving expenses onto the _____ side of a budget allows an organization to transfer risk to their cloud computing provider.
+a) Dex
+b) OpEx
+c) Pex
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The conversion of real assets to virtual ones provides a measure of protection against too much or too little infrastructure.
+9. ________ is surely an impediment to established businesses starting new enterprises.
+a) Proposition
+b) Capitalization
+c) Globalization
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Capitalization may be the single largest reason that new businesses fail.
+10. Cloud computing is also a good option when the cost of infrastructure and management is ______
+a) low
+b) high
+c) moderate
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: This is often the case with legacy applications and systems where maintaining the system capabilities is a significant cost.
+1. Which of the following is one of the properties that differentiates cloud computing?
+a) scalability
+b) virtualization
+c) composability
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: Composability is the ability to build applications from component parts.
+2. Point out the correct statement.
+a) Cloud computing is a natural extension of many of the design principles, protocols, plumbing, and systems
+b) Platforms are used to create more easy software
+c) All SLAs are enforceable as contracts
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Cloud computing describes some new capabilities that are architected into an application stack and are responsible for the programmability, scalability, and virtualization of resources.
+3. A _________ is a cloud computing service that is both hardware and software.
+a) service
+b) platform
+c) model
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Virtual appliances are an important example of a platform.
+4. Cloud computing doesn’t require that ________ and software be composable.
+a) cloud
+b) database
+c) hardware
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: It is a highly desirable characteristic from a developer or user’s standpoint.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+5. Point out the wrong statement.
+a) Virtual appliances are becoming a very important standard cloud computing deployment object
+b) Cloud computing requires some standard protocols
+c) Cloud computing relies on a set of protocols needed to manage interprocess communications
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Many of these protocols are standard Internet protocols.
+6. The most commonly used set of protocols uses ______ as the messaging format.
+a) XML
+b) JSON
+c) BSON
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Cloud computing builds on the architecture developed for staging large distributed network applications on the Internet.
+Check this: Computer Science MCQs | Computer Science Books
+7. Which of the following language is used to manage transactions?
+a) WSDL
+b) XML
+c) SOAP
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: WSDL is an XML format for describing network services as a set of endpoints operating on messages containing either document-oriented or procedure-oriented information.
+8. Which of the architectural layer is used as backend in cloud computing?
+a) client
+b) cloud
+c) soft
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: The cloud creates a system where resources can be pooled and partitioned as needed.
+9. A ________ cloud requires virtualized storage to support the staging and storage of data.
+a) soft
+b) compute
+c) local
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: From a user’s perspective, it is important that the resources appear to be infinitely scalable, that the service be measurable, and that the pricing is metered.
+10. A _______ system uses components to assemble services that can be tailored for a specific purpose using standard parts.
+a) reliable
+b) scalable
+c) composable
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Applications built in the cloud often have the property of being built from a collection of components, a feature referred to as composability.

@@ -1,0 +1,524 @@
+1. What is a reusable resource?
+a) that can be used by one process at a time and is not depleted by that use
+b) that can be used by more than one process at a time
+c) that can be shared between various threads
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+2. Which of the following condition is required for a deadlock to be possible?
+a) mutual exclusion
+b) a process may hold allocated resources while awaiting assignment of other resources
+c) no resource can be forcibly removed from a process holding it
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+3. A system is in the safe state if ____________
+a) the system can allocate resources to each process in some order and still avoid a deadlock
+b) there exist a safe sequence
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The circular wait condition can be prevented by ____________
+a) defining a linear ordering of resource types
+b) using thread
+c) using pipes
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+5. Which one of the following is the deadlock avoidance algorithm?
+a) banker’s algorithm
+b) round-robin algorithm
+c) elevator algorithm
+d) karn’s algorithm
+View Answer
+
+Answer: a
+Explanation: None.
+Take Operating System Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. What is the drawback of banker’s algorithm?
+a) in advance processes rarely know how much resource they will need
+b) the number of processes changes as time progresses
+c) resource once available can disappear
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+7. For an effective operating system, when to check for deadlock?
+a) every time a resource request is made
+b) at fixed time intervals
+c) every time a resource request is made at fixed time intervals
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+8. A problem encountered in multitasking when a process is perpetually denied necessary resources is called ____________
+a) deadlock
+b) starvation
+c) inversion
+d) aging
+View Answer
+
+Answer: b
+Explanation: None.
+9. Which one of the following is a visual ( mathematical ) way to determine the deadlock occurrence?
+a) resource allocation graph
+b) starvation graph
+c) inversion graph
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. To avoid deadlock ____________
+a) there must be a fixed number of resources to allocate
+b) resource allocation must be done only once
+c) all deadlocked processes must be aborted
+d) inversion technique can be used
+View Answer
+
+Answer: a
+Explanation: None.
+1. The number of resources requested by a process ____________
+a) must always be less than the total number of resources available in the system
+b) must always be equal to the total number of resources available in the system
+c) must not exceed the total number of resources available in the system
+d) must exceed the total number of resources available in the system
+View Answer
+
+Answer: c
+Explanation: None.
+2. The request and release of resources are ___________
+a) command line statements
+b) interrupts
+c) system calls
+d) special programs
+View Answer
+
+Answer: c
+Explanation: None.
+3. What are Multithreaded programs?
+a) lesser prone to deadlocks
+b) more prone to deadlocks
+c) not at all prone to deadlocks
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Multiple threads can compete for shared resources.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. For a deadlock to arise, which of the following conditions must hold simultaneously?
+a) Mutual exclusion
+b) No preemption
+c) Hold and wait
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+5. For Mutual exclusion to prevail in the system ____________
+a) at least one resource must be held in a non sharable mode
+b) the processor must be a uniprocessor rather than a multiprocessor
+c) there must be at least one resource in a sharable mode
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: If another process requests that resource (non – shareable resource), the requesting process must be delayed until the resource has been released.
+Take Operating System Tests Now!
+6. For a Hold and wait condition to prevail ____________
+a) A process must be not be holding a resource, but waiting for one to be freed, and then request to acquire it
+b) A process must be holding at least one resource and waiting to acquire additional resources that are being held by other processes
+c) A process must hold at least one resource and not be waiting to acquire additional resources
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+7. Deadlock prevention is a set of methods ____________
+a) to ensure that at least one of the necessary conditions cannot hold
+b) to ensure that all of the necessary conditions do not hold
+c) to decide if the requested resources for a process have to be given or not
+d) to recover from a deadlock
+View Answer
+
+Answer: a
+Explanation: None.
+8. For non sharable resources like a printer, mutual exclusion ____________
+a) must exist
+b) must not exist
+c) may exist
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: A printer cannot be simultaneously shared by several processes.
+9. For sharable resources, mutual exclusion ____________
+a) is required
+b) is not required
+c) may be or may not be required
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: They do not require mutually exclusive access, and hence cannot be involved in a deadlock.
+10. To ensure that the hold and wait condition never occurs in the system, it must be ensured that ____________
+a) whenever a resource is requested by a process, it is not holding any other resources
+b) each process must request and be allocated all its resources before it begins its execution
+c) a process can request resources only when it has none
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: c – A process may request some resources and use them. Before it can can request any additional resources, however it must release all the resources that it is currently allocated.
+11. The disadvantage of a process being allocated all its resources before beginning its execution is ____________
+a) Low CPU utilization
+b) Low resource utilization
+c) Very high resource utilization
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+12. To ensure no preemption, if a process is holding some resources and requests another resource that cannot be immediately allocated to it ____________
+a) then the process waits for the resources be allocated to it
+b) the process keeps sending requests until the resource is allocated to it
+c) the process resumes execution without the resource being allocated to it
+d) then all resources currently being held are preempted
+View Answer
+
+Answer: d
+Explanation: None.
+13. One way to ensure that the circular wait condition never holds is to ____________
+a) impose a total ordering of all resource types and to determine whether one precedes another in the ordering
+b) to never let a process acquire resources that are held by other processes
+c) to let a process wait for only one resource at a time
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+1. Each request requires that the system consider the _____________ to decide whether the current request can be satisfied or must wait to avoid a future possible deadlock.
+a) resources currently available
+b) processes that have previously been in the system
+c) resources currently allocated to each process
+d) future requests and releases of each process
+View Answer
+
+Answer: a
+Explanation: None.
+2. Given a priori information about the ________ number of resources of each type that maybe requested for each process, it is possible to construct an algorithm that ensures that the system will never enter a deadlock state.
+a) minimum
+b) average
+c) maximum
+d) approximate
+View Answer
+
+Answer: c
+Explanation: None.
+3. A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.
+a) resource allocation state
+b) system storage state
+c) operating system
+d) resources
+View Answer
+
+Answer: a
+Explanation: Resource allocation states are used to maintain the availability of the already and current available resources.
+Subscribe Now: Operating System Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A state is safe, if ____________
+a) the system does not crash due to deadlock occurrence
+b) the system can allocate resources to each process in some order and still avoid a deadlock
+c) the state keeps the system protected and safe
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+5. A system is in a safe state only if there exists a ____________
+a) safe allocation
+b) safe resource
+c) safe sequence
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Participate in Operating System Certification Contest of the Month Now!
+6. All unsafe states are ____________
+a) deadlocks
+b) not deadlocks
+c) fatal
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+7. A system has 12 magnetic tape drives and 3 processes : P0, P1, and P2. Process P0 requires 10 tape drives, P1 requires 4 and P2 requires 9 tape drives.
+
+Process    
+P0            
+P1                             
+P2                             
+ 
+Maximum needs (process-wise: P0 through P2 top to bottom)    
+10             
+4   
+9
+ 
+Currently allocated (process-wise)
+5
+2
+2
+Which of the following sequence is a safe sequence?
+a) P0, P1, P2
+b) P1, P2, P0
+c) P2, P0, P1
+d) P1, P0, P2
+View Answer
+
+Answer: d
+Explanation: None.
+8. If no cycle exists in the resource allocation graph ____________
+a) then the system will not be in a safe state
+b) then the system will be in a safe state
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+9. The resource allocation graph is not applicable to a resource allocation system ____________
+a) with multiple instances of each resource type
+b) with a single instance of each resource type
+c) single & multiple instances of each resource type
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. The Banker’s algorithm is _____________ than the resource allocation graph algorithm.
+a) less efficient
+b) more efficient
+c) equal
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+11. The data structures available in the Banker’s algorithm are ____________
+a) Available
+b) Need
+c) Allocation
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+12. The content of the matrix Need is ____________
+a) Allocation – Available
+b) Max – Available
+c) Max – Allocation
+d) Allocation – Max
+View Answer
+
+Answer: c
+Explanation: None.
+1. The wait-for graph is a deadlock detection algorithm that is applicable when ____________
+a) all resources have a single instance
+b) all resources have multiple instances
+c) all resources have a single 7 multiple instances
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+2. An edge from process Pi to Pj in a wait for graph indicates that ____________
+a) Pi is waiting for Pj to release a resource that Pi needs
+b) Pj is waiting for Pi to release a resource that Pj needs
+c) Pi is waiting for Pj to leave the system
+d) Pj is waiting for Pi to leave the system
+View Answer
+
+Answer: a
+Explanation: None.
+3. If the wait for graph contains a cycle ____________
+a) then a deadlock does not exist
+b) then a deadlock exists
+c) then the system is in a safe state
+d) either deadlock exists or system is in a safe state
+View Answer
+
+Answer: b
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. If deadlocks occur frequently, the detection algorithm must be invoked ________
+a) rarely
+b) frequently
+c) rarely & frequently
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+5. What is the disadvantage of invoking the detection algorithm for every request?
+a) overhead of the detection algorithm due to consumption of memory
+b) excessive time consumed in the request to be allocated memory
+c) considerable overhead in computation time
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Take Operating System Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. A deadlock eventually cripples system throughput and will cause the CPU utilization to ______
+a) increase
+b) drop
+c) stay still
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+7. Every time a request for allocation cannot be granted immediately, the detection algorithm is invoked. This will help identify ____________
+a) the set of processes that have been deadlocked
+b) the set of processes in the deadlock queue
+c) the specific process that caused the deadlock
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+8. A computer system has 6 tape drives, with ‘n’ processes competing for them. Each process may need 3 tape drives. The maximum value of ‘n’ for which the system is guaranteed to be deadlock free is?
+a) 2
+b) 3
+c) 4
+d) 1
+View Answer
+
+Answer: a
+Explanation: None.
+9. A system has 3 processes sharing 4 resources. If each process needs a maximum of 2 units then, deadlock ____________
+a) can never occur
+b) may occur
+c) has to occur
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. ‘m’ processes share ‘n’ resources of the same type. The maximum need of each process doesn’t exceed ‘n’ and the sum of all their maximum needs is always less than m+n. In this setup, deadlock ____________
+a) can never occur
+b) may occur
+c) has to occur
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+1. A deadlock can be broken by ____________
+a) abort one or more processes to break the circular wait
+b) abort all the process in the system
+c) preempt all resources from all processes
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+2. The two ways of aborting processes and eliminating deadlocks are ____________
+a) Abort all deadlocked processes
+b) Abort all processes
+c) Abort one process at a time until the deadlock cycle is eliminated
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+3. Those processes should be aborted on occurrence of a deadlock, the termination of which?
+a) is more time consuming
+b) incurs minimum cost
+c) safety is not hampered
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The process to be aborted is chosen on the basis of the following factors?
+a) priority of the process
+b) process is interactive or batch
+c) how long the process has computed
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+5. Cost factors for process termination include ____________
+a) Number of resources the deadlock process is not holding
+b) CPU utilization at the time of deadlock
+c) Amount of time a deadlocked process has thus far consumed during its execution
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Check this: Operating System Books | Computer Science MCQs
+6. If we preempt a resource from a process, the process cannot continue with its normal execution and it must be ____________
+a) aborted
+b) rolled back
+c) terminated
+d) queued
+View Answer
+
+Answer: b
+Explanation: None.
+7. To _______ to a safe state, the system needs to keep more information about the states of processes.
+a) abort the process
+b) roll back the process
+c) queue the process
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+8. If the resources are always preempted from the same process __________ can occur.
+a) deadlock
+b) system crash
+c) aging
+d) starvation
+View Answer
+
+Answer: d
+Explanation: None.
+9. What is the solution to starvation?
+a) the number of rollbacks must be included in the cost factor
+b) the number of resources must be included in resource preemption
+c) resource preemption be done instead
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.

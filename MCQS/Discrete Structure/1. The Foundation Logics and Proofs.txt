@@ -1,0 +1,654 @@
+1. Which of the following statement is a proposition?
+a) Get me a glass of milkshake
+b) God bless you!
+c) What is the time now?
+d) The only odd prime number is 2
+View Answer
+
+Answer: d
+Explanation: Only this statement has got the truth value which is false.
+2. The truth value of ‘4+3=7 or 5 is not prime’.
+a) False
+b) True
+View Answer
+
+Answer: b
+Explanation: Compound statement with ‘or’ is true when either of the statement is true. Here the first part of the statement is true, hence the whole is true.
+3. Which of the following option is true?
+a) If the Sun is a planet, elephants will fly
+b) 3 +2 = 8 if 5-2 = 7
+c) 1 > 3 and 3 is a positive integer
+d) -2 > 3 or 3 is a negative integer
+View Answer
+
+Answer: a
+Explanation: Hypothesis is false, thus the whole statement is true.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. What is the value of x after this statement, assuming the initial value of x is 5?
+‘If x equals to one then x=x+2 else x=0’.
+a) 1
+b) 3
+c) 0
+d) 2
+View Answer
+
+Answer: c
+Explanation: If condition is false so value decided according to else condition.
+5. Let P: I am in Bangalore.; Q: I love cricket.; then q -> p(q implies p) is?
+a) If I love cricket then I am in Bangalore
+b) If I am in Bangalore then I love cricket
+c) I am not in Bangalore
+d) I love cricket
+View Answer
+
+Answer: a
+Explanation: Q is hypothesis and P is conclusion. So the compound statement will be if hypothesis then conclusion.
+Get Free Certificate of Merit in Discrete Mathematics Now!
+6. Let P: If Sahil bowls, Saurabh hits a century.; Q: If Raju bowls, Sahil gets out on first ball. Now if P is true and Q is false then which of the following can be true?
+a) Raju bowled and Sahil got out on first ball
+b) Raju did not bowled
+c) Sahil bowled and Saurabh hits a century
+d) Sahil bowled and Saurabh got out
+View Answer
+
+Answer: c
+Explanation: Either hypothesis should be false or both (hypothesis and conclusion) should be true.
+7. The truth value ‘9 is prime then 3 is even’.
+a) False
+b) True
+View Answer
+
+Answer: b
+Explanation: The first part of the statement is false, hence whole is true.
+8. Let P: I am in Delhi.; Q: Delhi is clean.; then q ^ p(q and p) is?
+a) Delhi is clean and I am in Delhi
+b) Delhi is not clean or I am in Delhi
+c) I am in Delhi and Delhi is not clean
+d) Delhi is clean but I am in Mumbai
+View Answer
+
+Answer: a
+Explanation: Connector should be ‘and’, that is q and p.
+9. Let P: This is a great website, Q: You should not come back here. Then ‘This is a great website and you should come back here.’ is best represented by?
+a) ~P V ~Q
+b) P ∧ ~Q
+c) P V Q
+d) P ∧ Q
+View Answer
+
+Answer: b
+Explanation: The second part of the statement is negated, hence negation operator is used.
+10. Let P: We should be honest., Q: We should be dedicated., R: We should be overconfident. Then ‘We should be honest or dedicated but not overconfident.’ is best represented by?
+a) ~P V ~Q V R
+b) P ∧ ~Q ∧ R
+c) P V Q ∧ R
+d) P V Q ∧ ~R
+View Answer
+
+Answer: d
+Explanation: The third part of the statement is negated, hence negation operator is used, for (‘or’ –V) is used and for(’but’- ∧).
+1. Which of the following bits is the negation of the bits “010110”?
+a) 111001
+b) 001001
+c) 101001
+d) 111111
+View Answer
+
+Answer: c
+Explanation: Flip each of the bit to get the negation of the required string.
+2. Which of the following option is suitable, if A is “10110110”, B is”11100000” and C is”10100000”?
+a) C=A or B
+b) C=~A
+c) C=~B
+d) C=A and B
+View Answer
+
+Answer: d
+Explanation: Output of and is 1 when both other inputs are one.
+3. How many bits string of length 4 are possible such that they contain 2 ones and 2 zeroes?
+a) 4
+b) 2
+c) 5
+d) 6
+View Answer
+
+Answer: d
+Explanation: The strings are {0011, 0110, 1001, 1100, 1010 and 0101}.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. If a bit string contains {0, 1} only, having length 5 has no more than 2 ones in it. Then how many such bit strings are possible?
+a) 14
+b) 12
+c) 15
+d) 16
+View Answer
+
+Answer: d
+Explanation: The total strings are 1(having no one in it) +5(having 1 one in it) +10 (having 2 ones in it) = 16.
+5. If A is “001100” and B is “010101” then what is the value of A (Ex-or) B?
+a) 000000
+b) 111111
+c) 001101
+d) 011001
+View Answer
+
+Answer: d
+Explanation: In Ex-or if both the inputs are same then output is 0 otherwise 1.
+6. The Ex-nor of this string “01010101” with “11111111” is?
+a) 10101010
+b) 00110100
+c) 01010101
+d) 10101001
+View Answer
+
+Answer: c
+Explanation: In Ex-nor if both the inputs are same then output is 1 otherwise 0.
+Take Discrete Mathematics Tests Now!
+7. What is the one’s complement of this string “01010100”?
+a) 10101010
+b) 00110101
+c) 10101011
+d) 10101001
+View Answer
+
+Answer: c
+Explanation: Negate every bit in one’s complement.
+8. What is the 2’s complement of this string “01010100”?
+a) 10101010
+b) 00110100
+c) 10101100
+d) 10101001
+View Answer
+
+Answer: c
+Explanation: In two’s complement negate every bit from left until the first one from right is encountered.
+9. If in a bits string of {0,1}, of length 4, such that no two ones are together. Then the total number of such possible strings are?
+a) 1
+b) 5
+c) 7
+d) 4
+View Answer
+
+Answer: c
+Explanation: Strings can be {1001, 1010, 0101, 1000, 0100, 0010, 0001}.
+10. Let A: “010101”, B=?, If { A (Ex-or) B } is a resultant string of all ones then which of the following statement regarding B is correct?
+a) B is negation of A
+b) B is 101010
+c) {A (and) B} is a resultant string having all zeroes
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: In Ex-or both if both the inputs are the same then output is 0 otherwise 1.
+1. Let P and Q be statements, then P<->Q is logically equivalent to __________
+a) P<->~Q
+b) ~P<->Q
+c) ~P<->~Q
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Both of them have same truth table, Hence they are equal.
+2. What is the negation of the statement A->(B v(or) C)?
+a) A ∧ ~B ∧ ~C
+b) A->B->C
+c) ~A ∧ B v C
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A->P is logically equivalent to ~A v P.
+3. The compound statement A-> (A->B) is false, then the truth values of A, B are respectively _________
+a) T, T
+b) F, T
+c) T, F
+d) F, F
+View Answer
+
+Answer: c
+Explanation: For implications to be false hypothesis should be true and conclusion should be false.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The statement which is logically equivalent to A∧ (and) B is?
+a) A->B
+b) ~A ∧ ~ B
+c) A ∧ ~B
+d) ~(A->~B)
+View Answer
+
+Answer: d
+Explanation: The truth table of both statements are same.
+5. Let P: We give a nice overall squad performance, Q: We will win the match.
+Then the symbolic form of “We will win the match if and only if we give a nice overall squad performance.“ is?
+a) P v Q
+b) Q ∧ P
+c) Q<->P
+d) ~P v Q
+View Answer
+
+Answer: c
+Explanation: If and only if statements are bi-conditionals.
+Take Discrete Mathematics Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Let P, Q, R be true, false true, respectively, which of the following is true?
+a) P∧Q∧R
+b) P∧~Q∧~R
+c) Q->(P∧R)
+d) P->(Q∧R)
+View Answer
+
+Answer: c
+Explanation: Hypothesis is false, hence statement is true.
+7. “Match will be played only if it is not a humid day.” The negation of this statement is?
+a) Match will be played but it is a humid day
+b) Match will be played or it is a humid day
+c) All of the mentioned statement are correct
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Negation of P->Q is P∧~Q.
+8. Consider the following statements.
+A: Raju should exercise.
+B: Raju is not a decent table tennis player.
+C: Raju wants to play good table tennis.
+The symbolic form of “Raju is not a decent table tennis player and if he wants to play good table tennis then he should exercise.” is?
+a) A->B->C
+b) B∧(C->A)
+c) C->B∧A
+d) B<->A∧C
+View Answer
+
+Answer: b
+Explanation: For conditionals statement (if then), implications are used.
+9. The statement (~P<->Q)∧~Q is true when?
+a) P: True Q: False
+b) P: True Q: True
+c) P: False Q: True
+d) P: False Q: False
+View Answer
+
+Answer: a
+Explanation: For a bi-conditional to be true both inputs should be same.
+10. Let P, Q, R be true, false, false, respectively, which of the following is true?
+a) P∧(Q∧~R)
+b) (P->Q)∧~R
+c) Q<->(P∧R)
+d) P<->(QvR)
+View Answer
+
+Answer: c
+Explanation: For a bi-conditional to be true both inputs should be the same.
+1. Which of the following statements is the negation of the statements “4 is odd or -9 is positive”?
+a) 4 is even or -9 is not negative
+b) 4 is odd or -9 is not negative
+c) 4 is even and -9 is negative
+d) 4 is odd and -9 is not negative
+View Answer
+
+Answer: c
+Explanation: Using De Morgan’s Law ~(A V B) ↔ ~A ∧ ~B.
+2. Which of the following represents: ~A (negation of A) if A stands for “I like badminton but hate maths”?
+a) I hate badminton and maths
+b) I do not like badminton or maths
+c) I dislike badminton but love maths
+d) I hate badminton or like maths
+View Answer
+
+Answer: d
+Explanation: De Morgan’s Law ~ (A ∧ B) ↔ ~A V ~B.
+3. The compound statement A v ~(A ∧ B).
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Applying De-Morgan’s law we get A v ~ A Ξ Tautology.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is De-Morgan’s law?
+a) P ∧ (Q v R) Ξ (P ∧ Q) v (P ∧ R)
+b) ~(P ∧ R) Ξ ~P v ~R, ~(P v R) Ξ ~P ∧ ~R
+c) P v ~P Ξ True, P ∧ ~P Ξ False
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Definition of De–Morgan’s Law.
+5. What is the dual of (A ∧ B) v (C ∧ D)?
+a) (A V B) v (C v D)
+b) (A V B) ^ (C v D)
+c) (A V B) v (C ∧ D)
+d) (A ∧ B) v (C v D)
+View Answer
+
+Answer: b
+Explanation: In dual ∧ is replaced by v and vice – versa.
+Check this: Computer Science Books | BCA Books
+6. ~ A v ~ B is logically equivalent to?
+a) ~ A → ~ B
+b) ~ A ∧ ~ B
+c) A → ~B
+d) B V A
+View Answer
+
+Answer: c
+Explanation: By identity A → B Ξ ~A V B.
+7. Negation of statement (A ∧ B) → (B ∧ C) is _____________
+a) (A ∧ B) →(~B ∧ ~C)
+b) ~(A ∧ B) v ( B v C)
+c) ~(A →B) →(~B ∧ C)
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: ~(A →B) Ξ A ∧ ~B using this we can easily fetch the answer.
+8. Which of the following satisfies commutative law?
+a) ∧
+b) v
+c) ↔
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All of them satisfies commutative law.
+9. If the truth value of A v B is true, then truth value of ~A ∧ B can be ___________
+a) True if A is false
+b) False if A is false
+c) False if B is true and A is false
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: If A is false then both the condition are obeyed.
+10. If P is always against the testimony of Q, then the compound statement P→(P v ~Q) is a __________
+a) Tautology
+b) Contradiction
+c) Contingency
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Since either hypothesis is false or both (hypothesis as well as conclusion) are true.
+1. The contrapositive of p → q is the proposition of ____________
+a) ¬p → ¬q
+b) ¬q → ¬p
+c) q → p
+d) ¬q → p
+View Answer
+
+Answer: b
+Explanation: Definition of contrapositive.
+2. The inverse of p → q is the proposition of ____________
+a) ¬p → ¬q
+b) ¬q → ¬p
+c) q → p
+d) ¬q → p
+View Answer
+
+Answer: a
+Explanation: Definition of inverse.
+3. The converse of p → q is the proposition of _______________
+a) ¬p → ¬q
+b) ¬q → ¬p
+c) q → p
+d) ¬q → p
+View Answer
+
+Answer: c
+Explanation: Definition of converse.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. What is the contrapositive of the conditional statement? “The home team misses whenever it is drizzling?”
+a) If it is drizzling, then home team misses
+b) If the home team misses, then it is drizzling
+c) If it is not drizzling, then the home team does not misses
+d) If the home team wins, then it is not drizzling
+View Answer
+
+Answer: d
+Explanation: q whenever p contrapositive is ¬q → ¬p.
+5. What is the converse of the conditional statement “If it ices today, I will play ice hockey tomorrow.”
+a) “I will play ice hockey tomorrow only if it ices today.”
+b) “If I do not play ice hockey tomorrow, then it will not have iced today.”
+c) “If it does not ice today, then I will not play ice hockey tomorrow.”
+d) “I will not play ice hockey tomorrow only if it ices today.”
+View Answer
+
+Answer: a
+Explanation: If p, then q has converse q → p.
+Take Discrete Mathematics Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. What are the contrapositive of the conditional statement “I come to class whenever there is going to be a test.”
+a) “If I come to class, then there will be a test.”
+b) “If I do not come to class, then there will not be a test.”
+c) “If there is not going to be a test, then I don’t come to class.”
+d) “If there is going to be a test, then I don’t come to class.”
+View Answer
+
+Answer: b
+Explanation: q whenever p, has contrapositive ¬q → ¬p.
+7. What are the inverse of the conditional statement “ A positive integer is a composite only if it has divisors other than 1 and itself.”
+a) “A positive integer is a composite if it has divisors other than 1 and itself.”
+b) “If a positive integer has no divisors other than 1 and itself, then it is not composite.”
+c) “If a positive integer is not composite, then it has no divisors other than 1 and itself.”
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: p only if q has inverse ¬p → ¬q.
+8. What are the converse of the conditional statement “When Raj stay up late, it is necessary that Raj sleep until noon.”
+a) “If Raj stay up late, then Raj sleep until noon.”
+b) “If Raj does not stay up late, then Raj does not sleep until noon.”
+c) “If Raj does not sleep until noon, then Raj does not stay up late.”
+d) “If Raj sleep until noon, then Raj stay up late.”
+View Answer
+
+Answer: d
+Explanation: Necessary condition for p is q has converse q → p.
+9. What are the contrapositive of the conditional statement “Medha will find a decent job when she labour hard.”?
+a) “If Medha labour hard, then she will find a decent job.”
+b) “If Medha will not find a decent job, then she not labour hard.”
+c) “If Medha will find a decent job, then she labour hard.”
+d) “If Medha not labour hard, then she will not find a decent job.”
+View Answer
+
+Answer: b
+Explanation: The statement q when p has its contrapositive as ¬q → ¬p.
+10. What are the inverse of the conditional statement “If you make your notes, it will be a convenient in exams.”
+a) “If you make notes, then it will be a convenient in exams.”
+b) “If you do not make notes, then it will not be a convenient in exams.”
+c) “If it will not be a convenient in exams, then you did not make your notes.”
+d) “If it will be a convenient in exams, then you make your notes
+View Answer
+
+Answer: b
+Explanation: If p then q has inverse ¬p → ¬q.
+1. The compound propositions p and q are called logically equivalent if ________ is a tautology.
+a) p ↔ q
+b) p → q
+c) ¬ (p ∨ q)
+d) ¬p ∨ ¬q
+View Answer
+
+Answer: a
+Explanation: Definition of logical equivalence.
+2. p → q is logically equivalent to ________
+a) ¬p ∨ ¬q
+b) p ∨ ¬q
+c) ¬p ∨ q
+d) ¬p ∧ q
+View Answer
+
+Answer: c
+Explanation: (p → q) ↔ (¬p ∨ q) is tautology.
+3. p ∨ q is logically equivalent to ________
+a) ¬q → ¬p
+b) q → p
+c) ¬p → ¬q
+d) ¬p → q
+View Answer
+
+Answer: d
+Explanation: (p ∨ q) ↔ (¬p → q) is tautology.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. ¬ (p ↔ q) is logically equivalent to ________
+a) q↔p
+b) p↔¬q
+c) ¬p↔¬q
+d) ¬q↔¬p
+View Answer
+
+Answer: b
+Explanation: ¬(p↔q)↔(p↔¬q) is tautology.
+5. p ∧ q is logically equivalent to ________
+a) ¬ (p → ¬q)
+b) (p → ¬q)
+c) (¬p → ¬q)
+d) (¬p → q)
+View Answer
+
+Answer: a
+Explanation: (p ∧ q) ↔ (¬(p → ¬q)) is tautology.
+Check this: Discrete Mathematics Books | Computer Science Books
+6. Which of the following statement is correct?
+a) p ∨ q ≡ q ∨ p
+b) ¬(p ∧ q) ≡ ¬p ∨ ¬q
+c) (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
+d) All of mentioned
+View Answer
+
+Answer: d
+Explanation: Verify using truth table, all are correct.
+7. p ↔ q is logically equivalent to ________
+a) (p → q) → (q → p)
+b) (p → q) ∨ (q → p)
+c) (p → q) ∧ (q → p)
+d) (p ∧ q) → (q ∧ p)
+View Answer
+
+Answer: c
+Explanation: (p ↔ q) ↔ ((p → q) ∧ (q → p)) is tautology.
+8. (p → q) ∧ (p → r) is logically equivalent to ________
+a) p → (q ∧ r)
+b) p → (q ∨ r)
+c) p ∧ (q ∨ r)
+d) p ∨ (q ∧ r)
+View Answer
+
+Answer: a
+Explanation: ((p → q) ∧ (p → r)) ↔ (p → (q ∧ r)) is tautology.
+9. (p → r) ∨ (q → r) is logically equivalent to ________
+a) (p ∧ q) ∨ r
+b) (p ∨ q) → r
+c) (p ∧ q) → r
+d) (p → q) → r
+View Answer
+
+Answer: c
+Explanation: ((p → r) ∨ (q → r)) ↔ ((p ∧ q) → r) is tautology.
+10. ¬ (p ↔ q) is logically equivalent to ________
+a) p ↔ ¬q
+b) ¬p ↔ q
+c) ¬p ↔ ¬q
+d) ¬q ↔ ¬p
+View Answer
+
+Answer: a
+Explanation: (¬ (p ↔ q)) ↔ (p ↔ ¬q) is tautology.
+1. Let Q(x, y) denote “M + A = 0.” What is the truth value of the quantifications ∃A∀M Q(M, A).
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: For each A there exist only one M, because there is no real number A such that M + A = 0 for all real numbers M.
+2. Translate ∀x∃y(x < y) in English, considering domain as a real number for both the variable.
+a) For all real number x there exists a real number y such that x is less than y
+b) For every real number y there exists a real number x such that x is less than y
+c) For some real number x there exists a real number y such that x is less than y
+d) For each and every real number x and y such that x is less than y
+View Answer
+
+Answer: a
+Explanation: Statement is x is less than y. Quantifier used are for each x, there exists a y.
+3. “The product of two negative real numbers is not negative.” Is given by?
+a) ∃x ∀y ((x < 0) ∧ (y < 0) → (xy > 0))
+b) ∃x ∃y ((x < 0) ∧ (y < 0) ∧ (xy > 0))
+c) ∀x ∃y ((x < 0) ∧ (y < 0) ∧ (xy > 0))
+d) ∀x ∀y ((x < 0) ∧ (y < 0) → (xy > 0))
+View Answer
+
+Answer: d
+Explanation: For every negative real number x and y, the product of these integer is positive.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Let Q(x, y) be the statement “x + y = x − y.” If the domain for both variables consists of all integers, what is the truth value of ∃xQ(x, 4).
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: There exist no integer for which x+4=x-4.
+5. Let L(x, y) be the statement “x loves y,” where the domain for both x and y consists of all people in the world. Use quantifiers to express, “Joy is loved by everyone.”
+a) ∀x L(x, Joy)
+b) ∀y L(Joy,y)
+c) ∃y∀x L(x, y)
+d) ∃x ¬L(Joy, x)
+View Answer
+
+Answer: a
+Explanation: Joy is loved by all the people in the world.
+Become Top Ranker in Discrete Mathematics Now!
+6. Let T (x, y) mean that student x likes dish y, where the domain for x consists of all students at your school and the domain for y consists of all dishes. Express ¬T (Amit, South Indian) by a simple English sentence.
+a) All students does not like South Indian dishes.
+b) Amit does not like South Indian people.
+c) Amit does not like South Indian dishes.
+d) Amit does not like some dishes.
+View Answer
+
+Answer: d
+Explanation: Negation of the statement Amit like South Indian dishes.
+7. Express, “The difference of a real number and itself is zero” using required operators.
+a) ∀x(x − x! = 0)
+b) ∀x(x − x = 0)
+c) ∀x∀y(x − y = 0)
+d) ∃x(x − x = 0)
+View Answer
+
+Answer: b
+Explanation: For every real number x, difference with itself is always zero.
+8. Use quantifiers and predicates with more than one variable to express, “There is a pupil in this lecture who has taken at least one course in Discrete Maths.”
+a) ∃x∃yP (x, y), where P (x, y) is “x has taken y,” the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures
+b) ∃x∃yP (x, y), where P (x, y) is “x has taken y,” the domain for x consists of all Discrete Maths lectures, and the domain for y consists of all pupil in this class
+c) ∀x∀yP(x, y), where P (x, y) is “x has taken y,” the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures
+d) ∃x∀yP(x, y), where P (x, y) is “x has taken y,” the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures
+View Answer
+
+Answer: a
+Explanation: For some x pupil, there exists a course in Discrete Maths such that x has taken y.
+9. Determine the truth value of ∃n∃m(n + m = 5 ∧ n − m = 2) if the domain for all variables consists of all integers.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The equation does not satisfy any value of m and n in the domain consist of integers.
+10. Find a counterexample of ∀x∀y(xy > y), where the domain for all variables consists of all integers.
+a) x = -1, y = 17
+b) x = -2 y = 8
+c) Both x = -1, y = 17 and x = -2 y = 8
+d) Does not have any counter example
+View Answer
+
+Answer: c
+Explanation: Putting x=-1, y=17; -17>17 which is wrong. Putting x=-2, y=8; -16>8 which is wrong.

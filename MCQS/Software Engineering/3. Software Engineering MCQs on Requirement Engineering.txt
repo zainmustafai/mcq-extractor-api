@@ -1,0 +1,483 @@
+1. What are the types of requirements ?
+a) Availability
+b) Reliability
+c) Usability
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the mentioned traits are beneficial for an effective product to be developed.
+2. Select the developer-specific requirement ?
+a) Portability
+b) Maintainability
+c) Availability
+d) Both Portability and Maintainability
+View Answer
+
+Answer: d
+Explanation: Availability is user specific requirement.
+3. Which one of the following is not a step of requirement engineering?
+a) elicitation
+b) design
+c) analysis
+d) documentation
+View Answer
+
+Answer: b
+Explanation: Requirement Elicitation, Requirement Analysis, Requirement Documentation and Requirement Review are the four crucial process steps of requirement engineering.Design is in itself a different phase of Software Engineering.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. FAST stands for
+a) Functional Application Specification Technique
+b) Fast Application Specification Technique
+c) Facilitated Application Specification Technique
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+5. QFD stands for
+a) quality function design
+b) quality function development
+c) quality function deployment
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Take Software Engineering Tests Now!
+6. A Use-case actor is always a person having a role that different people may play.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Use-case Actor is anything that needs to interact with the system, be it a person or another (external) system.
+7. The user system requirements are the parts of which document ?
+a) SDD
+b) SRS
+c) DDD
+d) SRD
+View Answer
+
+Answer: b
+Explanation: Software requirements specification (SRS), is a complete description of the behaviour of a system to be developed and may include a set of use cases that describe interactions the users will have with the software.
+8. A stakeholder is anyone who will purchase the completed software system under development.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Stakeholders are anyone who has an interest in the project. Project stakeholders are individuals and organizations that are actively involved in the project, or whose interests may be affected as a result of project execution or project completion.
+9. Conflicting requirements are common in Requirement Engineering, with each client proposing his or her version is the right one.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: This situation is seen in every field of work as each professional has his/her way of looking onto things & would argue to get his/her point approved.
+10. Which is one of the most important stakeholder from the following ?
+a) Entry level personnel
+b) Middle level stakeholder
+c) Managers
+d) Users of the software
+View Answer
+
+Answer: d
+Explanation: Users are always the most important stakeholders.After all, without users or customers, what’s the point of being in business?.
+1. Which one of the following is a functional requirement ?
+a) Maintainability
+b) Portability
+c) Robustness
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are non-functional requirements representing quality of the system. Functional requirements describe what the software has to do.
+2. Which one of the following is a requirement that fits in a developer’s module ?
+a) Availability
+b) Testability
+c) Usability
+d) Flexibility
+View Answer
+
+Answer: b
+Explanation: A developer needs to test his product before launching it into the market.
+3. “Consider a system where, a heat sensor detects an intrusion and alerts the security company.” What kind of a requirement the system is providing ?
+a) Functional
+b) Non-Functional
+c) Known Requirement
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Functional requirements describe what the software has to do.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following statements explains portability in non-functional requirements?
+a) It is a degree to which software running on one platform can easily be converted to run on another platform
+b) It cannot be enhanced by using languages, OS’ and tools that are universally available and standardized
+c) The ability of the system to behave consistently in a user-acceptable manner when operating within the environment for which the system was intended
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Option c is termed as reliability and option e refers to efficiency.
+5. Functional requirements capture the intended behavior of the system.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The behavior of functional requirements may be expressed as services, tasks or functions the system is required to perform.
+Take Software Engineering Tests Now!
+6. Choose the incorrect statement with respect to Non-Functional Requirement(NFR).
+a) Product-oriented Approach – Focus on system (or software) quality
+b) Process-oriented Approach – Focus on how NFRs can be used in the design process
+c) Quantitative Approach – Find measurable scales for the functionality attributes
+d) Qualitative Approach – Study various relationships between quality goals
+View Answer
+
+Answer: c
+Explanation: Quantitative Approaches in NFRs are used to find measurable scales for the quality attributes like efficiency, flexibility, integrity, usability etc.
+7. How many classification schemes have been developed for NFRs ?
+a) Two
+b) Three
+c) Four
+d) Five
+View Answer
+
+Answer: d
+Explanation: Software Quality Tree [Boehm 1976], Roman [IEEE Computer 1985], Process-Product-External considerations [Sommerville 1992], Mc Call’s NFR list and Dimensions of Quality–Components of FURPS+ are the five classification schemes for NFRs.
+.
+8. According to components of FURPS+, which of the following does not belong to S ?
+a) Testability
+b) Speed Efficiency
+c) Serviceability
+d) Installability
+View Answer
+
+Answer: b
+Explanation: Speed Efficiency belong to Performance (P) in FURPS+ .
+9. Does software wear & tear by decomposition ?
+a) Yes
+b) No
+View Answer
+
+Answer: b
+Explanation: Unlike hardware, software is reliable.
+10. What are the four dimensions of Dependability ?
+a) Usability, Reliability, Security, Flexibility
+b) Availability, Reliability, Maintainability, Security
+c) Availability, Reliability, Security, Safety
+d) Security, Safety, Testability, Usability
+View Answer
+
+Answer: c
+Explanation: All the traits of option c sync with dependability.
+11. Choose the correct statement on how NFRs integrates with Rational Unified Process ?
+a) System responds within 4 seconds on average to local user requests and changes in the environment
+b) System responds within 4 seconds on average to remote user requests and changes in the environment
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: System response to a local user is 2 seconds on average.
+1. Which of the following is not a diagram studied in Requirement Analysis ?
+a) Use Cases
+b) Entity Relationship Diagram
+c) State Transition Diagram
+d) Activity Diagram
+View Answer
+
+Answer: d
+Explanation: Activity Diagram comes under the design phase of SDLC.
+2. How many feasibility studies is conducted in Requirement Analysis ?
+a) Two
+b) Three
+c) Four
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Economic feasibility (cost/benefit analysis), Technical feasibility (hardware/software/people, etc.) and Legal feasibility studies are done in Requirement Analysis.
+3. How many phases are there in Requirement Analysis ?
+a) Three
+b) Four
+c) Five
+d) Six
+View Answer
+
+Answer: c
+Explanation: Problem Recognition, Evaluation and Synthesis (focus is on what not how), Modeling, Specification and Review are the five phases.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Traceability is not considered in Requirement Analysis.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Requirements traceability is concerned with documenting the life of a requirement and providing bi-directional traceability between various associated requirements, hence requirements must be traceable.
+5. Requirements analysis is critical to the success of a development project.
+a) True
+b) False
+c) Depends upon the size of project
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Requirements must be actionable, measurable, testable, related to identified business needs or opportunities, and defined to a level of detail sufficient for system design.
+Get Free Certificate of Merit in Software Engineering Now!
+6. _________ and _________ are the two issues of Requirement Analysis.
+a) Performance, Design
+b) Stakeholder, Developer
+c) Functional, Non-Functional
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Option a and c are the types of requirements and not the issues of requirement analysis..
+7. The requirements that result from requirements analysis are typically expressed from one of three perspectives or views.WhaT is that perspective or view ?
+a) Developer
+b) User
+c) Non-Functional
+d) Physical
+View Answer
+
+Answer: d
+Explanation: The perspectives or views have been described as the Operational, Functional, and Physical views.All three are necessary and must be coordinated to fully understand the customers’ needs and objectives.
+8. Requirements Analysis is an Iterative Process.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Requirements analysis is conducted iteratively with functional analysis to optimize performance requirements for identified functions, and to verify that synthesized solutions can satisfy customer requirements.
+9. Coad and Yourdon suggested _______ selection characteristics that should be used as an analyst considers each potential object for inclusion in the requirement analysis model.
+a) Three
+b) Four
+c) Five
+d) Six
+View Answer
+
+Answer: d
+Explanation: Retained information, Needed services, Multiple attributes, Common attributes, Common operations and Essential requirements are the six criterion mentioned by Coad and Yourdon.
+10. Requirements should specify ‘what’ but not ‘how’.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: ‘What’ refers to a system’s purpose, while ‘How’ refers to a system’s structure and behavior.
+1. Which of the following property does not correspond to a good Software Requirements Specification (SRS) ?
+a) Verifiable
+b) Ambiguous
+c) Complete
+d) Traceable
+View Answer
+
+Answer: b
+Explanation: The SRS should be unambiguous in nature which means each sentence in SRS should have a unique interpretation.
+2. Which of the following property of SRS is depicted by the statement : “Conformity to a standard is maintained” ?
+a) Correct
+b) Complete
+c) Consistent
+d) Modifiable
+View Answer
+
+Answer: b
+Explanation: The SRS is complete full labeling and referencing of all figures, tables etc. and definition of all terms and units of measure is defined.
+3. The SRS is said to be consistent if and only if
+a) its structure and style are such that any changes to the requirements can be made easily while retaining the style and structure
+b) every requirement stated therein is one that the software shall meet
+c) every requirement stated therein is verifiable
+d) no subset of individual requirements described in it conflict with each other
+View Answer
+
+Answer: d
+Explanation: Real world object may conflict with each other for example one requirement says that all lights should be red while the other states that all lights should green.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following statements about SRS is/are true ?
+i. SRS is written by customer
+ii. SRS is written by a developer
+iii. SRS serves as a contract between customer and developer
+a) Only i is true
+b) Both ii and iii are true
+c) All are true
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The SRS acts as a communication media between the Customer, Analyst, system developers, maintainers etc. Thus it is a contract between Purchaser and Supplier. It is essentially written by a developer on the basis of customer’ need but in some cases it may be written by a customer as well.
+5. The SRS document is also known as _____________ specification.
+a) black-box
+b) white-box
+c) grey-box
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: The system is considered as a black box whose internal details are not known that is, only its visible external (input/output) behavior is documented.
+Take Software Engineering Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is included in SRS ?
+a) Cost
+b) Design Constraints
+c) Staffing
+d) Delivery Schedule
+View Answer
+
+Answer: b
+Explanation: Design constraints include standards to be incorporated in the software, implementation language, resource limits, operating environment etc.
+7. Which of the following is not included in SRS ?
+a) Performance
+b) Functionality
+c) Design solutions
+d) External Interfaces
+View Answer
+
+Answer: c
+Explanation: The SRS document concentrates on:”what needs to be done” and carefully avoids the solution (“how to do”) aspects.
+8. Arrange the given sequence to form a SRS Prototype outline as per IEEE SRS Standard.
+i. General description
+ii. Introduction
+iii. Index
+iv. Appendices
+v. Specific Requirements
+a) iii, i, ii,v, iv
+b) iii, ii, i, v, iv
+c) ii, i, v, iv, iii
+d) iii, i, ii
+View Answer
+
+Answer: c
+Explanation: The given sequence correctly resemble a standard SRS prototype as per IEEE.
+9. Consider the following Statement: “The output of a program shall be given within 10 secs of event X 10% of the time.”What characteristic of SRS is being depicted here ?
+a) Consistent
+b) Verifiable
+c) Non-verifiable
+d) Correct
+View Answer
+
+Answer: b
+Explanation: An SRS is verifiable, if and only if, every requirement stated therein is verifiable.Here the given condition can be verified during testing phase.
+10. Consider the following Statement: “The data set will contain an end of file character.”What characteristic of SRS is being depicted here ?
+a) Consistent
+b) Non-verifiable
+c) Correct
+d) Ambiguous
+View Answer
+
+Answer: b
+Explanation: An SRS is unambiguous if and only if, every requirement stated therein has only one unique interpretation. The given statement does not answer the question: “which data set will have an end of file character ?”.
+11. Consider the following Statement: “The product should have a good human interface.”What characteristic of SRS is being depicted here ?
+a) Consistent
+b) Non-Verifiable
+c) Correct
+d) Ambiguous
+View Answer
+
+Answer: b
+Explanation: An SRS is verifiable, if and only if, every requirement stated therein is verifiable. The statement can only be answered on completion of the software and customer evaluation but still human interface will vary from person to person.
+12. Narrative essay is one of the best types of specification document ?
+a) True
+b) False
+View Answer
+
+Answer:b
+Explanation: Narrative essay is one of the worst types of specification document as it is difficult to change, difficult to be precise, has scope for contradictions, etc.
+1. Which two requirements are given priority during Requirement Management of a product ?
+a) User and Developer
+b) Functional and Non-functional
+c) Enduring and Volatile
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Enduring requirements are core requirements & are related to main activity of the organization while volatile requirements are likely to change during software development life cycle or after delivery of the product.
+2. Considering the example of issue/return of a book, cataloging etc. in a library management.What type of management requirement is being depicted here?
+a) Enduring
+b) Volatile
+c) Both Enduring & Volatile
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: For library management system issue/return of a book, cataloging etc. are core activities and are stable for any system.
+3. Why is Requirements Management Important ? It is due to the changes
+a) to the environment
+b) in technology
+c) in customer’s expectations
+d) in all of the mentioned.
+View Answer
+
+Answer: d
+Explanation: Systems continue to be built as the advancement of new products being launched in the market and so does the market changes, the technology and in turn customer’s expectation.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Requirements Management is a prerequisite for Quality-Oriented Development.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Quality makes no sense without reference to requirements, which means quality-oriented development is requirements-driven development, thus requirements management is a prerequisite for quality-oriented development.
+5. Requirements traceability is one of the most important part requirement management. It may also be referred to as the heart of requirement management.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Requirements traceability refers to the ability to describe and follow the life of a requirement in both forwards and backwards direction. Requirements can be traced from its origins, through its development and specification, to its subsequent deployment and use, and through periods of ongoing refinement and iteration in any of these phases.
+Check this: Information Technology MCQs | Computer Science MCQs
+6. Requirements Management has a high initial start-up cost but does not need ongoing funding throughout a project.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Requirements Management needs continued funding throughout a project.Project funding is often limited at the onset of a project, restricted to those aspects of the project which are tangible and visible, and subsequently allocated in a phase-by-phase manner.
+7. Which of the following is not a Requirement Management workbench tool ?
+a) RTM
+b) DOORS
+c) Rational Suite
+d) RDD 100
+View Answer
+
+Answer: c
+Explanation: Rational Suite is an environment tool for requirement management.
+8. Which of the following is a requirement management activity ?
+a) Investigation
+b) Design
+c) Construction and Test
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the options are the activities of requirement management.
+9. What functionality of Requirement Management Tool (RMT) is depicted by the statement: “the tool should be able to automatically detect relations between artifacts. For example information retrieval techniques, monitoring of change history, naming schemas or model transformations.”
+a) Automatic Link Detection
+b) Documentation Support
+c) Graphical Representation
+d) Automatic Link Creation and Change
+View Answer
+
+Answer: a
+Explanation: DOORS is one such tool that supports Automatic Link Detection.
+10. According to a statistical report: “over 30% of all software projects are cancelled before completion and over 70% of the remainder fail to deliver expected features”. What must be the reason for such a situation ?
+a) Poor change management
+b) Poor requirements management
+c) Poor quality control
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Fundamental to the problem mentioned in the statistical report is poor requirements management. Option a and c are its sub parts.

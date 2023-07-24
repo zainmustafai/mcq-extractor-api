@@ -1,0 +1,481 @@
+1. What is an operating system?
+a) collection of programs that manages hardware resources
+b) system service provider to the application programs
+c) interface between the hardware and application programs
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: An Operating System acts as an intermediary between user/user applications/application programs and hardware. It is a program that manages hardware resources. It provides services to application programs.
+2. To access the services of operating system, the interface is provided by the ___________
+a) System calls
+b) API
+c) Library
+d) Assembly instructions
+View Answer
+
+Answer: a
+Explanation: To access services of the Operating System an interface is provided by the System Calls. Generally, these are functions written in C and C++. Open, Close, Read, Write are some of most prominently used system calls.
+3. Which one of the following is not true?
+a) kernel is the program that constitutes the central core of the operating system
+b) kernel is the first part of operating system to load into memory during booting
+c) kernel is made of various modules which can not be loaded in running operating system
+d) kernel remains in the memory during the entire computer session
+View Answer
+
+Answer: c
+Explanation: Kernel is the first program which is loaded in memory when OS is loading as well as it remains in memory till OS is running. Kernel is the core part of the OS which is responsible for managing resources, allowing multiple processes to use the resources and provide services to various processes. Kernel modules can be loaded and unloaded in run-time i.e. in running OS.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which one of the following error will be handle by the operating system?
+a) power failure
+b) lack of paper in printer
+c) connection failure in the network
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the mentioned errors are handled by OS. The OS is continuously monitoring all of its resources. Also, the OS is constantly detecting and correcting errors.
+5. What is the main function of the command interpreter?
+a) to get and execute the next user-specified command
+b) to provide the interface between the API and application program
+c) to handle the files in operating system
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: The main function of command interpreter is to get and execute the next user-specified command. Command Interpreter checks for valid command and then runs that command else it will throw an error.
+Check this: Operating System Books | BCA MCQs
+6. In Operating Systems, which of the following is/are CPU scheduling algorithms?
+a) Round Robin
+b) Shortest Job First
+c) Priority
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: In Operating Systems, CPU scheduling algorithms are:
+i) First Come First Served scheduling
+ii) Shortest Job First scheduling
+iii) Priority scheduling
+iv) Round Robin scheduling
+v) Multilevel Queue scheduling
+vi) Multilevel Feedback Queue scheduling
+All of these scheduling algorithms have their own advantages and disadvantages.
+7. If a process fails, most operating system write the error information to a ______
+a) log file
+b) another running process
+c) new file
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: If a process fails, most operating systems write the error information to a log file. Log file is examined by the debugger, to find out what is the actual cause of that particular problem. Log file is useful for system programmers for correcting errors.
+8. Which facility dynamically adds probes to a running system, both in user processes and in the kernel?
+a) DTrace
+b) DLocate
+c) DMap
+d) DAdd
+View Answer
+
+Answer: a
+Explanation: A facility that dynamically adds probes to a running system, both in user process and in the kernel is called DTrace. This is very much useful in troubleshooting kernels in real-time.
+9. Which one of the following is not a real time operating system?
+a) VxWorks
+b) QNX
+c) RTLinux
+d) Palm OS
+View Answer
+
+Answer: d
+Explanation: VxWorks, QNX & RTLinux are real-time operating systems. Palm OS is a mobile operating system. Palm OS is developed for Personal Digital Assistants (PDAs).
+10. The OS X has ____________
+a) monolithic kernel
+b) hybrid kernel
+c) microkernel
+d) monolithic kernel with modules
+View Answer
+
+Answer: b
+Explanation: OS X has a hybrid kernel. Hybrid kernel is a combination of two different kernels. OS X is developed by Apple and originally it is known as Mac OS X.
+1. The systems which allow only one process execution at a time, are called __________
+a) uniprogramming systems
+b) uniprocessing systems
+c) unitasking systems
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Those systems which allow more than one process execution at a time, are called multiprocessing systems. Uniprocessing means only one processor.
+2. In operating system, each process has its own __________
+a) address space and global variables
+b) open files
+c) pending alarms, signals and signal handlers
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: In Operating Systems, each process has its own address space which contains code, data, stack and heap segments or sections. Each process also has a list of files which is opened by the process as well as all pending alarms, signals and various signal handlers.
+3. In Unix, Which system call creates the new process?
+a) fork
+b) create
+c) new
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: In UNIX, a new process is created by fork() system call. fork() system call returns a process ID which is generally the process id of the child process created.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. A process can be terminated due to __________
+a) normal exit
+b) fatal error
+c) killed by another process
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A process can be terminated normally by completing its task or because of fatal error or killed by another process or forcefully killed by a user. When the process completes its task without any error then it exits normally. The process may exit abnormally because of the occurrence of fatal error while it is running. The process can be killed or terminated forcefully by another process.
+5. What is the ready state of a process?
+a) when process is scheduled to run after some execution
+b) when process is unable to run until some task has been completed
+c) when process is using the CPU
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Ready state of the process means process has all necessary resources which are required for execution of that process when CPU is allocated. Process is ready for execution but waiting for the CPU to be allocated.
+Take Operating System Tests Now!
+6. What is interprocess communication?
+a) communication within the process
+b) communication between two process
+c) communication between two threads of same process
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Interprocess Communication (IPC) is a communication mechanism that allows processes to communicate with each other and synchronise their actions without using the same address space. IPC can be achieved using shared memory and message passing.
+7. A set of processes is deadlock if __________
+a) each process is blocked and will remain so forever
+b) each process is terminated
+c) all processes are trying to kill each other
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Deadlock is a situation which occurs because process A is waiting for one resource and holds another resource (blocking resource). At the same time another process B demands blocking a resource as it is already held by a process A, process B is waiting state unless and until process A releases occupied resource.
+8. A process stack does not contain __________
+a) Function parameters
+b) Local variables
+c) Return addresses
+d) PID of child process
+View Answer
+
+Answer: d
+Explanation: Process stack contains Function parameters, Local variables and Return address. It does not contain the PID of child process.
+9. Which system call can be used by a parent process to determine the termination of child process?
+a) wait
+b) exit
+c) fork
+d) get
+View Answer
+
+Answer: a
+Explanation: wait() system call is used by the parent process to determine termination of child process. The parent process uses wait() system call and gets the exit status of the child process as well as the pid of the child process which is terminated.
+10. The address of the next instruction to be executed by the current process is provided by the __________
+a) CPU registers
+b) Program counter
+c) Process stack
+d) Pipe
+View Answer
+
+Answer: b
+Explanation: The address of the next instruction to be executed by the current process is provided by the Program Counter. After every instruction is executed, the Program Counter is incremented by 1 i.e. address of the next instruction to be executed. CPU fetches instruction from the address denoted by Program Counter and execute it.
+1. What is Interprocess communication?
+a) allows processes to communicate and synchronize their actions when using the same address space
+b) allows processes to communicate and synchronize their actions
+c) allows the processes to only synchronize their actions without communication
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Interprocess Communication allows processes to communicate and synchronize their actions. Interprocess Communication (IPC) mechanism is used by cooperating processes to exchange data and information.
+There are two models of IPC:
+→ Shared Memory
+→ Message Passing
+2. Message passing system allows processes to __________
+a) communicate with each other without sharing the same address space
+b) communicate with one another by resorting to shared data
+c) share data
+d) name the recipient or sender of the message
+View Answer
+
+Answer: a
+Explanation: Message Passing system allows processes to communicate with each other without sharing the same address space.
+3. Which of the following two operations are provided by the IPC facility?
+a) write & delete message
+b) delete & receive message
+c) send & delete message
+d) receive & send message
+View Answer
+
+Answer: d
+Explanation: Two operations provided by the IPC facility are receive and send messages. Exchange of data takes place in cooperating processes.
+Subscribe Now: Operating System Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Messages sent by a process __________
+a) have to be of a fixed size
+b) have to be a variable size
+c) can be fixed or variable sized
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Messages sent by a process can be fixed or variable size. If the message size of the process is fixed then system level implementation is straightforward but it makes the task of programming more difficult. If the message size of the process is variable then system level implementation is more complex but it makes the task of programming simpler.
+5. The link between two processes P and Q to send and receive messages is called __________
+a) communication link
+b) message-passing link
+c) synchronization link
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: The link between two processes P and Q to send and receive messages is called communication link. Two processes P and Q want to communicate with each other; there should be a communication link that must exist between these two processes so that both processes can able to send and receive messages using that link.
+Participate in Operating System Certification Contest of the Month Now!
+6. Which of the following are TRUE for direct communication?
+a) A communication link can be associated with N number of process(N = max. number of processes supported by system)
+b) A communication link is associated with exactly two processes
+c) Exactly N/2 links exist between each pair of processes(N = max. number of processes supported by system)
+d) Exactly two link exists between each pair of processes
+View Answer
+
+Answer: b
+Explanation: For direct communication, a communication link is associated with exactly two processes. One communication link must exist between a pair of processes.
+7. In indirect communication between processes P and Q __________
+a) there is another process R to handle and pass on the messages between P and Q
+b) there is another machine between the two processes to help communication
+c) there is a mailbox to help communication between P and Q
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: In indirect communication between processes P and Q there is a mailbox to help communication between P and Q. A mailbox can be viewed abstractly as an object into which messages can be placed by processes and from which messages can be removed.
+8. In the non blocking send __________
+a) the sending process keeps sending until the message is received
+b) the sending process sends the message and resumes operation
+c) the sending process keeps sending until it receives a message
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: In the non blocking send, the sending process sends the message and resumes operation. Sending process doesn’t care about reception. It is also known as asynchronous send.
+9. In the Zero capacity queue __________
+a) the queue can store at least one message
+b) the sender blocks until the receiver receives the message
+c) the sender keeps sending and the messages don’t wait in the queue
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: In the Zero capacity queue the sender blocks until the receiver receives the message. Zero capacity queue has maximum capacity of Zero; thus message queue does not have any waiting message in it.
+10. The Zero Capacity queue __________
+a) is referred to as a message system with buffering
+b) is referred to as a message system with no buffering
+c) is referred to as a link
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: The Zero capacity queue is referred to as a message system with no buffering. Zero capacity queue has maximum capacity of Zero; thus message queue does not have any waiting message in it.
+11. Bounded capacity and Unbounded capacity queues are referred to as __________
+a) Programmed buffering
+b) Automatic buffering
+c) User defined buffering
+d) No buffering
+View Answer
+
+Answer: b
+Explanation: Bounded capacity and Unbounded capacity queues are referred to as Automatic buffering. Buffer capacity of the Bounded capacity queue is finite length and buffer capacity of the Unbounded queue is infinite.
+1. A Process Control Block(PCB) does not contain which of the following?
+a) Code
+b) Stack
+c) Bootstrap program
+d) Data
+View Answer
+
+Answer: c
+Explanation: Process Control Block (PCB) contains information related to a process such as Process State, Program Counter, CPU Register, etc. Process Control Block is also known as Task Control Block. Bootstrap program is a program which runs initially when the system or computer is booted or rebooted.
+2. The number of processes completed per unit time is known as __________
+a) Output
+b) Throughput
+c) Efficiency
+d) Capacity
+View Answer
+
+Answer: b
+Explanation: The number of processes completed per unit time is known as Throughput. Suppose there are 4 processes A, B, C & D they are taking 1, 3, 4 & 7 units of time respectively for their executions. For 10 units of time, throughput is high if process A, B & C are running first as 3 processes can execute. If process C runs first then throughput is low as maximum only 2 processes can execute. Throughput is low for processes which take a long time for execution. Throughput is high for processes which take a short time for execution.
+3. The state of a process is defined by __________
+a) the final activity of the process
+b) the activity just executed by the process
+c) the activity to next be executed by the process
+d) the current activity of the process
+View Answer
+
+Answer: d
+Explanation: The state of a process is defined by the current activity of the process. A process state changes when the process executes. The process states are as New, Ready, Running, Wait, Terminated.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is not the state of a process?
+a) New
+b) Old
+c) Waiting
+d) Running
+View Answer
+
+Answer: b
+Explanation: There is no process state such as old. When a process is created then the process is in New state. When the process gets the CPU for its execution then the process is in Running state. When the process is waiting for an external event then the process is in a Waiting state.
+5. What is a Process Control Block?
+a) Process type variable
+b) Data Structure
+c) A secondary storage section
+d) A Block in memory
+View Answer
+
+Answer: b
+Explanation: A Process Control Block (PCB) is a data structure. It contains information related to a process such as Process State, Program Counter, CPU Register, etc. Process Control Block is also known as Task Control Block.
+Check this: BCA MCQs | Computer Science MCQs
+6. The entry of all the PCBs of the current processes is in __________
+a) Process Register
+b) Program Counter
+c) Process Table
+d) Process Unit
+View Answer
+
+Answer: c
+Explanation: The entry of all the PCBs of the current processes is in Process Table. The Process Table has the status of each and every process that is created in OS along with their PIDs.
+7. What is the degree of multiprogramming?
+a) the number of processes executed per unit time
+b) the number of processes in the ready queue
+c) the number of processes in the I/O queue
+d) the number of processes in memory
+View Answer
+
+Answer: d
+Explanation: Multiprogramming means the number of processes are in the ready states. To increase utilization of CPU, Multiprogramming is one of the most important abilities of OS. Generally, a single process cannot use CPU or I/O at all time, whenever CPU or I/O is available another process can use it. By doing this CPU utilization is increased.
+8. A single thread of control allows the process to perform __________
+a) only one task at a time
+b) multiple tasks at a time
+c) only two tasks at a time
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: A single thread of control allows the process to perform only one task at a time. In the case of multi-core, multiple threads can be run simultaneously and can perform multiple tasks at a time.
+9. What is the objective of multiprogramming?
+a) Have a process running at all time
+b) Have multiple programs waiting in a queue ready to run
+c) To increase CPU utilization
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The objective of multiprogramming is to increase CPU utilization. Generally, a single process cannot use CPU or I/O at all time, whenever CPU or I/O is available another process can use it. Multiprogramming offers this ability to OS by keeping multiple programs in a ready queue.
+1. Which process can be affected by other processes executing in the system?
+a) cooperating process
+b) child process
+c) parent process
+d) init process
+View Answer
+
+Answer: a
+Explanation: A cooperating process can be affected by other processes executing in the system. Also it can affect other processes executing in the system. A process shares data with other processes, such a process is known as a cooperating process.
+2. When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place is called ________
+a) dynamic condition
+b) race condition
+c) essential condition
+d) critical condition
+View Answer
+
+Answer: b
+Explanation: When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which access takes place is called race condition.
+3. If a process is executing in its critical section, then no other processes can be executing in their critical section. What is this condition called?
+a) mutual exclusion
+b) critical exclusion
+c) synchronous exclusion
+d) asynchronous exclusion
+View Answer
+
+Answer: a
+Explanation: If a process is executing in its critical section, then no other processes can be executed in their critical section. This condition is called Mutual Exclusion. Critical section of the process is shared between multiple processes. If this section is executed by more than one or all of them concurrently then the outcome of this is not as per desired outcome. For this reason the critical section of the process should not be executed concurrently.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which one of the following is a synchronization tool?
+a) thread
+b) pipe
+c) semaphore
+d) socket
+View Answer
+
+Answer: c
+Explanation: Semaphore is a synchronization tool. Semaphore is a mechanism which synchronizes or controls access of threads on critical resources. There are two types of semaphores i) Binary Semaphore ii) Counting Semaphore.
+5. A semaphore is a shared integer variable __________
+a) that can not drop below zero
+b) that can not be more than zero
+c) that can not drop below one
+d) that can not be more than one
+View Answer
+
+Answer: a
+Explanation: A semaphore is a shared integer variable that can not drop below zero. In binary semaphore, if the value of the semaphore variable is zero that means there is a process that uses a critical resource and no other process can access the same critical resource until it is released. In Counting semaphore, if the value of the semaphore variable is zero that means there is no resource available.
+Take Operating System Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Mutual exclusion can be provided by the __________
+a) mutex locks
+b) binary semaphores
+c) both mutex locks and binary semaphores
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Mutual exclusion can be provided by both mutex locks and binary semaphore. Mutex is a short form of Mutual Exclusion. Binary semaphore also provides a mechanism for mutual exclusion. Binary semaphore behaves similar to mutex locks.
+7. When high priority task is indirectly preempted by medium priority task effectively inverting the relative priority of the two tasks, the scenario is called __________
+a) priority inversion
+b) priority removal
+c) priority exchange
+d) priority modification
+View Answer
+
+Answer: a
+Explanation: When a high priority task is indirectly preempted by a medium priority task effectively inverting the relative priority of the two tasks, the scenario is called priority inversion.
+8. Process synchronization can be done on __________
+a) hardware level
+b) software level
+c) both hardware and software level
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Process synchronization can be done on both hardware and software level. Critical section problems can be resolved using hardware synchronisation. But this method is not simple for implementation so software synchronization is mostly used.
+9. A monitor is a module that encapsulates __________
+a) shared data structures
+b) procedures that operate on shared data structure
+c) synchronization between concurrent procedure invocation
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A monitor is a module that encapsulates shared data structures, procedures that operate on shared data structure, synchronization between concurrent procedure invocation.
+10. To enable a process to wait within the monitor __________
+a) a condition variable must be declared as condition
+b) condition variables must be used as boolean objects
+c) semaphore must be used
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: To enable a process to wait within the monitor a condition variable must be declared as condition.

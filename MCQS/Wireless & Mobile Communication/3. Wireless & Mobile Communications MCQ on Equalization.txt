@@ -1,0 +1,625 @@
+1. Which of the following is not used to improve received signal quality over small scale times and distance?
+a) Modulation
+b) Equalization
+c) Diversity
+d) Channel coding
+View Answer
+
+Answer: a
+Explanation: Equalization, diversity and channel coding are the three techniques which are used to improve received signal quality and link performance over small scale times and distance. But, the approach, cost, complexity and effectiveness varies in wireless communication system.
+2. Equalization is used to compensate __________
+a) Peak signal to noise ratio
+b) Intersymbol interference
+c) Channel fading
+d) Noises present in the signal
+View Answer
+
+Answer: b
+Explanation: Equalization compensate the intersymbol interference (ISI) created by multipath within time dispersive channels. An equalizer within a receiver compensates for the average range of the expected channel amplitude and delay characteristics.
+3. Training and tracking are the operating modes of _________
+a) Diversity techniques
+b) Channel coding techniques
+c) Equalization techniques
+d) Demodulation techniques
+View Answer
+
+Answer: c
+Explanation: General operating modes of an adaptive equalizer includes training and tracking. A known fixed length training sequence is sent by the transmitter so that the receiver’s equalizer may adapt to a proper setting for minimum bit error rate detection.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. An equalizer is said to be converged when it is properly _______
+a) Trained
+b) Tracked
+c) Installed
+d) Used
+View Answer
+
+Answer: a
+Explanation: When an equalizer has been properly trained, it is said to have converged. Equalizers are commonly used in digital communication systems where user data is segmented into short time blocks or time slots.
+5. Time for convergence of an equalizer is not a function of _______
+a) Equalizer algorithm
+b) Equalizer structure
+c) Time rate of change of multipath radio channel
+d) Transmitter characteristics
+View Answer
+
+Answer: d
+Explanation: The timespan over which an equalizer converges is a function of the equalizer algorithm, the equalizer structure and the time rate of change of the multipath radio channel. Equalizers require proper retraining in order to maintain effective ISI cancellation.
+Check this: Electrical Engineering MCQs | Wireless and Mobile Communication Books
+6. Equalizer is usually implemented in __________
+a) Transmitter
+b) Baseband or at IF in a receiver
+c) Radio channel
+d) Modulator stage
+View Answer
+
+Answer: b
+Explanation: An equalizer is implemented at baseband or at IF in a receiver. Since the baseband complex envelope expression can be used to represent bandpass waveform, the channel response, the demodulated signal and adaptive equalizer algorithm are usually simulated and implemented at baseband.
+7. Equalizer is ________ of the channel.
+a) Opposite
+b) Same characteristics
+c) Inverse filter
+d) Add on
+View Answer
+
+Answer: c
+Explanation: An equalizer is actually an inverse filter of the channel. The goal of equalization is to satisfy that the combination of the transmitter, channel and receiver be an all pass channel.
+8. ______ controls the adaptive algorithm in an equalizer.
+a) Error signal
+b) Transmitted signal
+c) Received signal
+d) Channel impulse response
+View Answer
+
+Answer: a
+Explanation: The adaptive algorithm is controlled by the error signal. The error signal is derived by comparing the output of the equalizer and some signal which is either an exact scaled replica of the transmitted signal or represents a property of transmitted signal.
+9. The adaptive algorithms in equalizer that do not require training sequence are called ________
+a) Linear adaptive algorithms
+b) Blind algorithms
+c) Non-linear adaptive algorithms
+d) Spatially adaptive algorithms
+View Answer
+
+Answer: b
+Explanation: Blind algorithms exploit the characteristics of the transmitted signal and do not require training sequence. These type of algorithm are able to acquire equalization through property restoral techniques of transmitted signal.
+10. Which of the following is a blind algorithm?
+a) Linear adaptive algorithms
+b) Constant modulus algorithm
+c) Non-linear adaptive algorithms
+d) Spatially adaptive algorithms
+View Answer
+
+Answer: b
+Explanation: Blind algorithm technique uses algorithms such as the constant modulus algorithm (CMA) and the spectral coherence restoral algorithm (SCORE). CMA is used for constant envelope modulation and forces the equalizer weights to maintain a constant envelope on the received signal.
+1. Equalization techniques can be categorised into _______ and ______ techniques.
+a) Linear, non linear
+b) Active, passive
+c) Direct, indirect
+d) Slow, fast
+View Answer
+
+Answer: a
+Explanation: Equalization techniques can be classified into linear and non linear techniques. These categories are determined from how the output of an adaptive equalizer is used for subsequent control of the equalizer.
+2. Equalization is linear if an analog signal is fed back to change the subsequent outputs of the equalizer.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: If the analog signal is not used in the feedback path to adapt the equalizer, the equalization is linear. On the other hand, if it is fed back to change the subsequent outputs of the equalizer, the equalization is non-linear.
+3. In the context of equalizers, LTE stands for ________
+a) Long transversal equalizer
+b) Least time-varying equalizer
+c) Linear transversal equalizer
+d) Linear time-varying equalizer
+View Answer
+
+Answer: c
+Explanation: The most common equalizer structure used for equalization is linear transveral equalizer (LTE). It is made up of tapped delay lines, with the tappings speed a symbol period apart.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is not a characteristic of FIR filter?
+a) Many zeroes
+b) Poles only at z=0
+c) Transfer function is a polynomial of z-1
+d) Many poles
+View Answer
+
+Answer: d
+Explanation: Finite impulse response filter (FIR) has many zeroes but poles only at z=0. The transfer function of the filter is a polynomial of z-1. It is also referred to as transversal filter.
+5. Which of the following is not an advantage of lattice equalizer?
+a) Simple structure
+b) Numerical stability
+c) Faster convergence
+d) Dynamic assignment
+View Answer
+
+Answer: a
+Explanation: The structure of lattice equalizer is more complicated than a linear transversal equalizer. But, numerical stability and faster convergence are two advantage of laatic equalizer. Also, its unique structure allows dynamic assignment of the most effective length of lattice equalizer.
+Check this: Electronics & Communication Engineering MCQs | Electrical Engineering Books
+6. Non-linear equalizers are used in applications where channel distortion is not severe.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Non-linear equalizers are used in applications where the channel distortion is too severe for a linear equalizer to handle. They are most commonly used in practical wireless communication.
+7. Which of the following is not a non-linear equalization technique?
+a) Decision feedback equalization
+b) Maximum likelihood symbol detection
+c) Minimum square error detection
+d) Maximum likelihood sequence detection
+View Answer
+
+Answer: c
+Explanation: Decision feedback equalization, maximum likelihood symbol detection and maximum likelihood sequence detection offers non-linear equalization. They offer improvements over linear equalization techniques and are used in most 2G and 3G systems.
+8. For a distorted channel, LTE performance is superior to DFE.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: LTE is well behaved when the channel spectrum is comparatively flat. But if the channel is severely distorted or exhibits null in the spectrum, the performance of LTE deteriorates and MSE of DFE is better than LTE.
+9. Which of the following does not hold true for MLSE?
+a) Minimizes probability of sequence error
+b) Require knowledge of channel characteristics
+c) Requires the statistical distribution of noise
+d) Operates on continuous time signal
+View Answer
+
+Answer: d
+Explanation: Matched filter operates on the continuous time signal, whereas maximum likelihood sequence estimation (MLSE) equalizer and channel estimator rely on discretized samples. MLSE is optimal in the sense that it minimizes the probability of sequence error.
+10. MLSE decodes each received signal by itself.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Rather than decoding each received signal by itself, MLSE tests all possible data sequences by using a channel impulse response simulator within the algorithm. It chooses the data sequence with maximum probability as the output.
+1. Which of the following factor could not determine the performance of algorithm?
+a) Structural properties
+b) Rate of convergence
+c) Computational complexity
+d) Numerical properties
+View Answer
+
+Answer: a
+Explanation: The performance of an algorithm is determined by various factors. These factors are rate of convergence, computational complexity and numerical properties. The performance of algorithm does not depend on structural properties.
+2. Rate of convergence is defined by __________ of algorithm.
+a) Time span
+b) Number of iterations
+c) Accuracy
+d) Complexity
+View Answer
+
+Answer: b
+Explanation: Rate of convergence is required as number of iterations required for the algorithm to converge close enough to the optimum solution. It enables the algorithm to track statistical variations when operating in non stationary environment.
+3. Computational complexity is a measure of ________
+a) Time
+b) Number of iterations
+c) Number of operations
+d) Accuracy
+View Answer
+
+Answer: c
+Explanation: Computational complexity is the number of operations required to make one complete iteration of the algorithm. It helps in comparing the performance with other algorithms.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Choice of equalizer structure and its algorithm is not dependent on ________
+a) Cost of computing platform
+b) Power budget
+c) Radio propagation characteristics
+d) Statistical distribution of transmitted power
+View Answer
+
+Answer: d
+Explanation: The cost of the computing platform, the power budget and the radio propagation characteristics dominate the choice of an equalizer structure and its algorithm. Battery drain at the subscriber unit is also a paramount consideration.
+5. Coherence time is dependent on the choice of the algorithm and corresponding rate of convergence.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The choice of algorithm and its corresponding rate of convergence depends on the channel data rate and coherence time. The speed of the mobile unit determines the channel fading rate and the Doppler spread, which is directly related to coherence time of the channel.
+Become Top Ranker in Wireless and Mobile Communications Now!
+6. Which of the following is not an algorithm for equalizer?
+a) Zero forcing algorithm
+b) Least mean square algorithm
+c) Recursive least square algorithm
+d) Mean square error algorithm
+View Answer
+
+Answer: d
+Explanation: Three classic equalizer algorithm are zero forcing (ZF) algorithm, least mean squares (LMS) algorithm and recursive least squares (RLS) algorithm. They offer fundamental insight into algorithm design and operation.
+7. Which of the following is a drawback of zero forcing algorithm?
+a) Long training sequence
+b) Amplification of noise
+c) Not suitable for static channels
+d) Non zero ISI
+View Answer
+
+Answer: b
+Explanation: The zero forcing algorithm has the disadvantage that the inverse filter may excessively amplify noise at frequencies where the folded channel spectrum has high attenuation.
+8. Zero forcing algorithm performs well for wireless links.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: ZF is not often used in wireless links as it neglects the effect of noise altogether. However, it performs well for static channels with high SNR, such as local wired telephone links.
+9. LMS equalizer minimizes __________
+a) Computational complexity
+b) Cost
+c) Mean square error
+d) Power density of output signal
+View Answer
+
+Answer: c
+Explanation: LMS equalizer is a robust equalizer. It is used to minimize mean square error (MSE) between the desired equalizer output and the actual equalizer output.
+10. For N symbol inputs, LMS algorithm requires ______ operations per iterations.
+a) 2N
+b) N+1
+c) 2N+1
+d) N2
+View Answer
+
+Answer: c
+Explanation: The LMS algorithm is the simplest algorithm. For N symbol inputs, it requires only 2N+1 operations per iteration.
+11. Stochastic gradient algorithm is also called ________
+a) Zero forcing algorithm
+b) Least mean square algorithm
+c) Recursive least square algorithm
+d) Mean square error algorithm
+View Answer
+
+Answer: b
+Explanation: The minimization of the MSE is carried out recursively, and it can be performed by the use of stochastic gradient algorithm. This more commonly called the least mean square (LMS) algorithm.
+12. Convergence rate of LMS is fast.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The convergence rate of the LMS algorithm is slow. It is slow due to the fact that it uses only one parameter i.e. step size that control the adaptation rate.
+13. Which of the following does not hold true for RLS algorithms?
+a) Complex
+b) Adaptive signal processing
+c) Slow convergence rate
+d) Powerful
+View Answer
+
+Answer: c
+Explanation: Recursive least square (RLS) algorithm uses fast convergence rate as opposed to LMS algorithms. They are powerful, albeit complex, adaptive signal processing techniques which significantly improves the convergence of adaptive equalizer.
+14. Which of the following algorithm uses simple programming?
+a) LMS Gradient DFE
+b) FTF algorithm
+c) Fast Kalman DFE
+d) Gradient Lattice DFE
+View Answer
+
+Answer: a
+Explanation: Advantages of LMS gradient DFE algorithm are low computational complexity and simple programming. While fast tranversal filter (FTF) algorithm, Fast Kalman DFE and gradient lattice DFE uses complex programming.
+1. Diversity requires a training sequence.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Unlike equalization, diversity requires no training overhead since a training sequence is not required by the transmitter. Diversity is a powerful communication receiver technique that provides wireless link improvement at a relatively low cost.
+2. Diversity decisions are made by ____________
+a) Receiver
+b) Transmitter
+c) Channel
+d) Adaptive algorithms
+View Answer
+
+Answer: a
+Explanation: In virtually all applications, diversity decisions are made by the receiver and are unknown to the transmitter. Diversity exploits the random nature of radio propagation by finding independent signal paths for communication.
+3. Small scale fades are characterized by ____________ amplitude fluctuations.
+a) Large
+b) Small
+c) Rapid
+d) Slow
+View Answer
+
+Answer: c
+Explanation: Small scale fades are characterized by deep and rapid fluctuations. They occur as the mobile system moves over distances of just a few wavelengths. These fades are caused by multiple reflections from the surrounding in the vicinity of the mobile.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. ____________ is used to prevent deep fade for rapidly varying channel.
+a) Modulation
+b) Demodulation
+c) Macroscopic diversity technique
+d) Microscopic diversity technique
+View Answer
+
+Answer: d
+Explanation: In order to prevent deep fades from occurring, microscopic diversity techniques can exploit the rapidly changing signal. By selecting the best signal at all times, a receiver can mitigate small scale fading effects.
+5. Large scale fading can be mitigated with the help of _________
+a) Modulation
+b) Demodulation
+c) Macroscopic diversity technique
+d) Microscopic diversity technique
+View Answer
+
+Answer: c
+Explanation: Large scale fading is mitigated with macroscopic diversity techniques. It is done by selecting a base station which is not shadowed when others are, the mobile can improve substantially the average signal to noise ratio.
+Take Wireless and Mobile Communications Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Space diversity s also known as ________
+a) Antenna diversity
+b) Time diversity
+c) Frequency diversity
+d) Polarization diversity
+View Answer
+
+Answer: a
+Explanation: Space diversity is also known as antenna diversity. It is one of the popular forms of diversity used in wireless communications. Signals received from the spatially separated antenna on the mobile would have essentially uncorrelated envelopes for antenna separation.
+7. Which of the following is not a category of space diversity technique?
+a) Selection diversity
+b) Time diversity
+c) Feedback diversity
+d) Equal gain diversity
+View Answer
+
+Answer: b
+Explanation: Space diversity reception methods can be classified into four categories. They are selection diversity, feedback diversity, maximal ratio combining and equal gain diversity.
+8. In selection diversity, the gain of each diversity branch provides different SNR.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Selection diversity uses m demodulators to provide m diversity branches. Their gain is adjusted to provide the same average SNR for each branch.
+9. Polarization diversity uses the ________ as the diversity element.
+a) Modulation index
+b) Carrier frequency
+c) Reflection coefficient
+d) Coherence time
+View Answer
+
+Answer: c
+Explanation: Decorrelation of the signal in each polarization is caused by multiple reflections in the channel between mobile and base station antenna. Reflection coefficient for each polarization is different, which results in different amplitudes and phases for each reflection.
+10. Which of the factor does not determine the correlation coefficient?
+a) Polarization angle
+b) Cross polarization discrimination
+c) Offset angle from the main beam direction
+d) Coherence time
+View Answer
+
+Answer: d
+Explanation: The correlation coefficient is determined by three factors, polarization angle, offset angle from the main beam direction of the diversity antenna, and the cross polarization discrimination. The correlation coefficient generally becomes higher as offset angle becomes large.
+11. Frequency diversity is implemented by transmitting information on more than one ___________
+a) Carrier frequency
+b) Amplitude
+c) Phase
+d) Modulation scheme
+View Answer
+
+Answer: a
+Explanation: Frequency diversity is implemented by transmitting information on more than one carrier frequency. Frequency diversity is often employed in microwave line of sight links which carry several channels in frequency division multiplex mode.
+12. Frequency diversity uses ________ as a diversity element.
+a) Correlation coefficient
+b) Coherence time
+c) Coherence bandwidth
+d) SNR
+View Answer
+
+Answer: c
+Explanation: The rationale behind the frequency diversity is that frequencies separated by more than the coherence bandwidth of the channel will be uncorrelated. Thus, they will not experience the same fade.
+13. Frequency diversity is good for low traffic conditions.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Frequency diversity is not good for low traffic conditions. This technique has a disadvantage that it not only requires spare bandwidth but also requires that there be as many receivers as there are channels used for frequency diversity. However, for critical traffic, the expense may be justified.
+14. Time diversity repeatedly transmits information at time spacings that exceed ___________
+a) Coherence bandwidth
+b) Dwell time
+c) Run time
+d) Coherence time
+View Answer
+
+Answer: d
+Explanation: Time diversity repeatedly transmits information at time spacings that exceed coherence time of the channel. Thus, multiple repetitions of the signal will be received with independent fading conditions, thereby providing for diversity.
+15. In maximal ratio combining, the output SNR is equal to __________
+a) Mean of all individual SNRs
+b) Maximum of all SNRs
+c) Sum of individual SNR
+d) Minimum of all SNRs
+View Answer
+
+Answer: c
+Explanation: Maximal ratio combining produces an output SNR equal to the sum of the individual SNRs. Thus, it has the advantage of producing an output with an acceptable SNR even when none of the individual signals are themselves acceptable.
+1. In CDMA spread spectrum systems, chip rate is less than the bandwidth of the channel.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In CDMA spread spectrum systems, the chip rate is typically much greater than the flat fading bandwidth of the channel. Whereas conventional modulation techniques require an equalizer to undo intersymbol interference between adjacent channels.
+2. A RAKE receiver collects the __________ versions of the original signal.
+a) Time shifted
+b) Amplitude shifted
+c) Frequency shifted
+d) Phase shifted
+View Answer
+
+Answer: a
+Explanation: RAKE receiver attempts to collect the time shifted versions of the original signal. It is due to the fact that there is useful information present in the multipath components.
+3. RAKE receiver uses separate _________ to provide the time shifted version of the signal.
+a) IF receiver
+b) Equalizer
+c) Correlation receiver
+d) Channel
+View Answer
+
+Answer: c
+Explanation: RAKE receiver uses separate correlation receivers to provide the time shifted version of the original signal for each of the multipath signal. CDMA receivers combine these time shifted versions of the original signal to transmission in order to improve the signal to noise ratio of the receiver.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Each correlation receiver in RAKE receiver is adjusted in ____________
+a) Frequency shift
+b) Amplitude change
+c) Phase shift
+d) Time delay
+View Answer
+
+Answer: d
+Explanation: Each correlation receiver may be adjusted in time delay, so that a microprocessor controller can cause different correlation receivers to search in different time windows for significant multipath.
+5. The range of time delays that a particular correlator can search is called ________
+a) Search window
+b) Sliding window
+c) Time span
+d) Dwell time
+View Answer
+
+Answer: a
+Explanation: The range of time delays that a particular correlator an search is called a search window. RAKE receiver attempts to collect the time shifted version of the original signal by providing a separate correlation receiver for each of the multipath signal.
+Participate in Wireless and Mobile Communications Certification Contest of the Month Now!
+6. RAKE receiver is used for _______ technique.
+a) CDMA
+b) TDMA
+c) FDMA
+d) OFDM
+View Answer
+
+Answer: a
+Explanation: RAKE receiver is essentially a diversity receiver which is used specifically for CDMA. It uses the fact that the multipath components are practically uncorrelated from one another when their relative propagation delays exceed a chip period.
+7. A RAKE receiver uses __________ to separately detect the M strongest signals.
+a) Single correlator
+b) Multiple correlator
+c) Single IF receiver
+d) Multiple IF receivers
+View Answer
+
+Answer: b
+Explanation: A RAKE receiver uses multiple correlators to separately detect the M strongest multipath components. Demodulation and bit decisions are then based on the weighted ouputs of the M correlators.
+8. In a RAKE receiver, if the output from one correlator is corrupted by fading, all the other correlator’s output are also corrupted.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In a RAKE receiver, if the output from one correlator is corrupted by fading, the others may not be. And the corrupted signal may be discounted through weighting process.
+9. A RAKE receiver uses __________
+a) Equalization
+b) Channel coding
+c) Diversity
+d) Encryption
+View Answer
+
+Answer: c
+Explanation: RAKE receiver is a diversity receiver. Diversity is provided by the fact that the multipath components are practically uncorrelated from one another when their relative propagation delays exceed chip period.
+10. Interleaving is used to obtain ___________ diversity.
+a) Time
+b) Frequency
+c) Polarization
+d) Antenna
+View Answer
+
+Answer: a
+Explanation: Interleaving is used to obtain time diversity in a digital communication system without adding any overhead. It provides rapid proliferation of digital speech coders which transform analog voices into efficient digital messages.
+1. Block codes can achieve a larger coding gain than convolution coding.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Convolution code can achieve a larger coding gain that can be achieved using a block coding with the same complexity. Their mapping is highly structured, enabling a decoding method considerably different from block codes.
+2. Which of the following indicates the number of input bits that the current output is dependent upon?
+a) Constraint length
+b) Code length
+c) Search window
+d) Information rate
+View Answer
+
+Answer: a
+Explanation: Constraint length determines the number of input data bits that the current output is dependent upon. The constraint length determines how powerful and complex the code is.
+3. Which of the following is not a way to represent convolution code?
+a) State diagram
+b) Trellis diagram
+c) Tree diagram
+d) Linear matrix
+View Answer
+
+Answer: d
+Explanation: Linear matrix is not a way to represent convolution code. Various ways of representing convolution codes are generator matrix, generator polynomial, logic tables, state diagram, tree diagram and trellis diagram.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is not an algorithm for decoding convolution codes?
+a) Viterbi algorithm
+b) Stack algorithm
+c) Fano’s sequential coding
+d) Ant colony optimization
+View Answer
+
+Answer: d
+Explanation: There are a number of techniques for decoding convolution codes. The most important of these methods is Viterbi algorithm. Other decoding algorithms for convolutional codes are Fano’s sequential coding, stack algorithm and feedback coding.
+5. Viterbi algorithm performs ____________ decoding of convolutional codes.
+a) Maximum likelihood
+b) Maximum a posteriori
+c) Minimum square
+d) Minimum mean square
+View Answer
+
+Answer: a
+Explanation: Viterbi algorithm performs maximum likelihood decoding of convolutional codes. The algorithm was first developed by A.J. Viterbi. It is one of the most important algorithm used for decoding convolutional codes.
+Check this: Electronics & Communication Engineering MCQs | Electrical Engineering MCQs
+6. Fano’s algorithm searches all the paths of trellis diagram at same time to find the most probable path.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Fano’s algorithm searches for the most probable path through the trellis diagram by examining one path at a time. The error rate performance of Fano’s algorithm is comparable to Viterbi’s algorithm.
+7. Which of the following is not an advantage of Fano’s algorithm in comparison to Viterbi’s algorithm?
+a) Less storage
+b) Large constraint length
+c) Error rate
+d) Small delays
+View Answer
+
+Answer: d
+Explanation: In comparison to Viterbi decoding, sequential decoding has a significantly larger delay. In advantage over Viterbi decoding is that it requires less storage, and thus codes with larger constraint lengths can be employed.
+8. In comparison to stack algorithm, Fano’s algorithm is simpler.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In comparison to Fano’s algorithm, the stack algorithm is computationally simpler since there is no retracting over the same path. But stack algorithm requires more storage than Fano’s algorithm.
+9. Which of the following is not an error correction and detection code?
+a) Block code
+b) Convolutional codes
+c) Passive codes
+d) Turbo codes
+View Answer
+
+Answer: c
+Explanation: There are three basic types of error correction and detection codes. They are block codes, convolutional codes and turbo codes. A channel coder operates on digital message data by encoding the source information into a code sequence.
+10. Which decoding method involves the evaluation by means of Fano’s algorithm?
+a) Maximum Likelihood Decoding
+b) Sequential Decoding
+c) Maximum a priori
+d) Minimum mean square
+View Answer
+
+Answer: b
+Explanation: Fano’s algorithm involves sequential decoding. It searches for the most probable path through the trellis by examining one path at a time.
+11. In Viterbi’s algorithm, the selected paths are regarded as __________
+a) Survivors
+b) Defenders
+c) Destroyers
+d) Carriers
+View Answer
+
+Answer: a
+Explanation: In Viterbi’s algorithm, the selected paths are regarded as survivors. The path thus defined is unique and corresponds to the decoded output.

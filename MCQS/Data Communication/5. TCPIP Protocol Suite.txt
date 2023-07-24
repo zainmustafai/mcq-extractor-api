@@ -1,0 +1,709 @@
+1. A piece of icon or image on a web page associated with another webpage is called ______
+a) url
+b) hyperlink
+c) plugin
+d) extension
+View Answer
+
+Answer: b
+Explanation: URLs are locators for resources present on the World Wide Web. A plugin provides extra functionality to the webpage. An extension provides modification allowance for the core functionality of a webpage. Hyperlink is piece of icon or image on a web page associated with another webpage.
+2. Dynamic web page ______
+a) is same every time whenever it displays
+b) generates on demand by a program or a request from browser
+c) both is same every time whenever it displays and generates on demand by a program or a request from browser
+d) is different always in a predefined order
+View Answer
+
+Answer: b
+Explanation: A dynamic web page provides different content every time the user opens it based on some events like new additions or time of the day. Languages such as JavaScript are used to respond to client-side events while languages such as PHP as used to respond to server-side events.
+3. What is a web browser?
+a) a program that can display a web page
+b) a program used to view html documents
+c) it enables user to access the resources of internet
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A web browser is an application program that is used to access the World Wide Web resources, applications and websites. Some examples of web browsers are Google Chrome, Internet Explorer and Safari.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Common gateway interface is used to _______
+a) generate executable files from web content by web server
+b) generate web pages
+c) stream videos
+d) download media files
+View Answer
+
+Answer: a
+Explanation: CGI is an interface through servers can run execute console-based executable files on a web server that generates dynamic web pages. A CGI script executes only when a request is made. The script then generates HTML.
+5. URL stands for ________
+a) unique reference label
+b) uniform reference label
+c) uniform resource locator
+d) unique resource locator
+View Answer
+
+Answer: c
+Explanation: The Uniform Resource Locator is a locator for the resource to be located by HTTP on the World Wide Web. The URL is derived from the Uniform Resource Identifier.
+Become Top Ranker in Computer Networks Now!
+6. A web cookie is a small piece of data that is _______
+a) sent from a website and stored in user’s web browser while a user is browsing a website
+b) sent from user and stored in the server while a user is browsing a website
+c) sent from root server to all servers
+d) sent from the root server to other root servers
+View Answer
+
+Answer: a
+Explanation: A web cookie is a small piece of data sent from a website and stored in user’s web browser while a user is browsing the website and is used to remember stateful information about the user’s operations on the website. This can help the website provide a better browsing experience to the user.
+7. Which one of the following is not used to generate dynamic web pages?
+a) PHP
+b) ASP.NET
+c) JSP
+d) CSS
+View Answer
+
+Answer: d
+Explanation: CSS alone cannot be used to generate dynamic web pages as it does not provide many event handling functions. It can be used along with JavaScript to generate dynamic web pages which are visually compelling.
+8. An alternative to JavaScript on windows platform is _______
+a) VBScript
+b) ASP.NET
+c) JSP
+d) PHP
+View Answer
+
+Answer: a
+Explanation: VBScript is a general-purpose, lightweight and active scripting language which can be used on Microsoft Visual Basic. It was first released in 1996.
+9. What is document object model (DOM)?
+a) convention for representing and interacting with objects in html documents
+b) application programming interface
+c) hierarchy of objects in ASP.NET
+d) scripting language
+View Answer
+
+Answer: a
+Explanation: DOM is a hierarchical model i.e. a tree used to represent an HTML or XML document. Every node of the tree an object that represents a part of the document.
+10. AJAX stands for _______
+a) asynchronous javascript and xml
+b) advanced JSP and xml
+c) asynchronous JSP and xml
+d) advanced javascript and xml
+View Answer
+
+Answer: a
+Explanation: AJAX is a group of technologies that works on the client-side to create asynchronous web applications. It is used to modify only a part of a webpage and not the whole webpage whenever some event occurs.
+1. Which of the following is not applicable for IP?
+a) Error reporting
+b) Handle addressing conventions
+c) Datagram format
+d) Packet handling conventions
+View Answer
+
+Answer: a
+Explanation: The Internet Protocol is the networking protocol which establishes the internet by relaying datagrams across network boundaries. ICMP is a supporting protocol for IP which handles the Error Reporting functionality.
+2. Which of the following field in IPv4 datagram is not related to fragmentation?
+a) Flags
+b) Offset
+c) TOS
+d) Identifier
+View Answer
+
+Answer: c
+Explanation: TOS-type of service identifies the type of packets. It is not related to fragmentation but is used to request specific treatment such as high throughput, high reliability or low latency for the IP packet depending upon the type of service it belongs to.
+3. The TTL field has value 10. How many routers (max) can process this datagram?
+a) 11
+b) 5
+c) 10
+d) 1
+View Answer
+
+Answer: c
+Explanation: TTL stands for Time to Live. This field specifies the life of the IP packet based on the number of hops it makes (Number of routers it goes through). TTL field is decremented by one each time the datagram is processed by a router. When the value is 0, the packet is automatically destroyed.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. If the value in protocol field is 17, the transport layer protocol used is _____________
+a) TCP
+b) UDP
+c) ICMP
+d) IGMP
+View Answer
+
+Answer: b
+Explanation: The protocol field enables the demultiplexing feature so that the IP protocol can be used to carry payloads of more than one protocol type. Its most used values are 17 and 6 for UDP and TCP respectively. ICMP and IGMP are network layer protocols.
+5. The data field cannot carry which of the following?
+a) TCP segment
+b) UDP segment
+c) ICMP messages
+d) SMTP messages
+View Answer
+
+Answer: c
+Explanation: Data field usually has transport layer segments, but it can also carry ICMP messages. SMTP is an application layer protocol. First it must go through the transport layer to be converted into TCP segments and then it can be inserted into IP packets.
+Take Computer Networks Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. What should be the flag value to indicate the last fragment?
+a) 0
+b) 1
+c) TTl value
+d) Protocol field value
+View Answer
+
+Answer: a
+Explanation: The Flag field in the IP header is used to control and identify the fragments. It contains three bits: reserved, don’t fragment and more fragments. If the more fragments bit is 0, it means that the fragment is the last fragment.
+7. Which of these is not applicable for IP protocol?
+a) is connectionless
+b) offer reliable service
+c) offer unreliable service
+d) does not offer error reporting
+View Answer
+
+Answer: b
+Explanation: IP does not provide reliable delivery service for the data. It’s dependent upon the transport layer protocols like TCP to offer reliability.
+8. Which of the following demerits does Fragmentation have?
+a) complicates routers
+b) open to DOS attack
+c) overlapping of fragments.
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Fragmentation makes the implementation of the IP protocol complex and can also be exploited by attackers to create a DOS attack such as a teardrop attack. Fragmentation won’t be required if the transport layer protocols perform wise segmentation.
+9. Which field helps to check rearrangement of the fragments?
+a) offset
+b) flag
+c) ttl
+d) identifer
+View Answer
+
+Answer: a
+Explanation: The Fragment Offset field specifies where the fragment fits in the original datagram. The offset of the first fragment will always be 0. The size of the field (13 bits) is 3-bits shorter than the size of the total length field (16 bits).
+1. Which of these is not applicable for IP protocol?
+a) Connectionless
+b) Offer reliable service
+c) Offer unreliable service
+d) Does not offer error reporting
+View Answer
+
+Answer: b
+Explanation: IP does not provide reliable delivery service for the data. It’s dependent upon the transport layer protocols like TCP to offer reliability.
+2. Which of the following demerits does Fragmentation have?
+a) Complicates routers
+b) Open to DOS attack
+c) Overlapping of fragments
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Fragmentation makes the implementation of the IP protocol complex and can also be exploited by attackers to create a DOS attack such as a teardrop attack. Fragmentation won’t be required if the transport layer protocols perform wise segmentation.
+3. Which field helps to check rearrangement of the fragments?
+a) Offset
+b) Flag
+c) TTL
+d) Identifier
+View Answer
+
+Answer: a
+Explanation: The Fragment Offset field specifies where the fragment fits in the original datagram. The offset of the first fragment will always be 0. The size of the field (13 bits) is 3-bits shorter than the size of the total length field (16 bits).
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. In classless addressing, there are no classes but addresses are still granted in ______
+a) IPs
+b) Blocks
+c) Codes
+d) Sizes
+View Answer
+
+Answer: b
+Explanation: In classless addressing, there are no classes but addresses are still granted in blocks. The total number of addresses in a block of classless IP addresses = 2(32 – CIDR_value).
+5. In IPv4 Addresses, classful addressing is replaced with ________
+a) Classless Addressing
+b) Classful Addressing
+c) Classful Advertising
+d) Classless Advertising
+View Answer
+
+Answer: a
+Explanation: Classful addressing is replaced with classless addressing as a large ratio of the available addresses in a class in calssful addressing is wasted. In classless addressing, one can reserve the number of IP addresses required by modifying the CIDR value and make sure that not many addresses are wasted.
+Check this: Computer Science MCQs | Computer Network Books
+6. First address in a block is used as network address that represents the ________
+a) Class Network
+b) Entity
+c) Organization
+d) Codes
+View Answer
+
+Answer: c
+Explanation: First address in a block is used as network address that represents the organization. The network address can be found by AND’ing any address in the block by the default mask. The last address in a block represents the broadcast address.
+7. In classful addressing, a large part of available addresses are ________
+a) Organized
+b) Blocked
+c) Wasted
+d) Communicated
+View Answer
+
+Answer: c
+Explanation: In classful addressing, a large part of available addresses are wasted. Thus to solve this classful addressing is replaced with classless addressing where one can reserve the number of IP addresses required by modifying the CIDR value and make sure that not many addresses are wasted.
+8. Network addresses are a very important concept of ________
+a) Routing
+b) Mask
+c) IP Addressing
+d) Classless Addressing
+View Answer
+
+Answer: c
+Explanation: Network addresses are a very important concept of IP addressing. The first address in a block is used as network address that represents the organization. The network address can be found by AND’ing any address in the block or class by the default mask.
+9. Which of this is not a class of IP address?
+a) Class E
+b) Class C
+c) Class D
+d) Class F
+View Answer
+
+Answer: d
+Explanation: Class F is not a class of IP addressing. There are only five classes of IP addresses: Class A (0.0.0.0 to 127.255.255.255), Class B (128.0.0.0 to 191.255.255.255), Class C (192.0.0.0 to 223.255.255.255), Class D (224.0.0.0 to 239.255.255.255), and Class E (240.0.0.0 to 255.255.255.255).
+1. The size of an IP address in IPv6 is _________
+a) 4 bytes
+b) 128 bits
+c) 8 bytes
+d) 100 bits
+View Answer
+
+Answer: b
+Explanation: An IPv6 address is 128 bits long. Therefore, 2128 i.e. 340 undecillion addresses are possible in IPv6. IPv4 has only 4 billion possible addresses and IPv6 would be a brilliant alternative in case IPv4 runs out of possible new addresses.
+2. The header length of an IPv6 datagram is ___________
+a) 10bytes
+b) 25bytes
+c) 30bytes
+d) 40bytes
+View Answer
+
+Answer: d
+Explanation: IPv6 datagram has fixed header length of 40bytes, which results in faster processing of the datagram. There is one fixed header and optional headers which may or may not exist. The fixed header contains the mandatory essential information about the packet while the optional headers contain the optional “not that necessary” information.
+3. In the IPv6 header, the traffic class field is similar to which field in the IPv4 header?
+a) Fragmentation field
+b) Fast-switching
+c) ToS field
+d) Option field
+View Answer
+
+Answer: c
+Explanation: The traffic class field is used to specify the priority of the IP packet which is a similar functionality to the Type of Service field in the IPv4 header. It’s an 8-bit field and its values are not defined in the RFC 2460.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. IPv6 does not use _________ type of address.
+a) broadcast
+b) multicast
+c) anycast
+d) unicast
+View Answer
+
+Answer: a
+Explanation: There is no concept of broadcast address in IPv6. Instead, there is an anycast address in IPv6 which allows sending messages to a group of devices but not all devices in a network. Anycast address is not standardized in IPv4.
+5. Which among the following features is present in IPv6 but not in IPv4?
+a) Fragmentation
+b) Header checksum
+c) Options
+d) Anycast address
+View Answer
+
+Answer: d
+Explanation: There is an anycast address in IPv6 which allows sending messages to a group of devices but not all devices in a network. Anycast address is not standardized in IPv4.
+Check this: Computer Science Books | MCA MCQs
+6. The _________ field determines the lifetime of IPv6 datagram
+a) Hop limit
+b) TTL
+c) Next header
+d) Type of traffic
+View Answer
+
+Answer: a
+Explanation: The Hop limit value is decremented by one by a router when the datagram is forwarded by the router. When the value becomes zero the datagram is discarded. The field is 8-bits wide, so an IPv6 packet can live up to 255 router hops only.
+7. Dual-stack approach refers to _________
+a) implementing Ipv4 with 2 stacks
+b) implementing Ipv6 with 2 stacks
+c) node has both IPv4 and IPv6 support
+d) implementing a MAC address with 2 stacks
+View Answer
+
+Answer: c
+Explanation: Dual-stack is one of the approaches used to support IPv6 in already existing systems. ISPs are using it as a method to transfer from IPv4 to IPv6 completely eventually due to the lower number of possible available addresses in IPv4.
+8. Suppose two IPv6 nodes want to interoperate using IPv6 datagrams, but they are connected to each other by intervening IPv4 routers. The best solution here is ________
+a) Use dual-stack approach
+b) Tunneling
+c) No solution
+d) Replace the system
+View Answer
+
+Answer: b
+Explanation: The IPv4 routers can form a tunnel in which at the sender’s side, the IPv6 datagram is encapsulated in to IPv4, and at the receiver’s side of the tunnel, the IPv4 packet is stripped and the IPv6 packet is sent to the receiver.
+9. Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by bits ______
+a) 96 to 127
+b) 0 to 63
+c) 80 to 95
+d) 64 to 79
+View Answer
+
+Answer: a
+Explanation: Teredo is a technique through which gives the possibility for full IPv6 network connectivity to IPv6 capable hosts which are currently on an IPv4 network. Bits 96 to 127 in the datagram represents obfuscated 1Pv4 address of the IPv4 network
+1. Dual-stack approach refers to _________
+a) Implementing Ipv4 with 2 stacks
+b) Implementing Ipv6 with 2 stacks
+c) Node has both IPv4 and IPv6 support
+d) Implementing a MAC address with 2 stacks
+View Answer
+
+Answer: c
+Explanation: Dual-stack is one of the approaches used to support IPv6 in already existing systems. ISPs are using it as a method to transfer from IPv4 to IPv6 completely eventually due to the lower number of possible available addresses in IPv4.
+2. Suppose two IPv6 nodes want to interoperate using IPv6 datagrams, but they are connected to each other by intervening IPv4 routers. The best solution here is ________
+a) Use dual-stack approach
+b) Tunneling
+c) No solution
+d) Replace the system
+View Answer
+
+Answer: b
+Explanation: The IPv4 routers can form a tunnel in which at the sender’s side, the IPv6 datagram is encapsulated in to IPv4, and at the receiver’s side of the tunnel, the IPv4 packet is stripped and the IPv6 packet is sent to the receiver.
+3. Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by bits ______
+a) 96 to 127
+b) 0 to 63
+c) 80 to 95
+d) 64 to 79
+View Answer
+
+Answer: a
+Explanation: Teredo is a technique through which gives the possibility for full IPv6 network connectivity to IPv6 capable hosts which are currently on an IPv4 network. Bits 96 to 127 in the datagram represents obfuscated 1Pv4 address of the IPv4 network.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A link local address of local addresses is used in an _______
+a) Isolated router
+b) Isolated mask
+c) Isolated subnet
+d) Isolated net
+View Answer
+
+Answer: c
+Explanation: Isolated subnet is very huge sharing network area in this link local address of local addresses is used. A link local address can be configured on any subnet with the prefix “FE80::”.
+5. In subcategories of reserved address in IPv6, address that is used by a host to test itself without going into network is called _________
+a) Unspecified address
+b) Loopback address
+c) Compatible address
+d) Mapped address
+View Answer
+
+Answer: b
+Explanation: In subcategories of reserved address in IPv6, address that is used by a host to test itself without going into network is called loop back address. IPv6 loopback address is 0000:0000:0000:0000:0000:0000:0000:0001. IPv4 loopback address is 127.0.0.1. It’s a reserved address.
+6. A few leftmost bits in each address of IPv6 address define its category is called ________
+a) Prefix type
+b) Postfix type
+c) Reserved type
+d) Local type
+View Answer
+
+Answer: a
+Explanation: Prefix is the bits in the IP address which are placed in leftmost position. A network prefix in IPv6 is given by a CIDR format-liked number at the end of the address.
+Participate in Computer Networks Certification Contest of the Month Now!
+7. In IPv6 addresses, addresses that start with eight 0s are called ________
+a) Unicast addresses
+b) Multicast addresses
+c) Any cast addresses
+d) Reserved addresses
+View Answer
+
+Answer: d
+Explanation: In IPv6 address format, the starting bits are specified with eight 0s to represent reserved addresses. These reserved addresses have a certain function pre-defined like the loop-back address is used to test a network card. Reserved addresses cannot be allotted to a machine.
+8. Which statement(s) about IPv6 addresses are true?
+a) Leading zeros are required
+b) Two colons (::) are used to represent successive hexadecimal fields of zeros
+c) Two colons (::) are used to separate fields
+d) A single interface cannot have multiple IPv6 addresses of different types
+View Answer
+
+Answer: b
+Explanation: In order to shorten the written length of an IPv6 address, successive fields of zeros may be replaced by double colons. In trying to shorten the address further, leading zeros may also be removed. Just as with IPv4, a single device’s interface can have more than one address; with IPv6 there are more types of addresses and the same rule applies. There can be link-local, global unicast, and multicast addresses all assigned to the same interface.
+9. When was IPv6 launched?
+a) June 2, 2012
+b) June 4, 2012
+c) June 5, 2012
+d) June 6, 2012
+View Answer
+
+Answer: d
+Explanation: IPv6 is the latest version of the Internet Protocol released on 6th June 2012. An IPv6 address is 128 bits long. Therefore, 2128 i.e. 340 undecillion addresses are possible in IPv6.
+1. Which layer is responsible for process-to-process delivery?
+a) Physical layer
+b) Network layer
+c) Transport layer
+d) Application layer
+View Answer
+
+Answer: c
+Explanation: The transport layer is responsible for process-to-process delivery, error control and flow control. It provides an interface for the implementation of process to process delivery through ports. There are 65,535 port numbers.
+2. In process-to-process delivery, two processes communicate in which of the following methods?
+a) Client/Server
+b) Source/Destination
+c) Message Transfer
+d) Peer to Peer
+View Answer
+
+Answer: a
+Explanation: The most common method used for this communication is Client/Server. The client requests a service through a particular port number to the port of the server using its socket address. Then the server responds by giving the requested service to the client port.
+3. Multiple processes on destinations at transport layer are identified by __________
+a) Mac address
+b) Port number
+c) Host number
+d) Host address
+View Answer
+
+Answer: b
+Explanation: Multiple processes on destinations are identified by a transport layer address also called as port number. The IP address along with the port number is called the socket address.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Range of port numbers in Internet model is __________
+a) 0 and 32,765(8-bit)
+b) 0 and 32,765(16-bit)
+c) 0 and 65,535(32-bit)
+d) 0 and 65,535(16-bit)
+View Answer
+
+Answer: d
+Explanation: Port numbers are 16-bit integers between 0 and 65,535. They are an interface for the implementation of process to process delivery for the transport layer.
+5. According to Internet Assigned Numbers Authority (IANA), which of the following ranges is not a part of port number ranges?
+a) Well-known ports
+b) Registered ports
+c) Dynamic ports
+d) Static ports
+View Answer
+
+Answer: d
+Explanation: IANA divided port numbers into three ranges i.e., Well-known, Registered and Dynamic ports. Well-known port numbers range from 0 to 1023, registered port numbers are from 1024 to 49151 and dynamic port numbers are from 49152 to 65535.
+Take Computer Networks Tests Now!
+6. The combination of an IP address and port number is called as ________
+a) Socket address
+b) Port address
+c) MAC address
+d) Host address
+View Answer
+
+Answer: a
+Explanation: Socket address is the combination of an IP address and a port number and it is used to define the client-end and server-end processes uniquely.
+7. Which of the following is false with respect to Connectionless service of transport layer protocol?
+a) Packets are not numbered
+b) Packets are not delayed
+c) No acknowledgement
+d) Packet may arrive out of sequence
+View Answer
+
+Answer: b
+Explanation: There is a high probability in connectionless services like UDP that the packet gets delayed or lost because there is no connection made between the two end nodes. No connection means that there is no unique pathway for the packets to travel.
+8. Correct order in the process of Connection-Oriented services is ________
+i. Data transfer
+ii. Connection release
+iii. Connection establishment
+a) i-ii-iii
+b) iii-ii-i
+c) ii-i-iii
+d) iii-i-ii
+View Answer
+
+Answer: d
+Explanation: First the client has to request a connection and the server has to accept the connection to establish a connection. Then data transfer can start between the two ends. Then both client and server need to terminate their ends to terminate the connection.
+9. In transport layer, Multiplexing is done at _________
+a) Channel
+b) Receiver site
+c) Sender site
+d) Packet
+View Answer
+
+Answer: c
+Explanation: At the sender’s side, there are multiple processes which may want to send packets. But there is only one transport layer protocol like TCP or UDP working at a time. So the transport layer protocol gets the messages from these processes and separates them with different port numbers. This process is called multiplexing and it is done before sending packets to the receivers side.
+10. The process of error checking and dropping of the header, delivering messages to appropriate process based on port number is called as _______
+a) Delivery of packets
+b) Error correction
+c) Multiplexing
+d) Demultiplexing
+View Answer
+
+Answer: d
+Explanation: Demultiplexing is the process of error checking and dropping of the header, delivering messages to appropriate process based on port number. The transport layer does this on the receiver’s end after the packet is received and takes help of the header attached by the sender’s side transport layer during multiplexing.
+1. The main reason for transition from IPv4 to IPv6 is _________
+a) Huge number of systems on the internet
+b) Very low number of system on the internet
+c) Providing standard address
+d) To provide faster internet
+View Answer
+
+Answer: a
+Explanation: Due to huge number of systems on the internet and the lower number of available addresses on IPv4, transition from IPv4 to IPv6 needs to happen. IPv4 provides around 4 billion unique IP addresses whereas IPv6 provides over 340 undecillion unique IP addresses.
+2. Which of the following is not a transition strategy?
+a) Dual stack
+b) Tunneling
+c) Conversion
+d) Header translation
+View Answer
+
+Answer: c
+Explanation: As IPv4 addresses are of 32 bits and IPv6 addresses are of 128 bits, it is not possible to convert IPv4 address to IPv6 address. So, Dual stack, tunneling and header translation are the three strategies which might help in the transition from IPv4 to IPv6.
+3. To determine which version to use when sending a packet to a destination, the source host queries which of the following?
+a) Dual stack
+b) Domain Name Server
+c) Header information
+d) Transport layer
+View Answer
+
+Answer: b
+Explanation: Source host queries DNS to determine which version to use when sending a packet to a destination. The DNS contains both, the IPv4 and IPv6 addresses of the modern dual stack host servers.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The strategy used when two computers using IPv6 want to communicate with each other and the packet must pass through a region that uses IPv4 is ______________
+a) Dual stack
+b) Header translation
+c) Conversion
+d) Tunneling
+View Answer
+
+Answer: d
+Explanation: In tunneling, The IPv4 routers can form a tunnel in which at the sender’s side, the IPv6 datagram is encapsulated in to IPv4, and at the receiver’s side of the tunnel, the IPv4 packet is stripped and the IPv6 packet is sent to the receiver.
+5. The correct format of packet in tunnel that uses IPv4 region is ________
+i. IPv6 header
+ii. Payload
+iii. IPv4 header
+a) iii-i-ii
+b) iii-ii-i
+c) i-ii-iii
+d) i-iii-ii
+View Answer
+
+Answer: a
+Explanation: At the sender’s side, the IPv6 datagram is encapsulated in to IPv4 i.e. An IPv4 header is inserted on top of the IPv6 header, and then the packet is sent through the tunnel.
+Become Top Ranker in Computer Networks Now!
+6. ___________ is necessary when the sender wants to use IPv6, but the receiver does not understand IPv6.
+a) Dual stack
+b) Header translation
+c) Conversion
+d) Tunneling
+View Answer
+
+Answer: b
+Explanation: Header translation is used when the sender wants to use IPv6, but the receiver does not understand IPv6. It is made possible through a Network Address Translation – Protocol Translation enabled device such as a gateway.
+7. Header translation uses ___________ to translate an IPv6 address to an IPv4 address.
+a) IP address
+b) Physical address
+c) Mapped address
+d) MAC address
+View Answer
+
+Answer: c
+Explanation: A mapped IPv6 address contains the IPv4 address in its last 32-bits and is preceded by 16 1s and 80 0s. It can be used to translate an IPv6 address to an IPv4 address.
+8. Which of the following is not a step in the Header translation procedure?
+a) The IPv6 mapped address is changed to an IPv4 address by extracting the rightmost 32bits
+b) The value of the IPv6 priority field is discarded
+c) The type of service field in IPv4 is set to zero
+d) The IPv6 flow label is considered
+View Answer
+
+Answer: d
+Explanation: In the header translation procedure, first the IPv6 mapped address is changed to an IPv4 address by extracting the rightmost 32bits, then the value of the IPv6 priority field is discarded, and finally the ToS field in the IPv4 header is set to zero. IPv6 flow label is ignored in the procedure.
+1. Which of the following is the broadcast address for a Class B network ID using the default subnetmask?
+a) 172.16.10.255
+b) 255.255.255.255
+c) 172.16.255.255
+d) 172.255.255.255
+View Answer
+
+Answer: c
+Explanation: In this case, the class B network ID is 172.16.0.0. We know that the default mask of a class B network is 255.255.0.0. If we OR any address in a network with the complement of the default mask (0.0.255.255), we get the broadcast address of the network. In this case, the result of OR would be 172.16.255.255.
+2. You have an IP address of 172.16.13.5 with a 255.255.255.128 subnet mask. What is your class of address, subnet address, and broadcast address?
+a) Class A, Subnet 172.16.13.0, Broadcast address 172.16.13.127
+b) Class B, Subnet 172.16.13.0, Broadcast address 172.16.13.127
+c) Class B, Subnet 172.16.13.0, Broadcast address 172.16.13.255
+d) Class B, Subnet 172.16.0.0, Broadcast address 172.16.255.255
+View Answer
+
+Answer: b
+Explanation: We know that the prefix 172 lies in class B (128 to 191) of IPv4 addresses. From the subnet mask, we get that the class is divided into 2 subnets: 172.16.13.0 to 172.16.13.127 and 172.16.13.128 to 172.16.13.255. The IP 172.16.13.5 lies in the first subnet. So the starting address 172.16.13.0 is the subnet address and last address 172.16.13.127 is the broadcast address.
+3. If you wanted to have 12 subnets with a Class C network ID, which subnet mask would you use?
+a) 255.255.255.252
+b) 255.255.255.255
+c) 255.255.255.240
+d) 255.255.255.248
+View Answer
+
+Answer: c
+Explanation: If you have eight networks and each requires 10 hosts, you would use the Class C mask of 255.255.255.240. Why? Because 240 in binary is 11110000, which means you have four subnet bits and four host bits. Using our math, we’d get the following:
+24-2=14 subnets
+24-2=14 hosts.
+4. The combination of _________ and __________ is often termed the local address of the local portion of the IP address.
+a) Network number and host number
+b) Network number and subnet number
+c) Subnet number and host number
+d) Host number
+View Answer
+
+Answer: c
+Explanation: It is termed as the local address because the address won’t be applicable outside the subnet. Sub networking is implemented for remote sensing in transparent way from that host which is contained in the sub network which called a local operation.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+5. _________ implies that all subnets obtained from the same subnet mask.
+a) Static subnetting
+b) Dynamic subnetting
+c) Variable length subnetting
+d) Dynamic length subnetting
+View Answer
+
+Answer: a
+Explanation: Static subnetting is used when the requirement is of same number of hosts in each subnet for the institution. The same subnet mask can be used to find the subnet id of each subnet. It is usually used to divide large networks into smaller parts.
+Get Free Certificate of Merit in Computer Networks Now!
+6. State whether true or false.
+i) A connection oriented protocol can only use unicast addresses.
+ii) The any cast service is included in IPV6.
+a) True, True
+b) True, False
+c) False, True
+d) False, False
+View Answer
+
+Answer: a
+Explanation: In a connection oriented protocol, the host can only establish connection with another host on one unique channel, that’s why it can only use unicast addresses. In IPv6, there is an anycast address in IPv6 which allows sending messages to a group of devices but not all devices in a network.
+7. __________ is a high performance fiber optic token ring LAN running at 100 Mbps over distances upto 1000 stations connected.
+a) FDDI
+b) FDDT
+c) FDDR
+d) FOTR
+View Answer
+
+Answer: a
+Explanation: FDDI stands for Fiber Distributed Data Interface. It is a set of standards for fiber optic token ring LANs running at 100 Mbps over distances up to 200 km in diameter and 1000 stations connected.
+8. Which of the following are Gigabit Ethernets?
+a) 1000 BASE-SX
+b) 1000 BASE-LX
+c) 1000 BASE-CX
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: In computer networking, Gigabit Ethernet (GbE or 1 GigE) is a term describing various technologies for transmitting Ethernet frames at a rate of a gigabit per second (1,000,000,000 bits per second), as defined by the IEEE 802.3-2008 standard. It came into use beginning in 1999, gradually supplanting Fast Ethernet in wired local networks, as a result of being considerably faster.
+9. _________ is a collective term for a number of Ethernet Standards that carry traffic at the nominal rate of 1000 Mbit/s against the original Ethernet speed of 10 Mbit/s.
+a) Ethernet
+b) Fast Ethernet
+c) Gigabit Ethernet
+d) Gigabyte Ethernet
+View Answer
+
+Answer: b
+Explanation: Fast Ethernet is a set of Ethernet Standards which were introduced in 1995, that carry traffic at the nominal rate of 1000 Mbit/s. 100BASE-TX is the most commonly used Fast Ethernet standard.
+10. _________ is another kind of fiber optic network with an active star for switching.
+a) S/NET
+b) SW/NET
+c) NET/SW
+d) FS/NET
+View Answer
+
+Answer: a
+Explanation: A 50-MBd active star fiber optical Local area network (LAN) and its optical combiner and mixing rod splitter are presented. The limited power budget and relatively large tapping losses of light wave technology, which limit the use of fiber optics in tapped bus LAN topologies, are examined and proven tolerable in optical star topologies.

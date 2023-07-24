@@ -1,0 +1,465 @@
+1. A __________is a set of instructions which is prepared to perform a specific assignment if executed by a computer.
+a) Browser
+b) Internet
+c) Program
+d) Code
+View Answer
+
+Answer: c
+Explanation: A set of meaningful instructions is called a program. A program is basically designed to perform any function assigned to it.
+2. A program is an active entity.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. A program is not an active entity. It is completely passive.
+3. What is responsible for creating a process from a program?
+a) OS
+b) Web
+c) Internet
+d) Firewall
+View Answer
+
+Answer: a
+Explanation: OS is responsible for creating a process from a program. OS stands for operating system. A process is created in order to be executed by using computer facilities.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. This cycle, of going through __________ states of running and input/output, may be repeated over and over until the job is completed.
+a) evaluation
+b) process
+c) program
+d) data
+View Answer
+
+Answer: b
+Explanation: The answer is process states. The cycle of going through process states can be repeated over and over again until the job is completed or the process gets aborted.
+5. The wait fraction is represented by __________
+a) w
+b) #
+c) Q
+d) &
+View Answer
+
+Answer: a
+Explanation: Wait fraction of a processor is represented by w. It is also known as the processor wait ratio.
+Check this: BCA MCQs | Information Technology MCQs
+6. Processor wait ratio is given by ________
+a) w=b/e+b
+b) w=b/e-b
+c) #=b/e-b
+d) #=b/e+b
+View Answer
+
+Answer: a
+Explanation: Processor wait ratio is represented by w. It is given by :
+w=b/e+b.
+7. What does ‘b’ represent in a processor wait ratio?
+a) input ratio
+b) output ratio
+c) average time
+d) average I/O time
+View Answer
+
+Answer: d
+Explanation: It represents the average I/O time. Average execution time with single programming is given by e.
+8. A technique that allows more than one program to be ready for execution and provides the ability to switch from one process to another.
+a) multitasking
+b) multiprocessing
+c) multitasking
+d) multiprogramming
+View Answer
+
+Answer: d
+Explanation: Multiprogramming is the concept implemented for execution and provides the ability to switch from one task to the other.
+9. Multiprogramming is mainly accomplished by:
+a) os
+b) software
+c) hardware
+d) program
+View Answer
+
+Answer: a
+Explanation: The OS is mainly responsible for multiprogramming. The hardware provides the specific circuitry that may be used by the operating system.
+10. The technique that increases the system’s productivity.
+a) multiprogramming
+b) multitasking
+c) multiprocessing
+d) single-programming
+View Answer
+
+Answer: a
+Explanation: Multiprogramming increases the productivity. By increasing the CPU utilization other devices’s utilization is also increased.
+1. Multithreading is also called as ____________
+a) Concurrency
+b) Simultaneity
+c) Crosscurrent
+d) Recurrent
+View Answer
+
+Answer: a
+Explanation: Concurrency is often used in place of multithreading. Multitasking allows multiple threads to run at a time.
+2. Multiprocessing allows single processor to run several concurrent threads.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is false. Multitasking allows single processor to run several concurrent threads.
+3. A single sequential flow of control within a program is ________
+a) Process
+b) Task
+c) Thread
+d) Structure
+View Answer
+
+Answer: c
+Explanation: A thread is a sequential flow of control within a program. Single-threaded program can handle one task at any time.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Both client and server release _________ connection after a page has been transferred.
+a) IP
+b) TCP
+c) Hyperlink
+d) Network
+View Answer
+
+Answer: b
+Explanation: The answer is TCP. TCP stands for Transmission Control Protocol. Servers receive requests from clients.
+5. Java extension used in threads?
+a) java.lang.Thread
+b) java.language.Thread
+c) java.lang.Threads
+d) java.Thread
+View Answer
+
+Answer: a
+Explanation: java.lang.Thread is the class that is extended if any user wants to extend threads.
+Participate in Computer Fundamentals Certification Contest of the Month Now!
+6. A method that must be overridden while extending threads.
+a) run()
+b) start()
+c) stop()
+d) paint()
+View Answer
+
+Answer: a
+Explanation: run()method must be overridden (It is similar to main method of sequential program).
+7. An interface that is implemented while using threads.
+a) java.lang.Run
+b) java.lang.Runnable
+c) java.lang.Thread
+d) java.lang.Threads
+View Answer
+
+Answer: b
+Explanation: java.lang.Runnable is correct. Any thread class implements runnable.
+8. A thread becomes non runnable when?
+a) Its stop method is invoked
+b) Its sleep method is invoked
+c) Its finish method is invoked
+d) Its init method is invoked
+View Answer
+
+Answer: b
+Explanation: A thread becomes Not Runnable when one of these events occurs:
+• Its sleep method is invoked.
+• The thread calls the wait method to wait for a specific condition to be satisfied.
+• The thread is blocking on I/O.
+9. A method used to temporarily release time for other threads.
+a) yield()
+b) set()
+c) release()
+d) start()
+View Answer
+
+Answer: a
+Explanation: We can use the yield() method to temporarily release time for other threads. It is static by default.
+10. A method used to force one thread to wait for another thread to finish.
+a) join()
+b) connect()
+c) combine()
+d) concat()
+View Answer
+
+Answer: a
+Explanation: The answer is join(). We can use the join() method to force one thread to wait for another thread to finish.
+1. A task carried out by the OS and hardware to accommodate multiple processes in main memory.
+a) Memory control
+b) Memory management
+c) Memory sharing
+d) Memory usage
+View Answer
+
+Answer: b
+Explanation: Memory management is carried out by the OS and hardware to accommodate multiple processes in main memory.
+2. An HTML file is a text file containing small markup tags.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. HTML stands for Hyper Text Markup Language. It is a text file containing small markup tags.
+3. Secondary memory is the long term store for programs and data while main memory holds program and data currently in use. What kind of an organization is this?
+a) Physical
+b) Logical
+c) Structural
+d) Simple
+View Answer
+
+Answer: a
+Explanation: The secondary memory is the long term store for programs and data while main memory holds program and data currently in use. This is a physical organization.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Memory organization in which users write programs in modules with different characteristics.
+a) Physical
+b) Logical
+c) Structural
+d) Simple
+View Answer
+
+Answer: b
+Explanation: The answer is Logical. To handle user programs properly, the operating system and the hardware should support a basic form of module to provide protection and sharing.
+5. An executing process must be loaded entirely in main memory. What kind of a memory organization is this?
+a) Physical
+b) Logical
+c) Structural
+d) Simple
+View Answer
+
+Answer: d
+Explanation: This is simple memory organisation. An executing process must be loaded entirely in main memory (if overlays are not used).
+Take Computer Fundamentals Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. FTP stands for?
+a) File Text Protocol
+b) File Transfer Protocol
+c) Firm Transfer Protocol
+d) File Transplant Protocol
+View Answer
+
+Answer: b
+Explanation: FTP stands for File Transfer Protocol. It is a type of internet service use for the transmission of files.
+7. A set of overlapping divisions in the main memory are called _______
+a) Partitions
+b) Divisions
+c) Blocks
+d) Modules
+View Answer
+
+Answer: a
+Explanation: Partition main memory into a set of non overlapping regions called partitions. Partitions can be of equal or unequal sizes.
+8. Any program, no matter how small, occupies an entire partition. This is called ____________
+a) fragmentation
+b) prior fragmentation
+c) internal fragmentation
+d) external fragmentation
+View Answer
+
+Answer: c
+Explanation: It is called as internal fragmentation. Main memory use is inefficient. Any program, no matter how small, occupies an entire partition. This is called internal fragmentation.
+9. __________ is used to shift processes so they are contiguous and all free memory is in one block.
+a) Fragmentation
+b) Compaction
+c) External Fragmentation
+d) Division
+View Answer
+
+Answer: b
+Explanation: Use compaction to shift processes so they are contiguous and all free memory is in one block.
+10. _______ searches for smallest block. The fragment left behind is small as possible.
+a) best fit
+b) first fit
+c) next fit
+d) last fit
+View Answer
+
+Answer: a
+Explanation: Best fit searches for the smallest block. The fragment left behind is as small as possible.
+1. Separation of user logical memory and physical memory is ___________
+a) Memory control
+b) Memory management
+c) Memory sharing
+d) Virtual memory
+View Answer
+
+Answer: d
+Explanation: The separation of user logical memory and physical memory is called virtual memory. Only part of the program needs to be in memory for execution.
+2. Logical Address space can be larger than physical address space.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. Since, a part of the program needs to be in memory for the process of execution, the logical space can therefore be much larger than the physical address space.
+3. Virtual Memory can be implemented via __________
+a) Demand Paging
+b) Logical paging
+c) Structural way
+d) Simple division
+View Answer
+
+Answer: a
+Explanation: Demand paging can implement virtual memory. Another way is demand segmentation.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. COW stands for?
+a) Control over write
+b) Convert over write
+c) Count over write
+d) Copy over write
+View Answer
+
+Answer: d
+Explanation: COW stands for Copy over write. COW allows both parent and child processes to share the same pages initially.
+5. LRU stands for?
+a) Least Recently used
+b) Less Recently used
+c) Least Recurrently used
+d) Least Randomly used
+View Answer
+
+Answer: a
+Explanation: LRU stands for Least Recently used. LRU is least recently used. It replaces page with the smallest count.
+Check this: Computer Science MCQs | Information Technology MCQs
+6. An allocation that uses a proportional allocation scheme using priorities rather than size.
+a) Priority allocation
+b) File allocation
+c) Preference allocation
+d) Simple allocation
+View Answer
+
+Answer: a
+Explanation: Priority allocation uses a proportional allocation scheme using priorities rather than size.
+7. A process selects a replacement frame from the set of all frames.
+a) Local replacement
+b) Global replacement
+c) Block replacement
+d) Module replacement
+View Answer
+
+Answer: b
+Explanation: Global replacement process selects a replacement frame from the set of all frames; one process can take a frame from another.
+8. Any program, no matter how small, occupies an entire partition. This is called _____________
+a) fragmentation
+b) prior fragmentation
+c) internal fragmentation
+d) external fragmentation
+View Answer
+
+Answer: c
+Explanation: It is called as internal fragmentation. Main memory use is inefficient. Any program, no matter how small, occupies an entire partition. This is called internal fragmentation.
+9. A process is busy swapping pages in and out.
+a) Thrashing
+b) Compaction
+c) External Fragmentation
+d) Division
+View Answer
+
+Answer: a
+Explanation: Thrashing is the term used whenever a process is busy swapping pages in and put.
+10. ____________ is one or more physically contiguous pages.
+a) Slab
+b) Cache
+c) Object
+d) Allocator
+View Answer
+
+Answer: a
+Explanation: Slab is one or more physically contiguous pages. Cache consists of one or more slabs.
+1. A basic element of data in a file.
+a) Memory
+b) Record
+c) Field
+d) Value
+View Answer
+
+Answer: c
+Explanation: Fields are the basic elements of data in a file. e.g. student’s last name. It contains a single value.
+2. Records are treated as a unit.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. Records are a collection of related fields. They are treated as a unit.
+3. __________________ refers to the logical structuring of records.
+a) Physical organisation
+b) Logical organisation
+c) Structural organisation
+d) File organisation
+View Answer
+
+Answer: d
+Explanation: File organisation refers to the logical structuring of records. It is determined bi the way in which files are accessed.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is not an appropriate criterion for file organisation?
+a) Larger access time
+b) ease of update
+c) simple maintenance
+d) economy of storage
+View Answer
+
+Answer: a
+Explanation: The answer is Larger access time. The access time should be short. It is an important criteria for file organisation.
+5. ___________ itself is a file owned by the operating system
+a) Logical file
+b) Record
+c) Database
+d) Directory
+View Answer
+
+Answer: d
+Explanation: Directory is the file owned by the operating system. File directory contains various important information.
+Check this: Information Technology MCQs | BCA Books
+6. Which of the following isn’t a part of the file directory?
+a) Attributes
+b) Protocol
+c) Location
+d) Ownership
+View Answer
+
+Answer: b
+Explanation: File directory contains important information like: Attributes, Location and Ownership.
+7. Allocated size of a file comes under?
+a) basic information
+b) address information
+c) access control information
+d) usage information
+View Answer
+
+Answer: b
+Explanation: Allocated size comes under the address information of a file. Address information consists of volume, starting address, size used and size allocated.
+8. Which of the following is not a part of the usage information?
+a) data created
+b) identity of creator
+c) owner
+d) last date modified
+View Answer
+
+Answer: c
+Explanation: Owner is a part of the access control information. Other options are a part of usage information of a file.
+9. When access is granted to append or update a file to more than one user, the OS or file management system must enforce discipline. This is _________
+a) Simultaneous access
+b) Compaction
+c) External Fragmentation
+d) Division
+View Answer
+
+Answer: a
+Explanation: When access is granted to append or update a file to more than one user, the OS or file management system must enforce discipline. It is referred as simultaneous access.
+10. The user can load and execute a program but cannot copy it. This process is?
+a) Execution
+b) Appending
+c) Reading
+d) Updating
+View Answer
+
+Answer: a
+Explanation: Execution is a process that user can load and execute a program but cannot copy it. Other processes are updation, changing protection, etc.

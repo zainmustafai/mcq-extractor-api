@@ -1,0 +1,562 @@
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Lock-Based Protocols”.
+
+1. In order to maintain transactional integrity and database consistency, what technology does a DBMS deploy?
+a) Triggers
+b) Pointers
+c) Locks
+d) Cursors
+View Answer
+
+Answer: c
+Explanation: Locks are used to maintain database consistency.
+2. A lock that allows concurrent transactions to access different rows of the same table is known as a
+a) Database-level lock
+b) Table-level lock
+c) Page-level lock
+d) Row-level lock
+View Answer
+
+Answer: d
+Explanation: Locks are used to maintain database consistency.
+3. Which of the following are introduced to reduce the overheads caused by the log-based recovery?
+a) Checkpoints
+b) Indices
+c) Deadlocks
+d) Locks
+View Answer
+
+Answer: a
+Explanation: Checkpoints are introduced to reduce overheads caused by the log-based recovery.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the following protocols ensures conflict serializability and safety from deadlocks?
+a) Two-phase locking protocol
+b) Time-stamp ordering protocol
+c) Graph based protocol
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Time-stamp ordering protocol ensures conflict serializability and safety from deadlocks.
+5. Which of the following is the block that is not permitted to be written back to the disk?
+a) Dead code
+b) Read only
+c) Pinned
+d) Zapped
+View Answer
+
+Answer: c
+Explanation: A block that is not permitted to be written back to the disk is called pinned.
+Take Database Management System Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an ­­­­­­__________ on all the records belonging to that file.
+a) Explicit lock in exclusive mode
+b) Implicit lock in shared mode
+c) Explicit lock in shared mode
+d) Implicit lock in exclusive mode
+View Answer
+
+Answer: d
+Explanation: If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an implicit lock in exclusive mode on all the records belonging to that file.
+7. Which refers to a property of computer to run several operation simultaneously and possible as computers await response of each other
+a) Concurrency
+b) Deadlock
+c) Backup
+d) Recovery
+View Answer
+
+Answer: a
+Explanation: Concurrency is a property of systems in which several computations are executing simultaneously, and potentially interacting with each other.
+8. All lock information is managed by a __________ which is responsible for assigning and policing the locks used by the transactions.
+a) Scheduler
+b) DBMS
+c) Lock manager
+d) Locking agent
+View Answer
+
+Answer: c
+Explanation: A distributed lock manager (DLM) provides distributed software applications with a means to synchronize their accesses to shared resources.
+9. The ____ lock allows concurrent transactions to access the same row as long as they require the use of different fields within that row.
+a) Table-level
+b) Page-level
+c) Row-level
+d) Field-level
+View Answer
+
+Answer: d
+Explanation: Lock is limited to the attributes of the relation.
+10. Which of the following is a procedure for acquiring the necessary locks for a transaction where all necessary locks are acquired before any are released?
+a) Record controller
+b) Exclusive lock
+c) Authorization rule
+d) Two phase lock
+View Answer
+
+Answer: d
+Explanation: Two-phase lock is a procedure for acquiring the necessary locks for a transaction where all necessary locks are acquired before any are released.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Multiple Granularity”.
+
+1. In a granularity hierarchy the highest level represents the
+a) Entire database
+b) Area
+c) File
+d) Record
+View Answer
+
+Answer: a
+Explanation: This level is the root of the tree.
+2. In a database the file is contained in ________
+a) Entire database
+b) Two area
+c) One area
+d) more than one area
+View Answer
+
+Answer: c
+Explanation: This level is below the root of the tree.
+3. If a node is locked in an intention mode, explicit locking is done at a lower level of the tree. This is called
+a) Intention lock modes
+b) Explicit lock
+c) Implicit lock
+d) Exclusive lock
+View Answer
+
+Answer: a
+Explanation: There is an intention mode associated with shared mode, and there is one with an exclusive mode.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4. If a node is locked in __________ explicit locking is being done at a lower level of the tree, but with only shared-mode locks.
+a) Intention lock modes
+b) Intention-shared-exclusive mode
+c) Intention-exclusive (IX) mode
+d) Intention-shared (IS) mode
+View Answer
+
+Answer: a
+Explanation: There is an intention mode associated with shared mode, and there is one with an exclusive mode.
+5. If a node is locked in ____________ then explicit locking is being done at a lower level, with exclusive-mode or shared-mode locks.
+a) Intention lock modes
+b) Intention-shared-exclusive mode
+c) Intention-exclusive (IX) mode
+d) Intention-shared (IS) mode
+View Answer
+
+Answer: c
+Explanation: There is an intention mode associated with shared mode, and there is one with an exclusive mode.
+Get Free Certificate of Merit in Database Management System Now!
+6. If a node is locked in ______________ the subtree rooted by that node is locked explicitly in shared mode, and that explicit locking is being done at a lower level with exclusive-mode locks.
+a) Intention lock modes
+b) shared and intention-exclusive (SIX) mode
+c) Intention-exclusive (IX) mode
+d) Intention-shared (IS) mode
+View Answer
+
+Answer: b
+Explanation: There is an intention mode associated with shared mode, and there is one with an exclusive mode.
+7. ____________ denotes the largest timestamp of any transaction that executed write(Q) successfully.
+a) W-timestamp(Q)
+b) R-timestamp(Q)
+c) RW-timestamp(Q)
+d) WR-timestamp(Q)
+View Answer
+
+Answer: a
+Explanation: The most common method for doing ordering transaction is to use a timestamp-ordering scheme.
+8. The _____________ ensures that any conflicting read and write operations are executed in timestamp order.
+a) Timestamp-ordering protocol
+b) Timestamp protocol
+c) W-timestamp
+d) R-timestamp
+View Answer
+
+Answer: a
+Explanation: The most common method for doing ordering transaction is to use a timestamp-ordering scheme.
+9. The __________ requires that each transaction Ti executes in two or three different phases in its lifetime, depending on whether it is a read-only or an update transaction.
+a) Validation protocol
+b) Validation-based protocol
+c) Timestamp protocol
+d) Timestamp-ordering protocol
+View Answer
+
+Answer: a
+Explanation: A concurrency-control scheme imposes the overhead of code execution and possible delay of transactions. It may be better to use an alternative scheme that imposes less overhead.
+10. This validation scheme is called the _________ scheme since transactions execute optimistically, assuming they will be able to finish execution and validate at the end.
+a) Validation protocol
+b) Validation-based protocol
+c) Timestamp protocol
+d) Optimistic concurrency-control
+View Answer
+
+Answer: a
+Explanation: A concurrency-control scheme imposes the overhead of code execution and possible delay of transactions. It may be better to use an alternative scheme that imposes less overhead.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Insertion Deletion Predicate Reads”.
+
+1. Which statements are correct regarding indexes?
+a) When a table is dropped, the corresponding indexes are automatically dropped
+b) For each DML operation performed, the corresponding indexes are automatically updated
+c) A non-deferrable PRIMARY KEY or UNIQUE KEY constraint in a table automatically creates a unique index
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Indexes are used to access the data efficiently.
+2. You executed the following SQL statements in the given order:
+
+CREATE TABLE orders
+(order_id NUMBER(3) PRIMARY KEY,
+order_date DATE,
+customer_idnumber(3));
+ 
+INSERT INTO orders VALUES (100,'10-mar-2007,,222);
+ 
+ALTER TABLE orders MODIFY order_date NOT NULL;
+ 
+UPDATE orders SET customer_id=333;
+ 
+DELETE FROM order;
+The DELETE statement results in the following error:
+ERROR at line 1: table or view does not exist
+What would be the outcome?
+a) All the statements before the DELETE statement would be rolled back
+b) All the statements before the DELETE statement would be implicitly committed within the session
+c) All the statements up to the ALTER TABLE statement would be committed and the outcome of UPDATE statement would be rolled back
+d) All the statements up to the ALTER TABLE statement would be committed and the outcome of the UPDATE statement is retained uncommitted within the session
+View Answer
+
+Answer: d
+Explanation: Committing a transaction refers to making the changes to record in the database.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+3. Evaluate the following statements:
+
+Check this: DBMS Books | Computer Science MCQs
+CREATE TABLE digits
+(id NUMBER(2),
+description VARCHAR2(15));
+INSERT INTO digits VALUES (1,'ONE);
+UPDATE digits SET description ='TWO'WHERE id=1;
+INSERT INTO digits VALUES (2 ,'TWO');
+COMMIT;
+DELETE FROM digits;
+SELECT description FROM digits
+VERSIONS BETWEEN TIMESTAMP MINVALUE AND MAXVALUE;
+What would be the outcome of the above query?
+a) It would not display any values
+b) It would display the value TWO once
+c) It would display the value TWO twice
+d) It would display the values ONE, TWO, and TWO
+View Answer
+
+Answer: c
+Explanation: The VERSIONS BETWEEN clause of the SELECT statement is used to create a Flashback Version Query.
+4. A non-correlated subquery can be defined as________
+a) A set of sequential queries, all of which must always return a single value
+b) A set of sequential queries, all of which must return values from the same table
+c) A SELECT statement that can be embedded in a clause of another SELECT statement only
+d) A set of one or more sequential queries in which generally the result of the inner query is used as the search value in the outer query
+View Answer
+
+Answer: d
+Explanation: A noncorrelated subquery is subquery that is independent of the outer query and it can executed on its own without relying on main outer query.
+5. Which statement is true regarding synonyms?
+a) Synonyms can be created for tables but not views
+b) Synonyms are used to reference only those tables that are owned by another user
+c) A public synonym and a private synonym can exist with the same name for the same table
+d) The DROP SYNONYM statement removes the synonym, and the status of the table on which the synonym has been created becomes invalid
+View Answer
+
+Answer: c
+Explanation: A synonym is an alias or alternate name for a table, view, sequence, or other schema object. They are used mainly to make it easy for users to access database objects owned by other users.
+6. SCOTT is a user in the database.
+
+Evaluate the commands issued BY the DBA:
+1 - CREATE ROLE mgr;
+2 - GRANT CREATE TABLE, SELECT
+ON oe. orders TO mgr;
+3 - GRANT mgr, CREATE TABLE TO SCOTT;
+Which statement is true regarding the execution of the above commands?
+a) Statement 1 would not execute because the WITH GRANT option is missing
+b) Statement 1 would not execute because the IDENTIFIED BY clause is missing
+c) Statement 3 would not execute because role and system privileges cannot be granted together in a single GRANT statement
+d) Statement 2 would not execute because system privileges and object privileges cannot be granted together in a single GRANT command
+View Answer
+
+Answer: d
+Explanation: The GRANT statement is used to give privileges to a specific user or role, or to all users, to perform actions on database objects.
+7. OE and SCOTT are the users in the database. The ORDERS table is owned by OE. Evaluate the statements issued by the DBA in the following sequence:
+
+CREATE ROLE r1;
+GRANT SELECT, INSERT ON oe. orders TO r1;
+GRANT r1 TO scott;
+GRANT SELECT ON oe. orders TO scott;
+REVOKE SELECT ON oe.orders FROM scott;
+What would be the outcome after executing the statements?
+a) SCOTT would be able to query the OE.ORDERS table
+b) SCOTT would not be able to query the OE.ORDERS table
+c) The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1
+d) The REVOKE statement would give an error because the SELECT privilege has been granted to the role R1
+View Answer
+
+Answer: a
+Explanation: The REVOKE statement is used to remove privileges from a specific user or role, or from all users, to perform actions on database objects.
+8. Given below are the SQL statements executed in a user session:
+
+CREATE TABLE product
+(pcode NUMBER(2),
+pnameVARCHAR2(10));
+INSERT INTO product VALUES(1, 'pen');
+INSERT INTO product VALUES (2,'penci');
+SAVEPOINT a;
+UPDATE product SET pcode = 10 WHERE pcode = 1;
+SAVEPOINT b;
+DELETE FROM product WHERE pcode = 2;
+COMMIT;
+DELETE FROM product WHERE pcode=10;
+ROLLBACK TO SAVEPOINT a;
+Which statement describes the consequences?
+a) No SQL statement would be rolled back
+b) Both the DELETE statements would be rolled back
+c) Only the second DELETE statement would be rolled back
+d) Both the DELETE statements and the UPDATE statement would be rolled back
+View Answer
+
+Answer: d
+Explanation: The SAVEPOINT statement names and marks the current point in the processing of a transaction. With the ROLLBACK TO statement, savepoints undo parts of a transaction instead of the whole transaction.
+9. Evaluate the following command:
+
+CREATE TABLE employees (employee_id NUMBER(2) PRIMARY KEY, last_name VARCHAR2(25) NOT
+NULL, department_id NUMBER(2), job_id VARCHAR2(8), salary NUMBER(10,2));
+You issue the following command TO CREATE a VIEW that displays the IDs AND LAST names OF the sales staff IN the organization:
+CREATE OR REPLACE VIEW sales_staff_vu AS SELECT employee_id, last_name job_id FROM employees
+WHERE job_id LIKE 'SA_%' WITH CHECK OPTION;
+Which statements are true regarding the above view?
+a) It allows you to insert details of all new staff into the EMPLOYEES table
+b) It allows you to delete the details of the existing sales staff from the EMPLOYEES table
+c) It allows you to update the job ids of the existing sales staff to any other job id in the EMPLOYEES table
+d) It allows you to insert the IDs, last
+View Answer
+
+Answer: d
+Explanation: SQL Create view syntax :
+CREATE VIEW view_name AS
+SELECT column_name(s)
+FROM TABLE_NAME
+WHERE condition.
+10. EMPDET is an external table containing the columns EMPNO and ENAME. Which command would work in relation to the EMPDET table?
+a)
+
+UPDATE empdet
+SET ename = 'Amit'
+WHERE empno = 1234;
+b)
+
+DELETE FROM empdet
+WHERE ename LIKE 'J%';
+c)
+
+CREATE VIEW empvu
+AS
+SELECT* FROM empdept;
+d)
+
+CREATE INDEX empdet_idx
+ON empdet(empno);
+View Answer
+Answer: c
+Explanation: External tables are created using the SQL CREATE TABLE…ORGANIZATION EXTERNAL statement. When an external table is created, you specify type ,default directory, access parameters and location.w
+
+This set of Database Question Bank focuses on “Concurrency in Index Structures”.
+
+1. The method of access that uses key transformation is called as
+a) Direct
+b) Hash
+c) Random
+d) Sequential
+View Answer
+
+Answer: b
+Explanation: Hash technique uses particular hash key value.
+2. Why do we need concurrency control on B+ trees ?
+a) To remove the unwanted data
+b) To easily add the index elements
+c) To maintain accuracy of index
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Indices do not have to be treated like other database structures.
+3. How many techniques are available to control concurrency on B+ trees?
+a) One
+b) Three
+c) Four
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Two techniques are present.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. In crabbing protocol locking
+a) Goes down the tree and back up
+b) Goes up the tree and back down
+c) Goes down the tree and releases
+d) Goes up the tree and releases
+View Answer
+
+Answer: a
+Explanation: It moves in a crab like manner.
+5. The deadlock can be handled by
+a) Removing the nodes that are deadlocked
+b) Restarting the search after releasing the lock
+c) Restarting the search without releasing the lock
+d) Resuming the search
+View Answer
+
+Answer: b
+Explanation: Crabbing protocol moves in a crab like manner.
+Take Database Management System Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. In crabbing protocol, the lock obtained on the root node is in _________ mode.
+a) Shared
+b) Exclusive
+c) Read only
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Crabbing protocol moves in a crab like manner down the index tree.
+7. If needed to split a node or coalesce it with its siblings, or redistribute key values between siblings, the crabbing protocol locks the parent of the node in ____________ mode.
+a) Shared
+b) Exclusive
+c) Read only
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Crabbing protocol moves in a crab like manner down the index tree.
+8. In crabbing protocol to inset or delete a key value the leaf node has to be locked in ___________ mode.
+a) Shared
+b) Exclusive
+c) Read only
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Crabbing protocol moves in a crab like manner down the index tree.
+9. B-link tree requires a pointer to its __________ sibling.
+a) Upper
+b) Lower
+c) Right
+d) Left
+View Answer
+
+Answer: c
+Explanation: This pointer is required because a lookup that occurs while a node is being split may have to search not only that node but also that node’s right sibling.
+10. Instead of locking index leaf nodes in a two-phase manner, some index concurrency-control schemes use ___________ on individual key values, allowing other key values to be inserted or deleted from the same leaf.
+a) B+ tree locking
+b) Link level locking
+c) Key-value locking
+d) Next value locking
+View Answer
+
+Answer: c
+Explanation: Key-value locking thus provides increased concurrency.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Deadlocks”.
+
+1. A system is in a ______ state if there exists a set of transactions such that every transaction in the set is waiting for another transaction in the set.
+a) Idle
+b) Waiting
+c) Deadlock
+d) Ready
+View Answer
+
+Answer: c
+Explanation: When one data item is waiting for another data item in a transaction then system is in deadlock.
+2. The deadlock state can be changed back to stable state by using _____________ statement.
+a) Commit
+b) Rollback
+c) Savepoint
+d) Deadlock
+View Answer
+
+Answer: b
+Explanation: Rollback is used to rollback to the point before lock is obtained.
+3. What are the ways of dealing with deadlock?
+a) Deadlock prevention
+b) Deadlock recovery
+c) Deadlock detection
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Deadlock prevention is also called as deadlock recovery. Prevention is commonly used if the probability that the system would enter a deadlock state is relatively high; otherwise, detection and recovery are more efficient.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. When transaction Ti requests a data item currently held by Tj, Ti is allowed to wait only if it has a timestamp smaller than that of Tj (that is, Ti is older than Tj). Otherwise, Ti is rolled back (dies). This is
+a) Wait-die
+b) Wait-wound
+c) Wound-wait
+d) Wait
+View Answer
+
+Answer: a
+Explanation: The wait–die scheme is a non-preemptive technique.
+5. When transaction Ti requests a data item currently held by Tj, Ti is allowed to wait only if it has a timestamp larger than that of Tj (that is, Ti is younger than Tj ). Otherwise, Tj is rolled back (Tj is wounded by Ti). This is
+a) Wait-die
+b) Wait-wound
+c) Wound-wait
+d) Wait
+View Answer
+
+Answer: c
+Explanation: The wound–wait scheme is a preemptive technique. It is a counterpart to the wait–die scheme.
+Take Database Management System Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. The situation where the lock waits only for a specified amount of time for another lock to be released is
+a) Lock timeout
+b) Wait-wound
+c) Timeout
+d) Wait
+View Answer
+
+Answer: a
+Explanation: The timeout scheme is particularly easy to implement, and works well if transactions are short and if longwaits are likely to be due to deadlocks.
+7. The deadlock in a set of a transaction can be determined by
+a) Read-only graph
+b) Wait graph
+c) Wait-for graph
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Each transaction involved in the cycle is said to be deadlocked.
+8. A deadlock exists in the system if and only if the wait-for graph contains a ___________
+a) Cycle
+b) Direction
+c) Bi-direction
+d) Rotation
+View Answer
+
+Answer: a
+Explanation: Each transaction involved in the cycle is said to be deadlocked.
+9. Selecting the victim to be rollbacked to the previous state is determined by the minimum cost. The factors determining cost of rollback is
+a) How long the transaction has computed, and how much longer the transaction will compute before it completes its designated task
+b) How many data items the transaction has used
+c) How many more data items the transaction needs for it to complete
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: We should roll back those transactions that will incur the minimum cost.
+10. __________ rollback requires the system to maintain additional information about the state of all the running transactions.
+a) Total
+b) Partial
+c) Time
+d) Commit
+View Answer
+
+Answer: b
+Explanation: In total rollback abort the transaction and then restart it.

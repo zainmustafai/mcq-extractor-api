@@ -1,0 +1,714 @@
+[{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8ba"
+  },
+  "question": "Which of the following is correct about Oracle?",
+  "options": [
+    "Oracle is a relational database management system",
+    "Oracle was built in 1977",
+    "OracleDB is another name for it",
+    "All of the mentioned"
+  ],
+  "answer": "d",
+  "explanation": "Oracle is a relational database management system. OracleDB, or just Oracle, is another name for it. Oracle Corporation is the company that produces and sells it. Lawrence Ellison and other engineers built it in 1977.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8bb"
+  },
+  "question": "Which of the following database was designed first for enterprise grid computing?",
+  "options": [
+    "Oracle database",
+    "SQL",
+    "MongoDB",
+    "Google database"
+  ],
+  "answer": "a",
+  "explanation": "Oracle was the first database to be created specifically for enterprise grid computing and data warehousing. The most versatile and cost-effective way to handle information and applications is through enterprise grid computing.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8bc"
+  },
+  "question": "What is Oracle database used for?",
+  "options": [
+    "Creating backup for data",
+    "Accessing database servers",
+    "Store and retrieve relevant data",
+    "Both a & c"
+  ],
+  "answer": "c",
+  "explanation": "An Oracle database is a collection of data that is viewed as if it were a single entity. A database’s main goal is to store and retrieve relevant data. The key to tackling information management issues is a database server.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8bd"
+  },
+  "question": "Which of the following components comprise an Oracle architecture?",
+  "options": [
+    "Tablespaces",
+    "Datafiles",
+    "Database related background processes",
+    "All of the Mentioned"
+  ],
+  "answer": "d",
+  "explanation": "Oracle architecture consists of DB process, Table space, Datafiles.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8be"
+  },
+  "question": "Which of the following area of PGA stores binding variables and run-time buffers information?",
+  "options": [
+    "Stack space",
+    "SQL area",
+    "Session area",
+    "Private SQL area"
+  ],
+  "answer": "d",
+  "explanation": "PGA (Program Global Area) is a non-shared memory region that contains data and control information exclusively for use by an Oracle process.The PGA is created by Oracle Database when an Oracle process is started.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8bf"
+  },
+  "question": "Which of the following is the smallest unit of storage in an Oracle database?",
+  "options": [
+    "Segment",
+    "Extent",
+    "Data File",
+    "Data Block"
+  ],
+  "answer": "d",
+  "explanation": "The logical units of database space allocation are data blocks.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c0"
+  },
+  "question": "Which of the following is another name of Oracle database’s design?",
+  "options": [
+    "Database Instance",
+    "Database Schema",
+    "Database Abstraction",
+    "None of the Mentioned"
+  ],
+  "answer": "b",
+  "explanation": "Oracle database’s design is done on the schema level.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c1"
+  },
+  "question": "Which of the following is used to logically group data together?",
+  "options": [
+    "Tablespace",
+    "Datafiles",
+    "Object",
+    "Database"
+  ],
+  "answer": "a",
+  "explanation": "Oracle database consists of one or more logical storage units called tablespaces.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c2"
+  },
+  "question": "Which of the following package procedure is UNRESTRICTED in Oracle?",
+  "options": [
+    "CLEAR_BLOCK",
+    "USER_EXIT",
+    "CALL_INPUT",
+    "EXECUTE_QUERY"
+  ],
+  "answer": "b",
+  "explanation": "A user exit is a C subroutine and called by Oracle Forms to do special-purpose processing.It can display messages on the Oracle Forms status line, get and set field values, do high-speed computations and table look-ups, and manipulate Oracle data.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c3"
+  },
+  "question": "Oracle server configuration is dedicated for",
+  "options": [
+    "One server process – One user process",
+    "Many server processes – Many user processes",
+    "Many server processes – One user process",
+    "One server process – Many user processes"
+  ],
+  "answer": "a",
+  "explanation": "Single-process Oracle is a database system in which all Oracle code is executed by one process. Different processes are not used to separate execution of the parts of Oracle and the client application program. Instead, all code of Oracle and the single user’s database application is executed by a single process.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c4"
+  },
+  "question": "Which schema object instructs Oracle to connect to remotely access an object of a database?",
+  "options": [
+    "Database Link",
+    "Sequence",
+    "Data Link",
+    "Remote Link"
+  ],
+  "answer": "c",
+  "explanation": "A DATABASE LINK value references a resource outside the underlying data source through a URL.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c5"
+  },
+  "question": "When a transaction modifies the database, Oracle copies the original data before modifying it. What is the original copy of the modified data called?",
+  "options": [
+    "Redo Data",
+    "Undone Data",
+    "Undo Data",
+    "Archive Data"
+  ],
+  "answer": "c",
+  "explanation": "Before transaction happen the Oracle kept the files in Undo Data to overcome form any failure.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c6"
+  },
+  "question": "A new user on the database is created by executing the following command:",
+  "options": [
+    "The user cannot query any tables",
+    "The user can not create tables",
+    "The user can create tables",
+    "None of the Mentioned"
+  ],
+  "answer": "c",
+  "explanation": "GRANT command give access to user.GRANT CREATE SESSION, CREATE TABLE TO user01 get the access for that session to create tables.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c7"
+  },
+  "question": "Which of the following is referred to as the language used application programs to request data from the DBMS?",
+  "options": [
+    "DDL",
+    "Query language",
+    "DML",
+    "All of the Mentioned"
+  ],
+  "answer": "c",
+  "explanation": "The effect of a DML statement is not permanent until you commit the transaction that includes it. A transaction is a sequence of SQL statements that Oracle Database treats as a unit.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c8"
+  },
+  "question": "Which of the following RDBMS supports full fledged client server application development?",
+  "options": [
+    "FoxPro 2.1",
+    "Ingress",
+    "Oracle 7.1",
+    "dBase V"
+  ],
+  "answer": "c",
+  "explanation": "Oracle 7.1 support the all server-client application development.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8c9"
+  },
+  "question": "Which of the following is the subset of SQL commands used to manipulate Oracle Database structures, including tables?",
+  "options": [
+    "Data Manipulation Language(DML)",
+    "Data Definition Language(DDL)",
+    "DDL and DML",
+    "None of the Mentioned"
+  ],
+  "answer": "b",
+  "explanation": "The Data Definition Language is used to manage table and index structure.CREATE, ALTER, RENAME, DROP and TRUNCATE statements are the names of few data definition elements.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8ca"
+  },
+  "question": "Which of the following is not included in DML (Data Manipulation Language)?",
+  "options": [
+    "UPDATE",
+    "CREATE",
+    "INSERT",
+    "DELETE"
+  ],
+  "answer": "b",
+  "explanation": "The CREATE TABLE statement is used to create a table in a database.Tables are organized into rows and columns; and each table must have a name.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8cb"
+  },
+  "question": "Which of the following keyword is used with Data Control Language (DCL) statements?",
+  "options": [
+    "INSERT",
+    "SELECT",
+    "GRANT",
+    "DELETE"
+  ],
+  "answer": "c",
+  "explanation": "GRANT is the keyword which is used with Data Control Language statements.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8cc"
+  },
+  "question": "Which of the following command is used to obtain the structure of an Oracle table?",
+  "options": [
+    "DESC TABLE [TableName].",
+    "STRUCTURE [TableName].",
+    "DESCRIBE [TableName].",
+    "DESCRIBE STRUCTURE [TableName]."
+  ],
+  "answer": "c",
+  "explanation": "DESCRIBE command is used to get the structure of the Oracle Table.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8cd"
+  },
+  "question": "Which of the following is not a type of SQL statement?",
+  "options": [
+    "Data Definition Language (DDL)",
+    "Data Control Language (DCL)",
+    "Data Communication Language (DCL)",
+    "Data Manipulation Language (DML)"
+  ],
+  "answer": "c",
+  "explanation": "Data Communication Language (DCL) is not a type of SQL statement.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8ce"
+  },
+  "question": "command to use iscommand is used for removing a table and all its data from the database?",
+  "options": [
+    "Alter table command",
+    "Create command",
+    "Drop table command",
+    "All of the Mentioned"
+  ],
+  "answer": "c",
+  "explanation": "The DROP INDEX statement is used to delete an index in a table.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d1"
+  },
+  "question": "Which of the following command is used to SELECT only one copy of each set of duplicable rows in SQL?",
+  "options": [
+    "SELECT UNIQUE",
+    "SELECT DIFFERENT",
+    "SELECT DISTINCT",
+    "All of the Mentioned"
+  ],
+  "answer": "c",
+  "explanation": "The keyword allows us to grab all information from a column (or columns) on a table. This, of course, necessarily means that there will be redundancies. What if we only want to select each distinct element? This is easy way to accomplish in SQL. All we need to do is that to add after The syntax is:SELECT DISTINCT column_name FROM table_name;.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d2"
+  },
+  "question": "Which of the following is record based logical model?",
+  "options": [
+    "E-R Model",
+    "Network Model",
+    "Object oriented model",
+    "None of the Mentioned"
+  ],
+  "answer": "b",
+  "explanation": "The network model is a database model conceived as a flexible way of representing objects and their relationships.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d3"
+  },
+  "question": "Which of the following is not a Key in SQL Server?",
+  "options": [
+    "Alternate",
+    "Secondary",
+    "Foreign",
+    "Primary"
+  ],
+  "answer": "b",
+  "explanation": "Except Secondary all are the types of key in SQL server.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d4"
+  },
+  "question": "Which of the following is not a component of a data warehouse?",
+  "options": [
+    "Data metadata",
+    "Data extraction/cleaning/preparation programs",
+    "Data warehouse data",
+    "None of the Mentioned"
+  ],
+  "answer": "a",
+  "explanation": "Data warehouse is not deal with the Data metadata.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d5"
+  },
+  "question": "Which of the following is the oldest database model?",
+  "options": [
+    "Deductive",
+    "Physical",
+    "Network",
+    "Relational"
+  ],
+  "answer": "c",
+  "explanation": "Network Model is the oldest database model.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d6"
+  },
+  "question": "Which of the following object types below cannot be replicated?",
+  "options": [
+    "Sequence",
+    "Data",
+    "Trigger",
+    "View"
+  ],
+  "answer": "a",
+  "explanation": "Use the CREATE SEQUENCE statement to create a sequence, which is a database object from which multiple users may generate unique integers. You can use sequences to automatically generate primary key values.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d7"
+  },
+  "question": "What is the result of the following ‘ORA’NULL’CLE’?",
+  "options": [
+    "ORA CLE",
+    "Error",
+    "NULL",
+    "ORACLE"
+  ],
+  "answer": "d",
+  "explanation": "In Oracle NULL values represent missing unknown data.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d8"
+  },
+  "question": "The redo log buffer and Shared pool are elements of?",
+  "options": [
+    "SGA",
+    "PGA and Buffer cache",
+    "Buffer cache",
+    "PGA"
+  ],
+  "answer": "a",
+  "explanation": "SGA (System Global Area) contains Shared Pool, Database Buffer Cache, Java Pool, redo Log Buffer.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64af8b2061a8cd6c8153a8d9"
+  },
+  "question": "Which processes is an instance made of Oracle?",
+  "options": [
+    "Data processes",
+    "Oracle background processes",
+    "Memory processes",
+    "All of the Mentioned"
+  ],
+  "answer": "b",
+  "explanation": "Oracle creates a set of background processes for an instance to manage memory structure, asynchronously perform I/O to write data to disk, and do general maintenance tasks.",
+  "subject": {
+    "$oid": "64af8a3261a8cd6c8153a8a3"
+  },
+  "chapter": {
+    "$oid": "64af8ac861a8cd6c8153a8b6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64beace05d05ffd6eeb1051c"
+  },
+  "question": "_________ computing refers to applications and services that run on a distributed network using virtualized resources.",
+  "options": [
+    "Distributed",
+    "Cloud",
+    "Soft",
+    "Parallel"
+  ],
+  "answer": "b",
+  "explanation": "Cloud Computing applications are accessed by common Internet protocols and networking standards.",
+  "subject": {
+    "$oid": "64bea2c34e4fe42ecb128917"
+  },
+  "chapter": {
+    "$oid": "64bea2dd4e4fe42ecb12891e"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64beace05d05ffd6eeb1051d"
+  },
+  "question": "Point out the wrong statement.",
+  "options": [
+    "The massive scale of cloud computing systems was enabled by the popularization of the Internet",
+    "Soft computing represents a real paradigm shift in the way in which systems are deployed",
+    "Cloud computing makes the long-held dream of utility computing possible with a pay-as-you-go, infinitely scalable, universally available system",
+    "All of the mentioned"
+  ],
+  "answer": "b",
+  "explanation": "Cloud Computing is distinguished by the notion that resources are virtual and limitless and that details of the physical systems on which software runs are abstracted from the user.",
+  "subject": {
+    "$oid": "64bea2c34e4fe42ecb128917"
+  },
+  "chapter": {
+    "$oid": "64bea2dd4e4fe42ecb12891e"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64beace05d05ffd6eeb1051e"
+  },
+  "question": "________ as a utility is a dream that dates from the beginning of the computing industry itself.",
+  "options": [
+    "Model",
+    "Computing",
+    "Software",
+    "All of the mentioned"
+  ],
+  "answer": "b",
+  "explanation": "Cloud computing takes the technology, services, and applications that are similar to those on the Internet and turns them into a self-service utility.",
+  "subject": {
+    "$oid": "64bea2c34e4fe42ecb128917"
+  },
+  "chapter": {
+    "$oid": "64bea2dd4e4fe42ecb12891e"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64beace05d05ffd6eeb1051f"
+  },
+  "question": "Which of the following is essential concept related to Cloud?",
+  "options": [
+    "Reliability",
+    "Productivity",
+    "Abstraction",
+    "All of the mentioned"
+  ],
+  "answer": "c",
+  "explanation": "Cloud computing abstracts the details of system implementation from users and developers.",
+  "subject": {
+    "$oid": "64bea2c34e4fe42ecb128917"
+  },
+  "chapter": {
+    "$oid": "64bea2dd4e4fe42ecb12891e"
+  },
+  "__v": 0
+}]

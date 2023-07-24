@@ -1,0 +1,421 @@
+1. Several protocols for upper layers in bluetooth use _________
+a) UDP
+b) HSP
+c) ITC
+d) L2CAP
+View Answer
+
+Answer: d
+Explanation: L2CAP is Logical Link, Control Adaptation Protocol Layer. The logical unit link control adaptation protocol is equivalent to logical link control sub layer of LAN. The ACL link uses L2CAP for data exchange. The various function of L2CAP is segmentation and reassembly, multiplexing and quality of service.
+2. Protocols are set of rules to govern _________
+a) Communication
+b) Standard
+c) Metropolitan communication
+d) Bandwidth
+View Answer
+
+Answer: a
+Explanation: A protocol is a set of rules that governs the communications between computers on a network. These rules include guidelines that regulate the characteristics of a network including access method, allowed physical topologies, types of cabling, and speed of data transfer.
+3. An internet is a __________
+a) Collection of WANS
+b) Network of networks
+c) Collection of LANS
+d) Collection of identical LANS and WANS
+View Answer
+
+Answer: b
+Explanation: Internet is a massive network of networks, a networking infrastructure. It connects millions of computers together globally, forming a network in which any computer can communicate with any other computer as long as they are both connected to the Internet.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Checksum is used in Internet by several protocols although not at the _________
+a) Session layer
+b) Transport layer
+c) Network layer
+d) Data link layer
+View Answer
+
+Answer: d
+Explanation: The checksum is used in the Internet by several protocols although not at the data link layer. Like linear and cyclic codes, the checksum is based on the concept of redundancy. Several protocols still use the checksum for error detection.
+5. In version field of IPv4 header, when machine is using some other version of IPv4 then datagram is __________
+a) Discarded
+b) Accepted
+c) Interpreted
+d) Interpreted incorrectly
+View Answer
+
+Answer: a
+Explanation: A 4 bit field defines the version of IPv4 protocol. This field tells the software running in the processing machine that the datagram has the format of version 4. If the machine is using some other version of IPv4, the datagram is discarded rather than interpreted incorrectly.
+Check this: Electronics & Communication Engineering Books | Electrical Engineering Books
+6. Network layer at source is responsible for creating a packet from data coming from another ________
+a) Station
+b) Link
+c) Node
+d) Protocol
+View Answer
+
+Answer: d
+Explanation: ‘The network layer at the source is responsible for creating a packet from the data coming from another’ protocol (such as a transport layer protocol or a routing protocol). The network layer is responsible for checking its routing table to find the routing information.
+7. Header of datagram in IPv4 has _________
+a) 0 to 20 bytes
+b) 20 to 40 bytes
+c) 20 to 60 bytes
+d) 20 to 80 bytes
+View Answer
+
+Answer: c
+Explanation: IP header length is a minimum of 20 bytes and a maximum of 60 bytes. The minimum value for this field is 5, which is a length of 5×32 = 160 bits = 20 bytes. Being a 4-bit value, the maximum length is 15 words (15×32 bits) or 480 bits = 60 bytes.
+8. In IPv4 layer, datagram is of ________
+a) Fixed length
+b) Variable length
+c) Global length
+d) Zero length
+View Answer
+
+Answer: b
+Explanation: ‘IPv4 is a connectionless protocol used for packet switched networks. It operates on best effort delivery model, in which neither delivery is guaranteed, nor proper sequencing or avoidance of duplicate delivery is assured. The size of the datagram header can be of variable length from 20 bytes to 60 bytes.’
+9. In IPv4, service type of service in header field, first 3 bits are called ______
+a) Type of service
+b) Code bits
+c) Sync bits
+d) Precedence bits
+View Answer
+
+Answer: d
+Explanation: The 8-bit ToS (type of service) in IPv4 uses 3 bits for IP Precedence, 4 bits for ToS with the last bit not being used. The 4-bit ToS field, although defined, has never been used.
+10. Which is a link layer protocol?
+a) ARP
+b) TCP
+c) UDP
+d) HTTP
+View Answer
+
+Answer: b
+Explanation: ‘In computer networking, the link layer is the lowest layer in the Internet Protocol Suite. It is commonly known as TCP/IP, the networking architecture of the Internet. It is described in RFC 1122 and RFC 1123.’
+11. Which protocol is commonly used to retrieve email from a mail server?
+a) FTP
+b) IMAP
+c) HTML
+d) TELNET
+View Answer
+
+Answer: b
+Explanation: ‘The Internet Message Access Protocol (IMAP) is a mail protocol used for accessing email on a remote web server from a local client. IMAP is the most commonly used Internet mail protocols for retrieving emails. It is supported by all modern email clients and web servers.’
+1. What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?
+a) Application
+b) Host to host
+c) Internet
+d) Network Access
+View Answer
+
+Answer: b
+Explanation: The four layers of the TCP/IP stack (also called the DoD model) are Application/Process, Host-to-Host, Internet, and Network Access. The Host-to-Host layer is equivalent to the Transport layer of the OSI model.
+2. You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?
+a) SMTP
+b) SNMP
+c) DHCP
+d) ARP
+View Answer
+
+Answer: c
+Explanation: Dynamic Host Configuration Protocol (DHCP) is used to provide IP information to hosts on your network. DHCP can provide a lot of information, but the most common is the IP address, subnet mask, default gateway, and DNS information.
+3. The DoD model (also called the TCP/IP stack) has four layers. Which layer of the DoD model is equivalent to the Network layer of the OSI model?
+a) Application
+b) Host to Host
+c) Internet
+d) Network Access
+View Answer
+
+Answer: c
+Explanation: The four layers of the DoD model are Application/Process, Host-to-Host, Internet, and Network Access. The Internet layer is equivalent to the Network layer of the OSI model.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following protocols uses both TCP and UDP?
+a) FTP
+b) SMTP
+c) Telnet
+d) DNS
+View Answer
+
+Answer: d
+Explanation: DNS and some other services work on both TCP and the UDP protocols. DNS uses TCP for zone exchanges between servers and UDP when a client is trying to resolve a hostname to an IP address.
+5. Length of Port address in TCP/IP is _________
+a) 4bit long
+b) 16bit long
+c) 32bit long
+d) 8 bit long
+View Answer
+
+Answer: b
+Explanation: TCP and UDP port numbers are 16 bits in length. So, valid port numbers can theoretically take on values from 0 to 65,535. These values are divided into ranges for different purposes, with certain ports reserved for particular uses.
+Get Free Certificate of Merit in Wireless and Mobile Communications Now!
+6. TCP/IP layer is equivalent to combined Session, Presentation and _________
+a) Network layer
+b) Application layer
+c) Transport layer
+d) Physical layer
+View Answer
+
+Answer: b
+Explanation: TCP/IP network model is a hierarchical protocol made up of interactive modules, each of which provides a specific functionality; however, the modules are not necessarily interdependent. It is equivalent to combined session, presentation and application layer.
+7. How many levels of addressing is provided in TCP/IP protocol?
+a) One
+b) Two
+c) Three
+d) Four
+View Answer
+
+Answer: d
+Explanation: Four levels of addresses are used in the internet employing the TCP/IP protocols. They are physical (link) addresses, logical (IP) addresses, port addresses, and specific addresses.
+8. Virtual terminal protocol is an example of _________
+a) Network layer
+b) Application layer
+c) Transport layer
+d) Physical layer
+View Answer
+
+Answer: b
+Explanation: In open systems, a virtual terminal (VT) is an application service. It allows host terminals on a multi-user network to interact with other hosts regardless of terminal type and characteristics.
+9. TCP/IP is related to __________
+a) ARPANET
+b) OSI
+c) DECNET
+d) ALOHA
+View Answer
+
+Answer: a
+Explanation: In 1983, TCP/IP protocols replaced NCP (Network Control Program) as the ARPANET’s principal protocol. And ARPANET then became one component of the early Internet. The starting point for host-to-host communication on the ARPANET in 1969 was the 1822 protocol, which defined the transmission of messages to an IMP.
+10. A device operating at network layer is called __________
+a) Router
+b) Equalizer
+c) Bridge
+d) Repeater
+View Answer
+
+Answer: a
+Explanation: A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. It supports different network layer transmission standards. Each network interface is used to enable data packets to be forwarded from one transmission system to another.
+11. A device operating at physical layer is called __________
+a) Router
+b) Equalizer
+c) Bridge
+d) Repeater
+View Answer
+
+Answer: d
+Explanation: A repeater connects two segments of your network cable. It retimes and regenerates the signals to proper amplitudes and sends them to the other segments. Repeaters work only at the physical layer of the OSI network model.
+1. A packet in Transmission Control Protocol (TCP) is called a ____________
+a) Transmittable slots
+b) Packet
+c) Segment
+d) Source Slots
+View Answer
+
+Answer: c
+Explanation: Applications working at the Application Layer transfers a contiguous stream of bytes to the bottom layers. It is the duty of TCP to pack this byte stream to packets, known as TCP segments, which are passed to the IP layer for transmission to the destination device.
+2. Cable TV and DSL are examples of ____________
+a) Interconnection of network
+b) LAN
+c) MAN
+d) WAN
+View Answer
+
+Answer: c
+Explanation: A MAN often acts as a high speed network to allow sharing of regional resources. It typically covers an area of between 5 and 50 km diameter. Examples of MAN are telephone company network that provides a high speed DSL to customers and cable TV network.
+3. Station on a wireless ALOHA network is maximum of ________
+a) 400 Km
+b) 500 Km
+c) 600 Km
+d) 700 Km
+View Answer
+
+Answer: c
+Explanation: The stations on wireless ALOHA networks are a maximum of 600 km apart. It was designed for a radio (wireless) LAN, but it can be used on any shared medium. It is obvious that there are potential collisions in this arrangement. The medium is shared between the stations.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. IEEE 802.11 defines basic service set as building block of a wireless ___________
+a) LAN
+b) WAN protocol
+c) MAN
+d) ALOHA
+View Answer
+
+Answer: a
+Explanation: The IEEE 802.11 topology consists of components interacting to provide a wireless LAN. It enables station mobility transparent to higher protocol layers, such as the LLC.
+5. In wireless LAN, there are many hidden stations so that __________ cannot be detected.
+a) Frames
+b) Collision
+c) Signal
+d) Data
+View Answer
+
+Answer: b
+Explanation: In wireless networking, the hidden node problem or hidden terminal problem occurs when a node is visible from a wireless access point (AP), but not from other nodes communicating with said AP. This leads to difficulties in media access control and collisions could not be detected.
+Take Wireless and Mobile Communications Tests Now!
+6. A set that makes stationary or mobile wireless station and also have optional central base station is known as ___________
+a) Basic service set
+b) Extended service set
+c) Network point set
+d) Access point
+View Answer
+
+Answer: a
+Explanation: A set that makes stationary or mobile wireless station and also have optional central base station is known as a basic service set. BSS is made of stationary or mobile wireless stations and an optional central base station, known as the access point (AP).
+7. Wireless communication started in _________
+a) 1869
+b) 1895
+c) 1879
+d) 1885
+View Answer
+
+Answer: b
+Explanation: In England, Guglielmo Marconi began his wireless experiments in 1895. On 2 June 1896, he filed his provisional specification of a patent for wireless telegraphy. He demonstrated the system to the British Post Office in July.
+8. Wireless transmission is divided into ___________
+a) 3 broad groups
+b) 6 broad groups
+c) 9 broad groups
+d) 8 broad groups
+View Answer
+
+Answer: a
+Explanation: We can divide wireless transmission into three broad groups: radio waves, microwaves, and infrared waves. Radio waves are used for multicast communications, such as AM and FM radio, television, maritime radio, cordless phones and paging systems. Microwave propagation is line-of-sight.
+9. Transmission Control Protocol/Internet Networking Protocol have ___________
+a) Four Layers
+b) Five Layers
+c) Six Layers
+d) Seven Layers
+View Answer
+
+Answer: a
+Explanation: TCP/IP functionality is divided into four layers, each with its own set of agreed-upon protocols: The datalink layer consists of methods and protocols that operate only on a link. The Internet layer connects independent networks to transport the packets. The Transport layer handles communications between. The Application layer standardizes data exchange for applications.
+10. Packets of data that is transported by IP is called __________
+a) Datagrams
+b) Frames
+c) Segments
+d) Encapsulate message
+View Answer
+
+Answer: a
+Explanation: The format of data that can be recognized by IP is called an IP datagram. It consists of two components, the header and data, which need to be transmitted. The fields in the datagram, except the data, have specific roles to perform in the transmission of data.
+11. Parameter that is normally achieved through a trailer added to end of frame is ___________
+a) Access Control
+b) Flow Control
+c) Error Control
+d) Physical addressing
+View Answer
+
+Answer: c
+Explanation: The data link layer adds reliability to the physical layer by adding mechanisms to detect and retransmit damaged or lost frames. It also uses a mechanism to recognize duplicate frames. Error control is normally achieved through a trailer added to the end of the frame.
+1. IPv6 has a larger address space of _________
+a) 216
+b) 2128
+c) 232
+d) 28
+View Answer
+
+Answer: b
+Explanation: The main advantage of IPv6 over IPv4 is its larger address space. The length of an IPv6 address is 128 bits, compared with 32 bits in IPv4. The address space therefore has 2128 or approximately 3.4×1038 addresses.
+2. Three strategies used to handle transition from version 4 to version 6 are dual-stack, tunneling and ________
+a) Header Switching
+b) Header Translation
+c) Header Transfer
+d) Header Transmission
+View Answer
+
+Answer: b
+Explanation: Three strategies used to handle transition from version 4 to version 6 are dual-stack, tunneling and header translation. Header translation techniques are more complicated than IPv4 NAT because the protocols have different header formats.
+3. MTU stands for _________
+a) Minimum Transfer Unit
+b) Maximum Transfer Unit
+c) Maximum Transport Unit
+d) Maximum Transmission Unit
+View Answer
+
+Answer: d
+Explanation: In computer networking, the maximum transmission unit (MTU) is the size of the largest network layer protocol data unit that can be communicated in a single network transaction.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. In IPv6, real-time audio or video, particularly in digital form, requires resources such as __________
+a) Fixed Bandwidth
+b) Variable Bandwidth
+c) High Bandwidth
+d) Low Bandwidth
+View Answer
+
+Answer: c
+Explanation: In IPv6, real-time audio or video, particularly in digital form, requires resources such as high bandwidth, large buffers, long processing times, and so on. A process can make a reservation for these resources beforehand to guarantee that real time data will not be delayed.
+5. In practical IPv6 application, a technology encapsulates IPv6 packets inside IPv4 packets, this technology is called _______
+a) Tunneling
+b) Hashing
+c) Routing
+d) NAT
+View Answer
+
+Answer: a
+Explanation: IPv6 tunneling enables IPv6 hosts and routers to connect with other IPv6 hosts and routers over the existing IPv4 Internet. The main purpose of IPv6 tunneling is to deploy IPv6 as well as maintain compatibility with large existing base of IPv4 hosts and routers.
+Check this: Electrical Engineering MCQs | Electronics & Communication Engineering Books
+6. Which one of the following descriptions about IPv6 is correct?
+a) Addresses are not hierarchical and are assigned at random
+b) Broadcasts have been eliminated and replaced with multicasts
+c) There are 2.7 billion available addresses
+d) An interface can only be configured with one IPv6 address
+View Answer
+
+Answer: b
+Explanation: In IPv6, there’s no longer any broadcast, sending one packet to a large number of unspecified hosts. There’s only multicast, unicast and anycast. In IPv6 all nodes are required to support multicast.
+7. The header length of an IPv6 datagram is ___________
+a) 10bytes
+b) 25bytes
+c) 30bytes
+d) 40bytes
+View Answer
+
+Answer: d
+Explanation: IPv6 datagram has fixed header length of 40bytes. It results in faster processing of the datagram. Fixed length IPv6 header allows the routers to process the IPv6 datagram packets more efficiently.
+8. In the IPv6 header, the traffic class field is similar to which field in the IPv4 header?
+a) Fragmentation field
+b) Fast switching
+c) TOS field
+d) Option field
+View Answer
+
+Answer: c
+Explanation: This field enables to have different types of IP datagram. In an IPv6 packet, the Traffic Class byte is used in the same way as the ToS byte in an IPv4 packet. A ToS/Traffic Class byte includes a DSCP (Differentiated Services Codepoint) and precedence bits.
+9. Which are the features present in IPv4 but not in IPv6?
+a) Fragmentation
+b) Header checksum
+c) Options
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the features are only present in IPv4 and not IPv6. IPv6 no longer has a header checksum to protect the IP header, meaning that when a packet header is corrupted by transmission errors, the packet is very likely to be delivered incorrectly.
+10. IPv6 is designed to allow extension of the _________
+a) Protocol
+b) Dataset
+c) Headers
+d) Routes
+View Answer
+
+Answer: a
+Explanation: IPv6 is designed to allow the extension of the protocol if required by new technologies or applications. IPv6 uses a new header format in which options are separated from the base header and inserted, when needed, between the base header and upper-layer data.
+11. In IPv6, base header can be followed by, up to _________
+a) Six Extension Layers
+b) Six Extension Headers
+c) Eight Extension headers
+d) Eight Extension layers
+View Answer
+
+Answer: b
+Explanation: The length of the base header is 40 bytes. However, to give more functionality to the IP datagram, the base header can be followed by up to six extension headers.
+12. In an IPv6 datagram, M bit is 0, value of HLEN is 5, value of total length is 200 and offset value is ___________
+a) 400
+b) 350
+c) 300
+d) 200
+View Answer
+
+Answer: d
+Explanation: In an IPv6 datagram, M bit is 0, value of HLEN is 5, the value of total length is 200 and offset value is 200. If the M bit is 0, it means there are no more fragments, the fragment is the last name.

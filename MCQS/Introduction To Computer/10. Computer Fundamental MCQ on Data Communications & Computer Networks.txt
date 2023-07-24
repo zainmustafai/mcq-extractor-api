@@ -1,0 +1,433 @@
+1. A term that defines the direction of flow of information between devices.
+a) interconnectivity
+b) intra connectivity
+c) transmission mode
+d) transmission
+View Answer
+
+Answer: c
+Explanation: The term transmission mode defines the direction of flow of information between two communication devices. It tells the direction of signal flow.
+2. Transmission mode controls the direction of signal flow.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. The term transmission mode defines the direction of flow of information between two communication devices. It tells the direction of signal flow between two devices.
+3. Which of the following isn’t a type of transmission mode?
+a) physical
+b) simplex
+c) full duplex
+d) half duplex
+View Answer
+
+Answer: a
+Explanation: There are three modes of transmission: simplex, half duplex and full duplex. Transmission modes tell the direction of signal flow between two devices.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A transmission that generally involves dedicated circuits.
+a) simplex
+b) half duplex
+c) full duplex
+d) semi-duplex
+View Answer
+
+Answer: a
+Explanation: The answer is simplex. Simplex generally involves dedicated circuits. TV broadcasting is an example.
+5. A transmission mode that can transmit data in both the directions but transmits in only one direction at a time.
+a) simplex
+b) half duplex
+c) full duplex
+d) semi-duplex
+View Answer
+
+Answer: b
+Explanation: The half duplex mode supports two way traffic but only in one direction at a time. The interactive transmission of data within a time sharing system may be best suited to half-duplex lines.
+Become Top Ranker in Computer Fundamentals Now!
+6. A communication between a computer and a keyboard involves ____________ duplex transmission.
+a) simplex
+b) half duplex
+c) full duplex
+d) semi-duplex
+View Answer
+
+Answer: a
+Explanation: It involves simplex duplex transmission. Another example of a simplex duplex transmission is loudspeaker system.
+7. Telephone networks operate in this mode.
+a) simplex
+b) half duplex
+c) full duplex
+d) semi-duplex
+View Answer
+
+Answer: c
+Explanation: Telephone networks operate in full duplex mode. It can transmit data in both the directions.
+8. Fire alarms are based on this type of transmission:
+a) direct
+b) network
+c) analog
+d) multiple
+View Answer
+
+Answer: c
+Explanation: Analog transmission is a technique of transmitting voice, data, image, signal or video information. Fire alarm systems work in the same way.
+9. A technique of transmitting data or images or videos (information) using a continuous signal.
+a) direct
+b) network
+c) analog
+d) multiple
+View Answer
+
+Answer: c
+Explanation: Analog is a technique of transmitting data or images or videos (information) using a continuous signal, which varies in amplitude, phase or some other property.
+10. A walkie-talkie operates in ____________
+a) simplex
+b) half duplex
+c) full duplex
+d) semi-duplex
+View Answer
+
+Answer: b
+Explanation: A walkie-talkie operates in half duplex mode. It can only send or receive a transmission at any given time.
+1. A coaxial cable has a bandwidth of _________ of megahertz.
+a) 100
+b) 150
+c) 1000
+d) 10000
+View Answer
+
+Answer: a
+Explanation: A coaxial cable has a bandwidth of 100’s of Mhz. Baseband speed is in a few KHz. Multiplexing improves channel bandwidth utilization.
+2. In TDM, the samples occupy adjacent time slots.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. The TDM technique is based on sampling and they occupy adjacent slots and are transmitted in a sequence.
+3. The carrier wave is a _________
+a) tan wave
+b) cosec wave
+c) sine wave
+d) cot wave
+View Answer
+
+Answer: c
+Explanation: The carrier wave is generally a sine wave. Carrier wave is used to transfer the signal from source to destination.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Controlling the phase is referred as __________
+a) modulation
+b) half modulation
+c) amplitude modulation
+d) phase modulation
+View Answer
+
+Answer: d
+Explanation: It is referred to as phase modulation. When there is a change in amplitude, it is referred to as amplitude modulation.
+5. A transmission mode that can transmit data in both the directions but transmits in only one direction at a time.
+a) simplex
+b) half duplex
+c) full duplex
+d) semi-duplex
+View Answer
+
+Answer: b
+Explanation: The half duplex mode supports two way traffic but only in one direction at a time.
+Take Computer Fundamentals Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. A multiplexing technique based on sampling.
+a) FDM
+b) TDM
+c) SDM
+d) FM
+View Answer
+
+Answer: b
+Explanation: TDM which stands for Time division multiplexing is based on sampling which is a modulation technique.
+7. An example of FDM:
+a) broadcast radio
+b) telephone
+c) machines
+d) semi-duplex
+View Answer
+
+Answer: a
+Explanation: Broadcast radio is an example of FDM. This allows several messages to be translated from baseband.
+8. FDM stands for?
+a) Frequency Division Multiplexing
+b) Frequency Dependent Multiplexing
+c) Frequency Diverged Multiplexing
+d) Frequency Derived Multiplexing
+View Answer
+
+Answer: a
+Explanation: FDM stands for Frequency Division Multiplexing. This allows several messages to be translated from baseband, where they are all in the same frequency.
+9. A modulation technique that improves channel bandwidth utilization.
+a) direct
+b) modulation
+c) demodulation
+d) multiplexing
+View Answer
+
+Answer: d
+Explanation: Multiplexing is a modulation technique that improves channel bandwidth utilization.
+10. The purpose of communication system is to transfer information from _______ to the destination.
+a) user
+b) source
+c) system
+d) station
+View Answer
+
+Answer: b
+Explanation: The answer is source. A communication system transfers information from source to the destination.
+1. WDM stands for?
+a) Wave division multiplexing
+b) Wavelength division multiplexing
+c) Wavelength dependent multiplexing
+d) Wave dependent multiplexing
+View Answer
+
+Answer: b
+Explanation: It stands for Wavelength division multiplexing. It has same general architecture as FDM. FDM is frequency division multiplexing.
+2. In TDM, the samples occupy adjacent time slots.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. The TDM technique is based on sampling and they occupy adjacent slots and are transmitted in a sequence.
+3. In this type of multiplexing time slots are preassigned to sources and fixed.
+a) TDM
+b) Synchronous TDM
+c) Asynchronous TDM
+d) FDM
+View Answer
+
+Answer: b
+Explanation: TDM is time division multiplexing. Data rate of medium exceeds data rate of digital signal to be transmitted.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Controlling the frequency is referred as _________
+a) frequency modulation
+b) hertz modulation
+c) amplitude modulation
+d) phase modulation
+View Answer
+
+Answer: a
+Explanation: It is referred to as frequency modulation. When there is a change in frequency, it is referred to as frequency modulation.
+5. A technique that can be a solution to the problem of synchronizing data sources.
+a) framing
+b) data link control
+c) full link control
+d) pulse stuffing
+View Answer
+
+Answer: d
+Explanation: Pulse stuffing is a technique that can be a solution to the problem of synchronizing data sources. In pulse stuffing, the outgoing data rate is higher than sum of incoming rates.
+Check this: BCA MCQs | Information Technology MCQs
+6. For voice, each channel contains a ___ word of digitized data.
+a) 2
+b) 1
+c) 0
+d) 4
+View Answer
+
+Answer: b
+Explanation: In digital carrier systems, for voice each channel contains one word of digitized data. The data rate is 1.544 Mbps. Five out of six frames have 8 bit PCM samples.
+7. Many time slots are wasted in __________
+a) TDM
+b) Synchronous TDM
+c) Asynchronous TDM
+d) FDM
+View Answer
+
+Answer: b
+Explanation: In Synchronous TDM, many time slots are wasted. Other techniques can help overcome this problem.
+8. A technique that allocates time slots dynamically.
+a) TDM
+b) WDM
+c) Dynamic TDM
+d) Statistical TDM
+View Answer
+
+Answer: d
+Explanation: Statistical TDM assigns time slots dynamically. They are allocated based on demand. Multiplexer scans input lines and collects data until the frame is full.
+9. A system in which two channels are dedicated to transfer data.
+a) TV
+b) Cable
+c) Modem
+d) Cable modem
+View Answer
+
+Answer: d
+Explanation: A cable modem has two dedicated channels from cable TV provider dedicated to data transfer. One in each direction.
+10. In this technique, there is a link between subscriber and network and a local loop.
+a) SSDL
+b) DSDL
+c) ASDL
+d) TSDL
+View Answer
+
+Answer: c
+Explanation: In ASDL, there is a link between the subscriber and the network. It uses currently installed twisted pair cable.
+4. A term that refers to the way in which the nodes of a network are linked together.
+a) network
+b) topology
+c) connection
+d) interconnectivity
+View Answer
+
+Answer: b
+Explanation: Topology is a term that refers to the way in which the nodes are connected. There are 4 major topology networks.
+5. A network comprising o multiple topologies.
+a) Complex
+b) Hybrid
+c) Bus
+d) Star
+View Answer
+
+Answer: b
+Explanation: A hybrid network consists of multiple topologies. It can comprise a ring, a star and other topologies. We call this arrangement as a hybrid network.
+Get Free Certificate of Merit in Computer Fundamentals Now!
+6. The participating computers in a network are referred to as:
+a) Clients
+b) Servers
+c) Nodes
+d) CPUs
+View Answer
+
+Answer: c
+Explanation: They are referred to as the nodes. There are several topologies designed for arrangements of these nodes like bus, star, etc.
+7. A topology that involves Tokens.
+a) Star
+b) Ring
+c) Bus
+d) Daisy Chaining
+View Answer
+
+Answer: b
+Explanation: Ring topology involves sending and receiving of data with the help of tokens. Ring started out as a simple peer-to-peer LAN topology.
+8. A ____________WAN can be developed using leased private lines or any other transmission facility
+a) Hybrids
+b) peer-to-peer
+c) Two-tiered
+d) Three-tiered
+View Answer
+
+Answer: b
+Explanation: A peer-to-peer WAN topology is a relatively simple way of interconnecting a small number of sites. It has the least-cost solution for WANs that contain a small number of internetworked locations.
+9. A serially connected system of all the hubs of networks.
+a) Bus
+b) Ring
+c) Daisy chains
+d) Star
+View Answer
+
+Answer: c
+Explanation: The correct option is Daisy chain. This simple approach uses ports on existing hubs for interconnecting the hubs.
+10. A piece of information which is sent along with the data to the source computer.
+a) data
+b) module
+c) token
+d) element
+View Answer
+
+Answer: c
+Explanation: Token is the information that is sent to the source computer along with the data. This token is then passed to the next node.
+1. Configuration where many independent computer systems are connected.
+a) Complex
+b) Distributed
+c) Cloud
+d) Incremental
+View Answer
+
+Answer: b
+Explanation: Distributed configuration has many systems connected, and messages, programs, etc are transmitted between cooperating computer systems.
+2. Partial mesh is a highly flexible topology that can take a variety of very different configurations.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. Partial mesh is a highly flexible topology that can take a variety of very different configurations. The routers are tightly coupled than the basic topologies. But they are not fully interconnected, as would be the case in a fully meshed network.
+3. Components used for interconnecting dissimilar networks that use different communication protocols.
+a) Switches
+b) Gateways
+c) Routers
+d) Bridges
+View Answer
+
+Answer: b
+Explanation: Gateways are used for this purpose. Gateways interconnect dissimilar networks, protocol conversion is performed by them.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A topology is a modified version of the basic star topology.
+a) network
+b) two-tiered
+c) bus
+d) ring
+View Answer
+
+Answer: b
+Explanation: A two-tiered topology is a modified version of the basic star topology. Rather than single concentrator routers, two or more routers are used.
+5. WANs that need to interconnect a very large number of sites.
+a) bus
+b) two-tiered
+c) three-tiered
+d) ring
+View Answer
+
+Answer: c
+Explanation: Wide Area Networks that need to interconnect a very large number of sites, or are built using smaller routers that can support only a few serial connections, may find the two-tiered architecture insufficiently scalable.
+Become Top Ranker in Computer Fundamentals Now!
+6. Components that operate at the network layer of the OSI model.
+a) Switches
+b) Servers
+c) Routers
+d) Gateways
+View Answer
+
+Answer: c
+Explanation: They are referred to as the routers. They are used for interconnecting those networks that use the same high-level protocols above network layer.
+7. A topology that involves Tokens.
+a) Star
+b) Ring
+c) Bus
+d) Daisy Chaining
+View Answer
+
+Answer: b
+Explanation: Ring topology involves sending and receiving of data with the help of tokens. Ring started out as a simple peer-to-peer LAN topology.
+8. ____________ operate at bottom two layers of the OSI model.
+a) Bridges
+b) Switches
+c) Models
+d) Modules
+View Answer
+
+Answer: a
+Explanation: Bridges operate at the bottom two layers of the OSI model. It connects networks that use the same communication protocols above data-link layer.
+9. Connecting two or more networks to form a single network is called :
+a) Internetworking
+b) Intranetworking
+c) Interconnecting
+d) Intraconnectivity
+View Answer
+
+Answer: a
+Explanation: Connecting two or more networks to form a single network is called internetworking and the resultant network is called internetwork.
+10. OSI stands for?
+a) Open Site Interconnection
+b) Open System Interdependence
+c) Open System Interconnection
+d) Open Site Interdependence
+View Answer
+
+Answer: c
+Explanation: OSI is open system interconnection. It is a framework for defining standards for linking heterogeneous computers in a packet switched network.

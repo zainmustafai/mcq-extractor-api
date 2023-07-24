@@ -1,0 +1,447 @@
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Xor Linked List”.
+
+1. What is xor linked list?
+a) uses of bitwise XOR operation to decrease storage requirements for doubly linked lists
+b) uses of bitwise XOR operation to decrease storage requirements for linked lists
+c) uses of bitwise operations to decrease storage requirements for doubly linked lists
+d) just another form of linked list
+View Answer
+
+Answer: a
+Explanation: Why we use bitwise XOR operation is to decrease storage requirements for doubly linked lists.
+2. What does a xor linked list have?
+a) every node stores the XOR of addresses of previous and next nodes
+b) actuall memory address of next node
+c) every node stores the XOR of addresses of previous and next two nodes
+d) every node stores xor 0 and the current node address
+View Answer
+
+Answer: a
+Explanation: Every node stores the XOR of addresses.
+3. What does first and last nodes of a xor linked lists contain ? (let address of first and last be A and B)
+a) NULL xor A and B xor NULL
+b) NULL and NULL
+c) A and B
+d) NULL xor A and B
+View Answer
+
+Answer: a
+Explanation: NULL xor A and B xor NULL.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which of the following is an advantage of XOR list?
+a) Almost of debugging tools cannot follow the XOR chain, making debugging difficult
+b) You need to remember the address of the previously accessed node in order to calculate the next node’s address
+c) In some contexts XOR of pointers is not defined
+d) XOR list decreases the space requirement in doubly linked list
+View Answer
+
+Answer: d
+Explanation: XOR linked list stores the address of previous and next nodes by performing XOR operations. It requires single pointer to store both XOR address of next and previous nodes. Thus it reduces space. It is an advantage. But the main disadvantages are debugging tools cannot follow XOR chain, previous node address must be remembered to get next nodes and pointers are not defined accurately.
+5. Which of the following is not the properties of XOR lists?
+a) X⊕X = 0
+b) X⊕0 = X
+c) (X⊕Y)⊕Z = X⊕(Y⊕Z)
+d) X⊕0 = 1
+View Answer
+
+Answer: d
+Explanation: The important properties of XOR lists are X⊕X=0, X⊕0=X and (X⊕Y)⊕Z = X⊕(Y⊕Z).
+Check this: Programming Books | Computer Science Books
+6. Which of the following statements are true?
+i) practical application of XOR linked lists are in environments with limited space requirements, such as embedded devices.
+ii)xor lists are not suitable because most garbage collectors will fail to work properly with classes or structures that don’t contain literal pointers
+iii)in order to calculate the address of the next node you need to remember the address of the previous node
+iv)xor lists are much efficient than single, doubly linked lists and arrays
+a) i, ii, iii, iv
+b) i, ii, iii
+c) i, ii
+d) i
+View Answer
+
+Answer: b
+Explanation: Xor lists requires same time for most of the operations as arrays would require.
+7. What’s wrong with this code which returns xor of two nodes address ?
+
+//struct is common userdefined datatype in c/c++ and class is it's alternative
+ 
+struct node* XOR (struct node *a, struct node *b) 
+{
+    //this logic is used to fill the nodes with address of a xor linked list
+    return  ((int) (a) ^ (int) (b));   
+}
+a) nothing wrong. everything is fine
+b) type casting at return is missing
+c) parameters are wrong
+d) total logic is wrong
+View Answer
+
+Answer: b
+Explanation: It must be typecasted– return (struct node*)((int) (a) (int) (b));
+8. Given 10,8,6,7,9
+swap the above numbers such that finally you got 6,7,8,9,10
+so now reverse 10
+9,7,6,8,10
+now reverse 9
+8,6,7,9,10
+7,6,8,9,10
+6,7,8,9,10
+at this point 6 is ahead so no more reversing can be done so stop.
+To implement above algorithm which datastructure is better and why ?
+a) linked list. because we can swap elements easily
+b) arrays. because we can swap elements easily
+c) xor linked list. because there is no overhead of pointers and so memory is saved
+d) doubly linked list. because you can traverse back and forth
+View Answer
+
+Answer: c
+Explanation: XOR linked lists are used to reduce the memory by storing the XOR values of address instead of actual address in pointers.
+9. Consider the following pseudocode of insertion in XOR list and write the approximate code snippet of it.
+
+void xor-linked-list insert(struct node **head_ref, int value)
+{
+    node *new_node  = new (struct node);
+    new_node->value = value;
+    new_node->nodepointerxored = xor (*head_ref, NULL);
+    if (*head_pointer == NULL)
+    {
+        printf("invalid");
+    }
+    else
+    {
+        let b,c,d are nodes and a is to be inserted at beginning,
+        a address field must contain NULL xor b and b 
+        address filed must be a xor c.
+    }
+    *head_pointer = new_node;
+}
+a)
+
+node* next = XOR ((*head_ref)->npx,  NULL);
+  (*head_ref)->npx = XOR (new_node, next);
+b)
+
+node* next = XOR ((*head_ref)->npx,  NULL);
+  (*head_ref) = XOR (new_node, next);
+c)
+
+node* next = XOR ((*head_ref)->npx,  NULL);
+  (*head_ref)->npx->npx = XOR (new_node, next);
+d)
+
+node* next = XOR ((*head_ref),  NULL);
+  (*head_ref)->npx = XOR (new_node, next);
+View Answer
+Answer: a
+Explanation: They code for the english is
+node* next = XOR ((*head_ref)->npx,  NULL);
+  (*head_ref)->npx = XOR (new_node, next);
+.
+
+10. In the above question would using arrays and swaping of elements in place of xor linked list would have been more efficient?
+a) no not all
+b) yes arrays would have been better than xor lists
+c) both would be same in efficiency
+d) can’t say
+View Answer
+
+Answer: b
+Explanation: The locality of a normal array is faster in memory and moreover one has to traverse n-nodes to reach the target to reverse in case of xor linked list.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Skip List”.
+
+1. What is a skip list?
+a) a linkedlist with size value in nodes
+b) a linkedlist that allows faster search within an ordered sequence
+c) a linkedlist that allows slower search within an ordered sequence
+d) a tree which is in the form of linked list
+View Answer
+
+Answer: b
+Explanation: It is a datastructure, which can make search in sorted linked list faster in the same way as binary search tree and sorted array (using binary search) are faster.
+2. Consider the 2-level skip list
+The access to 38 is by travel 20-30-35-38 in the 2-level skip list
+How to access 38?
+a) travel 20-30-35-38
+b) travel 20-30-40-38
+c) travel 20-38
+d) travel 20-40-38
+View Answer
+
+Answer: a
+Explanation: Let us call the nodes 20, 30, 40 as top lines and the nodes between them as normal lines. the advantage of skip lists is we can skip all the elements between the top line elements as required.
+3. Skip lists are similar to which of the following datastructure?
+a) stack
+b) heap
+c) binary search tree
+d) balanced binary search tree
+View Answer
+
+Answer: d
+Explanation: Skip lists have the same asymptotic time complexity as balanced binary search tree. For a Balanced Binary Search Tree, we skip almost half of the nodes after one comparison with root element. The same thing done in the skip lists. Hence skip lists are similar to balanced Binary search trees.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. What is the time complexity improvement of skip lists from linked lists in insertion and deletion?
+a) O(n) to O(logn) where n is number of elements
+b) O(n) to O(1) where n is number of elements
+c) no change
+d) O(n) to O(n2) where n is number of elements
+View Answer
+
+Answer: a
+Explanation: In Skip list we skip some of the elements by adding more layers. In this the skip list resembles balanced binary search trees. Thus we can change the time complexity from O (n) to O (logn)
+5. To which datastructure are skip lists similar to in terms of time complexities in worst and best cases?
+a) balanced binary search trees
+b) binary search trees
+c) binary trees
+d) linked lists
+View Answer
+
+Answer: a
+Explanation: Skip lists are similar to any randomly built binary search tree. a BST is balanced because to avoid skew tree formations in case of sequential input and hence achieve O(logn) in all 3 cases. now skip lists can gurantee that O(logn) complexity for any input.
+Take Data Structure I Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. The nodes in a skip list may have many forward references. their number is determined
+a) probabilistically
+b) randomly
+c) sequentially
+d) orthogonally
+View Answer
+
+Answer: a
+Explanation: The number of forward references are determined probabilistically, that is why skip list is a probabilistic algorithm.
+7. Are the below statements true about skiplists?
+In a sorted set of elements skip lists can implement the below operations
+i.given a element find closest element to the given value in the sorted set in O(logn)
+ii.find the number of elements in the set whose values fall a given range in O(logn)
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: To achieve above operations augment with few additional stuff like partial counts.
+8. How to maintain multi-level skip list properties when insertions and deletions are done?
+a) design each level of a multi-level skip list with varied probabilities
+b) that cannot be maintained
+c) rebalancing of lists
+d) reconstruction
+View Answer
+
+Answer: a
+Explanation: For example consider a 2 level skip list. the level-2 skip list can skip one node on a average and at some places may skip 2 nodes, depending on probabilities. this ensures O(logn).
+9. Is a skip list like balanced tree?
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: Skip list behaves as a balanced tree with high probability and can be commented as such because nodes with different heights are mixed up evenly.
+10. What is indexed skip list?
+a) it stores width of link in place of element
+b) it stores index values
+c) array based linked list
+d) indexed tree
+View Answer
+
+Answer: a
+Explanation: The width is defined as number of bottom layer links that are being traversed by each of higher layer elements. e.g: for a level-2 skip lists, all level-1 nodes have 1 as width, for level-2 width will be 2.
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Self Organizing List”.
+
+1. The self organizing list improves the efficiency of _______
+a) binary search
+b) jump search
+c) sublist search
+d) linear search
+View Answer
+
+Answer: d
+Explanation: Linear search in a linked list has time complexity O(n). To improve the efficiency of the linear search the self organizing list is used. A self-organizing list improves the efficiency of linear search by moving more frequently accessed elements towards the head of the list.
+2. Which of the following is true about the Move-To-Front Method for rearranging nodes?
+a) node with highest access count is moved to head of the list
+b) requires extra storage
+c) may over-reward infrequently accessed nodes
+d) requires a counter for each node
+View Answer
+
+Answer: c
+Explanation: In Move-To-front Method the element which is searched is moved to the head of the list. And if a node is searched even once, it is moved to the head of the list and given maximum priority even if it is not going to be accessed frequently in the future. Such a situation is referred to as over-rewarding.
+3. What technique is used in Transpose method?
+a) searched node is swapped with its predecessor
+b) node with highest access count is moved to head of the list
+c) searched node is swapped with the head of list
+d) searched nodes are rearranged based on their proximity to the head node
+View Answer
+
+Answer: a
+Explanation: In Transpose method, if any node is searched, it is swapped with the node in front unless it is the head of the list. So, in Transpose method searched node is swapped with its predecessor.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. The worst case running time of a linear search on the self organizing list is ____
+a) O(1)
+b) O(logn)
+c) O(n)
+d) O(n2)
+View Answer
+
+Answer: c
+Explanation: Worst case occurs when the element is located at the very end of list. So n comparisons must be made to the locate element. So the worst case running time of linear search on self organizing list is O(n).
+5. Which of the following data structure is preferred to have lesser search time when the list size is small?
+a) search tree
+b) sorted list
+c) self organizing list
+d) linked list
+View Answer
+
+Answer: c
+Explanation: Self-organizing list is easy and simple to implement than search tree and it requires no additional space. So using self organizing list is preferred when list size is small.
+Participate in Data Structure I Certification Contest of the Month Now!
+6. In _____________ method, whenever a node is accessed, it might move to the head of the list if its number of accesses becomes greater than the records preceding it.
+a) least recently used
+b) count
+c) traspose
+d) exchange
+View Answer
+
+Answer: b
+Explanation: In the count method, the number of times a node was accessed is counted and is stored in a counter variable associated with each node. Then the nodes are arranged in descending order based on their access counts. And the node with highest access count is head of the list.
+7. Symbol tables during compilation of program is efficiently implemented using __________
+a) a singly linked list
+b) a doubly linked list
+c) a self organizing list
+d) an array
+View Answer
+
+Answer: c
+Explanation: Self organizing list allows fast sequential search and it is simple to implement and requires no extra storage. Self-organizing list is used to implement the symbol table.
+8. Which of the following method performs poorly when elements are accessed in sequential order?
+a) count method
+b) move to front method
+c) transpose meth
+d) ordering method
+View Answer
+
+Answer: b
+Explanation: Move-to-front method performs poorly when the elements are accessed in sequential order, especially if that sequential order is then repeated multiple times.
+9. The self organizing list improves _____
+a) average access time
+b) insertion
+c) deletion
+d) binary search
+View Answer
+
+Answer: a
+Explanation: The self-organizing list rearranges the nodes based on the access probabilities of the nodes. So the required elements can be located efficiently. Therefore, self-organizing list is mainly used to improve the average access time.
+10. Which of the following is not the rearranging method used to implement self-organizing lists?
+a) count method
+b) move to front method
+c) ordering method
+d) least frequently used
+View Answer
+
+Answer: d
+Explanation: Least frequently used is a buffer replacement policy, while other three are methods to reorder the nodes in the self-organizing lists based on their access probability.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Free List”.
+
+1. Free lists are used in
+a) static memory allocation
+b) dynamic memory allocation
+c) contagious allocations
+d) are used for speeding up linked list operations
+View Answer
+
+Answer: b
+Explanation: Their property is meant for dynamic allocations.
+2. What are implicit and explicit implementations of freelists?
+a) garbage collection and new or malloc operators respectively
+b) new or malloc and garbage collection respectively
+c) implicit implementation is not favored
+d) explicit implementation is not favored
+View Answer
+
+Answer: a
+Explanation: Gc and new most widely known.
+3. What datastructures can be used in implementing a free list?
+a) only linked list
+b) linked list or sort trees
+c) arrays
+d) trees
+View Answer
+
+Answer: b
+Explanation: Sort trees can also be used in impelementing free lists which remaincomplex.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. What are different ways of implementing free lists and which is simple among them?
+a) best fit, first fit, worst fit, simple-first fit
+b) best fit, first fit, worst fit, simple-best fit
+c) best fit, first fit, worst fit, simple-worst fit
+d) best fit simple-best fit
+View Answer
+
+Answer: a
+Explanation: The‭ ‬simplest form of memory management system can be called as first-fit.‭ ‬a device or system maintains a single‭ ‬list of free memory locations.‭ ‬When request to memory is sent,‭ ‬the list is searched and the first block that is large enough is returned.
+5. What is buddy memory management of free lists ?
+a) modified version of first fit
+b) buddy allocation keeps several‭ ‬free lists,‭ ‬each one holds blocks which are of one particular size
+c) modified version of best fit
+d) a tree representation of free lists
+View Answer
+
+Answer: b
+Explanation: When an allocation request is received,‭ ‬the list that holds blocks that are just large enough to satisfy the request are considered, and an open location is returned.‭ ‬If no‭ ‬free‭ ‬blocks that are smaller than two times the size that are requested are available,‭ ‬a larger block is split in two to satisfy the requirements.
+Participate in Data Structure I Certification Contest of the Month Now!
+6. How does implicit free lists(garbage collection) works in adding memory to free list ?
+a) whichever comes last will be added to free list
+b) whichever comes first will be added to free list
+c) certain blocks cannot be used if there are no pointers to them and hence they can be freed
+d) makes a probabilistic guess
+View Answer
+
+Answer: c
+Explanation: When no pointers pointing a block that means it is useless to be in memory.
+7. What are the disadvantages in implementing buddy system algorithm for free lists?
+a) internal fragmentation
+b) it takes so much space
+c) we no more have the hole lists in order of memory address, so it is difficult to detect if 2 holes remain adjacent in memory and shall be merged into one hole
+d) both a and c are correct
+View Answer
+
+Answer: d
+Explanation: Internal fragmentation is an issue to be dealt and it takes so much space.
+8. Assume there is a free list which contains nodes and is filled with a value if it is already assigned and the value will be the size of requested block else will be 0.
+
+ z = startpoint;
+ while ((z < end) &&    \\ didn't reach end
+   (*z <= len))          \\ too small to satisfy request
+ {           
+   assign this block
+ }
+The above code represents what?
+a) code for first fit
+b) code for best fit
+c) code for worst fit
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: As z is start point and now from beginning we are moving and checking if we reached end and then checking size naively assigning the first block which is bigger than required size hence it is first fit.
+9. How are free blocks linked together mostly and in what addressing order?
+a) circular linked list and increasing addressing order
+b) linked list and decreasing addressing order
+c) linked list and in no addressing order
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: A common way is circular linked list and address are arranged in increasing order because merging would be easier which is actually a problem in buddy memory allocation.
+10. Accessing free list very frequently for wide range of addresses can lead to
+a) paging
+b) segmentation fault
+c) memory errors
+d) cache problems
+View Answer
+
+Answer: a
+Explanation: Paging in/out of disk will be caused.

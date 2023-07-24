@@ -1,0 +1,256 @@
+1. Concurrent access to shared data may result in ____________
+a) data consistency
+b) data insecurity
+c) data inconsistency
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+2. A situation where several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which access takes place is called ____________
+a) data consistency
+b) race condition
+c) aging
+d) starvation
+View Answer
+
+Answer: b
+Explanation: None.
+3. The segment of code in which the process may change common variables, update tables, write into files is known as ____________
+a) program
+b) critical section
+c) non – critical section
+d) synchronizing
+View Answer
+
+Answer: b
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following conditions must be satisfied to solve the critical section problem?
+a) Mutual Exclusion
+b) Progress
+c) Bounded Waiting
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+5. Mutual exclusion implies that ____________
+a) if a process is executing in its critical section, then no other process must be executing in their critical sections
+b) if a process is executing in its critical section, then other processes must be executing in their critical sections
+c) if a process is executing in its critical section, then all the resources of the system must be blocked until it finishes execution
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Take Operating System Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Bounded waiting implies that there exists a bound on the number of times a process is allowed to enter its critical section ____________
+a) after a process has made a request to enter its critical section and before the request is granted
+b) when another process is in its critical section
+c) before a process has made a request to enter its critical section
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+7. A minimum of _____ variable(s) is/are required to be shared between processes to solve the critical section problem.
+a) one
+b) two
+c) three
+d) four
+View Answer
+
+Answer: b
+Explanation: None.
+8. In the bakery algorithm to solve the critical section problem ____________
+a) each process is put into a queue and picked up in an ordered manner
+b) each process receives a number (may or may not be unique) and the one with the lowest number is served next
+c) each process gets a unique number and the one with the highest number is served next
+d) each process gets a unique number and the one with the lowest number is served next
+View Answer
+
+Answer: b
+Explanation: None.
+1. A monitor is a type of ____________
+a) semaphore
+b) low level synchronization construct
+c) high level synchronization construct
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+2. A monitor is characterized by ____________
+a) a set of programmer defined operators
+b) an identifier
+c) the number of variables in it
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+3. A procedure defined within a ________ can access only those variables declared locally within the _______ and its formal parameters.
+a) process, semaphore
+b) process, monitor
+c) semaphore, semaphore
+d) monitor, monitor
+View Answer
+
+Answer: d
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The monitor construct ensures that ____________
+a) only one process can be active at a time within the monitor
+b) n number of processes can be active at a time within the monitor (n being greater than 1)
+c) the queue has only one process in it at a time
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+5. What are the operations that can be invoked on a condition variable?
+a) wait & signal
+b) hold & wait
+c) signal & hold
+d) continue & signal
+View Answer
+
+Answer: a
+Explanation: None.
+Take Operating System Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which is the process of invoking the wait operation?
+a) suspended until another process invokes the signal operation
+b) waiting for another process to complete before it can itself call the signal operation
+c) stopped until the next process in the queue finishes execution
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+7. If no process is suspended, the signal operation ____________
+a) puts the system into a deadlock state
+b) suspends some default process execution
+c) nothing happens
+d) the output is unpredictable
+View Answer
+
+Answer: c
+Explanation: None.
+1. The bounded buffer problem is also known as ____________
+a) Readers – Writers problem
+b) Dining – Philosophers problem
+c) Producer – Consumer problem
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+2. In the bounded buffer problem, there are the empty and full semaphores that ____________
+a) count the number of empty and full buffers
+b) count the number of empty and full memory spaces
+c) count the number of empty and full queues
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+3. In the bounded buffer problem ____________
+a) there is only one buffer
+b) there are n buffers ( n being greater than one but finite)
+c) there are infinite buffers
+d) the buffer size is bounded
+View Answer
+
+Answer: b
+Explanation: None.
+Subscribe Now: Operating System Newsletter | Important Subjects Newsletters
+advertisement
+
+4. To ensure difficulties do not arise in the readers – writers problem _______ are given exclusive access to the shared object.
+a) readers
+b) writers
+c) readers and writers
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+5. The dining – philosophers problem will occur in case of ____________
+a) 5 philosophers and 5 chopsticks
+b) 4 philosophers and 5 chopsticks
+c) 3 philosophers and 5 chopsticks
+d) 6 philosophers and 5 chopsticks
+View Answer
+
+Answer: a
+Explanation: None.
+Become Top Ranker in Operating System Now!
+6. A deadlock free solution to the dining philosophers problem ____________
+a) necessarily eliminates the possibility of starvation
+b) does not necessarily eliminate the possibility of starvation
+c) eliminates any possibility of any kind of problem further
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+7. All processes share a semaphore variable mutex, initialized to 1. Each process must execute wait(mutex) before entering the critical section and signal(mutex) afterward.
+Suppose a process executes in the following manner.
+
+signal(mutex);
+.....
+critical section
+.....
+wait(mutex);
+In this situation :
+a) a deadlock will occur
+b) processes will starve to enter critical section
+c) several processes maybe executing in their critical section
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+8. All processes share a semaphore variable mutex, initialized to 1. Each process must execute wait(mutex) before entering the critical section and signal(mutex) afterward.
+Suppose a process executes in the following manner.
+
+wait(mutex);
+.....
+critical section
+.....
+wait(mutex);
+a) a deadlock will occur
+b) processes will starve to enter critical section
+c) several processes maybe executing in their critical section
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+9. Consider the methods used by processes P1 and P2 for accessing their critical sections whenever needed, as given below. The initial values of shared boolean variables S1 and S2 are randomly assigned. (GATE 2010)
+
+Method used by P1 :
+while(S1==S2);
+Critical section
+S1 = S2;
+ 
+Method used by P2 :
+while(S1!=S2);
+Critical section
+S2 = not(S1);
+Which of the following statements describes properties achieved?
+a) Mutual exclusion but not progress
+b) Progress but not mutual exclusion
+c) Neither mutual exclusion nor progress
+d) Both mutual exclusion and progress
+View Answer
+
+Answer: d
+Explanation: None.

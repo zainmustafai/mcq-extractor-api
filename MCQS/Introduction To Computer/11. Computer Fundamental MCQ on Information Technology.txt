@@ -1,0 +1,738 @@
+1. The field that covers a variety of computer networks, both public and private, that are used in everyday jobs.
+a) Artificial Intelligence
+b) ML
+c) Network Security
+d) IT
+View Answer
+
+Answer: c
+Explanation: Network security covers a variety of computer networks, both private and public. Everyday jobs like conducting transactions and communications among business and government agencies etc.
+2. Network Security provides authentication and access control for resources.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. AFS is an example. It helps us protect vital information.
+3. Which is not an objective of network security?
+a) Identification
+b) Authentication
+c) Access control
+d) Lock
+View Answer
+
+Answer: d
+Explanation: The Identification, Authentication and Access control are the objectives of network security. There is no such thing called lock.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of these is a part of network identification?
+a) UserID
+b) Password
+c) OTP
+d) fingerprint
+View Answer
+
+Answer: a
+Explanation: The answer is UserID. UserID is a part of identification. UserID can be a combination of username, user student number etc.
+5. The process of verifying the identity of a user.
+a) Authentication
+b) Identification
+c) Validation
+d) Verification
+View Answer
+
+Answer: a
+Explanation: It is called an authentication. It is typically based on passwords, smart card, fingerprint, etc.
+Check this: Information Technology MCQs | BCA MCQs
+6. A concern of authentication that deals with user rights.
+a) General access
+b) Functional authentication
+c) Functional authorization
+d) Auto verification
+View Answer
+
+Answer: c
+Explanation: Functional authorization is concerned with individual user rights. Authorization is the function of specifying access rights to resources related to information security.
+7. CHAP stands for?
+a) Challenge Handshake authentication protocol
+b) Challenge Hardware authentication protocol
+c) Circuit Hardware authentication protocol
+d) Circuit Handshake authentication protocol
+View Answer
+
+Answer: a
+Explanation: CHAP stands for Challenge Handshake authentication protocol. Features of CHAP: plaintext, memorized token. Protocol uses Telnet, HTTP.
+8. Security features that control that can access resources in the OS.
+a) Authentication
+b) Identification
+c) Validation
+d) Access control
+View Answer
+
+Answer: d
+Explanation: Access control refers to the security features. Applications call access control to provide resources.
+9. An algorithm in encryption is called _____________
+a) Algorithm
+b) Procedure
+c) Cipher
+d) Module
+View Answer
+
+Answer: c
+Explanation: An algorithm used in encryption is referred to as a cipher. cipher is an algorithm for performing encryption or decryption
+10. The information that gets transformed in encryption is ____________
+a) Plain text
+b) Parallel text
+c) Encrypted text
+d) Decrypted text
+View Answer
+
+Answer: a
+Explanation: The text that gets transformed is called plain text. The algorithm used is called cipher.
+1. WTLS stands for?
+a) Wireless Transport Security Layer
+b) Wireless Transfer System Layer
+c) Wireless Transfer Security Layer
+d) Wireless Transport System Layer
+View Answer
+
+Answer: a
+Explanation: WTLS is Wireless Transport Security Layer. It provides security between the mobile device and the WAP gateway to internet.
+2. The protocol designed to make the security of wireless LAN as good as that of wired LAN.
+a) WTLS
+b) WEP
+c) RSN
+d) WP
+View Answer
+
+Answer: b
+Explanation: WEP stands for Wired Equivalent Privacy. WEP has been broken already in 2001. WEP protocol designed to make the security of wireless LAN as good as that of wired LAN.
+3. A person who enjoys learning details about computers and how to enhance their capabilities.
+a) Cracker
+b) Hacker
+c) App controller
+d) Site controller
+View Answer
+
+Answer: b
+Explanation: The person is called hacker. A person who enjoys learning the details of computer systems and how to stretch their capabilities is called hacker.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A program created by Farmer and Venema for auditing capability.
+a) SAAS
+b) SATAN
+c) SAN
+d) SAT
+View Answer
+
+Answer: b
+Explanation: SATAN is the Security analysis tool for auditing networks. It is created by farmer and venema.
+5. A small program that changes the way a computer operates.
+a) Worm
+b) Trojan
+c) Bomb
+d) Virus
+View Answer
+
+Answer: d
+Explanation: The program is called virus. It alters the way that the computer operates. It often does damages like deleting and corrupting files and data.
+Participate in Computer Fundamentals Certification Contest of the Month Now!
+6. A program that copies itself.
+a) Worm
+b) Virus
+c) Trojan
+d) Bomb
+View Answer
+
+Answer: a
+Explanation: A worm copies itself from one system to another over a network without the assistance of human.
+7. An attack in which the site is not capable of answering valid request.
+a) Smurfing
+b) Denial of service
+c) E-mail bombing
+d) Ping storm
+View Answer
+
+Answer: b
+Explanation: The answer is Denial of service. In case of denial of service attacks, a computer site is bombarded with a lot of messages.
+8. Creating a computer or paper audit that can help detect wrong doings.
+a) Auditing
+b) Validation
+c) RSN
+d) Verification
+View Answer
+
+Answer: a
+Explanation: The answer is auditing. It is done to keep an eye on wrong doings. Auditing can be used as a deterrent.
+9. An indirect form of surveillance.
+a) Honey pot
+b) Logical
+c) Security
+d) Intrusion
+View Answer
+
+Answer: a
+Explanation: Honey pot is an indirect form of surveillance. Network personnel create a trap, watching for unscrupulous acts.
+10. A malicious code hidden inside a seemingly harmless piece of code.
+a) Worm
+b) Bomb
+c) Trojan Horse
+d) Virus
+View Answer
+
+Answer: c
+Explanation: The answer is Trojan horse. Trojan horse is a code that is present in a program that appears harmless.
+11. Attack in which a user creates a packet that appears to be something else.
+a) Smurfing
+b) Trojan
+c) E-mail bombing
+d) Spoofing
+View Answer
+
+Answer: d
+Explanation: The attack is a spoofing attack. It is when a user creates a packet that appears to be something else or from someone else.
+13. A technique in which a program attacks a network by exploiting IP broadcast addressing operations.
+a) Smurfing
+b) Denial of service
+c) E-mail bombing
+d) Ping storm
+View Answer
+
+Answer: a
+Explanation: Smurfing is a technique in which a program attacks a network by exploiting IP broadcast addressing operations.
+14. An attack in which the user receives unwanted amount of e-mails.
+a) Smurfing
+b) Denial of service
+c) E-mail bombing
+d) Ping storm
+View Answer
+
+Answer: c
+Explanation: In the case of denial of e-mail bombing, a user sends an excessive amount of unwanted e-mail to someone.
+1. A cipher in which the order is not preserved.
+a) Polyalphabetic substitution based
+b) Transposition-based
+c) Substitution based
+d) Public key based
+View Answer
+
+Answer: b
+Explanation: In transposition-based cipher, the order of the plain text is not preserved. They can be very simple to identify.
+2. Plain text is the data after encryption is performed.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. Cipher is the algorithm used in encryption. Ciphertext is the data after encryption is performed.
+3. A unique piece of information that is used in encryption.
+a) Cipher
+b) Plain Text
+c) Key
+d) Cipher
+View Answer
+
+Answer: c
+Explanation: The key is the unique piece of information. It is used to create the cipher text and decrypt it back.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Study of creating a d using encryption and decryption techniques.
+a) Cipher
+b) Cryptography
+c) Encryption
+d) Decryption
+View Answer
+
+Answer: b
+Explanation: It is called as cryptography. It is the study of creating and using the encryption techniques.
+5. The process of transforming plain text into unreadable text.
+a) Decryption
+b) Encryption
+c) Network Security
+d) Information Hiding
+View Answer
+
+Answer: b
+Explanation: Encryption is the process of transforming readable text i.e. plain text to make it unreadable to anyone except those possessing special knowledge, usually referred to as a key.
+Take Computer Fundamentals Tests Now!
+6. An algorithm used in encryption is referred to as cipher.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. Cipher is the algorithm used in encryption. Encryption is making readable text as unreadable to keep it secured.
+7. A process of making the encrypted text readable again.
+a) Decryption
+b) Encryption
+c) Network Security
+d) Information Hiding
+View Answer
+
+Answer: a
+Explanation: The reverse process is called decryption. It is the process of making the information readable again.
+1. These ciphers replace a character or characters with a different character or characters, based on some key.
+a) Polyalphabetic substitution based
+b) Transposition-based
+c) Substitution based
+d) Mono alphabetic substitution based
+View Answer
+
+Answer: d
+Explanation: In mono alphabetic substitution-based cipher, a character is replaced with some other character or multiple characters, based on some key.
+2. Encryption is the study of creating and using decryption techniques.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. Cryptography is the study of creating and using encryption and decryption techniques.
+3. A type of cipher that uses multiple alphabetic strings.
+a) Substitution based
+b) Transposition-based
+c) Polyalphabetic substitution based
+d) Mono alphabetic substitution based
+View Answer
+
+Answer: c
+Explanation: These ciphers are similar to that of mono alphabetic ciphers. Multiple strings are used to encode the plain text.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. An encryption technique with 2 keys is ______________
+a) Monoalphabetic Cipher
+b) Cryptography
+c) Private key cryptography
+d) Public key cryptography
+View Answer
+
+Answer: d
+Explanation: It is called as public key cryptography. It has 2 keys: a private key and a public key.
+5. In public key cryptography, a key that decrypts the message.
+a) public key
+b) unique key
+c) private key
+d) security key
+View Answer
+
+Answer: c
+Explanation: Public key cryptography has 2 keys. They are private key and a public key. The public key encrypts the message. The private key decrypts the message.
+Take Computer Fundamentals Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. DES stands for?
+a) Data Encryption Standard
+b) Data Encryption Statistics
+c) Data Encryption System
+d) Data Encryption Sequence
+View Answer
+
+Answer: a
+Explanation: DES stands for Data Encryption Standard. It was created in 1977 and went into operation from 1990s.
+7. Under DES, the data encryption standard took a 64-bit block of data and subjected it to ______ levels of encryption.
+a) 64
+b) 8
+c) 16
+d) 4
+View Answer
+
+Answer: c
+Explanation: The answer is 16. It was subjected to 16 levels of encryption. DES is the data encryption standard.
+8. Triple-DES has ______ keys.
+a) 1
+b) 2
+c) 5
+d) 4
+View Answer
+
+Answer: b
+Explanation: There are 2 keys in triple DES as well. The private and the public key. It can also have 3 unique keys.
+9. Encryption standard that is selected by the US government to replace DES.
+a) AES
+b) BES
+c) CES
+d) DES
+View Answer
+
+Answer: a
+Explanation: AES is Advanced Encryption Standard. It was selected by the US government. It is used to replace DES.
+10. An electronic document that establishes your credentials when you are performing transactions.
+a) Digital code
+b) OTP
+c) E-mail
+d) Digital certificate
+View Answer
+
+Answer: d
+Explanation: Digital certificate is an electronic document that is responsible for secure internet transactions.
+1. A model that is the demo implementation of the system.
+a) waterfall
+b) prototype
+c) incremental
+d) agile
+View Answer
+
+Answer: b
+Explanation: Prototype is the demo implementation so that the customer gets a brief idea of his product. It is generally used when the customer requirements are not clear.
+2. Maintenance is the final phase in waterfall model.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. This is the phase in which the completed software product is handed over to the client.
+3. A stage in which individual components are integrated and ensured that they are error-free to meet customer requirements.
+a) Coding
+b) Testing
+c) Design
+d) Implementation
+View Answer
+
+Answer: b
+Explanation: Hardware and software components are tested individually. Testing stage in which individual components are integrated and ensured that they are error-free to meet customer requirements.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. ___________ is a step in which design is translated into machine-readable form.
+a) Design
+b) Conversion
+c) Debugging
+d) Coding
+View Answer
+
+Answer: d
+Explanation: Coding is the step in which design in translated into machine-readable form. If design is efficient, coding can be done effectively.
+5. The customer requirements are broken down into logical modules for ease of _______________
+a) inheritance
+b) design
+c) editing
+d) implementation
+View Answer
+
+Answer: d
+Explanation: The requirements are broken down for ease of implementation. Hardware and software requirements are identified and designed accordingly.
+Get Free Certificate of Merit in Computer Fundamentals Now!
+6. What do you call a technical person who is capable of understanding the basic requirements?
+a) team leader
+b) analyst
+c) engineer
+d) stakeholder
+View Answer
+
+Answer: b
+Explanation: The person is called an analyst. An analyst is a software engineering who is responsible for requirements gathering.
+7. A step in waterfall model that involves a meeting with the customer to understand the requirements.
+a) Requirement Gathering
+b) SRS
+c) Implementation
+d) Customer review
+View Answer
+
+Answer: a
+Explanation: A waterfall model involves requirement gathering as its first step. This is the most important phase. It is important to understand the customer requirements.
+8. Methodology in which project management processes were step-by step.
+a) Incremental
+b) Waterfall
+c) Spiral
+d) Prototyping
+View Answer
+
+Answer: b
+Explanation: Waterfall model is based on step-by step completion of the project. Every step is done individually.
+9. An individual who plans and directs the work.
+a) Stakeholder
+b) Project manager
+c) Team leader
+d) Programmer
+View Answer
+
+Answer: b
+Explanation: Project Manager is the one who plans and designs the project. Team leader is the one who provides guidance, instruction, direction and leadership to a group of individuals.
+10. A planned program if work that requires a definitive amount of time, effort and planning to complete.
+a) Problem
+b) Project
+c) Process
+d) Program
+View Answer
+
+Answer: b
+Explanation: The answer is Project. A project is a program which is something which is planned and needs effort and time to complete.
+1. A set of activities that ensure that software correctly implements a specific function.
+a) verification
+b) testing
+c) implementation
+d) validation
+View Answer
+
+Answer: a
+Explanation: Verification ensures that software correctly implements a specific function. It is a static practice of verifying documents.
+2. Validation is computer based.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. Validation is a computer based process. It uses methods like black box testing, gray box testing, etc.
+3. ___________ is done in the development phase by the debuggers.
+a) Coding
+b) Testing
+c) Debugging
+d) Implementation
+View Answer
+
+Answer: c
+Explanation: Coding is done by the developers. In debugging, the developer fixes the bug in the development phase. Testing is conducted by the testers.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Locating or identifying the bugs is known as ___________
+a) Design
+b) Testing
+c) Debugging
+d) Coding
+View Answer
+
+Answer: b
+Explanation: Testing is conducted by the testers. They locate or identify the bugs. In debugging developer fixes the bug. Coding is done by the developers.
+5. Which defines the role of software?
+a) System design
+b) Design
+c) System engineering
+d) Implementation
+View Answer
+
+Answer: c
+Explanation: The answer is system engineering. System engineering defines the role of software.
+Become Top Ranker in Computer Fundamentals Now!
+6. What do you call testing individual components?
+a) system testing
+b) unit testing
+c) validation testing
+d) black box testing
+View Answer
+
+Answer: b
+Explanation: The testing strategy is called unit testing. It ensures a function properly works as a unit.
+7. A testing strategy that test the application as a whole.
+a) Requirement Gathering
+b) Verification testing
+c) Validation testing
+d) System testing
+View Answer
+
+Answer: d
+Explanation: Validation testing tests the application as a whole against the user requirements. In system testing, it tests the application in the context of an entire system.
+8. A testing strategy that tests the application in the context of an entire system.
+a) System
+b) Validation
+c) Unit
+d) Gray box
+View Answer
+
+Answer: a
+Explanation: In system testing, it tests the application in the context of an entire system. The software and other system elements are tested as a whole.
+9. A ________ is tested to ensure that information properly flows into and out of the system.
+a) module interface
+b) local data structure
+c) boundary conditions
+d) paths
+View Answer
+
+Answer: a
+Explanation: A module interface is tested to ensure that information properly flows into and out of the system.
+10. A testing conducted at the developer’s site under validation testing.
+a) alpha
+b) gamma
+c) lambda
+d) unit
+View Answer
+
+Answer: a
+Explanation: Alpha testing is conducted at developer’s site. It is conducted by customer in developer’s presence before software delivery.
+1. A ______________ represents the need of information in the program without the presenting the details.
+a) abstraction
+b) polymorphism
+c) implementation
+d) class
+View Answer
+
+Answer: a
+Explanation: Abstraction is a concept that involves hiding the details and giving only the necessary information to the user. It increases the power of a programming language.
+2. Abstraction combines the data and functions into a single unit called a class.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. Data abstraction involves hiding the details and giving only the necessary information to the user.
+3. The process of forming a new class from an existing class.
+a) Abstraction
+b) Polymorphism
+c) Inheritance
+d) Implementation
+View Answer
+
+Answer: c
+Explanation: The answer is inheritance. The base class is the parent class and the new class is called the child class.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. This concept allows routines to use data again at different times.
+a) Abstraction
+b) Polymorphism
+c) Inheritance
+d) Implementation
+View Answer
+
+Answer: b
+Explanation: Polymorphism is a concept in OOP wherein different functions can be used again at different times.
+5. The ability for programmers to use the same written and debugged existing class.
+a) Reusability
+b) Design
+c) Debugging
+d) Implementation
+View Answer
+
+Answer: a
+Explanation: The programmer can add features to the existing class. The programmer on further developing the application, and allowing users to achieve increased performance.
+Take Computer Fundamentals Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. A concept that combines data and functions into a single unit called class.
+a) inheritance
+b) encapsulation
+c) polymorphism
+d) abstraction
+View Answer
+
+Answer: b
+Explanation: Encapsulation enables the important concept of data hiding possible. It combines data and functions into a single unit.
+7. __________ represents a particular instance of a class.
+a) module
+b) block
+c) object
+d) token
+View Answer
+
+Answer: c
+Explanation: An object is an instance of the class. The data members are accessed with the help of objects.
+8. A basic unit of object-oriented programming.
+a) module
+b) block
+c) object
+d) token
+View Answer
+
+Answer: c
+Explanation: In OOP, the basic unit is an object. Objects are identified by its unique name.
+9. A procedural programming follows ___________ approach.
+a) top-down
+b) bottom-up
+c) left-right
+d) right-left
+View Answer
+
+Answer: a
+Explanation: A procedural programming follows top-down approach. The main focus is on the functions. It has a lot of global variable.
+10. A programming technique in which the focus is on doing things.
+a) object oriented
+b) procedural
+c) logical
+d) structural
+View Answer
+
+Answer: b
+Explanation: In procedural programming, the focus is on doing things(functions). It follows top-down approach.
+1. A field of technology that deals with a combination of real world and the data generated from computer.
+a) ML
+b) AI
+c) AR
+d) IoT
+View Answer
+
+Answer: c
+Explanation: AR that is Augmented Reality is a field of technology that deals with a combination of real world and the data generated from computer.
+2. AR is interactive in real-time.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. Augmented Reality is the field of computer research that deals with the combination of real-world and computer generated data.
+3. Technologies that completely involve a user inside a synthetic environment.
+a) AR
+b) VR
+c) AI
+d) ML
+View Answer
+
+Answer: b
+Explanation: The answer is VR or Virtual Reality. VR technologies are known for immersing a user inside a synthetic environment. While immersed, the user cannot see the real world around him.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Technologies that allow the user to see the real world, with virtual objects composited in the real world.
+a) AR
+b) VR
+c) AI
+d) SR
+View Answer
+
+Answer: a
+Explanation: Augmented Reality (AR) allows a user to see real world, with virtual objects superimposed or composited with the real world.
+5. A ______________________ is a display device, worn on head as a part of helmet that has a small display optic.
+a) HD
+b) MD
+c) HMD
+d) ARD
+View Answer
+
+Answer: c
+Explanation: HMD is the head-mounted display, worn on head as a part of helmet that has a small display optic. HTC Vive, Samsung GearVR are examples of HMDs available today.
+Check this: BCA MCQs | BCA Books
+6. Wearable computing device in the form of computerized eyeglasses.
+a) HMD
+b) Helmets
+c) Smart Glasses
+d) VR Glasses
+View Answer
+
+Answer: c
+Explanation: Smart glasses are also called as optical head mounted displays. (OHMD), it has the capability of reflecting projected images as well as allowing users to see through it.
+7. A tracking based on geo-location information.
+a) Location based
+b) Markerless
+c) Marker based
+d) GPS
+View Answer
+
+Answer: a
+Explanation: Location based tracking is based on geo-location information obtained from device’s location sensors. (Longitude, latitude, altitude etc).
+8. SLAM stands for?
+a) Simultaneous localization and mapping
+b) System localization and mapping
+c) Simultaneous localization and maintenance
+d) System localization and maintenance
+View Answer
+
+Answer: a
+Explanation: SLAM is abbreviated for Simultaneous localization and mapping. It is a technique used by robots and autonomous vehicles to build a map within the unknown environment.
+9. A technique that enables light field which is generally the product of a light source scattered off objects.
+a) AES
+b) Holography
+c) Cryptography
+d) Gyrography
+View Answer
+
+Answer: b
+Explanation: Holography enables a light field. It is to be recorded and later reconstructed when the original light field is no longer present.
+10. A _______ can be recorded using a normal light source.
+a) Holograph
+b) Photography
+c) Holography
+d) Photograph
+View Answer
+
+Answer: d
+Explanation: A photograph can be captured using a normal light source. A laser is required to record a hologram.

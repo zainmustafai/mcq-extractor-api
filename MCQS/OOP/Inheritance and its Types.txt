@@ -1,0 +1,1109 @@
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Hierarchical Inheritance”.
+
+1. Which among the following is best to define hierarchical inheritance?
+a) More than one classes being derived from one class
+b) More than 2 classes being derived from single base class
+c) At most 2 classes being derived from single base class
+d) At most 1 class derived from another class
+View Answer
+
+Answer: a
+Explanation: When two or more classes get derived from a single base class, it is known as hierarchical inheritance. This gives us freedom to use same code with different scopes and flexibility into different classes.
+2. Do members of base class gets divided among all of its child classes?
+a) Yes, equally
+b) Yes, depending on type of inheritance
+c) No, it’s doesn’t get divided
+d) No, it may or may not get divided
+View Answer
+
+Answer: c
+Explanation: The class members doesn’t get divided among the child classes. All the members get derived to each of the subclasses as whole. The only restriction is from the access specifiers used.
+3. Each class can inherit the base class ________________
+a) Independently using any inheritance
+b) Independently with private inheritance only
+c) With same type of inheritance
+d) With each class using different inheritance only
+View Answer
+
+Answer: a
+Explanation: The classes can inherit the base class using any type of inheritance. There is no mandatory condition to use same private,public or protected inheritance only.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. How many classes must be there to implement hierarchical inheritance?
+a) Exactly 3
+b) At least 3
+c) At most 3
+d) At least 1
+View Answer
+
+Answer: b
+Explanation: At least 3 classes must be there. Two derived classes and one base class. This lets us implement two classes that have common characteristics from base class.
+5. Base class _______________
+a) Can be made abstract
+b) Can’t be made abstract
+c) Must be abstract
+d) If made abstract, compile time error
+View Answer
+
+Answer: a
+Explanation: The base class may or may not be declared abstract. It depends on the need of program. If it is made abstract, it can contain undefined functions too. In turn, those functions will have to be implemented by each of the derived classes.
+Check this: Computer Science MCQs | MCA MCQs
+6. Which access specifiers should be used so that all the derived classes restrict further inheritance of base class members?
+a) Private
+b) Public
+c) Protected
+d) Any inheritance type can be used
+View Answer
+
+Answer: a
+Explanation: All the derived classes must use private inheritance. This will make the members of base class private in derived classes. Hence none of the members of base class will be available for further inheritance.
+7. Which class uses hierarchical inheritance in following code?
+
+class A
+{
+	int a;
+};
+class B:class A
+{
+	int b;
+};
+class C:class A,class B
+{
+	int c;
+};
+class D:class A
+{
+	int d;
+};
+a) Class A, B, C
+b) Class B, C, D
+c) Class A, C, D
+d) Class D, A, B
+View Answer
+
+Answer: d
+Explanation: Class A is base class and B and D are derived classes. If class C is considered, it shows hybrid inheritance, involving single level and multiple inheritance.
+8. Which among the following is correct for following code?
+
+abstract class A
+{
+	public Int a;
+	public void disp();
+};
+class B:public A
+{
+	public: void dis()
+	{ 
+		court&lt;&lt;a; 
+	}
+};
+class C:private A
+{
+	public void incr()
+	{ 
+		a++; 
+	}
+}
+void main()
+{
+	B b.disp();
+}
+a) Compile time error
+b) Runtime error
+c) Program runs and o/p is 0
+d) Program runs and o/p is garbage value
+View Answer
+
+Answer: a
+Explanation: The derived class D have not implemented the undefined function. Here the main concept involves hierarchical inheritance with abstract base class.
+9. How many classes can be derived from the base class using hierarchical inheritance?
+a) As many as required
+b) Only 7
+c) Only 3
+d) Up to 127
+View Answer
+
+Answer: a
+Explanation: The number of classes that can be derived from a base class doesn’t have any restriction and hence will be able to derive as many classes as required. This feature gives more flexibility and code reusability.
+10. If one class have derived the base class privately then another class can’t derive the base class publically.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The classes are independent and can access the base class and inherit it in whichever way it is required. The classes can use the base base class members privately or publically maintaining the security of data and methods.
+11. Which among the following is true?
+a) Hierarchical inheritance is subset of multiple inheritances
+b) Hierarchical inheritance is strongest inheritance type
+c) Hierarchical inheritance uses only 2 classes for implementation
+d) Hierarchical inheritance allows inheritance of common features to more than one class
+View Answer
+
+Answer: d
+Explanation: Hierarchical inheritance is used to make all the inherited classes have some common features obtained from a single base class. This allows all the classes to maintain a group or to be classified under one class.
+12. Hierarchical inheritance can be a subset of _________________
+a) Hybrid inheritance
+b) Multiple inheritance
+c) Single level inheritance
+d) Multilevel inheritance
+View Answer
+
+Answer: a
+Explanation: When we use hybrid inheritance, it can contain any type of inheritance or combination or more than two types. Hence it may contain Hierarchical inheritance too, hence it can be subset of hybrid inheritance.
+13. Which type of inheritance is most suitable for inheriting Same syllabus into different colleges with different streams?
+a) Multiple
+b) Single
+c) Hierarchical
+d) Multilevel
+View Answer
+
+Answer: c
+Explanation: When hierarchical inheritance is used, the common syllabus can be adopted into different college classes where the same syllabus is applicable. For changing the syllabus only the details of base class will have to changed.
+14. Which class constructor is called first when an object of derived class is created?
+a) Base class constructor
+b) Derived class constructor
+c) Firstly created derived class constructor
+d) Last created derived class constructor
+View Answer
+
+Answer: a
+Explanation: The base class must be initialised first hence the constructor of base class is called first. This makes everything ready for the new object being created.
+15. All the derived classes can access only a few members of base class that other derived classes can’t access at same time, in hierarchical inheritance.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The derived classes have full access to all the non private member’s of base class. Every derived class have equal access, none of the class can have special access to specific members of base class in general cases.This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Hybrid Inheritance”.
+
+1. Which among the following best defines the hybrid inheritance?
+a) Combination of two or more inheritance types
+b) Combination of same type of inheritance
+c) Inheritance of more than 7 classes
+d) Inheritance involving all the types of inheritance
+View Answer
+
+Answer: a
+Explanation: When more than one type of inheritance are used together, it results in new type of inheritance which is in general known as hybrid inheritance. This may of may not have better capabilities.
+2. How many types of inheritance should be used for hybrid?
+a) Only 1
+b) At least 2
+c) At most two
+d) Always more than 2
+View Answer
+
+Answer: b
+Explanation: There must be combination of at least 2 types of inheritance. The inheritance should be of different type.
+3. If single inheritance is used with class A and B. A is base class. Then class C, D and E where C is base class and D is derived from C, then E is derived from D. Class C is made to inherit from class B. Which is the resultant type?
+a) Single level
+b) Multilevel
+c) Hybrid
+d) Multiple
+View Answer
+
+Answer: b
+Explanation: The statement represents multilevel inheritance. It is not hybrid since looking at complete idea, one can’t differentiate whether two type of inheritance are used. Hence it is multilevel inheritance.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. Diamond problem includes ____________________ hybrid inheritance.
+a) Hierarchical and Multiple
+b) Hierarchical and Hierarchical
+c) Multiple and Multilevel
+d) Single, Hierarchical and Multiple
+View Answer
+
+Answer:a
+Explanation: The diamond problem arises when more than one classes are derived from one class and then those classes are used to derive single clas. Resulting in ambiguity of same functions from each class.
+5. If __________________ inheritance is done continuously, it is similar to tree structure.
+a) Hierarchical
+b) Multiple
+c) Multilevel
+d) Hierarchical and Multiple
+View Answer
+
+Answer: a
+Explanation: Hierarchical inheritance is deriving more than one classes from a base class, it it is done continuously and subsequently, it results forming a tree like structure of classes being linked.
+Become Top Ranker in Object Oriented Programming Now!
+6. Which amongst the following is true for hybrid inheritance?
+a) Constructor calls are in reverse
+b) Constructor calls are priority based
+c) Constructor of only derived class is called
+d) Constructor calls are usual
+View Answer
+
+Answer: d
+Explanation: The constructors will be called in usual way. First the parent class Constructor and then the derived class Constructors. This is done to initialise all the members properly.
+7. Which type of inheritance must be used so that the resultant is hybrid?
+a) Multiple
+b) Hierarchical
+c) Multilevel
+d) None
+View Answer
+
+Answer: d
+Explanation: The use of any specific type is not necessary. Though the final structure should not be the same, it should represent more than one type of inheritance if class diagram is drawn.
+8. The private member’s are made public to all the classes in inheritance.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The private member’s scope can’t be changed and those can never be accessed in other classes. Only the class containing private member’s can access its own members.
+9. If hierarchical inheritance requires to inherit more than one class to single class, which syntax is correct? (A, B, C are class names)
+a) hierarchical class A: public B, public C
+b) multiple class A: public B, public C
+c) many class A: public B, public C
+d) class A: public B, public C
+View Answer
+
+Answer: d
+Explanation: The syntax is as same as declaration of other classes. There is no specific keyword defined for using hybrid inheritance in programming. Only thing is to specify the class name separated by commas.
+10. What is the maximum number of classes allowed in hybrid inheritance?
+a) 7
+b) 127
+c) 255
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: The classes in any type of inheritance can inherit as many classes as required. The only condition that may arise is memory management. The classes can inherit most of the features from more than one class.
+11. What is the minimum number of classes to be there in a program implementing hybrid inheritance?
+a) 2
+b) 3
+c) 4
+d) No limit
+View Answer
+
+Answer: d
+Explanation: The answer is no limit. There is no condition defined for limit of classes that has to be used in hybrid. Though you must have at least 4 classes so that one set of multiple or hierarchical inheritance is there and one more class to use single level inheritance.
+12. If object of lowest level class is created (last derived class) ________________ of its parent class constructors are called.
+a) Few
+b) All
+c) Only parent and parent
+d) Base and Derived
+View Answer
+
+Answer: c
+Explanation: When derived class object is created, all of its successor parent classes constructors are called. Constructor of all the connected classes is not created. Since the parent members have to be initialised, but other derived classes are not needed.
+13. If hybrid inheritance is used, it mostly shows _______________ feature of OOP.
+a) Flexibility
+b) Reusability
+c) Efficiency
+d) Code readability
+View Answer
+
+Answer: b
+Explanation: The code is reusable in most of the classes and the data becomes more linked to other classes. Other features are also exhibited, but the code reusability is used the most. Code readability becomes relatively less. Flexibility increases but it depends on how the hybrid inheritance is used.
+14. The sequence of destructors being called while using hybrid inheritance is ____________
+a) Reverse of constructors being called
+b) Reverse of classes being made
+c) Reverse of objects being created
+d) Reverse of code calling objects
+View Answer
+
+Answer: a
+Explanation: The destructors are always called in reverse order of constructors being called always. The type of inheritance doesn’t matter. The only important concept is the sequence of classes being inherited.
+15. Overloading operators are possible only by using hybrid inheritance.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The overloading concept is not related to the types of inheritance being used. Overloading operators can be done without using inheritance. You don’t even have to use more than one class for operator overloading.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Inheritance”.
+
+1. Which among the following best describes the Inheritance?
+a) Copying the code already written
+b) Using the code already written once
+c) Using already defined functions in programming language
+d) Using the data and functions into derived segment
+View Answer
+
+Answer: d
+Explanation: It can only be indicated by using the data and functions that we use in derived class, being provided by parent class. Copying code is nowhere similar to this concept, also using the code already written is same as copying. Using already defined functions is not inheritance as we are not adding any of our own features.
+2. How many basic types of inheritance are provided as OOP feature?
+a) 4
+b) 3
+c) 2
+d) 1
+View Answer
+
+Answer: a
+Explanation: There are basically 4 types of inheritance provided in OOP, namely, single level, multilevel, multiple and hierarchical inheritance. We can add one more type as Hybrid inheritance but that is actually the combination any types of inheritance from the 4 basic ones.
+3. Which among the following best defines single level inheritance?
+a) A class inheriting a derived class
+b) A class inheriting a base class
+c) A class inheriting a nested class
+d) A class which gets inherited by 2 classes
+View Answer
+
+Answer: b
+Explanation: A class inheriting a base class defines single level inheritance. Inheriting an already derived class makes it multilevel inheritance. And if base class is inherited by 2 other classes, it is multiple inheritance.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which among the following is correct for multiple inheritance?
+a) class student{public: int marks;}s; class stream{int total;}; class topper:public student, public stream{ };
+b) class student{int marks;}; class stream{ }; class topper: public student{ };
+c) class student{int marks;}; class stream:public student{ };
+d) class student{ }; class stream{ }; class topper{ };
+View Answer
+
+Answer: a
+Explanation: Class topper is getting derived from 2 other classes and hence it is multiple inheritance. Topper inherits class stream and class student publicly and hence can use its features. If only few classes are defined, there we are not even using inheritance (as in option class student{ }; class stream{ }; class topper{ };).
+5. Which programming language doesn’t support multiple inheritance?
+a) C++ and Java
+b) C and C++
+c) Java and SmallTalk
+d) Java
+View Answer
+
+Answer: d
+Explanation: Java doesn’t support multiple inheritance. But that feature can be implemented by using the interfaces concept. Multiple inheritance is not supported because of diamond problem and similar issues.
+Take Object Oriented Programming Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which among the following is correct for a hierarchical inheritance?
+a) Two base classes can be used to be derived into one single class
+b) Two or more classes can be derived into one class
+c) One base class can be derived into other two derived classes or more
+d) One base class can be derived into only 2 classes
+View Answer
+
+Answer: c
+Explanation: One base class can be derived into the other two derived classes or more. If only one class gets derived by only 2 other classes, it is also hierarchical inheritance, but it is not a mandatory condition, because any number of derived classes can be there.
+7. Which is the correct syntax of inheritance?
+a) class derived_classname : base_classname{ /*define class body*/ };
+b) class base_classname : derived_classname{ /*define class body*/ };
+c) class derived_classname : access base_classname{ /*define class body*/ };
+d) class base_classname :access derived_classname{ /*define class body*/ };
+View Answer
+
+Answer: c
+Explanation: Firstly, keyword class should come, followed by the derived class name. Colon is must followed by access in which base class has to be derived, followed by the base class name. And finally the body of class. Semicolon after the body is also must.
+8. Which type of inheritance leads to diamond problem?
+a) Single level
+b) Multi-level
+c) Multiple
+d) Hierarchical
+View Answer
+
+Answer: c
+Explanation: When 2 or more classes inherit the same class using multiple inheritance and then one more class inherits those two base classes, we get a diamond like structure. Here, ambiguity arises when same function gets derived into 2 base classes and finally to 3rd level class because same name functions are being inherited.
+9. Which access type data gets derived as private member in derived class?
+a) Private
+b) Public
+c) Protected
+d) Protected and Private
+View Answer
+
+Answer: a
+Explanation: It is a rule, that when a derived class inherits the base class in private access mode, all the members of base class gets derived as private members of the derived class.
+10. If a base class is inherited in protected access mode then which among the following is true?
+a) Public and Protected members of base class becomes protected members of derived class
+b) Only protected members become protected members of derived class
+c) Private, Protected and Public all members of base, become private of derived class
+d) Only private members of base, become private of derived class
+View Answer
+
+Answer: a
+Explanation: As the programming language rules apply, all the public and protected members of base class becomes protected members of derived class in protected access mode. It can’t be changed because it would hinder the security of data and may add vulnerability in the program.
+11. Members which are not intended to be inherited are declared as ________________
+a) Public members
+b) Protected members
+c) Private members
+d) Private or Protected members
+View Answer
+
+Answer: c
+Explanation: Private access specifier is the most secure access mode. It doesn’t allow members to be inherited. Even Private inheritance can only inherit protected and public members.
+12. While inheriting a class, if no access mode is specified, then which among the following is true? (in C++)
+a) It gets inherited publicly by default
+b) It gets inherited protected by default
+c) It gets inherited privately by default
+d) It is not possible
+View Answer
+
+Answer: c
+Explanation: If the access mode is not specified during inheritance, the class is inherited privately by default. This is to ensure the security of data and to maintain OOP features. Hence it is not mandatory to specify the access mode if we want the class to be inherited privately.
+13. If a derived class object is created, which constructor is called first?
+a) Base class constructor
+b) Derived class constructor
+c) Depends on how we call the object
+d) Not possible
+View Answer
+
+Answer: a
+Explanation: First the base class constructor is invoked. When we create a derived class object, the system tries to invoke its constructor but the class is derived so first the base class must be initialized, hence in turn the base class constructor is invoked before the derived class constructor.
+14. The private members of the base class are visible in derived class but are not accessible directly.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Consider that a variable is private in base class and the derived class uses public inheritance to inherit that class. Now if we also have a global variable of same name as that of base class private variable, neither the global variable nor the base class private variable will be accessible from derived class. This is because we can’t have 2 variables with same name in same local scope. Hence the private members are accessible but not directly.
+15. How can you make the private members inheritable?
+a) By making their visibility mode as public only
+b) By making their visibility mode as protected only
+c) By making their visibility mode as private in derived class
+d) It can be done both by making the visibility mode public or protected
+View Answer
+
+Answer: d
+Explanation: It is not mandatory that you have to make the visibility mode either public or protected. You can do either of those. That will give you permission to inherit the private members of base class.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Multilevel Inheritance”.
+
+1. Which among the following best defines multilevel inheritance?
+a) A class derived from another derived class
+b) Classes being derived from other derived classes
+c) Continuing single level inheritance
+d) Class which have more than one parent
+View Answer
+
+Answer: b
+Explanation: Only if the class is being derived from other derived class, it can be called as multilevel inheritance. If a class is derived from another class, it is single level inheritance. There must be more than one level of inheritance.
+2. If there are 5 classes, E is derived from D, D from C, C from B and B from A. Which class constructor will be called first if the object of E or D is created?
+a) A
+b) B
+c) C
+d) A and B
+View Answer
+
+Answer: a
+Explanation: A is parent of all other classes indirectly. Since A is parent of B and B is parent of C and so on till E. Class A constructor will be called first always.
+3. If there are 3 classes. Class C is derived from class B and B is derived from A, Which class destructor will be called at last if object of C is destroyed.
+a) A
+b) B
+c) C
+d) All together
+View Answer
+
+Answer: a
+Explanation: The destructors are called in the reverse order of the constructors being called. Hence in multilevel inheritance, the constructors are created from parent to child, which leads to destruction from child to parent. Hence class A destructor will be called at last.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which Class is having highest degree of abstraction in multilevel inheritance of 5 levels?
+a) Class at 1st level
+b) Class 2nd last level
+c) Class at 5th level
+d) All with same abstraction
+View Answer
+
+Answer: a
+Explanation: The class with highest degree of abstraction will be the class at the 1st level. You can look at a simple example like, a CAR is more abstract than SPORTS CAR class. The level of abstraction decrease with each level as more details comes out.
+5. If all the classes use private inheritance in multilevel inheritance then ______________
+a) It will not be called multilevel inheritance
+b) Each class can access only non-private members of its parent
+c) Each subsequent class can access all members of previous level parent classes
+d) None of the members will be available to any other class
+View Answer
+
+Answer: b
+Explanation: The classes will be able to access only the non-private members of its parent class. The classes are using private inheritance, hence all the members of the parent class become private in the derived class. In turn those won’t be allowed for further inheritance or direct access outside the class.
+Check this: Object Oriented Programming Books | Computer Science Books
+6. Multilevel inheritance allows _________________ in the program.
+a) Only 7 levels of inheritance
+b) At least 7 levels of inheritance
+c) At most 16 levels of inheritance
+d) As many levels of inheritance as required
+View Answer
+
+Answer: d
+Explanation: The multilevel inheritance allows any number of levels of inheritance. This is the maximum flexibility feature to make the members available to all the new classes and to add their own functionalities. The code reusability is used too.
+7. What is the minimum number of levels for a implementing multilevel inheritance?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: c
+Explanation: There must be at least 3 levels of inheritance. Otherwise if less, it will be single level inheritance or would have got no inheritance implemented. There must be a derived class from which another class is derived.
+8. In multilevel inheritance one class inherits _______________
+a) Only one class
+b) More than one class
+c) At least one class
+d) As many classes as required
+View Answer
+
+Answer: a
+Explanation: The classes inherit only from one class. This continues as each class inherits only one class. There should not be any class that inherits from two or more classes or which have more than one subclass.
+9. All the classes must have all the members declared private to implement multilevel inheritance.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: There is no mandatory rule to make the members private for multilevel inheritance. Moreover, if all the classes have only the private members then there won’t be any member to get inherited. Hence the working will be of no use.
+10. Can abstract classes be used in multilevel inheritance?
+a) Yes, always
+b) Yes, only one abstract class
+c) No, abstract class doesn’t have constructors
+d) No, never
+View Answer
+
+Answer: a
+Explanation: The abstract classes can always be used in multilevel inheritance. The only condition that may arise is that all the undefined functions must be defined in subclasses. There must not be any undefined function.
+11. How many abstract classes can be used in multilevel inheritance?
+a) Only 1
+b) Only 2
+c) At least one less than number of levels
+d) Can’t be used
+View Answer
+
+Answer: c
+Explanation: At least one class must implement all the undefined functions. Hence there must be at least one class which is not abstract. That is at least one less than number of levels.
+12. If all the classes used parameterized constructors and no default constructor then ___________
+a) The object of lower level classes can’t be created
+b) Object of lower level classes must call parent class constructors explicitly
+c) Object of lower level classes must define all the default constructors
+d) Only object of first class can be created, which is first parent
+View Answer
+
+Answer: b
+Explanation: Each class constructor must be called before creating the object of any subclass. Hence it will be mandatory to call the constructors of parent classes explicitly with parameters. This will make all the previous class member be initialized and then the class in use will be able to create the object.
+13. In multilevel inheritance, which is the most significant feature of OOP used?
+a) Code readability
+b) Flexibility
+c) Code reusability
+d) Code efficiency
+View Answer
+
+Answer: c
+Explanation: The classes using multilevel inheritance will use the code in all the subsequent subclasses if available. Hence the most significant feature among the options given is code reusability. This feature is generally intended to use the data values and reuse the redundant functions.
+14. Does following code show multiple inheritance?
+
+ 
+class A
+{
+	int a;
+};
+class B
+{
+	int b;
+};
+class C:public A, public B
+{
+	int c;
+};
+class D:public C
+{
+	int d;
+};
+a) Yes, class C and class D
+b) Yes, All together it’s multilevel
+c) No, 4 classes are used
+d) No, multiple inheritance is used with class A, B and C
+View Answer
+
+Answer: d
+Explanation: Since multiple inheritance is used to derive class C and then class D is derived from class C. This is not multilevel inheritance. The classes should derive from single class. This is actually hybrid inheritance.
+15. Is it compulsory for all the classes in multilevel inheritance to have constructors defined explicitly if only last derived class object is created?
+a) Yes, always
+b) Yes, to initialize the members
+c) No, it not necessary
+d) No, Constructor must not be defined
+View Answer
+
+Answer: c
+Explanation: It’s not mandatory to define the constructors explicitly. Default constructor will always be provided by the compiler itself if none another constructor is defined in those classes. If explicit default constructor is defined it will be used.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Multiple Inheritance”.
+
+1. Multiple inheritance is ____________________
+a) When a class is derived from another class
+b) When a class is derived from two or more classes
+c) When a class is derived from other two derived classes
+d) When a class is derived from exactly one class
+View Answer
+
+Answer: b
+Explanation: The multiple inheritance is used when a class is being derived using two base classes or more. This way a single class can have features of more than one classes inherited into a single unit. This lets us combine two class members into a single class.
+2. Which problem arises due to multiple inheritance, if hierarchical inheritance is used previously for its base classes?
+a) Diamond
+b) Circle
+c) Triangle
+d) Loop
+View Answer
+
+Answer: a
+Explanation: The diamond problem arises when multiple inheritance is used. This problem arises because the same name member functions get derived into a single class. Which in turn creates ambiguity in calling those methods.
+3. How many classes should a program contain to implement the multiple inheritance?
+a) Only 1
+b) At least 1
+c) At least 3
+d) Exactly 3
+View Answer
+
+Answer: c
+Explanation: For the implementation of multiple inheritance, there must be at least 3 classes in a program. At least 2 base classes and one class to inherit those two classes. If lesser, it becomes single level inheritance.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which programming language restricts the use of multiple inheritance?
+a) C++
+b) PHP
+c) SmallTalk
+d) Java
+View Answer
+
+Answer: d
+Explanation: Java doesn’t allow use of multiple inheritance with classes. But this can be done by using the interfaces. This is more secure and unambiguous way to implement multiple inheritance.
+5. Is it possible to have all the abstract classes as base classes of a derived class from those?
+a) Yes, always
+b) Yes, only if derived class implements all the methods
+c) No, because abstract classes doesn’t have constructors
+d) No, never
+View Answer
+
+Answer: b
+Explanation: The condition for abstract class applies same here too. All the undefined functions must be defined. Hence all the base classes can be abstract but derived class must implement all those undefined functions.
+Check this: MCA MCQs | Computer Science MCQs
+6. If class A inherits class B and class C as “class A: public class B, public class C {// class body ;}; ”, which class constructor will be called first?
+a) Class A
+b) Class B
+c) Class C
+d) All together
+View Answer
+
+Answer: b
+Explanation: The constructors of parent class will be called first. In that, the constructor of the classes will be called in the same sequence as that mentioned in class definition inheritance. Since class B is mentioned first for inheritance, its constructor will be called first.
+7. Why does diamond problem arise due to multiple inheritance?
+a) Methods with same name creates ambiguity and conflict
+b) Methods inherited from the superclass may conflict
+c) Derived class gets overloaded with more than two class methods
+d) Derived class can’t distinguish the owner class of any derived method
+View Answer
+
+Answer: a
+Explanation: All the derived classes can distinguish the base class members, but if a method is being inherited to the base classes from another class which again gets inherited into same class (diamond shape), that may create conflict in using the function from two available.
+8. How many base classes can a derived class have which is implementing multiple inheritance?
+a) Only 2
+b) At least 2
+c) At most 2
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: The classes can derive from as many classes as required since the multiple inheritance feature is made to combine or group together the functions that are from different classes. This make the derived class stronger in terms of its flexibility.
+9. How to overcome diamond problem?
+a) Using alias name
+b) Using seperate derived class
+c) Using virtual keyword with same name function
+d) Can’t be done
+View Answer
+
+Answer: c
+Explanation: To overcome the ambiguity and conflict we can use keyword virtual. This will help us to differentiate the functions with same name that came to last derived class in diamond problem.
+10. When multiple inheritance is used, which class object should be used in order to access all the available members of parent and derived class?
+a) Derived class object
+b) Parent class objects
+c) Use Abstract derived class
+d) Derive a class from derived class
+View Answer
+
+Answer: a
+Explanation: The derived class object can access all of its own members. It can also access the available members of the parent classes, because the members are derived into the derived class.
+11. If all the members of all the base classes are private then _____________
+a) There won’t be any use of multiple inheritance
+b) It will make those members public
+c) Derived class can still access them in multiple inheritance
+d) Compile time error
+View Answer
+
+Answer: a
+Explanation: The derived class will not be able to access any members of the base classes. Since private member’s are not inheritable. It leads to no use of multiple inheritance.
+12. Is it compulsory to have constructor for all the classes involved in multiple inheritance?
+a) Yes, always
+b) Yes, only if no abstract class is involved
+c) No, only classes being used should have a constructor
+d) No, they must not contain constructors
+View Answer
+
+Answer: b
+Explanation: The constructors must be defined in every class. If class is abstract, it won’t have any constructor but other classes must have constructor. Either implicit or explicit.
+13. If a class contains 2 nested class and is being inherited by another class, will there be any multiple inheritance?
+a) No, only single level inheritance is used
+b) No, only multilevel inheritance is used
+c) Yes, because 3 classes are involved
+d) Yes, because more than 1 classes are being derived
+View Answer
+
+Answer: a
+Explanation: When a class having nested classes is being derived into another class. It indirectly means a simple class is being inherited to another class. This is single level inheritance.
+14. Which members can’t be accessed in derived class in multiple inheritance?
+a) Private members of base
+b) Public members of base
+c) Protected members of base
+d) All the members of base
+View Answer
+
+Answer: a
+Explanation: The private member’s are available for only the class containing those members. Derived classes will have access to protected and public members only.
+15. Can the derived class be made abstract if multiple inheritance is used?
+a) No, because other classes must be abstract too
+b) Yes, if all the functions are implemented
+c) Yes, if all the methods are predefined
+d) No, since constructors won’t be there
+View Answer
+
+Answer: d
+Explanation: The derived class must not be abstract. This is because the abstract classes doesn’t have constructor and hence we won’t be having the capability to have instances. This will restrict the use of multiple inheritance.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Single Level Inheritance”.
+
+1. Which among the following defines single level inheritance?
+a) One base class derives another class
+b) One derived class inherits from one base class
+c) One base class inherits from one derived class
+d) One derived class derives from another derived class
+View Answer
+
+Answer: b
+Explanation: If only one base class is used to derive only one subclass, it is known as single level inheritance. The reason of this name is that we inherit the base class to one more level and stop the inheritance any further.
+2. If class A and class B are derived from class C and class D, then ________________
+a) Those are 2 pairs of single inheritance
+b) That is multilevel inheritance
+c) Those is enclosing class
+d) Those are all independent classes
+View Answer
+
+Answer: a
+Explanation: Since class A is derived from class C and then class B is derived from class D, there are two pairs of classes which shows single inheritance. Those two pairs are independent of each other though.
+3. If single inheritance is used, program will contain ________________
+a) At least 2 classes
+b) At most 2 classes
+c) Exactly 2 classes
+d) At most 4 classes
+View Answer
+
+Answer: a
+Explanation: The program will contain at least 2 classes in the sense of base and derived classes. At least one base class and one derived class must be there. Types of inheritance remains the same though.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Single level inheritance supports _____________ inheritance.
+a) Runtime
+b) Compile time
+c) Multiple inheritance
+d) Language independency
+View Answer
+
+Answer: a
+Explanation: The runtime inheritance is done when object of a class is created to call a method. At runtime the function is searched if it is in class of object. If not, it will search in its parent classes and hierarchy for that method.
+5. Which method in the code below is single level inherited?
+
+Take Object Oriented Programming Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+class A
+{
+	protected int a, b;
+	public: void show()
+	{ 
+		cout&lt;&lt;a&lt;&lt;b;
+	}
+};
+class B: public A
+{
+	public: void disp()
+	{ 
+		cout&lt;&lt;a++&lt;&lt;b++; 
+	}
+};
+class C: private A, public B
+{
+	void avg()
+	{ 
+		cout&lt;&lt;(a+b)/2; 
+	}
+};
+a) Class A
+b) Class B
+c) Class C
+d) None
+View Answer
+
+Answer: b
+Explanation: Class B is using single level inheritance. Class C is using multiple inheritance. And class A is parent of other two classes.
+6. If single level inheritance is used and an abstract class is created with some undefined functions, can its derived class also skip some definitions?
+a) Yes, always possible
+b) Yes, possible if only one undefined function
+c) No, at least 2 undefined functions must be there
+d) No, the derived class must implement those methods
+View Answer
+
+Answer: d
+Explanation: The derived class must implement those methods. This is because the parent class is abstract and hence will have some undefined functions which has to be defined in derived classes. Since we are using single level inheritance, if derived class doesn’t implement those functions then one more class has to be there which will become multi-level inheritance.
+7. Which among the following is false for single level inheritance?
+a) There can be more than 2 classes in program to implement single inheritance
+b) There can be exactly 2 classes to implement single inheritance in a program
+c) There can be more than 2 independent classes involved in single inheritance
+d) The derived class must implement all the abstract method if single inheritance is used
+View Answer
+
+Answer: c
+Explanation: If more than 2 independent classes are involved to implement the single level inheritance, it won’t be possible as there must be only one child and one parent class and none other related class.
+8. Which concept will result in derived class with more features (consider maximum 3 classes)?
+a) Single inheritance
+b) Multiple inheritance
+c) Multilevel inheritance
+d) Hierarchical inheritance
+View Answer
+
+Answer: b
+Explanation: If single inheritance is used then only feature of a single class are inherited, and if multilevel inheritance is used, the 2nd class might have use private inheritance. Hence only multiple inheritance can result in derived class with more features. This is not mandatory but in a case if we consider same number of features in each class, it will result the same.
+9. Single level inheritance is safer than _____________
+a) Multiple inheritance
+b) Interfaces
+c) Implementations
+d) Extensions
+View Answer
+
+Answer: a
+Explanation: Interfaces also represent a way of inheritance but is a wide word to decide which inheritance we are talking about in it, hence can’t be considered. Implementation and extensions also doesn’t match that level of specific idea. And multiple inheritance not so safe as it might result in some ambiguity.
+10. Which language doesn’t support single level inheritance?
+a) Java
+b) C++
+c) Kotlin
+d) All languages support it
+View Answer
+
+Answer: d
+Explanation: All the languages support single level inheritance. Since any class can inherit other classes as required, if single level inheritance was not allowed it would result in failing a lot of features of OOP.
+11. What is the output of the following program?
+
+class A
+{
+	protected: int a,b;
+	public: void disp()
+	{ 
+		cout&lt;&lt;a&lt;&lt;b; 
+	}
+};
+class B:public A
+{
+	int x,y;
+};
+a) Garbage value
+b) Compile time error
+c) Runtime error
+d) Runs but gives random values as output
+View Answer
+
+Answer: b
+Explanation: The compiler doesn’t find the main function and hence will throw an error main() missing. This program is using single level inheritance but the program is incomplete. Every program must implement main function.
+12. What is the output of the following program?
+
+class A
+{  
+	float sal=40000;  
+}  
+class B extends A
+{  
+	int salBonus=10000;  
+	public static void main(String args[])
+	{  
+		B p=new B();  
+		System.out.println("B salary is:"+p.sal);  
+		System.out.println("Bonus of B is:"+p.bonus);  
+	}  
+}
+a)
+
+B salary is: 4000.0
+Bonus of B is: 10000
+b)
+
+B salary is 10000
+Bonus of B is: 4000.0
+c) Compile time error
+d) Runtime error
+View Answer
+
+Answer: a
+Explanation: The program gives output as in option a. The program have used single level inheritance and hence have access to the parent class methods and variables. This program simply prints the value from parent class and from the child class.
+13. Single level inheritance will be best for___________
+a) Inheriting a class which performs all the calculations
+b) Inheriting a class which can print all the calculation results
+c) Inheriting a class which can perform and print all calculations
+d) Inheriting all the classes for different calculations
+View Answer
+
+Answer: b
+Explanation: Inheriting a class which can perform the most common task will be more efficient. If class which can perform all the calculations is inherited then there won’t be any problem to print the result too. But if a class which can do the most common task for all the other tasks, it will make real use of inheritance.
+14. Which constructor will be called first from the classes involved in single inheritance from object of derived class?
+a) Base class constructor
+b) Derived class constructor
+c) Both class constructors at a time
+d) Runtime error
+View Answer
+
+Answer: a
+Explanation: The base class constructor will be called first from the object of derived class constructor. When the derived class members are to be initialized and allocated memory, the base class members should also be confirmed with the memory allocation.
+15. If base class contains 2 nested classes, will it be possible to implement single level inheritance?
+a) Yes, always
+b) Yes, only if derived class also have nested classes
+c) No, it will use more than 2 classes which is wrong
+d) No, never
+View Answer
+
+Answer: a
+Explanation: The nested classes are also members of a class. They behave as a used defined data type with some methods implementation. So the inheritance will be as usual with the nested classes being member of base class and of derived class if not private.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Types of Inheritance”.
+
+1. How many types of inheritance are possible in C++?
+a) 2
+b) 3
+c) 4
+d) 5
+View Answer
+
+Answer: d
+Explanation: There are five types of inheritance that are possible in C++. Single level, Multilevel, multiple, hierarchical and hybrid. Here we count hybrid also because it sometimes can bring up a new form of inheritance, Like inheritance using multiple and hierarchical, which sometimes results in diamond problem.
+2. Which among the following is true?
+a) Java supports all types of inheritance
+b) Java supports multiple inheritance
+c) Java doesn’t support multiple inheritance
+d) Java doesn’t support inheritance
+View Answer
+
+Answer: c
+Explanation: Java doesn’t support multiple inheritance. This is done to avoid the diamond problem that sometimes arises with inherited functions. Though, multiple inheritance can be implemented in java using interfaces.
+3. Which type of inheritance is illustrated by the following code?
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+class student{ public: int marks; };
+class topper: public student { public: char grade; };
+class average{ public: int makrs_needed; };
+class section: public average{ public: char name[10];  };
+class overall: public average{  public: int students;  };
+a) Single level
+b) Multilevel and single level
+c) Hierarchical
+d) Hierarchical and single level
+View Answer
+
+Answer: d
+Explanation: It is hierarchical inheritance and single level inheritance. Since class topper is inheriting class student, it is single level inheritance. And then average is inherited by section and overall, so it is hierarchical inheritance. But both of them are separate. Hence it is not hybrid inheritance.
+Check this: Computer Science Books | Information Science MCQs
+4. Which among the following best describes multiple inheritance?
+a) Two classes being parent of any other classes
+b) Three classes being parent of other classes
+c) More than one class being parent of other child classes
+d) More than one class being parent of single child
+View Answer
+
+Answer: d
+Explanation: If a class inherits more than one class, it is known as multiple inheritance. This should not be referred with only two or three classes being inherited. But there must be one class which inherits more than one class to be called as multiple inheritance.
+5. How many types of inheritance can be used at a time in a single program?
+a) Any two types
+b) Any three types
+c) Any 4 types
+d) Any type, any number of times
+View Answer
+
+Answer: d
+Explanation: Any type of inheritance can be used in any program. There is no rule to use only few types of inheritance. Only thing that matters is how the classes are inherited and used.
+6. Which type of inheritance results in the diamond problem?
+a) Single level
+b) Hybrid
+c) Hierarchical
+d) Multilevel
+View Answer
+
+Answer: b
+Explanation: In diamond problem, hierarchical inheritance is used first, where two different classes inherit the same class and then in turn a 4th class inherits the two classes which had inherited the first class. Using more than one type of inheritance here, it is known as hybrid inheritance.
+7. If 6 classes uses single level inheritance with pair classes (3 pairs), which inheritance will this be called?
+a) Single
+b) Multiple
+c) Hierarchical
+d) Multilevel
+View Answer
+
+Answer: a
+Explanation: Here all the pairs are using single inheritance. And no different pairs are inheriting same classes. Hence it can’t be called hybrid or multilevel inheritance. You can say the single inheritance is used 3 times in that program.
+8. Which among the following is correct for the following code?
+
+class A
+{  
+    public : class B 
+    { 
+        public : B(int i): data(i)
+        { 
+        }
+        int data;
+    }
+};
+class C: public A
+{
+     class D:public A::B{ };
+};
+a) Multi-level inheritance is used, with nested classes
+b) Multiple inheritance is used, with nested classes
+c) Single level inheritance is used, with enclosing classes
+d) Single level inheritance is used, with both enclosing and nested classes
+View Answer
+
+Answer: d
+Explanation: Class C is inheriting Class A. Class D is inheriting class B, both are nested. Hence it is single inheritance. For multiple inheritance, class C or D should have inherited both class A and class B.
+9. Which among the following is false?
+a) If one class inherits the inherited class in single level inheritance, it is multi-level inheritance
+b) Hybrid inheritance always contains multiple inheritance
+c) Hierarchical inheritance involves inheriting same class into more than one classes
+d) Hybrid inheritance can involve any types of inheritance together
+View Answer
+
+Answer: b
+Explanation: It is not necessary to have multiple inheritance in hybrid type. It can have any type together. This doesn’t have to be of specific type always.
+10. If class A has two nested classes B and C. Class D has one nested class E, and have inherited class A. If E inherits B and C, then ________________
+a) It shows multiple inheritance
+b) It shows hierarchical inheritance
+c) It shows multiple inheritance
+d) Multiple inheritance among nested classes, and single level for enclosing classes
+View Answer
+
+Answer: d
+Explanation: This involves the same concept of inheritance, where the nested classes also follow the inheritance rules. The Enclosing classes are having single inheritance. Nested classes involves multiple.
+11. In hierarchical inheritance, all the classes involve some kind of inheritance.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: This is so because few classes might not be involved in any type of inheritance in whole program whereas other classes might be participating in more than one type of inheritance at the same time.
+12. Which type of inheritance cannot involve private inheritance?
+a) Single level
+b) Multiple
+c) Hybrid
+d) All types can have private inheritance
+View Answer
+
+Answer: d
+Explanation: This is a common type of inheritance where the protected and public members of parent class become private members in child class. There is no type which doesn’t support private inheritance.
+13. How many classes can be inherited by a single class in multiple inheritance (C++)?
+a) Only 2
+b) Only 27
+c) Only 1024
+d) Any number of classes can be inherited
+View Answer
+
+Answer: d
+Explanation: Any class can inherit any number of classes. There is no limit defined for the number of classes being inherited by a single class.
+14. How many classes can be inherited by a single class in java?
+a) Only 1
+b) Only 27
+c) Only 255
+d) Only 1024
+View Answer
+
+Answer: a
+Explanation: Since java doesn’t support multiple inheritance, it is not possible for a class to inherit more than 1 class in java. This is the same case in C# also.
+15. If multi-level inheritance is used, First class B inherits class A, then C inherits B and so on. Till how many classes can this go on?
+a) Only till class C
+b) Only till class J
+c) Only till class Z
+d) There is no limit
+View Answer
+
+Answer: d
+Explanation: In this case, there is no limit. All the classes going on like this will inherit the members of base class, and hence the upper level inheritance won’t affect the number of classes that can go on inheriting in this pattern.

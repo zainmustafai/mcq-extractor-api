@@ -1,0 +1,729 @@
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Abstract Class”.
+
+1. Which among the following best describes abstract classes?
+a) If a class has more than one virtual function, it’s abstract class
+b) If a class have only one pure virtual function, it’s abstract class
+c) If a class has at least one pure virtual function, it’s abstract class
+d) If a class has all the pure virtual functions only, then it’s abstract class
+View Answer
+
+Answer: c
+Explanation: The condition for a class to be called abstract class is that it must have at least one pure virtual function. The keyword abstract must be used while defining abstract class in java.
+2. Can abstract class have main() function defined inside it?
+a) Yes, depending on return type of main()
+b) Yes, always
+c) No, main must not be defined inside abstract class
+d) No, because main() is not abstract function
+View Answer
+
+Answer: b
+Explanation: This is a property of abstract class. It can define main() function inside it. There is no restriction on its definition and implementation.
+3. If there is an abstract method in a class then, ________________
+a) Class must be abstract class
+b) Class may or may not be abstract class
+c) Class is generic
+d) Class must be public
+View Answer
+
+Answer: a
+Explanation: It is a rule that if a class have even one abstract method, it must be an abstract class. If this rule was not made, the abstract methods would have got skipped to get defined in some places which are undesirable with the idea of abstract class.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. If a class is extending/inheriting another abstract class having abstract method, then _______________________
+a) Either implementation of method or making class abstract is mandatory
+b) Implementation of the method in derived class is mandatory
+c) Making the derived class also abstract is mandatory
+d) It’s not mandatory to implement the abstract method of parent class
+View Answer
+
+Answer: a
+Explanation: Either of the two things must be done, either implementation or declaration of class as abstract. This is done to ensure that the method intended to be defined by other classes gets defined at every possible class.
+5. Abstract class A has 4 virtual functions. Abstract class B defines only 2 of those member functions as it extends class A. Class C extends class B and implements the other two member functions of class A. Choose the correct option below.
+a) Program won’t run as all the methods are not defined by B
+b) Program won’t run as C is not inheriting A directly
+c) Program won’t run as multiple inheritance is used
+d) Program runs correctly
+View Answer
+
+Answer: d
+Explanation: The program runs correctly. This is because even class B is abstract so it’s not mandatory to define all the virtual functions. Class C is not abstract but all the virtual functions have been implemented will that class.
+Check this: Information Science MCQs | Object Oriented Programming Books
+6. Abstract classes can ____________________ instances.
+a) Never have
+b) Always have
+c) Have array of
+d) Have pointer of
+View Answer
+
+Answer: a
+Explanation: When an abstract class is defined, it won’t be having the implementation of at least one function. This will restrict the class to have any constructor. When the class doesn’t have constructor, there won’t be any instance of that class.
+7. We ___________________ to an abstract class.
+a) Can create pointers
+b) Can create references
+c) Can create pointers or references
+d) Can’t create any reference, pointer or instance
+View Answer
+
+Answer: c
+Explanation: Even though there can’t be any instance of abstract class. We can always create pointer or reference to abstract class. The member functions which have some implementation inside abstract itself can be used with these references.
+8. Which among the following is an important use of abstract classes?
+a) Header files
+b) Class Libraries
+c) Class definitions
+d) Class inheritance
+View Answer
+
+Answer: b
+Explanation: The abstract classes can be used to create a generic, extensible class library that can be used by other programmers. This helps us to get some already implemented codes and functions that might have not been provided by the programming language itself.
+9. Use of pointers or reference to an abstract class gives rise to which among the following feature?
+a) Static Polymorphism
+b) Runtime polymorphism
+c) Compile time Polymorphism
+d) Polymorphism within methods
+View Answer
+
+Answer: b
+Explanation: The runtime polymorphism is supported by reference and pointer to an abstract class. This relies upon base class pointer and reference to select the proper virtual function.
+10. The abstract classes in java can _________________
+a) Implement constructors
+b) Can’t implement constructor
+c) Can implement only unimplemented methods
+d) Can’t implement any type of constructor
+View Answer
+
+Answer: a
+Explanation: The abstract classes in java can define a constructor. Even though instance can’t be created. But in this way, only during constructor chaining, constructor can be called. When instance of concrete implementation class is created, it’s known as constructor chaining.
+11. Abstract class can’t be final in java.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: If an abstract class is made final in java, it will stop the abstract class from being extended. And if the class is not getting extended, there won’t be another class to implement the virtual functions. Due to this contradicting fact, it can’t be final in java.
+12. Can abstract classes have static methods (Java)?
+a) Yes, always
+b) Yes, but depends on code
+c) No, never
+d) No, static members can’t have different values
+View Answer
+
+Answer: a
+Explanation: There is no restriction on declaring static methods. The only condition is that the virtual functions must have some definition in the program.
+13. It is _________________________ to have an abstract method.
+a) Not mandatory for an static class
+b) Not mandatory for a derived class
+c) Not mandatory for an abstract class
+d) Not mandatory for parent class
+View Answer
+
+Answer: c
+Explanation: Derived, parent and static classes can’t have abstract method (We can’t say what type of these classes is). And for abstract class it’s not mandatory to have abstract method. But if any abstract method is there inside a class, then class must be abstract type.
+14. How many abstract classes can a single program contain?
+a) At most 1
+b) At least 1
+c) At most 127
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: There is no restriction on the number of abstract classes that can be defined inside a single program. The programs can use as many abstract classes as required. But the functions with no body must be implemented.
+15. Is it necessary that all the abstract methods must be defined from an abstract class?
+a) Yes, depending on code
+b) Yes, always
+c) No, never
+d) No, if function is not used, no definition is required
+View Answer
+
+Answer: b
+Explanation: That is the rule of programming language that each function declared, must have some definition. There can’t be some abstract method that remains undefined. Even if it’s there, it would result in compile time error.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Base Class”.
+
+1. Which is most appropriate definition of a base class?
+a) It is parent of any of its derived class
+b) It is child of one of the parent class
+c) It is most basic class of whole program
+d) It is class with maximum number of members
+View Answer
+
+Answer: a
+Explanation: A class which is parent of another class, or from which other classes can be derived, is known as a base class. It is mandatory that a class must have at least one derived class to be called as a base class.
+2. A base class is also known as _____________ class.
+a) Basic
+b) Inherited
+c) Super
+d) Sub
+View Answer
+
+Answer: c
+Explanation: A class which is being derived by other classes, is called as super class. This concept is clearly used in java as we call the functions of a base class by using the keyword super as required.
+3. An abstract class is always a __________ class.
+a) Base
+b) Derived
+c) Template
+d) Nested
+View Answer
+
+Answer: a
+Explanation: Every abstract class is a base class. It must be so, because the functions which are not defined inside the abstract class, must be defined in the derived classes. Hence it becomes a base class.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. How many base classes can a single class inherit in java?
+a) 1
+b) 2
+c) 3
+d) As many as required
+View Answer
+
+Answer: a
+Explanation: In java, multiple inheritance is not supported, which leads to the fact that a class can have only 1 parent class if inheritance is used. Only if interfaces are used then the class can implement more than one base class.
+5. How to make a derived class a base class?
+a) Change name of the class
+b) Use keyword base
+c) Make a class derive from it
+d) Can’t be done
+View Answer
+
+Answer: c
+Explanation: Making another class derive from it will make that class as base class. It is not necessary that we have to write different code for it. If at least one class derives that class, it becomes the base class for the new class.
+Take Object Oriented Programming Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. If a base class is being derived by two other classes, which inheritance will that be called?
+a) Single
+b) Multiple
+c) Multi-level
+d) Hierarchical
+View Answer
+
+Answer: d
+Explanation: When more than one classes are being derived from a single parent class, the inheritance is known as hierarchical inheritance. This is usually useful when the base class is higher abstraction of its derived classes.
+7. Which among the following must be in a base class?
+a) Data members
+b) Member functions
+c) Access specifiers
+d) Nothing
+View Answer
+
+Answer: d
+Explanation: Even a class that doesn’t have any members can be a base class. It is not mandatory to have any member or attribute in base class.
+8. Which type of members can’t be accessed in derived classes of a base class?
+a) Protected
+b) Private
+c) Public
+d) All can be accessed
+View Answer
+
+Answer: b
+Explanation: The private members can be accessed only inside the base class. If the class is derived by other classes. Those members will not be accessible. This concept of OOP is made to make the members more secure.
+9. If a class is enclosing more than one class, than it can be called as base class of those classes.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: When a class have more than one nested classes, it is known as enclosing class. It can’t be called as parent or base class since there is no inheritance involved.
+10. Base class have ________________ of abstraction.
+a) Higher degree
+b) Lower degree
+c) Intermediate
+d) Minimum degree
+View Answer
+
+Answer: b
+Explanation: A base class will have lesser information as compared to those of derived classes. Since derived classes inherit the base class properties and then add on their own features, they elaborate more hence have lower degree of abstraction.
+11. Always the base class constructors are called ___________ constructor of derived class.
+a) Before
+b) After
+c) Along
+d) According to priority of
+View Answer
+
+Answer: a
+Explanation: When the base class object is created, its constructor will be called for sure. But if a derived class constructor is called, first base class constructor is called and then derived class constructor is taken into consideration.
+12. Can we call methods of base class using the constructor of the derived class?
+a) Yes, always
+b) Yes, but not always
+c) No, never
+d) No, but we can call in some cases
+View Answer
+
+Answer: a
+Explanation: If the function is defined in the base class, it can always be called from the constructor of its derived class. Since the constructors are not private, they can be accessed in derived class even if those are protected.
+13. If a base class is inherited from another class and then one class derives it, which inheritance is shown?
+a) Multiple
+b) Single
+c) Hierarchical
+d) Multi-level
+View Answer
+
+Answer: d
+Explanation: If a base class is inherited from another class, single inheritance is shown. But when one more class inherits the derived class, this becomes a multi-level inheritance.
+14. How many base classes can a single derived class have in C++?
+a) 1
+b) 2
+c) 3
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: This is because C++ allows multiple inheritance. A derived class can have more than one base class and hence can derive all of their features.
+15. If a base class is added with a few new members, its subclass must also be modified.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The base class can be added with new members without affecting the subclasses. This is because the subclasses may get some more features inherited but it won’t use them. But the base class will be able to use the new members as would be required.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Class Use”.
+
+1. Which among the following is the main characteristic of class?
+a) Inheritance
+b) Encapsulation
+c) Polymorphism
+d) Object creation
+View Answer
+
+Answer: b
+Explanation: The classes are made to encapsulate the data and properties that are most similar and can be grouped together inside a single class. This single class can represent all of those features by creating its instances.
+2. To group all the brands of cars, what should be used?
+a) Class
+b) Structure
+c) Function
+d) Object
+View Answer
+
+Answer: a
+Explanation: A class can be used to group all the brands of cars. The Different brands may have different properties but all will have some common properties like number of wheels and doors, accessories etc. All of those properties can be grouped into a single class representing all the cars.
+3. If a class have two data members and two functions to add those two numbers and to subtract them, which among the following is most efficient if the programmer wants to implement multiplication too?
+a) Define a public function which multiplies two numbers
+b) Define a public function that returns values of two data members
+c) Define a private function which multiplies two numbers
+d) Define a private function that returns values of two data members
+View Answer
+
+Answer: b
+Explanation: The best choice would be to define a public member function that returns the values of two data members of the class. This way we can implement any operation on those data members. Also there won’t be any need to modify the program and to add new functions for each new operation.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. If a database have to be maintained using OOP, to store the details of each employee in a company, which would be the best choice among the following?
+a) Define a class to store details of each employee
+b) Define a structure to store details of each employee
+c) Define separate variable for each detail
+d) Define a generic type to store string and number details
+View Answer
+
+Answer: a
+Explanation: A single class can be defined that represents a single employee of a company. The specific type of functions that can be applied to specific employees can be put into another class that is derived from the existing class.
+5. Which class represents the most abstracted information?
+a) Nested
+b) Derived
+c) Enclosed
+d) Base
+View Answer
+
+Answer: d
+Explanation: The base classes are the most abstracted part of information. A base class having many other derived classes would have a bigger overview of all the other derived classes. Hence the base classes have the most abstract information.
+Take Object Oriented Programming Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which among the following is an advantage of using classes over structures of C?
+a) Functions are restricted
+b) Functions can’t be defined
+c) Functions can also be encapsulated
+d) Functions can have more security
+View Answer
+
+Answer: c
+Explanation: The functions are also made easy to be encapsulated inside a class. In structures, only the data members were allowed to be encapsulated. Hence classes can represent an entity in a better way.
+7. Which among the following is a feature of class?
+a) Object orientation
+b) Procedure orientation
+c) Both object and procedure orientation
+d) Neither object nor procedure orientation
+View Answer
+
+Answer: a
+Explanation: Thee use of classes feature the object oriented programming. The OOP concept can be implemented by using class and their objects. Procedures orientation is not a feature of OOP.
+8. Class is _____________ of an object.
+a) Basic function definition
+b) Detailed description with values
+c) Blueprint
+d) Set of constant values
+View Answer
+
+Answer: c
+Explanation: The class is an overview for an object. It contains the basic details map of data that an object will contain. An object is independent representation of class.
+9. In which case the classes can be used to make the more efficient program?
+a) To define a function that is called frequently in a program
+b) To structure data that is most similar
+c) To group the most similar data and operations
+d) To define a blueprint that shows memory location of data
+View Answer
+
+Answer: c
+Explanation: The classes would be more suitable to use in case where we need to group the most similar data and operations. The data can be represented as data members of class and operations as member functions of class. This is indirectly encapsulation feature.
+10. What is the use of inbuilt classes?
+a) Provide predefined data
+b) Provide predefined functions
+c) Provide predefined data and functions
+d) Provide predeclared data to be overridden
+View Answer
+
+Answer: c
+Explanation: The data that is constant or is always the same initially for use can be provided by some inbuilt classes. The functions that are mostly used are also provided by the inbuilt classes. The data and functions can be used by including the corresponding header file or library.
+11. Which feature is exhibited by the inbuilt classes?
+a) Code reusability
+b) Code efficiency
+c) Code readability
+d) Code reusability, efficiency and readability
+View Answer
+
+Answer: d
+Explanation: The code is reusable as the functions which are already written, can be used anytime required. The code becomes easier to read. Also, the code is efficient as there is no need to assign any external code.
+12. Why do we use user defined classes?
+a) To design a user intended code
+b) To model real world objects
+c) To design the interfaces
+d) To model the functions
+View Answer
+
+Answer: b
+Explanation: The primitive classes are not sufficient for the programming complex algorithms. Some user defined classes are required to represent a real world object and to define a blueprint of what the class should actually contain. The user defined classes are as per the requirements and need of user.
+13. Why do classes use accessor methods?
+a) To make public data accessible to client
+b) To make public data private to client
+c) To make private data public for whole program
+d) To make private data accessible to the client
+View Answer
+
+Answer: d
+Explanation: The private data of a class is usually not accessible. But the data can be accessed by the user using accessor functions. These functions allows the user to get the data stored as private in a class.
+14. Why do classes use mutator methods?
+a) Allows client to modify the program
+b) Allows client to modify/write the private members
+c) Allows servers to access all the private data
+d) Allows servers to access only protected members
+View Answer
+
+Answer: b
+Explanation: The client can have rights to access a file and write something to it. This is mandatory to keep the private data updated. Also it is an advantage over the use of hidden class members.
+15. Which among the following is the most abstract form of class?
+a) Cars
+b) BMW cars
+c) Big cars
+d) Small cars
+View Answer
+
+Answer: a
+Explanation: The most abstract class is class Cars. The class Cars is the most general form of all other cars. If it is a brand of car, it comes under car. If it is the type of car then also it comes under Cars
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Derived Class”.
+
+1. Which among the following is best definition of a derived class?
+a) A child class
+b) A class which inherits one or more classes
+c) A class with keyword derived
+d) A class with more than one constructor
+View Answer
+
+Answer: b
+Explanation: Any class which inherits one or more classes is a derived class. The only condition is it must inherit at least one class in order to be called as a derived class.
+2. Which among the following is inherited by a derived class from base class?
+a) Data members only
+b) Member functions only
+c) All the members except private members
+d) All the members of base class
+View Answer
+
+Answer: c
+Explanation: The class inheriting another class, inherits all the data members and member functions that are not private. This is done to ensure the security features with maximum flexibility.
+3. If there is a derived class in a program, how many classes must be in that program?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: If there is a derived class in a program, there must be at least 2 classes in that program. One is a base class and another derived class. Hence at least 2 classes must be there.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. Which members can never be accessed in derived class from the base class?
+a) Private
+b) Protected
+c) Public
+d) All except private
+View Answer
+
+Answer: d
+Explanation: There is no restriction for a derived class to access the members of the base class until and unless the members are private. Private member are declared so that those members are not accessible outside the class.
+5. How many types of inheritance are supported in C++ for deriving a class?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: c
+Explanation: There are three types of inheritance possible. Private inheritance, protected inheritance, and public inheritance. The inheritance defines the access specifier to be used with the inherited members in the derived class.
+Become Top Ranker in Object Oriented Programming Now!
+6. How many derived class can a single base class have?
+a) 1
+b) 2
+c) 3
+d) As many are required
+View Answer
+
+Answer: d
+Explanation: There is no restriction on how many classes can inherit a single base class. Hence there can be as many derived classes as required in a program from a single base class.
+7. Which among the following is correct?
+a) Friend function of derived class can access non-private members of base class
+b) Friend function of base class can access derived class members
+c) Friend function of derived class can access members of only derived class
+d) Friend function can access private members of base class of a derived class
+View Answer
+
+Answer: a
+Explanation: The friend function of a class can access the non-private members of base class. The reason behind is that the members of base class gets derived into the derived class and hence become members of derived class too. Hence a friend function can access all of those.
+8. If a class is being derived using more than two base classes, which inheritance will be used?
+a) Single
+b) Multi-level
+c) Hierarchical
+d) Multiple
+View Answer
+
+Answer: d
+Explanation: The statement given is the definition of multiple inheritance with respect to the derived class. The concept can be illustrated with many other samples but the main aspects are base class and derived class only.
+9. Derived class is also known as ______________ class.
+a) Subclass
+b) Small class
+c) Big class
+d) Noticeable class
+View Answer
+
+Answer: a
+Explanation: It is just another name given to the derived classes. This is used while denoting all the derived classes subsequent to a superclass.
+10. If class A is derived from another derived class B which is derived from class C, which class will have maximum level of abstraction?
+a) Class A
+b) Class B
+c) Class C
+d) All have the same level of abstraction
+View Answer
+
+Answer: c
+Explanation: The abstraction level of class C will be maximum. This is because the parent class have higher level of abstraction. Hence the parent of all other class will have maximum level of abstraction.
+11. If base class is an abstract class then derived class ______________ the undefined functions.
+a) Must define
+b) Must become another abstract class or define
+c) Must become parent class for
+d) Must implement 2 definitions of
+View Answer
+
+Answer: b
+Explanation: The function must be defined in the program which are not defined in the base class. Hence the class must be defined as abstract of implement the function definition in it.
+12. How many classes can be derived from a derived class?
+a) Only 1
+b) At most 1
+c) At least 1
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: When a class is to be derived from another derived class, the derived class behaves as a normal base class hence there are no restriction on how many class can be derived from a derived class. The derived class again behaves as a normal superclass.
+13. The members of a derived class can never be derived.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: This is not true that the members of a derived class can’t be derived. All the classes are considered to be a normal class when used for derivation. The members can be derived with respect to their access specifiers.
+14. Which feature is not related to the derived classes among the following?
+a) Inheritance
+b) Encapsulation
+c) Run time memory management
+d) Compile time function references
+View Answer
+
+Answer: c
+Explanation: The memory management is the feature that is not necessary for derived classes that will be a part of whole program. The functions references must be resolved for their proper use if inheritance is used.
+15. Deriving a class in such a way that that the base class members are not available for further inheritance is known as ___________________
+a) Public inheritance
+b) Protected inheritance
+c) Protected or private inheritance
+d) Private inheritance
+View Answer
+
+Answer: d
+Explanation: The private members of a class can never be derived to another class. When a class derives another class using private inheritance, all the members become private members of the derived class. Hence these member won’t be available for further inheritance
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Template Class”.
+
+1. A template class can have _____________
+a) More than one generic data type
+b) Only one generic data type
+c) At most two data types
+d) Only generic type of integers and not characters
+View Answer
+
+Answer: a
+Explanation: The template class can support more than one data type. The only thing is to add all the data types required in a list separated by comma within template specification.
+2. Which among the following is the proper syntax for the template class?
+a) template <typename T1, typename T2>;
+b) Template <typename T1, typename T2>;
+c) template <typename T> T named(T x, T y){ }
+d) Template <typename T1, typename T2> T1 named(T1 x, T2 y){ }
+View Answer
+
+Answer: c
+Explanation: The syntax must start with keyword template, case sensitive. Then it should include the typename and a variable to denote it. Then whenever that variable is used, it replaces it with the data type needed.
+3. Can default arguments be used with the template class?
+a) Yes, in some special cases
+b) Yes, always
+c) No, it must satisfy some specific conditions first
+d) No, it can’t be done
+View Answer
+
+Answer: b
+Explanation: The template class can use default arguments. This is used to specify the data type to be considered if it is not specified while passing to the generic class. The default type will be used.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. What is the syntax to use explicit class specialization?
+a) template <int> class myClass<>{ }
+b) template <int> class myClass<int>{ }
+c) template <> class myClass<>{ }
+d) template <> class myClass<int>{ }
+View Answer
+
+Answer: d
+Explanation: The class specialization is creation of explicit specialization of a generic class. We have to use template<> constructor for this to work. It works in the same way as with explicit function specialization.
+5. Which is the most significant feature that arises by using template classes?
+a) Code readability
+b) Ease in coding
+c) Code reusability
+d) Modularity in code
+View Answer
+
+Answer: c
+Explanation: The code reusability is the feature that becomes more powerful with the use of template classes. You can generate a single code that can be used in variety of programming situations.
+Become Top Ranker in Object Oriented Programming Now!
+6. A template class defines the form of a class _____________________ it will operate.
+a) With full specification of the data on which
+b) With full specification of the functions on which
+c) Without full specification of the data on which
+d) Without full specification of the functions on which
+View Answer
+
+Answer: c
+Explanation: The template classes can accept all types of data types. There is no need to specify the data on which the class has to operate. Hence it gives us flexibility to code without worrying about the type of data that might be used in the code.
+7. What are the two specializations of I/O template classes in C++?
+a) 16-bit character and wide characters
+b) 8-bit character and wide characters
+c) 32-bit character and locale characters
+d) 64-bit characters and locale characters
+View Answer
+
+Answer: b
+Explanation: The I/O specialization is made with wide character and 8-bit characters. Wide characters are used to store the characters that might take more than 1 byte of space in memory or any size that is different from the one that the machine is using.
+8. Can typeid() function be used with the object of generic classes?
+a) Yes, only if default type is given
+b) Yes, always
+c) No, generic data can’t be determined
+d) No, never possible
+View Answer
+
+Answer: b
+Explanation: The typeid() function can be used with the objects of generic classes. An instance of a template class will take the type of data that is being used with it. Hence when typeid() function is used, the data type would have already been defined and hence we can get desired result from typeid() function.
+9. The _____________ class is a specialization of a more general template class.
+a) String
+b) Integer
+c) Digit
+d) Math
+View Answer
+
+Answer: a
+Explanation: The string class is more specialized. Since the string must be able to store any kind of data that is given to the string. Hence it needs maximum specialization.
+10. How is function overloading different from template class?
+a) Overloading is multiple function doing same operation, Template is multiple function doing different operations
+b) Overloading is single function doing different operations, Template is multiple function doing different operations
+c) Overloading is multiple function doing similar operation, Template is multiple function doing identical operations
+d) Overloading is multiple function doing same operation, Template is same function doing different operations
+View Answer
+
+Answer: c
+Explanation: The function overloading is multiple functions with similar or different functionality but generic class functions perform the same task on given different types of data.
+11. What if static members are declared inside template classes?
+a) All instances will share the static variable
+b) All instances will have their own static variable
+c) All the instances will ignore the static variable
+d) Program gives compile time error
+View Answer
+
+Answer: b
+Explanation: The generic class have a special case with static members. Each instance will have its own static member. The static members are not shared usually.
+12. What is the output of following program?
+
+template <typename T>
+void test(const T&x) 
+{
+    static int count = 0;
+    cout &lt;&lt; "x = " &lt;&lt; x &lt;&lt; " count = " &lt;&lt; count &lt;&lt; endl;
+    ++count;
+    return;
+}
+ 
+void main() 
+{
+    test<int> (2);
+    test<int>(2);
+    test<double>(2.2);
+}
+a)
+
+x = 2 count = 0
+x = 2.2 count = 0
+x = 2.2 count = 0
+b)
+
+x = 2 count = 0
+x = 2 count = 0
+x = 2.2 count = 0
+c)
+
+x = 2 count = 0
+x = 2 count = 1
+x = 2.2 count = 0
+d)
+
+x = 2 count = 0
+x = 2 count = 1
+x = 2.2 count = 2
+View Answer
+Answer: c
+Explanation: For each new type, the class will have separate instance. Here two instances will be created and hence counter for integer goes to 1. And for float value, the count remains 0 for the output.
+ 
+ 
+13. If template class is defined, is it necessary to use different types of data for each call?
+a) No, not necessary
+b) No, but at least two types must be there
+c) Yes, to make proper use of template
+d) Yes, for code efficiency
+View Answer
+
+Answer: a
+Explanation: It is not necessary to use different type with each call to the generic function. Data may be of same type with each call but still the function works. We don’t consider other properties like efficiency with this concept because it is made generic to all data type, hence always works.
+14. How many generic types can be given inside a single template class?
+a) Only 1
+b) Only 3
+c) Only 7
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: There is no restriction on the number of types to be used for making the class generic. There can be any number of generic types with a single class. Hence giving flexibility to code with all the data types.
+15. Template classes must have at least one static member.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: There is no mandatory condition to have static members inside template class. Not only template, it is not mandatory to have static members anywhere. We can use them as required in the code.

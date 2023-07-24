@@ -1,0 +1,282 @@
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Testing of Hypothesis”.
+
+1. A statement made about a population for testing purpose is called?
+a) Statistic
+b) Hypothesis
+c) Level of Significance
+d) Test-Statistic
+View Answer
+
+Answer: b
+Explanation: Hypothesis is a statement made about a population in general. It is then tested and correspondingly accepted if True and rejected if False.
+2. If the assumed hypothesis is tested for rejection considering it to be true is called?
+a) Null Hypothesis
+b) Statistical Hypothesis
+c) Simple Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: a
+Explanation: If the assumed hypothesis is tested for rejection considering it to be true is called Null Hypothesis. It gives the value of population parameter.
+3. A statement whose validity is tested on the basis of a sample is called?
+a) Null Hypothesis
+b) Statistical Hypothesis
+c) Simple Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: b
+Explanation: In testing of Hypothesis a statement whose validity is tested on the basis of a sample is called as Statistical Hypothesis. Its validity is tested with respect to a sample.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. A hypothesis which defines the population distribution is called?
+a) Null Hypothesis
+b) Statistical Hypothesis
+c) Simple Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: c
+Explanation: A hypothesis which defines the population distribution is called as Simple hypothesis. It specifies all parameter values.
+5. If the null hypothesis is false then which of the following is accepted?
+a) Null Hypothesis
+b) Positive Hypothesis
+c) Negative Hypothesis
+d) Alternative Hypothesis.
+View Answer
+
+Answer: d
+Explanation: If the null hypothesis is false then Alternative Hypothesis is accepted. It is also called as Research Hypothesis.
+Check this: Probability and Statistics Books | Engineering Mathematics MCQ
+6. The rejection probability of Null Hypothesis when it is true is called as?
+a) Level of Confidence
+b) Level of Significance
+c) Level of Margin
+d) Level of Rejection
+View Answer
+
+Answer: b
+Explanation: Level of Significance is defined as the probability of rejection of a True Null Hypothesis. Below this probability a Null Hypothesis is rejected.
+7. The point where the Null Hypothesis gets rejected is called as?
+a) Significant Value
+b) Rejection Value
+c) Acceptance Value
+d) Critical Value
+View Answer
+
+Answer: d
+Explanation: The point where the Null Hypothesis gets rejected is called as Critical Value. It is also called as dividing point for separation of the regions where hypothesis is accepted and rejected.
+8. If the Critical region is evenly distributed then the test is referred as?
+a) Two tailed
+b) One tailed
+c) Three tailed
+d) Zero tailed
+View Answer
+
+Answer: a
+Explanation: In two tailed test the Critical region is evenly distributed. One region contains the area where Null Hypothesis is accepted and another contains the area where it is rejected.
+9. The type of test is defined by which of the following?
+a) Null Hypothesis
+b) Simple Hypothesis
+c) Alternative Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: c
+Explanation: Alternative Hypothesis defines whether the test is one tailed or two tailed. It is also called as Research Hypothesis.
+10. Which of the following is defined as the rule or formula to test a Null Hypothesis?
+a) Test statistic
+b) Population statistic
+c) Variance statistic
+d) Null statistic
+View Answer
+
+Answer: a
+Explanation: Test statistic provides a basis for testing a Null Hypothesis. A test statistic is a random variable that is calculated from sample data and used in a hypothesis test.
+11. Consider a hypothesis H0 where ϕ0 = 5 against H1 where ϕ1 > 5. The test is?
+a) Right tailed
+b) Left tailed
+c) Center tailed
+d) Cross tailed
+View Answer
+
+Answer: a
+Explanation: In the given example since H1 lies to the right of the Ho that is the Null Hypothesis the test is referred as a Right tailed test.
+12. Consider a hypothesis where H0 where ϕ0 = 23 against H1 where ϕ1 < 23. The test is?
+a) Right tailed
+b) Left tailed
+c) Center tailed
+d) Cross tailed
+View Answer
+
+Answer: b
+Explanation: In the Normal Distribution curve of both the hypothesis the H1 hypothesis lies to the left of the Null hypothesis hence the test is a Left tailed.
+13. Type 1 error occurs when?
+a) We reject H0 if it is True
+b) We reject H0 if it is False
+c) We accept H0 if it is True
+d) We accept H0 if it is False
+View Answer
+
+Answer: a
+Explanation: In Testing of Hypothesis Type 1 error occurs when we reject H0 if it is True. On the contrary a Type 2 error occurs when we accept H0 if it is False.
+14. The probability of Type 1 error is referred as?
+a) 1-α
+b) β
+c) α
+d) 1-β
+View Answer
+
+Answer: c
+Explanation: In Testing of Hypothesis Type 1 error occurs when we reject H0 if it is True. The probability of H0 is α then the error probability will be 1- α.
+15. Alternative Hypothesis is also called as?
+a) Composite hypothesis
+b) Research Hypothesis
+c) Simple Hypothesis
+d) Null Hypothesis
+View Answer
+
+Answer: b
+Explanation: Alternative Hypothesis is also called as Research Hypothesis. If the Null Hypothesis is false then Alternative Hypothesis is accepted.
+
+This set of Probability and Statistics Quiz focuses on “Testing of Hypothesis Concerning Single Population Mean”.
+
+1. What is the assumption made for performing the hypothesis test with T distribution?
+a) the distribution is non-symmetric
+b) the distribution has more than one modal class
+c) the distribution has a constant variance
+d) the distribution follows a normal distribution
+View Answer
+
+Answer: d
+Explanation: For testing of Hypothesis with T distribution it is assumed that the distribution follows a normal distribution. The region is identified and hence based on the normal variate Hypothesis is accepted or rejected.
+2. If a hypothesis is rejected at 0.6 Level of Significance then ______________
+a) it will be rejected at any level
+b) it must be rejected at 0.5 level
+c) it may be rejected at 0.5 level
+d) it cannot be rejected at 0.5 level
+View Answer
+
+Answer: c
+Explanation: If the hypothesis is rejected at 0.6 Level of Significance then p < 0.6. Hence p can be less than 0.5 also. Therefore it may be rejected at 0.5 Level of Significance.
+3. In a two tailed test when a Null Hypothesis is rejected for a True Alternative Hypothesis then it has ____________
+a) Type 1 error
+b) Type 2 error
+c) No error
+d) Many errors
+View Answer
+
+Answer: c
+Explanation: In Testing of Hypothesis Type 1 error occurs when we reject a true Null Hypothesis. On the contrary a Type 2 error occurs when we accept a false Null Hypothesis. Hence if the Alternative Hypothesis is true and Null Hypothesis is rejected then no error occurs.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. In a hypothesis test, what does the p value signify?
+a) smallest level of significance for rejection of Null Hypothesis
+b) largest level of significance for rejection of Null Hypothesis
+c) smallest level of significance for acceptance of Null Hypothesis
+d) smallest level of significance for acceptance of Null Hypothesis
+View Answer
+
+Answer: a
+Explanation: In a Hypothesis, the p value signifies the smallest level of significance for rejection of Null Hypothesis. Below this value, for every value the hypothesis is rejected.
+5. A Null Hypothesis has Level of Significance 9%. For what values of Level of Significances it will be rejected?
+a) 0.99
+b) 0.009
+c) 0.099
+d) 0.9
+View Answer
+
+Answer: b
+Explanation: The Level of Significance of Null Hypothesis is 0.09. Hence the hypothesis will be rejected at values less than 0.09.
+Check this: Engineering Mathematics MCQ | Numerical Methods MCQ
+6. Consider a trial of a criminal. If a type 1 error has occurred in thee judgement then which of the following statement is true?
+a) a guilty person is set free
+b) an innocent person is convicted
+c) a guilty person is convicted
+d) an innocent person is set free
+View Answer
+
+Answer: b
+Explanation: Type 1 error occurs when the Null hypothesis is True but rejected. Considering Null hypothesis as innocent person and setting free as acceptance an innocent person getting convicted is a type 1 error.
+7. If a Null Hypothesis is accepted then the value of Test statistic lies in the ____________
+a) Acceptance region
+b) Rejection region
+c) Critical region
+d) Sample region
+View Answer
+
+Answer: a
+Explanation: If a Null Hypothesis is accepted then the value of Test statistic lies in the Acceptance region. For a rejected Null Hypothesis the value lies in the Rejection region.
+8. The Test Statistic for a Hypothesis testing is given by the formula ____________
+a) Sample-Population/Standard Error
+b) Sample statistic-Parameter/Standard Error
+c) Sample mean-Population mean/Population standard deviation
+d) Statistic-E(statistic)/Variance
+View Answer
+
+Answer: b
+Explanation: The Test Statistic of a hypothesis is given as the Sample statistic-Parameter/Standard Error.
+The Test statistic provides a basis for testing a Null Hypothesis.
+9. The range of Level of Significance lies between ____________
+a) -∞ and 0
+b) -∞ and ∞
+c) 0 and ∞
+d) 0 and 1
+View Answer
+
+Answer: d
+Explanation: The Level of Significance lies between 0 and 1. The 0 signifies the test is least significant and 1 signifies the test is most significant.
+10. The effect of rejection of a hypothesis with decrease in sample size ____________
+a) decreases
+b) increases
+c) remains constant
+d) fluctuates
+View Answer
+
+Answer: b
+Explanation: If n decreases then the value of Level of Significance of each sample α decreases. Hence 1-α increases which are called the rejection of test sample increases.
+11. The composite hypothesis holds true when?
+a) ϕ > ϕ0
+b) ϕ < ϕ0
+c) ϕ = ϕ0
+d) ϕ >> ϕ0
+View Answer
+
+Answer: c
+Explanation: The composite hypothesis holds true when the Null Hypothesis is equal to the Alternative Hypothesis. Hence ϕ = ϕ0. Here the value of α is 0.5.
+12. A paired T test consists of n pairs of observations. What is the number of degrees of freedom of the test?
+a) 2n-1
+b) 2n
+c) n-1
+d) n
+View Answer
+
+Answer: c
+Explanation: For a paired T distribution the no of degrees of Freedom are n-1 where n denotes the number of pairs of samples in the test.
+13. Which of the following represents the Confidence coefficient?
+a) 1-α
+b) β
+c) 1-β
+d) α
+View Answer
+
+Answer: a
+Explanation: The level of Confidence is represented by 1-α. It signifies the chance of the Alternative Hypothesis.
+14. The independent values in a set of values of a test is called as?
+a) Degrees of freedom
+b) Test Statistic
+c) Level of Significance
+d) Level of Confidence
+View Answer
+
+Answer: a
+Explanation: In a test, the number of individual samples is called as Degrees of Freedom. If a sample has n values then the Degrees of Freedom are n-1.
+15. A T-test sample has 7 pairs of samples. The distribution should contain ____________
+a) 16 degrees of freedom
+b) 15 degrees of freedom
+c) 5 degrees of freedom
+d) 6 degrees of freedom
+View Answer
+
+Answer: d
+Explanation: Here the number of samples, n is 7. Hence total degrees of Freedom is n-1 that is 7-1 = 6

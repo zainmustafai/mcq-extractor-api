@@ -1,0 +1,276 @@
+1. The physical devices of a computer :
+a) Software
+b) Package
+c) Hardware
+d) System Software
+View Answer
+
+Answer: c
+Explanation: Hardware refers to the physical devices of a computer system. Software refers to a collection of programs. A program is a sequence of instructions.
+2. Software Package is a group of programs that solve multiple problems.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. The software package is a group of programs that solve a specific problem or perform a specific type of job.
+3. ____________ refer to renewing or changing components like increasing the main memory, or hard disk capacities, or adding speakers, or modems, etc.
+a) Grades
+b) Prosody
+c) Synthesis
+d) Upgrades
+View Answer
+
+Answer: d
+Explanation: Upgrades is the right term to be used. Upgrades are installed to renew or implement a new feature. Except for upgrades, hardware is normally one-time expense.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is designed to control the operations of a computer?
+a) Application Software
+b) System Software
+c) Utility Software
+d) User
+View Answer
+
+Answer: b
+Explanation: Software is basically classified into two: System and application. System Software is designed to control the operations and extend the processing capability of a computer system.
+5. Which of the following is not an example of system software?
+a) Language Translator
+b) Utility Software
+c) Communication Software
+d) Word Processors
+View Answer
+
+Answer: d
+Explanation: A system software is responsible for controlling the operations of a computer system. Word Processor is an application software since it is specific to its purpose.
+Check this: BCA MCQs | BCA Books
+6. A person who designs the programs in a software package is called :
+a) User
+b) Software Manager
+c) System Developer
+d) System Programmer
+View Answer
+
+Answer: d
+Explanation: The programs included in a system software package are called system programs. The programmers who design them and prepare them are called system programmers.
+7. ___________________ is designed to solve a specific problem or to do a specific task.
+a) Application Software
+b) System Software
+c) Utility Software
+d) User
+View Answer
+
+Answer: a
+Explanation: An application software is specific to solving a specific problem. System software is designed for controlling the operations of a computer system.
+8. Assembler is used as a translator for?
+a) Low level language
+b) High Level Language
+c) COBOL
+d) C
+View Answer
+
+Answer: a
+Explanation: Assembler is used in case of low level languages. It is generally used to make the binary code into an understandable format. Interpreter is used with the high level languages similarly.
+9. What do you call a program in execution?
+a) Command
+b) Process
+c) Task
+d) Instruction
+View Answer
+
+Answer: b
+Explanation: Option Process is correct. A program is a set of instructions. A program in execution is called a process.
+10. Which of the following is not a process state?
+a) Terminated
+b) Running
+c) Blocked
+d) Execution
+View Answer
+
+Answer: c
+Explanation: There is no blocked state in a process model. The different states are ready, running, executing, waiting and terminated.
+1. The software designed to perform a specific task:
+a) Synchronous Software
+b) Package Software
+c) Application Software
+d) System Software
+View Answer
+
+Answer: c
+Explanation: Software refers to a collection of programs. Software designed to do a specific task are referred to as the application software. Eg: Inventory management, banking, etc.
+2. Word processing software is a type of application software.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. Since, application software are designed to do a specific job, word processing is a type of application software used for the designing of text documents.
+3. Developing software __________ means a major commitment of time, money and resources.
+a) In-house
+b) In-sync
+c) On-date
+d) On-duration
+View Answer
+
+Answer: a
+Explanation: Developing software in-house means the same. It is easier to carry out changes in the software if it is developed in-house
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following is not a way of acquiring software?
+a) Buying pre-written software
+b) Ordering customized software
+c) Downloading public-domain Software
+d) Duplicating the software
+View Answer
+
+Answer: d
+Explanation: Duplication is not a correct way of acquiring the software. All the other options are valid. Apart from these, another option could be development of a customized software.
+5. OSS stands for:
+a) Open System Service
+b) Open Source Software
+c) Open System Software
+d) Open Synchronized Software
+View Answer
+
+Answer: b
+Explanation: OSS stands for open source software. OSS allows any user to download, view, modify and redistribute the software. Also, the user can fix bugs according to needs.
+Get Free Certificate of Merit in Computer Fundamentals Now!
+6. Public domain software is usually:
+a) System supported
+b) Source supported
+c) Community supported
+d) Programmer supported
+View Answer
+
+Answer: c
+Explanation: The public domain software is generally community supported. It is community supported as author does not support users directly.
+7. Set of programs which consist of full documentation.
+a) Software Package
+b) System Software
+c) Utility Software
+d) File package
+View Answer
+
+Answer: a
+Explanation: It is called a software package. A software is nothing but a collection of programs. A software package can solve a specific problem or perform a specific type of job.
+8. Interpreter is used as a translator for __________
+a) Low level language
+b) High Level Language
+c) COBOL
+d) C
+View Answer
+
+Answer: b
+Explanation: It is generally used to make the code into an machine understandable format. Interpreter is used with the high level languages similarly. Assembler is used in case of low level languages.
+9. What do you call a specific instruction designed to do a task?
+a) Command
+b) Process
+c) Task
+d) Instruction
+View Answer
+
+Answer: a
+Explanation: A program is a set of instructions. A command is given to do a specific job. A program in execution is called a process.
+10. They normally interact with the system via user interface provided by the application software.
+a) Programmers
+b) Developers
+c) Users
+d) Testers
+View Answer
+
+Answer: c
+Explanation: Users interact with the system via user interface that is given by the application software. An application software is a set of instructions designed to serve a particular purpose.
+1. The software substituted for hardware and stored in ROM.
+a) Synchronous Software
+b) Package Software
+c) Firmware
+d) Middleware
+View Answer
+
+Answer: c
+Explanation: Software refers to a collection of programs. Firm wares act as a link between the hardware and the system. It is stored in read only memory.
+2. Middleware has enabled the production of various types of smart machines having microprocessor chips with embedded software.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. Firmware is designed for this purpose and not middleware. A middleware is for providing abstraction in programming.
+3. A “glue” between client and server parts of application.
+a) Middleware
+b) Firmware
+c) Package
+d) System Software
+View Answer
+
+Answer: a
+Explanation: A middleware acts as a glue between client and server parts of application. It provides programming abstraction which means hiding all the relevant details.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. MOM stands for?
+a) Message oriented middleware
+b) Mails oriented middleware
+c) Middleware of messages
+d) Main object middleware
+View Answer
+
+Answer: a
+Explanation: MOM is message-oriented middleware. It is basically responsible for sending and receiving messages across distributed systems.
+5. Storage of firmware is ___________
+a) Cache Memory
+b) RAM
+c) External
+d) ROM
+View Answer
+
+Answer: d
+Explanation: Firmware is stored in ROM which is the read only memory. Firmware basically acts as a link between the hardware and the system.
+Check this: Information Technology MCQs | Computer Science MCQs
+6. DNS stands for?
+a) Domain Name System
+b) Direct Name System
+c) Direct Network System
+d) Domain Network System
+View Answer
+
+Answer: a
+Explanation: DNS stands for Domain Name System. Domain name system is the way in which the internet domain names are traced and then translated into IP addresses.
+7. A software that lies between the OS and the applications running on it.
+a) Firmware
+b) Middleware
+c) Utility Software
+d) Application Software
+View Answer
+
+Answer: b
+Explanation: It is called as middleware. Middleware enables the interaction between the Operating System and the applications running on it.
+8. A type of middleware that allows for between the built-in applications and the real-time OS?
+a) Firmware
+b) Database middleware
+c) Portals
+d) Embedded Middleware
+View Answer
+
+Answer: d
+Explanation: It is called the embedded middleware since it activates the communication link between the built-in applications and the real time operating system.
+9. What is the other name for object middleware?
+a) Object request interface
+b) Object enabled interface
+c) Object Request broker
+d) Object enabled broker
+View Answer
+
+Answer: c
+Explanation: It is also called as object request broker. It gives the applications ability to send the objects and receive services through an object.
+10. The _______ calls certain procedures on remote systems and is used to perform synchronous or asynchronous interactions between systems.
+a) Procedure
+b) RPC
+c) Message Oriented
+d) DB
+View Answer
+
+Answer: b
+Explanation: It is called the RPC or the Remote Procedure Call. The functioning is to call certain procedures on remote applications. This is generally utilized in a software application.

@@ -1,0 +1,785 @@
+1. Which of the following is not project management goal?
+a) Keeping overall costs within budget
+b) Delivering the software to the customer at the agreed time
+c) Maintaining a happy and well-functioning development team
+d) Avoiding customer complaints
+View Answer
+
+Answer: d
+Explanation: Projects need to be managed because professional software engineering is always subject to organizational budget and schedule constraints.
+2. Project managers have to assess the risks that may affect a project.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Risk management involves anticipating risks that might affect the project schedule or the quality of the software being developed, and then taking action to avoid these risks.
+3. Which of the following is not considered as a risk in project management?
+a) Specification delays
+b) Product competition
+c) Testing
+d) Staff turnover
+View Answer
+
+Answer: c
+Explanation: Testing is a part of project, thus it can’t be categorized as risk.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The process each manager follows during the life of a project is known as
+a) Project Management
+b) Manager life cycle
+c) Project Management Life Cycle
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: A proven methodical life cycle is necessary to repeatedly implement and manage projects successfully.
+5. A 66.6% risk is considered as
+a) very low
+b) low
+c) moderate
+d) high
+View Answer
+
+Answer: d
+Explanation: The probability of the risk might be assessed as very low (<10%), low (10–25%), moderate (25–50%), high (50–75%), or very high (>75%).
+Take Software Engineering Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is/are main parameters that you should use when computing the costs of a software development project?
+a) travel and training costs
+b) hardware and software costs
+c) effort costs (the costs of paying software engineers and managers)
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Estimation involves working out how much effort is required to complete each activity and, from this, calculating the total cost of activities.
+7. Quality planning is the process of developing a quality plan for
+a) team
+b) project
+c) customers
+d) project manager
+View Answer
+
+Answer: b
+Explanation: The quality plan should set out the desired software qualities and describe how these are to be assessed.
+8. Which of the following is incorrect activity for the configuration management of a software system?
+a) Internship management
+b) Change management
+c) Version management
+d) System management
+View Answer
+
+Answer: a
+Explanation: Configuration management policies and processes define how to record and process proposed system changes, how to decide what system components to change, how to manage different versions of the system and its components, and how to distribute changes to customers.
+9. Identify the sub-process of process improvement
+a) Process introduction
+b) Process analysis
+c) De-processification
+d) Process distribution
+View Answer
+
+Answer: b
+Explanation: The current process is assessed, and process weaknesses and bottlenecks are identified.
+10. An independent relationship must exist between the attribute that can be measured and the external quality attribute.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The value of the quality attribute must be related, in some way, to the value of the attribute than can be measured.
+1. Which of the following is an important factor that can affect the accuracy and efficacy of estimates?
+a) Project size
+b) Planning process
+c) Project complexity
+d) Degree of structural uncertainty
+View Answer
+
+Answer: a
+Explanation: As size increases, the interdependence among various elements of the software grows rapidly.
+2. What describes the data and control to be processed?
+a) Planning process
+b) Software scope
+c) External hardware
+d) Project complexity
+View Answer
+
+Answer: b
+Explanation: Functions described in the statement of scope are evaluated and in some cases refined to provide more detail prior to the beginning of estimation.
+3. A number of independent investigators have developed a team-oriented approach to requirements gathering that can be applied to establish the scope of a project called
+a) JAD
+b) CLASS
+c) FAST
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Facilitated application specification techniques
+(FAST), this approach encourages the creation of a joint team of customers
+and developers who work together to identify the problem, propose elements
+of the solution, negotiate different approaches, and specify a preliminary set of
+requirements.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. CLSS stands for
+a) conveyor line sorting system
+b) conveyor line sorting software
+c) conveyor line sorting speed
+d) conveyor line sorting specification
+View Answer
+
+Answer: a
+Explanation: The conveyor line sorting system (CLSS) sorts boxes moving along a conveyor line. Each box is identified by a barcode that contains a part number and is sorted into one of six bins at the end of the line.
+5. The project planner examines the statement of scope and extracts all important software functions which is known as
+a) Association
+b) Decomposition
+c) Planning process
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: None
+Check this: Software Engineering Books | Computer Science Books
+6. The environment that supports the software project is called
+a) CLSS
+b) SEE
+c) FAST
+d) CBSE
+View Answer
+
+Answer: b
+Explanation: Software engineering environment (SEE), incorporates hardware and software.
+7. Which of the following is not an option to achieve reliable cost and effort estimate?
+a) Base estimates on similar projects that have already been completed
+b) Use one or more empirical models for software cost and effort estimation
+c) Use relatively simple decomposition techniques to generate project cost and effort estimates
+d) The ability to translate the size estimate into human effort, calendar time, and dollars
+View Answer
+
+Answer: d
+Explanation: None.
+8. What can be used to complement decomposition techniques and offer a potentially valuable estimation approach in their own right?
+a) Automated estimation tools
+b) Empirical estimation models
+c) Decomposition techniques
+d) Both Automated estimation tools and Empirical estimation models
+View Answer
+
+Answer: b
+Explanation: An estimation model for computer software uses empirically derived formulas to predict effort as a function of LOC or FP.
+9. Which of the following is not achieved by an automated estimation tools?
+a) Predicting staffing levels
+b) Predicting software cost
+c) Predicting software schedules
+d) Predicting clients demands
+View Answer
+
+Answer: d
+Explanation: Demands can vary from client to client.
+10. Software project estimation can never be an exact science, but a combination of good historical data and systematic techniques can improve estimation accuracy.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+1. Which of the following are parameters involved in computing the total cost of a software development project?
+a) Hardware and software costs
+b) Effort costs
+c) Travel and training costs
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All these are accounted for in estimating a software development cost.
+2. Which of the following costs is not part of the total effort cost?
+a) Costs of networking and communications
+b) Costs of providing heating and lighting office space
+c) Costs of lunch time food
+d) Costs of support staff
+View Answer
+
+Answer: c
+Explanation: This is a incurred by the employees.
+3. What is related to the overall functionality of the delivered software?
+a) Function-related metrics
+b) Product-related metrics
+c) Size-related metrics
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Productivity is expressed in terms of the amount of useful functionality produced in some given time. Function points and object points
+are the best-known metrics of this type.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. A _________ is developed using historical cost information that relates some software metric to the project cost.
+a) Algorithmic cost modelling
+b) Expert judgement
+c) Estimation by analogy
+d) Parkinson’s Law
+View Answer
+
+Answer: a
+Explanation: The model uses a basic regression formula with parameters that are derived from historical project data and current as well as future project characteristics.
+5. It is often difficult to estimate size at an early stage in a project when only a specification is available
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Function-point and object-point estimates are easier to produce than estimates of code size but are often still inaccurate.
+Take Software Engineering Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which technique is applicable when other projects in the same analogy application domain have been completed?
+a) Algorithmic cost modelling
+b) Expert judgement
+c) Estimation by analogy
+d) Parkinson’s Law
+View Answer
+
+Answer: c
+Explanation: The cost of a new project is estimated by analogy with these completed projects.
+7. Which model assumes that systems are created from reusable components, scripting or database programming?
+a) An application-composition model
+b) A post-architecture model
+c) A reuse model
+d) An early design model
+View Answer
+
+Answer: a
+Explanation: It is designed to make estimates of prototype development.
+8. Which of the following states that work expands to fill the time available.
+a) CASE tools
+b) Pricing to win
+c) Parkinson’s Law
+d) Expert judgement
+View Answer
+
+Answer: c
+Explanation: The cost is determined by available resources rather than by objective assessment. If the software has to be delivered in 12 months and 5 people are available, the effort required is estimated to be 60 person-months.
+9. Which model is used during early stages of the system design after the requirements have been established?
+a) An application-composition model
+b) A post-architecture model
+c) A reuse model
+d) An early design model
+View Answer
+
+Answer: d
+Explanation: Estimates are based on function points, which are then converted to number of lines of source code. The formula follows the standard form discussed above with a simplified set of seven multipliers.
+10. Which model is used to compute the effort required to integrate reusable components or program code that is automatically generated by design or program translation tools?
+a) An application-composition model
+b) A post-architecture model
+c) A reuse model
+d) An early design model
+View Answer
+
+Answer: c
+Explanation: None.
+11. The COCOMO model takes into account different approaches to software development, reuse, etc.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Its the COCOMO-2 model. COCOMO 2 incorporates a range of sub-models that produce increasingly detailed software estimates.
+1. What all has to be identified as per risk identification?
+a) Threats
+b) Vulnerabilities
+c) Consequences
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Risk identification states what could cause a potential loss.
+2. Which one is not a risk management activity?
+a) Risk assessment
+b) Risk generation
+c) Risk control
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Risk management activities would never want a new risk to be generated.
+3. What is the product of the probability of incurring a loss due to the risk and the potential magnitude of that loss?
+a) Risk exposure
+b) Risk prioritization
+c) Risk analysis
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. What threatens the quality and timeliness of the software to be produced?
+a) Known risks
+b) Business risks
+c) Project risks
+d) Technical risks
+View Answer
+
+Answer: d
+Explanation: Technical risks identify potential design, implementation, interface, verification, and maintenance problems.
+5. What threatens the viability of the software to be built?
+a) Known risks
+b) Business risks
+c) Project risks
+d) Technical risks
+View Answer
+
+Answer: b
+Explanation: Business risks often jeopardize the project or the product.
+Take Software Engineering Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is not a business risk?
+a) building an excellent product or system that no one really wants
+b) losing the support of senior management due to a change in focus or change in people
+c) lack of documented requirements or software scope
+d) losing budgetary or personnel commitment
+View Answer
+
+Answer: c
+Explanation: This is not considered as a business risk.
+7. Which of the following is a systematic attempt to specify threats to the project plan?
+a) Risk identification
+b) Performance risk
+c) Support risk
+d) Risk projection
+View Answer
+
+Answer: d
+Explanation: By identifying known and predictable risks, the project manager takes a first step toward avoiding them when possible and controlling them when necessary.
+8. Which risks are associated with the overall size of the software to be built or modified?
+a) Business impact risks
+b) Process definition risks
+c) Product size risks
+d) Development environment risks
+View Answer
+
+Answer: c
+Explanation: None.
+9. Which risks are associated with constraints imposed by management or the marketplace?
+a) Business impact risks
+b) Process definition risks
+c) Product size risks
+d) Development environment risks
+View Answer
+
+Answer: a
+Explanation: None.
+10. Which of the following term is best defined by the statement:”the degree of uncertainty that the product will meet its requirements and be fit for its intended use.”?
+a) Performance risk
+b) Cost risk
+c) Support risk
+d) Schedule risk
+View Answer
+
+Answer: a
+Explanation: None.
+1. Risk management is one of the most important jobs for a
+a) Client
+b) Investor
+c) Production team
+d) Project manager
+View Answer
+
+Answer: d
+Explanation: Risk management involves anticipating risks that might affect the project schedule or the quality of the software being developed, and then taking action to avoid these risks.
+2. Which of the following risk is the failure of a purchased component to perform as expected?
+a) Product risk
+b) Project risk
+c) Business risk
+d) Programming risk
+View Answer
+
+Answer: a
+Explanation: Risks that affect the quality or performance of the software being developed.
+3. Which of the following term is best defined by the statement: “There will be a change of organizational management with different priorities.”?
+a) Staff turnover
+b) Technology change
+c) Management change
+d) Product competition
+View Answer
+
+Answer: c
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following term is best defined by the statement: “The underlying technology on which the system is built is superseded by new technology.”?
+a) Technology change
+b) Product competition
+c) Requirements change
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Technology changes are common in the competitive environment of software engineering.
+5. What assess the risk and your plans for risk mitigation and revise these when you learn more about the risk?
+a) Risk monitoring
+b) Risk planning
+c) Risk analysis
+d) Risk identification
+View Answer
+
+Answer: a
+Explanation: None.
+Check this: Information Technology MCQs | Computer Science Books
+6. Which of the following risks are derived from the organizational environment where the software is being developed?
+a) People risks
+b) Technology risks
+c) Estimation risks
+d) Organizational risks
+View Answer
+
+Answer: d
+Explanation: These risks are at management level.
+7. Which of the following risks are derived from the software or hardware technologies that are used to develop the system?
+a) Managerial risks
+b) Technology risks
+c) Estimation risks
+d) Organizational risks
+View Answer
+
+Answer: b
+Explanation: The risks associated with technology might affect the product development.
+8. Which of the following term is best defined by the statement: “Derive traceability information to maximize information hiding in the design.”?
+a) Underestimated development time
+b) Organizational restructuring
+c) Requirements changes
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Tracing the requirements can help us understand the risk.
+9. Which of the following strategies means that the impact of the risk will be reduced?
+a) Avoidance strategies
+b) Minimization strategies
+c) Contingency plans
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+10. Risk management is now recognized as one of the most important project management tasks.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+1. Why is decomposition technique required?
+a) Software project estimation is a form of problem solving
+b) Developing a cost and effort estimate for a software project is too complex
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: For these reasons, we decompose the problem, re-characterizing it as a set of smaller problems.
+2. Cost and effort estimation of a software uses only one forms of decomposition, either decomposition of the problem or decomposition of the process.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Estimation uses one or both forms of partitioning.
+3. If a Direct approach to software project sizing is taken, size can be measured in
+a) LOC
+b) FP
+c) LOC and FP
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: LOC or Line of Code is a direct measure to estimate project size.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which software project sizing approach develop estimates of the information domain characteristics?
+a) Function point sizing
+b) Change sizing
+c) Standard component sizing
+d) Fuzzy logic sizing
+View Answer
+
+Answer: a
+Explanation: None.
+5. The expected value for the estimation variable (size), S, can be computed as a weighted average of the optimistic(Sopt), most likely (Sm), and pessimistic (Spess) estimates given as
+a) EV = (Sopt + 4Sm + Spess)/4
+b) EV = (Sopt + 4Sm + Spess)/6
+c) EV = (Sopt + 2Sm + Spess)/6
+d) EV = (Sopt + 2Sm + Spess)/4
+View Answer
+
+Answer: b
+Explanation: This assumes that there is a very small probability that the actual size result will fall outside the optimistic or pessimistic values.
+Take Software Engineering Tests Now!
+6. How many forms exists of Barry Boehm’s COCOMO Model?
+a) Two
+b) Three
+c) Four
+d) No form exists
+View Answer
+
+Answer: b
+Explanation: The three forms include the basic, intermediate and advanced COCOMO model.
+7. Who suggested the four different approaches to the sizing problem?
+a) Putnam
+b) Myers
+c) Boehm
+d) Putnam and Myers
+View Answer
+
+Answer: d
+Explanation: None.
+8. In many cases, it is often more cost-effective to acquire, rather than develop, computer software.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Managers are faced with a make-buy decision in such situations.
+9. A make-buy decision is based on whether
+a) The software may be purchased off-the-shelf
+b) “Full-experience” or “Partial-experience” software components should be used
+c) Customer-built software should be developed
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None..
+10. Which of the following is not one of the five information domain characteristics of Function Point (FP) decomposition?
+a) External inputs
+b) External outputs
+c) External process
+d) External inquiries
+View Answer
+
+Answer: c
+Explanation: External inputs, external outputs, external inquiries, internal logical files, external interface files are the five domains.
+11. The project planner must reconcile the estimates based on decomposition techniques to produce a single estimate of effort.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The planner must determine the cause of divergence and then reconcile the estimates.
+12. Programming language experience is a part of which factor of COCOMO cost drivers?
+a) Personnel Factor
+b) Product Factor
+c) Platform Factor
+d) Project Factor
+View Answer
+
+Answer: a
+Explanation: None.
+13. If an Indirect approach is taken, then the sizing approach is represented as
+a) LOC
+b) FP
+c) Fuzzy Logic
+d) LOC and FP
+View Answer
+
+Answer: b
+Explanation: A function point (FP) is a unit of measurement to express the amount of business functionality an information system provides to a user.
+1. Project management involves the planning, monitoring, and control of the people, process, and events that occur as software evolves from a preliminary concept to an operational implementation.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+2. Which of the following is not an effective software project management focus?
+a) people
+b) product
+c) popularity
+d) process
+View Answer
+
+Answer: c
+Explanation: Effective software project management focuses on the four P’s: people, product, process, and project.
+3. PM-CMM stands for
+a) people management capability maturity model
+b) process management capability maturity model
+c) product management capability maturity model
+d) project management capability maturity model
+View Answer
+
+Answer: a
+Explanation: The people management maturity model defines the following key practice areas for software people: recruiting, selection, performance management, training, compensation, career development, organization and work design, and team/culture development.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following is not a project manager’s activity?
+a) project control
+b) project management
+c) project planning
+d) project design
+View Answer
+
+Answer: d
+Explanation: The design part of any project management is done by the project team.
+5. A software ________ provides the framework from which a comprehensive plan for software development can be established.
+a) people
+b) product
+c) process
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: A small number of framework activities are applicable to all software projects, regardless of their size or complexity.
+Take Software Engineering Tests Now!
+6. Who defines the business issues that often have significant influence on the project?
+a) Practitioners
+b) Project managers
+c) Senior managers
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+7. Who delivers the technical skills that are necessary to engineer a product or an application?
+a) Practitioners
+b) Project managers
+c) Senior managers
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+8. Which of the following paradigm attempts to structure a team in a manner that achieves some of the controls associated with the closed paradigm but also much of the innovation that occurs when using the random paradigm?
+a) asynchronous paradigm
+b) open paradigm
+c) closed paradigm
+d) synchronous paradigm
+View Answer
+
+Answer: b
+Explanation: Open paradigm team structures are well suited to the solution of complex problems but may not perform as efficiently as other teams.
+9. Which of the following is a people-intensive activity?
+a) Problem solving
+b) Organization
+c) Motivation
+d) Project management
+View Answer
+
+Answer: d
+Explanation: For this reason, competent practitioners often make poor team leaders.
+10. Which paradigm structures a team loosely and depends on individual initiative of the team members?
+a) random paradigm
+b) open paradigm
+c) closed paradigm
+d) synchronous paradigm
+View Answer
+
+Answer: d
+Explanation: None.
+11. Which of the following is not an approach to software cost estimation?
+a) Empirical
+b) Heuristic
+c) Analytical
+d) Critical
+View Answer
+
+Answer: d
+Explanation: Critical is no such standard approach of cost estimation.
+1. Which of the following categories is part of the output of software process?
+a) computer programs
+b) documents that describe the computer programs
+c) data
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None
+2. Which is a software configuration management concept that helps us to control change without seriously impeding justifiable change?
+a) Baselines
+b) Source code
+c) Data model
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A baseline is analogous to the kitchen doors in the restaurant. Before a software configuration item becomes a baseline, change may be made quickly and informally.
+3. Software Configuration Management can be administered in several ways. These include
+a) A single software configuration management team for the whole organization
+b) A separate configuration management team for each project
+c) Software Configuration Management distributed among the project members
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What combines procedures and tools to manage different versions of configuration objects that are created during the software process?
+a) Change control
+b) Version control
+c) SCIs
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Configuration management allows a user to specify alternative configurations of the software system through the selection of appropriate versions.
+5. What complements the formal technical review by assessing a configuration object for characteristics that are generally not considered during review?
+a) Software configuration audit
+b) Software configuration management
+c) Baseline
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Check this: Information Technology MCQs | BCA MCQs
+6. Which of the following is the process of assembling program components, data, and libraries, and then compiling and linking these to create an executable system?
+a) System building
+b) Release management
+c) Change management
+d) Version management
+View Answer
+
+Answer: a
+Explanation: None.
+7. Which of the following option is not tracked by configuration management tools?
+a) Tracking of change proposals
+b) Storing versions of system components
+c) Tracking the releases of system versions to customers
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the options are tracked.
+8. Which of the following is not a Software Configuration Management Activity?
+a) Configuration item identification
+b) Risk management
+c) Release management
+d) Branch management
+View Answer
+
+Answer: b
+Explanation: Risk management is an entirely different domain.
+9. The definition and use of configuration management standards is essential for quality certification in
+a) ISO 9000
+b) CMM
+c) CMMI
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: It is defined in all the mentioned options.
+10. What involves preparing software for external release and keeping track of the system versions that have been released for customer use?
+a) System building
+b) Release management
+c) Change management
+d) Version management
+View Answer
+
+Answer: b
+Explanation: None.

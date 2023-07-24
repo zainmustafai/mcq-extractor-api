@@ -1,0 +1,373 @@
+1. These devices provide a means of communication between a computer and outer world.
+a) I/O
+b) Storage
+c) Compact
+d) Drivers
+View Answer
+
+Answer: a
+Explanation: The I/O i.e. the input/output devices provide a means of communication between the computer and the outer world. They are often referred to as the peripheral devices sometimes.
+2. The I/O devices are sometimes called the peripheral devices because they surround the CPU and memory of the computer system.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. The input devices are used to enter data from the outside world into primary storage. The output devices supply results of processing from primary storage to users.
+3. Identify the blank space in the diagram.
+computer-fundamentals-questions-answers-input-devices-q3
+a) Processor
+b) Memory
+c) CPU
+d) Storage
+View Answer
+
+Answer: c
+Explanation: Firstly, the input is given to the input device, then the data in coded in internal form and is sent to the CPU. Further, the processed data is sent to the output device and the result is obtained.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What does GUI stand for?
+a) Graphical User Instruction
+b) Ground User Interface
+c) General User Instruction
+d) Graphical User Interface
+View Answer
+
+Answer: d
+Explanation: GUI stands for a graphical user interface. Graphical user interface basically provides a set of graphical elements on the screen to the users. Commonly used for point-and-draw devices.
+5. Which of the following is not a point-and-draw device?
+a) Keypad
+b) Trackball
+c) Touch screen
+d) Mouse
+View Answer
+
+Answer: a
+Explanation: All except the keypad are point-and-draw devices. They are used to rapidly point to and select a graphic icon or menu item from multiple options displayed on the GUI of a screen.
+Check this: BCA Books | Computer Fundamental Books
+6. A device used for video games, flight simulators, training simulators and for controlling industrial robots.
+a) Mouse
+b) Light pen
+c) Joystick
+d) Keyboard
+View Answer
+
+Answer: c
+Explanation: Joystick is the device used for the same. It is a point-and-draw device. It has a click button, a stick, a ball, a socket as well as a light indicator.
+7. The unattended interactive information systems such as automatic teller machine or ATM is called as _________
+a) Kiosks
+b) Sioks
+c) Cianto
+d) Kiaks
+View Answer
+
+Answer: a
+Explanation: The term information kiosks are used for the same. Touch screens are used the most preferred human-computer interface used in information kiosks.
+8. Which are the input devices that enable direct data entry into a computer system from source documents?
+a) Data Scanning devices
+b) Data retrieving devices
+c) Data acquiring devices
+d) System Access devices
+View Answer
+
+Answer: a
+Explanation: They are referred to as data scanning devices. They eliminate the need to key in text data into the computer. It demands the high quality of input documents.
+9. Which of the following is a type of image scanner?
+a) Flat-held
+b) Hand-led
+c) Flat-bed
+d) Compact
+View Answer
+
+Answer: c
+Explanation: Image scanners are the input devices that translate the paper documents into an electronic format for storage in a computer. Stored image can be altered or manipulated with image-processing software.
+10. Which of the following is capable of recognizing a pre-specified type of mark by pencil or pen?
+a) OMR
+b) Winchester
+c) Bar code reader
+d) Image Scanner
+View Answer
+
+Answer: a
+Explanation: OMR stands for optical mark reader. These are very useful for grading tests with objective type questions or for any input data that is of choice or selection nature.
+1. Input Devices that use a special ink that contains magnetizable particles of iron oxide are ____
+a) Optical disks
+b) Magnetic disks
+c) MICR
+d) Magnetic drives
+View Answer
+
+Answer: c
+Explanation: MICR reads data on cheques and sorts them for distribution to other banks or for further processing. MICR stands for Magnetic-Ink-Character Recognition.
+2. MICR character set consists of only 2 digits 0 and 1.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. It consists of numerals from 0 to 9 and 4 special characters. It supports only 14 symbols.
+3. A printer that prints one line at a time and has a predefined set of characters is called _______
+a) Laser
+b) Drum
+c) Inkjet
+d) Impact
+View Answer
+
+Answer: b
+Explanation: The drum printers print one line at a time. They have a cylindrical drum with characters embossed on its surface in the form of circular bands.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following is a name of plotter as well as a printer?
+a) Flatbed
+b) Laser
+c) Drum
+d) Impact
+View Answer
+
+Answer: c
+Explanation: Drum is the name of a plotter as well as a printer. Drum printers have a predefined set of characters and print one line at a time. Drum plotters is an ideal device for architects and others who need to generate high-precision hard copy graphics output of widely varying sizes.
+5. Name the device that converts text information into spoken sentences.
+a) Speech Sensors
+b) Compact convertors
+c) Speech Synthesizers
+d) Voice systems
+View Answer
+
+Answer: c
+Explanation: A speech synthesizer converts text information into spoken sentences. It is used for reading out text information to blind people. Allowing people to communicate effectively.
+Participate in Computer Fundamentals Certification Contest of the Month Now!
+6. Which of the following is not a part of a digitizer?
+a) Digitizing tablet
+b) Cursor
+c) Stick
+d) Stylus
+View Answer
+
+Answer: c
+Explanation: A digitizer consists of a digitizing tablet, a stylus in the form of a cross-hair cursor. A digitizer is used in the areas of GIS.
+7. Which is the device used for converting maps, pictures and drawings into digital form for storage in computers?
+a) Digitizer
+b) Scanner
+c) Image Scanner
+d) MICR
+View Answer
+
+Answer: a
+Explanation: A digitizer serves the purpose given in the question. Digitizers are generally used in the area of Computer Aided Design by architects and engineers to design cars, buildings, etc.
+8. The process in which a file is partitioned into smaller parts and different parts are stored in different disks is called _________
+a) RAID
+b) Mirroring
+c) Stripping
+d) RAID classification
+View Answer
+
+Answer: c
+Explanation: Enhanced reliability is achieved by using techniques like mirroring and stripping in case of disk arrays. Stripping is the division of a large file into smaller parts and then storing them on different disks.
+9. Which of the following Printers have a speed in the range of 40-300 characters per second?
+a) Inkjet
+b) Laser
+c) Dot matrix
+d) Drum
+View Answer
+
+Answer: a
+Explanation: The inkjet printers are non-impact printers. Hence, they cannot produce multiple copies of a document in a single printing. Can be both monochrome and color.
+10. Which of the following is a temporary output?
+a) Hard copy
+b) Soft copy
+c) Duplicate copy
+d) On paper
+View Answer
+
+Answer: b
+Explanation: There are only two types of outputs: hard copy and soft copy. Soft copy output is temporary and vanishes after use. Hard copy output is permanent in nature and can be kept in paper files, etc.
+1. Input Devices that use a special ink that is used for converting pictures, maps and drawings into digital format.
+a) Digitizers
+b) Digital pens
+c) Light Pens
+d) MICR
+View Answer
+
+Answer: a
+Explanation: The digitizer is used for digitizing pictures, maps and drawings into digital form for storage in computers. It is used in CAD by architects and engineers.
+2. GIS stands for Graphical Information System.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. GIS stands for Geographical Information System. Digitizers are used in the area of GIS for digitizing maps available in paper form.
+3. A digitizer converts __________ input into digital input.
+a) Laser
+b) Digital
+c) Analog
+d) Complex
+View Answer
+
+Answer: c
+Explanation: A digitizer converts analog signals to digital images. Due to this, it is compatible with both scanners and mice.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following term is used when different forms of information like text, sound is converted to a binary code?
+a) Digitalization
+b) Digitization
+c) Binarization
+d) Digization
+View Answer
+
+Answer: b
+Explanation: Digitization is the term that is used. It converts the input which is in the form of an image, sound or text into a binary format and further makes it easier for the computer to understand and process.
+5. Which of the following isn’t a phase of digitization?
+a) Discretization
+b) Quantization
+c) Discretization + Quantization
+d) Analog conversion
+View Answer
+
+Answer: d
+Explanation: There is no phase called analog conversion. Discretization means the reading of an analog signal. Quantization is the rounding of samples to numbers.
+Check this: Computer Fundamental Books | Information Technology MCQs
+6. Which of the following is not a part of a digitizer?
+a) Digitizing tablet
+b) Cursor
+c) Stick
+d) Stylus
+View Answer
+
+Answer: c
+Explanation: A digitizer consists of a digitizing tablet, a stylus in the form of a cross-hair cursor. A digitizer is used in the areas of Geographical Information Systems.
+7. The process of making digital information work for you is called ___________
+a) Digitization
+b) Digital Transformation
+c) Digitalization
+d) Analogization
+View Answer
+
+Answer: c
+Explanation: The process of making digitized data or information work for you is called digitalization. The conversion of analog signal to digital signal is called digitization. Digital signals are in the form of 0s and 1s.
+8. What is the full form of FSM?
+a) Field Service Management
+b) Frequent Service Management
+c) Final Service Management
+d) Field Service Master
+View Answer
+
+Answer: a
+Explanation: FSM is Field Service Management. FSM soft wares are used for making proper use of the digitized information. Therefore, they are basically responsible for digitalization.
+9. Which of the following Techniques are used to optimize field services?
+a) AI
+b) ML
+c) CC
+d) Reality tools
+View Answer
+
+Answer: a
+Explanation: AI or Artificial Intelligence is optimizing the field services. It ensures that the fastest service is performed by the person in charge. Artificial intelligence is nothing but machine intelligence.
+10. Obtaining services from a rapidly evolving group of internet users __________
+a) Outsourcing
+b) Crowd Sourcing
+c) Human collaboration
+d) Human Computation
+View Answer
+
+Answer: b
+Explanation: Crowd sourcing is the appropriate term which is to be used. Though human collaboration, outsourcing and computation mean the same. Crowd Sourcing means collaboration of a group of internet users for the same purpose.
+1. What is the full form of TTS?
+a) Typically Typed Speech
+b) Typographic Text Speech
+c) Text to Speech
+d) Typography to speech
+View Answer
+
+Answer: c
+Explanation: TTS stands for Text to speech. It is a commonly used term with Speech Synthesis. Often called as text to speech synthesis.
+2. Text analysis is all about converting the input text into a ‘speakable’ form.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. This process has two phases: firstly the text goes through analysis and then the result is used to generate a speech signal.
+3. A concept that contains rhythm of speech, stress patterns and intonation is ________
+a) Text synthesis
+b) Prosody
+c) Speech Synthesis
+d) Formant Synthesis
+View Answer
+
+Answer: b
+Explanation: Prosody is the correct term. It contains three main parts: the rhythm of speech, the stress patterns and the intonation. Intonation is a term used for the rise and fall when a person speaks.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following does not come under text analysis?
+a) Document Structure Detection
+b) Speech Synthesis
+c) Prosonic Analysis
+d) Prosodic Analysis
+View Answer
+
+Answer: c
+Explanation: For TTS, the main concepts involved are :
+01) Text Analysis
+02) Phonetic Analysis
+03) Prosodic Analysis
+04) Speech Synthesis.
+5. What is the medium to convert text information into spoken sentences?
+a) Speech Sensors
+b) Compact convertors
+c) Speech Synthesizers
+d) Voice systems
+View Answer
+
+Answer: c
+Explanation: A speech synthesizer converts text information into spoken sentences. It is used for reading out text information to blind people. This allows people to communicate effectively.
+Participate in Computer Fundamentals Certification Contest of the Month Now!
+6. Pitch and duration attachment comes under _____
+a) Prosody
+b) Phonetic Analysis
+c) Speech Synthesis
+d) Text Analysis
+View Answer
+
+Answer: a
+Explanation: Pitch and duration attachment comes under Prosodic analysis. Other three terms are also used when we consider the text to speech conversion.
+7. Which of the following is not a speech synthesis method?
+a) Formant
+b) Summative
+c) Articulator
+d) Concatenative
+View Answer
+
+Answer: b
+Explanation: Summative isn’t a Speech Synthesis method. Formant Synthesis is the oldest method. Concatenative is the cut-and-paste method. Whereas, Articulative tries to model the human speech production mechanisms.
+8. Speech Synthesis method based on the generation of periodic and non-periodic signals is ____________
+a) Formant
+b) Summative
+c) Conactenative
+d) Articulative
+View Answer
+
+Answer: a
+Explanation: Formant synthesis is based on the same. It is based on the well known source-filter model whose idea is to generate periodic and non-periodic signals.
+9. What is the full form of SAMPA?
+a) Speech Assessment Methods-Phonetic Alphabet
+b) Speech Assessment Methods-Prosodic Access
+c) Speech Assessment Methods-Phonetic Arrangement
+d) Speech Assessment Methods- Prosodic Alphabet
+View Answer
+
+Answer: a
+Explanation: IPA(International phonetic association) contains some symbols that are complicated and cannot be found in typewriters. SAMPA is an example of alphabets which are compatible with computers and based on ASCII characters.
+10. A speech synthesis model which tries to model the human speech production mechanisms is _________
+a) Articulatory Synthesis
+b) Formant Synthesis
+c) Summative Synthesis
+d) Concatenative Synthesis
+View Answer
+
+Answer: a
+Explanation: Articulative Synthesis tries to model the human speech production mechanisms. It is by far the most complicated speech synthesis method. Its implementation is difficult and therefore is not widely used.

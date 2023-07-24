@@ -1,0 +1,920 @@
+1. {x: x is an integer neither positive nor negative} is ________
+a) Empty set
+b) Non-empty set
+c) Finite set
+d) Non- empty and Finite set
+View Answer
+
+Answer: d
+Explanation: Set = {0} non-empty and finite set.
+2. {x: x is a real number between 1 and 2} is an ________
+a) Infinite set
+b) Finite set
+c) Empty set
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: It is an infinite set as there are infinitely many real number between any two different real numbers.
+3. Write set {1, 5, 15, 25,…} in set-builder form.
+a) {x: either x=1 or x=5n, where n is a real number}
+b) {x: either x=1 or x=5n, where n is a integer}
+c) {x: either x=1 or x=5n, where n is an odd natural number}
+d) {x: x=5n, where n is a natural number}
+View Answer
+
+Answer: c
+Explanation: Set should include 1 or an odd multiple of 5.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Express {x: x= n/ (n+1), n is a natural number less than 7} in roster form.
+a) {1⁄2, 2⁄3, 4⁄5, 6⁄7}
+b) {1⁄2, 2⁄3, 3⁄4, 4⁄5, 5⁄6, 6⁄7, 7⁄8}
+c) {1⁄2, 2⁄3, 3⁄4, 4⁄5, 5⁄6, 6⁄7}
+d) Infinite set
+View Answer
+
+Answer: c
+Explanation: n/(n+1) = 1/(1+1) = 1⁄2 and n>7.
+5. Number of power set of {a, b}, where a and b are distinct elements.
+a) 3
+b) 4
+c) 2
+d) 5
+View Answer
+
+Answer: b
+Explanation: Power set of {a, b} = {∅, {a, b}, {a}, {b}}.
+Check this: BCA Books | Information Technology MCQs
+6. Which of the following is subset of set {1, 2, 3, 4}?
+a) {1, 2}
+b) {1, 2, 3}
+c) {1}
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: There are total 16 subsets.
+7. A = {∅,{∅},2,{2,∅},3}, which of the following is true?
+a) {{∅,{∅}} ∈ A
+b) {2} ∈ A
+c) ∅ ⊂ A
+d) 3 ⊂ A
+View Answer
+
+Answer: c
+Explanation: Empty set is a subset of every set.
+8. Subset of the set A= { } is?
+a) A
+b) {}
+c) ∅
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Every set is subset of itself and Empty set is subset of each set.
+9. {x: x ∈ N and x is prime} then it is ________
+a) Infinite set
+b) Finite set
+c) Empty set
+d) Not a set
+View Answer
+
+Answer: a
+Explanation: There is no extreme prime, number of primes is infinite.
+10. Convert set {x: x is a positive prime number which divides 72} in roster form.
+a) {2, 3, 5}
+b) {2, 3, 6}
+c) {2, 3}
+d) {∅}
+View Answer
+
+Answer: c
+Explanation: 2 and 3 are the divisors of 72 which are prime.
+1. A __________ is an ordered collection of objects.
+a) Relation
+b) Function
+c) Set
+d) Proposition
+View Answer
+
+Answer: c
+Explanation: By the definition of set.
+2. The set O of odd positive integers less than 10 can be expressed by _____________
+a) {1, 2, 3}
+b) {1, 3, 5, 7, 9}
+c) {1, 2, 5, 9}
+d) {1, 5, 7, 9, 11}
+View Answer
+
+Answer: b
+Explanation: Odd numbers less than 10 is {1, 3, 5, 7, 9}.
+3. Power set of empty set has exactly _________ subset.
+a) One
+b) Two
+c) Zero
+d) Three
+View Answer
+
+Answer: a
+Explanation: Power set of null set has exactly one subset which is empty set.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What is the Cartesian product of A = {1, 2} and B = {a, b}?
+a) {(1, a), (1, b), (2, a), (b, b)}
+b) {(1, 1), (2, 2), (a, a), (b, b)}
+c) {(1, a), (2, a), (1, b), (2, b)}
+d) {(1, 1), (a, a), (2, a), (1, b)}
+View Answer
+
+Answer: c
+Explanation: A subset R of the Cartesian product A x B is a relation from the set A to the set B.
+5. The Cartesian Product B x A is equal to the Cartesian product A x B.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Let A = {1, 2} and B = {a, b}. The Cartesian product A x B = {(1, a), (1, b), (2, a), (2, b)} and the Cartesian product B x A = {(a, 1), (a, 2), (b, 1), (b, 2)}. This is not equal to A x B.
+Check this: Computer Science MCQs | BCA MCQs
+6. What is the cardinality of the set of odd positive integers less than 10?
+a) 10
+b) 5
+c) 3
+d) 20
+View Answer
+
+Answer: b
+Explanation: Set S of odd positive an odd integer less than 10 is {1, 3, 5, 7, 9}. Then, Cardinality of set S = |S| which is 5.
+7. Which of the following two sets are equal?
+a) A = {1, 2} and B = {1}
+b) A = {1, 2} and B = {1, 2, 3}
+c) A = {1, 2, 3} and B = {2, 1, 3}
+d) A = {1, 2, 4} and B = {1, 2, 3}
+View Answer
+
+Answer: c
+Explanation: Two set are equal if and only if they have the same elements.
+8. The set of positive integers is _____________
+a) Infinite
+b) Finite
+c) Subset
+d) Empty
+View Answer
+
+Answer: a
+Explanation: The set of positive integers is not finite.
+9. What is the Cardinality of the Power set of the set {0, 1, 2}?
+a) 8
+b) 6
+c) 7
+d) 9
+View Answer
+
+Answer: a
+Explanation: Power set P ({0, 1, 2}) is the set of all subsets of {0, 1, 2}. Hence, P({0, 1, 2}) = {null, {0}, {1}, {2}, {0, 1}, {0,2}, {1, 2}, {0, 1, 2}}.
+10. The members of the set S = {x | x is the square of an integer and x < 100} is ________________
+a) {0, 2, 4, 5, 9, 58, 49, 56, 99, 12}
+b) {0, 1, 4, 9, 16, 25, 36, 49, 64, 81}
+c) {1, 4, 9, 16, 25, 36, 64, 81, 85, 99}
+d) {0, 1, 4, 9, 16, 25, 36, 49, 64, 121}
+View Answer
+
+Answer: b
+Explanation: The set S consists of the square of an integer less than 10.
+1. The union of the sets {1, 2, 5} and {1, 2, 6} is the set _______________
+a) {1, 2, 6, 1}
+b) {1, 2, 5, 6}
+c) {1, 2, 1, 2}
+d) {1, 5, 6, 3}
+View Answer
+
+Answer: b
+Explanation: The union of the sets A and B, is the set that contains those elements that are either in A or in B.
+2. The intersection of the sets {1, 2, 5} and {1, 2, 6} is the set _____________
+a) {1, 2}
+b) {5, 6}
+c) {2, 5}
+d) {1, 6}
+View Answer
+
+Answer: a
+Explanation: The intersection of the sets A and B, is the set containing those elements that are in both A and B.
+3. Two sets are called disjoint if there _____________ is the empty set.
+a) Union
+b) Difference
+c) Intersection
+d) Complement
+View Answer
+
+Answer: c
+Explanation: By the definition of the disjoint set.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following two sets are disjoint?
+a) {1, 3, 5} and {1, 3, 6}
+b) {1, 2, 3} and {1, 2, 3}
+c) {1, 3, 5} and {2, 3, 4}
+d) {1, 3, 5} and {2, 4, 6}
+View Answer
+
+Answer: d
+Explanation: Two sets are disjoint if the intersection of two sets is the empty set.
+5. The difference of {1, 2, 3} and {1, 2, 5} is the set ____________
+a) {1}
+b) {5}
+c) {3}
+d) {2}
+View Answer
+
+Answer: c
+Explanation: The difference of the sets A and B denoted by A-B, is the set containing those elements that are in A not in B.
+Check this: BCA Books | Computer Science MCQs
+6. The complement of the set A is _____________
+a) A – B
+b) U – A
+c) A – U
+d) B – A
+View Answer
+
+Answer: b
+Explanation: The complement of the set A is the complement of A with respect to U.
+7. The bit string for the set {2, 4, 6, 8, 10} (with universal set of natural numbers less than or equal to 10) is ____________________
+a) 0101010101
+b) 1010101010
+c) 1010010101
+d) 0010010101
+View Answer
+
+Answer: a
+Explanation: The bit string for the set has a one bit in second, fourth, sixth, eighth, tenth positions, and a zero elsewhere.
+8. Let Ai = {i, i+1, i+2, …..}. Then set {n, n+1, n+2, n+3, …..} is the _________ of the set Ai.
+a) Union
+b) Intersection
+c) Set Difference
+d) Disjoint
+View Answer
+
+Answer: b
+Explanation: By the definition of the generalized intersection of the set.
+9. The bit strings for the sets are 1111100000 and 1010101010. The union of these sets is ___________
+a) 1010100000
+b) 1010101101
+c) 1111111100
+d) 1111101010
+View Answer
+
+Answer: d
+Explanation: The bit string for the union is the bitwise OR of the bit strings.
+10. The set difference of the set A with null set is __________
+a) A
+b) null
+c) U
+d) B
+View Answer
+
+Answer: a
+Explanation: The set difference of the set A by the null set denoted by A – {null} is A.
+1. Let C and D be two sets then which of the following statements are true?
+
+i) C U D = D U C                                          
+ii) C ∩ D = D ∩ C
+a) Both of the statements
+b) Only i statement
+c) Only ii statement
+d) None of the statements
+View Answer
+
+Answer: a
+Explanation: Commutative laws hold good in sets.
+2. If set C is {1, 2, 3, 4} and C – D = Φ then set D can be ___________
+a) {1, 2, 4, 5}
+b) {1, 2, 3}
+c) {1, 2, 3, 4, 5}
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: C ∩ D should be equivalent to C for C – D = Φ.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+3. Let C and D be two sets then C – D is equivalent to __________
+a) C’ ∩ D
+b) C‘∩ D’
+c) C ∩ D’
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Set C-D will be having those elements which are in C but not in D.
+4. For two sets C and D the set (C – D) ∩ D will be __________
+a) C
+b) D
+c) Φ
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: C-D ≡ C ∩ D’, D ∩ D’ ≡ Φ.
+Get Free Certificate of Merit in Discrete Mathematics Now!
+5. Which of the following statement regarding sets is false?
+a) A ∩ A = A
+b) A U A = A
+c) A – (B ∩ C) = (A – B) U (A –C)
+d) (A U B)’ = A’ U B’
+View Answer
+
+Answer: d
+Explanation: (A U B)’ = A’ ∩ B’.
+6. Let C = {1,2,3,4} and D = {1, 2, 3, 4} then which of the following hold not true in this case?
+a) C – D = D – C
+b) C U D = C ∩ D
+c) C ∩ D = C – D
+d) C – D = Φ
+View Answer
+
+Answer: c
+Explanation: C ∩ D = {1, 2, 3, 4} ≠ Φ.
+7. If C’ U (D ∩ E’) is equivalent to __________
+a) (C ∩ (D U E))’
+b) (C ∩( D∩ E’))’
+c) (C ∩( D’ U E))’
+d) (C U ( D ∩ E’)’
+View Answer
+
+Answer: c
+Explanation: (C’)’≡ C, (C∩ D)’ ≡ C’ U D’.
+8. Let Universal set U is {1, 2, 3, 4, 5, 6, 7, 8}, (Complement of A) A’ is {2, 5, 6, 7}, A ∩ B is {1, 3, 4} then the set B’ will surely have of which of the element?
+a) 8
+b) 7
+c) 1
+d) 3
+View Answer
+
+Answer: a
+Explanation: The set A is {1,3,4,8} and thus surely B does not have 8 in it. Since 8 does not belong to A ∩ B. For other element like 7 we can’t be sure.
+9. Let a set be A then A ∩ φ and A U φ are __________
+a) φ, φ
+b) φ, A
+c) A, φ
+d)None of the mentioned
+View Answer
+
+Answer: b
+Explanation: By Domination Laws on sets.
+10. If in sets A, B, C, the set B ∩ C consists of 8 elements, set A ∩ B consists of 7 elements and set C ∩ A consists of 7 elements then the minimum element in set A U B U C will be?
+a) 8
+b) 14
+c) 22
+d) 15
+View Answer
+
+Answer: a
+Explanation: For minimum elements set B and C have 8 elements each and all of the elements are same, Also set A should have 7 elements which are already present in B and C. Thus A U B U C ≡ A ≡ B.
+1. If a set contains 3 elements then the number of subsets is?
+a) 6
+b) 3
+c) 12
+d) 8
+View Answer
+
+Answer: d
+Explanation: For elements with n elements the number of subsets are 2n.
+2. The set containing all the collection of subsets is known as _________
+a) Subset
+b) Power set
+c) Union set
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Power set contains all the subsets as its elements.
+3. If a set is empty then number of subsets will be _________
+a) 1
+b) 2
+c) 0
+d) 4
+View Answer
+
+Answer: a
+Explanation: The set has zero elements so 2o = 1.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. If the number of subsets of a set are 4 then the number of elements in that sets are _________
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: The number of elements be x then x2 = 4 thus x=2.
+5. The number of subsets of a set is 5.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The number of subsets will always be a power of 2.
+Take Discrete Mathematics Tests Now!
+6. The number of subsets of a set can be odd or even.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The number of subsets will be odd in case of empty set otherwise even.
+7. Let a set be A={1, 2, 3} then the number of subsets containing two elements will be _________
+a) 4
+b) 3
+c) 5
+d) 8
+View Answer
+
+Answer: b
+Explanation: The subsets will be {1, 2}, {2, 3}, {1, 3}.
+8. Let the set be A= {a, b, c, {a,b}} then which of the following is false?
+a) {a, b} Є A
+b) a Є A
+c) {a} Є A
+d) b, c ЄA
+View Answer
+
+Answer: c
+Explanation: Only elements belongs to a set, {a} is a subset of this set.
+9. If A={1, 2, 3, 4}, then the number of the subsets of A that contain the element 2 but not 3, is?
+a) 16
+b) 4
+c) 8
+d) 24
+View Answer
+
+Answer: b
+Explanation: The subsets would be {1, 2, 4},{1, 2}, {2, 3}, {2}.
+10. Let A(1), A(2), A(3),…….., A(100) be 100 sets such that number of elements in A(i)=i+1 and A(1) is subset of A(2), A(2)is subset of A(3),….., A(99) is subset of A(100). The number of elements in union of the all the sets are: n(A(1) U A(2) U A(3) …..U A(100)).
+a) 99
+b) 100
+c) 101
+d) 102
+View Answer
+
+Answer: c
+Explanation: Since all sets are subsets of A(100) therefore in union only elements of A(100)will come.A(100) contains 101 elements.
+This set of Discrete Mathematics Multiple Choice Questions & Answers (MCQs) focuses on “Functions”.
+
+1. A function is said to be ______________ if and only if f(a) = f(b) implies that a = b for all a and b in the domain of f.
+a) One-to-many
+b) One-to-one
+c) Many-to-many
+d) Many-to-one
+View Answer
+
+Answer: b
+Explanation: A function is one-to-one if and only if f(a)≠f(b) whenever a≠b.
+2. The function f(x)=x+1 from the set of integers to itself is onto. Is it True or False?
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: For every integer “y” there is an integer “x ” such that f(x) = y.
+3. The value of ⌊1/2.⌊5/2⌋ ⌋ is ______________
+a) 1
+b) 2
+c) 3
+d) 0.5
+View Answer
+
+Answer: a
+Explanation: The value of ⌊5/2⌋ is 2 so, the value of ⌊1/2.2⌋ is 1.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following function f: Z X Z → Z is not onto?
+a) f(a, b) = a + b
+b) f(a, b) = a
+c) f(a, b) = |b|
+d) f(a, b) = a – b
+View Answer
+
+Answer: c
+Explanation: The function is not onto as f(a)≠b.
+5. The domain of the function that assign to each pair of integers the maximum of these two integers is ___________
+a) N
+b) Z
+c) Z +
+d) Z+ X Z+
+View Answer
+
+Answer: d
+Explanation: The domain of the integers is Z+ X Z+.
+Check this: BCA Books | Computer Science Books
+6. Let f and g be the function from the set of integers to itself, defined by f(x) = 2x + 1 and g(x) = 3x + 4. Then the composition of f and g is ____________
+a) 6x + 9
+b) 6x + 7
+c) 6x + 6
+d) 6x + 8
+View Answer
+
+Answer: a
+Explanation: The composition of f and g is given by f(g(x)) which is equal to 2(3x + 4) + 1.
+7. __________ bytes are required to encode 2000 bits of data.
+a) 1
+b) 2
+c) 3
+d) 8
+View Answer
+
+Answer: b
+Explanation: Two bytes are required to encode 2000 (actually with 2 bytes you can encode up to and including 65,535.
+8. The inverse of function f(x) = x3 + 2 is ____________
+a) f -1 (y) = (y – 2) 1/2
+b) f -1 (y) = (y – 2) 1/3
+c) f -1 (y) = (y) 1/3
+d) f -1 (y) = (y – 2)
+View Answer
+
+Answer: b
+Explanation: To find the inverse of the function equate f(x) then find the value of x in terms of y such that f -1 (y) = x.
+9. The function f(x) = x3 is bijection from R to R. Is it True or False?
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The function f(x) = x3 is one to one as no two values in domain are assigned the same value of the function and it is onto as all R of the co domain is images of elements in the domain.
+10. The g -1({0}) for the function g(x)= ⌊x⌋ is ___________
+a) {x | 0 ≤ x < 1}
+b) {x | 0 < x ≤ 1}
+c) {x | 0 < x < 1}
+d) {x | 0 ≤ x ≤ 1}
+View Answer
+
+Answer: d
+Explanation: g({0}) for the function g(x) is {x | 0 ≤ x ≤ 1}. Put g(x) = y and find the value of x in terms of y such that ⌊x⌋ = y.
+1. What is the domain of a function?
+a) the maximal set of numbers for which a function is defined
+b) the maximal set of numbers which a function can take values
+c) it is a set of natural numbers for which a function is defined
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Domain is the set of all the numbers on which a function is defined. It may be real as well.
+2. What is domain of function f(x)= x1/2?
+a) (2, ∞)
+b) (-∞, 1)
+c) [0, ∞)
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: A square root function is not defined for negative real numbers.
+3. What is the range of a function?
+a) the maximal set of numbers for which a function is defined
+b) the maximal set of numbers which a function can take values
+c) it is set of natural numbers for which a function is defined
+d) none of the mentioned
+View Answer
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. What is domain of function f(x) = x-1 for it to be defined everywhere on domain?
+a) (2, ∞)
+b) (-∞, ∞) – {0}
+c) [0, ∞)
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Function x-1 is not defined for x=0, otherwise it defined for every real number.
+5. The range of function f(x) = sin(x) is (-∞, ∞).
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: A sine function takes values between -1 and 1,thus range is [-1, 1].
+Take Discrete Mathematics Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Codomain is the subset of range.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Range is the subset of codomain, that is every value in the range is in codomain but vice-versa it is not true.
+7. What is range of function f(x) = x-1 which is defined everywhere on its domain?
+a) (-∞, ∞)
+b) (-∞, ∞) – {0}
+c) [0, ∞)
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Function x-1 may take any real number hence it’s range is all real numbers.
+8. If f(x) = 2x then range of the function is?
+a) (-∞, ∞)
+b) (-∞, ∞) – {0}
+c) (0, ∞)
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The function cannot take negative values,hence range is (0, ∞).
+9. If f(x) = x2 + 4 then range of f(x) is given by?
+a) [4, ∞)
+b) (-∞, ∞) – {0}
+c) (0, ∞)
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Since minimum value of x2 is 0, thus x2 +4 may take any value between [4,∞).
+10. Let f(x)=sin2(x) + log(x) then domain of f(x) is (-∞, ∞).
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Domain is (0, ∞), since log(x) is not defined for negative numbers and zero.
+1. If a matrix A = [A11 A12 ⋯ A1n A21 A2n ⋮ ⋮ An1 An2 ⋯ Ann], order(nxn) Aii = 1, Aij = 0 for i ≠ j. Then that matrix is known as ________
+a) Identity matrix
+b) Null matrix
+c) Singular matrix
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: In unit matrix all diagonal elements are 1 and all other 0.
+2. A symmetric matrix is a one in which?
+a) All diagonal elements are zero
+b) All diagonal elements are 1
+c) A = AT
+d) A = -AT
+View Answer
+
+Answer: c
+Explanation: For symmetric matrices, matrix remains same even after transpose.
+3. An anti-symmetric matrix is a one in which?
+a) All diagonal elements are zero
+b) All diagonal elements are 1
+c) A = AT
+d) A = -AT
+View Answer
+
+Answer: d
+Explanation: Foran anti-symmetric matrix, matrix changes it sign after transpose.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. A matrix having one row and many columns is known as?
+a) Row matrix
+b) Column matrix
+c) Diagonal matrix
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: In row matrix there is only one row.
+5. A matrix having many rows and one column is known as?
+a) Row matrix
+b) Column matrix
+c) Diagonal matrix
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In column matrix there is only one column.
+Take Discrete Mathematics Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. The trace of the matrix is defined as _______
+a) Sum of all the elements of the matrix
+b) Sum of all the elements of leading diagonal of matrix
+c) Sum of all non-zero elements of matrix
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Trace is the sum of the elements of leading diagonal of matrix.
+7. A square matrix A = [aij ]nxn, if aij = 0 for i > j then that matrix is known as _______
+a) Upper triangular matrix
+b) Lower triangular matrix
+c) Unit matrix
+d) Null matrix
+View Answer
+
+Answer: a
+Explanation: In upper triangular matrix A = [ aij ]nxn, if aij = 0 for i > j.
+8. A square matrix A = [aij ]nxn, if aij = 0 for i < j then that matrix is known as _______
+a) Upper triangular matrix
+b) Lower triangular matrix
+c) Unit matrix
+d) Null matrix
+View Answer
+
+Answer: b
+Explanation: In lower triangular matrix A = [aij ]nxn, if aij = 0 for i < j.
+9. Two matrix can be added if _______
+a) rows of both the matrices are same
+b) columns of both the matrices are same
+c) both rows and columns of both the matrices are same
+d) number of rows of first matrix should be equal to number of column of second
+View Answer
+
+Answer: c
+Explanation: Order of two matrices must be same.
+10. For matrix A if AAT = I, I is identity matrix then A is?
+a) Orthagonal matrix
+b) Nilpotent matrix
+c) Idempotent matrix
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: For orthagonal matrices AAT = I = AT A.
+1. Let A and B be two matrices of same order, then state whether the given statement is true or false.
+
+A + B = B + A
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Matrix addition is commutative.
+2. Let A and B be two matrices of same order, then state whether the given statement is true or false.
+
+AB = BA
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Matrix multiplication is not commutative.
+3. Let A order(axb) and Border(cxd) be two matrices, then for AB to exist, correct relation is given by?
+a) a = d
+b) b = c
+c) a = b
+d) c = d
+View Answer
+
+Answer: b
+Explanation: Matrix multiplication exists only when column of first matrix is same as rows of second i.e b = c.
+Participate in Discrete Mathematics Certification Contest of the Month Now!
+4. Let A order(axb) and Border(cxd) be two matrices, then if AB exists, the order of AB is?
+a) axd
+b) bxc
+c) axb
+d) cxd
+View Answer
+
+Answer: a
+Explanation: Matrix multiplication exists only when column of first matrix is same as rows of second i.e b = c also resultant matrix will have number of rows equal to first matrix and column equal to the second matrix.
+5. Let A=[aij ] be an mxn matrix and k be a scalar then kA is equal to __________
+a) [kaij ]mxn
+b) [aij/k ]mxn
+c) [k2 aij]mxn
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The scalar is multiplied with each of the element of matrix A.
+6. The matrix multiplication is distrbutive over matrix addition.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: For matrix A, B, C, A(B+C) = AB + AC.
+7. If for a square matrix A, A2 = A then such a matrix is known as _________
+a) Idempotent matrix
+b) Orthagonal matrix
+c) Null matrix
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A sqaure matrix is called an Idempotent matrix, if A2 = A.
+8. For matrix A, B.(A+B)T = AT + BT and (AB)T = ATBT if the orders of matrices are appropriate.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: (A+B)T = AT + BT is correct but (AB)T = BTAT(reversal law).
+9. For matrix A, B if A – B = O, where O is a null matrix then?
+a) A = O
+b) B = O
+c) A = B
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: If subtraction of B from A results in the null matrix this means that A is equivalent to B.
+10. All the diagonal elements of a skew-symmetric matrix is?
+a) 0
+b) 1
+c) 2
+d) Any integer
+View Answer
+
+Answer: a
+Explanation: Since for a skew symmetric matrix aij = -aij, this implies all diagonal elements should be zero.
+1. The determinant of identity matrix is?
+a) 1
+b) 0
+c) Depends on the matrix
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: In identity matrix aii = 1, and all other elements = 0, hence the determinant is 1.
+2. If determinant of a matrix A is Zero than __________
+a) A is a Singular matrix
+b) A is a non-Singular matrix
+c) Can’t say
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Determinant of singular matrices are zero.
+3. For a skew symmetric even ordered matrix A of integers, which of the following will not hold true?
+a) det(A) = 9
+b) det(A) = 81
+c) det(A) = 7
+d) det(A) = 4
+View Answer
+
+Answer: c
+Explanation: Determinant of a skew symmetric even ordered matrix A is a perfect square.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. For a skew symmetric odd ordered matrix A of integers, which of the following will hold true?
+a) det(A) = 9
+b) det(A) = 81
+c) det(A) = 0
+d) det(A) = 4
+View Answer
+
+Answer: c
+Explanation: Determinant of a skew symmetric odd ordered matrix A is always 0.
+5. Let A = [kaij]nxn, B = [aij]nxn, be an nxn matrices and k be a scalar then det(A) is equal to _________
+a) Kdet(B)
+b) Kndet(B)
+c) K3det(b)
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The scalar is multiplied with each of the element of matrix A then determinant is multiplied, the number of row times to the scalar i.e. Kndet(B).
+Take Discrete Mathematics Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. The Inverse exist only for non-singular matrices.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Since for singular matrix det(A)=0.Hence Inverse does not exist.
+7. If for a square matrix A and B, null matrix O, AB = O implies BA=O.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Let A = [0 1 0 0], B = [1 0 0 0]AB=O and BA is not equal to O.
+8. If for a square matrix A and B,null matrix O, AB = O implies A=O and B=O.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Let A = [0 1 0 0], B = [1 0 0 0]AB=O and B, A is not equal to O.
+9. Let A be a nilpotent matrix of order n then?
+a) An = O
+b) nA = O
+c) A = nI, I is Identity matrix
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: n is the smallest possible number such that An = O.
+10. Which of the following property of matrix multiplication is correct?
+a) Multiplication is not commutative in general
+b) Multiplication is associative
+c) Multiplication is distributive over addition
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Matrix multiplication is associative, distributive, but not commutative.

@@ -1,0 +1,28 @@
+
+function extractMCQQuestions(input) {
+  const lines = input.split("\n");
+
+  const questions = [];
+  let currentQuestion = {};
+
+  for (const line of lines) {
+    if (line.startsWith("Question")) {
+      currentQuestion = { question: line.substring(3).trim() };
+    } else if (line.startsWith("a)")) {
+      if (!currentQuestion.options) currentQuestion.options = [];
+      currentQuestion.options.push(line.substring(2).trim());
+    } else if (line.startsWith("Answer:")) {
+      currentQuestion.answer = line.substring(7).trim();
+    } else if (line.startsWith("Explanation:")) {
+      currentQuestion.explanation = line.substring(12).trim();
+      questions.push(currentQuestion);
+    }
+  }
+
+  return questions;
+}
+
+const input = `Your provided input string here...`;
+
+const mcqQuestions = extractMCQQuestions(input);
+console.log(mcqQuestions);

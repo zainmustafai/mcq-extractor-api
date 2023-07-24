@@ -1,0 +1,641 @@
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Normal Forms”.
+
+1. In the __________ normal form, a composite attribute is converted to individual attributes.
+a) First
+b) Second
+c) Third
+d) Fourth
+View Answer
+
+Answer: a
+Explanation: The first normal form is used to eliminate the duplicate information.
+2. A table on the many side of a one to many or many to many relationship must:
+a) Be in Second Normal Form (2NF)
+b) Be in Third Normal Form (3NF)
+c) Have a single attribute key
+d) Have a composite key
+View Answer
+
+Answer: d
+Explanation: The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key.
+3. Tables in second normal form (2NF):
+a) Eliminate all hidden dependencies
+b) Eliminate the possibility of a insertion anomalies
+c) Have a composite key
+d) Have all non key fields depend on the whole primary key
+View Answer
+
+Answer: a
+Explanation: The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4. Which-one ofthe following statements about normal forms is FALSE?
+a) BCNF is stricter than 3 NF
+b) Lossless, dependency -preserving decomposition into 3 NF is always possible
+c) Loss less, dependency – preserving decomposition into BCNF is always possible
+d) Any relation with two attributes is BCNF
+View Answer
+
+Answer: c
+Explanation: We say that the decomposition is a lossless decomposition if there is no loss of information by replacing r (R) with two relation schemas r1(R1) andr2(R2).
+5. Functional Dependencies are the types of constraints that are based on______
+a) Key
+b) Key revisited
+c) Superset key
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Key is the basic element needed for the constraints.
+Become Top Ranker in Database Management System Now!
+6. Which is a bottom-up approach to database design that design by examining the relationship between attributes:
+a) Functional dependency
+b) Database modeling
+c) Normalization
+d) Decomposition
+View Answer
+
+Answer: c
+Explanation: Normalisation is the process of removing redundancy and unwanted data.
+7. Which forms simplifies and ensures that there are minimal data aggregates and repetitive groups:
+a) 1NF
+b) 2NF
+c) 3NF
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: The first normal form is used to eliminate the duplicate information.
+8. Which forms has a relation that possesses data about an individual entity:
+a) 2NF
+b) 3NF
+c) 4NF
+d) 5NF
+View Answer
+
+Answer: c
+Explanation: A Table is in 4NF if and only if, for every one of its non-trivial multivalued dependencies X \twoheadrightarrow Y, X is a superkey—that is, X is either a candidate key or a superset thereof.
+9. Which forms are based on the concept of functional dependency:
+a) 1NF
+b) 2NF
+c) 3NF
+d) 4NF
+View Answer
+
+Answer: c
+Explanation: The table is in 3NF if every non-prime attribute of R is non-transitively dependent (i.e. directly dependent) on every superkey of R.
+10.
+
+Empdt1(empcode, name, street, city, state, pincode).
+For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in
+a) 1 NF only
+b) 2 NF and hence also in 1 NF
+c) 3NF and hence also in 2NF and 1NF
+d) BCNF and hence also in 3NF, 2NF and 1NF
+View Answer
+
+Answer: b
+Explanation: The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key.
+
+This set of Database Assessment Questions and Answers focuses on “Application Programs and User Interfaces”.
+
+1. An approach to website design with the emphasis on converting visitors to outcomes required by the owner is referred to as:
+a) Web usability
+b) Persuasion
+c) Web accessibility
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In computing, graphical user interface is a type of user interface that allows users to interact with electronic devices.
+2. A method of modelling and describing user tasks for an interactive application is referred to as:
+a) Customer journey
+b) Primary persona
+c) Use case
+d) Web design persona
+View Answer
+
+Answer: c
+Explanation: The actions in GUI are usually performed through direct manipulation of the graphical elements.
+3. Information architecture influences:
+a) Answer choice
+b) Site structure
+c) Labeling
+d) Navigation design
+View Answer
+
+Answer: b
+Explanation: The actions in GUI are usually performed through direct manipulation of the graphical elements.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4. Also known as schematics, a way of illustrating the layout of an individual webpage is a:
+a) Wireframe
+b) Sitemap
+c) Card sorting
+d) Blueprint
+View Answer
+
+Answer: a
+Explanation: An application programming interface specifies how some software components should interact with each other.
+5. A graphical or text depiction of the relationship between different groups of content on a website is referred to as a:
+a) Wireframe
+b) Blueprint
+c) Sitemap
+d) Card sorting
+View Answer
+
+Answer: c
+Explanation: An application programming interface specifies how some software components should interact with each other.
+Become Top Ranker in Database Management System Now!
+6. Blueprints are intended to:
+a) Prototype of the screen layout showing navigation and main design elements
+b) Show the grouping of pages and user journeys
+c) Indicate the structure of a site during site design and as a user feature
+d) Prototype typical customer journeys or clickstreams through a website
+View Answer
+
+Answer: c
+Explanation: A blueprint is a reproduction of a technical drawing, documenting an architecture or an engineering design, using a contact print process.
+7. Storyboards are intended to:
+a) Indicate the structure of a site during site design and as a user feature
+b) Prototype of the screen layout showing navigation and main design elements
+c) Integrate consistently available components on the webpage (e.g. navigation, search boxes)
+d) Prototype typical customer journeys or click streams through a website
+View Answer
+
+Answer: d
+Explanation: An application programming interface specifies how some software components should interact with each other.
+8. Which of the following occupies boot record of hard and floppy disks and activated during computer startup?
+a) Worm
+b) Boot sector virus
+c) Macro virus
+d) Virus
+View Answer
+
+Answer: b
+Explanation: A blueprint is a reproduction of a technical drawing, documenting an architecture or an engineering design, using a contact print process.
+9. A graphical or text depiction of the relationship between different groups of content on a website is a:
+a) Page template
+b) Wireframe
+c) Site map
+d) Cascading style sheet (CSS)
+View Answer
+
+Answer: c
+Explanation: In computing, graphical user interface is a type of user interface that allows users to interact with electronic devices.
+10. Which of the following is a description of information organization schemes?
+a) Minimising the number of clicks needed to access relevant content
+b) Providing an overall design to a site consistent with the positioning of the products and services
+c) The menu options chosen to group and categorize information
+d) Providing specific content and services appropriate to different audience members
+View Answer
+
+Answer: c
+Explanation: In computing, graphical user interface is a type of user interface that allows users to interact with electronic devices.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Database Design Process”.
+
+1. _____________ can help us detect poor E-R design.
+a) Database Design Process
+b) E-R Design Process
+c) Relational scheme
+d) Functional dependencies
+View Answer
+
+Answer: d
+Explanation: For eg.,Suppose an instructor entity set had attributes dept name and dept address, and there is a functional dependency dept name -> dept address.
+2. If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from one of the following sources.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) Both A many-to-many relationship set and A multivalued attribute of an entity set
+View Answer
+
+Answer: d
+Explanation: For a many-to-many relationship set each related entity set has its own schema and there is an additional schema for the relationship set. For a multivalued attribute, a separate schema is created consisting of that attribute and the primary key of the entity set.
+3. Which of the following has each related entity set has its own schema and there is an additional schema for the relationship set.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. In which of the following, a separate schema is created consisting of that attribute and the primary key of the entity set.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source.
+5. Suppose the user finds the usage of room number and phone number in a relational schema there is confusion.This is reduced by
+a) Unique-role assumption
+b) Unique-key assignment
+c) Role intergral assignment
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A desirable feature of a database design is the unique-role assumption, which means that each attribute name has a unique meaning in the database.
+Check this: RDBMS MCQ | Programming Books
+6. What is the best way to represent the attributes in a large database?
+a) Relational-and
+b) Concatenation
+c) Dot representation
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Example inst sec and student sec.
+7. Designers use which of the following to tune the performance of systems to support time-critical operations?
+a) Denormalization
+b) Redundant optimization
+c) Optimization
+d) Realization
+View Answer
+
+Answer: a
+Explanation: The process of taking a normalized schema and making it nonnormalized is called denormalization.
+8. In the schema (dept name, size) we have relations total inst 2007, total inst 2008. Which dependency have lead to this relation ?
+a) Dept name, year->size
+b) Year->size
+c) Dept name->size
+d) Size->year
+View Answer
+
+Answer: a
+Explanation: The process of taking a normalized schema and making it nonnormalized is called denormalization.
+9. Relation dept year(dept name, total inst 2007, total inst 2008, total inst 2009). Here the only functional dependencies are from dept name to the other attributes. This relation is in
+a) Fourth NF
+b) BCNF
+c) Third NF
+d) Second NF
+View Answer
+
+Answer: b
+Explanation: BCNF has only one normal form.
+10. Thus a _______ of course data gives the values of all attributes, such as title and department, of all courses at a particular point in time.
+a) Instance
+b) Snapshot
+c) Both Instance and Snapshot
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: We use the term snapshot of data to mean the value of the data at a particular point in time.
+11. Representations such as the in the dept year relation, with one column for each value of an attribute, are called _______ they are widely used in spreadsheets and reports and in data analysis tools.
+a) Cross-tabs
+b) Snapshot
+c) Both Cross-tabs and Snapshot
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: SQL includes features to convert data from a normal relational representation to a crosstab.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Algorithms for Decomposition”.
+
+1. A relation is in ____________ if an attribute of a composite key is dependent on an attribute of other composite key.
+a) 2NF
+b) 3NF
+c) BCNF
+d) 1NF
+View Answer
+
+Answer: b
+Explanation: A relation is in 3 NF if an attribute of a composite key is dependent on an attribute of other composite key. (If an attribute of a composite key is dependent on an attribute of other composite key then the relation is not in BCNF, hence it has to be decomposed.).
+2. What are the desirable properties of a decomposition
+a) Partition constraint
+b) Dependency preservation
+c) Redundancy
+d) Security
+View Answer
+
+Answer: b
+Explanation: Lossless join and dependency preserving are the two goals of the decomposition.
+3. R (A,B,C,D) is a relation. Which of the following does not have a lossless join dependency preserving BCNF decomposition?
+a) A->B, B->CD
+b) A->B, B->C, C->D
+c) AB->C, C->AD
+d) A->BCD
+View Answer
+
+Answer: d
+Explanation: This relation gives a relation without any loss in the values.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4.
+
+Class (course id, title, dept name, credits, sec id, semester, YEAR, building, room NUMBER, capacity, TIME slot id)
+The SET OF functional dependencies that we require TO hold ON class are:
+course id->title, dept name, credits
+building, room number->capacity
+course id, sec id, semester, year->building, room NUMBER, TIME slot id
+A candidate KEY FOR this schema IS {course id, sec id, semester, YEAR}
+Consider the above conditions. Which of the following relation holds?
+a) Course id-> title, dept name, credits
+b) Title-> dept name, credits
+c) Dept name-> credits
+d) Cannot be determined
+View Answer
+
+Answer: a
+Explanation: Here course id is not a superkey. Thus, class is not in BCNF.
+Participate in Database Management System Certification Contest of the Month Now!
+5. The algorithm that takes a set of dependencies and adds one schema at a time, instead of decomposing the initial schema repeatedly is
+a) BCNF algorithm
+b) 2NF algorithm
+c) 3NF synthesis algorithm
+d) 1NF algorithm
+View Answer
+
+Answer: c
+Explanation: The result is not uniquely defined, since a set of functional dependencies can have more than one canonical cover, and, further, in some cases, the result of the algorithm depends on the order in which it considers the dependencies in Fc.
+6. The functional dependency can be tested easily on the materialized view, using the constraints ____________.
+a) Primary key
+b) Null
+c) Unique
+d) Both Null and Unique
+View Answer
+
+Answer: d
+Explanation: Primary key contains both unique and not null constraints.
+7. Which normal form is considered adequate for normal relational database design?
+a) 2NF
+b) 5NF
+c) 4NF
+d) 3NF
+View Answer
+
+Answer: d
+Explanation: A relational database table is often described as “normalized” if it is in the Third Normal Form because most of the 3NF tables are free of insertion, update, and deletion anomalies.
+8. Relation R with an associated set of functional dependencies, F, is decomposed into BCNF. The redundancy (arising out of functional dependencies) in the resulting set of relations is
+a) Zero
+b) More than zero but less than that of an equivalent 3NF decomposition
+c) Proportional to the size of F+
+d) Indeterminate
+View Answer
+
+Answer: b
+Explanation: Redundancy in BCNF is low when compared to 3NF. For more details on BCNF.
+9. A table has fields F1, F2, F3, F4, and F5, with the following functional dependencies:
+
+F1->F3
+F2->F4
+(F1,F2)->F5
+in terms of normalization, this table is in
+a) 1NF
+b) 2NF
+c) 3NF
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Since the primary key is not given we have to derive the primary key of the table. Using the closure set of attributes we get the primary key as (F1, F2). From functional dependencies, “F1->F3, F2->F4”, we can see that there is partial functional dependency therefore it is not in 1NF. Hence the table is in 1NF.
+10. Let R(A,B,C,D,E,P,G) be a relational schema in which the following FDs are known to hold:
+
+AB->CD
+DE->P
+C->E
+P->C
+B->G
+The relation schema R is
+a) in BCNF
+b) in 3NF, but not in BCNF
+c) in 2NF, but not in 3NF
+d) not in 2NF
+View Answer
+
+Answer: d
+Explanation: From the closure set of attributes we can see that the key for the relation is AB. The FD B->G is a partial dependency, hence it is not in 2NF.This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Functional-Dependency Theory”.
+
+1. We can use the following three rules to find logically implied functional dependencies. This collection of rules is called
+a) Axioms
+b) Armstrong’s axioms
+c) Armstrong
+d) Closure
+View Answer
+
+Answer: b
+Explanation: By applying these rules repeatedly, we can find all of F+, given F.
+2. Which of the following is not Armstrong’s Axiom?
+a) Reflexivity rule
+b) Transitivity rule
+c) Pseudotransitivity rule
+d) Augmentation rule
+View Answer
+
+Answer: c
+Explanation: It is possible to use Armstrong’s axioms to prove that Pseudotransitivity rule is sound.
+3. The relation employee(ID,name,street,Credit,street,city,salary) is decomposed into
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+employee1 (ID, name)
+employee2 (name, street, city, salary)
+This type of decomposition is called
+a) Lossless decomposition
+b) Lossless-join decomposition
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Lossy-join decomposition is the decomposition used here .
+Check this: DBMS Books | Programming MCQs
+4. Inst_dept (ID, name, salary, dept name, building, budget) is decomposed into
+
+instructor (ID, name, dept name, salary)
+department (dept name, building, budget)
+This comes under
+a) Lossy-join decomposition
+b) Lossy decomposition
+c) Lossless-join decomposition
+d) Both Lossy and Lossy-join decomposition
+View Answer
+
+Answer: d
+Explanation: Lossy-join decomposition is the decomposition used here .
+5. There are two functional dependencies with the same set of attributes on the left side of the arrow:
+A->BC
+A->B
+This can be combined as
+a) A->BC
+b) A->B
+c) B->C
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: This can be computed as the canonical cover.
+6. Consider a relation R(A,B,C,D,E) with the following functional dependencies:
+
+ABC -> DE and
+D -> AB
+The number of superkeys of R is:
+a) 2
+b) 7
+c) 10
+d) 12
+View Answer
+
+Answer: c
+Explanation: A superkey is a combination of columns that uniquely identifies any row within a relational database management system (RDBMS) table.
+7. Suppose we wish to find the ID’s of the employees that are managed by people who are managed by the employee with ID 123. Here are two possible queries:
+
+I.SELECT ee.empID
+  FROM Emps ee, Emps ff
+  WHERE ee.mgrID = ff.empID AND ff.mgrID = 123;
+II.SELECT empID
+  FROM Emps 
+  WHERE mgrID IN
+  (SELECT empID FROM Emps WHERE mgrID = 123);
+Which, if any, of the two queries above will correctly (in SQL2) get the desired set of employee ID’s?
+a) Both I and II
+b) I only
+c) II only
+d) Neither I nor I
+View Answer
+
+Answer: a
+Explanation: The query can be satisfied by any of the two options.
+8. Suppose relation R(A,B) currently has tuples {(1,2), (1,3), (3,4)} and relation S(B,C) currently has {(2,5), (4,6), (7,8)}. Then the number of tuples in the result of the SQL query:
+
+<i>SELECT *
+	FROM R NATURAL OUTER JOIN S; </i>IS:
+a) 2
+b) 4
+c) 6
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The SQL NATURAL JOIN is a type of EQUI JOIN and is structured in such a way that, columns with same name of associate tables will appear once only.
+9. Suppose now that R(A,B) and S(A,B) are two relations with r and s tuples, respectively (again, not necessarily distinct). If m is the number of (not necessarily distinct) tuples in the result of the SQL query:
+
+	R intersect S;
+Then which of the following is the most restrictive, correct condition on the value of m?
+a) m = min(r,s)
+b) 0 <= m <= r + s
+c) min(r,s) <= m <= max(r,s)
+d) 0 <= m <= min(r,s)
+View Answer
+
+Answer: d
+Explanation: The value of m must lie between the min value of r and s and 0.
+10. Suppose relation R(A,B,C,D,E) has the following functional dependencies:
+
+A -> B
+B -> C
+BC -> A
+A -> D
+E -> A
+D -> E
+Which of the following is not a key?
+a) A
+b) E
+c) B, C
+d) D
+View Answer
+
+Answer: c
+Explanation: Here the keys are not formed by B and C
+
+This set of Database online quiz focuses on “Using Multivalued Dependencies”.
+
+1. The normal form which satisfies multivalued dependencies and which is in BCNF is
+a) 4 NF
+b) 3 NF
+c) 2 NF
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Fourth normal form is more restrictive than BCNF.
+2. Which of the following is a tuple-generating dependencies?
+a) Functional dependency
+b) Equality-generating dependencies
+c) Multivalued dependencies
+d) Non-functional dependency
+View Answer
+
+3. The main task carried out in the __________ is to remove repeating attributes to separate tables.
+a) First Normal Form
+b) Second Normal Form
+c) Third Normal Form
+d) Fourth Normal Form
+View Answer
+
+Answer: a
+Explanation: Multivalued dependencies, do not rule out the existence of certain tuples. Instead, they require that other tuples of a certain form be present in the relation.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the normal form is based on multivalued dependencies?
+a) First
+b) Second
+c) Third
+d) Fourth
+View Answer
+
+Answer: d
+Explanation: Multivalued dependencies, do not rule out the existence of certain tuples. Instead, they require that other tuples of a certain form be present in the relation.
+5. Which forms has a relation that possesses data about an individual entity?
+a) 2NF
+b) 3NF
+c) 4NF
+d) 5NF
+View Answer
+
+Answer: c
+Explanation: A Table is in 4NF if and only if, for every one of its non-trivial multivalued dependencies X \twoheadrightarrow Y, X is a superkey—that is, X is either a candidate key or a superset thereof.
+Take Database Management System Tests Now!
+6. If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from one of the following sources.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) Both A many-to-many relationship set and A multivalued attribute of an entity set
+View Answer
+
+Answer: d
+Explanation: For a many-to-many relationship set each related entity set has its own schema and there is an additional schema for the relationship set. For a multivalued attribute, a separate schema is created consisting of that attribute and the primary key of the entity set.
+7. Which of the following has each related entity set has its own schema and there is an additional schema for the relationship set?
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source.
+8. In which of the following, a separate schema is created consisting of that attribute and the primary key of the entity set.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source.
+9. Fifth Normal form is concerned with
+a) Functional dependency
+b) Multivalued dependency
+c) Join dependency
+d) Domain-key
+View Answer
+
+Answer: c
+Explanation: If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source.
+10. In 2NF
+a) No functional dependencies (FDs) exist
+b) No multivalued dependencies (MVDs) exist
+c) No partial FDs exist
+d) No partial MVDs exist
+View Answer
+
+Answer: c
+Explanation: If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source.

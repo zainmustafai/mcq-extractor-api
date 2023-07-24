@@ -1,0 +1,809 @@
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Analysis Modelling”.
+
+1. Which of the following is not the primary objectives in the analysis model?
+a) describing the customer complaints
+b) establishing a basis for the creation of a software design
+c) defining a set of requirements that can be validated once the software is built
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the options are covered in analysis model.
+2. A description of each function presented in the DFD is contained in a ________
+a) data flow
+b) process specification
+c) control specification
+d) data store
+View Answer
+
+Answer: b
+Explanation: None.
+3. Which diagram indicates the behaviour of the system as a consequence of external events?
+a) data flow diagram
+b) state transition diagram
+c) control specification diagram
+d) workflow diagram
+View Answer
+
+Answer: b
+Explanation: The state transition diagram represents the various modes of behavior (called states) of the system and the manner in which transitions are made from state to state.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. A data model contains
+a) data object
+b) attributes
+c) relationships
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: The data model consists of three interrelated pieces of information: the data object,
+the attributes that describe the data object, and the relationships that connect data objects to one another.
+5. _________ defines the properties of a data object and take on one of the three different characteristics.
+a) data object
+b) attributes
+c) relationships
+d) data object and attributes
+View Answer
+
+Answer: b
+Explanation: They can be used to name an instance of the data object, describe the instance, or make reference to another instance in another table.
+Check this: Computer Science Books | Information Technology MCQs
+6. The __________ of a relationship is 0 if there is no explicit need for the relationship to occur or the relationship is optional.
+a) modality
+b) cardinality
+c) entity
+d) structured analysis
+View Answer
+
+Answer: a
+Explanation: The modality is 1 if an occurrence of the relationship is mandatory, else 0 for optional relationship.
+7. A _________ is a graphical representation that depicts information flow and the transforms that are applied as data moves from input to output.
+a) data flow diagram
+b) state transition diagram
+c) control specification
+d) workflow diagram
+View Answer
+
+Answer: b
+Explanation: The basic form of a data flow diagram, also known as a data flow graph or a bubble chart.
+8. A data condition occurs whenever a data is passed to an input element followed by a processing element and the result in control output.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Standard flow of condition check.
+9. The __________ enables the software engineer to develop models of the information domain and functional domain at the same time
+a) data flow diagram
+b) state transition diagram
+c) control specification
+d) activity diagram
+View Answer
+
+Answer: a
+Explanation: As the DFD is refined into greater levels of detail, the analyst performs an implicit functional decomposition of the system, thereby accomplishing the fourth operational analysis principle for function.
+10. The __________ contains a state transition diagram that is a sequential specification of behavior.
+a) data flow diagram
+b) state transition diagram
+c) control specification
+d) workflow diagram
+View Answer
+
+Answer: c
+Explanation: The control specification(CSPEC) describes the behavior of the system, but it gives us no information about the inner working of the processes that are activated as a result of this behavior .
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Component Level Design”.
+
+1. Which of the following is not a construct?
+a) sequence
+b) condition
+c) repetition
+d) selection
+View Answer
+
+Answer: d
+Explanation: Sequence implements processing steps that are essential in the specification of any algorithm. Condition provides the facility for selected processing based on some logical occurrence, and repetition allows for looping.
+2.Which of the following steps is applied to develop a decision table?
+a) List all actions that can be associated with a specific procedure
+b) List all conditions during execution of the procedure
+c) Define rules by indicating what action(s) occurs for a set of conditions
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: A decision table includes action stub and a condition stub with a set of rules.
+3. _________ is a pidgin(simplified version of a language that develops as a means of communication between two or more groups that do not have a language in common)
+a) program design language
+b) structured English
+c) pseudocode
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: The difference between PDL and a real programming language lies in the use of narrative text embedded directly within PDL statements.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+4. Which of the following term is best defined by the statement:”The ability to represent local and global data is an essential element of component-level design.”?
+a) Data representation
+b) Logic verification
+c) “Code-to” ability
+d) Automatic processing
+View Answer
+
+Answer: a
+Explanation: None.
+5. A software component
+a) Implements some functionality
+b) Has explicit dependencies through provides and required interfaces
+c) Communicates through its interfaces only
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the options identify with features of a software component.
+Participate in Software Engineering Certification Contest of the Month Now!
+6. Which diagram evolved from a desire to develop a procedural design representation that would not allow violation of the structured constructs?
+a) State transition diagram
+b) Box diagram
+c) ER diagram
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+7. A __________ executes the loop task first, then tests a condition and repeats the task until the condition fails.
+a) repeat until
+b) condition
+c) do while tests
+d) if then-else
+View Answer
+
+Answer: a
+Explanation: None.
+8. Which of the following is not a characteristics of box diagram?
+a) functional domain
+b) arbitrary transfer of control is impossible
+c) recursion is easy to represent
+d) providing a notation that translates actions and conditions
+View Answer
+
+Answer: d
+Explanation: This functionality is covered by UML diagrams.
+9. The________ is represented as two processing boxes connected by an line (arrow) of control.
+a) Repetition
+b) Sequence
+c) Condition
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+10. Which of the following term is best defined by the statement “Notation that can be input directly into a computer-based development system offers significant benefits.”?
+a) Machine readability
+b) Maintainability
+c) Structure enforcement
+d) Overall simplicity
+View Answer
+
+Answer: a
+Explanation: Readability is processing input.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Software Design Pattern”.
+
+1. Which mechanism is applied to use a design pattern in an OO system?
+a) Inheritance
+b) Composition
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Using inheritance, an existing design pattern becomes a template for a new subclass.Composition is a concept that leads to aggregate objects.
+2. Design patterns does not follow the concept of software reuse.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Design patterns allow the designer to create the system architecture by integrating reusable components.
+3. The use of design patterns for the development of object-oriented software has important implications for
+a) Component-based software engineering
+b) Reusability in general
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which of the following is a design pattern?
+a) Behavioral
+b) Structural
+c) Abstract Factory
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the options are design patterns so option d.
+5. You want to minimize development cost by reusing methods? Which design pattern would you choose?
+a) Adapter Pattern
+b) Singleton Pattern
+c) Delegation pattern
+d) Immutable Pattern
+View Answer
+
+Answer: c
+Explanation: The delegation pattern is a design pattern in OOP where an object, instead of performing one of its stated tasks, delegates that task to an associated helper object.
+Check this: Computer Science MCQs | Information Technology MCQs
+6. You want to avoid multiple inheritance. Which design pattern would you choose?
+a) Abstraction-Occurrence Pattern
+b) Player-Role Pattern
+c) General Hierarchy Pattern
+d) Singleton Pattern
+View Answer
+
+Answer: b
+Explanation: The answer is self-explanatory.
+7. The recurring aspects of designs are called design
+a) patterns
+b) documents
+c) structures
+d) methods
+View Answer
+
+Answer: a
+Explanation: A pattern is the outline of a reusable solution to a general problem encountered in a particular context.
+8. Design pattern is a solution to a problem that occurs repeatedly in a variety of contexts.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Each design pattern has a name and use of each pattern has consequences.
+9. Which pattern prevents one from creating more than one instance of a variable?
+a) Factory Method
+b) Singleton
+c) Observer
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In singleton pattern, the class itself is made responsible for keeping track of its instance.Thus it ensures that no more than one instance is created.
+10. Facade pattern promotes weak coupling between subsystem and its clients.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: It is one of the patterns benefit.The facade pattern shields clients from subsystem classes and reduces the number of objects that clients deal with.
+11. Which design pattern defines one-to-many dependency among objects?
+a) Singleton pattern
+b) Facade Pattern
+c) Observer pattern
+d) Factory method pattern
+View Answer
+
+Answer: c
+Explanation: Observer pattern defines one-to-many dependency among objects so that when one object changes its state, all its dependents are notified.
+12. Facade pattern couples a subsystem from its clients.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: A facade can be a single entry point to each subsystem level. It decouples the subsystem.
+13. In factory method pattern, the framework must instantiate classes but it only knows about the abstract classes, which it cannot initiate. How would one solve this problem?
+a) encapsulating the knowledge of which document subclass to is to be created and
+b) moving this knowledge out of the framework
+c) instantiating the application specific documents without knowing their class
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Following all the options in order will solve the factory method problem.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Test Case Design”.
+
+1. What do you understand by V&V in software testing?
+a) Verified Version
+b) Version Validation
+c) Verification and Validation
+d) Version Verification
+View Answer
+
+Answer: c
+Explanation: V&V generally refers to any activity that attempts to ensure that the software will function as required.
+2. In static test techniques, behavioral and performance properties of the program are observed.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Static Analysis Techniques are based solely on the (manual or automated) examination of project documentation of software models and code.
+3. Which granularity level of testing checks the behavior of module cooperation?
+a) Unit Testing
+b) Integration Testing
+c) Acceptance Testing
+d) Regression Testing
+View Answer
+
+Answer: b
+Explanation: Integration testing is the phase in software testing in which individual software modules are combined and tested as a group.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which test refers to the retesting of a unit, integration and system after modification, in order to ascertain that the change has not introduced new faults?
+a) Regression Test
+b) Smoke Test
+c) Alpha Test
+d) Beta Test
+View Answer
+
+Answer: a
+Explanation: Regression test seeks to uncover new software bugs in existing functional and non-functional areas of a system after changes have been made to them.
+5. Which of the following is a black box testing strategy?
+a) All Statements Coverage
+b) Control Structure Coverage
+c) Cause-Effect Graphs
+d) All Paths Coverage
+View Answer
+
+Answer: c
+Explanation: Rest are test strategies of white box testing.
+Check this: BCA MCQs | Computer Science Books
+6. A set of inputs, execution preconditions and expected outcomes is known as a
+a) Test plan
+b) Test case
+c) Test document
+d) Test Suite
+View Answer
+
+Answer: b
+Explanation: None.
+7. In which test design each input is tested at both ends of its valid range and just outside its valid range?
+a) Boundary value testing
+b) Equivalence class partitioning
+c) Boundary value testing AND Equivalence class partitioning
+d) Decision tables
+View Answer
+
+Answer: a
+Explanation: Boundary value analysis is a software testing technique in which tests are designed to include representatives of boundary values.
+8. A white box test scales up well at different granularity levels of testing.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: A white box test is mostly applicable at unit and integration testing level.
+9. When does the testing process stops?
+a) When resources (time and budget) are over
+b) When some coverage is reached
+c) When quality criterion is reached
+d) Testing never ends
+View Answer
+
+Answer: c
+Explanation: As software testing is an exhaustive process, when the quality assurance is established and the product is ready to be delivered, testing is stopped.
+10. Which of the following is not a part of a test design document?
+a) Test Plan
+b) Test Design Specification
+c) Test Case Specification
+d) Test Log
+View Answer
+
+Answer: d
+Explanation: Test log is a part of testing result document.
+11. Specifying a set of test cases or test paths for each item to be tested at that level is known as
+a) Test case generation
+b) Test case design
+c) ALL of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+12. Acceptance & system test planning are a part of architectural design.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: They are a part of requirements engineering, while integration & unit test planning come under architectural design.
+13. PRD stands for
+a) Product Requirement Document
+b) Project Requirement Document
+c) Product Restrictions Document
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A product requirements document (PRD) is a document written by a company that defines a product they are making, or the requirements for one or more new features for an existing product.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Building Blocks of UML”.
+
+1. Which of the following is a building block of UML?
+a) Things
+b) Relationships
+c) Diagrams
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are the building blocks of UML which are further sub-categorized.
+2. Classes and interfaces are a part of
+a) Structural things
+b) Behavioral things
+c) Grouping things
+d) Annotational things
+View Answer
+
+Answer: a
+Explanation: Structural things are mostly static parts of a model, representing elements that are either conceptual or physical.
+3.What is a collection of operations that specify a service of a class or component?
+a) Use Case
+b) Actor
+c) Interface
+d) Relationship
+View Answer
+
+Answer: c
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. What is a physical element that exists at runtime in UML?
+a) A node
+b) An interface
+c) An activity
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A node represents a computational resource.
+5. What can be requested from any object of the class to affect behavior?
+a) object
+b) attribute
+c) operation
+d) instance
+View Answer
+
+Answer: c
+Explanation: An operation is the implementation of a service that can be requested from any object of the class to affect behavior.
+Check this: Computer Science Books | Computer Science MCQs
+6. Which things are dynamic parts of UML models?
+a) Structural things
+b) Behavioral things
+c) Grouping things
+d) Annotational things
+View Answer
+
+Answer: b
+Explanation: These are the verbs of a model, representing behavior over time and space.
+7. Which diagram in UML emphasizes the time-ordering of messages?
+a) Activity
+b) Sequence
+c) Collaboration
+d) Class
+View Answer
+
+Answer: b
+Explanation: This diagram is a model describing how groups of objects collaborate in some behavior over time.
+8. Object diagram captures the behavior of a single use case.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Sequence Diagram is responsible for this.
+9. If you are working on real-time process control applications or systems that involve concurrent processing, you would use a
+a) Activity diagram
+b) Sequence diagram
+c) Statechart diagram
+d) Object diagram
+View Answer
+
+Answer: c
+Explanation: A statechart diagram shows a state machine, consisting of states, transitions, events, and activities.
+10. Which diagram shows the configuration of run-time processing elements?
+a) Deployment diagram
+b) Component diagram
+c) Node diagram
+d) ER-diagram
+View Answer
+
+Answer: a
+Explanation: A Deployment diagram shows the configuration of run-time processing elements and the software components, processes, and objects.
+11. Which things in UML are the explanatory parts of UML models?
+a) Structural things
+b) Behavioral things
+c) Grouping things
+d) Annotational things
+View Answer
+
+Answer: d
+Explanation: It include a note which is simply a symbol for rendering constraints and comments attached to an element or a collection of elements.
+12. Which of the following term is best defined by the statement:”a structural relationship that specifies that objects of one thing are connected to objects of another”?
+a) Association
+b) Aggregation
+c) Realization
+d) Generalization
+View Answer
+
+Answer: a
+Explanation: None.
+13. What refers to the value associated with a specific attribute of an object and to any actions or side?
+a) Object
+b) State
+c) Interface
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In a state chart diagram, effects occur when the attribute’s value changes.This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Diagrams in UML – 1”.
+
+1. Which of the following UML diagrams has a static view?
+a) Collaboration
+b) Use case
+c) State chart
+d) Activity
+View Answer
+
+Answer: b
+Explanation: A use case diagrams captures only the functionality of the system whereas a dynamic model/view captures the functions as well as the action.
+2. What type of core-relationship is represented by the symbol in the figure below?
+The type of core-relationship represented by the symbol in the figure is Aggregation
+a) Aggregation
+b) Dependency
+c) Generalization
+d) Association
+View Answer
+
+Answer: a
+Explanation: None.
+3. Which core element of UML is being shown in the figure?
+The core element of UML being shown in the figure is Component
+a) Node
+b) Interface
+c) Class
+d) Component
+View Answer
+
+Answer: d
+Explanation: The figure is self explanatory. A component is a modular, significant and replaceable part of the system that packages implementation and exposes a set of interfaces.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. What type of relationship is represented by Shape class and Square ?
+The type of relationship represented by Shape class & Square is Generalization
+a) Realization
+b) Generalization
+c) Aggregation
+d) Dependency
+View Answer
+
+Answer: b
+Explanation: The generalization relationship is also known as the inheritance relationship. In the figure Square is the subclass of superclass shape.
+5. Which diagram in UML shows a complete or partial view of the structure of a modeled system at a specific time?
+a) Sequence Diagram
+b) Collaboration Diagram
+c) Class Diagram
+d) Object Diagram
+View Answer
+
+Answer: d
+Explanation: An object diagram focuses on some particular set of object instances and attributes, and the links between the instances. It is a static snapshot of a dynamic view of the system.
+Check this: Computer Science Books | Information Technology MCQs
+6. Interaction Diagram is a combined term for
+a) Sequence Diagram + Collaboration Diagram
+b) Activity Diagram + State Chart Diagram
+c) Deployment Diagram + Collaboration Diagram
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Interaction diagram are used to formalize the dynamic behavior of the system.
+7. Structure diagrams emphasize the things that must be present in the system being modeled.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Since structure diagrams represent the structure they are used extensively in documenting the architecture of software systems
+8. Which of the following diagram is time oriented?
+a) Collaboration
+b) Sequence
+c) Activity
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A sequence diagrams timeline along which tasks are completed.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Unified Modelling Language”.
+
+1. Object oriented analysis and design can be handled by the one who knows UML.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The Unified Modeling Language includes a set of graphic notation techniques to create visual models of object-oriented software-intensive systems.
+2. At Conceptual level Class diagrams should include
+a) operations only
+b) attributes only
+c) both operations and attributes
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: In software engineering, a class diagram in the Unified Modeling Language (UML) is a type of static structure diagram that describes the structure of a system by showing the system’s classes, their attributes, operations, and the relationships among objects.
+3. Select the statement true for activity diagrams.
+a) They can be used to discover parallel activities
+b) They are used to depict workflow for a particular business activity
+c) Activity diagram do not tell who does what and are difficult to trace back to object models
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Activity diagrams are graphical representations of workflows of step wise activities and actions with support for choice, iteration and concurrency.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Constraints can be represented in UML by
+a) {text}
+b) [text].
+c) Constraint
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Constraints are represented by {text string}.
+5. What is an object?
+a) An object is an instance of a class
+b) An object includes encapsulation of data
+c) An object is not an instance of a class
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: An object is an instance of a class.
+Take Software Engineering Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. What is an abstract class?
+a) A class that has direct instances, but whose descendants may have direct instances
+b) A class that has direct instances, but whose descendants may not have direct instances
+c) A class that has no direct instances, but whose descendants may have direct instances
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: An abstract type is a type in a nominative type system which cannot be instantiated directly.
+7. Which of the following are the valid relationships in Use Case Diagrams
+a) Generalization
+b) Include
+c) Extend
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Generalization, include, extend all of these are valid relationships in use case diagrams.
+8. Which of the following statement(s) is true about interaction diagrams?
+a) Interaction diagrams are at their best when they deal with one main design flow and not multiple variants that can happen
+b) Interaction diagrams are good at designing part or all of one use case’s functionality across multiple objects
+c) Interaction diagrams allow the analyst to show iteration and conditional execution for messaging between objects
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Interaction diagram is used to describe some type of interactions among the different elements in the model. So this interaction is a part of dynamic behaviour of the system.
+9. UML interfaces are used to:
+a) specify required services for types of objects
+b) program in Java, but not in C++ or Smalltalk
+c) define executable logic to reuse across classes
+d) define an API for all classes
+View Answer
+
+Answer: a
+Explanation: An interface is like a template design for a class that contains no data or implementation; only definitions for methods, properties etc.
+10. Referring to the attached diagram, the arrow indicates:
+a) Navigability
+b) Dependency
+c) Association
+d) Refers to
+View Answer
+
+Answer: a
+Explanation: The arrows describe the ways you can navigate.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “User Interface Design”.
+
+1. Which of the following is golden rule for interface design?
+a) Place the user in control
+b) Reduce the user’s memory load
+c) Make the interface consistent
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: These golden rules actually form the basis for a set of user interface design principles that guide this important software design activity.
+2. Which of the following is not a design principle that allow the user to maintain control?
+a) Provide for flexible interaction
+b) Allow user interaction to be interrupt-able and undo-able
+c) Show technical internals from the casual user
+d) Design for direct interaction with objects that appear on the screen
+View Answer
+
+Answer: c
+Explanation: The user interface should move the user into the virtual world of the application.
+3. Which of the following is not a user interface design process?
+a) User, task, and environment analysis and modeling
+b) Interface design
+c) Knowledgeable, frequent users
+d) Interface validation
+View Answer
+
+Answer: c
+Explanation: These are the end user for whom the product is being built.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+4. When users are involved in complex tasks, the demand on __________ can be significant.
+a) short-term memory
+b) shortcuts
+c) objects that appear on the screen
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: The interface should be designed to reduce the requirement to remember past actions and results.
+5. Which of the following option is not considered by the Interface design?
+a) the design of interfaces between software components
+b) the design of interfaces between the software and human producers and consumers of information
+c) the design of the interface between two computers
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: None
+Participate in Software Engineering Certification Contest of the Month Now!
+6. A software might allow a user to interact via
+a) keyboard commands
+b) mouse movement
+c) voice recognition commands
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the mentioned input mediums are available today.
+7. A software engineer designs the user interface by applying an iterative process that draws on predefined design principles.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true.
+8. What incorporates data, architectural, interface, and procedural representations of the software?
+a) design model
+b) user’s model
+c) mental image
+d) system image
+View Answer
+
+Answer: a
+Explanation: The requirements specification may establish certain constraints that help to define the user of the system, but the interface design is often only incidental to the design model.
+9. What establishes the profile of end-users of the system?
+a) design model
+b) user’s model
+c) mental image
+d) system image
+View Answer
+
+Answer: b
+Explanation: To build an effective user interface, all design should begin with an understanding of the intended users, including their profiles of their age, physical abilities, education, etc.
+10. What combines the outward manifestation of the computer-based system , coupled with all supporting information that describe system syntax and semantics?
+a) mental image
+b) interface design
+c) system image
+d) interface validation
+View Answer
+
+Answer: c
+Explanation: When the system image and the system perception are coincident, users generally feel comfortable with the software and use it effectively

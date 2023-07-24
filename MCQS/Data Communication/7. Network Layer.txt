@@ -1,0 +1,454 @@
+1. Open Shortest Path First (OSPF) is also called as _____________
+a) Link state protocol
+b) Error-correction protocol
+c) Routing information protocol
+d) Border gateway protocol
+View Answer
+
+Answer: a
+Explanation: In OSPF, the link state of each path is checked, and then the shortest path is chosen among only the open state links. Each OSPF router monitors the cost of the link to each of its neighbors and then floods the link state information to other routers in the network.
+2. The computation of the shortest path in OSPF is usually done by ____________
+a) Bellman-ford algorithm
+b) Routing information protocol
+c) Dijkstra’s algorithm
+d) Distance vector routing
+View Answer
+
+Answer: c
+Explanation: Shortest path in OSPF is usually computed by Dijkstra’s algorithm. It was proposed by Edsger W. Dijkstra in the year 1956. It is a greedy method algorithm and hence may not guarantee the shortest path every time, but is really fast.
+3. Which of the following is false with respect to the features of OSPF?
+a) Support for fixed-length subnetting by including the subnet mask in the routing message
+b) More flexible link cost than can range from 1 to 65535
+c) Use of designated router
+d) Distribution of traffic over multiple paths that have equal cost to the destination
+View Answer
+
+Answer: a
+Explanation: OSPF provides support for variable-length sunbathing by including the subnet mask in the routing message. For fixed length subnets, there is no requirement for including the subnet mask in the routing message as there is just one subnet mask for all the subnets.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. In OSPF, which protocol is used to discover neighbour routers automatically?
+a) Link state protocol
+b) Error-correction protocol
+c) Routing information protocol
+d) Hello protocol
+View Answer
+
+Answer: d
+Explanation: Hello protocol is used to discover neighboring routers automatically. It makes sure that the communication between neighbors is bidirectional. It’s similar to the real world moral construct of saying “Hello” to initialize the communication.
+5. Which of the following is not a type of OSPF packet?
+a) Hello
+b) Link-state request
+c) Link-state response
+d) Link-state ACK
+View Answer
+
+Answer: c
+Explanation: The five types of OSPF packets are: Hello, Database description, Link-state request, Link-state update, and Link-state ACK. There is no Link-state response packet; the neighbor router sends a Link-state update packet as a response to the Link-state request packet if there is an update in the routing table.
+Take Computer Networks Tests Now!
+6. What is the correct order of the operations of OSPF?
+i – Hello packets
+ii – Propagation of link-state information and building of routing tables
+iii – Establishing adjacencies and synchronization of database
+a) i-ii-iii
+b) i-iii-ii
+c) iii-ii-i
+d) ii-i-iii
+View Answer
+
+Answer: b
+Explanation: OSPF first implements a hello protocol. Then it later on tries to establish synchronisation with database. Later on building of routing tables is done.
+7. In OSPF header, which field is used to detect errors in the packet?
+a) Type
+b) Area ID
+c) Authentication type
+d) Checksum
+View Answer
+
+Answer: d
+Explanation: Checksum field is used to detect errors. It makes sure that the data portions that are being sent are all in integrity. It can detect duplicated bits. Once an error is detected, the sender has to re-transmit the data as it won’t receive an acknowledgement.
+8. In OSPF database descriptor packet, if there are more database descriptor packets in the flow, ‘M’ field is set to ____________
+a) 1
+b) 0
+c) more
+d) -1
+View Answer
+
+Answer: a
+Explanation: The “M” bit is the more bit, which indicates that there are more packets to be received in the descriptor packet flow whenever it is set to 1. There is also an “I” bit which indicates if the packet is first in the flow.
+9. In OSPF database descriptor packet, which field is used to indicate that the router is master?
+a) M
+b) MS
+c) I
+d) Options
+View Answer
+
+Answer: b
+Explanation: The MS bit is used to indicate if the origin of the packet is a master or a slave. If it is set to 1, the source of the packet is a master, and if it is set to 0, the source of the packet is a slave.
+10. In OSPF database descriptor packet, which field is used to detect a missing packet?
+a) LSA header
+b) MS
+c) Database descriptor sequence number
+d) Options
+View Answer
+
+Answer: c
+Explanation: Sequence number field is used to detect a missing packet. The packets are to be received in order of the sequence number, so if the receiver detects that there is a sequence number skipped or missing in the order, it stops processing the further received packets and informs the sender to retransmit the packets in sequence
+1. Network layer firewall works as a __________
+a) Frame filter
+b) Packet filter
+c) Content filter
+d) Virus filter
+View Answer
+
+Answer: b
+Explanation: As you know, firewalls are available as hardware appliances, as software-only, or a combination of the two. In every case, the purpose of a firewall is to isolate your trusted internal network (or your personal PC) from the dangers of unknown resources on the Internet and other network connections that may be harmful. The firewall prevents unauthorized access to your internal, trusted network from outside threats.
+2. Network layer firewall has two sub-categories as _________
+a) State full firewall and stateless firewall
+b) Bit oriented firewall and byte oriented firewall
+c) Frame firewall and packet firewall
+d) Network layer firewall and session layer firewall
+View Answer
+
+Answer: a
+Explanation: Most network layer firewalls can operate as stateful or stateless firewalls, creating two subcategories of the standard network layer firewall. Stateful firewalls have the advantage of being able to track packets over a period of time for greater analysis and accuracy — but they require more memory and operate more slowly. Stateless firewalls do not analyze past traffic and can be useful for systems where speed is more important than security, or for systems that have very specific and limited needs. For example, a computer that only needs to connect to a particular backup server does not need the extra security of a stateful firewall.
+3. A firewall is installed at the point where the secure internal network and untrusted external network meet which is also known as __________
+a) Chock point
+b) Meeting point
+c) Firewall point
+d) Secure point
+View Answer
+
+Answer: a
+Explanation: A firewall can be a PC, a router, a midrange, a mainframe, a UNIX workstation, or a combination of these that determines which information or services can be accessed from the outside and who is permitted to use the information and services from outside. Generally, a firewall is installed at the point where the secure internal network and untrusted external network meet, which is also known as a chokepoint.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which of the following is / are the types of firewall?
+a) Packet Filtering Firewall
+b) Dual Homed Gateway Firewall
+c) Screen Host Firewall
+d) Dual Host Firewall
+View Answer
+
+Answer: a
+Explanation: A firewall can be a PC, a midrange, a mainframe, a UNIX workstation, a router, or combination of these. Depending on the requirements, a firewall can consist of one or more of the following functional components: Packet-filtering router
+5. A proxy firewall filters at _________
+a) Physical layer
+b) Data link layer
+c) Network layer
+d) Application layer
+View Answer
+
+Answer: d
+Explanation: The application firewall is typically built to control all network traffic on any layer up to the application layer. It is able to control applications or services specifically, unlike a stateful network firewall, which is – without additional software – unable to control network traffic regarding a specific application. There are two primary categories of application firewalls, network-based application firewalls and host-based application firewalls.
+Check this: Computer Network Books | Computer Science Books
+6. A packet filter firewall filters at __________
+a) Physical layer
+b) Data link layer
+c) Network layer or Transport layer
+d) Application layer
+View Answer
+
+Answer: c
+Explanation: In computing, a firewall is a network security system that monitors and controls the incoming and outgoing network traffic based on predetermined security rules.[1] A firewall typically establishes a barrier between a trusted, secure internal network and another outside network, such as the Internet, that is assumed not to be secure or trusted.[2] Firewalls are often categorized as either network firewalls or host-based firewalls.
+7. What is one advantage of setting up a DMZ with two firewalls?
+a) You can control where traffic goes in three networks
+b) You can do stateful packet filtering
+c) You can do load balancing
+d) Improved network performance
+View Answer
+
+Answer: c
+Explanation: DMZ stands for De-Militarized Zone. In a topology with a single firewall serving both internal and external users (LAN and WAN), it acts as a shared resource for these two zones. So load balancing can be done by adding another firewall.
+8. What tells a firewall how to reassemble a data stream that has been divided into packets?
+a) The source routing feature
+b) The number in the header’s identification field
+c) The destination IP address
+d) The header checksum field in the packet header
+View Answer
+
+Answer: a
+Explanation: The source routing feature provides a path address for the packet to help the firewall to reassemble the data stream that was divided into packets. After reassembling, the firewall can then filter the stream.
+9. A stateful firewall maintains a ___________ which is a list of active connections.
+a) Routing table
+b) Bridging table
+c) State table
+d) Connection table
+View Answer
+
+Answer: a
+Explanation: The routing table basically gives the state of each connection i.e. whether the connection is active or not. A routing table ensures the best performance for the stateful firewall.
+10. A firewall needs to be __________ so that it can grow proportionally with the network that it protects.
+a) Robust
+b) Expansive
+c) Fast
+d) Scalable
+View Answer
+
+Answer: b
+Explanation: The firewall has to be expansive because a network is expected to grow with time and if the firewall is unable to grow with it, the firewall won’t be able to handle the growing network traffic flow and will hence fail.
+1. Complex networks today are made up of hundreds and sometimes thousands of _________
+a) Documents
+b) Components
+c) Servers
+d) Entities
+View Answer
+
+Answer: b
+Explanation: Complex networks today are made up of hundreds and sometimes thousands of components. For effective functioning of these thousands of components, good network management is essential.
+2. Performance management is closely related to _________
+a) Proactive Fault Management
+b) Fault management
+c) Reactive Fault Management
+d) Preventive Fault Management
+View Answer
+
+Answer: b
+Explanation: Fault management is really closely related to performance management. It is important to ensure that the network handles faults as effectively as it handles it’s normal functioning to achieve better performance management.
+3. Configuration management can be divided into two subsystems: reconfiguration and __________
+a) Documentation
+b) Information
+c) Servers
+d) Entity
+View Answer
+
+Answer: a
+Explanation: The documentation subsystem of configuration management handles the log making and reporting functions of the configuration management. It also reports the errors in the network caused by the configuration’s failure.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. In Network Management System, the term that is responsible for controlling access to network based on predefined policy is called ___________
+a) Fault Management
+b) Secured Management
+c) Active Management
+d) Security Management
+View Answer
+
+Answer: d
+Explanation: In Network Management System, the term that is responsible for controlling access to the network based on predefined policy is called security management. The security management ensures authentication, confidentiality and integrity in the network.
+5. Control of users’ access to network resources through charges is the main responsibility of ______________
+a) Reactive Fault Management
+b) Reconfigured Fault Management
+c) Accounting Management
+d) Security Management
+View Answer
+
+Answer: c
+Explanation: Control of users’ access to network resources through charges is the main responsibility of accounting management. The accounting management creates a log of the users activity on the network too and goes hand-in-hand with the configurations management.
+Take Computer Networks Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. The physical connection between an end point and a switch or between two switches is __________
+a) Transmission path
+b) Virtual path
+c) Virtual circuit
+d) Transmission circuit
+View Answer
+
+Answer: a
+Explanation: The physical connection between an end point and a switch or between two switches is transmission path. The transmission path is the physical roadway that the packet needs to propagate in order to travel through the network.
+7. Which of the following networks supports pipelining effect?
+a) Circuit-switched networks
+b) Message-switched networks
+c) Packet-switched networks
+d) Stream-switched networks
+View Answer
+
+Answer: c
+Explanation: Packet switched network is most preferred for pipelining process. Pipelining exponentially reduces the time taken to transmit a large number of packets in the network.
+8. In Network Management System, maps track each piece of hardware and its connection to the _________
+a) IP Server
+b) Domain
+c) Network
+d) Data
+View Answer
+
+Answer: c
+Explanation: Network is the main entity connecting different components in a place. A network map is made to track each component and its connection to the network to ensure better network management.
+9. MIB is a collection of groups of objects that can be managed by __________
+a) SMTP
+b) UDP
+c) SNMP
+d) TCP/IP
+View Answer
+
+Answer: c
+Explanation: MIB stands for Management Information Base. Simple network management controls the group of objects in management information base. It is usually used with SNMP (Simple Network Management Protocol).
+10. A network management system can be divided into ___________
+a) three categories
+b) five broad categories
+c) seven broad categories
+d) ten broad categories
+View Answer
+
+Answer: b
+Explanation: The five broad categories of network management are
+• Fault Management
+• Configuration Management
+• Accounting (Administration)
+• Performance Management
+• Security Management.
+1. Ping can _________
+a) Measure round-trip time
+b) Report packet loss
+c) Report latency
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: PING (Packet Internet Groper) command is the best way to test connectivity between two nodes, whether it is Local Area Network (LAN) or Wide Area Network (WAN). Ping uses ICMP (Internet Control Message Protocol) to communicate to other devices.
+2. Ping sweep is a part of _________
+a) Traceroute
+b) Nmap
+c) Route
+d) Ipconfig
+View Answer
+
+Answer: b
+Explanation: A ping sweep is a method that can establish a range of IP addresses which map to live hosts and are mostly used by network scanning tools like nmap. A ping sweep is basically a collective ping command execution on a range of IP addresses.
+3. ICMP is used in _________
+a) Ping
+b) Traceroute
+c) Ifconfig
+d) Both Ping & Traceroute
+View Answer
+
+Answer: d
+Explanation: ICMP stands for Internet Control Message Protocol. ICMP operates over the IP packet to provide error reporting functionality, so in case the node is not active or there is no route, ICMP will be used to report the specific errors for Ping and Traceroute.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. __________ command is used to manipulate TCP/IP routing table.
+a) route
+b) Ipconfig
+c) Ifconfig
+d) Traceroute
+View Answer
+
+Answer: a
+Explanation: The route command is used to view and manipulate the TCP/IP routing table in Windows OS. The manipulations done in the routing table with the help of this command will count as static routes.
+5. If you want to find the number of routers between a source and destination, the utility to be used is ___________
+a) route
+b) Ipconfig
+c) Ifconfig
+d) Traceroute
+View Answer
+
+Answer: d
+Explanation: Traceroute command is available on Linux OS to find the path i.e. the number of the routers that the packet has to go through to reach the destination. In Windows, Tracert command is used to perform the function.
+Check this: Computer Network Books | Computer Science MCQs
+6. Which of the following is not related to ipconfig in Microsoft Windows?
+a) Display all current TCP/IP network configuration values
+b) Modify DHCP settings
+c) Modify DNS settings
+d) Trace the routers in the path to destination
+View Answer
+
+Answer: d
+Explanation: The Tracert command is available on Microsoft Windows to find the path i.e. the number of the routers that the packet has to go through to reach its destination.
+7. __________ allows checking if a domain is available for registration.
+a) Domain Check
+b) Domain Dossier
+c) Domain Lookup
+d) Domain registers
+View Answer
+
+Answer: a
+Explanation: There are billions of domains available for registration on the World Wide Web, and many of them are already registered. So when one wants to register a domain, they need to check whether the domain is available through a domain check.
+8. Choose the wrong statement from the following.
+a) Nslookup is used to query a DNS server for DNS data
+b) Ping is used to check connectivity
+c) Pathping combines the functionality of ping with that of route
+d) Ifconfig can configure TCP/IP network interface parameters
+View Answer
+
+Answer: c
+Explanation: Pathping combines the functionality of ping with that of traceroute (tracert). The Ping command is used to test connectivity between two nodes and the Tracert/Traceroute command is used to find the path i.e. the number of the routers that the packet has to go through to reach its destination.
+1. Ethernet frame consists of ____________
+a) MAC address
+b) IP address
+c) Default mask
+d) Network address
+View Answer
+
+Answer: a
+Explanation: The Ethernet frame has a header that contains the source and destination MAC address. Each MAC address is of 48 bits.
+2. What is start frame delimeter (SFD) in ethernet frame?
+a) 10101010
+b) 10101011
+c) 00000000
+d) 11111111
+View Answer
+
+Answer: b
+Explanation: The start frame delimiter is a 1 byte field in the Ethernet frame that indicates that the preceding bits are the start of the frame. It is always set to 10101011.
+3. MAC address is of ___________
+a) 24 bits
+b) 36 bits
+c) 42 bits
+d) 48 bits
+View Answer
+
+Answer: d
+Explanation: MAC address is like a local address for the NIC that is used to make a local Ethernet (or wifi) network function. It is of 48 bits.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. What is autonegotiation?
+a) a procedure by which two connected devices choose common transmission parameters
+b) a security algorithm
+c) a routing algorithm
+d) encryption algorithm
+View Answer
+
+Answer: a
+Explanation: autonegotiation is a procedure by which two connected devices choose common transmission parameters. It is a signaling mechanism used in Ethernet over Twisted pair cables.
+5. Ethernet in metropolitan area network (MAN) can be used as ___________
+a) pure ethernet
+b) ethernet over SDH
+c) ethernet over MPLS
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A metropolitan area network (MAN) that is based on Ethernet standards is called an Ethernet MAN. It is commonly used to connect nodes to the Internet. Businesses also use Ethernet MANs to connect their own offices to each other.
+Take Computer Networks Tests Now!
+6. A point-to-point protocol over ethernet is a network protocol for __________
+a) encapsulating PPP frames inside ethernet frames
+b) encapsulating ehternet framse inside PPP frames
+c) for security of ethernet frames
+d) for security of PPP frames
+View Answer
+
+Answer: a
+Explanation: PPoE or Point-to-Point protocol over Ethernet was first introduced in 1999. It is popularly used by modern day Internet Service Providers for Dial-up connectivity.
+7. High speed ethernet works on _________
+a) coaxial cable
+b) twisted pair cable
+c) optical fiber
+d) unshielded twisted pair cable
+View Answer
+
+Answer: c
+Explanation: Fast Ethernet is mostly used in networks along with Category 5 (Cat-5) copper twisted-pair cable, but it also works with fiber-optic cable. Based on the cable being used, There can be three types of Fast Ethernet.
+8. The maximum size of payload field in ethernet frame is __________
+a) 1000 bytes
+b) 1200 bytes
+c) 1300 bytes
+d) 1500 bytes
+View Answer
+
+Answer: d
+Explanation: The minimum size of the payload field is 40 bytes and the maximum size is 1500 bytes. If the payload size exceeds 1500 bytes, the frame is called a jumbo frame.
+9. What is interframe gap?
+a) idle time between frames
+b) idle time between frame bits
+c) idle time between packets
+d) idle time between networks
+View Answer
+
+10. An ethernet frame that is less than the IEEE 802.3 minimum length of 64 octets is called _______
+a) short frame
+b) runt frame
+c) mini frame
+d) man frame
+View Answer
+
+Answer: b
+Explanation: An ethernet frame that is less than the IEEE 802.3 minimum length of 64 octets is called a runt frame. Such frames are a result of collisions or software malfunctions.

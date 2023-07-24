@@ -1,0 +1,380 @@
+1. Application frameworks provide a means for creating ________ hosted applications using IDE.
+a) PaaS
+b) SaaS
+c) CaaS
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: PaaS IDEs run the gamut from a tool that requires a dedicated programming staff to create and run to point-and-click graphical interfaces.
+2. Point out the correct statement.
+a) Drupal is used in major Web sites and organizes vast amounts of information
+b) Fourspace is often associated with blogging tools
+c) FourSquare works with photos, imports information from other social tools, and allows very attractive Web sites to be created by average users
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Drupal is extensively used and has broad industry impact, and it is a full-strength developer tool.
+3. Which of the following is based on the notion of information management and organization?
+a) CMS
+b) DMS
+c) MIS
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Notion of a Web site as a CMS adds a number of special features to the concept that includes rich user interaction, multiple data sources and extensive customization.
+4. Which of the following environment best describes WorkXpress?
+a) 3GL
+b) 4GL
+c) 5GL
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: 5GL environments have no programming requirement and you can host your application anywhere.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+5. Point out the wrong statement related to the common characteristics of SOA.
+a) They separate data-handling from presentation (user interface)
+b) They support the incorporation of business rules, logic, and actions
+c) They support packaging and deployment of applications
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: These services differ in which language they use, support for different rendering technologies, and in other features.
+6. Which of the following module feature is provided by Drupal CMS?
+a) Traffic management
+b) OpenID authentication
+c) User interface creation tools
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The Drupal core by itself contains a number of modules.
+Participate in Cloud Computing Certification Contest of the Month Now!
+7. Which of the following programming language solves problems by acting on constraints and inputs?
+a) 3GL
+b) 4GL
+c) 5GL
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Force.com uses a 4GL programming language environment.
+8. ___________ PaaS application delivery platform creates SOA applications that work on several different IaaS vendors.
+a) AppOne
+b) Eccentex AppBase
+c) Ez Publish
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Eccentex is a Culver City, California, company founded in 2005 that has a PaaS development platform for Web applications.
+9. Which of the following AppBase tool allows you to assign access rights to different objects in the system?
+a) Security Roles Management
+b) Dashboard Designer
+c) Report Builder
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Security roles can be assigned in groups without users, and users can be added later as the application is deployed.
+10. Which of the following should be replaced with question mark in the figure?
+SaaS diagram
+a) CaaS
+b) SaaS
+c) IaaS
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A good PaaS system has certain desirable characteristics that are important in developing robust, scalable, and hopefully portable applications.
+1. Which of the following layer of Wolf platform architecture is depicted in the following figure?
+Find the layer of Wolf platform from the given diagram
+a) upper
+b) middle
+c) lower
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: In Wolf, the data and transaction management conforms to the business rules you create.
+2. Point out the correct statement.
+a) SquareSpace is used in major Websites and organizes vast amounts of information
+b) LongJump creates browser-based Web applications that are database-enabled
+c) LongJump extends Python and uses a Model-View-Controller architecture (MVC) for its framework
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: LongJump comes with an Object Model Viewer.
+3. Which of the following instrumentation tool displays the real-time parameters of your application in a visual form in AppBase?
+a) Security Roles Management
+b) Dashboard Designer
+c) Report Builder
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Applications that you create are deployed with the AppBase Application Revision Management console.
+4. Which of the following lets you sort, aggregate, display, and format report information based on the data in your application?
+a) Presentation Builder
+b) Dashboard Designer
+c) Report Builder
+d) Business Objects Build
+View Answer
+
+Answer: c
+Explanation: The applications you create in AppBase may be integrated with Amazon S3 Web Services (storage).
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+5. Point out the wrong statement.
+a) LongJump comes with a security policy engine that has user and group privileges
+b) Squarespace lets you create beautiful hosted Websites with a variety of capabilities with visual tools alone
+c) LongJump is WYSIWYG editor
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The applications are built using visual tools and deployed on the hosted infrastructure.
+6. Which of the following object database has the ability to create rich data objects and create relationships between them?
+a) Presentation Builder
+b) Business Objects Build
+c) Business Process Designer
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Presentation builder allows you to drag and drop visual controls for creating Web forms and data entry screens and to include the logic necessary to automate what the user sees.
+Participate in Cloud Computing Certification Contest of the Month Now!
+7. Which of the following technologies are used in LongJump’s PaaS?
+a) REST
+b) SOAP
+c) Java
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Its development environment is based on Java and uses REST/SOAP APIs.
+8. Which of the following is a WYSIWYG web builder?
+a) WaveMaker
+b) Eccentex AppBase
+c) Ez Publish
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: WaveMaker is a visual rapid application development environment for creating Java-based Web and cloud Ajax applications.
+9. ___________ tool is used to create business logic for your application.
+a) Presentation Builder
+b) Business Objects Build
+c) Business Process Designer
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: With it, you can manage workflow, integrate modules, create rules, and validate data.
+10. Which of the following architecture is shown in the following figure?
+Find the AppBase from the given diagram
+a) AppOne
+b) AppBase
+c) AppSquare
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: AppBase includes a set of different tools for building applications.
+1. Which of the following algorithm is used by Google to determine the importance of a particular page?
+a) SVD
+b) PageRank
+c) FastMap
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Content on pages is scanned up to a certain number of words and placed into an index.
+2. Point out the correct statement.
+a) With PaaS, the goal is to create hosted scalable applications that are used in a Software as a Service model
+b) Applications built using PaaS tools need to be standards-based
+c) In Wolf, the data and transaction management conforms to the business rules you create
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Wolf lets you work with Adobe Flash or Flex or with Microsoft Silverlight.
+3. Which of the following figure correctly describe major features provided by Google App Engine?
+a) Find the google app engine from the given diagram
+b) Find the range of applications from the given diagram
+c) Find the portability from the given diagram
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: For an application to run on GAE, it must comply with Google’s platform standards, which narrows the range of applications that can be run and severely limits those applications’ portability.
+4. Based on PageRank algorithm, Google returns __________ for a query that is parsed for its keywords.
+a) SEP
+b) SAP
+c) SERP
+d) Business Objects Build
+View Answer
+
+Answer: c
+Explanation: SERP stands for Search Engine Results Page.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+5. Point out the wrong statement.
+a) Wolf Frameworks uses a C# engine and supports both Microsoft SQL Server and MySQL database
+b) Applications built in Wolf are 50-percent browser-based and support mashable and multisource overlaid content
+c) Google applications are cloud-based applications
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Wolf has architected its platform so applications can be built without the need to write technical code.
+6. Which of the following protocol lets a Web site list in an XML file information?
+a) Sitemaps
+b) Mashups
+c) Hashups
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Sitemaps can be useful in allowing content that isn’t browsable to be crawled.
+Check this: Computer Science Books | Information Science MCQs
+7. Which of the following is not provided by “Deep Web”?
+a) Database generated Web pages
+b) Private or limited access Web pages
+c) Pages without links
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Online content that isn’t indexed by search engines belongs to what has come to be called the “Deep Web”.
+8. Dynamic content presented in Google _______ crawling isn’t normally indexed.
+a) AJAX
+b) Java
+c) Javascript
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Google now has a procedure that helps the Google engine crawl this information.
+9. Which of the following google product sends you periodic email alerts based on your search term?
+a) Alerts
+b) Blogger
+c) Calendar
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: By creating a Google Alert, you can get email notifications any time Google finds new results on a topic that interests you.
+10. Which of the following is a payment processing system by Google?
+a) Paytm
+b) Checkout
+c) Code
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Google Checkout was an online payment processing service provided by Google aimed at simplifying the process of paying for online purchases.
+1. Which of the following creates a custom search utility for a particular Web site?
+a) Desktop
+b) Directory
+c) Custom Search
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Custom Search lets you programmatically build and manage custom search engines for your site.
+2. Point out the correct statement.
+a) Yahoo search is the most popular search engine on the Web
+b) Google Ad Planner is a free media planning tool that can help you identify websites your audience is likely to visit so you can make better-informed advertising decisions
+c) Google AdSense is a free media planning tool that can help you identify websites your audience is likely to visit so you can make better-informed advertising decisions
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Google search is the most popular search engine on the Web.
+3. Which of the following product searches Web by topics?
+a) Desktop
+b) Directory
+c) Custom Search
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The Google Web Directory integrates Google’s search technology with OpenDirectoryProject pages to create a tool for finding information on the web.
+4. Which of the following is an online atlas and mapping service with mashups?
+a) iGoogle
+b) Earth
+c) GOOG-411
+d) Knol
+View Answer
+
+Answer: b
+Explanation: Google Earth lets you fly anywhere on Earth to view satellite imagery, maps, terrain, 3D buildings, from galaxies in outer space to the canyons of the ocean.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+5. Point out the wrong statement.
+a) Google Alerts are email updates of the latest relevant Google results (web, news, etc.) based on your choice of query or topic
+b) Google Analytics makes it easy to improve your results online
+c) Google Base is Google search technology focused on blogs
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Blog Search is Google search technology focused on blogs.
+6. Which of the following indexes content on your local drive for fast searches?
+a) Desktop
+b) Code
+c) Hash
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Google Desktop is a computer program with desktop search capabilities, created by Google for Linux, Apple Mac OS X, and Microsoft Windows systems.
+Take Cloud Computing Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+7. Google _______ is a collection of applications and utilities under development and testing.
+a) Code
+b) Labs
+c) Hash
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Google Labs was a page created by Google to demonstrate and test new projects.
+8. Which of the following is photo-editing and management software?
+a) iGoogle
+b) Earth
+c) GOOG-411
+d) Picasa
+View Answer
+
+Answer: d
+Explanation: Organize and edit your photos using Picasa.
+9. Which of the following product allows users to create 3D models and share them with others?
+a) Toolbar
+b) Blogger
+c) SketchUp
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: SketchUp is a 3D modeling software that’s easy to learn and incredibly fun to use.
+10. Which of the following gives statistical information on different search terms?
+a) Trends
+b) Stats
+c) Tool
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Google Trends is a public web facility of Google Inc. based on Google Search.

@@ -1,0 +1,685 @@
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Chi-Squared Distribution”.
+
+1. A dice is tossed 120 times with the following results
+
+No. turned up	1	2	3	4	5	6
+Frequency	30	25	18	10	22	15
+Test the hypothesis that the dice is unbiased (X2 = 11.7). Calculate the frequency observed for Chi Square distribution.
+a) Dice is unbiased, 11.3
+b) Dice is biased, 12.9
+c) Dice is unbiased, 10.9
+d) Dice is biased, 12.3
+View Answer
+
+Answer: b
+Explanation: Step 1: Null Hypothesis: dice is unbiased.
+Step 2: Calculation of Expected frequency:
+Since the dice is unbiased P(r) = 1/6.
+r = 1, 2, 3, 4, 5, 6
+Expected frequency f(r) = N*r = 120* 1/6 = 20
+Step3: Calculation of X2
+X2 \(=∑\frac{[(fe-fo)]^2}{fe} \)
+Hence X2 = 12.90 > 11.90.
+Thus dice is biased.
+2. Consider a set of 18 samples from a standard normal distribution. We square each sample and sum all the squares. The number of degrees of freedom for a Chi Square distribution will be?
+a) 17
+b) 18
+c) 19
+d) 20
+View Answer
+
+Answer: b
+Explanation: In Chi Square Distribution the number of standard normal derivatives or samples equals the number of degrees of freedom.
+Here total number of standard normal derivatives = 18.
+Hence the number of degrees of freedom for a Chi Square distribution = 18.
+Subscribe Now: Probability and Statistics Newsletter | Important Subjects Newsletters
+advertisement
+3. What is the mean of a Chi Square distribution with 6 degrees of freedom?
+a) 4
+b) 12
+c) 6
+d) 8
+View Answer
+
+Answer: c
+Explanation: By the property of Chi Square distribution, the mean corresponds to the number of degrees of freedom.
+Degrees of freedom = 6.
+Hence mean = 6.
+4. Which Chi Square distribution looks the most like a normal distribution?
+a) A Chi Square distribution with 4 degrees of freedom
+b) A Chi Square distribution with 5 degrees of freedom
+c) A Chi Square distribution with 6 degrees of freedom
+d) A Chi Square distribution with 16 degrees of freedom
+View Answer
+
+Answer: d
+Explanation: When the number of degrees of freedom in Chi Square distribution increases it tends to correspond to normal distribution. The option with a maximum number of degrees of freedom is 16.
+Check this: Numerical Methods MCQ | Probability and Statistics Books
+5. A bag contains 80 chocolates. This bag has 4 different colors of chocolates in it. If all four colors of chocolates were equally likely to be put in the bag, what would be the expected number of chocolates of each color?
+a) 12
+b) 11
+c) 20
+d) 9
+View Answer
+
+Answer: c
+Explanation: If all four colors were equally likely to be put in the bag, then the expected frequency for a given color would be 1/4th of the chocolates.
+N = 80, r = 1/4
+So, the expected frequency = N*r = (1/4)*(80) = 20.
+6. Suppose a person has 8 red, 5 green, 12 orange, and 15 blue balls. Test the null hypothesis that the colors of the balls occur with equal frequency. What is the Chi Square value you get?
+a) 5.6
+b) 5.68
+c) 5.86
+d) 5.8
+View Answer
+
+Answer: d
+Explanation: By Chi Square Test we get,
+Observed frequency f0= (8+5+12+15)/4 = 10
+X2 =\(∑\frac{[(fe-fo)]^2}{fe} \)
+The sum of each (expected – observed)2/expected = (10-8)2/10 + (10-5)2/10 + (10-12)2/10 + (10-15)2/10 = 5.8.
+7. A faculty is interested in whether there is a relationship between gender and subject at his college. He tabulated some men and women on campus and asked them if their subject was Mathematics (M), Geography (G), and Science (S). What would be the expected frequency of women in Geography based on this table?
+
+M	G	S	Total
+Women	10	14	10	34
+Men	11	22	14	23
+Total	21	36	24	57
+a) 31.12
+b) 11.32
+c) 12.13
+d) 13.12
+View Answer
+
+Answer: d
+Explanation: The expected value of women in social sciences is the product of the total number of women and the total number of social science majors divided by the total number of participants. (22*34)/57 = 13.12.
+8. In a sample survey of public opinion answer to the question:
+1) Do you drink?
+2) Are you in favor of local option sale of Liquor
+
+Yes	No	Total
+Yes	56	31	87
+No	18	6	24
+Total	74	37	111
+Infer or not the local option on the sale of liquor is dependent on individual drinker? Find the value of X2 for degrees of freedom at level of significance 3.841.
+a) 0.957
+b) 0.975
+c) 0.759
+d) 0.795
+View Answer
+
+Answer: a
+Explanation: Step 1: Null hypothesis: The option on the sale of liquor is not dependent with the individual drinking.
+Step 2: Calculation of theoretical frequencies (Expected)
+Expected frequency of (1,1) cell
+fe11 = 87*74/111 = 58
+fe12 = 87*37/111 = 29
+fe21 = 24*74/111 = 16
+fe22 = 24*32/111 = 8
+Step 3: calculation of X2 distribution we know that
+X2 =\( ∑\frac{[(fe-fo)]^2}{fe} \)
+X2 = 0.957 < 3.841.
+Hence the null hypothesis is accepted
+Thus the sale of liquor does not depend on the individual drinker.
+
+9. The Variance of Chi Squared distribution is given as k.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The Mean of Chi Squared distribution is given as k. The Variance of Chi Squared distribution is given as 2k.
+10. Which of these distributions is used for a testing hypothesis?
+a) Normal Distribution
+b) Chi-Squared Distribution
+c) Gamma Distribution
+d) Poisson Distribution
+View Answer
+
+Answer: b
+Explanation: Chi-Squared Distribution is used for testing hypothesis. The value of X2 decides whether the hypothesis is accepted or not.
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “F-Distribution”.
+
+1. The mean of the f – distribution is equal to ___________
+a) v2 / (v2 – 2) for v2 > 2
+b) v2 / (v2 – 2)2 for v2 > 2
+c) v2 / (v2 – 2)3 for v2 > 2
+d) v2 / (v2 – 2)-1 for v2 > 2
+View Answer
+
+Answer: a
+Explanation: The mean of the distribution is equal to v2 / (v2 – 2) for v2 > 2. v2 denotes the degree of freedom of F-Distribution.
+2. Variance is equal to [(v1 + v2 – 2)] / [v1 * (v2 – 2)2 * (v2 – 4)] for v2 > 4 for a f-Distribution.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Variance is equal to [2 * \(v_2^2\) * (v1 + v2 – 2)] / [ v1 * (v2 – 2)2 * (v2 – 4)] for v2 > 4 for a f-Distribution where v1 and v2 denote the degrees of freedom of f-Distribution.
+3. Which of the following distributions is Continuous?
+a) Binomial Distribution
+b) Hyper-geometric Distribution
+c) F-Distribution
+d) Poisson Distribution
+View Answer
+
+Answer: c
+Explanation: Binomial, Poisson and Hyper geometric distributions are Discrete Distributions. Only F- Distribution is Continuous Distribution in the given Distributions.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the following distributions is used to compare two variances?
+a) T – Distribution
+b) F – Distribution
+c) Normal Distribution
+d) Poisson Distribution
+View Answer
+
+Answer: b
+Explanation: F – Distribution is used when we require for comparing two variances. It uses a f-Test to compare two values of variances.
+5. F-Distribution cannot take negative values.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The value of the F-distribution is always positive, or zero. The variances are the square of the deviations and hence cannot assume negative values. Its value lies between 0 and ∞.
+Check this: Engineering Mathematics MCQ | Numerical Methods MCQ
+6. Find Variance for an F-Distribution with v1=5 and v2=9.
+a) 1.587
+b) 1.378
+c) 1.578
+d) 1.498
+View Answer
+
+Answer: a
+Explanation: For a f – Distribution:
+Var(X) = [2 * \(v_2^2\) * (v1 + v2 – 2)] / [v1 * (v2 – 2)2 * (v2 – 4)] for v2 > 4 where v1 and v2 denote the degrees of freedom of f-Distribution.
+Hence Var(X) = [2 * 92 * (14 – 2)] / [5 * (9 – 2)2 * (9- 4)] = 1.587.
+7. The table shows the standard Deviation and Sample Standard Deviation for both men and women. Find the f statistic considering the Men population in numerator.
+
+Population	Population Standard Deviation	Sample Standard Deviation
+Men	30	35
+Women	50	45
+a) 2.68
+b) 1.34
+c) 1.68
+d) 1.34
+View Answer
+
+Answer: c
+Explanation: The f -statistic is calculated using the following equation:
+f = [s12/σ12]/[s22/σ22].
+where σ1 is the standard deviation of population 1
+s1 is the standard deviation of the sample drawn from population 1
+σ2 is the standard deviation of population 2
+s1 is the standard deviation of the sample drawn from population 2.
+f = (352/302)/(452/502)
+f = (1225/900)/(2025/2500)
+f = 1.361/0.81 = 1.68.
+8. Calculate the value of f-statistic having a cumulative probability of 0.95.
+a) 0.55
+b) 0.5
+c) 0.05
+d) 0.05
+View Answer
+
+Answer: d
+Explanation: The relation between f – statistic and cumulative probability is given as
+If f – statistic = f α then, cumulative probability = (1 – α)
+Hence, for cumulative probability 0.95
+f – statistic = (1 – 0.95) = 0.05.
+9. There is only 1 parameter in F-Distribution.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: There are 2 parameters in F-Distribution v1 and v2. They are called degrees of freedom of F-Distribution.
+10. Find the Expectation for a F- Distribution variable with v1 = 7 and v2 = 8.
+a) 4/7
+b) 4/6
+c) 4/3
+d) 4/5
+View Answer
+
+Answer: c
+Explanation: The Expectation for F-Distribution is given as
+E(X) = v2 / (v2 – 2) for v2 > 2
+Hence, E(X) = 8 / (8-2)
+E(X) = 4/3.
+
+This set of Probability and Statistics Questions and Answers for Entrance exams focuses on “Sampling Distribution of Means”.
+
+1. If the mean of population is 29 then the mean of sampling distribution is __________
+a) 29
+b) 30
+c) 21
+d) 31
+View Answer
+
+Answer: a
+Explanation: In a sampling distribution the mean of the population is equal to the mean of the sampling distribution. Hence mean of population=29. Hence mean of sampling distribution=29.
+2. In systematic sampling, population is 240 and selected sample size is 60 then sampling interval is ________
+a) 240
+b) 60
+c) 4
+d) 0.25
+View Answer
+
+Answer: c
+Explanation: Sampling interval is defined as the interval in which the population is divided. The sampling interval is given as the population/sample size = 240/60 = 4.
+3. The method of selecting a desirable portion from a population which describes the characteristics of whole population is called as ________
+a) sampling
+b) segregating
+c) dividing
+d) implanting
+View Answer
+
+Answer: a
+Explanation: The method of selecting a desirable portion from a population which describes the characteristics of whole population is called as Sampling. It is useful in combining the related samples and hence making the distribution easy to manipulate.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. If the standard deviation of a population is 50 and the sample size is 16 then the standard deviation of the sampling distribution is ________
+a) 11.25
+b) 12.25
+c) 13.25
+d) 14.25
+View Answer
+
+Answer: b
+Explanation: The standard deviation of a population ϕ is given as σ/(n)1/2 where n is the sample size and σ is the standard deviation of population.
+Substituting the values of n=16 and σ=50.
+σ/(n)1/2
+50/(16)1/2
+we get ϕ=12.25.
+5. In sampling distribution what does the parameter k represents ________
+a) Sub stage interval
+b) Secondary interval
+c) Multi stage interval
+d) Sampling interval
+View Answer
+
+Answer: d
+Explanation: In sampling distribution the parameter k represents Sampling interval. It represents the distance between which data is taken.
+Check this: Probability and Statistics Books | Engineering Mathematics MCQ
+6. If the distribution of sample and population changes then the mean of Sampling distribution must be equal to ________
+a) standard deviation of population
+b) variance of population
+c) sample of population
+d) mean of population
+View Answer
+
+Answer: d
+Explanation: In a sampling distribution irrespective of the variation in sample and population the mean of the population is equal to the mean of the sampling distribution. If repeated random samples of a given size n are taken from a population of values for a quantitative variable, where the population mean is μ and the population standard deviation is σ (sigma) then the mean of all sample means (x-bars) is population mean μ.
+7. The cluster sampling, stratified sampling or systematic samplings are types of ________
+a) direct sampling
+b) indirect sampling
+c) random sampling
+d) non random sampling
+View Answer
+
+Answer: c
+Explanation: The cluster sampling, stratified sampling or systematic samplings are types of random sampling. The advantage of probability sampling methods is that they ensure that the sample chosen is representative of the population.
+8. Which of the following is classified as unknown or exact value that represents the whole population?
+a) predictor
+b) guider
+c) parameter
+d) estimator
+View Answer
+
+Answer: c
+Explanation: The unknown or exact value that represents the whole population is called as parameter. Generally parameters are defined by small Roman symbols.
+9. A sample size is considered large in which of the following cases?
+a) n > or = 30
+b) n > or = 50
+c) n < or = 30
+d) n < or = 50
+View Answer
+
+Answer: a
+Explanation: Generally a sample having 30 or more sample values is called a large sample. By the Central Limit Theorem such a sample follows a Normal Distribution.
+10. The selected clusters in a clustering sampling are known as ________
+a) elementary units
+b) primary units
+c) secondary units
+d) proportional units
+View Answer
+
+Answer: a
+Explanation: In Cluster the population is divided into various groups called as clusters. The selected clusters in a sample are called as elementary units.
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Testing of Hypothesis”.
+
+1. A statement made about a population for testing purpose is called?
+a) Statistic
+b) Hypothesis
+c) Level of Significance
+d) Test-Statistic
+View Answer
+
+Answer: b
+Explanation: Hypothesis is a statement made about a population in general. It is then tested and correspondingly accepted if True and rejected if False.
+2. If the assumed hypothesis is tested for rejection considering it to be true is called?
+a) Null Hypothesis
+b) Statistical Hypothesis
+c) Simple Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: a
+Explanation: If the assumed hypothesis is tested for rejection considering it to be true is called Null Hypothesis. It gives the value of population parameter.
+3. A statement whose validity is tested on the basis of a sample is called?
+a) Null Hypothesis
+b) Statistical Hypothesis
+c) Simple Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: b
+Explanation: In testing of Hypothesis a statement whose validity is tested on the basis of a sample is called as Statistical Hypothesis. Its validity is tested with respect to a sample.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. A hypothesis which defines the population distribution is called?
+a) Null Hypothesis
+b) Statistical Hypothesis
+c) Simple Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: c
+Explanation: A hypothesis which defines the population distribution is called as Simple hypothesis. It specifies all parameter values.
+5. If the null hypothesis is false then which of the following is accepted?
+a) Null Hypothesis
+b) Positive Hypothesis
+c) Negative Hypothesis
+d) Alternative Hypothesis.
+View Answer
+
+Answer: d
+Explanation: If the null hypothesis is false then Alternative Hypothesis is accepted. It is also called as Research Hypothesis.
+Check this: Probability and Statistics Books | Engineering Mathematics MCQ
+6. The rejection probability of Null Hypothesis when it is true is called as?
+a) Level of Confidence
+b) Level of Significance
+c) Level of Margin
+d) Level of Rejection
+View Answer
+
+Answer: b
+Explanation: Level of Significance is defined as the probability of rejection of a True Null Hypothesis. Below this probability a Null Hypothesis is rejected.
+7. The point where the Null Hypothesis gets rejected is called as?
+a) Significant Value
+b) Rejection Value
+c) Acceptance Value
+d) Critical Value
+View Answer
+
+Answer: d
+Explanation: The point where the Null Hypothesis gets rejected is called as Critical Value. It is also called as dividing point for separation of the regions where hypothesis is accepted and rejected.
+8. If the Critical region is evenly distributed then the test is referred as?
+a) Two tailed
+b) One tailed
+c) Three tailed
+d) Zero tailed
+View Answer
+
+Answer: a
+Explanation: In two tailed test the Critical region is evenly distributed. One region contains the area where Null Hypothesis is accepted and another contains the area where it is rejected.
+9. The type of test is defined by which of the following?
+a) Null Hypothesis
+b) Simple Hypothesis
+c) Alternative Hypothesis
+d) Composite Hypothesis
+View Answer
+
+Answer: c
+Explanation: Alternative Hypothesis defines whether the test is one tailed or two tailed. It is also called as Research Hypothesis.
+10. Which of the following is defined as the rule or formula to test a Null Hypothesis?
+a) Test statistic
+b) Population statistic
+c) Variance statistic
+d) Null statistic
+View Answer
+
+Answer: a
+Explanation: Test statistic provides a basis for testing a Null Hypothesis. A test statistic is a random variable that is calculated from sample data and used in a hypothesis test.
+11. Consider a hypothesis H0 where ϕ0 = 5 against H1 where ϕ1 > 5. The test is?
+a) Right tailed
+b) Left tailed
+c) Center tailed
+d) Cross tailed
+View Answer
+
+Answer: a
+Explanation: In the given example since H1 lies to the right of the Ho that is the Null Hypothesis the test is referred as a Right tailed test.
+12. Consider a hypothesis where H0 where ϕ0 = 23 against H1 where ϕ1 < 23. The test is?
+a) Right tailed
+b) Left tailed
+c) Center tailed
+d) Cross tailed
+View Answer
+
+Answer: b
+Explanation: In the Normal Distribution curve of both the hypothesis the H1 hypothesis lies to the left of the Null hypothesis hence the test is a Left tailed.
+13. Type 1 error occurs when?
+a) We reject H0 if it is True
+b) We reject H0 if it is False
+c) We accept H0 if it is True
+d) We accept H0 if it is False
+View Answer
+
+Answer: a
+Explanation: In Testing of Hypothesis Type 1 error occurs when we reject H0 if it is True. On the contrary a Type 2 error occurs when we accept H0 if it is False.
+14. The probability of Type 1 error is referred as?
+a) 1-α
+b) β
+c) α
+d) 1-β
+View Answer
+
+Answer: c
+Explanation: In Testing of Hypothesis Type 1 error occurs when we reject H0 if it is True. The probability of H0 is α then the error probability will be 1- α.
+15. Alternative Hypothesis is also called as?
+a) Composite hypothesis
+b) Research Hypothesis
+c) Simple Hypothesis
+d) Null Hypothesis
+View Answer
+
+Answer: b
+Explanation: Alternative Hypothesis is also called as Research Hypothesis. If the Null Hypothesis is false then Alternative Hypothesis is accepted.
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Sampling Distribution – 1”.
+
+1. What does the central limit theorem state?
+a) if the sample size increases sampling distribution must approach normal distribution
+b) if the sample size decreases then the sample distribution must approach normal distribution
+c) if the sample size increases then the sampling distribution much approach an exponential distribution
+d) if the sample size decreases then the sampling distribution much approach an exponential distribution
+View Answer
+
+Answer: a
+Explanation: The central limit theorem states that if the sample size increases sampling distribution must approach normal distribution. Generally a sample size more than 30 us considered as large enough.
+2. Standard error is always non- negative.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: When we square the mean for standard deviations any negative value becomes positive. The addition of all the positive values results in a positive value. Then the square root of the positive value is also positive. Hence all standard deviations are non-negative.
+3. Sampling error increases as we increase the sampling size.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Sampling error is inversely proportional to the sampling size. As the sampling size increases the sampling error decreases.
+Subscribe Now: Probability and Statistics Newsletter | Important Subjects Newsletters
+advertisement
+4. The difference between the sample value expected and the estimates value of the parameter is called as?
+a) bias
+b) error
+c) contradiction
+d) difference
+View Answer
+
+Answer: a
+Explanation: The difference between the expected sample value and the estimated value of parameter is called as bias. A sample used to estimate a parameter is unbiased if the mean of its sampling distribution is exactly equal to the true value of the parameter being estimated.
+5. In which of the following types of sampling the information is carried out under the opinion of an expert?
+a) quota sampling
+b) convenience sampling
+c) purposive sampling
+d) judgement sampling
+View Answer
+
+Answer: d
+Explanation: In judgement sampling is carried under an opinion of an expert. The judgement sampling often results in a bias because of the variance in the expert opinion.
+Check this: Numerical Methods MCQ | Probability and Statistics Books
+6. Which of the following is a subset of population?
+a) distribution
+b) sample
+c) data
+d) set
+View Answer
+
+Answer: b
+Explanation: In sampling distribution we take a subset of population which is called as a sample. The main advantage of this sample is to reduce the variability present in the statistics.
+7. The sampling error is defined as?
+a) difference between population and parameter
+b) difference between sample and parameter
+c) difference between population and sample
+d) difference between parameter and sample
+View Answer
+
+Answer: c
+Explanation: In sampling distribution the sampling error is defined as the difference between population and the sample. Sampling error can be reduced by increasing the sample size.
+8. Any population which we want to study is referred as?
+a) standard population
+b) final population
+c) infinite population
+d) target population
+View Answer
+
+Answer: d
+Explanation: In sampling distribution we take a part of a population under study which is called as target population. Target population is also called as a sample.
+9. Suppose we want to make a voters list for the general elections 2019 then we require __________
+a) sampling error
+b) random error
+c) census
+d) simple error
+View Answer
+
+Answer: c
+Explanation: Study of population is called a Census. Hence for making a voter list for the general elections 2019 we require Census.
+10. Selection of a football team for FIFA World Cup is called as?
+a) random sampling
+b) systematic sampling
+c) purposive sampling
+d) cluster sampling
+View Answer
+
+Answer: c
+Explanation: A purposive sampling is defined as the sampling done on the basis of the characteristics of the population. Hence selecting a football team for the FIFA World cup is a purposive sampling.
+
+This set of Probability and Statistics Interview Questions and Answers focuses on “Sampling Distribution – 2”.
+
+1. A population has N items. Samples of size n are selected without replacement. Find the number of possible samples.
+a) NCn
+b) nCN
+c) 2n
+d) 2N
+View Answer
+
+Answer: a
+Explanation: The number of ways of selecting and samples of size n from a population containing N atoms is NCn. The probability of selecting of each sample is 1/NCn.
+2. Find the number of all possible samples from a population containing 8 items from which 2 items are selected at random without replacement.
+a) 56
+b) 28
+c) 66
+d) 38
+View Answer
+
+Answer: b
+Explanation: The number of ways of selecting n samples from a population containing n items is NCn. The population is N = 8 and sample size is n = 2. Therefore the number of possible samples are 8C2 = 28.
+3. A bag contains 6 balls of different colours. A student selects 2 balls at random without replacement. Find all possible combinations of the colours of the selected balls.
+a) 13
+b) 14
+c) 15
+d) 16
+View Answer
+
+Answer: c
+Explanation: Considering the experiment to be a sampling distribution where the population contains 6 balls and each sample contains 2 balls. The number of possible samples are NCn that is 6C2 = 15 samples.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Consider a population containing N items and n are selected as a sample with replacement. Find all the possible samples.
+a) N
+b) nN
+c) NCn
+d) Nn
+View Answer
+
+Answer: d
+Explanation: The number of samples containing n items selected from a population of N items is Nn. The probability of selection of each sample is 1/Nn.
+5. A bag contains 6 pairs of socks. If 2 pairs of socks are selected at random with replacement then the number of possible samples is?
+a) 6
+b) 12
+c) 36
+d) 216
+View Answer
+
+Answer: c
+Explanation: The number of samples formed with n items from a population containing N items is Nn.
+Here N = 6 and n = 2.
+Hence samples are Nn = 62 = 36.
+Check this: Probability and Statistics Books | Numerical Methods MCQ
+6. Find the sampling fraction where N is population size and n is the sample size?
+a) n/N
+b) NCn
+c) nN
+d) Nn
+View Answer
+
+Answer: a
+Explanation: In a sampling distribution if N is the population size, n is the sample size then number of sampling fractions is n/N.
+7. In random sampling the probability of selecting an item from a population is unknown.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: A random sample is defined as the sampling in which the probability off the selecting item from a population is known. Hence it is also called as Probability Sampling.
+8. In a sampling distribution the population correction factor is given by?
+a) (N-1/N-n)1/2
+b) (N-n/N-1)1/2
+c) (n-1/N-n)1/2
+d) (N-1/n-1)1/2
+View Answer
+
+Answer: b
+Explanation: The population correction factor is given by (N-n/N-1)1/2. When we sample the population for more than 5% without replacement we require the population correction factor.
+9. A population has 10 items and a sample has been selected from it containing 5 items. Find the finite population correction factor.
+a) (5/8)1/2
+b) (5/7)1/2
+c) (5/9)1/2
+d) (5/6)1/2
+View Answer
+
+Answer: c
+Explanation: The population correction factor is given by (N-n/N-1)1/2. Here N = 10 and n = 5
+(N-n/N-1)1/2
+(10-5/10-1)1/2
+(5/9)1/2
+which gives the value of correction factor as (5/9)1/2.
+10. Find the value of standard error Ẋ in a sampling distribution with replacement. Given that standard deviation of the population of 16 items is 8.
+a) 3
+b) 4
+c) 2
+d) 5
+View Answer
+
+Answer: c
+Explanation: Standard error in a sampling distribution with replacement is given by Ẋ = σ/(n)1/2. Hence n = 16 and σ = 8
+Ẋ = σ/(n)1/2
+Ẋ = 8/(16)1/2
+which gives the value of Ẋ = 2.

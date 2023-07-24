@@ -1,0 +1,511 @@
+1. Which type of Ethernet framing is used for TCP/IP and DEC net?
+a) Ethernet 802.3
+b) Ethernet 802.2
+c) Ethernet II
+d) Ethernet SNAP
+View Answer
+
+Answer: c
+Explanation: The Ethernet 802.3 framing is used for NetWare versions 2 to 3.11, and the Ethernet 802.2 framing is used for NetWare versions 3.12 and later plus OSI routing, Ethernet II is used with TCP/IP and DEC net, and Ethernet SNAP is used with TCP/IP and AppleTalk. The type field in Ethernet 802.2 frame is replaced by a length field in Ethernet 802.3.
+2. Consider a situation in which you are a system administrator on a NetWare network, you are running NetWare 4.11 and you cannot communicate with your router. What is the likely problem?
+a) NetWare 4.11 defaults to 802.2 encapsulation
+b) NetWare 4.11 defaults to 802.3 encapsulation
+c) Cisco routers only work with NetWare 3.11
+d) NetWare 3.11 defaults to 802.2 encapsulation
+View Answer
+
+Answer: a
+Explanation: The default encapsulation on Cisco routers is Novell Ethernet_802.3 and NetWare 3.12and later defaults to 802.2 encapsulation, 3.11 and earlier defaults to 802.3.
+3. NetWare IPX addressing uses a network number and a node number. Which statement is not true?
+a) The network address is administratively assigned and can be up to 16 hexadecimal digits long
+b) The node address is always administratively assigned
+c) The node address is usually the MAC address
+d) If the MAC address is used as the node address, then IPX eliminates the use of ARP
+View Answer
+
+Answer: b
+Explanation: The network address can be up to 16 hexadecimal digits in length. The node number is 12 hexadecimal digits. The node address is usually the MAC address. An example IPX address is 4a1d.0000.0c56.de33. The network part is 4a1d. The node part is 0000.0c56.de33. The network number is assigned by the system administrator of the Novell network and the MAC address/node address is not assigned by the administrator.
+4. Which NetWare protocol works on layer 3–network layer—of the OSI model?
+a) IPX
+b) NCP
+c) SPX
+d) NetBIOS
+View Answer
+
+Answer: a
+Explanation: IPX (Internetwork Packet Exchange) is the NetWare network layer 3 protocol used for transferring information on LANs that use Novell’s NetWare.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+5. Which NetWare protocol provides link-state routing?
+a) NLSP
+b) RIP
+c) SAP
+d) NCP
+View Answer
+
+Answer: a
+Explanation: NetWare Link Services Protocol (NLSP) provides link-state routing. SAP (Service Advertisement Protocol) advertises network services. NCP (NetWare Core Protocol) provides client-to-server connections and applications. RIP is a distance vector routing protocol. NLSP was developed by Novell to replace RIP routing protocols.
+Check this: MCA MCQs | Computer Network Books
+6. As a system administrator, you want to debug IGRP but are worried that the “debug IP IGRP transaction” command will flood the console. What is the command that you should use?
+a) Debug IP IGRP event
+b) Debug IP IGRP-events
+c) Debug IP IGRP summary
+d) Debug IP IGRP events
+View Answer
+
+Answer: d
+Explanation: The “debug IP IGRP events” is used to display a short summary of IGRP routing information. You can append an IP address onto either console’s command-line to see only the IGRP updates from a neighbor. The command will only give a short summary and hence won’t flood the command line.
+7. What does the following series of commands “Router IGRP 71 network” accomplish?
+10.0.0.0 router IGRP 109 network 172.68.7.0
+a) It isolates networks 10.0.0.0 and 172.68.7.0
+b) It loads IGRP for networks 109 and 71
+c) It disables RIP
+d) It disables all routing protocols
+View Answer
+
+Answer: a
+Explanation: It isolates network 10.0.0.0 and 172.68.7.0 and associates autonomous systems 109 and71 with IGRP. IGRP does not disable RIP, both can be used at the same time.
+8. The “IPX delay number” command will allow an administrator to change the default settings. What are the default settings?
+a) For LAN interfaces, one tick; for WAN interfaces, six ticks
+b) For LAN interfaces, six ticks; for WAN interfaces, one tick
+c) For LAN interfaces, zero ticks; for WAN interfaces, five ticks
+d) For LAN interfaces, five ticks; for WAN interfaces, zero Ticks
+View Answer
+
+Answer: a
+Explanation: Tick is basically the update rate of clients in the network. The IPX delay number will give the ticks at a certain time. The default ticks are–for LAN interfaces, one tick, and for WAN interfaces, six ticks.
+9. As a system administrator, you need to set up one Ethernet interface on the Cisco router to allow for both sap and Novell-ether encapsulations. Which set of commands will accomplish this?
+a) Interface Ethernet 0.1 IPX encapsulation Novell-ether IPX network 9e interface
+Ethernet 0.2 IPX network 6c
+b) Interface Ethernet 0 IPX encapsulation Novell-ether IPX network 9e interface
+Ethernet 0 IPX encapsulation sap IPX network 6c
+c) Interface Ethernet 0.1 IPX encapsulation Novell-ether interface Ethernet 0.2 IPX
+encapsulation sap
+d) Interface Ethernet 0.1ipx encapsulation Novell-ether IPX network 9e interface
+Ethernet 0.2 IPX encapsulation sap IPX network 6c
+View Answer
+
+Answer: d
+Explanation: The following commands setup the sub interfaces to allow for two types of encapsulation:interface Ethernet 0.1 IPX encapsulation Novell-ether IPX network 9e interface Ethernet0.2 IPX encapsulation sap IPX network 6c.
+10. What does the “IPX maximum-paths 2” command accomplish?
+a) It enables load sharing on 2 paths if the paths are equal metric paths
+b) It sets up routing to go to network 2
+c) It is the default for Cisco IPX load sharing
+d) It enables load sharing on 2 paths if the paths are unequal metric paths
+View Answer
+
+Answer: a
+Explanation: It enables load sharing on 2 paths if the paths are equal metric paths. The default is 1 path and the maximum is 512 paths. The value must always be greater than 1 and must be a natural number.
+11. You want to enable both arpa and snap encapsulation on one router interface. How do you do this?
+a) The interface can handle multiple encapsulation types with no extra configuration
+b) Assign two network numbers, one for each encapsulation type
+c) Enable Novell-ether to run multiple encapsulation types
+d) Both arpa and snap are enabled by default so you don’t have to configure anything
+View Answer
+
+Answer: b
+Explanation: To assign multiple network numbers, you usually use sub interfaces. A sample configuration follows: IPXEthernet 0.1 IPX encapsulation novell-ether ipx network 9e interface ethernet 0.2 ipx encapsulation sap ipx network 6c
+12. By default, Cisco routers forward GNS SAPs to remote networks.
+a) False
+b) True
+View Answer
+
+Answer: a
+Explanation: GNS is Novell’s protocol to Get Nearest Server. If there is a server on the local network,that server will respond. If there isn’t, the Cisco router has to be configured to forward theGNS SAP.
+13. To prevent Service Advertisements (SAPs) from flooding a network, Cisco routers do not forward them. How are services advertised to other networks?
+a) Each router builds its own SAP table and forwards that every 60 seconds
+b) Each router assigns a service number and broadcasts that
+c) SAPs aren’t necessary with Cisco routers
+d) Cisco routers filter out all SAPs
+View Answer
+
+Answer: a
+Explanation: Cisco routers build SAP tables and forward the table every 60 seconds. All SAPs can’t befiltered even with 4.x since NDS and time synchronization uses SAPs.
+14. Novell’s implementation of RIP updates routing tables every _________ seconds.
+a) 60
+b) 90
+c) 10
+d) 30
+View Answer
+
+Answer: a
+Explanation: Novell’s RIP updates routing tables every 60 seconds, Apple’s RTMP is every 10 seconds, routers ARP every 60 seconds, IGRP signal every 90 seconds, and Banyan VINES signals every 90 seconds.
+15. In Novell’s use of RIP, there are two metrics used to make routing decisions. Select the correct metrics.
+a) Ticks & Hops
+b) Hops & Loops
+c) Loops & Counts
+d) Counts & Ticks
+View Answer
+
+Answer: a
+Explanation: It first uses ticks (which is about 1/18 sec.); if there is a tie, it uses hops; if hops are equal, then it uses an administratively assigned tiebreaker.
+1. Multiple objects can be sent over a TCP connection between client and server in a persistent HTTP connection.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Persistent connections are kept active after completing transaction so that multiple objects can be sent over the same TCP connection.
+2. HTTP is ________ protocol.
+a) application layer
+b) transport layer
+c) network layer
+d) data link layer
+View Answer
+
+Answer: a
+Explanation: HTTP is an Application layer protocol used to define how messages are formatted and transmitted through the World Wide Web.
+3. In the network HTTP resources are located by __________
+a) Uniform resource identifier
+b) Unique resource locator
+c) Unique resource identifier
+d) Union resource locator
+View Answer
+
+Answer: a
+Explanation: The Uniform Resource Identifier is a name and locator for the resource to be located by the HTTP. The URLs and URNs are derived through the identifier.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. HTTP client requests by establishing a __________ connection to a particular port on the server.
+a) User datagram protocol
+b) Transmission control protocol
+c) Border gateway protocol
+d) Domain host control protocol
+View Answer
+
+Answer: b
+Explanation: HTTP clients perform requests using a TCP connection, because the TCP connection provides a more reliable service. UDP is not a reliable protocol, border gateway protocol is used on top of TCP, while domain host control protocol is a network layer protocol.
+5. In HTTP pipelining __________
+a) multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses
+b) multiple HTTP requests cannot be sent on a single TCP connection
+c) multiple HTTP requests are sent in a queue on a single TCP connection
+d) multiple HTTP requests are sent at random on a single TCP connection
+View Answer
+
+Answer: a
+Explanation: HTTP pipelining helps the client make multiple requests without having to waiting for each response, thus saving a lot of time and bandwidth for the client.
+Take Computer Networks Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. FTP server listens for connection on which port number?
+a) 20
+b) 21
+c) 22
+d) 23
+View Answer
+
+Answer: b
+Explanation: Port 20 is used for FTP data. Port 22 is used for SSH remote login. Port 23 is used for TELNET.
+7. In FTP protocol, a client contacts a server using ______ as the transport protocol.
+a) Transmission control protocol
+b) User datagram protocol
+c) Datagram congestion control protocol
+d) Stream control transmission protocol
+View Answer
+
+Answer: a
+Explanation: The clients use the Transmission Control Protocol for FTP as it’s more reliable than UDP, DCCP, and SCTP, and reliability of file transfer is required to be as high as possible for FTP.
+8. In Active mode FTP, the client initiates both the control and data connections.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In Passive mode of FTP, the client initiates both data and control connections, while in Active mode, the client initiates the control connection and then the server initiates the data connection.
+9. The File Transfer Protocol is built on __________
+a) data centric architecture
+b) service oriented architecture
+c) client server architecture
+d) connection oriented architecture
+View Answer
+
+Answer: c
+Explanation: The FTP connection includes a Server and a Client which wish to share files. The server can have multiple clients at the same time while the client communicates with only one server at a time.
+10. In File Transfer Protocol, data transfer cannot be done in __________
+a) stream mode
+b) block mode
+c) compressed mode
+d) message mode
+View Answer
+
+Answer: d
+Explanation: In Stream mode, the data is transferred in a continuous stream. In Block mode, data is transferred after being divided into smaller blocks. In Compressed mode, data is transferred after being compressed using some compression algorithm.
+1. What does REST stand for?
+a) Represent State Transfer
+b) Representational State Transfer
+c) Representing State Transfer
+d) Representation State Transfer
+View Answer
+
+Answer: b
+Explanation: REST stands for Representational State Transfer and is a software architecture style in which the server sends a representation of the state of the resource that it requests. It provides interoperability between the systems.
+2. Which of the following protocol is used by Restful web services as a medium of communication between client and server?
+a) HTTP
+b) FTP
+c) Gopher
+d) TELNET
+View Answer
+
+Answer: a
+Explanation: Restful web services make use of HTTP protocol as a medium of communication between client and server. The REST architecture was known as the HTTP object model back in the year 1994.
+3. Which of the following is not a good practice to create a standard URI for a web service?
+a) Maintain Backward Compatibility
+b) Use HTTP Verb
+c) Using spaces for long resource names
+d) Use lowercase letters
+View Answer
+
+Answer: c
+Explanation: We must use hyphens (-) or underscores (_) instead of spaces to represent long resource names. It may lead to the resource to be less recognizable for the system if we use spaces instead.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following HTTP methods should be idempotent in nature?
+a) OPTIONS
+b) DELETE
+c) POST
+d) HEAD
+View Answer
+
+Answer: b
+Explanation: DELETE operation should be idempotent, means their result will always same no matter how many times these operations are invoked. Also, the PUT operation is supposed to be idempotent.
+5. Which of the following directive of Cache Control Header of HTTP response indicates that resource is cachable by only client and server?
+a) Public
+b) Private
+c) Nocache/nostore
+d) Maxage
+View Answer
+
+Answer: b
+Explanation: Private directive indicates that resource is cachable by only client and server; no intermediary can cache the resource. But if we use the public directive, it indicates that the resource may be cachable by any intermediary component.
+Check this: MCA MCQs | Computer Network Books
+6. Which of the following HTTP Status code means CREATED, when a resource is successful created using POST or PUT request?
+a) 200
+b) 201
+c) 204
+d) 304
+View Answer
+
+Answer: b
+Explanation: HTTP Status Code 201 means CREATED, when a resource is successful created using POST or PUT request. The code 200 means success i.e. OK, code 204 means NO CONTENT, and the code 304 means NOT MODIFIED.
+7. Which of the following annotation of JAX RS API is used to annotate a method used to create resource?
+a) @Path
+b) @GET
+c) @PUT
+d) @POST
+View Answer
+
+Answer: c
+Explanation: @PUT is the HTTP request that is used to create resource and also define a complete resource path. @POST may also be used to create a resource but it won’t define a resource path i.e. an accessing medium.
+8. Which of the following annotation of JAX RS API binds the parameter passed to method to a HTTP matrix parameter in path?
+a) @PathParam
+b) @QueryParam
+c) @MatrixParam
+d) @HeaderParam
+View Answer
+
+Answer: c
+Explanation: @MatrixParam is the annotation that binds the parameter passed to method to a HTTP matrix parameter in path, while @QueryParam binds to a query parameter, @PathParam binds to a value and @HeaderParam binds to the HTTP header in the path.
+9. In REST architecture, a REST Server simply provides access to resources and REST client accesses and presents the resources.
+a) False
+b) True
+View Answer
+
+Answer: b
+Explanation: In REST architecture, a REST Server simply provides access to resources and REST client accesses and presents the resources. It is popularly used because it makes efficient use of the bandwidth and can be cached for better performance and scalability.
+10. POST operation should be idempotent.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: POST operation can cause different result so they are not idempotent. The DELETE and PUT operations are idempotent as they invoke the same result every time they are called.
+1. The term that is used to place packet in its route to its destination is called __________
+a) Delayed
+b) Urgent
+c) Forwarding
+d) Delivering
+View Answer
+
+Answer: c
+Explanation: Forwarding is done by the nodes in the path from source to destination, that are not the intended destination for the packet in order to pass the packet to the next node in the path. The destination machine does not forward the packet to any other node.
+2. A second technique to reduce routing table and simplify searching process is called _________
+a) Network-Specific Method
+b) Network-Specific Motion
+c) Network-Specific Maintaining
+d) Network-Specific Membership
+View Answer
+
+Answer: a
+Explanation: In the network specific forwarding method, there is only one record, the destination of the packet, in the routing table and not the other hosts of the network. The other two forwarding methods are the default method and the next-hop method.
+3. Next-Hop Method is used to reduce contents of a _________
+a) Revolving table
+b) Rotating Table
+c) Routing Table
+d) Re-allocate table
+View Answer
+
+Answer: c
+Explanation: In the next-hop forwarding method, the routing table of each router in the path contains the address of only the next hop in the path of packet. This method is suitable for short distances only.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Several techniques can make size of routing table manageable and also handle issues such as __________
+a) Maturity
+b) Error reporting
+c) Tunneling
+d) Security
+View Answer
+
+Answer: d
+Explanation: The size of the routing table in the technique must be manageable for the network nodes i.e. it must not be too big. Security of the forwarding packet is the highest priority for a technique and must be high enough so that only authorized senders and receivers can access the packet’s content.
+5. Host-specific routing is used for purposes such as checking route or providing _____
+a) Network Measures
+b) Security Measures
+c) Routing Measures
+d) Delivery Measures
+View Answer
+
+Answer: b
+Explanation: In host-specific routing, the route of the packet is defined based on the exact match of the packet’s IP with the routing table entry of the host. It provides the best security for the packet as the packet is forwarded only to routers in the pre-defined path.
+Take Computer Networks Tests Now!
+6. In Unicast routing, if instability is between three nodes, stability cannot be ________
+a) Stable
+b) Reversed
+c) Guaranteed
+d) Forward
+View Answer
+
+Answer: c
+Explanation: In Unicast routing, there is only sender and one receiver. So, if there is instability between three nodes, in which one is sender, one is receiver and one is the router in the path, there is no other path available for the packet and the stability of the network is not guaranteed.
+7. In Unicast Routing, Dijkstra algorithm creates a shortest path tree from a ________
+a) Graph
+b) Tree
+c) Network
+d) Link
+View Answer
+
+Answer: a
+Explanation: The Djikstra’s shortest path algorithm is the fastest among the algorithms for finding the shortest path in a graph. But it is a greedy method based algorithm so it does not guarantee the shortest path every time.
+8. In Multicast Routing Protocol, flooding is used to broadcast packets but it creates ________
+a) Gaps
+b) Loops
+c) Holes
+d) Links
+View Answer
+
+Answer: b
+Explanation: In multicast routing, there is one sender and many receivers. So flooding is the most basic method to forward packets to many receivers. The one issue with flooding is that it creates routing loops. One loop prevention method is that the routers will not send the packet to a node where the packet has been received before.
+9. RPF stands for __________
+a) Reverse Path Forwarding
+b) Reverse Path Failure
+c) Reverse Packet Forwarding
+d) Reverse Protocol Failure
+View Answer
+
+Answer: a
+Explanation: Reverse Path Forwarding is a loop-free forwarding method for multi-cast routing in modern systems. The method focuses on forwarding the packet away from the source IP in each iteration to make sure there is no loops.
+10. LSP stands for __________
+a) Link Stable Packet
+b) Link State Packet
+c) Link State Protocol
+d) Link State Path
+View Answer
+
+Answer: b
+Explanation: A Link State Packet is a packet created by a router that lists its neighboring nodes and routers in link state routing protocol. It is shared with other routers to find the shortest path from a source to the destination.
+1. IPSec is designed to provide security at the _________
+a) transport layer
+b) network layer
+c) application layer
+d) session layer
+View Answer
+
+Answer: b
+Explanation: IPSec is a set of protocols used to provide authentication, data integrity and confidentiality between two machines in an IP network. In the TCP/IP model, it provides security at the IP layer i.e. the network layer.
+2. In tunnel mode, IPSec protects the ______
+a) Entire IP packet
+b) IP header
+c) IP payload
+d) IP trailer
+View Answer
+
+Answer: a
+Explanation: In the tunnel mode, IPSec adds control bits into the packets to encrypt the entire packet between the IPSec endpoints. Using encryption, it provides secure communication between the two endpoints.
+3. Network layer firewall works as a ________
+a) frame filter
+b) packet filter
+c) signal filter
+d) content filter
+View Answer
+
+Answer: b
+Explanation: As you know, firewalls are available as hardware appliances, as software-only, or a combination of the two. In every case, the purpose of a firewall is to isolate your trusted internal network (or your personal PC) from the dangers of unknown resources on the Internet and other network connections that may be harmful. The firewall prevents unauthorized access to your internal, trusted network from outside threats.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Network layer firewall has two sub-categories called ____________
+a) stateful firewall and stateless firewall
+b) bit oriented firewall and byte oriented firewall
+c) frame firewall and packet firewall
+d) network firewall and data firewall
+View Answer
+
+Answer: a
+Explanation: Most network layer firewalls can operate as stateful or stateless firewalls, creating two subcategories of the standard network layer firewall. Stateful firewalls have the advantage of being able to track packets over a period of time for greater analysis and accuracy — but they require more memory and operate more slowly. Stateless firewalls do not analyze past traffic and can be useful for systems where speed is more important than security, or for systems that have very specific and limited needs. For example, a computer that only needs to connect to a particular backup server does not need the extra security of a stateful firewall.
+5. WPA2 is used for security in _______
+a) ethernet
+b) bluetooth
+c) wi-fi
+d) e-mail
+View Answer
+
+Answer: c
+Explanation: WPA2 or WiFi Protected Access 2 is a security protocol used to provide users and firms with strong data security and protection for their wireless networks (WiFi) to give them confidence that only authorized users can access their network.
+Check this: Computer Science Books | Computer Science MCQs
+6. An attempt to make a computer resource unavailable to its intended users is called ______
+a) denial-of-service attack
+b) virus attack
+c) worms attack
+d) botnet process
+View Answer
+
+Answer: a
+Explanation: In a Denial of Service attack, the attacker won’t let the victims access the network by using a certain method that ensures that an essential network resource is unavailable to the victim. The methods that the attacker can use are vulnerability attack, bandwidth flooding and connection flooding.
+7. Extensible authentication protocol is authentication framework frequently used in ______
+a) wired personal area network
+b) wireless networks
+c) wired local area network
+d) wired metropolitan area network
+View Answer
+
+Answer: b
+Explanation: The Extensible Authentication Protocol (EAP) is an authentication protocol used to connect a network node to the Internet. It designed through extending the methods used by the Point-to-Point Protocol for authentication.
+8. Pretty good privacy (PGP) is used in ______
+a) browser security
+b) email security
+c) FTP security
+d) wifi security
+View Answer
+
+Answer: b
+Explanation: PGP is an encryption method used in e-mail security to encrypt and decrypt the content of an e-mail transmitted over the internet. It makes sure that the message cannot be stolen by other unauthorized users.
+9. PGP encrypts data by using a block cipher called ______
+a) international data encryption algorithm
+b) private data encryption algorithm
+c) internet data encryption algorithm
+d) local data encryption algorithm
+View Answer
+
+Answer: a
+Explanation: The IDEA was designed in 1991 by Xuejia Lai and James Massey. Before IDEA, PGP used the cipher method BassOmatic.
+10. When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, then it is called _________
+a) DNS lookup
+b) DNS hijacking
+c) DNS spoofing
+d) DNS authorizing
+View Answer
+
+Answer: c
+Explanation: In DNS spoofing, also known as DNS cache poisoning, an attacker gets the valid credentials from a victim by spoofing the intended resource, and tricking the victim to give his/her valid authorization credentials

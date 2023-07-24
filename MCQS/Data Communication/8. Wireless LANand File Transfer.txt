@@ -1,0 +1,373 @@
+1. What is the access point (AP) in a wireless LAN?
+a) device that allows wireless devices to connect to a wired network
+b) wireless devices itself
+c) both device that allows wireless devices to connect to a wired network and wireless devices itself
+d) all the nodes in the network
+View Answer
+
+Answer: a
+Explanation: Access point in a wireless network is any device that will allow the wireless devices to a wired network. A router is the best example of an Access Point.
+2. In wireless ad-hoc network _________
+a) access point is not required
+b) access point is must
+c) nodes are not required
+d) all nodes are access points
+View Answer
+
+Answer: a
+Explanation: An ad-hoc wireless network is a decentralized kind of a wireless network. An access point is usually a central device and it would go against the rules of the ad-hoc network to use one. Hence it is not required.
+3. Which multiple access technique is used by IEEE 802.11 standard for wireless LAN?
+a) CDMA
+b) CSMA/CA
+c) ALOHA
+d) CSMA/CD
+View Answer
+
+Answer: b
+Explanation: CSMA/CA stands for Carrier-sense multiple access/collision avoidance. It is a multiple access protocol used by IEEE 802.11 standard for wireless LAN. It’s based on the principle of collision avoidance by using different algorithms to avoid collisions between channels.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+4. In wireless distribution system __________
+a) multiple access point are inter-connected with each other
+b) there is no access point
+c) only one access point exists
+d) access points are not required
+View Answer
+
+Answer: a
+Explanation: A Wireless Distribution System allows the connection of multiple access points together. It is used to expand a wireless network to a larger network.
+5. A wireless network interface controller can work in _______
+a) infrastructure mode
+b) ad-hoc mode
+c) both infrastructure mode and ad-hoc mode
+d) WDS mode
+View Answer
+
+Answer: c
+Explanation: A wireless network interface controller works on the physical layer and the data link layer of the OSI model. Infrastructure mode WNIC needs access point but in ad-hoc mode access point is not required.
+Get Free Certificate of Merit in Computer Networks Now!
+6. In wireless network an extended service set is a set of ________
+a) connected basic service sets
+b) all stations
+c) all access points
+d) connected access points
+View Answer
+
+Answer: a
+Explanation: The extended service set is a part of the IEEE 802.11 WLAN architecture and is used to expand the range of the basic service set by allowing connection of multiple basic service sets.
+7. Mostly ________ is used in wireless LAN.
+a) time division multiplexing
+b) orthogonal frequency division multiplexing
+c) space division multiplexing
+d) channel division multiplexing
+View Answer
+
+Answer: b
+Explanation: In orthogonal frequency division multiplexing, digital data is encoded on multiple carrier frequencies. It is also used in digital television and audio broadcasting in addition to Wireless LANs.
+8. Which one of the following event is not possible in wireless LAN?
+a) collision detection
+b) acknowledgement of data frames
+c) multi-mode data transmission
+d) connection to wired networks
+View Answer
+
+Answer: a
+Explanation: Collision detection is not possible in wireless LAN with no extensions. Collision detection techniques for multiple access like CSMA/CD are used to detect collisions in Wireless LANs.
+9. What is Wired Equivalent Privacy (WEP)?
+a) security algorithm for ethernet
+b) security algorithm for wireless networks
+c) security algorithm for usb communication
+d) security algorithm for emails
+View Answer
+
+Answer: b
+Explanation: WEP is a security algorithm for wireless network which intended to provide data confidentiality comparable to that of traditional wired networks. It was introduced in 1997.
+10. What is WPA?
+a) wi-fi protected access
+b) wired protected access
+c) wired process access
+d) wi-fi process access
+View Answer
+
+Answer: a
+Explanation: WPA or WiFi Protected Access is a security protocol used to provide users and firms with strong data security and protection for their wireless networks (WiFi) to give them confidence that only authorized users can access their network.
+1. What is internet?
+a) a single network
+b) a vast collection of different networks
+c) interconnection of local area networks
+d) interconnection of wide area networks
+View Answer
+
+Answer: b
+Explanation: Internet is nothing but an interconnected computer network providing a variety of communication facilities, consisting of a huge amount of small networks using standardized communication protocols.
+2. To join the internet, the computer has to be connected to a _________
+a) internet architecture board
+b) internet society
+c) internet service provider
+d) different computer
+View Answer
+
+Answer: c
+Explanation: The ISPs (Internet Service Providers) are the main agents through which every computer is connected to the internet. They are licensed to allot public IP addresses to its customers in order to connect them to the internet.
+3. Internet access by transmitting digital data over the wires of a local telephone network is provided by _______
+a) leased line
+b) digital subscriber line
+c) digital signal line
+d) digital leased line
+View Answer
+
+Answer: b
+Explanation: DSL (Digital Subscriber Line) is the technology designed to use the existing telephone lines to transport high-bandwidth data to service subscribers. DSL was used to allow the early users access to the internet and it provides dedicated, point-to-point, public network access.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+4. ISP exchanges internet traffic between their networks by __________
+a) internet exchange point
+b) subscriber end point
+c) isp end point
+d) internet end point
+View Answer
+
+Answer: a
+Explanation: ISPs exchange internet traffic between their networks by using Internet Exchange Points. ISPs and CDNs are connected to each other at these physical locations are they help them provide better service to their customers.
+5. Which of the following protocols is used in the internet?
+a) HTTP
+b) DHCP
+c) DNS
+d) DNS, HTTP and DNS
+View Answer
+
+Answer: d
+Explanation: HTTP is used to browse all the websites on the World Wide Web, DHCP is used to allot IPs automatically to the users on the internet, and DNS is used to connect the users to the host servers on the internet based on the Domain Name.
+Participate in Computer Networks Certification Contest of the Month Now!
+6. The size of an IP address in IPv6 is _________
+a) 32 bits
+b) 64 bits
+c) 128 bits
+d) 265 bits
+View Answer
+
+Answer: c
+Explanation: An IPv6 address is 128 bits long. Therefore, 2128 i.e. 340 undecillion addresses are possible in IPv6. IPv4 has only 4 billion possible addresses and IPv6 would be a brilliant alternative in case IPv4 runs out of possible new addresses.
+7. Internet works on _______
+a) packet switching
+b) circuit switching
+c) both packet switching and circuit switching
+d) data switching
+View Answer
+
+Answer: a
+Explanation: Packet switching is the method based on which the internet works. Packet switching features delivery of packets of data between devices over a shared network.
+8. Which one of the following is not an application layer protocol used in internet?
+a) remote procedure call
+b) internet relay chat
+c) resource reservation protocol
+d) local procedure call
+View Answer
+
+Answer: c
+Explanation: Resource reservation protocol is a transport layer protocol used on the internet. It operates over IPv4 and IPv6 and is designed to reserve resources required by the network layer protocols.
+9. Which protocol assigns IP address to the client connected in the internet?
+a) DHCP
+b) IP
+c) RPC
+d) RSVP
+View Answer
+
+Answer: a
+Explanation: DHCP stands for Domain Host Control Protocol. It is responsible to remotely assign IP address to the clients connected to the internet. The server that performs this fuction is called the DHCP server.
+10. Which one of the following is not used in media access control?
+a) ethernet
+b) digital subscriber line
+c) fiber distributed data interface
+d) packet switching
+View Answer
+
+Answer: d
+Explanation: Packet switching is not really related to media access control as it just features delivery of packets of data between devices over a shared network. Internet is actually based on packet switching.
+1. An interconnected collection of piconet is called ___________
+a) scatternet
+b) micronet
+c) mininet
+d) multinet
+View Answer
+
+Answer: a
+Explanation: Piconet is the basic unit of a bluetooth system having a master node and upto seven active slave nodes. A collection of piconets is called scatternet and a slave node of a piconet may act as a master in a piconet that is part of the scatternet.
+2. In a piconet, there can be up to ________ parked nodes in the network.
+a) 63
+b) 127
+c) 255
+d) 511
+View Answer
+
+Answer: c
+Explanation: A slave node in a piconet can be instructed by the master node to go into parked mode. Then the slave node enters the parked mode in which the node is not disconnected from the network but is inactive unless the master wakes it up.
+3. Bluetooth is the wireless technology for __________
+a) local area network
+b) personal area network
+c) metropolitan area network
+d) wide area network
+View Answer
+
+Answer: b
+Explanation: Bluetooth is a wireless technology used to create a wireless personal area network for data transfer up to a distance of 10 meters. It operates on 2.45 GHz frequency band for transmission.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Bluetooth uses __________
+a) frequency hopping spread spectrum
+b) orthogonal frequency division multiplexing
+c) time division multiplexing
+d) channel division multiplexing
+View Answer
+
+Answer: a
+Explanation: Frequency hopping spread spectrum is a method of transmitting radio signals by rapidly changing the carrier frequency and is controlled by the codes known to the sender and receiver only.
+5. Unauthorised access of information from a wireless device through a bluetooth connection is called _________
+a) bluemaking
+b) bluesnarfing
+c) bluestring
+d) bluescoping
+View Answer
+
+Answer: b
+Explanation: Unauthorised access of information from a wireless device through a bluetooth connection is called Bluesnarfing. It is done through exploiting the vulnerabilities of the Bluetooth device to steal the transmitted information.
+Take Computer Networks Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. What is A2DP (advanced audio distribution profile)?
+a) a bluetooth profile for streaming audio
+b) a bluetooth profile for streaming video
+c) a bluetooth profile for security
+d) a bluetooth profile for file management
+View Answer
+
+Answer: a
+Explanation: A2DP stands for Advanced Audio Distribution Profile is a transfer standard use to transmit high definition audio through Bluetooth. It is mainly used in Bluetooth speakers and wireless headphones.
+7. In a piconet, one master device ________
+a) can not be slave
+b) can be slave in another piconet
+c) can be slave in the same piconet
+d) can be master in another piconet
+View Answer
+
+Answer: b
+Explanation: In a scatternet, a slave node of one piconet may act as a master in a piconet that is part of the scatternet. The scatternet uses this property to connect many piconets together to create a larger network.
+8. Bluetooth transceiver devices operate in ______ band.
+a) 2.4 GHz ISM
+b) 2.5 GHz ISM
+c) 2.6 GHz ISM
+d) 2.7 GHz ISM
+View Answer
+
+Answer: a
+Explanation: Bluetooth operates on 2.45 GHz frequency ISM band for transmission. It is used to create a wireless personal area network for data transfer up to a distance of 10 meters.
+9. Bluetooth supports _______
+a) point-to-point connections
+b) point-to-multipoint connection
+c) both point-to-point connections and point-to-multipoint connection
+d) multipoint to point connection
+View Answer
+
+Answer: c
+Explanation: In Bluetooth, each slave node communicates with the master of the piconet independently i.e. each master-slave connection is independent. The slave is not allowed to communicate with other slaves directly.
+10. A scatternet can have maximum __________
+a) 10 piconets
+b) 20 piconets
+c) 30 piconets
+d) 40 piconets
+View Answer
+
+Answer: a
+Explanation: A scatternet can have maximum of 10 piconets and minimum of 2 piconets. To connect these piconets, a slave node of one piconet may act as a master in a piconet that is part of the scatternet.
+1. SONET stands for ___________
+a) synchronous optical network
+b) synchronous operational network
+c) stream optical network
+d) shell operational network
+View Answer
+
+Answer: a
+Explanation: SONET stands for synchronous optical network. Frame relay uses SONET to physically transmit data frames over a Frame Relay network as SONET is cheaper and provides better network reliability than other carriers.
+2. In SONET, STS-1 level of electrical signalling has the data rate of _________
+a) 51.84 Mbps
+b) 155.52 Mbps
+c) 2488.320 Mbps
+d) 622.080 Mbps
+View Answer
+
+Answer: a
+Explanation: STS-1 level provides the data rate of 51.84 Mbps, STS-3 provides a data rate of 155.52 Mbps, STS-12 provides a data rate of 622.080 Mbps and STS-48 provides a data rate of 2488.320 Mbps.
+3. The path layer of SONET is responsible for the movement of a signal _________
+a) from its optical source to its optical destination
+b) across a physical line
+c) across a physical section
+d) back to its optical source
+View Answer
+
+Answer: a
+Explanation: The path layer in SONET is responsible for the movement signal from the optical source to the optical destination. It is ideally expected to find the shortest and the most reliable path to the destination.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. The photonic layer of the SONET is similar to the __________ of OSI model.
+a) network layer
+b) data link layer
+c) physical layer
+d) transport layer
+View Answer
+
+Answer: c
+Explanation: The photonic layer in SONET is like the physical layer of the OSI model. It is the lowest layer among the four layers of SONET namely the photonic, the section, the line, and the path layers.
+5. In SONET, each synchronous transfer signal STS-n is composed of __________
+a) 2000 frames
+b) 4000 frames
+c) 8000 frames
+d) 16000 frames
+View Answer
+
+Answer: c
+Explanation: SONET defines the electrical signal as STS-N (Synchronous Transport Signal Level-N) and the optical signal as OC-N (Optical Carrier Level-N). The building block of SONET is the STS-1/OC-1 signal, which is based on an 8-kHz frame rate and operates at 51.84 Mbps.
+Check this: Computer Network Books | MCA MCQs
+6. Which one of the following is not true about SONET?
+a) frames of lower rate can be synchronously time-division multiplexed into a higher-rate frame
+b) multiplexing is synchronous TDM
+c) all clocks in the network are locked to a master clock
+d) STS-1 provides the data rate of 622.080Mbps
+View Answer
+
+Answer: d
+Explanation: In SONET, STS-N stands for Synchronous Transport Signal Level-N. STS-1 level provides the data rate of 51.84 Mbps, and STS-12 provides a data rate of 622.080 Mbps.
+7. A linear SONET network can be ________
+a) point-to-point
+b) multi-point
+c) both point-to-point and multi-point
+d) single point
+View Answer
+
+Answer: c
+Explanation: Synchronous Optical Network (SONET) is basically an optical fiber point-to-point or ring network backbone that provides a way to accommodate additional capacity as the needs of the organization increase to multipoint networks.
+8. Automatic protection switching in linear network is defined at the _______
+a) line layer
+b) section layer
+c) photonic layer
+d) path layer
+View Answer
+
+Answer: a
+Explanation: The Line layer in SONET operates like the data link layer in the OSI model and it is responsible for the movement of signal across a physical line. The Synchronous Transport Signal Mux/Demux and Add/Drop Mux provide the Line layer functions.
+9. A unidirectional path switching ring is a network with __________
+a) one ring
+b) two rings
+c) three rings
+d) four rings
+View Answer
+
+Answer: b
+Explanation: One ring is used as the working ring and other as the protection ring in which each node is connected to its respective adjacent nodes by two fibers, one to transmit, and one to receive.
+10. What is SDH?
+a) sdh is similar standard to SONET developed by ITU-T
+b) synchronous digital hierarchy
+c) sdh stands for synchronous digital hierarchy and is a similar standard to SONET developed by ITU-T
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: SDH is a standard that allows low bit rates to be combined into high-rate data streams and as it is synchronous, each individual bit stream can be embedded into and extracted from high-rate data streams easily.

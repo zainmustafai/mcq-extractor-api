@@ -1,0 +1,283 @@
+1. What is the base case for the inequality 7n > n3, where n = 3?
+a) 652 > 189
+b) 42 < 132
+c) 343 > 27
+d) 42 <= 431
+View Answer
+
+Answer: c
+Explanation: By the principle of mathematical induction, we have 73 > 33 ⇒ 343 > 27 as a base case and it is true for n = 3.
+2. In the principle of mathematical induction, which of the following steps is mandatory?
+a) induction hypothesis
+b) inductive reference
+c) induction set assumption
+d) minimal set representation
+View Answer
+
+Answer: a
+Explanation: The hypothesis of Step is a must for mathematical induction that is the statement is true for n = k, where n and k are any natural numbers, which is also called induction assumption or induction hypothesis.
+3. For m = 1, 2, …, 4m+2 is a multiple of ________
+a) 3
+b) 5
+c) 6
+d) 2
+View Answer
+
+Answer: d
+Explanation: For n = 1, 4 * 1 + 2 = 6, which is a multiple of 2. Assume that 4m+2 is true for m=k and so 4k+2 is true based on the assumption. Now, to prove that 4k+2 is also a multiple of 2 ⇒ 4(k+1)+2 ⇒ 2 * 4k – 4k + 6 ⇒ 2*4k+4 – 4k+2 ⇒ 2(4k+2) – 2(2k+1). Here, the first term 2(4k+2) is true as per assumption and the second term 2(4k+2) is must to be a multiple of 2. Hence, 4(k+1)+2 is a multiple of 2. So, by induction hypothesis, (4m+2) is a multiple of 2, for m = 1,2,3,…
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. For any integer m>=3, the series 2+4+6+…+(4m) can be equivalent to ________
+a) m2+3
+b) m+1
+c) mm
+d) 3m2+4
+View Answer
+
+Answer: a
+Explanation: The required answer is m2+3. Now, by induction assumption, we have to prove 2+4+6+…+4(k+1) = (k+1)2+3 also can be true, 2+4+6+…+4(k+1) = 2+4+6+⋯+(4k+4) and by the subsequent steps, we can prove that (m+1)2+3 also holds for m=k. So, it is proved.
+5. For every natural number k, which of the following is true?
+a) (mn)k = mknk
+b) m*k = n + 1
+c) (m+n)k = k + 1
+d) mkn = mnk
+View Answer
+
+Answer: a
+Explanation: In the first step, for k = 1, (mn)1 = m1n1 = mn, hence it is true. Let us assume the statement is true for k = l, Now by induction assumption, (mn)1 = m1n1 is true. So, to prove, (mn)l+1 = ml + 1nl+1, we have (mn)l = mlnl and multiplying both sides by (mn) ⇒ (mn)1(mn)=(m1n1)(mn)
+⇒ (mn)l+1 = (mm1)(nn1) ⇒ (mn)l+1 = (ml+1nl+1). Hence, it is proved. So, (mn)k = mknk is true for every natural number k.
+Take Discrete Mathematics Tests Now!
+6. By induction hypothesis, the series 12 + 22 + 32 + … + p2 can be proved equivalent to ____________
+a) p2+27
+b) p∗(p+1)∗(2p+1)6
+c) p∗(p+1)4
+d) p+p2
+View Answer
+
+Answer: b
+Explanation: By principle of mathematical induction, we now assume that p (b) is true 12 + 22 + 32 + … + b2 = b(b+1)(2b+1)6
+so to prove P(b+1): 12 + 22 + 32 + … + b2 + (b + 1)2 = b(b+1)(2b+1)6 + (b + 1)2
+By induction assumption it is shown that 12 + 22 + 32 + … + b2 + (b + 1)2 = (b+1)[(b+2)(2b+3)]6. Hence it is proved that 12 + 22 + 32 + … + p2 = p∗(p+1)∗(2p+1)6.
+7. For any positive integer m ______ is divisible by 4.
+a) 5m2 + 2
+b) 3m + 1
+c) m2 + 3
+d) m3 + 3m
+View Answer
+
+Answer: d
+Explanation: The required answer is, m3 + 3m. Now, by induction hypothesis, we have to prove for m=k, k3+3k is divisible by 4. So, (k + 1)3 + 3 (k + 1) = k3 + 3 k2 + 6 k + 4
+= [k3 + 3 k] + [3 k2 + 3 k + 4] = 4M + (12k2 + 12k) – (8k2 + 8k – 4), both the terms are divisible by 4. Hence (k + 1)3 + 3 (k + 1) is also divisible by 4 and hence it is proved for any integer m.
+8. According to principle of mathematical induction, if P(k+1) = m(k+1) + 5 is true then _____ must be true.
+a) P(k) = 3m(k)
+b) P(k) = m(k) + 5
+c) P(k) = m(k+2) + 5
+d) P(k) = m(k)
+View Answer
+
+Answer: b
+Explanation: By the principle of mathematical induction, if a statement is true for any number m = k, then for its successor m = k + 1, the statement also satisfies, provided the statement is true for m = 1. So, the required answer is p(k) = mk + 5.
+9. Which of the following is the base case for 4n+1 > (n+1)2 where n = 2?
+a) 64 > 9
+b) 16 > 2
+c) 27 < 91
+d) 54 > 8
+View Answer
+
+Answer: a
+Explanation: Statement By principle of mathematical induction, for n=2 the base case of the inequation 4n+1 > (n+1)2 should be 64 > 9 and it is true.
+10. What is the induction hypothesis assumption for the inequality m ! > 2m where m>=4?
+a) for m=k, k+1!>2k holds
+b) for m=k, k!>2k holds
+c) for m=k, k!>3k holds
+d) for m=k, k!>2k+1 holds
+View Answer
+
+Answer: b
+Explanation: By the induction hypothesis, assume that p (k) = k! > 2k is true, for m=k and we need to prove this by the principle of mathematical induction.
+1. A polygon with 7 sides can be triangulated into ________
+a) 7
+b) 14
+c) 5
+d) 10
+View Answer
+
+Answer: c
+Explanation: A simple polygon with n sides can be triangulated into n-2 triangles, where n > 2.
+2. Every simple polynomial has an interior diagonal.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: By using Strong Induction.
+3. A polygon with 12 sides can be triangulated into _______
+a) 7
+b) 10
+c) 5
+d) 12
+View Answer
+
+Answer: b
+Explanation: A simple polygon with n sides can be triangulated into n-2 triangles, where n > 2.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Let P(n) be the statement that postage of n cents can be formed using just 3-cents stamps and 5-cents stamps. Is the statements P(8) and P(10) are Correct?
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: We can form 8 cent of postage with one 3-cent stamp and one 5-cent stamp. P(10) is true because we can form it using two 5-cent stamps.
+5. Which amount of postage can be formed using just 4-cent and 11-cent stamps?
+a) 2
+b) 5
+c) 30
+d) 10
+View Answer
+
+Answer: d
+Explanation: We can form 30 cent of postage with two 4-cent stamp and two 11-cent stamp.
+Get Free Certificate of Merit in Discrete Mathematics Now!
+6. 22-cent of postage can be produced with two 4-cent stamp and one 11-cent stamp.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: By using two 4-cent stamp and one 11-cent stamp, 27-cent postage is produced.
+7. Which amount of postage can be formed using just 3-cent stamp and 10-cent stamps?
+a) 27
+b) 20
+c) 11
+d) 5
+View Answer
+
+Answer:a
+Explanation: We can form 27 cent of postage with nine 3-cent stamp and 20-cent postage can be formed by using two 10-cent stamps.
+8. Suppose that P(n) is a propositional function. Determine for which positive integers n the statement P(n) must be true if: P(1) is true; for all positive integers n, if P(n) is true then P(n+2) is true.
+a) P(3)
+b) P(2)
+c) P(4)
+d) P(6)
+View Answer
+
+Answer: a
+Explanation: By induction we can prove that P(3) is true but we can’t conclude about P(2), p(6) and P(4).
+9. Suppose that P(n) is a propositional function. Determine for which positive integers n the statement P(n) must be true if: P(1) and P(2) is true; for all positive integers n, if P(n) and P(n+1) is true then P(n+2) is true.
+a) P(1)
+b) P(2)
+c) P(4)
+d) P(n)
+View Answer
+
+Answer: d
+Explanation: By induction, we can prove that P(n) is true.
+10. A polygon with 25 sides can be triangulated into _______
+a) 23
+b) 20
+c) 22
+d) 21
+View Answer
+
+Answer: a
+Explanation: A simple polygon with n sides can be triangulated into n-2 triangles, where n > 2.
+1. Which of the following is contained in a recursive grammar?
+a) semantic rules
+b) production rules
+c) recursive language
+d) recursive function
+View Answer
+
+Answer: b
+Explanation: In natural language semantics, recursive grammar plays a vital role as well as in syntax. A recursive grammar in a context free language is a formal grammar which consists of recursive production rules.
+2. ________ is the consequence of dynamic programming.
+a) Bellman equation
+b) Frobenius equation
+c) Linear equation
+d) Boolean expression
+View Answer
+
+Answer: a
+Explanation: Dynamic programming can lead to recursive optimization that can restate a multistep optimization problem in its recursive form. The Bellman equation that writes the value of the optimization problem at an earlier time in terms of its value at a later time is the result of dynamic programming.
+3. How many types of self-referential recursive data are there in computer programs?
+a) 6
+b) 2
+c) 10
+d) 4
+View Answer
+
+Answer: b
+Explanation: There are two types of self-referential definitions and these are inductive and coinductive definitions. An inductively defined recursive data definition must have to specify how to construct instances of the data. For example, linked lists are defined as an inductively recursive data definition.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. _______ recursion consists of multiple self-references.
+a) binary recursion
+b) single recursion
+c) multiple recursion
+d) coinductive recursion
+View Answer
+
+Answer: c
+Explanation: A recursion which consists of multiple self-references and requires exponential time and space is called multiple recursion. Multiple recursions include tree traversal of a graph, such as in a depth-first search. However, single recursion is more efficient than multiple recursion.
+5. The argument of each recursive call is the content of a field of the original output. This definite characteristic belongs to which of the following function?
+a) Structurally recursive function
+b) Generativity recursive function
+c) General function
+d) Indirect recursive function
+View Answer
+
+Answer: a
+Explanation: A structurally recursive function has a characteristic that the argument to each recursive call is the content of a field of the original input. This recursion function includes mostly all tree traversals which includes binary tree creation and search, XML processing etc.
+Check this: Information Technology MCQs | BCA MCQs
+6. The mutual recursion is also termed as ______
+a) indirect recursion
+b) constructive recursion
+c) generative recursion
+d) definitive recursion
+View Answer
+
+Answer: a
+Explanation: When a function is not called by itself but by another function which it has called either directly or indirectly is termed as Indirect recursion. Mutual recursion is a more symmetric term of Indirect recursion.
+7. In which of the following problems recurrence relation holds?
+a) Optimal substructure
+b) Tower of Hanoi
+c) Hallmark substitution
+d) Longest common subsequence
+View Answer
+
+Answer: b
+Explanation: We can have recurrence relation for tower of hanoi and that is hn = 2 hn-1 + 1h1 = 1, for n number of disks in one peg.
+8. Which of the following functions generates new data at each step of a method?
+a) corecursive function
+b) structural recursive function
+c) unirecursive function
+d) indirect function
+View Answer
+
+Answer: a
+Explanation: The generatively recursive functions or corecursive functions is defined as generation of the new data at each step that is successive approximation in Regula Falsi method. In terms of loop variants, there is no such loop variant, and termination depends on error of approximation.
+9. Every recursive algorithm must have the problem of ________
+a) overhead of repeated function calls
+b) collision of different function calls
+c) searching for all duplicate elements
+d) make only two recursive calls
+View Answer
+
+Answer: a
+Explanation: Due to the overhead of repeated function calls and returns, recursive algorithms may be inefficient for small data. Any recursion can be replaced by iteration with an explicit call stack whereas iteration can be replaced with tail recursion.
+10. If the height of a binary tree is 54, how many null pointers are there as children?
+a) 1267
+b) 358
+c) 56
+d) 255
+View Answer
+
+Answer: d
+Explanation: Depth-first search (DFS) algorithm of a binary tree, is a trivial example of short-circuiting. We can have a standard recursive algorithm in case of DFS. Now, a perfect binary tree of height h has 2h+1 Null pointers as children.
+h = 54
+254+1
+255.

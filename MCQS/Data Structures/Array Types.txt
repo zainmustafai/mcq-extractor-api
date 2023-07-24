@@ -1,0 +1,890 @@
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Suffix Array”.
+
+1. Which of the following is false?
+a) Suffix array is always sorted
+b) Suffix array is used in string matching problems
+c) Suffix array is always unsorted
+d) Suffix array contains all the suffixes of the given string
+View Answer
+
+Answer: c
+Explanation: Suffix array is always sorted as it contains all the suffixes of a string in sorted order. Suffix arrays are used to solve problems related to string, like string matching problems.
+2. Suffix array of the string “statistics” is ____________
+a) 2 8 7 4 9 0 5 1 6 3
+b) 2 7 4 9 8 0 5 1 6 3
+c) 2 4 9 0 5 7 8 1 6 3
+d) 2 8 7 0 5 1 6 9 4 3
+View Answer
+
+Answer: a
+Explanation: The suffix array of the string statistics will be:
+2 atistics
+8 cs
+7 ics
+4 istics
+9 s
+0 statistics
+5 stics
+1 tatistics
+6 tics
+3 tistics
+In Suffix array, we only store the indices of suffixes. So, correct option is 2 8 7 4 9 0 5 1 6 3.
+3. Suffix array can be created by performing __________ traversal of a suffix tree.
+a) breadth-first
+b) level order
+c) depth-first
+d) either breadth-first or level order
+View Answer
+
+Answer: c
+Explanation: A suffix tree is a trie, which contains all the suffixes of the given string as their keys and positions in the string as their values. So, we can construct a suffix array by performing the depth-first traversal of a suffix tree.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Suffix array is space efficient than the suffix tree.
+a) True
+b) Fasle
+View Answer
+
+Answer: b
+Explanation: Suffix arrays are more space efficient than the suffix trees as they just store the original string and an array of integer. But working with suffix tree is faster than that of the suffix array.
+5. If comparison based sorting algorithm is used construct the suffix array, then what will be time required to construct the suffix array?
+a) O(nlogn)
+b) O(n2)
+c) O(n2logn)
+d) O(n2) + O(logn)
+View Answer
+
+Answer: c
+Explanation: On average comparison based sorting algorithms require O(nlogn) comparisons. But comparing a suffix takes O(n). So, overall time to construct the suffix array will be O(nlogn) * O(n) = O(n2logn).
+Check this: Programming MCQs | Data Structure Books
+6. What will be the suffix array of the string “engineering”?
+a) 2 3 8 4 9 1 7 5 0 6 10
+b) 5 0 6 1 4 9 1 7 0 2 3 8
+c) 5 0 6 10 2 4 9 1 7 3 8
+d) 5 0 6 10 2 3 8 4 9 1 7
+View Answer
+
+Answer: d
+Explanation: Correct choice is : 5 0 6 10 2 3 8 4 9 1 7.
+Because the suffix array formed will be: 5 eering 0 engineering 6 ering 10 g 2 gineering 3 ineering 8 ing 4 neering 9 ng 1 ngineering 7 ring.
+7. LCP array and ______ is used to construct suffix tree.
+a) Hash tree
+b) Hash trie
+c) Suffix array
+d) Balanced tree
+View Answer
+
+Answer: c
+Explanation: Suffix tree can be created using an LCP array and a suffix array. If we are given a string of length (n + 1) and its suffix array and LCP array, we can construct the suffix tree in linear time i.e in O(n) time.
+8. What is the time required to locate the occurrences of a pattern P of length m in a string of length n using suffix array?
+a) O(nm)
+b) O(n2)
+c) O(mnlogn)
+d) O(mlogn)
+View Answer
+
+Answer: d
+Explanation: Suffix arrays are used to find the occurrences of a pattern in a string. Pattern of length m will require m characters to compare, so using suffix array we can find occurrences of a pattern in the string of length n in O(mlogn) time.
+9. Suffix array can be created in O(nlogn) time.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Suffix array can be constructed in O(n2logn) time using sorting algorithms but it is possible to build the suffix array in O(nlogn) time using prefix doubling.
+10. Which of the following is/are advantages suffix array one suffix tree?
+I. Lesser space requirement
+II. Improved cache locality
+III. Easy construction in linear time
+a) Only I
+b) All I, II and III
+c) Only I and III
+d) Only II and III
+View Answer
+
+Answer: b
+Explanation: Advantages of the suffix array over suffix tree are : (i) Lesser space requirement (ii) Improved cache locality and (iii) Simple algorithms to construct suffix arrays in linear time.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Sparse Array”.
+
+1. What is a sparse array?
+a) Data structure for representing arrays of records
+b) Data structure that compactly stores bits
+c) An array in which most of the elements have the same value
+d) An array in which memory is allocated in run time
+View Answer
+
+Answer: c
+Explanation: They are set to a default value, usually 0 or null.
+2. When do you use a sparse array?
+a) When there are unique elements in the array
+b) When the array has more occurrence of zero elements
+c) When the data type of elements differ
+d) When elements are sorted
+View Answer
+
+Answer: b
+Explanation: It need not necessarily be zero, it could be any default value, usually zero or null.
+3. What is the difference between a normal(naive) array and a sparse array?
+a) Sparse array can hold more elements than a normal array
+b) Sparse array is memory efficient
+c) Sparse array is dynamic
+d) A naive array is more efficient
+View Answer
+
+Answer: b
+Explanation: A naive implementation allocates space for the entire size of the array, whereas a sparse array(linked list implementation) allocates space only for the non-default values.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. Choose the code which performs the store operation in a sparse array.(Linked list implementation)
+a)
+
+public void store(int index, Object val)
+{
+       List cur = this;
+       List prev = null;
+ 
+       List node = new List(index);
+       node.val = val;
+ 
+       while (cur != null && cur.index < index)
+       {
+           prev = cur;
+           cur = cur.next;
+       }
+ 
+       if (cur == null)
+       {
+           prev.next = node;
+       } else
+       {
+           if (cur.index == index)
+           {
+               System.out.println("DUPLICATE");
+               return;
+           }
+           prev.next = node;
+           node.next = cur;
+       }
+       return;
+}
+b)
+
+Participate in Data Structure I Certification Contest of the Month Now!
+public void store(int index, Object val)
+{
+        List cur = this;
+        List prev = null;
+ 
+        List node = new List(index);
+        node.val = val;
+ 
+        while (prev != null && prev.index < index)
+        {
+            prev = cur;
+            cur = cur.next;
+        }
+ 
+        if (cur == null)
+        {
+            prev.next = node;
+        } else
+        {
+            if (cur.index == index)
+            {
+                System.out.println("DUPLICATE");
+                return;
+            }
+            prev.next = node;
+            node.next = cur;
+        }
+        return;
+}
+c)
+
+public void store(int index, Object val)
+{
+        List cur = this;
+        List prev = null;
+ 
+        List node = new List(index);
+        node.val = val;
+ 
+        while (cur != null && cur.index < index)
+        {
+			cur = cur.next;
+            prev = cur;
+        }
+ 
+        if (cur == null)
+        {
+            prev.next = node;
+        } else
+        {
+            if (cur.index == index)
+            {
+                System.out.println("DUPLICATE");
+                return;
+            }
+            prev.next = node;
+            node.next = cur;
+        }
+        return;
+}
+d)
+
+public void store(int index, Object val)
+{
+    List cur = this;
+    List prev = null;
+ 
+    List node = new List(index);
+    node.val = val;
+ 
+    while (cur != null && prev.index < index)
+    {
+        cur = cur.next;
+        prev = cur;
+    }
+ 
+    if (cur == null)
+    {
+        prev.next = node;
+    } 
+    else
+    {
+        if (cur.index == index)
+    {
+        System.out.println("DUPLICATE");
+        return;
+    }
+    prev.next = cur;
+    node.next = node;
+    }
+    return;
+}
+View Answer
+Answer: a
+Explanation: Create a new node and traverse through the list until you reach the correct position, check for duplicate and nullity of the list and then insert the node.
+ 
+ 
+5. Which of the following performs the fetch operation?
+a)
+
+public Object fetch(int index)
+{
+        List cur = this.next;
+        Object val = null;
+        while (cur != null && cur.index != index)
+        {
+            cur = cur.next;
+        }
+        if (cur != null)
+        {
+            val = cur.val;
+        } else
+        {
+            val = null;
+        }
+        return val;
+}
+b)
+
+public Object fetch(int index)
+{
+        List cur = this;
+        Object val = null;
+        while (cur != null && cur.index != index)
+        {
+            cur = cur.next;
+        }
+        if (cur != null)
+        {
+            val = cur.val;
+        } else
+        {
+            val = null;
+        }
+        return val;
+}
+c)
+
+public Object fetch(int index)
+{
+        List cur = this;
+        Object val = null;
+        while (cur != null && cur.index != index)
+        {
+            cur = cur.index;
+        }
+        if (cur != null)
+        {
+            val = cur.val;
+        } else
+        {
+            val = null;
+        }
+        return val;
+}
+d)
+
+public Object fetch(int index)
+{
+    List cur = this.next;
+    Object val = null;
+    while (cur != null && cur.index != index)
+    {
+        cur = cur.index;
+    }
+    if (cur != null)
+    {
+        val = cur.val;
+    } 
+    else
+    {
+        val = null;
+    }
+    return val;
+}
+View Answer
+Answer: b
+Explanation: You traverse through the array until the end is reached or the index is found and return the element at that index, else null is returned.
+ 
+ 
+6. Choose the appropriate code that counts the number of non-zero(non-null) elements in the sparse array.
+a)
+
+public int count()
+{
+        int count = 0;
+        for (List cur = this.next; (cur != null); cur = cur.next)
+        {
+            count++;
+        }
+        return count;
+}
+b)
+
+public int count()
+{
+        int count = 0;
+        for (List cur = this; (cur != null); cur = cur.next)
+        {
+            count++;
+        }
+        return count;
+}
+c)
+
+public int count()
+{
+        int count = 1;
+        for (List cur = this.next; (cur != null); cur = cur.next)
+        {
+            count++;
+        }
+        return count;
+}
+d)
+
+public int count()
+{
+    int count = 1;
+    for (List cur = this.next; (cur != null); cur = cur.next.next)
+    {
+        count++;
+    }
+    return count;
+}
+View Answer
+Answer: a
+Explanation: A simple ‘for loop’ to count the non-null elements.
+ 
+ 
+7. Suppose the contents of an array A are, A = {1, null, null, null, null, 10};
+What would be the size of the array considering it as a normal array and a sparse array?
+a) 6 and 6
+b) 6 and 2
+c) 2 and 6
+d) 2 and 2
+View Answer
+
+Answer: b
+Explanation: A normal array considers null also as an element, but in the sparse array only a non-zero or a non-null element is considered.
+8. What is sparsity of a matrix?
+a) The fraction of zero elements over the total number of elements
+b) The fraction of non-zero elements over the total number of elements
+c) The fraction of total number of elements over the zero elements
+d) The fraction of total number of elements over the non-zero elements
+View Answer
+
+Answer: a
+Explanation: Sparsity of a matrix is the fraction of number of zero elements over the total number of zero elements.
+9. How would you store an element in a sparse matrix?
+a)
+
+public void store(int row_index, int col_index, Object val)
+{
+        if (row_index < 0 || row_index > N)
+	{
+            System.out.println("row index out of bounds");
+			return;
+	}
+        if (col_index < 0 || col+index > N)
+	{
+            System.out.println("column index out of bounds");
+			return;
+	}
+        sparse_array[row_index].store(col_index, val);
+}
+b)
+
+public void store(int row_index, int col_index, Object val)
+{
+        if (row_index < 0 || row_index > N)
+	{
+            System.out.println("column index out of bounds");
+			return;
+	}
+        if (col_index < 0 || col+index > N)
+	{
+            System.out.println("row index out of bounds");
+			return;
+	}
+        sparse_array[row_index].store(col_index, val);
+}
+c)
+
+public void store(int row_index, int col_index, Object val)
+{
+        if (row_index < 0 && row_index > N)
+	{
+            System.out.println("row index out of bounds");
+			return;
+	}
+        if (col_index < 0 && col+index > N)
+	{
+            System.out.println("column index out of bounds");
+			return;
+	}
+        sparse_array[row_index].store(col_index, val);
+    }
+d)
+
+public void store(int row_index, int col_index, Object val)
+{
+        if (row_index < 0 && row_index > N)
+	{
+            System.out.println("column index out of bounds");
+			return;
+	}
+        if (col_index < 0 && col+index > N)
+	{
+            System.out.println("row index out of bounds");
+			return;
+	}
+        sparse_array[row_index].store(col_index, val);
+}
+View Answer
+Answer: a
+Explanation: Each row in a sparse matrix acts as a sparse array, hence this row with the specified col_index is the array and the specified position where the element is stored.
+ 
+ 
+10. What is the functionality of the following piece of code?
+
+public Object function(int row_index, int col_index)
+{
+        if (row_index < 0 || col_index > N)
+	{
+            System.out.println("column index out of bounds");
+			return;
+	}
+        return (sparse_array[row_index].fetch(col_index));
+}
+a) Store the element in the specified position
+b) Get the element from the specified position
+c) Alter the element in the specified position
+d) Removes the element from the specified position
+View Answer
+
+Answer: b
+Explanation: The fetch method of SparseArray class is called , the row specified by row_index makes it an array and the col_index denotes the specified position.
+11. Which of the following is the disadvantage of sparse matrices over normal matrices?
+a) Size
+b) Speed
+c) Easily compressible
+d) Algorithm complexity
+View Answer
+
+Answer: d
+Explanation: As the sparse matrix contains zeroes we will compute operations only on non zero values. This increases the complexity of algorithm as we need to identify index of zero elements first and during computation we should not take those index. It is a disadvantage. Sparse matrix is easily compressible by not storing the zero/null elements, they require less memory space, also only the non zero elements have to be computed, hence computational speed increases.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Parallel Array”.
+
+1. What are parallel arrays?
+a) Arrays of the same size
+b) Arrays allocated one after the other
+c) Arrays of the same number of elements
+d) Arrays allocated dynamically
+View Answer
+
+Answer: c
+Explanation: Different arrays can be of different data types but should contain same number of elements. Elements at corresponding index belong to a record.
+2. Which of the following can be called a parallel array implementation?
+a)
+
+   firstName  = ['Joe','Bob','Frank','Hans']
+   lastName   = ['Smith','Seger','Sinatra','Schultze']
+   heightInCM = [169,158,201,199]
+ 
+   for i in xrange(len(firstName)):
+       print "Name:",firstName[i], lastName[i]
+       print "Height in CM:,",heightInCM[i]
+b)
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+   firstName  = ['Joe','Bob','Frank','Hans']
+   lastName   = ['Smith','Seger']
+   heightInCM = [169,158]
+ 
+   for i in xrange(len(firstName)):
+       print "Name:",firstName[i], lastName[i]
+       print "Height in CM:,",heightInCM[i]
+c)
+
+Take Data Structure I Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+   firstName  = ['Joe','Bob']
+   lastName   = ['Smith','Seger','Sinatra','Schultze']
+   heightInCM = [169,158]
+ 
+   for i in xrange(len(firstName)):
+       print "Name:",firstName[i], lastName[i]
+       print "Height in CM:,",heightInCM[i]
+d)
+
+   firstName  = ['Joe','Bob']
+   lastName   = ['Smith','Seger' ,'Schultze']
+   heightInCM = [169,158]
+ 
+   for i in xrange(len(firstName)):
+       print "Name:",firstName[i], lastName[i]
+       print "Height in CM:,",heightInCM[i]
+View Answer
+Answer: a
+Explanation: All the arrays must have equal length, that is, contain same number of elements.
+ 
+ 
+3. Which of the following is a disadvantage of parallel array over the traditional arrays?
+a) When a language does not support records, parallel arrays can be used
+b) Increased locality of reference
+c) Ideal cache behaviour
+d) Insertion and Deletion becomes tedious
+View Answer
+
+Answer: d
+Explanation: Insertion and deletion of elements require to move every element from their initial positions. This will become tedious. For Record collection, locality of reference and Ideal Cache behaviour we can use parallel arrays.
+4. Which of the following is an advantage of parallel arrays?
+a) Poor locality of reference for non-sequential access
+b) Very little direct language support
+c) Expensive to shrink or grow
+d) Increased Locality of Reference
+View Answer
+
+Answer: d
+Explanation: Elements in the parallel array are accessed sequentially as one arrays holds the keys whereas other holds the values. This sequential access generally improves Locality of Reference. It is an advantage.
+5. What is a sorted array?
+a) Arrays sorted in numerical order
+b) Arrays sorted in alphabetical order
+c) Elements of the array are placed at equally spaced addresses in the memory
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The array can be sorted in any way, numerical, alphabetical or any other way but the elements are placed at equally spaced addresses.
+6. To search for an element in a sorted array, which searching technique can be used?
+a) Linear Search
+b) Jump Search
+c) Binary Search
+d) Fibonacci Search
+View Answer
+
+Answer: c
+Explanation: Since the array is sorted, binary search is preferred as its time complexity is O(logn).
+7. Which of the following is not an application of sorted array?
+a) Commercial computing
+b) Priority Scheduling
+c) Discrete Mathematics
+d) Hash Tables
+View Answer
+
+Answer: d
+Explanation: Sorted arrays have widespread applications as all commercial computing involves large data which is very useful if it is sorted. It makes best use of locality of reference and data cache. Linked lists are used in Hash Tables not arrays.
+8. What is the worst case time complexity of inserting an element into the sorted array?
+a) O(nlogn)
+b) O(logn)
+c) O(n)
+d) O(n2)
+View Answer
+
+Answer: c
+Explanation: In the worst case, an element must added to the front of the array, which means that rest of the elements have to be shifted, hence the worst case time complexity becomes O(n).
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Dynamic Array”.
+
+1. What is a dynamic array?
+a) A variable size data structure
+b) An array which is created at runtime
+c) The memory to the array is allocated at runtime
+d) An array which is reallocated everytime whenever new elements have to be added
+View Answer
+
+Answer: a
+Explanation: It is a varying-size list data structure that allows items to be added or removed, it may use a fixed sized array at the back end.
+2. What is meant by physical size in a dynamic array?
+a) The size allocated to elements
+b) The size extended to add new elements
+c) The size of the underlying array at the back-end
+d) The size visible to users
+View Answer
+
+Answer: c
+Explanation: Physical size, also called array capacity is the size of the underlying array, which is the maximum size without relocation of data.
+3. The number of items used by the dynamic array contents is its __________
+a) Physical size
+b) Capacity
+c) Logical size
+d) Random size
+View Answer
+
+Answer: c
+Explanation: The number of items used by the dynamic array contents is called logical size. Physical size is the size of the underlying array, which is the maximum size without reallocation of data.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. How will you implement dynamic arrays in Java?
+a) Set
+b) Map
+c) HashMap
+d) List
+View Answer
+
+Answer: d
+Explanation: ArrayList is used to implement dynamic arrays in Java.
+5. Which of the following is the correct syntax to declare an ArrayList in Java?
+a) ArrayList al = new ArrayList();
+b) ArrayList al = new ArrayList[];
+c) ArrayList al() = new ArrayList();
+d) ArrayList al[] = new ArrayList[];
+View Answer
+
+Answer: a
+Explanation: This is a non-generic way of creating an ArrayList.
+Participate in Data Structure I Certification Contest of the Month Now!
+6. Array is divided into two parts in ____________
+a) Hashed Array Tree
+b) Geometric Array
+c) Bounded-size dynamic array
+d) Sparse Array
+View Answer
+
+Answer: c
+Explanation: The first part stores the items of the dynamic array and the second part is reserved for new allocations.
+7. Which of the following is a disadvantage of dynamic arrays?
+a) Locality of reference
+b) Data cache utilization
+c) Random access
+d) Memory leak
+View Answer
+
+Answer: d
+Explanation: Dynamic arrays share the advantage of arrays, added to it is the dynamic addition of elements to the array. Memory can be leaked if it is not handled properly during allocation and deallocation. It is a disadvantage.
+8. What is the time complexity for inserting/deleting at the beginning of the array?
+a) O(1)
+b) O(n)
+c) O(logn)
+d) O(nlogn)
+View Answer
+
+Answer: b
+Explanation: All the other elements will have to be moved, hence O(n).
+9. Dynamic arrays overcome the limit of static arrays.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Static arrays have fixed capacity. The capacity must be specified during memory allocation. Dynamic arrays don’t require to specify their capacity during memory allocation. Dynamic arrays have fixed physical size at backend and its capacity increases if required. Thus, Dynamic arrays overcome the limit of static arrays.
+10. The size of the dynamic array is deallocated if the array size is less than _________% of the backend physical size.
+a) 30
+b) 40
+c) 10
+d) 20
+View Answer
+
+Answer: a
+Explanation: The size of the dynamic array is decreased/deallocated if the actual size of the array is less than 30% of the backend physical size. This is used to avoid memory wastage.
+11. Both Dynamic array and Dynamically memory allocated array are same.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Physical size of a Dynamic array is fixed with a larger value. Dynamically memory allocated arrays are arrays whose memory is allocated at run time rather than at compile time. Dynamically memory allocated arrays don’t have physical size at the backend. Thus, Dynamic arrays and Dynamically memory allocated arrays are different.
+12. In which of the following cases dynamic arrays are not preferred?
+a) If the size of the array is unknown
+b) If the size of the array changes after few iterations
+c) If the memory reallocation takes more time i.e. expensive
+d) If the array holds less number of elements
+View Answer
+
+Answer: d
+Explanation: Dynamic arrays are preferred when the size of the array is unknown during memory allocation or the size changes after few iterations or the memory reallocation is expensive. If array holds less number of elements, the physical size is reduced and reduction takes more time. In that case, we can use normal arrays instead of dynamic arrays.
+13. The growth factor of ArrayList in Java is _______
+a) 1
+b) 1.5
+c) 2
+d) 0
+View Answer
+
+Answer: b
+Explanation: The growth factor of dynamic arrays (Array List) in Java is 3/2.
+The new array capacity is calculated as new_array_size = (old_array_size*3)/2+1.
+14. In special case, the time complexity of inserting/deleting elements at the end of dynamic array is __________
+a) O (n)
+b) O (n1/2)
+c) O (log n)
+d) O (1)
+View Answer
+
+Answer: a
+Explanation: In general, the time complexity of inserting or deleting elements at the end of dynamic array is O (1). Elements are added at reserved space of dynamic array. If this reserved space is exceeded, then the physical size of the dynamic array is reallocated and every element is copied from original array. This will take O(n) time to add new element at the end of the array.
+15. Which of the following arrays are used in the implementation of list data type in python?
+a) Bit array
+b) Dynamic arrays
+c) Sparse arrays
+d) Parallel arrays
+View Answer
+
+Answer: b
+Explanation: Dynamic arrays are used in the implementation of list data type in python. Sparse arrays are used in the implementation of sparse matrix in Numpy module. All bit array operations are implemented in bitarray module.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Bit Array”.
+
+1. What is a bit array?
+a) Data structure for representing arrays of records
+b) Data structure that compactly stores bits
+c) An array in which most of the elements have the same value
+d) Array in which elements are not present in continuous locations
+View Answer
+
+Answer: b
+Explanation: It compactly stores bits and exploits bit-level parallelism.
+2. Which of the following bitwise operations will you use to set a particular bit to 1?
+a) OR
+b) AND
+c) XOR
+d) NOR
+View Answer
+
+Answer: a
+Explanation: 1 OR 1 = 1, 0 OR 1 = 1, any bit OR’ed with 1 gives 1.
+3. Which of the following bitwise operations will you use to set a particular bit to 0?
+a) OR
+b) AND
+c) XOR
+d) NAND
+View Answer
+
+Answer: b
+Explanation: 1 AND 0 = 0, 0 AND 0 = 0, any bit AND with 0 gives 0.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the following bitwise operations will you use to toggle a particular bit?
+a) OR
+b) AND
+c) XOR
+d) NOT
+View Answer
+
+Answer: c
+Explanation: 1 XOR 1 = 0, 0 XOR 1 = 1, note that NOT inverts all the bits, while XOR toggles only a specified bit.
+5. Which of the following is not an advantage of bit array?
+a) Exploit bit level parallelism
+b) Maximal use of data cache
+c) Can be stored and manipulated in the register set for long periods of time
+d) Accessing Individual Elements is easy
+View Answer
+
+Answer: d
+Explanation: Individual Elements are difficult to access and can’t be accessed in some programming languages. If random access is more common than sequential access, they have to be compressed to byte/word array. Exploit Bit parallelism, Maximal use of data cache and storage and manipulation for longer time in register set are all advantages of bit array.
+Take Data Structure I Tests Now!
+6. Which of the following is not a disadvantage of bit array?
+a) Without compression, they might become sparse
+b) Accessing individual bits is expensive
+c) Compressing bit array to byte/word array, the machine also has to support byte/word addressing
+d) Storing and Manipulating in the register set for long periods of time
+View Answer
+
+Answer: d
+Explanation: Bit arrays allow small arrays of bits to be stored and manipulated in the register set for long periods of time with no memory accesses because of their ability to exploit bit-level parallelism, limit memory access, and maximally use the data cache, they often outperform many other data structures on practical data sets. This is an advantage of bit array. The rest are all disadvantages of bit array.
+7. Which of the following is/are not applications of bit arrays?
+a) Used by the Linux kernel
+b) For the allocation of memory pages
+c) Bloom filter
+d) Implementation of Vectors and Matrices
+View Answer
+
+Answer: d
+Explanation: Normal Arrays are used to implement vectors and matrices. Bit arrays have no prominent role. Remaining all are applications of Bit Arrays.
+8. Which class in Java can be used to represent bit array?
+a) BitSet
+b) BitVector
+c) BitArray
+d) BitStream
+View Answer
+
+Answer: a
+Explanation: The BitSet class creates a special type of array that can hold bit values.
+9. Which of the following bitwise operator will you use to invert all the bits in a bit array?
+a) OR
+b) NOT
+c) XOR
+d) NAND
+View Answer
+
+Answer: b
+Explanation: NOT operation is used to invert all the bits stored in a bit array.
+Eg: NOT (10110010) = 01001101.
+10. Run-Length encoding is used to compress data in bit arrays.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: A bit array stores the combinations of bit 0 and bit 1. Each bit in the bit array is independent. Run Length encoding is a data compression technique in which data are stored as single value and number of times that value repeated in the data. This compression reduces the space complexity in arrays. Bit arrays without compression require more space. Thus, we will use Run-Length encoding in most of the cases to compress data in bit arrays.
+11. What does Hamming weight/population count mean in Bit arrays?
+a) Finding the number of 1 bit in a bit array
+b) Finding the number of 0 bit in a bit array
+c) Finding the sum of bits in a bit array
+d) Finding the average number of 1’s and 0’s in bit arrays
+View Answer
+
+Answer: a
+Explanation: Hamming/ population count involves finding the number of 1’s in the bit array. Population count is used in data compression.
+12. Bit fields and Bit arrays are same.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Bit field contains the number of adjacent computer locations used to store the sequence of bits to address a bit or groups of bits. Bit array is an array that stores combinations of bit 0 and bit 1. Thus, bit fields and Bit arrays are different.
+13. Which one of the following operations returns the first occurrence of bit 1 in bit arrays?
+a) Find First Zero
+b) Find First One
+c) Counting lead Zeroes
+d) Counting lead One
+View Answer
+
+Answer: b
+Explanation: Find First One operation returns the first occurrence of bit 1 in the bit array. Find First Zero operation returns the first occurrence of bit 0 in the bit array. If the most significant bit in bit array is 1, then count lead zeroes operation returns the number of zeroes present before the most significant bit. If the most significant bit in bit array is 0, then the count lead one returns the number of ones present before the most significant bit.

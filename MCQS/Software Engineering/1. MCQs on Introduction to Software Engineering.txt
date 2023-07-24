@@ -1,0 +1,281 @@
+1. Choose the correct option in terms of Issues related to professional responsibility
+a) Confidentiality
+b) Intellectual property rights
+c) Both Confidentiality & Intellectual property rights
+d) Managing Client Relationships
+View Answer
+
+Answer: c
+Explanation: Engineers should normally respect the confidentiality of their employers or clients irrespective of whether or not a formal confidentiality agreement has been signed.
+They should be aware of local laws governing the use of intellectual property such as patents, copyright, etc.
+2. “Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:
+a) Unauthorized access to computer material
+b) Unauthorized modification of computer material
+c) Dissemination of viruses or other malware
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+3. Explain what is meant by PRODUCT with reference to one of the eight principles as per the ACM/IEEE Code of Ethics ?
+a) The product should be easy to use
+b) Software engineers shall ensure that their products and related modifications meet the highest professional standards possible
+c) Software engineers shall ensure that their products and related modifications satisfy the client
+d) It means that the product designed /created should be easily available
+View Answer
+
+Answer: b
+Explanation: None.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Identify an ethical dilemma from the situations mentioned below:
+a) Your employer releases a safety-critical system without finishing the testing of the system
+b) Refusing to undertake a project
+c) Agreement in principle with the policies of senior management
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+5. Identify the correct statement: “Software engineers shall
+a) act in a manner that is in the best interests of his expertise and favour.”
+b) act consistently with the public interest.”
+c) ensure that their products only meet the SRS.”
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest and shall ensure that their products and related modifications meet the highest professional standards possible.Thus options a & c are ruled out.
+Become Top Ranker in Software Engineering Now!
+6. Select the incorrect statement: “Software engineers should
+a) not knowingly accept work that is outside your competence.”
+b) not use your technical skills to misuse other people’s computers.”
+c) be dependent on their colleagues.”
+d) maintain integrity and independence in their professional judgment.”
+View Answer
+
+Answer: c
+Explanation:None.
+7. Efficiency in a software product does not include ________
+a) responsiveness
+b) licensing
+c) memory utilization
+d) processing time
+View Answer
+
+Answer: b
+Explanation: Licensing of a software product comes under corporate part of the software company.
+8. As per an IBM report, “31%of the project get cancelled before they are completed, 53% overrun their cost estimates by an average of 189% and for every 100 projects, there are 94 restarts”.What is the reason for these statistics ?
+a) Lack of adequate training in software engineering
+b) Lack of software ethics and understanding
+c) Management issues in the company
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Option b & c are a part of Software Engineering as a subject,hence option a covers them both.
+9. The reason for software bugs and failures is due to
+a) Software companies
+b) Software Developers
+c) Both Software companies and Developers
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Software companies are responsible for making policies and providing working atmosphere for the software development, so in turn these companies become a part of software development process.Bugs from developers side is no new thing. Thus option c answers the question.
+10. Company has latest computers and state-of the- art software tools, so we shouldn’t worry about the quality of the product.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The infrastructure is only one of the several factors that determine the quality of the product.
+1. Which of these are not among the eight principles followed by Software Engineering Code of Ethics and Professional Practice ?
+a) PUBLIC
+b) PROFESSION
+c) PRODUCT
+d) ENVIRONMENT
+View Answer
+
+Answer: d
+Explanation: Rest all are clauses for software ethics, environment does not focus on specific clause nor its of importace related to question.
+2. What is a Software ?
+a) Software is set of programs
+b) Software is documentation and configuration of data
+c) Software is set of programs, documentation & configuration of data
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Software is not just set of program but it is also associated documentation and configuration of data to make program run.
+3. Which of these does not account for software failure ?
+a) Increasing Demand
+b) Low expectation
+c) Increasing Supply
+d) Less reliable and expensive
+View Answer
+
+Answer: c
+Explanation: Increasing supply will lead to more production and not failure.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. What are attributes of good software ?
+a) Software maintainability
+b) Software functionality
+c) Software development
+d) Software maintainability & functionality
+View Answer
+
+Answer: d
+Explanation: Good software should deliver the required functinality, maintainability. Software development is not an attribute but a fundamental.
+5. Which of these software engineering activities are not a part of software processes ?
+a) Software dependence
+b) Software development
+c) Software validation
+d) Software specification
+View Answer
+
+Answer: a
+Explanation: Software dependence is an attribute and not an engineering activity for process.
+Become Top Ranker in Software Engineering Now!
+6. Which of these is incorrect ?
+a) Software engineering belongs to Computer science
+b) Software engineering is a part of more general form of System Engineering
+c) Computer science belongs to Software engineering
+d) Software engineering is concerned with the practicalities of developing and delivering useful software
+View Answer
+
+Answer: c
+Explanation: Software engineering is a vast sub domain which comes under computer science which is main domain.
+7. Which of these is true ?
+a) Generic products and customized products are types of software products
+b) Generic products are produced by organization and sold to open market
+c) Customized products are commissioned by particular customer
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All of them are true.
+8. Which of these does not affect different types of software as a whole?
+a) Heterogeneity
+b) Flexibility
+c) Business and social change
+d) Security
+View Answer
+
+Answer: b
+Explanation: Option b & c are a part of Software Engineering as a subject,hence option a covers them both.
+9. The fundamental notions of software engineering does not account for ?
+a) Software processes
+b) Software Security
+c) Software reuse
+d) Software Validation
+View Answer
+
+Answer: d
+Explanation: Software validation is an activity for software process and not the fundamental for engineering.
+10. Which of these is not true ?
+a) Web has led to availability of software services and possibility of developing highly distributed service based systems
+b) Web based systems have led to degradation of programming languages
+c) Web brings concept of software as service
+d) Web based system should be developed and delivered incrementally
+View Answer
+
+Answer: b
+Explanation: Web based systems has led to important advances in programming languages.
+1. Build & Fix Model is suitable for programming exercises of ___________ LOC (Line of Code).
+a) 100-200
+b) 200-400
+c) 400-1000
+d) above 1000
+View Answer
+
+Answer: a
+Explanation: Build & Fix Model is suitable for small projects & programming exercises of 100 or 200 lines.
+2. RAD stands for
+a) Relative Application Development
+b) Rapid Application Development
+c) Rapid Application Document
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+3. Which one of the following models is not suitable for accommodating any change?
+a) Build & Fix Model
+b) Prototyping Model
+c) RAD Model
+d) Waterfall Model
+View Answer
+
+Answer: d
+Explanation: Real projects rarely follow the sequential flow that the Waterfall Model proposes.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which is not one of the types of prototype of Prototyping Model?
+a) Horizontal Prototype
+b) Vertical Prototype
+c) Diagonal Prototype
+d) Domain Prototype
+View Answer
+
+Answer: c
+Explanation: Their is no such thing as Diagonal Prototype whereas other options have their respective definitions.
+5. Which one of the following is not a phase of Prototyping Model?
+a) Quick Design
+b) Coding
+c) Prototype Refinement
+d) Engineer Product
+View Answer
+
+Answer: b
+Explanation: A prototyping model generates only a working model of a system.
+Take Software Engineering Tests Now!
+6. Which of the following statements regarding Build & Fix Model is wrong?
+a) No room for structured design
+b) Code soon becomes unfixable & unchangeable
+c) Maintenance is practically not possible
+d) It scales up well to large projects
+View Answer
+
+Answer: d
+Explanation: Build & Fix Model is suitable for 100-200 LOC
+7. RAD Model has
+a) 2 phases
+b) 3 phase
+c) 5 phases
+d) 6 phases
+View Answer
+
+Answer: c
+Explanation: RAD Model consists of five phases namely:Business modeling,Data modeling,Process modeling,Application generation and Testing & Turnover.
+8. What is the major drawback of using RAD Model?
+a) Highly specialized & skilled developers/designers are required
+b) Increases reusability of components
+c) Encourages customer/client feedback
+d) Increases reusability of components, Highly specialized & skilled developers/designers are required
+View Answer
+
+Answer: d
+Explanation: The client may create an unrealistic product vision leading a team to over or under-develop functionality.Also, the specialized & skilled developers are not easily available.
+9. SDLC stands for
+a) Software Development Life Cycle
+b) System Development Life cycle
+c) Software Design Life Cycle
+d) System Design Life Cycle
+View Answer
+
+Answer: a
+Explanation: None.
+10. Which model can be selected if user is involved in all the phases of SDLC?
+a) Waterfall Model
+b) Prototyping Model
+c) RAD Model
+d) both Prototyping Model & RAD Model
+View Answer
+
+Answer: c
+Explanation: None.

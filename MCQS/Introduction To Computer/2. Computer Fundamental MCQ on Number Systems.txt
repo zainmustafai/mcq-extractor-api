@@ -1,0 +1,553 @@
+1. Which of the following is not a type of number system?
+a) Positional
+b) Non-Positional
+c) Octal
+d) Fractional
+View Answer
+
+Answer: d
+Explanation: There are two main types of number systems : Positional & Non-positional.
+Positional System uses digits for the representation whereas, non-positional number systems use certain symbols for the representation of numbers. Octal is a type of positional number systems with base 8.
+2. How is the number 5 represented in non-positional number system?
+a) IIIII
+b) 5
+c) V
+d) v
+View Answer
+
+Answer: c
+Explanation: In a non-positional number system, 1 is represented as I, 2 as II, 3 as III, 4 as IIII and therefore, 5 is represented as V in Roman Code. The digits in this number system are represented by symbols.
+3. The base is the total number of digits in a number system.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. In a positional number system, base is the number of digits the system comprises. For example, a binary number system comprises of only 2 digits, 0 and 1, therefore its base is 2. Similarly, the decimal system comprises 10 digits 0 to 9, therefore its base is 10.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The LSB and MSB of 1243247 are ____ and ____
+a) 1, 7
+b) 4, 7
+c) 7, 1
+d) 4, 1
+View Answer
+
+Answer: c
+Explanation: The LSB or the least significant bit is the rightmost digit at the zeros position. The MSB or the most significant bit is the leftmost digit.
+5. A device that uses positional notation to represent a decimal number.
+a) Abacus
+b) Calculator
+c) Pascaline
+d) Computer
+View Answer
+
+Answer: a
+Explanation: Abacus was used to doing arithmetic calculations around 2500 years ago. Pascaline was the pascal’s calculator by Blaise Pascal invented for doing laborious calculations.
+Check this: Computer Science MCQs | BCA Books
+6. The 2’s complement of 5 is ______________
+a) 1011
+b) 0101
+c) 1010
+d) 0011
+View Answer
+
+Answer: a
+Explanation: The 2’s complement is obtained by adding 1 to the 1s complement of a number. The 1’s complement of 5(0101) is 1010. For 2’s complement : 1010+1=1011.
+7. What does BCD stand for?
+a) Bitwise coded decimal
+b) Binary coded decimal
+c) Binary converted decimal
+d) Bitwise Converted Decimal
+View Answer
+
+Answer: b
+Explanation: BCD is the binary coded decimal form of representation of numbers in 4 bits.E.g. The BCD representation of 5 is 0101. BCD representation of 22 is 00100010.
+8. 1 zettabyte = ______________
+a) 1024 TB
+b) 1024 EB
+c) 1024 ZB
+d) 1024 PB
+View Answer
+
+Answer: b
+Explanation: 1 ZB=1024 EB(exabyte)
+1 EB=1024PB(petabyte)
+1 YB(yottabyte)=1024ZB.
+9. Perfrom BCD addition: 2+3= _______________
+a) 0010
+b) 0011
+c) 0101
+d) 1010
+View Answer
+
+Answer: c
+Explanation: BCD of 2 =0010
+BCD of 3=0011
+0010+0011=0101
+Therefore, 2+3=0101(5).
+10. ASCII stands for _____________________
+a) American standard code for information interchange
+b) American scientific code for information interchange
+c) American scientific code for international interchange
+d) American standard code of international interchange
+View Answer
+
+Answer: a
+Explanation: ASCII is an encoding standard which is used for communications worldwide. ASCII codes are allotted to digits, special characters and alphabets for data communication purpose.
+1. The value of base in a decimal number system is ____________
+a) 8
+b) 2
+c) 10
+d) 16
+View Answer
+
+Answer: c
+Explanation: A decimal number system consists of 10 digits from 0 to 9.
+The definition of base describes it as a quantity to represent the number of digits present in that particular number system.
+Therefore, here, the base is 10.
+2. Convert : (110)2 = ( __ )10.
+a) 4
+b) 5
+c) 6
+d) 9
+View Answer
+
+Answer: c
+Explanation: The base 2 represents that the number is binary ,whereas, the base 10 represents that it is to be converted to the decimal format.
+Conversion: 22 * 1 + 21 * 1 + 20 *0 = 6.
+3. The 2’s complement of 15 is ____________
+a) 0000
+b) 0001
+c) 0010
+d) 0100
+View Answer
+
+Answer: b
+Explanation: 2’s complement is obtained by adding 1 to the 1’s complement of the number.
+Here, Binary of 15 = 1111
+1’s complement of 15= 0000
+2’s complement of 15= 0000+1=0001.
+4. Another name for base is __________
+a) root
+b) radix
+c) entity
+d) median
+View Answer
+
+Answer: b
+Explanation: Another name for base is radix. Base refers to the number of digits that a particular number system consists of.
+The base of decimal number system is 10, binary is 2 and so on.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+5. The decimal equivalent of (0.101)2 will be ____________
+a) 0.5
+b) 0.625
+c) 0.25
+d) 0.875
+View Answer
+
+Answer: b
+Explanation: Since the base is 2 , it could be easily guessed that the number is binary. Conversion: 2-1 * 1 + 2-2 * 0 + 2-3 * 1 = 0.625.
+Take Computer Fundamentals Tests Now!
+6. The signed magnitude for -3 will be ___________
+a) 00000011
+b) 10000011
+c) 11111101
+d) 11111100
+View Answer
+
+Answer: b
+Explanation: Signed Magnitude of a number is a representation to determine if the number is positive or negative.
+If the MSB of a number is 0, the number is positive, else if it is 1 the number is negative.
+Here, +3 = 00000011
+-3= 100000011.
+7. A number with both integer and a fractional part has digits raised to both positive and negative powers of 2 in a decimal number system.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In a decimal number system, a number with both integer and a fractional part has digits raised to both positive and negative powers of 10 and not 2.
+e.g. 22.34 = 2 * 101 + 2 * 100 + 3 * 10-1 + 4 * 10-2.
+8. The hexadecimal representation of 14 is _______________
+a) A
+b) F
+c) D
+d) E
+View Answer
+
+Answer: d
+Explanation: The hexadecimal representations are as follows:
+10 : A
+11 : B
+12 : C
+13 : D
+14 : E
+15 : F.
+9. Which of the following is not a decimal number?
+a) 114
+b) 43.47
+c) 99.9A
+d) 10101
+View Answer
+
+Answer: c
+Explanation: All the numbers except 99.9A are decimal numbers.
+This number has a hexadecimal component A in it, therefore , it is not a valid decimal number.
+The decimal equivalent of A is 10.
+10. Select the incorrect option:
+a) (101)10 = (1100101)2
+b) G is valid in hexadecimal system.
+c) C represents 12
+d) The base of a decimal number system is 10.
+View Answer
+
+Answer: b
+Explanation: G is not a valid hexadecimal number. In this system, only representations from A to E are used to represent the numbers from 10 to 15. The base of the hexadecimal number system is 16.
+1. Which of the following is not a positional number system?
+a) Roman Number System
+b) Octal Number System
+c) Binary Number System
+d) Hexadecimal Number System
+View Answer
+
+Answer: a
+Explanation: The Roman number system isn’t a positional number system since it uses symbols to represent numbers.
+The octal number system uses digits from 0-7, the binary number system uses digits from 0-1 whereas, the hexadecimal number system uses digits from 0-15.
+2. The value of radix in binary number system is _____________
+a) 2
+b) 8
+c) 10
+d) 1
+View Answer
+
+Answer: a
+Explanation: In a binary number system, the value of base or radix is 2. The binary system uses only two digits for the representation of numbers, therefore its base id has chosen to be 2.
+3. The binary equivalent of the decimal number 10 is __________
+a) 0010
+b) 10
+c) 1010
+d) 010
+View Answer
+
+Answer: c
+Explanation: To get the binary equivalent of any number, we need to divide the number by 2 and obtain the remainders as :
+computer-fundamentals-questions-answers-binary-number-system-q3
+We then write the remainders in the reverse order as 1010 .
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A computer language that is written in binary codes only is _____
+a) machine language
+b) C
+c) C#
+d) pascal
+View Answer
+
+Answer: a
+Explanation: Machine Language is written in binary codes only. It can be easily understood by the computer and is very difficult for us to understand. A machine language, unlike other languages, requires no translators or interpreters.
+5. The octal equivalent of 1100101.001010 is ______
+a) 624.12
+b) 145.12
+c) 154.12
+d) 145.21
+View Answer
+
+Answer: b
+Explanation: The octal equivalent is obtained by grouping the numbers into three, from right to left before decimal and from right to left after the decimal place.
+Here,
+computer-fundamentals-questions-answers-binary-number-system-q5
+i.e. 145.12 is the octal equivalent of the number.
+Get Free Certificate of Merit in Computer Fundamentals Now!
+6. The input hexadecimal representation of 1110 is _______________
+a) 0111
+b) E
+c) 15
+d) 14
+View Answer
+
+Answer: b
+Explanation: In hexadecimal number system, 1110 = 15, which is represented by the alphabet E.
+Some representations are:
+A 10
+B 11
+C 12
+D 13
+E 14
+F 15.
+7. A bit in a computer terminology means either 0 or 1.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: A bit stands for a binary digit. A binary digit can have only two digits i.e. 0 or 1. A binary number consisting of n-bits is called an n-bit number.
+8. Convert the binary equivalent 10101 to its decimal equivalent.
+a) 21
+b) 12
+c) 22
+d) 31
+View Answer
+
+Answer: a
+Explanation: To convert a binary number to its decimal equivalent follow these steps :
+24 * 1 + 23 * 0 + 22 *1 + 21 * 0 + 20 * 1 = 21.
+Therefore, the answer is 21.
+9. Which of the following is not a binary number?
+a) 1111
+b) 101
+c) 11E
+d) 000
+View Answer
+
+Answer: c
+Explanation: A binary number can have only two possible digits, 0 and 1. In the third option, there is an alphabet E present which makes it an invalid binary number. Alphabets are only allowed in the hexadecimal number system.
+10. Which of the following is the correct representation of a binary number?
+a) (124)2
+b) 1110
+c) (110)2
+d) (000)2
+View Answer
+
+Answer: d
+Explanation: The binary numbers should comprise only two digits 0 and 1.
+Also, for the base, the value should be 2 and it should be written as a subscript enclosing the entire number. Here, the fourth option gives the correct representation.
+1. What could be the maximum value of a single digit in an octal number system?
+a) 8
+b) 7
+c) 6
+d) 5
+View Answer
+
+Answer: b
+Explanation: The maximum value in any number system is one less than the value of the base. The base in an octal number system is 8, therefore, the maximum value of the single digit is 7. It takes digits from 0 to 7.
+2. In a number system, each position of a digit represents a specific power of the base.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: In a number system, every digit is denoted by a specific power of base. Like in an octal system, consider the number 113, it will be represented as :
+82 * 1 + 81 * 1 + 80 *3.
+3. The maximum number of bits sufficient to represent an octal number in binary is _______
+a) 4
+b) 3
+c) 7
+d) 8
+View Answer
+
+Answer: b
+Explanation: The octal number system comprises of only 8 digits. Hence, three bits (23 = 8) are sufficient to represent any octal number in the binary format.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The binary number 111 in octal format is ________________
+a) 6
+b) 7
+c) 8
+d) 5
+View Answer
+
+Answer: b
+Explanation: Certain binary to octal representations are :
+000=0
+001=1
+010=2
+011=3
+100=4
+101=5
+110=6
+111=7.
+5. Convert (22)8 into its corresponding decimal number.
+a) 28
+b) 18
+c) 81
+d) 82
+View Answer
+
+Answer: b
+Explanation: To convert an octal number to decimal number:
+81 * 2 + 80 * 2 = 16 + 2 = 18.
+Hence, the decimal equivalent is 18.
+Become Top Ranker in Computer Fundamentals Now!
+6. The octal equivalent of the binary number (0010010100)2 is ______________
+a) 422
+b) 242
+c) 224
+d) 226
+View Answer
+
+Answer: c
+Explanation: To obtain the octal equivalent, we take numbers in groups of 3, from right to left as :
+ 000  010  010   100
+ 
+  0    2    2      4     =  (224)<sub>8</sub>.
+7. Octal subtraction of (232)8 from (417)8 will give ______________
+a) 165
+b) 185
+c) 815
+d) 516
+View Answer
+
+Answer: a
+Explanation: Octal subtraction is done as follows:
+417
+– 232
+________
+165
+The octal subtraction is the same as that of any other number system. The only difference is, like in a decimal number system, we borrow a group of 10, in a binary system we borrow a group of 2, in an octal number system, we borrow in groups of 8.
+8. The 1’s complement of 0.101 is _________________
+a) 1.010
+b) 0.010
+c) 0.101
+d) 1.101
+View Answer
+
+Answer: a
+Explanation: The 1’s complement of a number is obtained by reversing the bits with value 1 to 0 and the bits with value 0 to 1.
+Here, 0.101 gets converted to 1.010 in its 1’s complement format.
+9. Convert (5401)8 to hexadecimal.
+a) A01
+b) A02
+c) B01
+d) C01
+View Answer
+
+Answer: c
+Explanation: To convert octal to hexadecimal, we first write binary format of the number and then make groups of 4 bits from right to left, as follows:
+ 5     4      0     1
+101   100    000    001   (octal -> binary)
+1011     0000    0001     ( groups of 4)
+B         0       1       ( hexadecimal equivalent)
+Therefore, the hexadecimal equivalent is (B01)16.
+
+10. Express the decimal format of the signed binary number (10010)2 .
+a) 2
+b) 12
+c) -12
+d) -2
+View Answer
+
+Answer: d
+Explanation: The first bit is the sign bit whereas the rest of the bits are magnitude bits. So the number is: 0010 = 21 * 1 =2
+But, the sign bit is 1, Therefore the answer is : (-2)10.
+1. What does the symbol D represent in a hexadecimal number system?
+a) 8
+b) 16
+c) 13
+d) 14
+View Answer
+
+Answer: c
+Explanation: The symbols A, B, C, D, E and F represent 10, 11, 12, 13, 14 and 15 respectively in a hexadecimal system. This system comprises of 15 numbers in total: digits from 0-9 and symbols from A to F.
+2. ABC is a valid hexadecimal number.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: In a hexadecimal number system, alphabets are used for the representation of numbers from 10 to 15. Here, A represents 10, B represents 11 and C represents 12. Therefore, it is a valid hexadecimal number.
+3. The maximum number of bits sufficient to represent a hexadecimal number in binary:
+a) 4
+b) 3
+c) 7
+d) 8
+View Answer
+
+Answer: a
+Explanation: The hexadecimal number system comprises of only 15 symbols: 10 digits and 5 symbols. Hence, four bits (24 = 16) are sufficient to represent any hexadecimal number in the binary format.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The binary number 1110 in hexadecimal format is _____________
+a) 6
+b) E
+c) 14
+d) 15
+View Answer
+
+Answer: b
+Explanation: Certain binary to hexadecimal representations are :
+1010=A
+1011=B
+1100=C
+1101=D
+1110=E
+1111=F.
+5. Convert (52)16 into its decimal equivalent.
+a) 28
+b) 83
+c) 80
+d) 82
+View Answer
+
+Answer: d
+Explanation: To convert a hexadecimal number to decimal number:
+161 * 5 + 160 * 2 = 80 + 2 = 82
+Hence, the decimal equivalent is 82.
+Become Top Ranker in Computer Fundamentals Now!
+6. The hexadecimal equivalent of the binary number (0010010100)2 is :
+a) (094)16
+b) (0A4)16
+c) 224
+d) 0114
+View Answer
+
+Answer: a
+Explanation: To obtain the hexadecimal equivalent, we take numbers in groups of 4, from right to left as : 0000 1001 0100:
+Here, 0000 = 0; 1001 = 9 and 0100 = 4
+Therefore, the answer will be (094)16
+7. Hexadecimal Addition of (3A5)16 and (1B2)16 will give :
+a) 557
+b) 185
+c) 815
+d) 516
+View Answer
+
+Answer: a
+Explanation: Octal subtraction is done as follows:
+3A5
++ 1B2
+________
+557
+In hexadecimal addition of alphabets, we add the corresponding numbers they represent and then subtract the result from 16, then generate a carry of 1 to the next set of numbers.
+Here, 5+2=7
+A+B=10+11=21-16=5
+3+1+1(carry)=5.
+8. The 2’s complement of 10.11 :
+a) 10
+b) 0.010
+c) 01.01
+d) 10.01
+View Answer
+
+Answer: a
+Explanation: The 1’s complement of a number is obtained by reversing the bits with value 1 to 0 and the bits with value 0 to 1. Here, 10.11 gets converted to 01.00 in its 1’s complement format. Further, to convert 1’s complement into 2’s, we add 1 to the result. Here, 01.00+1=10.00.
+9. Convert (6532)8 to hexadecimal.
+a) (A01)16
+b) (A02)16
+c) (D5A)16
+d) (C01)16
+View Answer
+
+Answer: c
+Explanation: To convert octal to hexadecimal, we first write binary format of the number and then make groups of 4 bits from right to left, as follows:
+ 6   5   3   2
+110 101 011 010   (octal -> binary)
+1101  0101  1010  (groups of 4)
+ D    5      A    (hexadecimal equivalent)
+Therefore, the hexadecimal equivalent is (D5A)16.
+
+10. What do we call the point(decimal) in any hexadecimal number of the form 111.A3?
+a) radix
+b) hexadecimal point
+c) decimal
+d) octal point
+View Answer
+
+Answer: b
+Explanation: The decimal is often referred to as the hexadecimal point in hexadecimal representation of numbers.
+It is referred to as the octal point in octal numbers.

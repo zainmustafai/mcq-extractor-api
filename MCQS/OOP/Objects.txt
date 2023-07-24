@@ -1,0 +1,786 @@
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Object Array”.
+
+1. What is an array of objects?
+a) An array of instances of class represented by single name
+b) An array of instances of class represented by more than one name
+c) An array of instances which have more than 2 instances
+d) An array of instances which have different types
+View Answer
+
+Answer: a
+Explanation: The array of objects an array of instances of a class. The array is represented by a single name. The array name is itself a pointer. Array name represents the first object.
+2. Which among the following is a mandatory condition for array of objects?
+a) All the objects should be of different class
+b) All the objects should be of same program classes
+c) All the objects should be of same class
+d) All the objects should have different data
+View Answer
+
+Answer: c
+Explanation: The objects of an array must be of same class. This is mandatory because array is set of same type of elements. The objects of same class are considered to be of same type.
+3. What is the type of elements of array of objects?
+a) Class
+b) Void
+c) String
+d) Null
+View Answer
+
+Answer: a
+Explanation: The class itself is the type of elements of array of objects. All the objects possess the same properties. Like any other primitive data type, the objects are of their respective class type.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. If array of objects is declared as given below, which is the limitation on objects?
+
+Class_name arrayName[size];
+a) The objects will have same values
+b) The objects will not be initialized individually
+c) The objects can never be initialized
+d) The objects will have same data
+View Answer
+
+Answer: b
+Explanation: If the syntax given, is used to declare the array of objects, then the objects can’t be initialized individually. All the objects will have to be initialized after this declaration.
+Participate in Object Oriented Programming Certification Contest of the Month Now!
+5. Which is the condition that must be followed if the array of objects is declared without initialization, only with size of array?
+a) The class should have separate constructor for each object
+b) The class must have no constructors
+c) The class should not have any member function
+d) The class must have a default or zero argument constructor
+View Answer
+
+Answer: d
+Explanation: The class must have a default/zero argument constructor. Since the declaration is done by only specifying the size of array, the class must have default a construct to be called by default to reserve memory for each object. Also, we can’t specify the arguments in this type of declaration hence the class should provide a default initialization.
+6. When are the array of objects without any initialization useful?
+a) When object data is not required just after the declaration
+b) When initialization of object data is to be made by the compiler
+c) When object data doesn’t matter in the program
+d) When the object should contain garbage data
+View Answer
+
+Answer: a
+Explanation: Sometimes the object data is not mandatory to be used just after the declaration or may be the program requires the data to be updated according to what user inputs. Hence only declaration us also useful.
+7. If constructor arguments are passed to objects of array then ____________ if the constructors are overloaded.
+a) It is mandatory to pass same number of arguments to all the objects
+b) It is mandatory to pass same type of arguments to all the objects
+c) It is not mandatory to call same constructor for all the objects
+d) It is mandatory to call same constructor for all the constructors
+View Answer
+
+Answer: c
+Explanation: It is not mandatory to call the same constructor for all the objects in an array if initialized with the declaration. The objects can be passed with different set of arguments in the same syntax, separated by commas.
+8. How the objects of array can be denoted?
+a) Indices
+b) Name
+c) Random numbers
+d) Alphabets
+View Answer
+
+Answer: a
+Explanation: Different objects in an array can be denoted with the indices of array. The first object is denoted by 0. And the further indices denote the next objects in sequence of array.
+9. The objects in an object array _______________________
+a) Can be created without use of constructor
+b) Can be created without calling default constructor
+c) Can’t be created with use of constructor
+d) Can’t be created without calling default constructor
+View Answer
+
+Answer: b
+Explanation: The objects need some constructor to get the memory spaced reserved for those. If the default constructor is not used then we can use some arguments constructor which will reserve the memory for the objects. The objects can be passed with constructor arguments during declaration.
+10. The Object array is created in _____________________
+a) Heap memory
+b) Stack memory
+c) HDD
+d) ROM
+View Answer
+
+Answer: a
+Explanation: If the object arrays are declared dynamically, then the memory will be reserved on heap. The memory for objects will be on stack only if some constructor or some call and return tasks are happening. The program doesn’t run on HDD and ROM is not used for the execution of programs.
+11. If an array of objects is of size 10 and a data value have to be retrieved from 5th object then ________________ syntax should be used.
+a) Array_Name[4].data_variable_name;
+b) Data_Type Array_Name[4].data_variable_name;
+c) Array_Name[4].data_variable_name.value;
+d) Array_Name[4].data_variable_name(value);
+View Answer
+
+Answer: a
+Explanation: The array name with the index of fifth element is called, i.e. index 4. Then the dot operator is used to access the data member of that object. This Allows us to access the data members of all the objects in an object array.
+12. Can we have two dimensional object array?
+a) Yes, always
+b) Yes, only if primitive type array
+c) No, since two indices are impossible
+d) No, never
+View Answer
+
+Answer: a
+Explanation: A two dimensional array can always be created. There is no rule that only primitive type objects can have more than one dimension. The object array can also be made 2 dimensional.
+13. From which index does the array of objects start?
+a) 0
+b) 1
+c) 2
+d) 3
+View Answer
+
+Answer: a
+Explanation: The index must start from 0. The index ends at size – 1 index. This is because the index is always till n-1 where n is the total number of beads.
+14. Two dimensional array can’t be initialized with the declaration.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The two dimensional arrays can also be initialized using curly brackets. For each set, values in curly bracket. And then another bracket is added at first and end. This ensures that all the code belongs to the user.
+15. Is an array of characters always a string?
+a) Yes, always
+b) Yes, if each character is terminated by null
+c) No, since each character is terminated by null
+d) No, never
+View Answer
+
+Answer: d
+Explanation: The character arrays are not the same as string. The string once created then remains the same. The character array values may change.
+
+This set of Object Oriented Programming using C++ test focuses on “Memory Allocation of Object”.
+
+1. What does memory allocation for objects mean?
+a) Actual creation and memory allocation for object members
+b) Creation of member functions
+c) Creation of data members for a class
+d) Actual creation and data declaration for object members
+View Answer
+
+Answer: a
+Explanation: The memory allocated for the object members indicates actual creation of the object members. This is known as memory allocation for object.
+2. Where is the memory allocated for the objects?
+a) HDD
+b) Cache
+c) RAM
+d) ROM
+View Answer
+
+Answer: c
+Explanation: The memory for the objects or any other data is allocated in RAM initially. This is while we run a program all the memory allocation takes place in some RAM segments. Arrays in heap and local members in stack etc.
+3. When is the memory allocated for an object?
+a) At declaration of object
+b) At compile time
+c) When object constructor is called
+d) When object is initialized to another object
+View Answer
+
+Answer: c
+Explanation: The object memory allocation takes place when the object constructor is called. Declaration of an object doesn’t mean that memory is allocated for its members. If object is initialized with another object, it may just get a reference to the previously created object.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. Using new is type safe as _______________________
+a) It require to be specified with type of data
+b) It doesn’t require to be specified with type of data
+c) It requires the name of data
+d) It allocated memory for the data
+View Answer
+
+Answer: b
+Explanation: The new is type safe because we don’t have to specify the type of data that have to be allocated with memory. We can directly use it with data name. Name of the data doesn’t matter though for type of memory allocation though.
+5. Which of the following function can be used for dynamic memory allocation of objects?
+a) malloc()
+b) calloc()
+c) create()
+d) malloc() and calloc()
+View Answer
+
+Answer: d
+Explanation: The malloc() function can be used to allocate dynamic memory for objects. Function calloc() can also be use. These functions differ in the way they allocate memory for objects.
+Become Top Ranker in Object Oriented Programming Now!
+6. How much memory will be allocated for an object of class given below?
+
+class Test
+{
+	int mark1;
+	int mark2;
+	float avg;
+	char name[10];
+};
+a) 22 Bytes
+b) 24 Bytes
+c) 20 Bytes
+d) 18 Bytes
+View Answer
+
+Answer: a
+Explanation: The size of an object of the class given in question will be of size 22 bytes. This is because the size of an object is always equal to the sum of sizes of the data members of the class, except static members.
+7. Which keyword among the following can be used to declare an array of objects in java?
+a) new
+b) create
+c) allocate
+d) arr
+View Answer
+
+Answer: a
+Explanation: The keyword new can be used to declare an array of objects in java. The syntax must be specified with an object pointer which is assigned with a memory space containing the required number of object space. Even initialization can be done directly.
+8. When is the memory allocated for an object gets free?
+a) At termination of program
+b) When object goes out of scope
+c) When main function ends
+d) When system restarts
+View Answer
+
+Answer: b
+Explanation: Whenever an object goes out of scope, the deletion of allocation memory takes place. Actually the data is not deleted, instead the memory space is flagged to be free for further use. Hence whenever an object goes out of scope the object members become useless and hence memory is set free.
+9. Which among the following keyword can be used to free the allocated memory for an object?
+a) delete
+b) free
+c) either delete or free
+d) only delete
+View Answer
+
+Answer: c
+Explanation: The memory allocated for an object is usually automatically made free. But if explicitly memory has to be made free then we can use either free or delete keywords depending on programming languages.
+10. Which function is called whenever an object goes out of scope?
+a) Destructor function
+b) Constructor function
+c) Delete function
+d) Free function
+View Answer
+
+Answer: a
+Explanation: The destructor function of the class is called whenever an object goes out of scope. This is because the destructor set all the resources, acquired by the object, free. This is an implicit work of compiler.
+11. Which operator can be used to check the size of an object?
+a) sizeof(objectName)
+b) size(objectName)
+c) sizeofobject(objectName)
+d) sizedobject(objectName)
+View Answer
+
+Answer: a
+Explanation: The sizeof operator is used to get the size of an already created object. This operator must constail keyword sizeof(objectName). The output will give the number of bytes acquired by a single object of some class.
+12. The memory allocated for an object ____________________
+a) Can be only dynamic
+b) Can be only static
+c) Can be static or dynamic
+d) Can’t be done using dynamic functions
+View Answer
+
+Answer: c
+Explanation: The memory allocation for an object can be static or dynamic. The static memory allocation is when an object is declared directly without using any function usually. And dynamic allocation is when we use some dynamic allocation function to allocate memory for data member of an object.
+13. If an object is declared in a user defined function __________________
+a) Its memory is allocated in stack
+b) Its memory is allocated in heap
+c) Its memory is allocated in HDD
+d) Its memory is allocated in cache
+View Answer
+
+Answer: a
+Explanation: The memory for any data or object that are used in a user defined function are always allocated in the stack. This is to ensure that the object is destroyed as soon as the function is returned. Also this ensures that the correct memory allocation and destruction is performed.
+14. In java, ____________________ takes care of managing memory for objects dynamically.
+a) Free collector
+b) Dust collector
+c) Memory manager
+d) Garbage collector
+View Answer
+
+Answer: d
+Explanation: The garbage collector in java takes care of the memory allocations and their deletions dynamically. When an object is no more required then the garbage collector deletes the object and free up all the resources that were held by that object.
+15. Which operator can be used to free the memory allocated for an object in C++?
+a) Free()
+b) delete
+c) Unallocate
+d) Collect
+View Answer
+
+Answer: b
+Explanation: The delete operator in C++ can be used to free the memory and resources held by an object. The function can be called explicitly whenever required. In C++ memory management must be done by the programmer. There is no automatic memory management in C++
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Object Reference”.
+
+1. What is reference to an object?
+a) It is address of an object
+b) It is address of where the variables and methods of object are stored
+c) It is pointer having address of an object
+d) It is address of only variables and not the methods of an object
+View Answer
+
+Answer: b
+Explanation: Reference indicates the address where the object’s variables and methods are stored. It is not actual address of the object. This is done to directly use the variables and methods whenever required.
+2. Whenever an object is assigned to a variable or passed to a method ________________
+a) Actually the objects aren’t used
+b) Actually only the objects are used
+c) Actually a pointer to an object is used
+d) Actually copy of object is used
+View Answer
+
+Answer: a
+Explanation: Whenever an object is assigned to a variable or passed to a method, we aren’t actually using objects there. Actually the reference to the objects is used. The reference makes a lot of difference as the main object may or may not get affected depending on the code.
+3. Does use of object reference in assignment or passing means copy of the object is being used?
+a) No, because the copy would create a new temporary variable
+b) No, because the copy would not help to make changes to main object
+c) Yes, because the reference directly means using address
+d) Yes, because the reference directly means the constructors are involved
+View Answer
+
+Answer: c
+Explanation: We can’t say that the reference involves constructors in passing the objects to some method. The reference is used to denote the addresses and hence to point to the main object itself. There is no copy involved.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. What will be the output of the following code?
+
+import java.awt.Point;
+class Testing
+{
+	public static void main(String[] args)
+	{
+		Point p1,p2;
+		p1=new Point(100,100);
+		p2=p1;
+		p1.x=200;
+		p1.y=200;
+		System.out.println(“Point 1: ” + p1.x + ”, “ + p1.y);
+		System.out.println(“Point 2: ” + p2.x + ”, “ + p2.y);
+	}
+}
+a)
+
+Point 1: 100, 100
+Point 2: 200, 200
+Take Object Oriented Programming Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+b)
+
+Point 1: 200, 200
+Point 2: 100, 100
+c)
+
+Point 1: 100, 100
+Point 2: 100, 100
+d)
+
+Point 1: 200, 200
+Point 2: 200, 200
+View Answer
+Answer: d
+Explanation: The expected output would be like p2 with values 100, 100. But this is not the case. The tricky part is assignment used (p2=p1;). Here a reference is created from object p1 to p2, and not any new object that would copy p1’s values. Hence when we change the values of p1 object members. There changes are reflected to the object p2 also.
+ 
+ 
+5. Is there any explicit use of pointers in java that would be applicable to objects?
+a) Yes, we use reference for this purpose
+b) Yes, we use java arrays for this purpose
+c) No, implicit pointing is possible
+d) No, direct class names should be used
+View Answer
+
+Answer: c
+Explanation: The question clearly asks if there is any explicit use of pointers related to objects. Pointers are not applicable in java first of all. Secondly, the pointing in java is achieved implicitly using the references and object arrays.
+6. Can a super class object give reference to a subclass method?
+a) No, it is not possible
+b) Maybe, it is possible
+c) No, it’s not possible
+d) No, It’s not possible in few cases only
+View Answer
+
+Answer: c
+Explanation: The object of a super class can never refer to methods of a subclass. Whereas vice versa is possible. If there is an overridden function in subclass, then the object of super class will execute the method of itself and not from the subclass.
+7. What will be the output of the following code?
+
+import java.awt.Point;
+class Testing
+{
+	public static void main(String[] args)
+	{
+		Point t1,t2,t3;
+		t1=new Point(100,100);
+		t2=t1;
+		t3=t1;
+		t1.x=200;
+		t1.y=200;
+		t2.x=300;
+		t3.y=500;
+		System.out.println(“Point 1: ” + p1.x + ”, “ + p1.y);
+	}
+}
+a) Point 1: 200, 200
+b) Point 1: 100,100
+c) Point 1: 300, 300
+d) Point 1: 300, 500
+View Answer
+
+Answer: d
+Explanation: When references are used, all the variables point to the same object. Whenever any of the variable changes any values, it will be reflected to all the variables pointing to the same object.
+8. If a reference variable is declared final then _________________
+a) It can never be reassigned to refer to a different object
+b) It can be assigned to refer to any object anytime
+c) It can never be assigned with any object
+d) It can be assigned with 2 or more objects simultaneously
+View Answer
+
+Answer: a
+Explanation: Since the variable is declared final. It will have a constant value throughout the program. It can refer to only one object at a time. And if it was made to refer to none of the object, it would have got no use.
+9. Which of the members are referred by this pointer usually (Java)?
+a) Members of class where this is used
+b) Member of the parent class where this is used
+c) Members that are passed as argument to the object
+d) Pointers are not applicable in java
+View Answer
+
+Answer: a
+Explanation: We use this pointer to differentiate the members of the class where this is used to the other inherited or passed variables. The local variables are denoted with this. Or specifically the members of class only.
+10. How to refer to method of nested class?
+a) enclosingClassObject.innerClassObject.method();
+b) innerClassObject.method();
+c) method();
+d) depends on where the method is being called
+View Answer
+
+Answer: d
+Explanation: This depends on where the method is being called. If the method is called inside the enclosing class itself. Then we can’t use object of enclosing class. If the method is being called within the inner class itself, then its object will also be of no use.
+11. How many objects can be referenced from the same variables?
+a) One at a time
+b) Many at a time
+c) Many using array name
+d) 7 at max at same time
+View Answer
+
+Answer: a
+Explanation: There should not be any confusion in how many references can be made from a single variable. A single variable can only point to one object at a time. Even if it’s an array, the name of the array is used and is considered one object name only (representing first array element).
+12. Java handles memory dynamically and references are deleted as soon as they are out of scope.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: In Java, it is inbuilt feature that handles all the memory dynamically. It is not necessary to free or destroy all the references made from a function which is going out of scope. You can call destroy or free methods explicitly but there is no mandatory rule.
+13. Which among the following is true?
+a) Object referencing refers to methods address
+b) Object referencing refers to variable of object
+c) Object referencing points to same address, if assigned by variables
+d) Object referencing is used to point methods
+View Answer
+
+Answer: c
+Explanation: The object referencing will point to the same address if variables are assigned. All the variables might have a different name but they will point to the same memory location. This is most basic concept of references.
+14. Invoking a method on a particular object is ____________ sending a message to that object.
+a) Different from
+b) Same as
+c) Somewhat similar
+d) Part of
+View Answer
+
+Answer: b
+Explanation: The methods invoked on a particular object is same as sending a message with same values to that object. Message would contain values in a particular format that can be used by the object. And calling a method would be just another way to do the same task.
+15. Can reference to an object be returned from a method?
+a) Yes, always possible
+b) Yes, but not always
+c) No, never possible
+d) No, Not possible because referred element would be destroyed
+View Answer
+
+Answer: b
+Explanation: This is possible but not always, since the reference being returned may get destroyed with the return of method. This is an undesirable condition, hence it is not always possible to return references. But it is always possible if the referred element is not local to the method.
+
+This set of Object Oriented Programming using C++ MCQs focuses on “Object Use”.
+
+1. Which among the following is the main use of object?
+a) To create instance of a function
+b) To create instance of a program
+c) To create instance of class
+d) To create instance of structures
+View Answer
+
+Answer: c
+Explanation: The objects are used to create an instance of a class. Objects can represent a class in an independent form. The basic blueprint, that contains the information of the type of data that can be stored in an object, is given by the class.
+2. Which among the following is not a property of an object?
+a) Identity
+b) Properties
+c) Attributes
+d) Names
+View Answer
+
+Answer: d
+Explanation: The names are not property of an object. The identity can be in any form like address or name of object but name can’t be termed as only identity of an object. The objects contain attributes that define what type of data an object can store.
+3. What is function object?
+a) An object with a single function
+b) An object with only functions
+c) An object with more than one function
+d) An object with no functions
+View Answer
+
+Answer: a
+Explanation: A function object is an object with single function. In C++ a function object can be like operator() function. This acts more like a function rather than an object.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Immutable object are used ______________________
+a) To set up as a fixed state
+b) To set up variable object
+c) To set up an object of abstract class
+d) To set up an object of derived class
+View Answer
+
+Answer: a
+Explanation: An immutable object can be created for an object which has to be fixed with values. The object data will not be changed throughout the program. This can be useful to eliminate the unintentional changes in the data of object.
+5. Which object can be used to contain other objects?
+a) First class object
+b) Derived class object
+c) Container object
+d) Enclosure object
+View Answer
+
+Answer: c
+Explanation: A container object can be used to contain other objects. Container object is an ADT. Its object are collection of other objects. Some specific rules apply to these types of objects.
+Check this: Computer Science Books | Object Oriented Programming Books
+6. A factory object is used ______________________
+a) To create new classes
+b) To create new function
+c) To create new data members
+d) To create new objects
+View Answer
+
+Answer:d
+Explanation: The factory object is an object that can be used to create other objects. If it is seen formally, it behaves like a method that will return object on its use. The object returned is assumed to be a new object.
+7. What are singleton objects?
+a) The only two objects of a class throughout the program
+b) The only object of a class throughout the program
+c) The objects that are alive throughout the program
+d) The objects that are created and then deleted without use
+View Answer
+
+Answer: b
+Explanation: If a class has only one object created and that is the only object of the class. Then the object is known as the singleton object. But only if that object is the only object of the class and no other object is created for that class.
+8. Object cout and cin _________________
+a) Can be used directly with << and >> symbols respectively
+b) Can be used directly with >> and << symbols respectively
+c) Must be used as a function which accepts 2 arguments
+d) Must be used as a function which accepts 3 arguments
+View Answer
+
+Answer: a
+Explanation: The cin and cout objects can be used directly with the >> and << operators respectively. The objects are of iostream class. Class iostream is an inbuilt class.
+9. Objects type ____________________
+a) Can be changed in runtime
+b) Can’t be changed in runtime
+c) Can be changed in compile time
+d) May or may not get changed
+View Answer
+
+Answer: b
+Explanation: The object types are always fixed. Once the object is created of a specific type then it can’t be changed. Neither at runtime nor at compile time.
+10. An object can be used to represent _________________
+a) A real world entity
+b) A real function
+c) Some real data only
+d) Some function only
+View Answer
+
+Answer: a
+Explanation: The objects are actually meant to represent an entity. The classes are real world object’s blueprint. The classes then are used to create an entity representation.
+11. Objects can be used _____________________
+a) To access any member of a class
+b) To access only public members of a class
+c) To access only protected members of a class
+d) To access only private members of a class
+View Answer
+
+Answer: b
+Explanation: The objects are created for a specific class. Then the objects can be used to access the public members of a class. The members can be the data members or the member functions of the class.
+12. Which among the following is not a use of object?
+a) Defining a member function
+b) Accessing data members
+c) Creating instance of a class
+d) Using class members
+View Answer
+
+Answer: a
+Explanation: The objects can’t be used to define any member function. Member functions must be defined by the class only. Objects can only access the members and use them.
+13. Which object can be used to access the standard input?
+a) System.inner
+b) cin
+c) System.stdin
+d) console.input
+View Answer
+
+Answer: b
+Explanation: Object cin can be used to take input from the standard input. It is used in C++. In java we can use System.in for the standard input stream. The syntax changes from language to language.
+14. A single object can be used __________________
+a) As only two class types at a time
+b) As only three class types at a time
+c) As only one class type at a time
+d) As of as many class types as required
+View Answer
+
+Answer: c
+Explanation: The object can be of only one type. The type of an object can’t be changed. Object type is mandatory to be of one class type to ensure the type and number of data members it have.
+15. If same object name is given to different objects of different class then _____________
+a) Its compile time error
+b) Its runtime error
+c) It’s not an error
+d) Program suns smooth
+View Answer
+
+Answer: a
+Explanation: It is a compile time error as the compiler doesn’t allow the same name objects to be declared more than once. Compiler produces multiple declaration errors. Every object must have a different name.
+
+This set of Object Oriented Programming using C++ Interview Questions and Answers focuses on “Passing and Returning Object with Functions”.
+
+1. In how many ways can an object be passed to a function?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: c
+Explanation: The objects can be passed in three ways. Pass by value, pass by reference and pass by address. These are the general ways to pass the objects to a function.
+2. If an object is passed by value _____________
+a) A new copy of object is created implicitly
+b) The object itself is used
+c) Address of the object is passed
+d) A new object is created with new random values
+View Answer
+
+Answer: a
+Explanation: When an object is passed by value, a new object is created implicitly. This new object uses the implicit values assignment, same as that of the object being passed.
+3. Pass by address passes the address of object _________ and pass by reference passes the address of the object _________
+a) Explicitly, explicitly
+b) Implicitly, implicitly
+c) Explicitly, Implicitly
+d) Implicitly, explicitly
+View Answer
+
+Answer: c
+Explanation: Pass by address uses the explicit address passing to the function whereas pass by reference implicitly passes the address of the object.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. If an object is passed by reference, the changes made in the function ___________
+a) Are reflected to the main object of caller function too
+b) Are reflected only in local scope of the called function
+c) Are reflected to the copy of the object that is made during pass
+d) Are reflected to caller function object and called function object also
+View Answer
+
+Answer: a
+Explanation: When an object is passed by reference, its address is passed implicitly. This will make changes to the main function whenever any modification is done.
+5. Constructor function is not called when an object is passed to a function, will its destructor be called when its copy is destroyed?
+a) Yes, depending on code
+b) Yes, must be called
+c) No, since no constructor was called
+d) No, since same object gets used
+View Answer
+
+Answer: b
+Explanation: Even though the constructor is not called when the object is passed to a function, the copy of the object is still created, where the values of the members are same. When the object have to be destroyed, the destructor is called to free the memory and resources that the object might have reserved.
+Check this: Computer Science Books | Information Science MCQs
+6. When an object is returned by a function, a _______________ is automatically created to hold the return value.
+a) Temporary object
+b) Virtual object
+c) New object
+d) Data member
+View Answer
+
+Answer: a
+Explanation: The temporary object is created. It holds the return value. The values gets assigned as required, and the temporary object gets destroyed.
+7. Is the destruction of temporary object safe (while returning object)?
+a) Yes, the resources get free to use
+b) Yes, other objects can use the memory space
+c) No, unexpected side effects may occur
+d) No, always gives rise to exceptions
+View Answer
+
+Answer: c
+Explanation: The destruction of temporary variable may give rise to unexpected logical errors. Consider the destructor which may free the dynamically allocated memory. But this may abort the program if another is still trying to copy the values from that dynamic memory.
+8. How to overcome the problem arising due to destruction of temporary object?
+a) Overloading insertion operator
+b) Overriding functions can be used
+c) Overloading parenthesis or returning object
+d) Overloading assignment operator and defining copy constructor
+View Answer
+
+Answer: d
+Explanation: The problem can be solved by overloading the assignment operator to get the values that might be getting returned while the destructor free the dynamic memory. Defining copy constructor can help us to do this in even simpler way.
+9. How many objects can be returned at once?
+a) Only 1
+b) Only 2
+c) Only 16
+d) As many as required
+View Answer
+
+Answer: a
+Explanation: Like any other value, only one object can be returned at ones. The only possible way to return more than one object is to return address of an object array. But that again comes under returning object pointer.
+10. What will be the output of the following code?
+
+Class A
+{ 
+	int i; 
+	public : A(int n)
+	{ 
+		i=n; cout&lt;&lt;”inside constructor ”;
+	} 
+	~A()
+	{
+		cout&lt;&lt;”destroying  ”&lt;&lt;i;
+	}
+	void seti(int n)
+	{
+		i=n;
+	}
+	int geti()
+	{
+		return I;
+	}
+};
+void t(A ob)
+{ 
+	cout&lt;&lt;”something ”;
+}
+int main()
+{
+	A a(1);
+	t(a);
+	cout&lt;&lt;”this is i in main ”;
+	cout&lt;&lt;a.geti();
+}
+a) inside constructor something destroying 2this is i in main destroying 1
+b) inside constructor something this is i in main destroying 1
+c) inside constructor something destroying 2this is i in main
+d) something destroying 2this is i in main destroying 1
+View Answer
+
+Answer: a
+Explanation: Although the object constructor is called only ones, the destructor will be called twice, because of destroying the copy of the object that is temporarily created. This is the concept of how the object should be passed and manipulated.
+11. It is necessary to return the object if it was passed by reference to a function.
+a) Yes, since the object must be same in caller function
+b) Yes, since the caller function needs to reflect the changes
+c) No, the changes are made automatically
+d) No, the changes are made explicitly
+View Answer
+
+Answer: c
+Explanation: Having the address being passed to the function, the changes are automatically made to the main function. In all the cases if the address is being used, the same memory location will be updated with new values.
+12. How many objects can be passed to a function simultaneously?
+a) Only 1
+b) Only an array
+c) Only 1 or an array
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: There is no limit to how many objects can be passed. This works in same way as that any other variable gets passed. Array and object can be passed at same time also.
+13. If an object is passed by address, will be constructor be called?
+a) Yes, to allocate the memory
+b) Yes, to initialize the members
+c) No, values are copied
+d) No, temporary object is created
+View Answer
+
+Answer: c
+Explanation: A copy of all the values is created. If the constructor is called, there will be a compile time error or memory shortage. This happens because each time a constructor is called, it try to call itself again and that goes infinite times.
+14. Is it possible that an object of is passed to a function, and the function also have an object of same name?
+a) No, Duplicate declaration is not allowed
+b) No, 2 objects will be created
+c) Yes, Scopes are different
+d) Yes, life span is different
+View Answer
+
+Answer: a
+Explanation: There can’t be more than one variable or object with the same name in same scope. The scope is same, since the object is passed, it becomes local to function and hence function can’t have one more object of same name.
+15. Passing an object using copy constructor and pass by value are same.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The copy constructor is used to copy the values from one object to other. Pass by values is not same as copy constructor method. Actually the pass by value method uses a copy constructor to copy the values in a local object.

@@ -1,0 +1,387 @@
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Relational Database and Database Schema”.
+
+1. A relational database consists of a collection of
+a) Tables
+b) Fields
+c) Records
+d) Keys
+View Answer
+
+Answer: a
+Explanation: Fields are the column of the relation or tables. Records are each row in a relation. Keys are the constraints in a relation.
+2. A ________ in a table represents a relationship among a set of values.
+a) Column
+b) Key
+c) Row
+d) Entry
+View Answer
+
+Answer: c
+Explanation: Column has only one set of values. Keys are constraints and row is one whole set of attributes. Entry is just a piece of data.
+3. The term _______ is used to refer to a row.
+a) Attribute
+b) Tuple
+c) Field
+d) Instance
+View Answer
+
+Answer: b
+Explanation: Tuple is one entry of the relation with several attributes which are fields.
+Subscribe Now: DBMS Newsletter | Important Subjects Newsletters
+advertisement
+4. The term attribute refers to a ___________ of a table.
+a) Record
+b) Column
+c) Tuple
+d) Key
+View Answer
+
+Answer: b
+Explanation: Attribute is a specific domain in the relation which has entries of all tuples.
+5. For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.
+a) Domain
+b) Relation
+c) Set
+d) Schema
+View Answer
+
+Answer: a
+Explanation: The values of the attribute should be present in the domain. Domain is a set of values permitted.
+Become Top Ranker in Database Management System Now!
+6. Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time.
+a) Instance, Schema
+b) Relation, Schema
+c) Relation, Domain
+d) Schema, Instance
+View Answer
+
+Answer: d
+Explanation: Instance is an instance of time and schema is a representation.
+7. Course(course_id,sec_id,semester)
+Here the course_id,sec_id and semester are __________ and course is a _________
+a) Relations, Attribute
+b) Attributes, Relation
+c) Tuple, Relation
+d) Tuple, Attributes
+View Answer
+
+Answer: b
+Explanation: The relation course has a set of attributes course_id,sec_id,semester .
+8. Department (dept name, building, budget) and Employee (employee_id, name, dept name, salary)
+Here the dept_name attribute appears in both the relations. Here using common attributes in relation schema is one way of relating ___________ relations.
+a) Attributes of common
+b) Tuple of common
+c) Tuple of distinct
+d) Attributes of distinct
+View Answer
+
+Answer: c
+Explanation: Here the relations are connected by the common attributes.
+9. A domain is atomic if elements of the domain are considered to be ____________ units.
+a) Different
+b) Indivisbile
+c) Constant
+d) Divisible
+View Answer
+
+Answer: b
+Explanation: None.
+10. The tuples of the relations can be of ________ order.
+a) Any
+b) Same
+c) Sorted
+d) Constant
+View Answer
+
+Answer: a
+Explanation: The values only count. The order of the tuples does not matter.
+
+This set of Database MCQs focuses on “Relational Query Operations and Relational Operators”.
+
+1. Using which language can a user request information from a database?
+a) Query
+b) Relational
+c) Structural
+d) Compiler
+View Answer
+
+Answer: a
+Explanation: Query language is a method through which the database entries can be accessed.
+2. Student(ID, name, dept name, tot_cred)
+In this query which attributes form the primary key?
+a) Name
+b) Dept
+c) Tot_cred
+d) ID
+View Answer
+
+Answer: d
+Explanation: The attributes name, dept and tot_cred can have same values unlike ID.
+3. Which one of the following is a procedural language?
+a) Domain relational calculus
+b) Tuple relational calculus
+c) Relational algebra
+d) Query language
+View Answer
+
+Answer: c
+Explanation: Domain and Tuple relational calculus are non-procedural language. Query language is a method through which database entries can be accessed.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
+a) Select
+b) Join
+c) Union
+d) Intersection
+View Answer
+
+Answer: b
+Explanation: Join finds the common tuple in the relations and combines it.
+5. The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+a) Join
+b) Cartesian product
+c) Intersection
+d) Set difference
+View Answer
+
+Answer: b
+Explanation: Cartesian product is the multiplication of all the values in the attributes.
+Check this: DBMS Books | Computer Science Books
+6. The _______operation performs a set union of two “similarly structured” tables
+a) Union
+b) Join
+c) Product
+d) Intersect
+View Answer
+
+Answer: a
+Explanation: Union just combines all the values of relations of same attributes.
+7. The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+a) Join
+b) Projection
+c) Select
+d) Union
+View Answer
+
+Answer: c
+Explanation: Select is used to view the tuples of the relation with or without some constraints.
+8. The _______ operator takes the results of two queries and returns only rows that appear in both result sets.
+a) Union
+b) Intersect
+c) Difference
+d) Projection
+View Answer
+
+Answer: b
+Explanation: The union operator gives the result which is the union of two queries and difference is the one where query which is not a part of second query.
+9. A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.
+a) Schema diagram
+b) Relational algebra
+c) Database diagram
+d) Schema flow
+View Answer
+
+Answer: a
+Explanation: None.
+10. The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+a) Schematic representation
+b) Relational algebra
+c) Scheme diagram
+d) Relation flow
+View Answer
+
+Answer: b
+Explanation: None.
+
+This set of Database Multiple Choice Questions & Answers (MCQs) focuses on “Keys”.
+
+1. Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?
+a) Candidate key
+b) Sub key
+c) Super key
+d) Foreign key
+View Answer
+
+Answer: c
+Explanation: Super key is the superset of all the keys in a relation.
+2. Consider attributes ID, CITY and NAME. Which one of this can be considered as a super key?
+a) NAME
+b) ID
+c) CITY
+d) CITY, ID
+View Answer
+
+Answer: b
+Explanation: Here the id is the only attribute which can be taken as a key. Other attributes are not uniquely identified.
+3. The subset of a super key is a candidate key under what condition?
+a) No proper subset is a super key
+b) All subsets are super keys
+c) Subset is a super key
+d) Each subset is a super key
+View Answer
+
+Answer: a
+Explanation: The subset of a set cannot be the same set. Candidate key is a set from a super key which cannot be the whole of the super set.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. A _____ is a property of the entire relation, rather than of the individual tuples in which each tuple is unique.
+a) Rows
+b) Key
+c) Attribute
+d) Fields
+View Answer
+
+Answer: b
+Explanation: Key is the constraint which specifies uniqueness.
+5. Which one of the following attribute can be taken as a primary key?
+a) Name
+b) Street
+c) Id
+d) Department
+View Answer
+
+Answer: c
+Explanation: The attributes name, street and department can repeat for some tuples. But the id attribute has to be unique. So it forms a primary key.
+Check this: Programming Books | RDBMS MCQ
+6. Which one of the following cannot be taken as a primary key?
+a) Id
+b) Register number
+c) Dept_id
+d) Street
+View Answer
+
+Answer: d
+Explanation: Street is the only attribute which can occur more than once.
+7. An attribute in a relation is a foreign key if the _______ key from one relation is used as an attribute in that relation.
+a) Candidate
+b) Primary
+c) Super
+d) Sub
+View Answer
+
+Answer: b
+Explanation: The primary key has to be referred in the other relation to form a foreign key in that relation.
+8. The relation with the attribute which is the primary key is referenced in another relation. The relation which has the attribute as a primary key is called ______________
+a) Referential relation
+b) Referencing relation
+c) Referenced relation
+d) Referred relation
+View Answer
+
+Answer: c
+Explanation: None.
+9. The ______ is the one in which the primary key of one relation is used as a normal attribute in another relation.
+a) Referential relation
+b) Referencing relation
+c) Referenced relation
+d) Referred relation
+View Answer
+
+Answer: c
+Explanation: None.
+10. A _________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.
+a) Referential
+b) Referencing
+c) Specific
+d) Primary
+View Answer
+
+Answer: a
+Explanation: A relation, say r1, may include among its attributes the primary key of another relation, say r2. This attribute is called a foreign key from r1, referencing r2. The relation r1 is also called the referencing relation of the foreign key dependency, and r2 is called the referenced relation of the foreign key.
+
+This set of Database MCQs focuses on “Relational Query Operations and Relational Operators”.
+
+1. Using which language can a user request information from a database?
+a) Query
+b) Relational
+c) Structural
+d) Compiler
+View Answer
+
+Answer: a
+Explanation: Query language is a method through which the database entries can be accessed.
+2. Student(ID, name, dept name, tot_cred)
+In this query which attributes form the primary key?
+a) Name
+b) Dept
+c) Tot_cred
+d) ID
+View Answer
+
+Answer: d
+Explanation: The attributes name, dept and tot_cred can have same values unlike ID.
+3. Which one of the following is a procedural language?
+a) Domain relational calculus
+b) Tuple relational calculus
+c) Relational algebra
+d) Query language
+View Answer
+
+Answer: c
+Explanation: Domain and Tuple relational calculus are non-procedural language. Query language is a method through which database entries can be accessed.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
+a) Select
+b) Join
+c) Union
+d) Intersection
+View Answer
+
+Answer: b
+Explanation: Join finds the common tuple in the relations and combines it.
+5. The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+a) Join
+b) Cartesian product
+c) Intersection
+d) Set difference
+View Answer
+
+Answer: b
+Explanation: Cartesian product is the multiplication of all the values in the attributes.
+Check this: DBMS Books | Computer Science Books
+6. The _______operation performs a set union of two “similarly structured” tables
+a) Union
+b) Join
+c) Product
+d) Intersect
+View Answer
+
+Answer: a
+Explanation: Union just combines all the values of relations of same attributes.
+7. The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+a) Join
+b) Projection
+c) Select
+d) Union
+View Answer
+
+Answer: c
+Explanation: Select is used to view the tuples of the relation with or without some constraints.
+8. The _______ operator takes the results of two queries and returns only rows that appear in both result sets.
+a) Union
+b) Intersect
+c) Difference
+d) Projection
+View Answer
+
+Answer: b
+Explanation: The union operator gives the result which is the union of two queries and difference is the one where query which is not a part of second query.
+9. A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.
+a) Schema diagram
+b) Relational algebra
+c) Database diagram
+d) Schema flow
+View Answer
+
+Answer: a
+Explanation: None.
+10. The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+a) Schematic representation
+b) Relational algebra
+c) Scheme diagram
+d) Relation flow
+View Answer
+
+Answer: b
+Explanation: None.

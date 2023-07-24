@@ -1,0 +1,469 @@
+1. Brain of computer is ____________
+a) Control unit
+b) Arithmetic and Logic unit
+c) Central Processing Unit
+d) Memory
+View Answer
+
+Answer: c
+Explanation: The CPU is referred to as the brain of a computer.
+It consists of a control unit and the arithmetic and logic unit. It is responsible for performing all the processes and operations.
+2. Control Unit acts as the central nervous system of the computer.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The control unit is referred to as the central nervous system because it selects and interprets the instructions and coordinates execution.
+3. What does MBR stand for?
+a) Main Buffer Register
+b) Memory Buffer Routine
+c) Main Buffer Routine
+d) Memory Buffer Register
+View Answer
+
+Answer: d
+Explanation: A memory buffer register (MBR) or memory data register (MDR) is the register in a computer’s CPU that stores the data being transferred to and from the immediate access storage.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. In the instruction ADD A, B, the answer gets stored in ___________
+a) B
+b) A
+c) Buffer
+d) C
+View Answer
+
+Answer: b
+Explanation: In any instruction of the form ADD A, B; the answer gets stored in the A register. The format is: ADD Destination, Source.
+5. What does PC stand for?
+a) Program Changer
+b) Program Counter
+c) Performance Counter
+d) Performance Changer
+View Answer
+
+Answer: b
+Explanation: The Program counter contains the address of the next instruction which is to be fetched by the control unit.
+All other options are invalid.
+Check this: Computer Science MCQs | BCA MCQs
+6. Which of the following holds the last instruction fetched?
+a) PC
+b) MAR
+c) MBR
+d) IR
+View Answer
+
+Answer: d
+Explanation: The IR which stands for the instruction register contains the last instruction fetched.
+All the others options are registers which are used for the fetch operation.
+7. The portion of the processor which contains the hardware required to fetch the operations is _______
+a) Datapath
+b) Processor
+c) Control
+d) Output unit
+View Answer
+
+Answer: a
+Explanation: The datapath contains the hardware required to fetch the operations. The control tells the data path what needs to be done.
+8. Causing the CPU to step through a series of micro operations is called _________
+a) Execution
+b) Runtime
+c) Sequencing
+d) Pipelining
+View Answer
+
+Answer: c
+Explanation: Sequencing is the process of causing the CPU to step through a series of micro operations. Execution causes the performance of each micro operation.
+9. The functions of execution and sequencing are performed by using ______________
+a) Input Signals
+b) Output Signals
+c) Control Signals
+d) CPU
+View Answer
+
+Answer: c
+Explanation: Sequencing followed by the process of execution is performed by the Control signals. Sequencing is traversing each and every operation whereas execution causes the performance of each operation.
+10. What does D in the D-flip flop stand for?
+a) Digital
+b) Direct
+c) Delay
+d) Durable
+View Answer
+
+Answer: c
+Explanation: In the hardwired control unit, the delay element method uses D-flip flop which causes a delay. Since, in the delay element method, there must be a finite time gap between the 2 steps.
+1. What is the high speed memory between the main memory and the CPU called?
+a) Register Memory
+b) Cache Memory
+c) Storage Memory
+d) Virtual Memory
+View Answer
+
+Answer: b
+Explanation: It is called the Cache Memory. The cache memory is the high speed memory between the main memory and the CPU.
+2. Cache Memory is implemented using the DRAM chips.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The Cache memory is implemented using the SRAM chips and not the DRAM chips. SRAM stands for Static RAM. It is faster and is expensive.
+3. Whenever the data is found in the cache memory it is called as _________
+a) HIT
+b) MISS
+c) FOUND
+d) ERROR
+View Answer
+
+Answer: a
+Explanation: Whenever the data is found in the cache memory, it is called as Cache HIT. CPU first checks in the cache memory since it is closest to the CPU.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. LRU stands for ___________
+a) Low Rate Usage
+b) Least Rate Usage
+c) Least Recently Used
+d) Low Required Usage
+View Answer
+
+Answer: c
+Explanation: LRU stands for Least Recently Used. LRU is a type of replacement policy used by the cache memory.
+5. When the data at a location in cache is different from the data located in the main memory, the cache is called _____________
+a) Unique
+b) Inconsistent
+c) Variable
+d) Fault
+View Answer
+
+Answer: b
+Explanation: The cache is said to be inconsistent. Inconsistency must be avoided as it leads to serious data bugs.
+Take Computer Fundamentals Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is not a write policy to avoid Cache Coherence?
+a) Write through
+b) Write within
+c) Write back
+d) Buffered write
+View Answer
+
+Answer: b
+Explanation: There is no policy which is called as the write within policy. The other three options are the write policies which are used to avoid cache coherence.
+7. Which of the following is an efficient method of cache updating?
+a) Snoopy writes
+b) Write through
+c) Write within
+d) Buffered write
+View Answer
+
+Answer: a
+Explanation: Snoopy writes is the efficient method for updating the cache. In this case, the cache controller snoops or monitors the operations of other bus masters.
+8. In ____________ mapping, the data can be mapped anywhere in the Cache Memory.
+a) Associative
+b) Direct
+c) Set Associative
+d) Indirect
+View Answer
+
+Answer: a
+Explanation: This happens in the associative mapping. In this case, a block of data from the main memory can be mapped anywhere in the cache memory.
+9. The number of sign bits in a 32-bit IEEE format is ____
+a) 1
+b) 11
+c) 9
+d) 23
+View Answer
+
+Answer: a
+Explanation: There is only 1 sign bit in all the standards. In a 32-bit format, there is 1 sign bit, 8 bits for the exponent and 23 bits for the mantissa.
+10. The transfer between CPU and Cache is ______________
+a) Block transfer
+b) Word transfer
+c) Set transfer
+d) Associative transfer
+View Answer
+
+Answer: b
+Explanation: The transfer is a word transfer. In the memory subsystem, word is transferred over the memory data bus and it typically has a width of a word or half-word.
+1. Computer has a built-in system clock that emits millions of regularly spaced electric pulses per _____ called clock cycles.
+a) second
+b) millisecond
+c) microsecond
+d) minute
+View Answer
+
+Answer: a
+Explanation: The regularly spaced electric pulses per second are referred to as the clock cycles. All the jobs performed by the processor are on the basis of clock cycles.
+2. It takes one clock cycle to perform a basic operation.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: It takes exactly one clock cycle to perform a basic operation, such as moving a byte of memory from a location to another location in the computer.
+3. The operation that does not involves clock cycles is _________
+a) Installation of a device
+b) Execute
+c) Fetch
+d) Decode
+View Answer
+
+Answer: a
+Explanation: Normally, several clock cycles are required to fetch, execute and decode a particular program.
+Installation of a device is done by the system on its own.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The number of clock cycles per second is referred as ________
+a) Clock speed
+b) Clock frequency
+c) Clock rate
+d) Clock timing
+View Answer
+
+Answer: a
+Explanation: The number of clock cycles per second is the clock speed. It is generally measured in gigahertz(109 cycles/sec) or megahertz (106 cycles/sec).
+5. CISC stands for ____________
+a) Complex Information Sensed CPU
+b) Complex Instruction Set Computer
+c) Complex Intelligence Sensed CPU
+d) Complex Instruction Set CPU
+View Answer
+
+Answer: b
+Explanation: CISC is a large instruction set computer. It has variable length instructions. It also has variety of addressing modes.
+Check this: Computer Science MCQs | BCA Books
+6. Which of the following processor has a fixed length of instructions?
+a) CISC
+b) RISC
+c) EPIC
+d) Multi-core
+View Answer
+
+Answer: b
+Explanation: The RISC which stands for Reduced Instruction set computer has a fixed length of instructions. It has a small instruction set. Also has reduced references to memory to retrieve operands.
+7. Processor which is complex and expensive to produce is ________
+a) RISC
+b) EPIC
+c) CISC
+d) Multi-core
+View Answer
+
+Answer: c
+Explanation: CISC stands for complex instruction set computer. It is mostly used in personal computers. It has a large instruction set and a variable length of instructions.
+8. The architecture that uses a tighter coupling between the compiler and the processor is ____________
+a) EPIC
+b) Multi-core
+c) RISC
+d) CISC
+View Answer
+
+Answer: a
+Explanation: EPIC stands for Explicitly parallel instruction computing. It has a tighter coupling between the compiler and the processor. It enables the compiler to extract maximum parallelism in the original code.
+9. MAR stands for ___________
+a) Memory address register
+b) Main address register
+c) Main accessible register
+d) Memory accessible register
+View Answer
+
+Answer: a
+Explanation: The MAR stands for memory address register. It holds the address of the active memory location.
+10. A circuitry that processes that responds to and processes the basic instructions that are required to drive a computer system is ________
+a) Memory
+b) ALU
+c) CU
+d) Processor
+View Answer
+
+Answer: d
+Explanation: The processor is responsible for processing the basic instructions in order to drive a computer. The primary functions of a processor are fetch, decode and execute.
+1. Any electronic holding place where data can be stored and retrieved later whenever required is ____________
+a) memory
+b) drive
+c) disk
+d) circuit
+View Answer
+
+Answer: a
+Explanation: Memory is the place where data can be stored and later retrieved. Memory can be of classified into register, cache, main memory, etc.
+2. Cache memory is the onboard storage.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Cache Memory is the memory closest to the CPU. Registers, Cache and the main memory are the means of onboard storage in the computer system.
+3. Which of the following is the fastest means of memory access for CPU?
+a) Registers
+b) Cache
+c) Main memory
+d) Virtual Memory
+View Answer
+
+Answer: a
+Explanation: Registers are the fastest means of access for CPU. Registers are the small memory locations which are present closest to the CPU.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The memory implemented using the semiconductor chips is _________
+a) Cache
+b) Main
+c) Secondary
+d) Registers
+View Answer
+
+Answer: b
+Explanation: The main memory is implemented using semiconductor chips. Main memory is located on the motherboard. It mainly consists of RAM and small amount of ROM.
+5. Size of the ________ memory mainly depends on the size of the address bus.
+a) Main
+b) Virtual
+c) Secondary
+d) Cache
+View Answer
+
+Answer: a
+Explanation: The size of the main memory depends on the size of the address bus of the CPU. The main memory mainly consists of RAM and ROM, where RAM contains the current data and programs and ROM contains permanent programs like BIOS.
+Take Computer Fundamentals Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is independent of the address bus?
+a) Secondary memory
+b) Main memory
+c) Onboard memory
+d) Cache memory
+View Answer
+
+Answer: a
+Explanation: The secondary memory is independent of the address bus. It increases the storage space. It is implemented in the form of magnetic storage devices.
+7. ____________ storage is a system where a robotic arm will connect or disconnect off-line mass storage media according to the computer operating system demands.
+a) Secondary
+b) Virtual
+c) Tertiary
+d) Magnetic
+View Answer
+
+Answer: c
+Explanation: The tertiary storage is the correct option. It is used in the realms of enterprise storage and scientific computing on large computer systems and business computer networks and is something a typical personal computer never sees firsthand.
+8. What is the location of the internal registers of CPU?
+a) Internal
+b) On-chip
+c) External
+d) Motherboard
+View Answer
+
+Answer: b
+Explanation: The internal registers are present on-chip. They are therefore present inside the CPU. L1 cache is also present on-chip inside the CPU.
+9. MAR stands for ___________
+a) Memory address register
+b) Main address register
+c) Main accessible register
+d) Memory accessible register
+View Answer
+
+Answer: a
+Explanation: The MAR stands for memory address register. It holds the address of the active memory location.
+10. If M denotes the number of memory locations and N denotes the word size, then an expression that denotes the storage capacity is ______________
+a) M*N
+b) M+N
+c) 2M+N
+d) 2M-N
+View Answer
+
+Answer: a
+Explanation: Storage capacity is the product of a number of memory locations that is the number of words and the word size or the number of bits stored per location. Storage capacity should be as large as possible.
+1. CPU has built-in ability to execute a particular set of machine instructions, called as __________
+a) Instruction Set
+b) Registers
+c) Sequence Set
+d) User instructions
+View Answer
+
+Answer: a
+Explanation: An instruction is any task which is to be performed by the processor. Instructions are stored in the register. Instruction set is the set of machine instructions.
+2. Opcode indicates the operations to be performed.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Every instruction has an opcode. Additionally, it may have one or more operands and the op code indicates the operation to be performed.
+3. The length of a register is called _______
+a) word limit
+b) word size
+c) register limit
+d) register size
+View Answer
+
+Answer: b
+Explanation: The length of a register is called word size. It tells the number of bits a register can store.
+Registers are a part of the CPU.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The _________ holds the contents of the accessed memory word.
+a) MAR
+b) MBR
+c) PC
+d) IR
+View Answer
+
+Answer: b
+Explanation: The MBR holds the contents of the accessed (read/written) memory word.
+MBR stands for Memory Buffer Register.
+5. Which of the following is not a visible register?
+a) General Purpose Registers
+b) Address Register
+c) Status Register
+d) MAR
+View Answer
+
+Answer: d
+Explanation: MAR or the memory address register is not a visible register. This register is user inaccessible. It contains the address of the memory block to be read or written to.
+Become Top Ranker in Computer Fundamentals Now!
+6. Which of the following is a data transfer instruction?
+a) STA 16-bit address
+b) ADD A, B
+c) MUL C, D
+d) RET
+View Answer
+
+Answer: a
+Explanation: The instruction STA 16-bit address is a data transfer instruction.
+STA means Store in Accumulator.
+7. What is correct instruction if you want the control to go to the location 2000h?
+a) MOV 2000h
+b) MOV A, 2000h
+c) JMP 2000h
+d) RET 2000h
+View Answer
+
+Answer: c
+Explanation: The JMP instruction is used to move to a particular location. In 8085 microprocessor, JMP statement tells the processor to go to location 2000h (here).
+8. What kind of a flag is the sign flag?
+a) General Purpose
+b) Status
+c) Address
+d) Instruction
+View Answer
+
+Answer: b
+Explanation: Sign flag is a type of status register or the flag register. It is used to indicate the sign of certain bits.
+9. The number of sign bits in a 32-bit IEEE format __________
+a) 1
+b) 11
+c) 9
+d) 23
+View Answer
+
+Answer: a
+Explanation: There is only 1 sign bit in all the standards. In a 32-bit format, there is 1 sign bit, 8 bits for the exponent and 23 bits for the mantissa.
+10. New CPU whose instruction set includes the instruction set of its predecessor CPU is said to be ___________ with its predecessor.
+a) fully compatible
+b) forward compatible
+c) compatible
+d) backward compatible
+View Answer
+
+Answer: d
+Explanation: The CPU is called backward compatible since it contains the instruction set of its predecessor. Manufacturers tend to group their CPUs into families having similar instruction set.

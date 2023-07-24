@@ -1,0 +1,375 @@
+1. An algorithm is a _________ set of precise instructions for performing computation.
+a) Infinite
+b) Finite
+c) Constant
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: By the definition of an algorithm.
+2. Out of the following which property algorithms does not share?
+a) Input
+b) Finiteness
+c) Generality
+d) Constancy
+View Answer
+
+Answer: d
+Explanation: All the others are the properties of algorithms.
+3. In ________ search each element is compared with x till not found.
+a) Binary
+b) Sequential
+c) Merge
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In linear or sequential search entire list is searched sequentially for x.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. If the entire list is searched sequentially without locating x in linear search, the solution is __________
+a) 0
+b) -1
+c) 1
+d) 2
+View Answer
+
+Answer: a
+Explanation: If the element is not found in the entire list, then the solution is 0.
+5. To sort a list with n elements, the insertion sort begins with the __________ element.
+a) First
+b) Second
+c) Third
+d) Fourth
+View Answer
+
+Answer: b
+Explanation: The insertion sort compares the second element with the first element to start sorting.
+Take Discrete Mathematics Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. __________ comparisons required to sort the list 1, 2, 3…….n using insertion sort.
+a) (n2 + n + 2) / 2
+b) (n3 + n – 2) / 2
+c) (n2 + n – 2) / 2
+d) (n2 – n – 2) / 2
+View Answer
+
+Answer: c
+Explanation: 2+3+4+….6n = (n2 + n – 2) / 2.
+7. The Worst case occurs in linear search algorithm when ____________
+a) Item is somewhere in the middle of the array
+b) Item is not in the array at all
+c) Item is the last element in the array
+d) Item is the last element in the array or is not there at all
+View Answer
+
+Answer: d
+Explanation: The Worst case occur in linear search algorithm when Item is the last element in the array or is not there at all.
+8. List obtained in third pass of selection sort for list 3, 5, 4, 1, 2 is ___________
+a) 1, 2, 4, 3, 5
+b) 1, 2, 3, 4, 5
+c) 1, 5, 4, 3, 2
+d) 3, 5, 4, 1, 2
+View Answer
+
+Answer: b
+Explanation: The selection sort begins with finding the least element in the list. This element is moved to front and then the least element among the remaining elements. Is found and put into the second position and so on.
+9. The operation of processing each element in the list is known as _________
+a) Sorting
+b) Merging
+c) Inserting
+d) Traversal
+View Answer
+
+Answer: d
+Explanation: The operation of processing each element in the list is known as Traversal.
+10. The complexity of Bubble sort algorithm is _________
+a) O(n)
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: c
+Explanation: The complexity of Bubble sort algorithm is O(n2).
+1. An Algorithm is ___________
+a) A procedure for solving a problem
+b) A problem
+c) A real life mathematical problem
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: An algorithm is a stepwise solution to the problem.
+2. An algorithm in which we divide the problem into subproblem and then we combine the subsolutions to form solution to the original problem is known as _________
+a) Brute Force
+b) Divide and Conquer
+c) GreedyAlgorithm
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In Divide and Conquer we divide the problem and then recombine the solution.
+3. An algorithm which uses the past results and uses them to find the new results is _________
+a) Brute Force
+b) Divide and Conquer
+c) Dynamic programming algorithms
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: In Dynamic programming algorithms we utilize previous results for new ones.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. A Complexity of algorithm depends upon _________
+a) Time only
+b) Space only
+c) Both Time and Space
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: For Complexity, we calculate both time and space consumed.
+5. An algorithm which tries all the possibilities unless results are satisfactory is and generally is time-consuming is _________
+a) Brute Force
+b) Divide and Conquer
+c) Dynamic programming algorithms
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: In Brute force, all the possibilities are tried.
+Check this: Computer Science Books | Computer Science MCQs
+6. For a recursive algorithm _________
+a) a base case is necessary and is solved without recursion.
+b) a base case is not necessary
+c) doesnot solve a base case directly
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Base case ends recursion and therefore it is necessary for finite recursion.
+7. Optimization of algorithm means _________
+a) making that algorithm fast by time and compact by space
+b) making that algorithm slow by time and large by space
+c) making that algorithm fast by time and large by space
+d) making that algorithm slow by time and compact by space
+View Answer
+
+Answer: a
+Explanation: An Algorithm should be fast and compact.
+8. For an algorithm which is the most important characteristic that makes it acceptable _________
+a) Fast
+b) Compact
+c) Correctness and Precision
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: An algorithm should be correct otherwise it’s of no use even if it is fast and compact.
+9. An algorithm: can be represented through _________
+a) flow charts
+b) pseudo codes
+c) instructions in common language
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Algorithm is represented through pseudo codes, normal language sentences or flow charts.
+10. There are two algorithms suppose A takes 1.41 milli seconds while B takes 0.9 milliseconds, which one of them is better considering all other things the same?
+a) A is better than B
+b) B is better than A
+c) Both are equally good
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: B takes less time than A for the same task.
+1. Which of the following case does not exist in complexity theory?
+a) Best case
+b) Worst case
+c) Average case
+d) Null case
+View Answer
+
+Answer: d
+Explanation: Null case does not exist in complexity Theory.
+2. The complexity of linear search algorithm is _________
+a) O(n)
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: a
+Explanation: The worst case complexity of linear search is O(n).
+3. The complexity of Binary search algorithm is _________
+a) O(n)
+b) O(log)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: b
+Explanation: The compexity of binary search is O(logn).
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The complexity of merge sort algorithm is _________
+a) O(n)
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: d
+Explanation: The worst case complexity for merge sort is O(nlogn).
+5. The complexity of Bubble sort algorithm is _________
+a) O(n)
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: c
+Explanation: The worst case complexity for Bubble sort is O(n2) and best case is O(n).
+Check this: Discrete Mathematics Books | Information Technology MCQs
+6. The Worst case occur in linear search algorithm when _________
+a) Item is somewhere in the middle of the array
+b) Item is not in the array at all
+c) Item is the last element in the array
+d) Item is the last element in the array or is not there at all
+View Answer
+
+Answer: d
+Explanation: The Worst case occur in linear search algorithm when Item is the last element in the array or is not there at all.
+7. The worst case complexity for insertion sort is _________
+a) O(n)
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: c
+Explanation: In worst case nth comparison are required to insert the nth element into correct position.
+8. The complexity of Fibonacci series is _________
+a) O(2n)
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: a
+Explanation: Fibonacci is f(n) = f(n-1) + f(n-2), f(0) = 0, f(1) = 1. Let g(n) = 2n. Now prove inductively that f(n) > = g(n).
+9. The worst case occurs in quick sort when _________
+a) Pivot is the median of the array
+b) Pivot is the smallest element
+c) Pivot is the middle element
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: This happens when the pivot is the smallest (or the largest) element. Then one of the partitions is empty, and we repeat recursively the procedure for N-1 elements.
+10. The worst case complexity of quick sort is _________
+a) O(n)
+b) O(log n)
+c) O(n2)
+d) O(n log n)
+View Answer
+
+Answer: c
+Explanation: The worst case complexity of quick sort is O(n2).
+1. Which is used to measure the Time complexity of an algorithm Big O notation?
+a) describes limiting behaviour of the function
+b) characterises a function based on growth of function
+c) upper bound on growth rate of the function
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Big O notation describes limiting behaviour, and also gives upper bound on growth rate of a function.
+2. If for an algorithm time complexity is given by O(1) then the complexity of it is ____________
+a) constant
+b) polynomial
+c) exponential
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: The growth rate of that function will be constant.
+3. If for an algorithm time complexity is given by O(log2n) then complexity will be ___________
+a) constant
+b) polynomial
+c) exponential
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: The growth rate of that function will be logarithmic therefore complexity will be logarithmic.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. If for an algorithm time complexity is given by O(n) then the complexity of it is ___________
+a) constant
+b) linear
+c) exponential
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: The growth rate of that function will be linear.
+5. If for an algorithm time complexity is given by O(n2) then complexity will ___________
+a) constant
+b) quadratic
+c) exponential
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: The growth rate of that function will be quadratic therefore complexity will be quadratic.
+Participate in Discrete Mathematics Certification Contest of the Month Now!
+6. If for an algorithm time complexity is given by O((3⁄2)n) then complexity will be ___________
+a) constant
+b) quardratic
+c) exponential
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: The growth rate of that function will be exponential therefore complexity will be exponential.
+7. The time complexity of binary search is given by ___________
+a) constant
+b) quardratic
+c) exponential
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: It is O(log2n), therefore complexity will be logarithmic.
+8. The time complexity of the linear search is given by ___________
+a) O(log2n)
+b) O(1)
+c) exponential
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: It is O(n), therefore complexity will be linear.
+9. Which algorithm is better for sorting between bubble sort and quicksort?
+a) bubble sort
+b) quick sort
+c) both are equally good
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Running time of quicksort is logarithmic whereas for bubble sort it is quadratic.
+10. Time complexity of the binary search algorithm is constant.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: It is O(log2n), therefore complexity will be logarithmic.

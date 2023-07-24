@@ -1,0 +1,623 @@
+1. Which network topology does this represent?
+The figure represents the mesh topology
+
+a) Mesh
+b) Star
+c) Bus
+d) Ring
+View Answer
+
+Answer: a
+Explanation: The figure represents the mesh topology.
+2. ‘Jitter’ refers to-
+a) errorless delivery
+b) variation in the packet arrival time
+c) timely delivery of message
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: ‘Jitter’ refers to variation in the packet arrival time.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+3. 2 Half duplex systems can make a Full-Duplex.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true.
+4. Which topology requires the most amount of wiring?
+a) Mesh
+b) Star
+c) Bus
+d) Ring
+View Answer
+
+Answer: a
+Explanation: This is the disadvantage of mesh topology.
+Check this: Cryptography and Network Security Books | Cyber Security MCQ
+5. How many links are there for N nodes in the mesh topology?
+a) 1
+b) N(N+1)/2
+c) N
+d) N(N-1)/2
+View Answer
+
+Answer: d
+Explanation: There are N(N-1)/2 links for N nodes.
+6. Which topology has a central hub?
+a) Mesh
+b) Star
+c) Bus
+d) Ring
+View Answer
+
+Answer: b
+Explanation: The star topology has a single hub.
+7. Which topology has the toughest fault identification?
+a) Mesh
+b) Star
+c) Bus
+d) Ring
+View Answer
+
+Answer: c
+Explanation: In the bus topology, fault identification is tougher.
+8. Ethernet LANs use which topology?
+a) Mesh
+b) Star
+c) Bus
+d) Ring
+View Answer
+
+Answer: c
+Explanation: Ethernet LANs use bus topology,
+9. Which topology uses the token passing algorithm?
+a) Mesh
+b) Star
+c) Bus
+d) Ring
+View Answer
+
+Answer: d
+Explanation: The ring topology uses the token passing algorithm. The token holder gets its turn at communication.
+10. How many lines are required for the bus topology?
+a) N(N-1)/2
+b) N
+c) N+1
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: N drop lines and 1 bus line.
+11. A list of protocols used is known as –
+a) protocol access
+b) protocol stack
+c) permutation stack
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: A list of the protocols used by a certain system, one protocol per layer, is called a protocol stack.
+12. In order to prevent a fast sender from swamping a slow receiver with data, feedback is often used. This process is known as-
+a) flow control
+b) multiplexing
+c) congestion
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: The process defined above is known as Flow Control.
+1. Which is the smallest unit amongst the following with reference to the ATM-
+a) transmission path
+b) virtual path
+c) virtual circuit
+d) all are of the same size
+View Answer
+
+Answer: c
+Explanation: Virtual circuits are the smallest unit in the above options.
+2. IEEE 802.8 is/was –
+a) IBM Token Bus
+b) Integrated Services LAN
+c) Wireless LAN and Mesh
+d) Fiber Optic TAG
+View Answer
+
+Answer: d
+Explanation: IEEE 802.8 was the Fiber Optic TAG (disbanded).
+3. The below figure represents the hidden terminal problem.
+The above figure represents the exposed terminal problem
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The above figure represents the exposed terminal problem.
+4. Which of the following was the IBM Token bus?
+a) IEEE 802.10
+b) IEEE 802.11
+c) IEEE 802.1
+d) IEEE 802.4
+View Answer
+
+Answer: d
+Explanation: The IBM Token bus was IEEE 802.4.
+Check this: Computer Science MCQs | Cryptography and Network Security Books
+5. What is the function of Network Interface Cards?
+a) connects the clients, servers and peripherals to the network through a port
+b) allows you to segment a large network into smaller, efficient networks
+c) connects networks with different protocols like TCP/IP
+d) boost the signal between two cable segments or wireless access points
+View Answer
+
+Answer: a
+Explanation: A Network Interface Cards connects the clients, servers and peripherals to the network through a port.
+6. A device which is used to boost the signal between two cable segments or wireless access points is
+a) Booster
+b) Repeater
+c) Switch
+d) Router
+View Answer
+
+Answer: c
+Explanation: The correct term for such a device is a Repeater.
+7. A device that provides a central connection point for cables is –
+a) Switch
+b) Hub
+c) Gateway
+d) Proxy Server
+View Answer
+
+Answer: c
+Explanation: Such a device is known as a Hub and is usually used in STAR topologies.
+8. A device that connects networks with different protocols –
+a) Switch
+b) Hub
+c) Gateway
+d) Proxy Server
+View Answer
+
+Answer: c
+Explanation: Such a device is known as a Gateway.
+9. A device that helps prevent congestion and data collisions –
+a) Switch
+b) Hub
+c) Gateway
+d) Proxy Server
+View Answer
+
+Answer: a
+Explanation: A switch is a device that splits large networks into smaller segments, decreasing the number of users sharing the same network resources and bandwidth.
+10. A device that is used to connect a number of LANs is –
+a) Router
+b) Repeater
+c) Bridge
+d) Switch
+View Answer
+
+Answer: a
+Explanation: A device that is used to connect a number of LANs is a Router
+1. If a periodic signal is decomposed into five sine waves with frequencies of 100, 300, 500, 700, and 900 Hz, what is its bandwidth?
+a) 2500 Hz
+b) 900 Hz
+c) 800 Hz
+d) can’t be determined with the information given
+View Answer
+
+Answer: c
+Explanation: The bandwidth is 900-100 = 800 Hz.
+2. Assume we need to download text documents at the rate of 100 pages per second. What is the required bit rate of the channel?
+a) 1.846 Mbps
+b) 1.536 Mbps
+c) 2.4 Mbps
+d) None of the Mentioned
+View Answer
+
+Answer: b
+Explanation: Average No, of lines u=in each page = 24
+Each line has 80 char.
+Each char required 8 bits
+100 x 24 x 80 x 8 = 1,536,000=1536 Mbps.
+3. A digitized voice channel is made by digitizing a 4-kHz bandwidth analog voice signal. We need to sample the signal at twice the highest frequency (two samples per hertz). We assume that each sample requires 8 bits. What is the required bit rate?
+a) 64 kbps
+b) 32 kbps
+c) 128 kbps
+d) 16 kbps
+View Answer
+
+Answer: a
+Explanation: 2 × 4000 × 8 = 64,000 = 64kbps.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What is the bit rate for high-definition TV (HDTV)?
+a) 1.4 Gbps
+b) 2 Gbps
+c) 1.5 Gbps
+d) 1.8 Gbps
+View Answer
+
+Answer: c
+Explanation:
+The HDTV screen is normally a ratio of 16: 9 (in contrast to 4: 3 for regular TV)
+There are 1920 by 1080 pixels per screen, and
+Screen is renewed 30 times per second.
+24-bits represent one color pixel.
+Therefore Bit Rate = 1920 × 1080 × 30 × 24 = 1,492992,000 = 1.5 Gbps.
+5. A device is sending out data at the rate of 1000 bps. How long does it take to send a file of 100,000 characters?
+a) 200s
+b) 400s
+c) 600s
+d) 800s
+View Answer
+
+Answer: d
+Explanation: ((100,000 × 8) / 1000) s = 800 s.
+Check this: Computer Science MCQs | Cryptography and Network Security Books
+6. A file contains 2 million bytes. How long does it take to download this file using a 56-Kbps channel?
+a) 1-2 mins
+b) 5-6 mins
+c) 2-4 mins
+d) 7-8 mins
+View Answer
+
+Answer: b
+Explanation:
+With a 56-Kbps channel, it takes 16,000,000/56,000 = 289 s ≈ 5 minutes.
+7. We need to send 265 kbps over a noiseless channel with a bandwidth of 20 kHz. How many signal levels do we need?
+a) 1024
+b) 512
+c) 256
+d) 128
+View Answer
+
+Answer: d
+Explanation:
+256000 = 2 × 20000 × log L = 6.625.
+L = 98.7 Levels.
+Since this result is not a power of 2, we need to either increase the number of levels or reduce the bit rate. If we have 128 levels, the bit rate is 280 kbps.
+8. Calculate the theoretical highest bit rate of a regular telephone line. The signal-to-noise ratio is usually 3162.
+a) 34.860 kbps
+b) 17.40 kbps
+c) 11.62 kbps
+d) none of the Mentioned
+View Answer
+
+Answer: a
+Explanation: C = B log (1+SNR) = 3000 log (1+3162) = 34,860 bps.
+Logarithm here is in terms of base 2.
+9. Calculate the theoretical channel capacity. If SNR(dB) = 36 and the channel bandwidth is 2 MHz.
+a) 12 Mbps
+b) 24 Mbps
+c) 16 Mbps
+d) 32 Mbps
+View Answer
+
+Answer: b
+Explanation: None.
+10. A channel has a 1-MHz bandwidth. The SNR for this channel is 63. What is the appropriate bit rate?
+a) 4 Mbps
+b) 6 Mbps
+c) 8 Mbps
+d) 12 Mbps
+View Answer
+
+Answer: b
+Explanation:
+C = Blog_2(1 + SNR) = 10^6 log_2(1 + 63) = 6Mbps.
+11. A channel has a 1-MHz bandwidth. The SNR for this channel is 63. What is the appropriate signel level?
+a) 2
+b) 8
+c) 4
+d) 16
+View Answer
+
+Answer: c
+Explanation: As a continuation to the previous question where we get the channel capacity as 6 Mbps. For better performance we choose 4 Mbps. Thus we calculate L from –
+4Mbps = 2 x 1 MHz x logL.
+12. The appropriate signel level is 4 if SNR for this channel is 63
+What are the bits transmitted for the Unipolar system?
+a) 01101
+b) 11010
+c) 10110
+d) 01001
+View Answer
+
+Answer: c
+Explanation: High – 1, Low – 0.
+1. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the requirement to make this frame collision-free?
+a) 2msec
+b) 4msec
+c) 2sec
+d) 4sec
+View Answer
+
+Answer: a
+Explanation: Average frame transmission time
+Tfr = 200 bits/200 kbps or 1 ms
+Vulnerable time = 2x Tfr = 2 × 1 ms = 2 ms.
+2. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 1000 frames per second?
+a) 150 frames
+b) 80 frames
+c) 135 frames
+d) 96 frames
+View Answer
+
+Answer: c
+Explanation: Frame transmission time
+Tfr= 200/200 kbps or 1 ms.
+If the system creates 1000 frames per second, or 1 frame
+per millisecond, then G = 1
+S = G × e−2G = 0.135 (13.5 percent)
+This means that,
+Throughput =1000 × 0.135 = 135 frames.
+3. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 500 frames per second?
+a) 146 frames
+b) 92 frames
+c) 38 frames
+d) 156 frames
+View Answer
+
+Answer: b
+Explanation: If the system creates 500 frames per second, or 1/2 frames per millisecond.
+Then G = 1/2.
+S = G × e−2G = 0.184 (18.4 percent)
+This means that
+Throughput = 500 × 0.184 = 92
+Only 92 frames out of 500 will probably survive
+This is the maximum throughput case, percentage-wise.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 250 frames per second?
+a) 38 frames
+b) 48 frames
+c) 96 frames
+d) 126 frames
+View Answer
+
+Answer: a
+Explanation: If the system creates 250 frames per second, or 1/4 frames per millisecond, then G = ¼.
+S = G × e−2G = 0.152 (15.2 percent).
+This means that
+Throughput = 250 × 0.152 = 38.
+Only 38 frames out of 250 will probably survive.
+5. A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 1000 frames per second.
+a) 92 frames
+b) 368 frames
+c) 276 frames
+d) 151 frames
+View Answer
+
+Answer: b
+Explanation: G =1 S=G×e−G=0.368 (36.8%)
+Throughput = 1000 × 0.0368 = 368 frames.
+Check this: Cryptography and Network Security Books | Cyber Security MCQ
+6. A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 500 frames per second.
+a) 92 frames
+b) 368 frames
+c) 276 frames
+d) 151 frames
+View Answer
+
+Answer: d
+Explanation: G=1/2 S = G × e−G = 0.303 (30.3 percent)
+Throughput is 500 × 0.0303 = 151.
+7. A network using CSMA/CD has a bandwidth of 10 Mbps. If the maximum propagation time (including the delays in the devices and ignoring the time needed to send a jamming signal, as we see later) is 25.6 μs, what is the minimum size of the frame?
+a) 128 bytes
+b) 32 bytes
+c) 16 bytes
+d) 64 bytes
+View Answer
+
+Answer: d
+Explanation: The minimum frame transmission time is Tfr = 2 × Tp = 51.2 μs. This means, in the worst case, a station needs to transmit for a period of 51.2 μs to detect the collision.
+The minimum size of the frame is 10 Mbps × 51.2 μs = 512 bits or 64 bytes. This is actually the minimum size of the frame for Standard Ethernet.
+8. In collision free protocol channel efficiency is given by-
+a) d/(d + log2(N))
+b) d*(d + log2(N))
+c) log2(N)
+d) (d + log2(N))
+View Answer
+
+Answer: a
+Explanation: In collision free protocol channel efficiency is given by d/(d + log2(N)).
+9. In collision free protocol channel efficiency is given by d/(d + log2(N))
+Find the distance from source A to destination D using Dijkstra algorithm.
+a) 10
+b) 11
+c) 12
+d) 14
+View Answer
+
+Answer: a
+Explanation:
+The shortest path form A to D is ABEFHD and distance is 10.
+10. The distance from source A to destination D using Dijkstra algorithm is A-B-C-J-D-K
+Find the distance from source A to destination D using Dijkstra algorithm.
+a) A-B-C-J-D-K
+b) A-B-C-G-H-D-K
+c) A-E-D-K
+d) A-E-G-H-D-K
+View Answer
+
+Answer: d
+Explanation:
+Shortest path is: A-E-G-H-D-K and the distance is 5 units.
+11. After performing bit stuffing on the following stream : 01101111111111111110010, the output is-
+a) 01101111101111101111100010
+b) 01101111111111111110010111
+c) 10010000000000000000001101
+d) 01101111111111111111110010
+View Answer
+
+Answer: a
+Explanation: Bit stuffing involves adding a 0 after every five 1s during transmission.
+1. HTTP stands for ________
+a) Hash Text Transfer Protocol
+b) Hyper Text Transfer Protocol
+c) Hash Transfer Text Protocol
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: HTTP stands for Hyper Text Transfer Protocol.
+2. SMTP stands for ________
+a) Service Message Transmission Permission
+b) Secure Message Transfer Protocol
+c) Simple Mail Transfer Protocol
+d) Simple Message Transfer Protocol
+View Answer
+
+Answer: c
+Explanation: SMTP stands for Simple Mail Transfer Protocol.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+3. UDP stands for ________
+a) User Datagram Protocol
+b) Used Data Protocol
+c) Unified Definition Protocol
+d) Undefined Diagnostic Protocol
+View Answer
+
+Answer: a
+Explanation: UDP stands for User Datagram Protocol.
+4. ICMP stands for ________
+a) Internal Control Message Protocol
+b) Internet Cipher Mail Protocol
+c) Internal Cipher Mail Protocol
+d) Internet Control Message Protocol
+View Answer
+
+Answer: d
+Explanation: ICMP stands for Internet Control Message Protocol.
+Check this: Cyber Security MCQ | Computer Science MCQs
+5. SONET stands for ________
+a) Secure Offline Network
+b) Synchronous Optical Network
+c) Service Offline Network
+d) Secure Optical Netwrok
+View Answer
+
+Answer: b
+Explanation: SONET stands for Synchronous Optical Network.
+6. DSL stands for ________
+a) Data Storage Line
+b) Digital Subscriber Line
+c) Data Service Language
+d) Data Secure Language
+View Answer
+
+Answer: b
+Explanation: DSL stands for Digital Subscriber Line.
+7. Which of the following does not lie in the Application Layer of the TCP/IP Model?
+a) HTTP
+b) SMTP
+c) RTP
+d) UDP
+View Answer
+
+Answer: d
+Explanation: UDP lies in the Transport layer.
+8. Which one of these does not lie in the Link Layer of the TCP/IP Model?
+a) DSL
+b) IP
+c) SONET
+d) 802.11
+View Answer
+
+Answer: b
+Explanation: IP (Internet Protocol) is a member of the Internet layer.
+9. Which of these is a connection oriented service?
+a) X.25
+b) Frame Relay
+c) ATM
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the mentioned are connection oriented services.
+1. In terms of the size of the network the correct order (ascending) is –
+a) PAN, MAN, LAN, WAN
+b) LAN, MAN, WAN, PAN
+c) PAN, LAN, MAN, WAN
+d) LAN, PAN, MAN, WAN
+View Answer
+
+Answer: c
+Explanation: Personal Area Network, Local Area Network, Metropolitan Area Network, Wide Area Network is the correct order in terms of size of the network from smallest to largest.
+2. How many layers are there in the OSI reference model?
+a) 4
+b) 5
+c) 6
+d) 7
+View Answer
+
+Answer: d
+Explanation: The 7 layers are : Physical Layer, Data Link Layer, Network Layer, Transport Layer, Session Layer, Presentation Layer, Application Layer.
+3. Logical Addressing and Routing are functions of which layer?
+a) Physical Layer
+b) Transport Layer
+c) Data Link Layer
+d) Network Layer
+View Answer
+
+Answer: d
+Explanation: . Logical Addressing and Routing are functions of the Network Layer.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Flow Control and Error Control are functions of which layer?
+a) Physical Layer
+b) Application Layer
+c) Data Link Layer
+d) Network Layer
+View Answer
+
+Answer: c
+Explanation: Flow Control and Error Control are functions of the Data Link Layer.
+5. Dialog Control and Synchronization are function of which layer?
+a) Presentation Layer
+b) Application Layer
+c) Session Layer
+d) Data Link Layer
+View Answer
+
+Answer: c
+Explanation: Dialog Control and Synchronization are function of the Session Layer.
+Check this: Computer Science MCQs | Computer Science Books
+6.Encryption and Compression are functions of which OSI layer?
+a) Presentation Layer
+b) Application Layer
+c) Session Layer
+d) Data Link Layer
+View Answer
+
+Answer: a
+Explanation: Encryption and Compression are functions of the Presentation Layer.
+7. File, Transfer, Access and Management (FTAM) is a function of which layer ?
+a) Presentation Layer
+b) Application Layer
+c) Session Layer
+d) Data Link Layer
+View Answer
+
+Answer: b
+Explanation: FTAM is an Application Layer function.
+8. How many layers are present in the TCP/IP Reference model?
+a) 6
+b) 7
+c) 5
+d) 4
+View Answer
+
+Answer: d
+Explanation: There are 4 layers in the TCP/IP reference model : Link, Internet, Transport and Application.

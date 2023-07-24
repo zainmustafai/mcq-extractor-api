@@ -1,0 +1,378 @@
+1. If a|b and b|c, then a|c.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. For ex, 11|66 and 66|198 = 11|198.
+2. GCD(a,b) is the same as GCD(|a|,|b|).
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation:This is true. gcd(60,24) = gcd(60,-24) = 12.
+3. Calculate the GCD of 1160718174 and 316258250 using Euclidean algorithm.
+a) 882
+b) 770
+c) 1078
+d) 1225
+View Answer
+
+Answer: c
+Explanation: GCD(1160718174, 316258250) = 1078.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Calculate the GCD of 102947526 and 239821932 using Euclidean algorithm.
+a) 11
+b) 12
+c) 8
+d) 6
+View Answer
+
+Answer: d
+Explanation: GCD(102947526, 239821932) = 6.
+5. Calculate the GCD of 8376238 and 1921023 using Euclidean algorithm.
+a) 13
+b) 12
+c) 17
+d) 7
+View Answer
+
+Answer: a
+Explanation: GCD(8376238, 1921023) = 13.
+Check this: Cryptography and Network Security Books | Computer Science Books
+6. What is 11 mod 7 and -11 mod 7?
+a) 4 and 5
+b) 4 and 4
+c) 5 and 3
+d) 4 and -4
+View Answer
+
+Answer: d
+Explanation:11 mod 7 = 4 ; -11 mod 7 = -4 mod 7 = 3 mod 7.
+7. Which of the following is a valid property for concurrency?
+a) a = b (mod n) if n|(a-b)
+b) a = b (mod n) implies b = a (mod n)
+c) a = b (mod n) and b = c (mod n) implies a = c (mod n)
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are valid properties of congruences and can be checked by using substituting values.
+8. [(a mod n) + (b mod n)] mod n = (a+b) mod n
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The equivalence is true and can be checked by substituting values.
+9. [(a mod n) – (b mod n)] mod n = (b – a) mod n
+a) True
+b) False
+View Answer
+
+Answer:b
+Explanation:The equivalence is false and can be checked by substituting values. The correct equivalence would be [(a mod n) – (b mod n)] mod n = (a – b) mod n.
+10. 117 mod 13 =
+a) 3
+b) 7
+c) 5
+d) 15
+View Answer
+
+Answer: d
+Explanation: The correct answer is 2. Or in this case 15 mod 13 = 2.
+11. The multiplicative Inverse of 1234 mod 4321 is
+a) 3239
+b) 3213
+c) 3242
+d) Does not exist
+View Answer
+
+Answer: a
+Explanation: The multiplicative Inverse of 1234 mod 4321 is 3239.
+12. The multiplicative Inverse of 550 mod 1769 is
+a) 434
+b) 224
+c) 550
+d) Does not exist
+View Answer
+
+Answer: a
+Explanation: The multiplicative Inverse of 550 mod 1769 is 550.
+13. The multiplicative Inverse of 24140 mod 40902 is
+a) 2355
+b) 5343
+c) 3534
+d) Does not exist
+View Answer
+
+Answer: d
+Explanation: The multiplicative Inverse does not exist as GCD (24140, 40902) = 34.
+1. GCD(a,b) = GCD(b,a mod b)
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. For example, GCD(55,22) = GCD(22,55 mod 22) = GCD(22,11) = 11
+Consider the Following properties Properties
+G-i) Closure
+G-ii) Associative
+G-iii) Identity Element
+G-iv) Inverse Element
+G-v) Commutative
+
+Consider the Following properties Properties
+R-i) Closure under multiplication
+R-ii) Associativity of multiplication
+R-iii) Distributive Law
+R-iv) Commutativity of multiplication
+R-v) Multiplicative Identity
+R-vi) No zero divisors
+R-vii) Multiplicative Inverse
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+2. All groups satisfy properties
+a) G-i to G-v
+b) G-i to G-iv
+c) G-i to R-v
+d) R-i to R-v
+View Answer
+
+Answer: b
+Explanation: Group G denoted by {G,o}, is a set of elements that satisfy the properties G-i to G-iv.
+3. An Abelian Group satisfies the properties
+a) G-i to G-v
+b) G-i to R-iv
+c) G-i to R-v
+d) R-i to R-v
+View Answer
+
+Answer: a
+Explanation: An Abelian group is a group that satisfies the Commutative property also.
+Check this: Computer Science Books | Cyber Security MCQ
+4. A Ring satisfies the properties
+a) R-i to R-v
+b) G-i to G-iv
+c) G-i to R-v
+d) G-i to R-iii
+View Answer
+
+Answer: d
+Explanation: A ring R denoted by {R, + , x} is a set of elements with two binary operations addition and multiplication and satisfy axioms G-i to R-iii.
+5. A Ring is said to be commutative if it also satisfies the property
+a) R-vi
+b) R-v
+c) R-vii
+d) R-iv
+View Answer
+
+Answer: d
+Explanation: A Ring is said to be commutative if it also satisfies the property R-iv: Commutativity of multiplication.
+6. An ‘Integral Domain’ satisfies the properties
+a) G-i to G-iii
+b) G-i to R-v
+c) G-i to R-vi
+d) G-i to R-iii
+View Answer
+
+Answer: c
+Explanation:An ‘Integral Domain’ satisfies the properties G-i to R-vi.
+7. A Field satisfies all the properties above from G-i to R-vi.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: A Field satisfies all the properties above from G-i to R-vi and is denoted by {F, +, x}.
+8. In modular arithmetic : (a/b) = b(a^-1)
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: This statement is not true. The correct version would be : (a/b) = a(b-1).
+9. a.(b.c) = (a.b).c is the representation for which property?
+a) G-ii
+b) G-iii
+c) R-ii
+d) R-iii
+View Answer
+
+Answer: a
+Explanation: a.(b.c) = (a.b).c represents the Associative property.
+10. a(b+c) = ac+bc is the representation for which property?
+a) G-ii
+b) G-iii
+c) R-ii
+d) R-iii
+View Answer
+
+Answer: d
+Explanation: a(b+c) = ac+bc represents the Distributive Property.
+11. For the group Sn of all permutations of n distinct symbols, what is the number of elements in Sn?
+a) n
+b) n-1
+c) 2n
+d) n!
+View Answer
+
+Answer: d
+Explanation: There there are n distinct symbols there will be n! elements.
+12. For the group Sn of all permutations of n distinct symbols, Sn is an abelian group for all values of n.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: For n>2 it does not form a Abelian Group.
+13. Is S a ring from the following multiplication and addition tables?
++ a b x a b
+a a b a a a
+b b a b a b
+
+a) Yes
+b) No
+c) Can’t Say
+d) Insufficient Data
+View Answer
+
+Answer: a
+Explanation: S is a ring as it satisfies the properties G-i to R-iii.
+14. Does the set of residue classes (mod 3) form a group with respect to modular addition?
+a) Yes
+b) No
+c) Can’t Say
+d) Insufficient Data
+View Answer
+
+Answer: a
+Explanation: Yes. The identity element is 0, and the inverses of 0, 1, 2 are respectively 0, 2, 1.
+15. Does the set of residue classes (mod 3) form a group with respect to modular addition?
+a) Yes
+b) No
+c) Can’t Say
+d) Insufficient Data
+View Answer
+
+Answer: b
+Explanation: No. The identity element is 1, but 0 has no inverse.
+1. A very common field in this category is GF(2) with the set {1, 2} and two operations, addition and multiplication.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: GF(2) is the set {0, 1} with two operations, addition and multiplication
+2. Multiplication / Division follow which operation?
+a) XOR
+b) NAND
+c) AND
+d) OR
+View Answer
+
+Answer: c
+Explanation: Multiplication / Division is the same as the AND operations.
+3. What do the above numbers correspond to?
+0 1 2 3 4
+0 4 3 2 1
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+0 1 2 3 4
+– 1 3 2 4
+
+a) Both Additive Inverses
+b) Both Multiplicative Inverses
+c) Additive and Multiplicative Inverse respectively
+d) Multiplicative and Additive Inverses respectively
+View Answer
+
+Answer: b
+Explanation: The top set of numbers correspond to Additive Inverses and the bottom set of numbers correspond to Multiplicative Inverse.
+Check this: Cyber Security MCQ | Computer Science Books
+4. How many numbers cannot be used in GF(p) in 2n where n=4?
+a) 2
+b) 5
+c) 3
+d) 1
+View Answer
+
+Answer: c
+Explanation: If n=4, the largest prime less than 24 is 13. This means that we cannot use the integers 13, 14 and 15.
+5. If f(x)=x3+x2+2 and g(x)=x2-x+1, find: f(x) + g(x)
+a) x3+2x2-x+3
+b) x3+x2+3
+c) x3+x+1
+d) x2+2x+4
+View Answer
+
+6. If f(x)=x3+x2+2 and g(x)=x2-x+1, find: f(x) – g(x)
+a) x3+x+4
+b) x3+x+1
+c) x3+x2+3
+d) x3+3x+2
+View Answer
+
+Answer: b
+Explanation: We get the solutions via basic polynomial subtraction.
+7. If f(x)=x4+x3+2 and g(x)=x3-x+6, find: f(x) + g(x)
+a) 2x4+2x3+x+8
+b) x4+2x3-x+8
+c) x4+x2+x+8
+d) x4+x3+8
+View Answer
+
+Answer: b
+Explanation: Perform polynomial addition.
+8. If f(x)=x4+x2-x+2 and g(x)=x2-x+1, find: f(x) – g(x)
+a) x4+1
+b) x2+1
+c) x2+2x+6
+d) x4-1
+View Answer
+
+Answer: a
+Explanation: Perform polynomial subtraction.
+9. If f(x)=x3+x2+2 and g(x)=x2-x+1, find the quotient of f(x) / g(x)
+a) x+3
+b) x2+4
+c) x
+d) x+2
+View Answer
+
+Answer: d
+Explanation:We get the solution via basic polynomial division.
+10. If f(x)=x3+x2+2 and g(x)=x2-x+1, find: f(x) x g(x)
+a) x4+x2+2x+2
+b) x5+2x3+2x+3
+c) x5+3x2-2x+2
+d) x4+x2+x+1
+View Answer
+
+Answer: c
+Explanation: We get the solution via basic polynomial multiplication.
+11. Find the 8-bit word related to the polynomial x5 + x2 + x
+a) 00010011
+b) 01000110
+c) 00100110
+d) 11001010
+View Answer
+
+Answer: c
+Explanation: The respective 8-bit word is 00100110.
+12. Find the 8-bit word related to the polynomial x6 + x5 + x2 + x +1
+a) 00010011
+b) 11000110
+c) 00100110
+d) 01100111
+View Answer
+
+Answer: d
+Explanation: The respective 8-bit word is 01100111.

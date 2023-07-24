@@ -1,0 +1,590 @@
+1. In a wireless communication, base station is connected to central hub called _______
+a) PSTN
+b) MSC
+c) CO
+d) PBX
+View Answer
+
+Answer: b
+Explanation: To provide wireless communication within a particular geographic region, an integrated network of base stations must be deployed to provide sufficient radio coverage to all mobile users. The base station, in turn must be connected to a central hub called MSC (mobile switching center).
+2. PSTN stands for ________
+a) Public switched telephone network
+b) Personal switched telephone network
+c) Personal switched telephone node
+d) Public switched telephone node
+View Answer
+
+Answer: a
+Explanation: PSTN stands for public switched telephone network. The PSTN forms the global telecommunication grid which connects conventional telephone centers with MSCs throughout the world.
+3. MSCs provide connectivity between PSTN and the base stations.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The MSC provide connectivity between the public switched telephone network (PSTN) and the numerous base stations. It ultimately provides connectivity between all of the wireless subscribers in the system.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Communication protocol, CAI stands for ___________
+a) Common air interchange
+b) Control air interchange
+c) Common air interface
+d) Control air interchange
+View Answer
+
+Answer: c
+Explanation: To connect mobile subscribers to the base stations, radio links are established using a carefully defined communication protocol called common air interface (CAI) which in essence is a precisely defined handshake communication protocol.
+5. At the base station, the air interface portion of mobile transmission is passed to MSC.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: At the base station, the air interface portion (i.e., signalling and synchronization data) of the mobile transmission is discarded, and the remaining voice traffic is paased along to the MSC on fixed networks.
+Take Wireless and Mobile Communications Tests Now!
+6. PSTN is ___________ and wireless networks are ________
+a) Highly dynamic, virtually static
+b) Static, virtually static
+c) Highly dynamic, virtually dynamic
+d) Virtually static, highly dynamic
+View Answer
+
+Answer: d
+Explanation: The network configurations in the PSTN are virtually static, since the network connections may only be changed when a subscriber changes residence. Wireless networks are highly dynamic with the network configuration being rearranged everytime a new subscriber moves into the coverage region of a different base station.
+7. In public switched telephone network, LATA stands for ______
+a) Local access and transport area
+b) Land area and transport area
+c) Local access and telephone access
+d) Local area and telephone access
+View Answer
+
+Answer: a
+Explanation: In public switched telephone network, LATA stands for Local access and transport area. LATA is a city or a geographic grouping of towns in PSTN.
+8. LATAs are connected by a company called _________
+a) Land exchange carrier
+b) Local exchange carrier
+c) Local control exchange
+d) Land area exchange
+View Answer
+
+Answer: b
+Explanation: Surrounding LATAs are connected by a company called a local exchange carrier (LEC). A LEC is a company that provides telephone services and may be a local telephone company.
+9. A long distance telephone company that collects toll is called _________
+a) LATA
+b) LEC
+c) PSTN
+d) IXC
+View Answer
+
+Answer: d
+Explanation: A long distance telephone company collects toll fees to provide connections between different LATAs over its long distance network. These companies are referred to as interexchange carriers (IXCs).
+10. Wireless networks are extremely hostile and random nature of radio channel.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: A problem unique to wireless networks is the extremely hostile and random nature of the radio channel, and since users may request service from any physical location while traveling over a wide range of velocities.
+11. The technique for separate but parallel signalling channel is called ________
+a) Common channel signalling
+b) Forward channel signalling
+c) Reverse channel signalling
+d) Separate channel signalling
+View Answer
+
+Answer: a
+Explanation: During the mid 1980s, the PSTN was transformed into two parallel networks- one dedicated to user traffic, and one dedicated to call signalling traffic. This technique is called common channel signalling.
+12. In North America, the cellular telephone signalling network uses _______
+a) SS7
+b) IXC
+c) IS-41
+d) PSTN
+View Answer
+
+Answer: a
+Explanation: In North America, the cellular telephone signalling network uses No. 7 Signalling System (SS7), and each MSC uses the IS-41 protocol to communicate with other MSCs on the continent.
+1. First generation cellular and cordless telephone networks are based on _________
+a) Analog technology
+b) Digital technology
+c) Active technology
+d) Passive technology
+View Answer
+
+Answer: a
+Explanation: First generation cellular and cordless telephone networks are based on analog technology. All first generation cellular systems use FM modulation, and cordless telephones use a single base station to communicate with a single portable terminal.
+2. Which of the following is true for first generation wireless systems?
+a) Efficient
+b) Digital technology
+c) High data rate
+d) Low rate
+View Answer
+
+Answer: d
+Explanation: First generation wireless systems provide analog speech and inefficient, low rate, data transmission between the base station and mobile user.
+3. Which of the following network protocol is used by US cellular carriers to automatically accommodate subscribers who roam into their coverage regions?
+a) IS-36
+b) IS-121
+c) IS-41
+d) IS-14
+View Answer
+
+Answer: c
+Explanation: US cellular carriers implemented the network protocol standard IS-41 to allow different cellular systems to automatically accommodate subscribers who roam into their coverage region.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. IS-41 does not rely on autonomous registration.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: IS-41 relies on a feature of AMPS called autonomous registration. Autonomous registration is a process by which a mobile notifies a serving MSC of its presence and location.
+5. MSC distinguishes home users from roaming users based on MIN.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The MSC is able to distinguish home users from roaming users based on the MIN of each active user, and maintains a real time user list in the home location register (HLR) and visitor location register (VLR).
+Check this: Electronics & Communication Engineering Books | Electrical Engineering Books
+6. The visited system creates a __________ record for each roamer and notifies home system to update __________
+a) HLR, VLR
+b) VLR, MIN
+c) MIN, ESN
+d) VLR, HLR
+View Answer
+
+Answer: d
+Explanation: The visited system creates a VLR record for each new roamer and notifies the home system via IS-41 so it can update its own HLR. IS-41 allows the MSCs of neighboring systems to automatically handle the registration and location validation of roamers so that users no longer need to manually register as they travel.
+7. Which of the following is not an example of second generation wireless networks?
+a) GSM
+b) CT2
+c) AMPS
+d) PACS
+View Answer
+
+Answer: c
+Explanation: AMPS is an example of first generation wireless networks. Second generation wireless systems employ digital modulation and advanced call processing capabilities. Example includes GSM, CT2, PACS and DECT.
+8. In second generation wireless networks, the handoff process is called __________
+a) MAHO
+b) Soft handoff
+c) Hard handoff
+d) Inter system handoff
+View Answer
+
+Answer: a
+Explanation: In second generation wireless networks, the handoff process is mobile controlled and is known as mobile assisted handoff (MAHO). The mobile units in these networks perform several other functions not performed by first generation subscriber units.
+9. __________ is an example of second generation cordless telephone standard which allows each cordless phone to communicate with any number of base stations.
+a) PACS
+b) CT2
+c) GSM
+d) DECT
+View Answer
+
+Answer: d
+Explanation: DECT is an example of second generation cordless telephone standard which allows each cordless phone to communicate with any number of base stations. In DECT, the base stations have greater control in terms of switching, signalling, and controlling handoffs.
+10. In PACS/ WACS, the BSC is called a _________
+a) Radio port control unit
+b) HLR
+c) VLR
+d) MIN
+View Answer
+
+Answer: a
+Explanation: In PACS/ WACS, the BSC is called a radio port control unit. This architectural change has allowed the data interface between the base station controller and the MSC to be standardized.
+11. FPLMTS is recently known by the name _________
+a) GSM
+b) ISDN
+c) IMTS-2000
+d) DECT
+View Answer
+
+Answer: c
+Explanation: FPLMTS (Future Public Land Mobile Telecommunication Systems) is more recently been called International Mobile Telecommunication (IMT-2000). It implies emerging third generation wireless systems for hand held devices.
+1. The type of traffic carried by a network determines the routing service.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The type of traffic carried by a network determines the routing services. It also determines protocols, and call handling techniques which must be employed.
+2. Connection oriented services are also called __________
+a) Datagram services
+b) Virtual circuit routing
+c) Connectionless services
+d) Routing service
+View Answer
+
+Answer: b
+Explanation: Connection oriented services are also called virtual circuit routing. In connection oriented routing, the communications path between the message source and destination is fixed for the entire duration of the message.
+3. Connectionless services are also called __________
+a) Datagram services
+b) Virtual circuit routing
+c) Connection oriented services
+d) Routing service
+View Answer
+
+Answer: a
+Explanation: Connectionless services are also called datagram services. In a connectionless service, a call set up procedure is not required at the beginning of a call, and each message burst is treated independently by the network.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. First generation cellular systems provide connectionless services for each voice user.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: First generation cellular systems provide connection oriented services for each voice user. Voice channels are dedicated for users at the serving base station.
+5. Wireless data networks are not well supported by ___________
+a) Datagram services
+b) Circuit switching
+c) Connectionless services
+d) Routing service
+View Answer
+
+Answer: b
+Explanation: Wireless data networks are not supported by circuit switching. It is due to their short, bursty transmissions which are often followed by periods of inactivity. Circuit switching is best suited for dedicated voice only traffic.
+Become Top Ranker in Wireless and Mobile Communications Now!
+6. Packet switching breaks each message into smaller units.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Packet switching breaks each message into smaller units for transmission and recovery. When a message is broken into packets, a certain amount of control information is added to each packet to provide source and destination identification, as well as error recovery provisions.
+7. Header specifies the ___________ of a new packet.
+a) Ending
+b) Middle part
+c) Beginning
+d) Data information
+View Answer
+
+Answer: c
+Explanation: The header specifies the beginning of a new packet. It contains the source address, packet sequence number, and other routing and billing information.
+8. The control field contains the ________
+a) CRC
+b) User data
+c) Address
+d) ARQ
+View Answer
+
+Answer: d
+Explanation: The control field defines functions such as transfer of acknowledgments, automatic repeat requests (ARQs), and packet sequencing. The information field contains user data. And the final field is the frame check sequence field or the CRC (cyclic redundancy check).
+9. Circuit switching provides greater efficiency in comparison to circuit switching.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In contrast to circuit switching, packet switching provides excellent channel efficiency for bursty data transmission of short length. An advantage of packet switched data is that the channel is utilized only when sending or receiving bursts of information.
+10. __________ was developed by CCITT to provide standard connectionless network access protocols for three layers of OSI model.
+a) Packet switching
+b) Datagram routing
+c) X.25
+d) CDPD
+View Answer
+
+Answer: c
+Explanation: X.25 was developed by CCITT (now ITU-T) to provide standard connectionless network access (packet switching) protocols for the three layers (layer 1, 2 and 3) of the open systems interconnection (OSI) model.
+11. X.25 protocols specify particular data rates.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The X.25 protocol does not specify particular data rates or how packet switched networks are implemented. Rather, X.25 provides a series of standard functions and formats which give structure to the design of the software.
+1. US cellular standard CDPD stands for _________
+a) Cellular Digital Packet Data
+b) Cellular Digital Packet Data
+c) Cellular Digital Pocket Data
+d) Cellular Discrete Pocket Data
+View Answer
+
+Answer: a
+Explanation: US cellular standard CDPD stands for Cellular Digital Packet Data. In 1993, US cellular industry developed CDPD to coexist with the conventional voice only cellular system.
+2. CDPD is data service for third generation US cellular systems.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: CDPD is a data service for first and second generation US cellular systems and uses a full 30 kHz AMPS channel on a shared basis. CDPD provides mobile packet data connectivity to existing data networks.
+3. Which of the following is true for CDPD?
+a) Expensive to install
+b) Uses different infrastructure
+c) Complex
+d) Inexpensive to install
+View Answer
+
+Answer: d
+Explanation: CDPD directly overlays with existing cellular infrastructure and uses existing base station equipment, making it simple and inexpensive to install. CDPD does not use the MSC, but rather has its own traffic routing capabilities.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. CDPD channel is _________
+a) Simplex
+b) Complex
+c) Duplex
+d) Expensive
+View Answer
+
+Answer: c
+Explanation: Each CDPD channel is duplex in nature. The forward channel serves as a beacon and transmits data from the PSTN side of the network, while the reverse channel links all mobile users to the CDPD network and serves as the access channel for each subscriber.
+5. CDPD transmissions are carried out using ________ blocks.
+a) Fixed length
+b) Variable length
+c) Long
+d) Short
+View Answer
+
+Answer: a
+Explanation: CDPD transmissions are carried out using fixed length blocks. User data is protected using a Reed-Solomon (63, 47) block code with 6 bit symbols.
+Participate in Wireless and Mobile Communications Certification Contest of the Month Now!
+6. MDLP is _________
+a) Layer protocol used in CDPD
+b) Layer protocol used in GSM
+c) Layer protocol used in ARDIS
+d) Layer protocol used in CDMA
+View Answer
+
+Answer: a
+Explanation: MDLP (Mobile data link protocol) is a lower layer protocol of CDPD. It is used to convey information between data link layer entities (layer 2 devices) across the CDPD air interface.
+7. The layer protocol, RRMP stands for _________
+a) Radio Resource Management Protocol
+b) Radio Resource Mobile Protocol
+c) Radio Rate Management Protocol
+d) Radio Rate Mobile Protocol
+View Answer
+
+Answer: a
+Explanation: The radio resource management protocol (RRMP) is a higher, layer 3 protocol used to manage the radio channel resources of the CDPD system and enables an M-ES to find and utilize a duplex radio channel without interfering with standard voice services.
+8. ARDIS is a public network service.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: ARDIS (Advanced Radio Data Information Systems) is a private network service provided by Motorola and IBM. It is based on MDC 4800 and RD-LAP protocols developed at Motorola.
+9. RMD is a _______ and ________ data service.
+a) Private, two way
+b) Public, one way
+c) Public, two way
+d) Private, one way
+View Answer
+
+Answer: c
+Explanation: RAM Mobile Data (RMD) is a public, two way data service based upon the Mobitex protocol developed by Ericsson. RAM provides street level coverage for short and long messages for users moving in an urban environment.
+10. The MSC provides subscriber access to the PSTN via the _______
+a) Signalling transfer points
+b) Service management system
+c) Database service management system
+d) Switching end points
+View Answer
+
+Answer: d
+Explanation: The MSC provides subscriber access to the PSTN via the switching end points (SEPs). The SEP implements a stored program control switching system known as the service control point (SCP).
+11. ________ controls the switching of messages between nodes in the CCS network.
+a) Signalling transfer points
+b) Service management system
+c) Database service management system
+d) Switching end points
+View Answer
+
+Answer: a
+Explanation: The signalling transfer point (STP) controls the switching of messages between nodes in the CCS network. For higher reliability of transmission, SEPs are required to be connected to the SS7 network via at least two STPs.
+1. ISDN stands for ___________
+a) Integrated Services Digital Network
+b) Integrated Services Discrete Network
+c) Integrated Services Digital Node
+d) Integrated Services Discrete Node
+View Answer
+
+Answer: a
+Explanation: ISDN stands for integrated services digital network. It defines the dedicated signalling network that has been created to complement the PSTN for more flexible and efficient network access and signalling.
+2. ISDN is based on the concept of __________
+a) SS7
+b) CCS
+c) ARDIS
+d) CDPD
+View Answer
+
+Answer: b
+Explanation: ISDN is a complete network framework designed around the concept of common channel signalling. While telephone users throughout the world rely on the PSTN to carry conventional voice traffic, new end-user data and signalling services can be provided with a parallel, dedicated signalling network.
+3. Signalling component that supports traffic between the end-user and network is called ________
+a) Network signalling
+b) Digital subscriber signalling
+c) Access signalling
+d) Subscriber system signalling
+View Answer
+
+Answer: c
+Explanation: Access signalling supports traffic between the end user and the network. It defines how end users obtain access to the PSTN and the ISDN for communication or services.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Access signalling is governed by the SS7 suite of protocols.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The second signalling component of ISDN, network signalling is governed by the SS7 suite of protocols. For wireless communication systems, the SS7 protocols within ISDN are critical to providing backbone network connectivity between MSCs throughout the world.
+5. Information bearing channels in ISDN are called ______
+a) D channels
+b) Data channels
+c) B channels
+d) Voice channels
+View Answer
+
+Answer: c
+Explanation: The ISDN interface is divided into three different types of channels. Information bearing channels called bearer channels (B channels) are used exclusively for end user traffic (voice, data and video).
+Take Wireless and Mobile Communications Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. ISDN provides integrated end user access to only packet switched networks.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: ISDN provides integrated end-user access to both circuit switched and packet switched networks with digital end-to-end connectivity.
+7. PRI interface in ISDN serves small capacity terminals.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: ISDN end users may select between two different interfaces. The BRI (basic rate interface) is intended to serve small capacity terminals while the PRI (primary rate interface) is intended for large capacity terminals.
+8. Which of the following is based on ATM technology?
+a) SS7
+b) CCS
+c) ARDIS
+d) B-ISDN
+View Answer
+
+Answer: d
+Explanation: Emerging networking technique, broadband ISDN (B-ISDN) is based on asynchronous transfer mode (ATM) technology. It allows packet switching rates up to 2.4 Gbps and total switching capacities as high as 100 Gbps.
+9. Which of the following is true for ATM?
+a) Circuit switched
+b) Multiple access technique
+c) Multiplexing technique
+d) Handle only voice users
+View Answer
+
+Answer: c
+Explanation: ATM is a packet switching and multiplexing technique which has been specifically designed to handle both voice users and packet data users in a single physical channel.
+10. ATM supports unidirectional transfer of data.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: ATM supports bidirectional transfer of data packets of fixed length between two end points. It preserves the order of transmission.
+11. The data unit of ATM is ___________
+a) Cell
+b) Atom
+c) Molecule
+d) Packet
+View Answer
+
+Answer: a
+Explanation: The data unit of ATM is cell. They are routed based on header information in each unit (called a label) that identifies the cell as belonging to a specific ATM virtual connection.
+12. ATM cells have fixed length of __________
+a) 48 bytes
+b) 47 bytes
+c) 5 bytes
+d) 53 bytes
+View Answer
+
+Answer: d
+Explanation: ATM cells have a fixed length of 53 bytes. It consists of 48 bytes of data and 5 bytes of header information. Fixed length packets result in simple implementation of fast packet switches.
+1. PCS/PCN provides only wired communication.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The objective of personal communication systems (PCS) or personal communication networks (PCNs) is to provide ubiquitous wireless communications coverage, enabling users to access telephone network and Internet.
+2. Concept of PCS/PCN is based on _________
+a) Advanced intelligent network
+b) Artificial intelligent network
+c) CDPD
+d) SS7
+View Answer
+
+Answer: a
+Explanation: The concept of PCS/PCN is based on an advanced intelligent network (AIN). The mobile and fixed networks will be integrated to provide universal access to the network and its databases.
+3. AIN has different telephone numbers for both wireline and wireless services.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: AIN (advanced intelligent network) allow its users to have a single telephone number to be used for both wireless and wireline services.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Circuit switching has more advantage than packet switching for PCS.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Packet switching technology will have more advantages for PCS/PCN than circuit switching. PCS is required to serve a wide range of services including voice, data, e-mail and digital video.
+5. ______ is used for transmission of packets in the cellular switched architecture.
+a) Packet switching techniques
+b) Circuit switching techniques
+c) Packet and circuit switched technique
+d) Datagram technique
+View Answer
+
+Answer: a
+Explanation: Packet switching techniques are used for transmission of packets in the cellular switched architecture. Packet switching is attractive for wireless networks because the addresses and other information in packet headers make it possible for dispersed network elements to respond to a mobile user without intervention central controllers.
+Get Free Certificate of Merit in Wireless and Mobile Communications Now!
+6. Which of the following has the function to accept information from PSTN?
+a) TIU
+b) WIU
+c) BIU
+d) CIU
+View Answer
+
+Answer: a
+Explanation: The function of TIU (Trunk interface unit) is to accept information from the PSTN. TIU acts as the physical layer and transforms the standard format of the PSTN into the wireless access physical layer.
+7. PTI is the address of ____________
+a) TIU
+b) WIU
+c) BIU
+d) CIU
+View Answer
+
+Answer: a
+Explanation: PTI (Permanent terminal identifier) is the address of TIU. It is the address from where he call is originated.
+8. _______ is the information contained in the packet header of TIU.
+a) PTI
+b) VCI
+c) PRMA
+d) CDPD
+View Answer
+
+Answer: b
+Explanation: VCI (virtual circuit identifier) is the information contained in the packet header of TIU. It is used to identify the route through which the transmission will take place.
+9. Transmission protocol, PRMA stands for _________
+a) Pocket reservation multiple access
+b) Packet register multiple access
+c) Pocket register multiple access
+d) Packet reservation multiple access
+View Answer
+
+Answer: d
+Explanation: Transmission protocol, PRMA stands for packet reservation multiple access. PRMA is a time division multiplex (TDM) based multiple access protocol that allows a group of spatially dispersed terminals to transmit packet voice and low bit rate data over a common channel.
+10. UMTS stands for ____________
+a) Universal mobile telecommunication system
+b) Universal mobile telephone system
+c) United multiplex telecommunication system
+d) Universal mobile telecommunication system
+View Answer
+
+Answer: d
+Explanation: UMTS stands for Universal mobile telecommunication system. It is a system that is capable of providing a variety of mobile services to a wide range of global mobile communication standards.

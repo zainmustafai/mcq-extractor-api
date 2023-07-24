@@ -1,0 +1,192 @@
+1. The two dimensions of spiral model are
+a) diagonal, angular
+b) radial, perpendicular
+c) radial, angular
+d) diagonal, perpendicular
+View Answer
+
+Answer: c
+Explanation: The radial dimension depicts the cumulative costs and the angular dimension depicts the progress made in completing each cycle. Each loop of the spiral model represents a phase.
+2. The Incremental Model is combination of elements of
+a) Build & FIX Model & Waterfall Model
+b) Linear Model & RAD Model
+c) Linear Model & Prototyping Model
+d) Waterfall Model & RAD Model
+View Answer
+
+Answer: c
+Explanation: Each linear sequence produces a deliverable “increment” of the software system, particularly needed in case of quick delivery of a limited functionality system..
+3. Model preferred to create client/server applications is
+a) WINWIN Spiral Model
+b) Spiral Model
+c) Concurrent Model
+d) Incremental Model
+View Answer
+
+Answer: c
+Explanation: In case of client/server applications, the concurrent process model specifies activities in two dimensions: a system dimension and a component dimension. Hence Concurrency is achieved by these two activities occurring simultaneously and can be modeled using the state-oriented approach.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Identify the correct statement with respect to Evolutionary development:
+a) Evolutionary development usually has two flavors; exploratory development, and throw-away prototyping
+b) Very large projects are usually done using evolutionary development based approach
+c) It facilitates easy project management, through the high volume of documentation it generates
+d) Sometimes the construction of a throw-away prototype is not followed by a re- implementation of the software system using a more structured approach
+View Answer
+
+Answer: a
+Explanation: Evolutionary development usually has two flavors; exploratory development, and
+throw-away prototyping.
+5. Spiral model was developed by
+a) Victor Bisili
+b) Berry Boehm
+c) Bev Littlewood
+d) Roger Pressman
+View Answer
+
+Answer: b
+Explanation: Berry Boehm in 1986 in his Article “A spiral model of software development and enhancement”.
+Check this: BCA MCQs | Computer Science Books
+6. Software evolution does not comprises:
+a) Development activities
+b) Negotiating with client
+c) Maintenance activities
+d) Re-engineering activities
+View Answer
+
+Answer: b
+Explanation: Software evolution refers to the study and management of the process of making changes to software over time. Thus it comprises rest three options.
+7. Processes for evolving a software product depend on:
+a) Type of software to be maintained
+b) Development processes used
+c) Skills and experience of the people involved
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Processes used for software evolution depend on all these factors.
+8. Which technique is applied to ensure the continued evolution of legacy systems ?
+a) Forward engineering
+b) Reverse Engineering
+c) Reengineering
+d) Reverse Engineering and Reengineering
+View Answer
+
+Answer: d
+Explanation: Processes used for software evolution depend rely on these two techniques.
+9. Program modularization and Source code translation are the activities of_____________
+a) Forward engineering
+b) Reverse Engineering
+c) Reengineering
+d) Reverse Engineering and Reengineering
+View Answer
+
+Answer: c
+Explanation: Reengineering is the examination and alteration of a subject system to reconstitute it in a new form and the subsequent implementation of the new form.
+10. Reverse engineering is the last activity in a reengineering project.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Reverse engineering is often the initial activity in a reengineering project.
+11. The cost of re-engineering is often significantly less than the costs of developing new software.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: There is a high risk in new software development. There may be development problems, staffing problems and specification problems, thereby increasing the cost.
+ 1. A sociotechnical system is a system that includes
+a) people
+b) software
+c) hardware
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A sociotechnical system is a system that includes people, software, and hardware to show that you need to take a systems perspective on security and dependability.
+2. Which layer is missing in the sociotechnical system stack as shown below:
+The layer missing in the sociotechnical system stack as shown is application layer
+a) organizational layer
+b) application layer
+c) physical layer
+d) transport layer
+View Answer
+
+Answer: b
+Explanation: The application layer This layer delivers the application-specific functionality
+that is required.
+3. Consider an example of a system which has a police command and control system that may include a geographical information system to provide details of the location of incidents. What kind of system the example represents?
+a) Complex System
+b) Technical computer-based system
+c) Sociotechnical System
+d) Both Complex and Sociotechnical System
+View Answer
+
+Answer: d
+Explanation: Complex systems are usually hierarchical and so include other systems.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which property of a sociotechnical system varies depending on how the component assemblies are arranged and connected?
+a) security
+b) usability
+c) volume
+d) reliability
+View Answer
+
+Answer: c
+Explanation: The volume of a system (the total space occupied) varies depending on how the component assemblies are arranged and connected.
+5. Which property of a sociotechnical system depends on the technical system components, its operators, and its operating environment?
+a) security
+b) usability
+c) volume
+d) reliability
+View Answer
+
+Answer: b
+Explanation: Usability reflects how easy it is to use the system.
+Check this: Computer Science MCQs | Information Technology MCQs
+6. In a sociotechnical system, you need to consider reliability from perspectives namely:
+a) only software reliability
+b) only hardware reliability
+c) hardware and software reliability
+d) hardware, software and operator reliability
+View Answer
+
+Answer: d
+Explanation: In a sociotechnical system, you need to consider reliability from all three perspectives.
+7. There are ________ overlapping stages in the lifetime of large and complex sociotechnical systems.
+a) two
+b) three
+c) four
+d) five
+View Answer
+
+Answer: b
+Explanation: The stages are Procurement, Development and Operation.
+8. Sociotechnical systems are deterministic.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Sociotechnical systems are non-deterministic partly because they include people and partly because changes to the hardware, software, and data in these systems are so frequent
+9. What are the two ways to view the human error of a sociotechnical system?
+a) hardware and software approach
+b) management and users approach
+c) person and systems approach
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: The answer is self explanatory.
+10. Human and organizational factors such as organizational structure and politics have a significant effect on the operation of sociotechnical systems.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: As people are a part of the system, hence they affect the sociotechnical system.

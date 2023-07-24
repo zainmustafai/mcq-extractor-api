@@ -1,0 +1,412 @@
+1. Multiple access schemes are used to allow ________ mobile users to share simultaneously a finite amount of radio spectrum.
+a) Many
+b) One
+c) Two
+d) Ten-Fifteen
+View Answer
+
+Answer: a
+Explanation: Multiple access schemes are used to allow many mobile users to share simultaneously a finite amount of radio spectrum. The sharing of spectrum is required to achieve high capacity by simultaneously allocating the available bandwidth to multiple users.
+2. The technique that makes possible the task of listening and talking in communication system is called ________
+a) Simplexing
+b) Duplexing
+c) Modulating
+d) Multiple access technique
+View Answer
+
+Answer: b
+Explanation: In conventional telephone systems, it is possible to talk and listen simultaneously. This effect is called duplexing and is generally required in wireless telephone systems.
+3. Frequency division duplexing provides ________ distinct bands of frequencies for _________ user.
+a) Two, two
+b) One, two
+c) Two, one
+d) Two, many
+View Answer
+
+Answer: c
+Explanation: Frequency division duplexing (FDD) provides two distinct bands of frequencies for every user. In FDD, any duplex channel actually consists of two simplex channels.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The forward band in FDD provides traffic from the mobile to base station.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The forward band in FDD provides traffic from the base station to the mobile. The reverse band provides traffic from the mobile to the base station.
+5. The frequency separation between each forward and reverse channel changes throughout the system.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation:The frequency separation between each forward and reverse channel is constant throughout the system. It is regardless of the particular channel being used. A device called a duplexer is used inside each subscriber unit and base station to allow simultaneous bidirectional radio transmission.
+Become Top Ranker in Wireless and Mobile Communications Now!
+6. Time division duplexing uses ________ to provide both a forward and reverse link.
+a) Frequency
+b) Time
+c) Time and frequency
+d) Cell spacing
+View Answer
+
+Answer: b
+Explanation: Time division duplexing (TDD) uses time instead of frequency to provide both a forward and reverse link. In TDD, multiple users share a single radio channel by taking turns in the time domain.
+7. TDD is effective for _________
+a) Fixed wireless access and users are stationary
+b) Dynamic wireless access and users are stationary
+c) Fixed wireless access and users are moving
+d) Dynamic wireless access and users are moving
+View Answer
+
+Answer: a
+Explanation: TDD is effective for fixed wireless access when all users are stationary. This makes the propagation delay does not vary in time among the users. Because of rigid timing required for time slotting, TDD generally is limited to cordless phone or short range potable access.
+8. In wideband systems, the transmission bandwidth of a single channel _________ coherence bandwidth of the channel.
+a) Equal to
+b) Not related to
+c) Larger than
+d) Smaller than
+View Answer
+
+Answer: c
+Explanation: In wideband systems, the transmission bandwidth of a single channel is much larger than the coherence bandwidth of the channel. Thus, multipath fading does not greatly vary the received signal power within a wideband channel.
+9. In narrowband system, the channels are usually operated using TDD.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In narrowband system, channels are usually operated using FDD. To minimize interference between forward and reverse links on each channel, the frequency separation is made as great as possible within the frequency spectrum.
+10. Narrowband FDMA allows users to share the same radio channel allocating a unique time slot to each user.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In narrowband FDMA, a user is assigned a particular channel which is not shared by other users in the vicinity. However narrowband TDMA allows the users to share the same radio channel allocating a unique time slot to each user.
+1. Frequency division multiple access (FDMA) assigns ______ channels to _______ users.
+a) Individual, individual
+b) Many, individual
+c) Individual, many
+d) Many, many
+View Answer
+
+Answer: a
+Explanation: Frequency division multiple access (FDMA) assigns individual channels to individual users. Each user is allocated a unique frequency band or channel. These channels are assigned on demand to users who request service.
+2. During the period of call, other users can share the same channel in FDMA.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In FDMA systems, no other user can share the same channel during the period of call. In FDD systems, the users are assigned a channel as a pair of frequencies; one is used for the forward channel while the other frequency is used for the reverse channel.
+3. The FDMA channel carries ____________ phone circuit at a time.
+a) Ten
+b) Two
+c) One
+d) Several
+View Answer
+
+Answer: c
+Explanation: The FDMA channel carries one phone circuit at a time. Each individual band or channel is wide enough to accommodate the signal spectra of the transmissions to be propagated.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. If the FDMA channel is not in use, it can be used by other users.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: If an FDMA channel is not in use, it sits idle and cannot be used by other users to increase or share capacity. It is essentially a wasted resource.
+5. The bandwidth of FDMA channel is ______
+a) Wide
+b) Narrow
+c) Large
+d) Zero
+View Answer
+
+Answer: b
+Explanation: The bandwidth of FDMA channels is relatively narrow as each channel supports only one circuit per carrier. That is, FDMA is usually implemented in narrow band systems.
+Become Top Ranker in Wireless and Mobile Communications Now!
+6. The symbol time in FDMA systems is _________ thus intersymbol interference is ______
+a) Large, high
+b) Small, low
+c) Small, high
+d) Large, low
+View Answer
+
+Answer: d
+Explanation: The symbol time of a narrowband signal is large as compared to the average delay spread. This implies that the amount of intersymbol interference is low and, thus, little or no equalization is required in FDMA narrowband systems.
+7. Due to _________ transmission scheme __________ bits are needed for overhead in FDMA systems.
+a) Continuous, few
+b) Discontinuous, few
+c) Continuous, many
+d) Discontinuous, many
+View Answer
+
+Answer: a
+Explanation: Since FDMA is a continuous transmission scheme, fewer bits are needed for overhead purposes (such as synchronization and framing bits) as compared to TDMA.
+8. Which of the following is not true for FDMA systems as compared to TDMA systems?
+a) Low complexity
+b) Lower cell site system cost
+c) Tight RF filtering
+d) Narrow bandwidth
+View Answer
+
+Answer: b
+Explanation: FDMA systems have higher cell site system costs as compared to TDMA systems. It is due to single channel per carrier design, and the need to use costly bandpass filters to eliminate spurious radiation at the base station.
+9. __________ is undesired RF radiation.
+a) Intermodulation frequency
+b) Intermediate frequency
+c) Instantaneous frequency
+d) Instrumental frequency
+View Answer
+
+Answer: a
+Explanation: Intermodulation (IM) frequency is undesired RF radiation which can interfere with other channels in the FDMA systems. The nonlinearities cause signal spreading in the frequency domain and generate IM frequency.
+10. __________ is based on FDMA/FDD.
+a) GSM
+b) W-CDMA
+c) Cordless telephone
+d) AMPS
+View Answer
+
+Answer: d
+Explanation: The first US analog cellular system, the Advanced Mobile Phone System (AMPS) is based on FDMA/FDD. A single user occupies a single channel while the call is in progress.
+11. In US AMPS, 416 channels are allocated to various operators with 10 kHz guard band and channel between them is 30 kHz. What is the spectrum allocation given to each operator?
+a) 12.5 kHz
+b) 30 kHz
+c) 12.5 MHz
+d) 30 MHz
+View Answer
+
+Answer: c
+Explanation: Spectrum allocated to each cellular operator is 12.5 MHz. As Bt = NBc + 2Bguard; which is equal to 416*30*103+2(10*103) = 12.5 MHz.
+
+1. TDMA systems transmit in a continuous way.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: TDMA systems transmit data in a buffer and burst method. Thus, the transmission for any user is not continuous.
+2. Preamble contains __________
+a) Address
+b) Data
+c) Guard bits
+d) Trail bits
+View Answer
+
+Answer: a
+Explanation: TDMA frame is made up of a preamble, an information message and the trail bits. In a TDMA frame, the preamble contains the address and synchronization information that both the base station and the subscribers use to identify each other.
+3. __________ are utilized to allow synchronization of the receivers between different slots and frames.
+a) Preamble
+b) Data
+c) Guard bits
+d) Trail bits
+View Answer
+
+Answer: c
+Explanation: Guard times are utilized to allow synchronization of the receivers between different slots and frames. TDMA/FDD systems intentionally induce several time slots of delay between the forward and reverse time slots for a particular user.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following is not true for TDMA?
+a) Single carrier frequency for single user
+b) Discontinuous data transmission
+c) No requirement of duplexers
+d) High transmission rates
+View Answer
+
+Answer: a
+Explanation: TDMA share a single carrier frequency with several users, where each user makes use of non-overlapping time slots. The number of time slots per frame depends on several factors, such as modulation technique, available bandwidth etc.
+5. Because of _______ transmissions in TDMA, the handoff process in __________
+a) Continuous, complex
+b) Continuous, simple
+c) Discontinuous, complex
+d) Discontinuous, simple
+View Answer
+
+Answer: d
+Explanation: Because of discontinuous transmissions in TDMA, the handoff process is much simpler for a subscriber unit, since it is able to listen for other base stations during idle time slots.
+Take Wireless and Mobile Communications Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. __________ synchronization overhead is required in TDMA due to _______ transmission.
+a) High, burst
+b) High, continuous
+c) Low, burst
+d) No, burst
+View Answer
+
+Answer: a
+Explanation: High synchronization overhead is required in TDMA systems because of burst transmissions. TDMA transmissions are slotted, and this requires the receivers to be synchronized for each data burst.
+7. TDMA allocates a single time per frame to different users.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: TDMA has an advantage that it can allocate different numbers of time slots per frame to different users. Thus, bandwidth can be supplied on demand to different users by concatenating or reassigning time slots based on priority.
+8. ___________ of TDMA system is a measure of the percentage of transmitted data that contains information as opposed to providing overhead for the access scheme.
+a) Efficiency
+b) Figure of merit
+c) Signal to noise ratio
+d) Mean
+View Answer
+
+Answer: a
+Explanation: Efficiency of TDMA system is a measure of the percentage of transmitted data that contains information as opposed to providing overhead for the access scheme. The frame efficiency is the percentage of bits per frame which contain transmitted data.
+9. A TDMA system uses 25 MHz for the forward link, which is broken into radio channels of 200 kHz. If 8 speech channels are supported on a single radio channel, how many simultaneous users can be accommodated?
+a) 25
+b) 200
+c) 1600
+d) 1000
+View Answer
+
+Answer: d
+Explanation: For a TDMA system that uses 25 MHz for the forward link, which is broken into radio channels of 200 kHz. If 8 speech channels are supported on a single radio channel, 1000 simultaneous users can be accommodated as N = (25 MHz)/(200 kHz/8).
+10. What is the time duration of a bit if data is transmitted at 270.833 kbps in the channel?
+a) 270.833 s
+b) 3 μs
+c) 3.692 μs
+d) 3.692 s
+View Answer
+
+Answer: c
+Explanation: If data is transmitted at 270.833 kbps in the channel, the time duration of a bit will be 3.692 μs, as Tb = (1/270.833 kbps) = 3.692 μs.
+1. In ___________ technique, many subscribers attempt to access a single channel in an uncoordinated manner.
+a) Packet radio
+b) Multiple access
+c) Modulation
+d) Spread spectrum
+View Answer
+
+Answer: a
+Explanation: In packet radio (PR) access techniques, many subscribers attempt to access a single channel in an uncoordinated (or minimally coordinated) manner. Transmission is done by using bursts of data.
+2. Packet radio uses _________ and __________ signals for perfect feedback.
+a) Forward, reverse
+b) ACK, NACK
+c) Active, passive
+d) Linear, non linear
+View Answer
+
+Answer: b
+Explanation: Packet radio uses ACK and NACK signals for perfect feedback. The ACK signal indicates an acknowledgment of a received burst and NACK indicates that the previous burst was not received correctly by base station.
+3. Packet radio has high spectral efficiency.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Packet radio multiple access is very easy to implement, but has low spectral efficiency and may induce delays. The subscriber uses a contention technique to transmit on a common channel.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. ___________ is defined as average number of messages successfully transmitted per unit time in packet radio multiple access technique.
+a) Average delay
+b) Figure of merit
+c) Throughput
+d) Efficiency
+View Answer
+
+Answer: c
+Explanation: The performance of contention technique can be evaluated by the throughput (T), which is defined as the average number of messages successfully transmitted per unit time, and the average delay experienced by a typical message burst.
+5. What is the time period during which the packets are susceptible to collisions with transmissions from other users?
+a) Delay time
+b) Latency period
+c) Average delay time
+d) Vulnerable period
+View Answer
+
+Answer: d
+Explanation: Vulnerable period is the time period during which the packets are susceptible to collisions with transmissions from other users. It is used in order to determine the throughput.
+Check this: Electrical Engineering Books | Electronics & Communication Engineering MCQs
+6. For a PR multiple access technique, packet transmissions occur with __________ distribution.
+a) Poisson
+b) Gaussian
+c) Pearson
+d) Rayleigh
+View Answer
+
+Answer: a
+Explanation: For a PR multiple access technique, packet transmissions occur with Poisson distribution. To study packet radio protocols, it is assumed that all packets sent by all users have a constant packet length and fixed channel rate.
+7. If λ is mean arrival rate and τ is the packet duration, then traffic occupancy of a packet radio network is equal to _________
+a) λτ
+b) λ/τ
+c) λ-τ
+d) λτ2
+View Answer
+
+Answer: a
+Explanation: If λ is mean arrival rate and τ is the packet duration, then traffic occupancy or throughput of a packet radio network is equal to λτ. The unit of R is in Erlangs.
+8. Pure ALOHA is __________
+a) Modulation technique
+b) Multiple access technique
+c) Random access technique
+d) Spread spectrum technique
+View Answer
+
+Answer: c
+Explanation: The pure ALOHA protocol is a random access protocol used for data transfer. A user accesses a channel as soon as a message is ready to be transmitted.
+9. For pure ALOHA protocol, the vulnerable period is ___________ the packet duration.
+a) Double
+b) Equal
+c) Ten times
+d) Not equal
+View Answer
+
+Answer: a
+Explanation: For the pure ALOHA protocol, the vulnerable period is double the packet duration. After a transmission, the user waits for an acknowledgement on either the same channel or a separate feedback channel.
+10. The vulnerable period of slotted ALOHA is _________ packet duration.
+a) Two
+b) Ten
+c) One
+d) Three
+View Answer
+
+Answer: c
+Explanation: The vulnerable period of slotted ALOHA is one packet duration. Since, partial collisions are prevented through synchronization.
+11. In slotted ALOHA, time is divided into different length of time slots.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In slotted ALOHA, time is divided into equal time slots of length greater than the packet duration. The subscribers each have synchronized clocks and transmit a message only at the beginning of a new time slot.
+12. CSMA stands for _________
+a) Carrier sense multiple access
+b) Code sense multiple access
+c) Carrier sense modulation access
+d) Carry sense multiple access
+View Answer
+
+Answer: a
+Explanation: CSMA stands for carrier sense multiple access. CSMA protocol is based on the fact that each terminal on the network is able to monitor the status of the channel before transmitting information.
+13. __________ is the time required for a terminal to sense whether or not the channel is idle.
+a) Propagation delay
+b) Average delay
+c) Detection delay
+d) Time delay
+View Answer
+
+Answer: c
+Explanation: In CSMA protocols, detection delay and propagation delay are two important parameters. Detection delay is a function of the receiver hardware and is the time required for a terminal to sense whether or not the channel is idle.
+14. Which of the following is based on time division multiplexing?
+a) Slotted ALOHA
+b) Pure ALOHA
+c) CSMA
+d) Reservation ALOHA
+View Answer
+
+Answer: d
+Explanation: Reservation ALOHA is a packet access scheme based on time division multiplexing. In this protocol, certain packet slots are assigned with priority, and it is possible for users to reserve slots for the transmission of packets.
+15. Discrete packet time technique, PRMA stands for _________
+a) Packet reservation multiple access
+b) Photo reflector multiple access
+c) Proton reflector modulating access
+d) Packet reflection multiple access
+View Answer
+
+Answer: a
+Explanation: PRMA stands for Packet Reservation Multiple Access. PRMA uses a discrete packet time technique similar to reservation ALOHA and combines the cyclical frame structure of TDMA in a manner that allows each TDMA time slot to carry either voice or data, where voice is the priority.

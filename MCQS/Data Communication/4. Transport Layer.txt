@@ -1,0 +1,282 @@
+1. Which of the following is false with respect to TCP?
+a) Connection-oriented
+b) Process-to-process
+c) Transport layer protocol
+d) Unreliable
+View Answer
+
+Answer: d
+Explanation: TCP is a transport layer protocol that provides reliable and ordered delivery of a stream of bytes between hosts communicating via an IP network.
+2. In TCP, sending and receiving data is done as _______
+a) Stream of bytes
+b) Sequence of characters
+c) Lines of data
+d) Packets
+View Answer
+
+Answer: a
+Explanation: TCP provides stream oriented delivery between hosts communicating via an IP network and there are no message boundaries. TCP can concatenate data from a number of send () commands into one stream of data and still transmit it reliably.
+3. TCP process may not write and read data at the same speed. So we need __________ for storage.
+a) Packets
+b) Buffers
+c) Segments
+d) Stacks
+View Answer
+
+Answer: b
+Explanation: A TCP receiver has a receive buffer that is used to store the unprocessed incoming packets in case the sender is sending packets faster than the processing rate of the received packets.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. TCP groups a number of bytes together into a packet called _______
+a) Packet
+b) Buffer
+c) Segment
+d) Stack
+View Answer
+
+Answer: c
+Explanation: A segment may be collection of data from many send () statements. TCP transmits each segment as a stream of bytes.
+5. Communication offered by TCP is ________
+a) Full-duplex
+b) Half-duplex
+c) Semi-duplex
+d) Byte by byte
+View Answer
+
+Answer: a
+Explanation: Data can flow both the directions at the same time during a TCP communication hence, it is full-duplex. This is the reason why TCP is used in systems that require full-duplex operation such as e-mail systems.
+Check this: MCA MCQs | Computer Science MCQs
+6. To achieve reliable transport in TCP, ___________ is used to check the safe and sound arrival of data.
+a) Packet
+b) Buffer
+c) Segment
+d) Acknowledgment
+View Answer
+
+Answer: d
+Explanation: Acknowledgment mechanism is used to check the safe and sound arrival of data. The sender actively checks for acknowledgement from the receiver and once a specific time period has passed, it retransmits the data.
+7. In segment header, sequence number and acknowledgement number fields refer to _______
+a) Byte number
+b) Buffer number
+c) Segment number
+d) Acknowledgment
+View Answer
+
+Answer: a
+Explanation: As TCP has to ensure ordered delivery of packets, sequence number and acknowledgement number are used to identify the byte number of the packet in the stream of bytes being transmitted.
+8. Suppose a TCP connection is transferring a file of 1000 bytes. The first byte is numbered 10001. What is the sequence number of the segment if all data is sent in only one segment?
+a) 10000
+b) 10001
+c) 12001
+d) 11001
+View Answer
+
+Answer: b
+Explanation: The sequence number given to first byte of a segment, with respect to its order among the previous segments, is the sequence number of that segment.
+9. Bytes of data being transferred in each connection are numbered by TCP. These numbers start with a _________
+a) Fixed number
+b) Random sequence of 0’s and 1’s
+c) One
+d) Sequence of zero’s and one’s
+View Answer
+
+Answer: d
+Explanation: One might expect the sequence number of the first byte in the stream to be 0, or 1. But that does not happen in TCP, Instead, the sender has to choose an Initial Sequence Number (ISN), which is basically a random 32 bit sequence of 0’s and 1’s, during the connection handshake.
+10. The value of acknowledgement field in a segment defines _______
+a) sequence number of the byte received previously
+b) total number of bytes to receive
+c) sequence number of the next byte to be received
+d) sequence of zeros and ones
+View Answer
+
+Answer: c
+Explanation: The acknowledgement field in a segment defines the sequence number of the byte which is to be received next i.e. sequence number of byte that the sender should transmit next.
+1. The receiver of the data controls the amount of data that are to be sent by the sender is referred to as ___________
+a) Flow control
+b) Error control
+c) Congestion control
+d) Error detection
+View Answer
+
+Answer: a
+Explanation: Flow control is done to prevent the receiver from being overflowed with data. It is done using various open-loop (prevention) methods and closed-loop (recovery) methods.
+2. Size of TCP segment header ranges between ___________
+a) 16 and 32 bytes
+b) 16 and 32 bits
+c) 20 and 60 bytes
+d) 20 and 60 bits
+View Answer
+
+Answer: c
+Explanation: The size of the header can be 20 bytes at a minimum if there are no options and can go up to 60 bytes at maximum with 40 bytes in the options field. The header contains all the control information required to ensure ordered, error-free and reliable delivery of the segment.
+3. Connection establishment in TCP is done by which mechanism?
+a) Flow control
+b) Three-Way Handshaking
+c) Forwarding
+d) Synchronization
+View Answer
+
+Answer: b
+Explanation: A three-way handshake allows both, the server and the client to choose their Initial Sequence Number and inform about it to the other party. This won’t be possible using the two-way handshake mechanism.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The server program tells its TCP that it is ready to accept a connection. This process is called ___________
+a) Active open
+b) Active close
+c) Passive close
+d) Passive open
+View Answer
+
+Answer: d
+Explanation: This is the first step in the Three-Way Handshaking process and is started by the server. Then the Client picks an ISN (Initial Sequence Number) and synchronizes (shares) it with the Server requesting a connection. The Server acknowledges the clients ISN, and then picks an ISN and synchronizes it with the Client. At last, the Client acknowledges the servers ISN.
+5. A client that wishes to connect to an open server tells its TCP that it needs to be connected to that particular server. The process is called ___________
+a) Active open
+b) Active close
+c) Passive close
+d) Passive open
+View Answer
+
+Answer: a
+Explanation: This is the second step in the Three-Way Handshaking process and is done by the client once it finds the open server and picks an ISN. The Server acknowledges the clients request, and then picks an ISN and synchronizes it with the Client. At last, the Client acknowledges the servers ISN.
+Participate in Computer Networks Certification Contest of the Month Now!
+6. In Three-Way Handshaking process, the situation where both the TCP’s issue an active open is ___________
+a) Mutual open
+b) Mutual Close
+c) Simultaneous open
+d) Simultaneous close
+View Answer
+
+Answer: c
+Explanation: In simultaneous open situation, two nodes send an SYN signal to each other and start a TCP connection. Here, both TCP nodes transmit a SYNC+ACK segment to each other and a connection is established between them. This doesn’t happen usually, because both sides have to know which port on the other side to send to.
+7. A malicious attacker sends a large number of SYNC segments to a server, pretending that each of them is coming from a different client by faking the source IP address in the datagram. Which type of attack is being performed in this situation?
+a) SYNC flooding attack
+b) Active attack
+c) Passive attack
+d) Denial-of-service attack
+View Answer
+
+Answer: a
+Explanation: SYNC flooding attack is a form of Denial of Service attack. Due to the overflow of SYNC segments sent to the server, the victims are not able to request for a connection to the server, thus resulting in Denial of Service.
+8. SYNC flooding attack belongs to a type of security attack known as ___________
+a) SYNC flooding attack
+b) Active attack
+c) Passive attack
+d) Denial-of-service attack
+View Answer
+
+Answer: d
+Explanation: During SYNC flooding the system collapses and denies service to every request, making it a DoS attack. Some other DoS attacks are bandwidth flooding, connection flooding and UDP flooding.
+9. The sizes of source and destination port address in TCP header are ___________ respectively.
+a) 16-bits and 32-bits
+b) 16-bits and 16-bits
+c) 32-bits and 16-bits
+d) 32-bits and 32-bits
+View Answer
+
+Answer: b
+Explanation: All port addresses are of 16 bits and they specify the type of service being used by the network entity. For example, port 21 is used for FTP connections and port 25 is used for ICMP connections.
+10. What allows TCP to detect lost segments and in turn recover from that loss?
+a) Sequence number
+b) Acknowledgment number
+c) Checksum
+d) Both Sequence & Acknowledgment number
+View Answer
+
+Answer: b
+Explanation: TCP header contains separate fields for sequence number and acknowledgment number. Comparing these values is what allows TCP to detect lost segments and in turn recover from that loss. After detecting the lost segments, the recovery may require retransmission of the lost segments of data.
+1. Which of the following is false with respect to UDP?
+a) Connection-oriented
+b) Unreliable
+c) Transport layer protocol
+d) Low overhead
+View Answer
+
+Answer: a
+Explanation: UDP is an unreliable, connectionless transport layer protocol that provides message-based data transmission. TCP is an example of connection-oriented protocols.
+2. Return value of the UDP port “Chargen” is _______
+a) String of characters
+b) String of integers
+c) Array of characters with integers
+d) Array of zero’s and one’s
+View Answer
+
+Answer: a
+Explanation: Using Chargen with UDP on port 19, the server sends a UDP datagram containing a random number of characters every time it receives a datagram from the connecting host. The number of characters is between 0 and 512.
+3. Beyond IP, UDP provides additional services such as _______
+a) Routing and switching
+b) Sending and receiving of packets
+c) Multiplexing and demultiplexing
+d) Demultiplexing and error checking
+View Answer
+
+Answer: d
+Explanation: De-multiplexing is the delivering of received segments to the correct application layer processes at the recipients end using UDP. Error checking is done through checksum in UDP.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. What is the main advantage of UDP?
+a) More overload
+b) Reliable
+c) Low overhead
+d) Fast
+View Answer
+
+Answer: c
+Explanation: As UDP does not provide assurance of delivery of packet, reliability and other services, the overhead taken to provide these services is reduced in UDP’s operation. Thus, UDP provides low overhead, and higher speed.
+5. Port number used by Network Time Protocol (NTP) with UDP is ________
+a) 161
+b) 123
+c) 162
+d) 124
+View Answer
+
+Answer: b
+Explanation: The Network Time Protocol is a clock synchronization network protocol implemented by using UDP port number 123 to send and receive time stamps.
+Take Computer Networks Tests Now!
+6. What is the header size of a UDP packet?
+a) 8 bytes
+b) 8 bits
+c) 16 bytes
+d) 124 bytes
+View Answer
+
+Answer: a
+Explanation: The fixed size of the UDP packet header is 8 bytes. It contains four two-byte fields: Source port address, Destination port address, Length of packet, and checksum.
+7. The port number is “ephemeral port number”, if the source host is _______
+a) NTP
+b) Echo
+c) Server
+d) Client
+View Answer
+
+Answer: d
+Explanation: Port numbers from 1025 to 5000 are used as ephemeral port numbers in Windows Operating System. Ephemeral port numbers are short-lived port numbers which can be used for clients in a UDP system where there are temporary clients all the time.
+8. “Total length” field in UDP packet header is the length of _________
+a) Only UDP header
+b) Only data
+c) Only checksum
+d) UDP header plus data
+View Answer
+
+Answer: d
+Explanation: Total length is the 16 bit field which contains the length of UDP header and the data. The maximum value of the Total length field and the maximum size of a UDP datagram is 65,535 bytes (8 byte header + 65,527 bytes of data).
+9. Which is the correct expression for the length of UDP datagram?
+a) UDP length = IP length – IP header’s length
+b) UDP length = UDP length – UDP header’s length
+c) UDP length = IP length + IP header’s length
+d) UDP length = UDP length + UDP header’s length
+View Answer
+
+Answer: a
+Explanation: A user datagram is encapsulated in an IP datagram. There is a field in the IP header that defines the total length of the IP packet. There is another field in the IP header that defines the length of the header. So if we subtract the length of the IP header that is encapsulated in the IP packet, we get the length of UDP datagram.
+10. The ______ field is used to detect errors over the entire user datagram.
+a) udp header
+b) checksum
+c) source port
+d) destination port
+View Answer
+
+Answer: b
+Explanation: Checksum field is used to detect errors over the entire user datagram. Though it is not as efficient as CRC which is used in TCP, it gets the job done for the UDP datagram as UDP doesn’t have to ensure the delivery of the packet.

@@ -1,0 +1,377 @@
+1. The physical layer is concerned with ___________
+a) bit-by-bit delivery
+b) process to process delivery
+c) application to application delivery
+d) port to port delivery
+View Answer
+
+Answer: a
+Explanation: Physical layer deals with bit to bit delivery in networking. The data unit in the physical layer is bits. Process to process delivery or the port to port delivery is dealt in the transport layer. The various transmission mediums aid the physical layer in performing its functions.
+2. Which transmission media provides the highest transmission speed in a network?
+a) coaxial cable
+b) twisted pair cable
+c) optical fiber
+d) electrical cable
+View Answer
+
+Answer: c
+Explanation: Fiber optics is considered to have the highest transmission speed among the all mentioned above. The fiber optics transmission runs at 1000Mb/s. It is called as 1000Base-Lx whereas IEEE standard for it is 802.3z. It is popularly used for modern day network connections due to its high transmission rate.
+3. Bits can be sent over guided and unguided media as analog signal by ___________
+a) digital modulation
+b) amplitude modulation
+c) frequency modulation
+d) phase modulation
+View Answer
+
+Answer: a
+Explanation: In analog modulation, digital low frequency baseband signal (digital bit stream) is transmitted over a higher frequency. Whereas in digital modulation the only difference is that the base band signal is of discrete amplitude level. The bits are represented by only two frequency levels, one for high and one for low.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The portion of physical layer that interfaces with the media access control sublayer is called ___________
+a) physical signalling sublayer
+b) physical data sublayer
+c) physical address sublayer
+d) physical transport sublayer
+View Answer
+
+Answer: a
+Explanation: The portion of physical layer that interfaces with the medium access control sublayer is Physical Signaling Sublayer. The main function of this layer is character encoding, reception, decoding and performs optional isolation functions. It handles which media connection the signal should be forwarded to physically.
+5. The physical layer provides __________
+a) mechanical specifications of electrical connectors and cables
+b) electrical specification of transmission line signal level
+c) specification for IR over optical fiber
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Anything dealing with a network cable or the standards in use – including pins, connectors and the electric current used is dealt in the physical layer (Layer 1). Physical layer deals with bit to bit delivery of the data aided by the various transmission mediums.
+Get Free Certificate of Merit in Computer Networks Now!
+6. In asynchronous serial communication the physical layer provides ___________
+a) start and stop signalling
+b) flow control
+c) both start & stop signalling and flow control
+d) only start signalling
+View Answer
+
+Answer: c
+Explanation: In asynchronous serial communication, the communication is not synchronized by clock signal. Instead of a start and stop signaling and flow control method is followed. Unlike asynchronous serial communication, in synchronous serial communication a clock signal is used for communication, so the start and stop method is not really required.
+7. The physical layer is responsible for __________
+a) line coding
+b) channel coding
+c) modulation
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: The physical layer is responsible for line coding, channel coding and modulation that is needed for the transmission of the information. The physical configuration including pins, connectors and the electric current used is dealt in the physical layer based on the requirement of the network application.
+8. The physical layer translates logical communication requests from the ______ into hardware specific operations.
+a) data link layer
+b) network layer
+c) trasnport layer
+d) application layer
+View Answer
+
+Answer: a
+Explanation: Physical layer accepts data or information from the data link layer and converts it into hardware specific operations so as to transfer the message through physical cables. Some examples of the cables used are optical fiber cables, twisted pair cables and co-axial cables.
+9. A single channel is shared by multiple signals by ____________
+a) analog modulation
+b) digital modulation
+c) multiplexing
+d) phase modulation
+View Answer
+
+Answer: c
+Explanation: In communication and computer networks, the main goal is to share a scarce resource. This is done by multiplexing, where multiple analog or digital signals are combined into one signal over a shared medium. The multiple kinds of signals are designated by the transport layer which is the layer present on a higher level than the physical layer.
+10. Wireless transmission of signals can be done via ___________
+a) radio waves
+b) microwaves
+c) infrared
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Wireless transmission is carried out by radio waves, microwaves and IR waves. These waves range from 3 Khz to above 300 Ghz and are more suitable for wireless transmission. Radio waves can penetrate through walls and are used in radio communications, microwaves and infrared (IR) waves cannot penetrate through walls and are used for satellite communications and device communications respectively.
+1. The data link layer takes the packets from _________ and encapsulates them into frames for transmission.
+a) network layer
+b) physical layer
+c) transport layer
+d) application layer
+View Answer
+
+Answer: a
+Explanation: In computer networks, the data from application layer is sent to transport layer and is converted to segments. These segments are then transferred to the network layer and these are called packets. These packets are then sent to data link layer where they are encapsulated into frames. These frames are then transferred to physical layer where the frames are converted to bits. Error control and flow control data is inserted in the frames at the data link layer.
+2. Which of the following tasks is not done by data link layer?
+a) framing
+b) error control
+c) flow control
+d) channel coding
+View Answer
+
+Answer: d
+Explanation: Channel coding is the function of physical layer. Data link layer mainly deals with framing, error control and flow control. Data link layer is the layer where the packets are encapsulated into frames.
+3. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+a) logical link control sublayer
+b) media access control sublayer
+c) network interface control sublayer
+d) error control sublayer
+View Answer
+
+Answer: b
+Explanation: Media access control (MAC) deals with transmission of data packets to and from the network-interface card, and also to and from another remotely shared channel. The MAC sublayer also prevents collision using protocols like CSMA/CD.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Header of a frame generally contains ______________
+a) synchronization bytes
+b) addresses
+c) frame identifier
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: In a frame, the header is a part of the data that contains all the required information about the transmission of the file. It contains information like synchronization bytes, addresses, frame identifier etc. It also contains error control information for reducing the errors in the transmitted frames.
+5. Automatic repeat request error management mechanism is provided by ________
+a) logical link control sublayer
+b) media access control sublayer
+c) network interface control sublayer
+d) application access control sublayer
+View Answer
+
+Answer: a
+Explanation: The logical link control is a sublayer of data link layer whose main function is to manage traffic, flow and error control. The automatic repeat request error management mechanism is provided by the LLC when an error is found in the received frame at the receiver’s end to inform the sender to re-send the frame.
+Become Top Ranker in Computer Networks Now!
+6. When 2 or more bits in a data unit has been changed during the transmission, the error is called ____________
+a) random error
+b) burst error
+c) inverted error
+d) double error
+View Answer
+
+Answer: b
+Explanation: When a single bit error occurs in a data, it is called single bit error. When more than a single bit of data is corrupted or has error, it is called burst error. If a single bit error occurs, the bit can be simply repaired by inverting it, but in case of a burst error, the sender has to send the frame again.
+7. CRC stands for __________
+a) cyclic redundancy check
+b) code repeat check
+c) code redundancy check
+d) cyclic repeat check
+View Answer
+
+Answer: a
+Explanation: Cyclic redundancy check is a code that is added to a data which helps us to identify any error that occurred during the transmission of the data. CRC is only able to detect errors, not correct them. CRC is inserted in the frame trailer.
+8. Which of the following is a data link protocol?
+a) ethernet
+b) point to point protocol
+c) hdlc
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: There are many data link layer protocols. Some of them are SDLC (synchronous data link protocol), HDLC (High level data link control), SLIP (serial line interface protocol), PPP (Point to point protocol) etc. These protocols are used to provide the logical link control function of the Data Link Layer.
+9. Which of the following is the multiple access protocol for channel access control?
+a) CSMA/CD
+b) CSMA/CA
+c) Both CSMA/CD & CSMA/CA
+d) HDLC
+View Answer
+
+Answer: c
+Explanation: In CSMA/CD, it deals with detection of collision after collision has occurred, whereas CSMA/CA deals with preventing collision. CSMA/CD is abbreviation for Carrier Sensing Multiple Access/Collision detection. CSMA/CA is abbreviation for Carrier Sensing Multiple Access/Collision Avoidance. These protocols are used for efficient multiple channel access.
+10. The technique of temporarily delaying outgoing acknowledgements so that they can be hooked onto the next outgoing data frame is called ____________
+a) piggybacking
+b) cyclic redundancy check
+c) fletcher’s checksum
+d) parity check
+View Answer
+
+Answer: a
+Explanation: Piggybacking is a technique in which the acknowledgment is temporarily delayed so as to be hooked with the next outgoing data frame. It saves a lot of channel bandwidth as in non-piggybacking system, some bandwidth is reserved for acknowledgement.
+1. The network layer is concerned with __________ of data.
+a) bits
+b) frames
+c) packets
+d) bytes
+View Answer
+
+Answer: c
+Explanation: In computer networks, the data from the application layer is sent to the transport layer and is converted to segments. These segments are then transferred to the network layer and these are called packets. These packets are then sent to data link layer where they are encapsulated into frames. These frames are then transferred to physical layer where the frames are converted to bits.
+2. Which one of the following is not a function of network layer?
+a) routing
+b) inter-networking
+c) congestion control
+d) error control
+View Answer
+
+Answer: d
+Explanation: In the OSI model, network layer is the third layer and it provides data routing paths for network communications. Error control is a function of the data link layer and the transport layer.
+3. A 4 byte IP address consists of __________
+a) only network address
+b) only host address
+c) network address & host address
+d) network address & MAC address
+View Answer
+
+Answer: c
+Explanation: An ip address which is 32 bits long, that means it is of 4 bytes and is composed of a network and host portion and it depends on address class. The size of the host address and network address depends upon the class of the address in classful IP addressing.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. In virtual circuit network each packet contains ___________
+a) full source and destination address
+b) a short VC number
+c) only source address
+d) only destination address
+View Answer
+
+Answer: b
+Explanation: A short VC number also called as VCID (virtual circuit identifier) is a type of identifier which is used to distinguish between several virtual circuits in a connection oriented circuit switched network. Each virtual circuit is used to transfer data over a larger packet switched network.
+5. Which of the following routing algorithms can be used for network layer design?
+a) shortest path algorithm
+b) distance vector routing
+c) link state routing
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: The routing algorithm is what decides where a packet should go next. There are several routing techniques like shortest path algorithm, static and dynamic routing, decentralized routing, distance vector routing, link state routing, Hierarchical routing etc. The routing algorithms go hand in hand with the operations of all the routers in the networks. The routers are the main participants in these algorithms.
+Take Computer Networks Tests Now!
+6. Which of the following is not correct in relation to multi-destination routing?
+a) is same as broadcast routing
+b) contains the list of all destinations
+c) data is not sent by packets
+d) there are multiple receivers
+View Answer
+
+Answer: c
+Explanation: In multi-destination routing, there is more than one receiver and the route for each destination which is contained in a list of destinations is to be found by the routing algorithm. Multi-destination routing is also used in broadcasting.
+7. A subset of a network that includes all the routers but contains no loops is called ________
+a) spanning tree
+b) spider structure
+c) spider tree
+d) special tree
+View Answer
+
+Answer: a
+Explanation: Spanning tree protocol (STP) is a network protocol that creates a loop free logical topology for ethernet networks. It is a layer 2 protocol that runs on bridges and switches. The main purpose of STP is to ensure that you do not create loops when you have redundant paths in your network.
+8. Which one of the following algorithm is not used for congestion control?
+a) traffic aware routing
+b) admission control
+c) load shedding
+d) routing information protocol
+View Answer
+
+Answer: d
+Explanation: The Routing Information Protocol (RIP) is used by the network layer for the function of dynamic routing. Congestion control focuses on the flow of the traffic in the network and uses algorithms like traffic aware routing, admission control and load shedding to deal with congestion.
+9. The network layer protocol for internet is __________
+a) ethernet
+b) internet protocol
+c) hypertext transfer protocol
+d) file transfer protocol
+View Answer
+
+Answer: b
+Explanation: There are several protocols used in Network layer. Some of them are IP, ICMP, CLNP, ARP, IPX, HRSP etc. Hypertext transfer protocol is for application layer and ethernet protocol is for data link layer.
+10. ICMP is primarily used for __________
+a) error and diagnostic functions
+b) addressing
+c) forwarding
+d) routing
+View Answer
+
+Answer: a
+Explanation: ICMP abbreviation for Internet Control Message Protocol is used by networking devices to send error messages and operational information indicating a host or router cannot be reached. ICMP operates over the IP packet to provide error reporting functionality as IP by itself cannot report errors.
+1. Transport layer aggregates data from different applications into a single stream before passing it to ____________
+a) network layer
+b) data link layer
+c) application layer
+d) physical layer
+View Answer
+
+Answer: a
+Explanation: The flow of data in the OSI model flows in following manner Application -> Presentation -> Session -> Transport -> Network -> Data Link -> Physical. Each and every layer has its own set of functions and protocols to ensure efficient network performance.
+2. Which of the following are transport layer protocols used in networking?
+a) TCP and FTP
+b) UDP and HTTP
+c) TCP and UDP
+d) HTTP and FTP
+View Answer
+
+Answer: c
+Explanation: Both TCP and UDP are transport layer protocol in networking. TCP is an abbreviation for Transmission Control Protocol and UDP is an abbreviation for User Datagram Protocol. TCP is connection oriented whereas UDP is connectionless.
+3. User datagram protocol is called connectionless because _____________
+a) all UDP packets are treated independently by transport layer
+b) it sends data as a stream of related packets
+c) it is received in the same order as sent order
+d) it sends data very quickly
+View Answer
+
+Answer: a
+Explanation: UDP is an alternative for TCP and it is used for those purposes where speed matters most whereas loss of data is not a problem. UDP is connectionless whereas TCP is connection oriented.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Transmission control protocol ___________
+a) is a connection-oriented protocol
+b) uses a three way handshake to establish a connection
+c) receives data from application as a single stream
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: TCP provides reliable and ordered delivery of a stream of bytes between hosts communicating via an IP network. Major internet applications like www, email, file transfer etc rely on TCP. TCP is connection oriented and it is optimized for accurate delivery rather than timely delivery.
+5. An endpoint of an inter-process communication flow across a computer network is called __________
+a) socket
+b) pipe
+c) port
+d) machine
+View Answer
+
+Answer: a
+Explanation: Socket is one end point in a two way communication link in the network. TCP layer can identify the application that data is destined to be sent by using the port number that is bound to socket.
+Take Computer Networks Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Socket-style API for windows is called ____________
+a) wsock
+b) winsock
+c) wins
+d) sockwi
+View Answer
+
+Answer: b
+Explanation: Winsock is a programming interface which deals with input output requests for internet applications in windows OS. It defines how windows network software should access network services.
+7. Which one of the following is a version of UDP with congestion control?
+a) datagram congestion control protocol
+b) stream control transmission protocol
+c) structured stream transport
+d) user congestion control protocol
+View Answer
+
+Answer: a
+Explanation: The datagram congestion control is a transport layer protocol which deals with reliable connection setup, teardown, congestion control, explicit congestion notification, and feature negotiation. It is used in modern day systems where there are really high chances of congestion. The protocol was last updated in the year 2008.
+8. A _____ is a TCP name for a transport service access point.
+a) port
+b) pipe
+c) node
+d) protocol
+View Answer
+
+Answer: a
+Explanation: Just as the IP address identifies the computer, the network port identifies the application or service running on the computer. A port number is 16 bits. The combination of IP address preceded with the port number is called the socket address.
+9. Transport layer protocols deals with ____________
+a) application to application communication
+b) process to process communication
+c) node to node communication
+d) man to man communication
+View Answer
+
+Answer: b
+Explanation: Transport layer is 4th layer in TCP/IP model and OSI reference model. It deals with logical communication between process. It is responsible for delivering a message between network host.
+10. Which of the following is a transport layer protocol?
+a) stream control transmission protocol
+b) internet control message protocol
+c) neighbor discovery protocol
+d) dynamic host configuration protocol
+View Answer
+
+Answer: a
+Explanation: The Stream Control Transmission Protocol (SCTP) is a transport layer protocol used in networking system where streams of data are to be continuously transmitted between two connected network nodes. Some of the other transport layer protocols are RDP, RUDP, TCP, DCCP, UDP etc.

@@ -1,0 +1,1076 @@
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Abstraction”.
+
+1. Which among the following best defines abstraction?
+a) Hiding the implementation
+b) Showing the important data
+c) Hiding the important data
+d) Hiding the implementation and showing only the features
+View Answer
+
+Answer: d
+Explanation: It includes hiding the implementation part and showing only the required data and features to the user. It is done to hide the implementation complexity and details from the user. And to provide a good interface in programming.
+2. Hiding the implementation complexity can ____________
+a) Make the programming easy
+b) Make the programming complex
+c) Provide more number of features
+d) Provide better features
+View Answer
+
+Answer: a
+Explanation: It can make programming easy. The programming need not know how the inbuilt functions are working but can use those complex functions directly in the program. It doesn’t provide more number of features or better features.
+3. Class is _________ abstraction.
+a) Object
+b) Logical
+c) Real
+d) Hypothetical
+View Answer
+
+Answer: b
+Explanation: Class is logical abstraction because it provides a logical structure for all of its objects. It gives an overview of the features of an object.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Object is ________ abstraction.
+a) Object
+b) Logical
+c) Real
+d) Hypothetical
+View Answer
+
+Answer: c
+Explanation: Object is real abstraction because it actually contains those features of class. It is the implementation of overview given by class. Hence the class is logical abstraction and its object is real.
+5. Abstraction gives higher degree of ________
+a) Class usage
+b) Program complexity
+c) Idealized interface
+d) Unstable interface
+View Answer
+
+Answer: c
+Explanation: It is to idealize the interface. In this way the programmer can use the programming features more efficiently and can code better. It can’t increase the program complexity, as the feature itself is made to hide it.
+Check this: Object Oriented Programming Books | Computer Science Books
+6. Abstraction can apply to ____________
+a) Control and data
+b) Only data
+c) Only control
+d) Classes
+View Answer
+
+Answer: a
+Explanation: Abstraction applies to both. Control abstraction involves use of subroutines and control flow abstraction. Data abstraction involves handling pieces of data in meaningful ways.
+7. Which among the following can be viewed as combination of abstraction of data and code.
+a) Class
+b) Object
+c) Inheritance
+d) Interfaces
+View Answer
+
+Answer: b
+Explanation: Object can be viewed as abstraction of data and code. It uses data members and their functioning as data abstraction. Code abstraction as use of object of inbuilt class.
+8. Abstraction principle includes___________
+a) Use abstraction at its minimum
+b) Use abstraction to avoid longer codes
+c) Use abstraction whenever possible to avoid duplication
+d) Use abstraction whenever possible to achieve OOP
+View Answer
+
+Answer: c
+Explanation: Abstraction principle includes use of abstraction to avoid duplication (usually of code). It this way the program doesn’t contain any redundant functions and make the program efficient.
+9. Higher the level of abstraction, higher are the details.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Higher the level of abstraction, lower are the details. The best way to understand this is to consider a whole system that is highest level of abstraction as it hides everything inside. And next lower level would contain few of the computer components and so on.
+10. Encapsulation and abstraction differ as ____________
+a) Binding and Hiding respectively
+b) Hiding and Binding respectively
+c) Can be used any way
+d) Hiding and hiding respectively
+View Answer
+
+Answer: a
+Explanation: Abstraction is hiding the complex code. For example, we directly use cout object in C++ but we don’t know how is it actually implemented. Encapsulation is data binding, as in, we try to combine a similar type of data and functions together.
+11. In terms of stream and files ____________
+a) Abstraction is called a stream and device is called a file
+b) Abstraction is called a file and device is called a stream
+c) Abstraction can be called both file and stream
+d) Abstraction can’t be defined in terms of files and stream
+View Answer
+
+Answer: a
+Explanation: Abstraction is called stream to provide a level of complexity hiding, for how the files operations are actually done. Actual devices are called file because in one way or another, those can be considered as single entity and there is nothing hidden.
+12. If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?
+a) Using private access specifier for data members
+b) Using class concept with both data members and member functions
+c) Using public member functions to access and manipulate the data members
+d) Data is not sufficient to decide what is being used
+View Answer
+
+Answer: c
+Explanation: It is the concept of hiding program complexity and actual working in background. Hence use of public member functions illustrates abstraction here.
+13. A phone is made up of many components like motherboard, camera, sensors and etc. If the processor represents all the functioning of phone, display shows the display only, and the phone is represented as a whole. Which among the following have highest level of abstraction?
+a) Motherboard
+b) Display
+c) Camera
+d) Phone
+View Answer
+
+Answer: d
+Explanation: Phone as a whole have the highest level of abstraction. This is because the phone being a single unit represents the whole system. Whereas motherboard, display and camera are its components.
+14. Which among the following is not a level of abstraction?
+a) Logical level
+b) Physical level
+c) View level
+d) External level
+View Answer
+
+Answer: d
+Explanation: Abstraction is generally divided into 3 different levels, namely, logical, physical and view level. External level is not defined in terms of abstraction.
+15. Using higher degree of abstraction __________
+a) May get unsafe
+b) May reduce readability
+c) Can be safer
+d) Can increase vulnerability
+View Answer
+
+Answer: c
+Explanation: It will make the code safer. One may think it reduces the readability, but the fact is, it actually helps us understand the code better. We don’t have to read the complex code which is of no use in understanding the program.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Classes”.
+
+1. Which of the following is not type of class?
+a) Abstract Class
+b) Final Class
+c) Start Class
+d) String Class
+View Answer
+
+Answer: c
+Explanation: Only 9 types of classes are provided in general, namely, abstract, final, mutable, wrapper, anonymous, input-output, string, system, network. We may further divide the classes into parent class and subclass if inheritance is used.
+2. Class is pass by _______
+a) Value
+b) Reference
+c) Value or Reference, depending on program
+d) Copy
+View Answer
+
+Answer: b
+Explanation: Classes are pass by reference, and the structures are pass by copy. It doesn’t depend on the program.
+3. What is default access specifier for data members or member functions declared within a class without any specifier, in C++?
+a) Private
+b) Protected
+c) Public
+d) Depends on compiler
+View Answer
+
+Answer: a
+Explanation: The data members and member functions are Private by default in C++ classes, if none of the access specifier is used. It is actually made to increase the privacy of data.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which is most appropriate comment on following class definition?
+
+class Student 
+{
+    int a; 
+    public : float a; 
+};
+a) Error : same variable name can’t be used twice
+b) Error : Public must come first
+c) Error : data types are different for same variable
+d) It is correct
+View Answer
+
+Answer: a
+Explanation: Same variable can’t be defined twice in same scope. Even if the data types are different, variable name must be different. There is no rule like Public member should come first or last.
+Take Object Oriented Programming Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+5. Which is known as a generic class?
+a) Abstract class
+b) Final class
+c) Template class
+d) Efficient Code
+View Answer
+
+Answer: c
+Explanation: Template classes are known to be generic classes because those can be used for any data type value and the same class can be used for all the variables of different data types.
+6. Size of a class is _____________
+a) Sum of the size of all the variables declared inside the class
+b) Sum of the size of all the variables along with inherited variables in the class
+c) Size of the largest size of variable
+d) Classes doesn’t have any size
+View Answer
+
+Answer: d
+Explanation: Classes doesn’t have any size, actually the size of object of the class can be defined. That is done only when an object is created and its constructor is called.
+7. Which class can have member functions without their implementation?
+a) Default class
+b) String class
+c) Template class
+d) Abstract class
+View Answer
+
+Answer: d
+Explanation: Abstract classes can have member functions with no implementation, where the inheriting subclasses must implement those functions.
+8. Which of the following describes a friend class?
+a) Friend class can access all the private members of the class, of which it is a friend
+b) Friend class can only access protected members of the class, of which it is a friend
+c) Friend class don’t have any implementation
+d) Friend class can’t access any data member of another class but can use it’s methods
+View Answer
+
+Answer: a
+Explanation: A friend class can access all the private members of another class, of which it is a friend. It is a special class provided to use when you need to reuse the data of a class but don’t want that class to have those special functions.
+9. What is the scope of a class nested inside another class?
+a) Protected scope
+b) Private scope
+c) Global scope
+d) Depends on access specifier and inheritance used
+View Answer
+
+Answer: d
+Explanation: It depends on the access specifier and the type of inheritance used with the class, because if the class is inherited then the nested class can be used by subclass too, provided it’s not of private type.
+10. Class with main() function can be inherited.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The class containing main function can be inherited and hence the program can be executed using the derived class names also in java.
+11. Which among the following is false, for a member function of a class?
+a) All member functions must be defined
+b) Member functions can be defined inside or outside the class body
+c) Member functions need not be declared inside the class definition
+d) Member functions can be made friend to another class using the friend keyword
+View Answer
+
+Answer: c
+Explanation: Member functions must be declared inside class body, though the definition can be given outside the class body. There is no way to declare the member functions outside the class.
+12. Which syntax for class definition is wrong?
+a) class student{ };
+b) student class{ };
+c) class student{ public: student(int a){ } };
+d) class student{ student(int a){} };
+View Answer
+
+Answer: b
+Explanation: Keyword class should come first. Class name should come after keyword class. Parameterized constructor definition depends on programmer so it can be left empty also.
+13. Which of the following pairs are similar?
+a) Class and object
+b) Class and structure
+c) Structure and object
+d) Structure and functions
+View Answer
+
+Answer: b
+Explanation: Class and structure are similar to each other. Only major difference is that a structure doesn’t have member functions whereas the class can have both data members and member functions.
+14. Which among the following is false for class features?
+a) Classes may/may not have both data members and member functions
+b) Class definition must be ended with a colon
+c) Class can have only member functions with no data members
+d) Class is similar to union and structures
+View Answer
+
+Answer: b
+Explanation: Class definition must end with a semicolon, not colon. Class can have only member functions in its body with no data members.
+15. Instance of which type of class can’t be created?
+a) Anonymous class
+b) Nested class
+c) Parent class
+d) Abstract class
+View Answer
+
+Answer: d
+Explanation: Instance of abstract class can’t be created as it will not have any constructor of its own, hence while creating an instance of class, it can’t initialize the object members. Actually the class inheriting the abstract class can have its instance because it will have implementation of all members.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Encapsulation”.
+
+1. Which among the following best describes encapsulation?
+a) It is a way of combining various data members into a single unit
+b) It is a way of combining various member functions into a single unit
+c) It is a way of combining various data members and member functions into a single unit which can operate on any data
+d) It is a way of combining various data members and member functions that operate on those data members into a single unit
+View Answer
+
+Answer: d
+Explanation: It is a way of combining both data members and member functions, which operate on those data members, into a single unit. We call it a class in OOP generally. This feature have helped us modify the structures used in C language to be upgraded into class in C++ and other languages.
+2. If data members are private, what can we do to access them from the class object?
+a) Create public member functions to access those data members
+b) Create private member functions to access those data members
+c) Create protected member functions to access those data members
+d) Private data members can never be accessed from outside the class
+View Answer
+
+Answer: a
+Explanation: We can define public member functions to access those private data members and get their value for use or alteration. They can’t be accessed directly but is possible to be access using member functions. This is done to ensure that the private data doesn’t get modified accidentally.
+3. While using encapsulation, which among the following is possible?
+a) Code modification can be additional overhead
+b) Data member’s data type can be changed without changing any other code
+c) Data member’s type can’t be changed, or whole code have to be changed
+d) Member functions can be used to change the data type of data members
+View Answer
+
+Answer: b
+Explanation: Data member’s data type can be changed without changing any further code. All the members using that data can continue in the same way without any modification. Member functions can never change the data type of same class data members.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which feature can be implemented using encapsulation?
+a) Inheritance
+b) Abstraction
+c) Polymorphism
+d) Overloading
+View Answer
+
+Answer: b
+Explanation: Data abstraction can be achieved by using encapsulation. We can hide the operation and structure of actual program from the user and can show only required information by the user.
+5. Find which of the following uses encapsulation?
+a) void main(){ int a; void fun( int a=10; cout<<a); fun(); }
+b) class student{ int a; public: int b;};
+c) class student{int a; public: void disp(){ cout<<a;} };
+d) struct topper{ char name[10]; public : int marks; }
+View Answer
+
+Answer: c
+Explanation: It is the class which uses both the data members and member functions being declared inside a single unit. Only data members can be there in structures also. And the encapsulation can only be illustrated if some data/operations are associated within class.
+Take Object Oriented Programming Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Encapsulation helps in writing ___________ classes in java.
+a) Mutable
+b) Abstract
+c) Wrapper
+d) Immutable
+View Answer
+
+Answer: d
+Explanation: Immutable classes are used for caching purpose generally. And it can be created by making the class as final and making all its members private.
+7. Which among the following should be encapsulated?
+a) The data which is prone to change is near future
+b) The data prone to change in long terms
+c) The data which is intended to be changed
+d) The data which belongs to some other class
+View Answer
+
+Answer: a
+Explanation: The data prone to change in near future is usually encapsulated so that it doesn’t get changed accidentally. We encapsulate the data to hide the critical working of program from outside world.
+8. How can Encapsulation be achieved?
+a) Using Access Specifiers
+b) Using only private members
+c) Using inheritance
+d) Using Abstraction
+View Answer
+
+Answer: a
+Explanation: Using access specifiers we can achieve encapsulation. Using this we can in turn implement data abstraction. It’s not necessary that we only use private access.
+9. Which among the following violates the principle of encapsulation almost always?
+a) Local variables
+b) Global variables
+c) Public variables
+d) Array variables
+View Answer
+
+Answer: b
+Explanation: Global variables almost always violates the principles of encapsulation. Encapsulation says the data should be accessed only by required set of elements. But global variable is accessible everywhere, also it is most prone to changes. It doesn’t hide the internal working of program.
+10. Which among the following would destroy the encapsulation mechanism if it was allowed in programming?
+a) Using access declaration for private members of base class
+b) Using access declaration for public members of base class
+c) Using access declaration for local variable of main() function
+d) Using access declaration for global variables
+View Answer
+
+Answer: a
+Explanation: If using access declaration for private members of base class was allowed in programming, it would have destroyed whole concept of encapsulation. As if it was possible, any class which gets inherited privately, would have been able to inherit the private members of base class, and hence could access each and every member of base class.
+11. Which among the following can be a concept against encapsulation rules?
+a) Using function pointers
+b) Using char* string pointer to be passed to non-member function
+c) Using object array
+d) Using any kind of pointer/array address in passing to another function
+View Answer
+
+Answer: d
+Explanation: If we use any kind of array or pointer as data member which should not be changed, but in some case its address is passed to some other function or similar variable. There are chances to modify its whole data easily. Hence Against encapsulation.
+12. Consider the following code and select the correct option.
+
+class student
+{  
+     int marks;
+     public : int* fun()
+     { 
+          return &marks; 
+     }
+};
+main()
+{
+    student s;
+    int *ptr=c.fun();
+    return 0;
+}
+a) This code is good to go
+b) This code may result in undesirable conditions
+c) This code will generate error
+d) This code violates encapsulation
+View Answer
+
+Answer: d
+Explanation: This code violates the encapsulation. By this code we can get the address of the private member of the class, hence we can change the value of private member, which is against the rules.
+13. Consider the code and select the wrong choice.
+
+class hero
+{ 
+     char name[10];
+     public : void disp()
+     { 
+          cout<<name;
+     }
+};
+a) This maintains encapsulation
+b) This code doesn’t maintain encapsulation
+c) This code is vulnerable
+d) This code gives error
+View Answer
+
+Answer: a
+Explanation: This code maintains encapsulation. Here the private member is kept private. Outside code can’t access the private members of class. Only objects of this class will be able to access the public member function at maximum.
+14. Encapsulation is the way to add functions in a user defined structure.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: False, because we can’t call these structures if member functions are involved, it must be called class. Also, it is not just about adding functions, it’s about binding data and functions together.
+15. Using encapsulation data security is ___________
+a) Not ensured
+b) Ensured to some extent
+c) Purely ensured
+d) Very low
+View Answer
+
+Answer: b
+Explanation: The encapsulation can only ensure data security to some extent. If pointer and addresses are misused, it may violate encapsulation. Use of global variables also makes the program vulnerable, hence we can’t say that encapsulation gives pure security.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Objects”.
+
+1. Which definition best describes an object?
+a) Instance of a class
+b) Instance of itself
+c) Child of a class
+d) Overview of a class
+View Answer
+
+Answer: a
+Explanation: An object is instance of its class. It can be declared in the same way that a variable is declared, only thing is you have to use class name as the data type.
+2. How many objects can be declared of a specific class in a single program?
+a) 32768
+b) 127
+c) 1
+d) As many as you want
+View Answer
+
+Answer: d
+Explanation: You can create as many objects of a specific class as you want, provided enough memory is available.
+3. Which among the following is false?
+a) Object must be created before using members of a class
+b) Memory for an object is allocated only after its constructor is called
+c) Objects can’t be passed by reference
+d) Objects size depends on its class data members
+View Answer
+
+Answer: c
+Explanation: Objects can be passed by reference. Objects can be passed by value also. If the object of a class is not created, we can’t use members of that class.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. Which of the following is incorrect?
+a) class student{ }s;
+b) class student{ }; student s;
+c) class student{ }s[];
+d) class student{ }; student s[5];
+View Answer
+
+Answer: c
+Explanation: The array must be specified with a size. You can’t declare object array, or any other linear array without specifying its size. It’s a mandatory field.
+5. The object can’t be __________
+a) Passed by reference
+b) Passed by value
+c) Passed by copy
+d) Passed as function
+View Answer
+
+Answer: d
+Explanation: Object can’t be passed as function as it is an instance of some class, it’s not a function. Object can be passed by reference, value or copy. There is no term defined as pass as function for objects.
+Participate in Object Oriented Programming Certification Contest of the Month Now!
+6. What is size of the object of following class (64 bit system)?
+
+class student {  int rollno;  char  name[20];  static int studentno;  };
+a) 20
+b) 22
+c) 24
+d) 28
+View Answer
+
+Answer: c
+Explanation: The size of any object of student class will be of size 4+20=24, because static members are not really considered as property of a single object. So static variables size will not be added.
+7. Functions can’t return objects.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Functions can always return an object if the return type is same as that of object being returned. Care has to be taken while writing the prototype of the function.
+8. How members of an object are accessed?
+a) Using dot operator/period symbol
+b) Using scope resolution operator
+c) Using member names directly
+d) Using pointer only
+View Answer
+
+Answer: a
+Explanation: Using dot operator after the name of object we can access its members. It is not necessary to use the pointers. We can’t use the names directly because it may be used outside the class.
+9. If a local class is defined in a function, which of the following is true for an object of that class?
+a) Object is accessible outside the function
+b) Object can be declared inside any other function
+c) Object can be used to call other class members
+d) Object can be used/accessed/declared locally in that function
+View Answer
+
+Answer: d
+Explanation: For an object which belongs to a local class, it is mandatory to declare and use the object within the function because the class is accessible locally within the class only.
+10. Which among the following is wrong?
+a) class student{ }; student s;
+b) abstract class student{ }; student s;
+c) abstract class student{ }s[50000000];
+d) abstract class student{ }; class toppers: public student{ }; topper t;
+View Answer
+
+Answer: b
+Explanation: We can never create instance of an abstract class. Abstract classes doesn’t have constructors and hence when an instance is created there is no facility to initialize its members. Option d is correct because topper class is inheriting the base abstract class student, and hence topper class object can be created easily.
+11. Object declared in main() function _____________
+a) Can be used by any other function
+b) Can be used by main() function of any other program
+c) Can’t be used by any other function
+d) Can be accessed using scope resolution operator
+View Answer
+
+Answer: c
+Explanation: The object declared in main() have local scope inside main() function only. It can’t be used outside main() function. Scope resolution operator is used to access globally declared variables/objects.
+12. When an object is returned___________
+a) A temporary object is created to return the value
+b) The same object used in function is used to return the value
+c) The Object can be returned without creation of temporary object
+d) Object are returned implicitly, we can’t say how it happens inside program
+View Answer
+
+Answer: a
+Explanation: A temporary object is created to return the value. It is created because the object used in function is destroyed as soon as the function is returned. The temporary variable returns the value and then gets destroyed.
+13. Which among the following is correct?
+a) class student{ }s1,s2; s1.student()=s2.student();
+b) class student{ }s1; class topper{ }t1; s1=t1;
+c) class student{ }s1,s2; s1=s2;
+d) class student{ }s1; class topper{ }t1; s1.student()=s2.topper();
+View Answer
+
+Answer: c
+Explanation: Only if the objects are of same class then their data can be copied from to another using assignment operator. This actually comes under operator overloading. Class constructors can’t be assigned any explicit value as in option class student{ }s1; class topper{ }t1; s1=t1; and class student{ }s1; class topper{ }t1; s1.student()=s2.topper();.
+14. Which among following is correct for initializing the class below?
+
+class student{
+int marks;
+int cgpa;
+public: student(int i, int  j){
+marks=I;
+cgpa=j
+}
+};
+a) student s[3]={ s(394, 9); s(394, 9); s(394,9); };
+b) student s[2]={ s(394,9), s(222,5) };
+c) student s[2]={ s1(392,9), s2(222,5) };
+d) student s[2]={ s[392,9], s2[222,5] };
+View Answer
+
+Answer: b
+Explanation: It is the way we can initialize the data members for an object array using parameterized constructor. We can do this to pass our own intended values to initialize the object array data.
+15. Object can’t be used with pointers because they belong to user defined class, and compiler can’t decide the type of data may be used inside the class.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The explanation given is wrong because object can always be used with pointers like with any other variables. Compiler doesn’t have to know the structure of the class to use a pointer because the pointers only points to a memory address/stores that address.
+
+This set of Object Oriented Programming using C++ online test focuses on “OOP Basic Concepts”.
+
+1. Which was the first purely object oriented programming language developed?
+a) Java
+b) C++
+c) SmallTalk
+d) Kotlin
+View Answer
+
+Answer: c
+Explanation: SmallTalk was the first programming language developed which was purely object oriented. It was developed by Alan Kay. OOP concept came into the picture in 1970’s.
+2. Which of the following best defines a class?
+a) Parent of an object
+b) Instance of an object
+c) Blueprint of an object
+d) Scope of an object
+View Answer
+
+Answer: c
+Explanation: A class is Blueprint of an object which describes/ shows all the functions and data that are provided by an object of a specific class. It can’t be called as parent or instance of an object. Class in general describes all the properties of an object.
+3. Who invented OOP?
+a) Alan Kay
+b) Andrea Ferro
+c) Dennis Ritchie
+d) Adele Goldberg
+View Answer
+
+Answer: a
+Explanation: Alan Kay invented OOP, Andrea Ferro was a part of SmallTalk Development. Dennis invented C++ and Adele Goldberg was in team to develop SmallTalk but Alan actually had got rewarded for OOP.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. What is the additional feature in classes that was not in structures?
+a) Data members
+b) Member functions
+c) Static data allowed
+d) Public access specifier
+View Answer
+
+Answer: b
+Explanation: Member functions are allowed inside a class but were not present in structure concept. Data members, static data and public access specifiers were present in structures too.
+5. Which is not feature of OOP in general definitions?
+a) Code reusability
+b) Modularity
+c) Duplicate/Redundant data
+d) Efficient Code
+View Answer
+
+Answer: c
+Explanation: Duplicate/Redundant data is dependent on programmer and hence can’t be guaranteed by OOP. Code reusability is done using inheritance. Modularity is supported by using different code files and classes. Codes are more efficient because of features of OOP.
+Become Top Ranker in Object Oriented Programming Now!
+6. Pure OOP can be implemented without using class in a program. (True or False)
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: It’s false because for a program to be pure OO, everything must be written inside classes. If this rule is violated, the program can’t be labelled as purely OO.
+7. Which Feature of OOP illustrated the code reusability?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Inheritance
+View Answer
+
+Answer: d
+Explanation: Using inheritance we can reuse the code already written and also can avoid creation of many new functions or variables, as that can be done one time and be reused, using classes.
+8. Which language does not support all 4 types of inheritance?
+a) C++
+b) Java
+c) Kotlin
+d) Small Talk
+View Answer
+
+Answer: b
+Explanation: Java doesn’t support all 4 types of inheritance. It doesn’t support multiple inheritance. But the multiple inheritance can be implemented using interfaces in Java.
+9. How many classes can be defined in a single program?
+a) Only 1
+b) Only 100
+c) Only 999
+d) As many as you want
+View Answer
+
+Answer: d
+Explanation: Any number of classes can be defined inside a program, provided that their names are different. In java, if public class is present then it must have the same name as that of file.
+10. When OOP concept did first came into picture?
+a) 1970’s
+b) 1980’s
+c) 1993
+d) 1995
+View Answer
+
+Answer: a
+Explanation: OOP first came into picture in 1970’s by Alan and his team. Later it was used by some programming languages and got implemented successfully, SmallTalk was first language to use pure OOP and followed all rules strictly.
+11. Why Java is Partially OOP language?
+a) It supports usual declaration of primitive data types
+b) It doesn’t support all types of inheritance
+c) It allows code to be written outside classes
+d) It does not support pointers
+View Answer
+
+Answer: a
+Explanation: As Java supports usual declaration of data variables, it is partial implementation of OOP. Because according to rules of OOP, object constructors must be used, even for declaration of variables.
+12. Which concept of OOP is false for C++?
+a) Code can be written without using classes
+b) Code must contain at least one class
+c) A class must have member functions
+d) At least one object should be declared in code
+View Answer
+
+Answer: b
+Explanation: In C++, it’s not necessary to use classes, and hence codes can be written without using OOP concept. Classes may or may not contain member functions, so it’s not a necessary condition in C++. And, an object can only be declared in a code if its class is defined/included via header file.
+13. Which header file is required in C++ to use OOP?
+a) iostream.h
+b) stdio.h
+c) stdlib.h
+d) OOP can be used without using any header file
+View Answer
+
+Answer: d
+Explanation: We need not include any specific header file to use OOP concept in C++, only specific functions used in code need their respective header files to be included or classes should be defined if needed.
+14. Which of the two features match each other?
+a) Inheritance and Encapsulation
+b) Encapsulation and Polymorphism
+c) Encapsulation and Abstraction
+d) Abstraction and Polymorphism
+View Answer
+
+Answer: c
+Explanation: Encapsulation and Abstraction are similar features. Encapsulation is actually binding all the properties in a single class or we can say hiding all the features of object inside a class. And Abstraction is hiding unwanted data (for user) and showing only the data required by the user of program.
+15. Which feature allows open recursion, among the following?
+a) Use of this pointer
+b) Use of pointers
+c) Use of pass by value
+d) Use of parameterized constructor
+View Answer
+
+Answer: a
+Explanation: Use of this pointer allows an object to call data and methods of itself whenever needed. This helps us call the members of an object recursively, and differentiate the variables of different scopes.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “OOP Features”.
+
+1. Which feature of OOP indicates code reusability?
+a) Encapsulation
+b) Inheritance
+c) Abstraction
+d) Polymorphism
+View Answer
+
+Answer: b
+Explanation: Inheritance indicates the code reusability. Encapsulation and abstraction are meant to hide/group data into one element. Polymorphism is to indicate different tasks performed by a single entity.
+2. If a function can perform more than 1 type of tasks, where the function name remains same, which feature of OOP is used here?
+a) Encapsulation
+b) Inheritance
+c) Polymorphism
+d) Abstraction
+View Answer
+
+Answer: c
+Explanation: For the feature given above, the OOP feature used is Polymorphism. Example of polymorphism in real life is a kid, who can be a student, a son, a brother depending on where he is.
+3. If different properties and functions of a real world entity is grouped or embedded into a single element, what is it called in OOP language?
+a) Inheritance
+b) Polymorphism
+c) Abstraction
+d) Encapsulation
+View Answer
+
+Answer: d
+Explanation: It is Encapsulation, which groups different properties and functions of a real world entity into single element. Abstraction, on other hand, is hiding of functional or exact working of codes and showing only the things which are required by the user.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the following is not a feature of pure OOP?
+a) Classes must be used
+b) Inheritance
+c) Data may/may not be declared using object
+d) Functions Overloading
+View Answer
+
+Answer: c
+Explanation: Data must be declared using objects. Object usage is mandatory because it in turn calls its constructors, which in turn must have a class defined. If object is not used, it is a violation of pure OOP concept.
+5. Which among the following doesn’t come under OOP concept?
+a) Platform independent
+b) Data binding
+c) Message passing
+d) Data hiding
+View Answer
+
+Answer: a
+Explanation: Platform independence is not feature of OOP. C++ supports OOP but it’s not a platform independent language. Platform independence depends on programming language.
+Take Object Oriented Programming Tests Now!
+6. Which feature of OOP is indicated by the following code?
+
+class student{  int marks;  };
+class topper:public student{  int age;  topper(int age){ this.age=age; } };
+a) Inheritance
+b) Polymorphism
+c) Inheritance and polymorphism
+d) Encapsulation and Inheritance
+View Answer
+
+Answer: d
+Explanation: Encapsulation is indicated by use of classes. Inheritance is shown by inheriting the student class into topper class. Polymorphism is not shown here because we have defined the constructor in the topper class but that doesn’t mean that default constructor is overloaded.
+7. Which feature may be violated if we don’t use classes in a program?
+a) Inheritance can’t be implemented
+b) Object must be used is violated
+c) Encapsulation only is violated
+d) Basically all the features of OOP gets violated
+View Answer
+
+Answer: d
+Explanation: All the features are violated because Inheritance and Encapsulation won’t be implemented. Polymorphism and Abstraction are still possible in some cases, but the main features like data binding, object use and etc won’t be used hence the use of class is must for OOP concept.
+8. How many basic features of OOP are required for a programming language to be purely OOP?
+a) 7
+b) 6
+c) 5
+d) 4
+View Answer
+
+Answer: a
+Explanation: There are 7 basic features that define whether a programing language is pure OOP or not. The 4 basic features are inheritance, polymorphism, encapsulation and abstraction. Further, one is, object use is must, secondly, message passing and lastly, Dynamic binding.
+9. The feature by which one object can interact with another object is _____________
+a) Data transfer
+b) Data Binding
+c) Message Passing
+d) Message reading
+View Answer
+
+Answer: c
+Explanation: The interaction between two object is called the message passing feature. Data transfer is not a feature of OOP. Also, message reading is not a feature of OOP.
+10. ___________ underlines the feature of Polymorphism in a class.
+a) Nested class
+b) Enclosing class
+c) Inline function
+d) Virtual Function
+View Answer
+
+Answer: d
+Explanation: Virtual Functions can be defined in any class using the keyword virtual. All the classes which inherit the class containing the virtual function, define the virtual function as required. Redefining the function on all the derived classes according to class and use represents polymorphism.
+11. Which feature in OOP is used to allocate additional function to a predefined operator in any language?
+a) Operator Overloading
+b) Function Overloading
+c) Operator Overriding
+d) Function Overriding
+View Answer
+
+Answer: a
+Explanation: The feature is operator overloading. There is not a feature named operator overriding specifically. Function overloading and overriding doesn’t give addition function to any operator.
+12. Which among doesn’t illustrates polymorphism?
+a) Function overloading
+b) Function overriding
+c) Operator overloading
+d) Virtual function
+View Answer
+
+Answer: b
+Explanation: Function overriding doesn’t illustrate polymorphism because the functions are actually different and theirs scopes are different. Function and operator overloading illustrate proper polymorphism. Virtual functions show polymorphism because all the classes which inherit virtual function, define the same function in different ways.
+13. Exception handling is a feature of OOP.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Exception handling is a feature of OOP as it includes classes concept in most of the cases. Also it may come handy while using inheritance.
+14. Which among the following, for a pure OOP language, is true?
+a) The language should follow 3 or more features of OOP
+b) The language should follow at least 1 feature of OOP
+c) The language must follow only 3 features of OOP
+d) The language must follow all the rules of OOP
+View Answer
+
+Answer: d
+Explanation: The language must follow all the rules of OOP to be called a purely OOP language. Even if a single OOP feature is not followed, then it’s known to be a partially OOP language.
+15. Does OOP provide better security than POP?
+a) Always true for any programming language
+b) May not be true with respect to all programming languages
+c) It depends on type of program
+d) It’s vice-versa is true
+View Answer
+
+Answer: a
+Explanation: It is always true as we have the facility of private and protected access specifiers. Also, only the public and global data are available globally or else the program should have proper permission to access the private data.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Polymorphism”.
+
+1. Which among the following best describes polymorphism?
+a) It is the ability for a message/data to be processed in more than one form
+b) It is the ability for a message/data to be processed in only 1 form
+c) It is the ability for many messages/data to be processed in one way
+d) It is the ability for undefined message/data to be processed in at least one way
+View Answer
+
+Answer: a
+Explanation: It is actually the ability for a message / data to be processed in more than one form. The word polymorphism indicates many-forms. So if a single entity takes more than one form, it is known as polymorphism.
+2. What do you call the languages that support classes but not polymorphism?
+a) Class based language
+b) Procedure Oriented language
+c) Object-based language
+d) If classes are supported, polymorphism will always be supported
+View Answer
+
+Answer: c
+Explanation: The languages which support classes but doesn’t support polymorphism, are known as object-based languages. Polymorphism is such an important feature, that is a language doesn’t support this feature, it can’t be called as a OOP language.
+3. Which among the following is the language which supports classes but not polymorphism?
+a) SmallTalk
+b) Java
+c) C++
+d) Ada
+View Answer
+
+Answer: d
+Explanation: Ada is the language which supports the concept of classes but doesn’t support the polymorphism feature. It is an object-based programming language. Note that it’s not an OOP language.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. If same message is passed to objects of several different classes and all of those can respond in a different way, what is this feature called?
+a) Inheritance
+b) Overloading
+c) Polymorphism
+d) Overriding
+View Answer
+
+Answer: c
+Explanation: The feature defined in question defines polymorphism features. Here the different objects are capable of responding to the same message in different ways, hence polymorphism.
+5. Which class/set of classes can illustrate polymorphism in the following code?
+
+Become Top Ranker in Object Oriented Programming Now!
+abstract class student
+{
+   public : int marks;
+   calc_grade();
+}
+class topper:public student
+{
+    public : calc_grade()
+    { 
+        return 10; 
+    }
+};
+class average:public student
+{ 
+     public : calc_grade()
+     {
+         return 20; 
+     }
+};
+class failed{ int marks; };
+a) Only class student can show polymorphism
+b) Only class student and topper together can show polymorphism
+c) All class student, topper and average together can show polymorphism
+d) Class failed should also inherit class student for this code to work for polymorphism
+View Answer
+
+Answer: c
+Explanation: Since Student class is abstract class and class topper and average are inheriting student, class topper and average must define the function named calc_grade(); in abstract class. Since both the definition are different in those classes, calc_grade() will work in different way for same input from different objects. Hence it shows polymorphism.
+6. Which type of function among the following shows polymorphism?
+a) Inline function
+b) Virtual function
+c) Undefined functions
+d) Class member functions
+View Answer
+
+Answer: b
+Explanation: Only virtual functions among these can show polymorphism. Class member functions can show polymorphism too but we should be sure that the same function is being overloaded or is a function of abstract class or something like this, since we are not sure about all these, we can’t say whether it can show polymorphism or not.
+7. In case of using abstract class or function overloading, which function is supposed to be called first?
+a) Local function
+b) Function with highest priority in compiler
+c) Global function
+d) Function with lowest priority because it might have been halted since long time, because of low priority
+View Answer
+
+Answer: b
+Explanation: Function with highest priority is called. Here, it’s not about the thread scheduling in CPU, but it focuses on whether the function in local scope is present or not, or if scope resolution is used in some way, or if the function matches the argument signature. So all these things define which function has the highest priority to be called in runtime. Local function could be one of the answer but we can’t say if someone have used pointer to another function or same function name.
+8. Which among the following can’t be used for polymorphism?
+a) Static member functions
+b) Member functions overloading
+c) Predefined operator overloading
+d) Constructor overloading
+View Answer
+
+Answer: a
+Explanation: Static member functions are not property of any object. Hence it can’t be considered for overloading/overriding. For polymorphism, function must be property of object, not only of class.
+9. What is output of the following program?
+
+class student
+{ 
+    public : int marks; 
+	void disp() 
+	{ 
+		cout<<”its base class”
+	};
+	class topper:public student
+	{
+		public : 
+		void disp()
+		{ 
+			cout<<”Its derived class”; 
+		}
+	}
+	void main() { student s; topper t;
+	s.disp();
+	t.disp();
+}
+a) Its base classIts derived class
+b) Its base class Its derived class
+c) Its derived classIts base class
+d) Its derived class Its base class
+View Answer
+
+Answer: a
+Explanation: You need to focus on how the output is going to be shown, no space will be given after first message from base class. And then the message from derived class will be printed. Function disp() in base class overrides the function of base class being derived.
+10. Which among the following can show polymorphism?
+a) Overloading ||
+b) Overloading +=
+c) Overloading <<
+d) Overloading &&
+View Answer
+
+Answer: c
+Explanation: Only insertion operator can be overloaded among all the given options. And the polymorphism can be illustrated here only if any of these is applicable of being overloaded. Overloading is type of polymorphism.
+11. Find the output of the following program.
+
+class education
+{ 
+	char name[10];
+	public : disp()
+	{ 
+		cout<<”Its education system”;
+	}
+	class school:public education
+	{
+		public: void dsip()
+		{ 
+			cout<<”Its school education system”;
+		}
+    };
+	void main()
+	{
+                school s;
+                s.disp();
+	}
+}
+a) Its school education system
+b) Its education system
+c) Its school education systemIts education system
+d) Its education systemIts school education system
+View Answer
+
+Answer: a
+Explanation: Notice that the function name in derived class is different from the function name in base class. Hence when we call the disp() function, base class function is executed. No polymorphism is used here.
+12. Polymorphism is possible in C language.
+a) True
+b) False
+View Answer
+
+13. Which problem may arise if we use abstract class functions for polymorphism?
+a) All classes are converted as abstract class
+b) Derived class must be of abstract type
+c) All the derived classes must implement the undefined functions
+d) Derived classes can’t redefine the function
+View Answer
+
+Answer: c
+Explanation: The undefined functions must be defined is a problem, because one may need to implement few undefined functions from abstract class, but he will have to define each of the functions declared in abstract class. Being useless task, it is a problem sometimes.
+14. Which among the following is not true for polymorphism?
+a) It is feature of OOP
+b) Ease in readability of program
+c) Helps in redefining the same functionality
+d) Increases overhead of function definition always
+View Answer
+
+Answer: d
+Explanation: It never increases function definition overhead, one way or another if you don’t use polymorphism, you will use the definition in some other way, so it actually helps to write efficient codes.
+15. If 2 classes derive one base class and redefine a function of base class, also overload some operators inside class body. Among these two things of function and operator overloading, where is polymorphism used?
+a) Function overloading only
+b) Operator overloading only
+c) Both of these are using polymorphism
+d) Either function overloading or operator overloading because polymorphism can be applied only once in a program
+View Answer
+
+Answer: d
+Explanation: Both of them are using polymorphism. It is not necessary that polymorphism can be used only once in a program, it can be used anywhere, any number of times in a single program.

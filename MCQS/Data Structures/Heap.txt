@@ -1,0 +1,1064 @@
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “D-ary Heap”.
+
+1. d-heap is similar to that of a?
+a) binary heap
+b) fibonacci heap
+c) leftist heap
+d) treap
+View Answer
+
+Answer: a
+Explanation: A d-heap is similar to that of a binary heap except that binary heaps have two children and d-heaps have d children.
+2. d-heap is shallower than a binary heap.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: d-heap is much shallower than a binary heap with respect to performance efficiency of insert and delete operations.
+3. Which operation cannot be directly performed in a d-heap?
+a) insert
+b) delete
+c) find
+d) create
+View Answer
+
+Answer: c
+Explanation: Find operation in a d-heap cannot be performed as in other heaps. This is the main weakness of d-heap.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which operation is not efficiently performed in a d-heap?
+a) insert
+b) delete
+c) find
+d) merge
+View Answer
+
+Answer: d
+Explanation: Unlike find operation, which cannot be performed in a d-heap, the task of merging two d-heaps is very difficult.
+5. What is the run time efficiency of an insertion algorithm in d-heap?
+a) O(N)
+b) O(log N)
+c) O(logd N)
+d) O(Nd)
+View Answer
+
+Answer: c
+Explanation: The run time efficiency of an insertion algorithm in a d-heap is found to be O(logd N) where d is the number of children.
+Take Data Structure I Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. How many comparisons will occur while performing a delete-min operation?
+a) d
+b) d-1
+c) d+1
+d) 1
+View Answer
+
+Answer: b
+Explanation: Since, the delete-min operation is more expensive and the heap is shallow, the minimum of d elements can be found using d-1 comparisons.
+7. How many basic operations can be performed in a d-heap?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: The two basic operations performed in a d-heap are insert and delete-min operations.
+8. What is the run time efficiency of delete-min operation?
+a) O(log N)
+b) O(logd N)
+c) O(d logd N)
+d) O(d)
+View Answer
+
+Answer: c
+Explanation: The run time efficiency of a delete-min algorithm using d-1 comparisons is mathematically found to be O(d logd N).
+9. The following figure is an example for
+The given heap is a d-heap since it looks like a binary heap with d-children
+a) d-heap
+b) binary heap
+c) leftist heap
+d) skew heap
+View Answer
+
+Answer: a
+Explanation: The given heap is a d-heap since it looks like a binary heap with d- children. Here, d=3.
+10. Multiplication and division to find children and parents cannot be implemented in a d-heap.
+a) true
+b) false
+View Answer
+
+Answer: b
+Explanation: Multiplication and division for finding children and parents can be implemented in a d-heap but d should be a power of 2.
+11. How many secondary operations are performed in a d-heap?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: d
+Explanation: The other operations that can be performed in a d-heap are increasekey, decreasekey, buildheap and delete.
+12. On which data structure is a d-ary heap based?
+a) stack
+b) queue
+c) linked list
+d) priority queue
+View Answer
+
+Answer: d
+Explanation: d-ary heap is a priority queue based data structure that is a generalization of binary heaps.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Heap”.
+
+1. What is the space complexity of searching in a heap?
+a) O(logn)
+b) O(n)
+c) O(1)
+d) O(nlogn)
+View Answer
+
+Answer: b
+Explanation: The space complexity of searching an element in heap is O (n). Heap consists of n elements and we need to compare every element. Here no addition or deletion of elements takes place. Hence space complexity is O (n).
+2. What is the best case complexity in building a heap?
+a) O(nlogn)
+b) O(n2)
+c) O(n*longn *logn)
+d) O(n)
+View Answer
+
+Answer: d
+Explanation: The best case complexity occurs in bottom-up construction when we have a sortes array given.
+3. Given the code, choose the correct option that is consistent with the code. (Here A is the heap)
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+	build(A,i)
+	left-> 2*i
+	right->2*i +1
+	temp- > i
+	if(left<= heap_length[A] ans A[left] >A[temp])
+	temp -> left
+	if (right = heap_length[A] and A[right] > A[temp])
+	temp->right
+	if temp!= i
+	swap(A[i],A[temp])
+	build(A,temp)
+a) It is the build function of max heap
+b) It is the build function of min heap
+c) It is general build function of any heap
+d) It is used to search element in any heap
+View Answer
+
+Answer: a
+Explanation: Since in every condition we are comparing the current value is less than the parent of that node. So this is build function of Max heap.
+Check this: Programming MCQs | Design & Analysis of Algorithms MCQ
+4. What is the location of a parent node for any arbitary node i?
+a) (i/2) position
+b) (i+1)/ position
+c) floor(i/2) position
+d) ceil(i/2) position
+View Answer
+
+Answer: c
+Explanation: For any node child nodes are located at either 2*i, 2*i +1 So the parent node could be found by taking the floor of the half of child node.
+5. State the complexity of algorithm given below.
+
+	int function(vector<int> arr)
+	int len=arr.length();
+	if(len==0)
+	return;
+	temp=arr[len-1];
+	arr.pop_back();
+	return temp;
+a) o(n)
+b) O(logn)
+c) O(1)
+d) O(n logn)
+View Answer
+
+Answer: c
+Explanation: Deletion in a min-heap is in O(1) time.
+6. Given an array of element 5, 7, 9, 1, 3, 10, 8, 4. Which of the following are the correct sequences of elements after inserting all the elements in a min-heap?
+a) 1,3,4,5,7,8,9,10
+b) 1,4,3,9,8,5,7,10
+c) 1,3,4,5,8,7,9,10
+d) 1,3,7,4,8,5,9,10
+View Answer
+
+Answer: a
+Explanation: Building a min-heap the result will a sorted array so the 1, 3, 4, 5, 7, 8, 9, 10 is correct. If we change the implementation strategy 1, 4, 3, 8, 9, 5, 7, 10 is also correct. (First filling the right child rather than left child first).
+7. For construction of a binary heap with property that parent node has value less than child node. In reference to that which line is incorrect. Line indexed from 1.
+
+1. add(int k)
+2. {
+3.     heap_size++;
+4.     int i = heap_size - 1;
+5.     harr[i] = k;
+6.     while (i != 0 && harr[parent(i)] < harr[i])
+7.     {
+8.             swap(&harr[i], &harr[parent(i)]);
+9.             i = parent(i);
+10.    }
+11. }
+a) Line – 3
+b) Line – 5
+c) Line – 6
+d) Line – 7
+View Answer
+
+Answer: c
+Explanation: The condition under while condition is wrong for a (min) binary heap The correct condition should be while(i!=0 && harr[parent(i)] > harr[i]). Otherwise the constructed heap will be a max-binary heap.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binomial and Fibonacci Heap”.
+
+1. The main distinguishable characterstic of a binomial heap from a binary heap is that
+a) it allows union operations very efficiently
+b) it does not allow union operations that could easily be implemented in binary heap
+c) the heap structure is not similar to complete binary tree
+d) the location of child node is not fixed i.e child nodes could be at level (h-2) or (h-3), where h is height of heap and h>4
+View Answer
+
+Answer: a
+Explanation: The main use of binomial heap is to unify two different heap efficiently.
+2. The number of trees in a binomial heap with n nodes is
+a) logn
+b) n
+c) nlogn
+d) n/2
+View Answer
+
+Answer: a
+Explanation: At each depth there is a binomial tree in a binomial heap.
+3. In a binomial heap the root value is greater than left child and less than right child.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Binomial tree used in making binomial heap follows min heap property.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Given the pseudo code, state whether the function for merging of two heap is correct or not?
+
+		mergeTree(p,q)
+    		if p.root.value <= q.root.value
+        	return p.addTree(q)
+    		else
+        	return q.addTree(p)
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Binomial heap has a property that root value is less than both the child node’s value. So the given function of merging two different heap is correct.
+Take Data Structure I Tests Now!
+5. What is order of resultant heap after merging two tree of order k?
+a) 2*k
+b) k+1
+c) k*k
+d) k+logk
+View Answer
+
+Answer: b
+Explanation: This could be easily verified by looking at the structure of a binomial heap.
+6. Time taken in decreasing the node value in a binomial heap is
+a) O(n)
+b) O(1)
+c) O(logn)
+d) O(nlogn)
+View Answer
+
+Answer: c
+Explanation: Decreasing a node value may result in violating the min property. As a result be there would be exchange in the value of parent and child which at max goes up to height of the heap.
+7. What does this pseudo_code return ?
+
+	int myfun(heap_arr[])
+	{
+		int mini=INF;
+		for(int i=0;i<tot_node;i++)
+		mini=min(mini,heap_arr)
+		return mini;
+	}
+a) Last added element to heap
+b) First element added to heap
+c) Root of the heap
+d) Leftmost node of the heap
+View Answer
+
+Answer: c
+Explanation: The function return minimum value in the heap_Array which is equal to the root value of the heap.
+8. Which of these operations have same complexities?
+a) Insertion, find_min
+b) Find_min, union
+c) Union, Insertion
+d) Deletion, Find _max
+View Answer
+
+Answer: c
+Explanation: With proper implementation using link list find_min and find_max operation can be done in O(1), while the remaining takes O(logn) time.
+9. The Statement “Fibonacci heap has better amortized running time in compare to a binomial heap”.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Overall complexity of insertion, merging, deleting is in order of O((a+b)logn) For Fibonacci the complexity reduces to O(a+ blogn).
+10. Given a heap of n nodes.The maximum number of tree for building the heap is.
+a) n
+b) n-1
+c) n/2
+d) logn
+View Answer
+
+Answer: a
+Explanation: Each node could be seen as a tree with only one node and as a result maximum subtree in the heap is equal to number of nodes in the heap.
+11. Choose the option with function having same complexity for a fibonacci heap.
+a) Insertion, Union
+b) Insertion, Deletion
+c) extract_min, insertion
+d) Union, delete
+View Answer
+
+Answer: a
+Explanation: For a fibonacci heap insertion, union take O(1) while remaining take O(logn) time.
+12. What is wrong with the following code of insertion in fibonacci heap.
+Choose the correct option
+
+	FIB-INSERT(H, x)
+	degree[x]= 0
+	p[x]=  NIL
+	child[x] =NIL
+	left[x] =x
+	right[x] =x
+	mark[x] =FALSE
+	concatenate the root list containing x with root list H 
+	if min[H] = NIL or key[x] > key[min[H]]
+	then min[H]= x
+	n[H]= n[H] + 1
+a) Line -11
+b) Line -3
+c) Line 9
+d) Line 7
+View Answer
+
+Answer: c
+Explanation: The main characterstics of a fibonacci heap is violated since min[H] must conatin one with smallest value.
+13. What will be the order of new heap created after union of heap H1 and H2 when created by the following code.Initially both are of the order n.
+
+	FIB_UNION(H1,H2)
+	{
+		H =MAKE_HEAP()
+		min[H]= min[H1]
+		concatenate the root list of H2 with the root list of H
+		if (min[H1] = NIL) or (min[H2]!= NIL and min[H2] < min[H1])
+		then min[H] = min[H2]
+		n[H]=  n[H1] + n[H2]
+		free the objects H1 and H2
+		return H
+	}
+a) n+1
+b) n+n/2
+c) nlogn
+d) 2*n
+View Answer
+
+Answer: a
+Explanation: Union of two trees increase the order of the resultant by atmost value 1.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binomial and Fibonacci Heap”.
+
+1. The main distinguishable characterstic of a binomial heap from a binary heap is that
+a) it allows union operations very efficiently
+b) it does not allow union operations that could easily be implemented in binary heap
+c) the heap structure is not similar to complete binary tree
+d) the location of child node is not fixed i.e child nodes could be at level (h-2) or (h-3), where h is height of heap and h>4
+View Answer
+
+Answer: a
+Explanation: The main use of binomial heap is to unify two different heap efficiently.
+2. The number of trees in a binomial heap with n nodes is
+a) logn
+b) n
+c) nlogn
+d) n/2
+View Answer
+
+Answer: a
+Explanation: At each depth there is a binomial tree in a binomial heap.
+3. In a binomial heap the root value is greater than left child and less than right child.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Binomial tree used in making binomial heap follows min heap property.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Given the pseudo code, state whether the function for merging of two heap is correct or not?
+
+		mergeTree(p,q)
+    		if p.root.value <= q.root.value
+        	return p.addTree(q)
+    		else
+        	return q.addTree(p)
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Binomial heap has a property that root value is less than both the child node’s value. So the given function of merging two different heap is correct.
+Take Data Structure I Tests Now!
+5. What is order of resultant heap after merging two tree of order k?
+a) 2*k
+b) k+1
+c) k*k
+d) k+logk
+View Answer
+
+Answer: b
+Explanation: This could be easily verified by looking at the structure of a binomial heap.
+6. Time taken in decreasing the node value in a binomial heap is
+a) O(n)
+b) O(1)
+c) O(logn)
+d) O(nlogn)
+View Answer
+
+Answer: c
+Explanation: Decreasing a node value may result in violating the min property. As a result be there would be exchange in the value of parent and child which at max goes up to height of the heap.
+7. What does this pseudo_code return ?
+
+	int myfun(heap_arr[])
+	{
+		int mini=INF;
+		for(int i=0;i<tot_node;i++)
+		mini=min(mini,heap_arr)
+		return mini;
+	}
+a) Last added element to heap
+b) First element added to heap
+c) Root of the heap
+d) Leftmost node of the heap
+View Answer
+
+Answer: c
+Explanation: The function return minimum value in the heap_Array which is equal to the root value of the heap.
+8. Which of these operations have same complexities?
+a) Insertion, find_min
+b) Find_min, union
+c) Union, Insertion
+d) Deletion, Find _max
+View Answer
+
+Answer: c
+Explanation: With proper implementation using link list find_min and find_max operation can be done in O(1), while the remaining takes O(logn) time.
+9. The Statement “Fibonacci heap has better amortized running time in compare to a binomial heap”.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Overall complexity of insertion, merging, deleting is in order of O((a+b)logn) For Fibonacci the complexity reduces to O(a+ blogn).
+10. Given a heap of n nodes.The maximum number of tree for building the heap is.
+a) n
+b) n-1
+c) n/2
+d) logn
+View Answer
+
+Answer: a
+Explanation: Each node could be seen as a tree with only one node and as a result maximum subtree in the heap is equal to number of nodes in the heap.
+11. Choose the option with function having same complexity for a fibonacci heap.
+a) Insertion, Union
+b) Insertion, Deletion
+c) extract_min, insertion
+d) Union, delete
+View Answer
+
+Answer: a
+Explanation: For a fibonacci heap insertion, union take O(1) while remaining take O(logn) time.
+12. What is wrong with the following code of insertion in fibonacci heap.
+Choose the correct option
+
+	FIB-INSERT(H, x)
+	degree[x]= 0
+	p[x]=  NIL
+	child[x] =NIL
+	left[x] =x
+	right[x] =x
+	mark[x] =FALSE
+	concatenate the root list containing x with root list H 
+	if min[H] = NIL or key[x] > key[min[H]]
+	then min[H]= x
+	n[H]= n[H] + 1
+a) Line -11
+b) Line -3
+c) Line 9
+d) Line 7
+View Answer
+
+Answer: c
+Explanation: The main characterstics of a fibonacci heap is violated since min[H] must conatin one with smallest value.
+13. What will be the order of new heap created after union of heap H1 and H2 when created by the following code.Initially both are of the order n.
+
+	FIB_UNION(H1,H2)
+	{
+		H =MAKE_HEAP()
+		min[H]= min[H1]
+		concatenate the root list of H2 with the root list of H
+		if (min[H1] = NIL) or (min[H2]!= NIL and min[H2] < min[H1])
+		then min[H] = min[H2]
+		n[H]=  n[H1] + n[H2]
+		free the objects H1 and H2
+		return H
+	}
+a) n+1
+b) n+n/2
+c) nlogn
+d) 2*n
+View Answer
+
+Answer: a
+Explanation: Union of two trees increase the order of the resultant by atmost value 1.
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Pairing Heap”.
+
+1. What is the reason for the efficiency of a pairing heap?
+a) simplicity
+b) time-efficient
+c) space-efficient
+d) advanced
+View Answer
+
+Answer: a
+Explanation: The reason for the simplicity of a pairing heap is its simplicity as it is simpler and outperform other heap structures.
+2. How is a pairing heap represented?
+a) binary tree
+b) fibonacci tree
+c) heap ordered tree
+d) treap
+View Answer
+
+Answer: c
+Explanation: A pairing heap is represented as a heap-ordered tree and the analysis of pairing heap is open.
+3. The actual pairing heap implementation uses the right child and left child representation.
+a) true
+b) false
+View Answer
+
+Answer: b
+Explanation: The actual pairing heap implementation uses a left child and right sibling representation since it follows heap order property.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which node contains a pointer to its parent?
+a) root node
+b) right most child
+c) left most child
+d) left sibling
+View Answer
+
+Answer: c
+Explanation: A node that is a leftmost node contains a pointer to its parent, otherwise, the node is a right sibling.
+5. Which of the heaps is implemented by the following figure?
+Figure is representation of pairing heap because it has left children & right siblings
+a) fibonacci heaps
+b) pairing heap
+c) skew heap
+d) leftist heap
+View Answer
+
+Answer: b
+Explanation: The above figure is a representation of a pairing heap because it has left children and right siblings.
+Check this: Programming MCQs | Computer Science Books
+6. What is the basic operation performed in a pairing heap?
+a) merge
+b) deletion
+c) insertion
+d) swapping
+View Answer
+
+Answer: a
+Explanation: The basic operation performed in a pairing heap is merging. Insertion is also done by merging.
+7. If there are c children of the root, how many calls to the merge procedure is required to reassemble the heap?
+a) c
+b) c+1
+c) c-1
+d) 1
+View Answer
+
+Answer: c
+Explanation: If there are c children of the root, then c-1 merges are required to reassemble the pairing heap.
+8. Which of the following methods is the best choice for complex applications?
+a) binary heap
+b) d-heap
+c) treap
+d) pairing heap
+View Answer
+
+Answer: d
+Explanation: Pairing heap is the best choice for complex applications because it is simple and better than the others.
+9. Pairing heaps time complexity was inspired by that of?
+a) splay tree
+b) treap
+c) red-black tree
+d) avl tree
+View Answer
+
+Answer: a
+Explanation: The pairing heaps insertion, deletion and search time complexity was initially inspired by that of splay trees.
+10. The roots of the elements of the subtrees are smaller than the root of the heap.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The heap ordering property requires that all the root elements of the subtrees in the list are not smaller than the root element of the heap.
+11. The amortized time efficiency for performing deletion of a minimum element is?
+a) O(N)
+b) O(log N)
+c) O(N2)
+d) O(M log N)
+View Answer
+
+Answer: b
+Explanation: The amortized time efficiency for performing deletion of a minimum element is mathematically found to be O(log N).
+12. Out of the following given options, which is the fastest algorithm?
+a) fibonacci heap
+b) pairing heap
+c) d-ary heap
+d) binary heap
+View Answer
+
+Answer: a
+Explanation: Although pairing heap is an efficient algorithm, it is worse than the Fibonacci heap. Also, pairing heap is faster than d-ary heap and binary heap.
+13. What is the run time efficiency of an insertion algorithm?
+a) O(N)
+b) O(log N)
+c) O(N2)
+d) O(M log N)
+View Answer
+
+Answer: a
+Explanation: The run time efficiency of an insertion algorithm in a pairing heap is mathematically found to be O(N).
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Skew Heap”.
+
+1. ___________ is a self-adjusting version of a leftist heap.
+a) Rightist heap
+b) Skew heap
+c) d-heap
+d) Binary heap
+View Answer
+
+Answer: b
+Explanation: A skew heap is a self-adjusting version of a leftist heap and it is simpler to implement.
+2. The worst case running time of all operations in a skew heap is given as?
+a) O(N)
+b) O(N log N)
+c) O(N2)
+d) O(M log N)
+View Answer
+
+Answer: a
+Explanation: The worst case running time of all operations in a skew heap is mathematically found to be O(N).
+3. What is the amortized cost per operation of a skew heap?
+a) O(N)
+b) O(N log N)
+c) O(N2)
+d) O(log N)
+View Answer
+
+Answer: d
+Explanation: The amortized cost per operation of a skew heap is O(log N) since the worst case analysis of skew heap is O(N) and splay tree is O(M log N).
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. The relationship of skew heaps to leftist heaps is analogous to that of?
+a) Splay tree and AVL tree
+b) Red black tree and AVL tree
+c) Binary tree and Splay tree
+d) Binary tree and Red black tree
+View Answer
+
+Answer: a
+Explanation: Splay tree is a self -adjusting version of AVL tree. Similarly, skew heap is a self-adjusting version of leftist heap.
+5. What is the fundamental operation performed in skew heaps?
+a) intersection
+b) difference
+c) merging
+d) sorting
+View Answer
+
+Answer: c
+Explanation: The fundamental operation of skew heaps is merging. Hence, it is similar to that of a leftist heap.
+Check this: Computer Science Books | Design & Analysis of Algorithms MCQ
+6. What is the time per operation of merging, insertion and deletion operations in a skew heap?
+a) O(N)
+b) O(log N)
+c) O(N log N)
+d) O(N2)
+View Answer
+
+Answer: b
+Explanation: Skew heaps support merging, insertion and deletion all effectively in O(log N) time per operation.
+7. Why would a recursive implementation fail in skew heaps?
+a) skew heaps are self adjusting
+b) efficiency gets reduced
+c) lack of stack space
+d) time complexity
+View Answer
+
+Answer: c
+Explanation: In skew heaps, a recursive implementation could fail because of lack of stack space even though performance is acceptable.
+8. Which of the following is difficult to determine the right path length?
+a) Skew heaps
+b) Binomial tree
+c) Leftist heap
+d) d-heap
+View Answer
+
+Answer: a
+Explanation: It is an open problem to determine precisely the expected right path length of both leftist and skew heaps and comparatively, the latter is difficult.
+9. The worst case analysis for a naïve merge is given as?
+a) O(N)
+b) O( log N)
+c) O( N log N)
+d) O(N2)
+View Answer
+
+Answer: a
+Explanation: The worst-case analysis for the naïve merge is an insertion in a right heavy tree. So, insertion takes O(N).
+10. How many types of the merge are available in skew heaps?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: Two kinds of the merge are available in skew heaps- naïve merge and skew merge.
+11. Naïve merge cannot be done in a skew merge.
+a) true
+b) false
+View Answer
+
+Answer: b
+Explanation: One way of doing skew merge is to begin with naïve merge and then swapping the left and right children of the tree.
+12. What is the amortized efficiency of skew merge?
+a) O(N)
+b) O( log N)
+c) O( N log N)
+d) O(N2)
+View Answer
+
+Answer: b
+Explanation: The amortized efficiency of a skew heap is mathematically found to be O( log N).
+13. In skew heaps, certain constraints are to be met in order to perform swapping.
+a) true
+b) false
+View Answer
+
+Answer: b
+Explanation: In skew heaps, swaps are unconditional. It is done with the exception that the largest of all nodes does not have its children swapped.
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Ternary Heap – 1”.
+
+1. What is the smallest element of the given minimum ternary heap?
+The smallest element of the given minimum ternary heap is 1
+a) 1
+b) 10
+c) 18
+d) 20
+View Answer
+
+Answer: a
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. Minimum ternary heap has the smallest element as its root node. The parent node is all either equal or less than children node in a minimum ternary heap.
+2. What is the highest element of the given maximum ternary heap?
+The highest element of the given maximum ternary heap is 31
+a) 31
+b) 10
+c) 18
+d) 20
+View Answer
+
+Answer: a
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. Maximum ternary heap has the highest element as its root node. The parent node is all either equal or greater than children node in a maximum ternary heap.
+3. What is the child of smallest element of the given minimum ternary heap?
+The smallest element of the given minimum ternary heap is 1
+a) 1
+b) 10
+c) 22
+d) 24
+View Answer
+
+Answer: b
+Explanation: Minimum ternary heap has the smallest element as its root node. The parent node is all either equal or less than children node in a minimum ternary heap. In the above minimum ternary heap, the smallest element is 1 and its children are 10, 18, 20.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. What are the siblings of smallest element of the given maximum ternary heap?
+The highest element of the given maximum ternary heap is 31
+a) 31
+b) 12
+c) 18
+d) 22
+View Answer
+
+Answer: c
+Explanation: Maximum ternary heap has the highest element as its root node. The parent node is all either equal or greater than children node in a maximum ternary heap. The smallest element in the maximum ternary heap is 10 and its siblings are 18, 20.
+5. What is the height of a given minimum ternary heap?
+The smallest element of the given minimum ternary heap is 1
+a) 1
+b) 10
+c) 2
+d) 24
+View Answer
+
+Answer: a
+Explanation: Minimum ternary heap has the smallest element as its root node. The parent node is all either equal or less than children node in a minimum ternary heap. Height is the total length from the root node to the leaf node. So the height of the minimum ternary heap is 1.
+Take Data Structure I Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. What is the ancestor of the leaf node in a given minimum ternary heap?
+The smallest element of the given minimum ternary heap is 1
+a) 1
+b) 10
+c) 18
+d) 20
+View Answer
+
+Answer: a
+Explanation: Minimum ternary heap has the smallest element as its root node. The parent node is all either equal or less than children node in a minimum ternary heap. Ancestor is the node falling on the path from that node to the root node. So here ancestor of all leaf nodes is 1.
+7. Which property should ternary heap hold for execution?
+a) Associative
+b) Commutative
+c) Tree
+d) Heap
+View Answer
+
+Answer: d
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. So, it should hold all the properties of Heap that is all the levels of the heap has to be filled from left to right.
+8. Should leaves in ternary heap be distributed from left to right.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. So, it should hold all the properties of Heap that is all the levels of the heap has to be filled from left to right.
+9. What is the process of building a ternary heap called?
+a) Heapify
+b) Hashing
+c) Linking
+d) Merging
+View Answer
+
+Answer: a
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. So, the process of building a ternary heap is known as Heapify.
+10. Which type of data structure is a ternary heap?
+a) Array
+b) Hash
+c) Priority Queue
+d) Priority Stack
+View Answer
+
+Answer: c
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. It is a priority queue type of data structure that follows all the property of heap.
+11. Is the priority queue abstract data type.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Priority queue is an abstract data type. It is also the extension of the Queue data structure where all the elements have been assigned some priority and on the basis of this priority, the elements are dequeued from the structure.
+12. What is a ternary heap?
+a) An array with three elements
+b) Linked list with three elements
+c) Tree with three children
+d) Heap with all nodes having three children
+View Answer
+
+Answer: d
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. So, it follows all the property of heap. Therefore, all the nodes in the ternary heap have 3 nodes.
+13. Who invented d-ary heap?
+a) Carl Rick
+b) Alan Turing
+c) Donald Johnson
+d) Euclid
+View Answer
+
+Answer: c
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. The d-ary heap was invented by Donald Johnson in the year 1975.
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Ternary Heap – 2”.
+
+1. What is the time complexity for inserting a new item in a ternary heap of n elements?
+a) O (log n/ log 3)
+b) O (n!)
+c) O (n)
+d) O (1)
+View Answer
+
+Answer: a
+Explanation: In order to insert a new item in a ternary heap data structure having n elements, the heap has great efficiency for inserting them. So the time complexity for worst case is found to be O (log n/ log 3).
+2. Is decrease priority operation performed more quickly in a ternary heap with respect to the binary heap.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. Due to the swapping process, the decrease priority operation performs more quickly in a ternary heap.
+3. What is the time complexity for decreasing priority of key in a minimum ternary heap of n elements?
+a) O (log n/ log 3)
+b) O (n!)
+c) O (n)
+d) O (1)
+View Answer
+
+Answer: a
+Explanation: In order to decrease the priority of an item in a ternary heap data structure having n elements, the heap has great efficiency for decreasing them. So the time complexity for worst case is found to be O (log n/ log 3). This is due to the upwards swapping process.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. What is the time complexity for increasing priority of key in a maximum ternary heap of n elements?
+a) O (log n/ log 3)
+b) O (n!)
+c) O (n)
+d) O (1)
+View Answer
+
+Answer: a
+Explanation: In order to increase the priority of an item in a ternary heap data structure having n elements, it performs upwards swapping. So the time complexity for worst case is found to be O (log n/ log 3).
+5. What is the time complexity for deleting root key in a ternary heap of n elements?
+a) O (log n/ log 3)
+b) O (3log n/ log 3)
+c) O (n)
+d) O (1)
+View Answer
+
+Answer: b
+Explanation: In order to delete a root key in a ternary heap data structure having n elements, it performs downward swapping. So the time complexity for worst case is found to be O (3log n/ log 3).
+Get Free Certificate of Merit in Data Structure I Now!
+6. What is the time complexity for increasing priority of key in a minimum ternary heap of n elements?
+a) O (log n/ log 3)
+b) O (3log n/ log 3)
+c) O (n)
+d) O (1)
+View Answer
+
+Answer: b
+Explanation: In order to the increasing the priority of key in a minimum ternary heap data structure having n elements, it performs downward swapping. So the time complexity for worst case is found to be O (3log n/ log 3).
+7. What is the time complexity for decreasing priority of key in a maximum ternary heap of n elements?
+a) O (log n/ log 3)
+b) O (3log n/ log 3)
+c) O (n)
+d) O (1)
+View Answer
+
+Answer: b
+Explanation: In order to decrease the priority of key in a maximum ternary heap data structure having n elements, it performs downward swapping. So the time complexity for worst case is found to be O (3log n/ log 3).
+8. Do ternary heap have better memory cache behavior than binary heap.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. Due to the swapping process, they have better memory cache behavior.
+9. What is the time complexity for creating a ternary heap using swapping?
+a) O (log n/ log 3)
+b) O (n!)
+c) O (n)
+d) O (1)
+View Answer
+
+Answer: c
+Explanation: Ternary Heap can be formed by two swapping operations. Therefore, the time complexity for creating a ternary heap using two swapping operation is found to be O (n).
+10. Which of the following is the application of minimum ternary heap?
+a) Prim’s Algorithm
+b) Euclid’s Algorithm
+c) Eight Queen Puzzle
+d) Tree
+View Answer
+
+Answer: a
+Explanation: When working on the graph in the computer science field, the Prim’s Algorithm for spanning trees uses a minimum ternary heap as there are delete operation equal to a number of edges and decrease priority operation equal to the number of vertices associated with the graph.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Weak Heap”.
+
+1. Choose the correct properties of weak-heap.
+a) Every node has value greater than the value of child node
+b) Every right child of node has greater value than parent node
+c) Every left child of node has greater value than parent node
+d) Every left and right child of node has same value as parent node
+View Answer
+
+Answer: b
+Explanation: This is the property of a weak heap.
+2. Left child of parent node has value lesser than the parent node.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Weak heap has no left child.
+3. What is the other name of weak heap?
+a) Min-heap
+b) Max-heap
+c) Relaxed -heap
+d) Leonardo heap
+View Answer
+
+Answer: c
+Explanation: Relaxed heap is just another name of weak heap.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. What is the worst case time in searching minimum value in weak -heap?
+a) O(log n)
+b) O(n)
+c) O(n logn)
+d) O(1)
+View Answer
+
+Answer: d
+Explanation: Weak heap is an array based form that supports the operation of finding a minimum in O(1).
+5. The total comparisons in finding both smallest and largest elements are
+a) 2*n +2
+b) n + ((n+1)/2) -2
+c) n+logn
+d) n2
+View Answer
+
+Answer: b
+Explanation: The total comparisons in finding smallest and largest elements is n + ((n+1)/2) – 2.
+Participate in Data Structure I Certification Contest of the Month Now!
+6. What is the complexity of given function of insertion.
+
+	insert(int n)
+	{
+		if(buffer_size()< maxi_biffer_size())
+		buffer_aar[ind]==n;
+		else
+		move_to_heap(buffer,buffer+maxi_buffer_size())
+	}
+a) O(logn)
+b) amortized O(1)
+c) O(n)
+d) O (n*logn)
+View Answer
+
+Answer: b
+Explanation: Use a buffer array to store a fixed number of elements when the buffer is full the content of buffer is moved to heap.As a result the complexity
+is amotized O(1).
+7. Does there exist a heap with seven distinct elements so that the Inorder traversal gives the element in sorted order.
+a) Yes
+b) No
+View Answer
+
+Answer: b
+Explanation: No, The inorder traversal will not give elements in sorted order. As heap is implemented as either min-heap or max-heap, the root will be have highest or lowest value than remaining values of the nodes. So this traversal will not give a sorted list.
+8. The leaf node for a heap of height h will be at which position.
+a) h
+b) h-1
+c) h or h-1
+d) h-2
+View Answer
+
+Answer: c
+Explanation: A complete binary tree is also a heap so by the property of binary tree the leaf nodes will be must at height h or h-1.

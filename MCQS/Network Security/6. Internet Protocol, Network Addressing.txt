@@ -1,0 +1,725 @@
+1. An IP packet has arrived with the first 8 bits as 01000010. What is the version?
+a) 3
+b) 4
+c) 5
+d) 6
+View Answer
+
+Answer: b
+Explanation: The first 4-bits show the version i.e. 0100 -> version 4.
+2. An IP packet has arrived with the first 8 bits as 01000010. What is the header length?
+a) 4
+b) 8
+c) 12
+d) 16
+View Answer
+
+Answer: b
+Explanation: The right 4-bits multiplied by 4 is the header length (0010=2).
+2 x 4 = 8.
+3. In an IP packet, the value of HLEN is 1000 in binary. How many bytes of options are being carried by this packet?
+a) 16
+b) 64
+c) 32
+d) 8
+View Answer
+
+Answer: c
+Explanation: HLEN = 1000 = 8.
+8 x 4 = 32 bytes.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. In an IP packet, the value of HLEN is 5_16 and the value of the total length field is 0028_16. How many bytes of data are being carried by this packet?
+a) 10
+b) 40
+c) 60
+d) 20
+View Answer
+
+Answer: d
+Explanation: Total number of bytes in the header = 5 x 4 = 20 bytes.
+Total length = 0028_16 = 40 bytes.
+Data carried by the packet = (40 – 20) = 20 bytes.
+5. In an IP packet, the value of HLEN is 516 and the value of the total length field is 002816.What is the efficiency of this datagram?
+a) 80%
+b) 50%
+c) 66%
+d) 75%
+View Answer
+
+Answer: b
+Explanation: Total number of bytes in the header = 5 x 4 = 20 bytes.
+Total length = 0028_16 = 40 bytes.
+Data carried by the packet = (40 – 20) = 20 bytes.
+Efficiency = payload length / total length = 20/40= 50%.
+Check this: Computer Science Books | Computer Science MCQs
+6. An IP packet has arrived with the first few hexadecimal digits as shown below:
+45000028000100000102 . . .
+How many hops can this packet travel before being dropped?
+a) 2
+b) 5
+c) 3
+d) 1
+View Answer
+
+Answer: d
+Explanation: None.
+7. An IP packet has arrived with the first few hexadecimal digits as shown below:
+45000028000100000102 . . .
+The data belong to what upper layer protocol?
+a) IGMP
+b) UDP
+c) OSPF
+d) TCP
+View Answer
+
+Answer: a
+Explanation: TTL = 01, the packet can travel only one hop.
+Protocol field = 02 means IGMP.
+8. A packet has arrived in which the offset value is 100. What is the number of the first byte?
+a) 400
+b) 800
+c) 200
+d) 780
+View Answer
+
+Answer: b
+Explanation: TTL = 01, the packet can travel only one hop.
+The number of the first byte is 100 x 8 = 800.
+The first byte number is 800.
+9. A packet has arrived in which the offset value is 100, the value of HLEN is 5 and the value of the total length field is 100. What is the number of the first byte?
+a) 800
+b) 880
+c) 400
+d) 780
+View Answer
+
+Answer: a
+Explanation: Total data bytes = total length – header length = 80 bytes in this datagram.
+First byte is 800.
+10. A packet has arrived in which the offset value is 100, the value of HLEN is 5 and the value of the total length field is 100. What is the number of the last byte
+a) 880
+b) 879
+c) 881
+d) 801
+View Answer
+
+Answer: b
+Explanation: Total data bytes = total length – header length = 80 bytes in this datagram.
+Last byte is therefore 879.
+1. Each block in class A contains _____________ addresses.
+a) 216
+b) 224
+c) 28
+d) 214
+View Answer
+
+Answer: b
+Explanation: Each block in class A contains 224 addresses.
+2. Each block in class B contains __________ addresses.
+a) 28
+b) 224
+c) 214
+d) 216
+View Answer
+
+Answer: d
+Explanation: Each block in class B contains 216 addresses.
+3. Number of Blocks in class B are –
+a) 212
+b) 216
+c) 214
+d) 218
+View Answer
+
+Answer: c
+Explanation: Number of Blocks in class B are 214.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+3. Number of Blocks in class C are –
+a) 212
+b) 216
+c) 214
+d) 218
+View Answer
+
+Answer: c
+Explanation: Number of Blocks in class C are 214.
+4. Percent of addresses occupied by Class D?
+a) 50 %
+b) 25 %
+c) 6.25 %
+d) 12.5 %
+View Answer
+
+Answer: c
+Explanation: Class D has 228 addresses in total.
+Check this: Computer Science Books | Computer Science MCQs
+5. Which of the following does not have a Net ID and Host ID?
+a) Class A
+b) Class B
+c) Class C
+d) Class D
+View Answer
+
+Answer: d
+Explanation: Class D is the multicast address class. It does not have Net ID and Host ID fields.
+6. Which Class is reserved for future use?
+a) A
+b) B
+c) D
+d) None of the Mentioned
+View Answer
+
+Answer: d
+Explanation: Class E is reserved for future use.
+7. Number of Blocks in class C are –
+a) 27
+b) 28
+c) 214
+d) 29
+View Answer
+
+Answer: a
+Explanation: Number of Blocks in class A are 27.
+8. What is the size of the Host ID in Class C?
+a) 24 bits
+b) 16 bits
+c) 8 bits
+d) 14 bits
+View Answer
+
+Answer: c
+Explanation: The size of the Host ID in Class C is 8 bits.
+An address in a block is given as 180.8.17.9. Find the number of addresses in the block, the first address, and the last address.
+
+9. Address of the block is –
+a) 214
+b) 216
+c) 28
+d) 224
+View Answer
+
+Answer: b
+Explanation: Since 180 is between 128 and 191, it is class B address n=16.
+N = 2(32-n) = 216 = 65,536.
+10. First Address is –
+a) 180.8.0.0
+b) 180.7.64.0
+c) 180.8.1.256
+d) 180.12.0.0
+View Answer
+
+Answer: a
+Explanation: Keep the leftmost 16 bits and set the rightmost 16 bits all to 0s. First address = 180.8.0.0, in which 16 is the value of n.
+11. Last Address is –
+a) 180.8.255.255.
+b) 180.8.255.0.
+c) 180.12.0.255.
+d) 180.9.255.255.
+View Answer
+
+Answer: a
+Explanation: Keep the leftmost 16 bits and set the rightmost 16 bits all to 1s. Last address = 180.8.255.255.
+12. A router receives a packet with the destination address 132.7.21.84. Find the network address of the packet.
+a) 1.32.7
+b) 132.7
+c) 13.27
+d) 21.84
+View Answer
+
+Answer: b
+Explanation: 132 is between 128 and 191, so it is Class B address i.e. n=16-bit. Therefore,
+Network address 132.7
+Host address 21.84.
+1. Classless Addressing overcomes the problem of –
+a) address completion
+b) address depletion
+c) address extraction
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Classless Addressing overcomes the problem of address depletion.
+2. Which of the following is true for classless addressing?
+a) The addresses are contiguous
+b) The number of addresses is a power of 2 (16 = 24), and the first address is divisible by 16
+c) The first address, when converted to a decimal number, is 3,440,387,360, which when divided by 16 results in 215,024,210
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the statements are true.
+3. The value ‘n’ in classless addressing is referred to as –
+a) prefix length
+b) suffix length
+c) intermediate length
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: ‘n’ is referred to as prefix length.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following values can ‘n’ not take?
+a) 16
+b) 8
+c) 20
+d) 24
+View Answer
+
+Answer: c
+Explanation: ‘n’ can only have values 8, 16, or 24.
+5. The slash notation in classless addressing is referred to as –
+a) NIFT
+b) PITF
+c) CIDR
+d) TRS
+View Answer
+
+Answer: c
+Explanation: It is referred to as CIDR.
+Check this: Cyber Security MCQ | Cryptography and Network Security Books
+6. CIDR stands for –
+a) Class In Domain Range
+b) Classless Inter Domain Routing
+c) Classless In Domain Range
+d) None of the mentioned.
+View Answer
+
+Answer: b
+Explanation: CIDR stands for Classless Inter Domain Routing.
+7. A classless address is given as 167.199.170.82/27. Find the number of addresses.
+a) 128
+b) 64
+c) 32
+d) 16
+View Answer
+
+Answer: c
+Explanation: n =27
+Therefore number of addresses is 2(32-n) = 32.
+8. A classless address is given as 167.199.170.82/27. Find the first address.
+a) 167.199.170.32
+b) 167.199.170.82
+c) 167.199.170.64
+d) 167.199.170.78
+View Answer
+
+Answer: c
+Explanation: First address = (any address) AND (network mask).
+9. A classless address is given as 167.199.170.82/27. Find the last address.
+a) 167.199.170.95
+b) 167.199.170.256
+c) 167.199.170.128
+d) 167.199.170.88
+View Answer
+
+Answer: a
+Explanation: Last address = (any address) OR [NOT (network mask)].
+10. No. of address in the block= N= NOT(mask)+1.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true.
+11. ICANN stands for Internet Corporation for Assigned Names and Addresses.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The address block allocation is managed by a global authority called the ICANN.
+12. An ISP has requested a block of 1000 addresses. How many blocks are granted to it?
+a) 512
+b) 1000
+c) 1024
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The number of blocks allotted can only be in the powers of 2.
+13. An ISP has requested a block of 1000 addresses. What is its prefix length?
+a) 28
+b) 22
+c) 26
+d) 24
+View Answer
+
+Answer: b
+Explanation: n =32- log_2 (1024) = 22.
+14. An ISP has requested a block of 1000 addresses. Can 18.14.12.0 be its first address?
+a) Yes
+b) No
+c) Can’t Say
+d) Insufficient Data
+View Answer
+
+Answer: a
+Explanation: 18.14.12.0 is divisible by 1024 hence it can be taken as first address.
+15. If the first address is First address = 18.14.12.0/22. What is the last address?
+a) 18.14.15.128/22
+b) 18.14.15.64/22
+c) 18.14.15.32/22
+d) 18.14.15.255/22
+View Answer
+
+Answer: d
+Explanation: Last address = (any address) OR [NOT (network mask)].
+The Last Address = 18.14.15.255/22.
+1. N_sub = n + log_2(N/N_sub) is used to find the suffix length.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: N_sub = n + log_2(N/N_sub) is used to find the prefix length.
+2. An organization is granted the block 130.34.12.64/26. Find the number of addresses for the whole network.
+a) 128
+b) 32
+c) 256
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: N = 2(32-36) = 64.
+3. An organization is granted the block 130.34.12.64/26. What is the last address of the network?
+a) 130.34.12.63/26
+b) 130.34.12.64/26
+c) 130.34.12.127/26
+d) 130.34.12.128/28
+View Answer
+
+Answer: c
+Explanation: Last address = 130.34.12.127/26.
+This can be found via: Last address = (any address) OR [NOT (network mask)].
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. An organization is granted the block 130.34.12.64/26. The organization needs four subnetworks, each with an equal number of hosts. What is the number of addresses to each subnetwork?
+a) 4
+b) 16
+c) 8
+d) 32
+View Answer
+
+Answer: b
+Explanation: N = 2^(32-36) = 64.
+Nsub= N/No. of subnetworks = 64/4 = 16.
+5. In the above question, what is the subnetwork mask for each network?
+a) 27
+b) 29
+c) 28
+d) 26
+View Answer
+
+Answer: c
+Explanation: nsub1 = nsub2 = nsub3 = nsub4 = n + log2(N/Nsub) =26+ log2(64/16)= 28.
+Check this: Cryptography and Network Security Books | Cyber Security MCQ
+6. An organization is granted the block 130.34.12.64/26. The organization needs four subnetworks, each with an equal number of hosts. What is the first address for the 3rd subnetwork?
+a) 130.34.12.64/28
+b) 130.34.12.96/28
+c) 130.34.12.96/26
+d) 130.34.12.80/27
+View Answer
+
+Answer: b
+Explanation: Each subnetwork has 16 addresses. 64+32 = 96. This is the starting address of the 3rd block.
+An organization is granted a block of addresses with the beginning address 14.24.74.0/24. The organization needs to have 3 subblocks of addresses to use in its three subnets as shown below:
+One subblock of 120 addresses
+One subblock of 60 addresses
+One subblock of 10 addresses
+Answer the following questions based on the above information –
+
+7. Number of addresses :
+a) 64
+b) 128
+c) 256
+d) 512
+View Answer
+
+Answer: c
+Explanation: N = 2^(32-24) = 256.
+8. Last Address –
+a) 14.24.74.64/24
+b) 14.24.74.127/24
+c) 14.24.74.255/24
+d) 14.24.74.256/24
+View Answer
+
+Answer: c
+Explanation: Last Address = 14.24.74.255/24
+Last address = (any address) OR [NOT (network mask)].
+9. The subnet mask nsub1=
+a) 23
+b) 25
+c) 26
+d) 27
+View Answer
+
+Answer: b
+Explanation: nsub1= n+log2(N/Nsub1) = 25.
+10. First address of the second subblock –
+a) 14.24.74.192/26
+b) 14.24.74.128/26
+c) 14.24.74.127/28
+d) 14.24.74.67/27
+View Answer
+
+Answer: b
+Explanation: First address = 14.24.74.128/26
+First address = (any address) AND (network mask).
+11. Nsub3 =
+a) 16
+b) 14
+c) 12
+d) 10
+View Answer
+
+Answer: a
+Explanation: The number of addresses in the third subblock (10) is not a power of 2.
+Thus, we allocate Nsub3 = 16 addresses.
+12. First Address of the third subblock –
+a) 14.24.74.128/28
+b) 14.24.74.127 /28
+c) 14.24.74.192/27
+d) 14.24.74.192/28
+View Answer
+
+Answer: d
+Explanation: First address = 14.24.74.192/28
+First address = (any address) AND (network mask).
+13. The subnet mask nsub3=
+a) 28
+b) 27
+c) 26
+d) 24
+View Answer
+
+Answer: a
+Explanation: The subnet mask nsub3= n+log2(N/Nsub3) = 28.
+1. What is the suffix length for group 1?
+a) 8
+b) 16
+c) 24
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: 64 customers, each needs 256 addresses
+Suffix length = 8 (28=256)
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+2. What is the prefix length for group 1?
+a) 8
+b) 16
+c) 24
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: 64 customers, each needs 256 addresses
+Suffix length = 8 (28=256)
+32-8 = 24.
+3. What are the total number of addresses in Group 1?
+a) 32768
+b) 8192
+c) 16384
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Total addresses: 64×256 = 16384.
+Check this: Cyber Security MCQ | Cryptography and Network Security Books
+4. What is the prefix length for group 2?
+a) 14
+b) 7
+c) 25
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: 128 customers, each needs 128 addresses
+Suffix length = 7 (27=128)
+Prefix length = 32-7= 25.
+5. What is the first address of group 3?
+a) 190.100.128.63/26
+b) 190.100.128.0/26
+c) 190.100.128.64/26
+d) 190.100.128.127/25
+View Answer
+
+Answer: b
+Explanation: Find the IP address using basic networking concepts.
+6. What are the total number of addresses in Group 3?
+a) 32768
+b) 8192
+c) 16384
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Total addresses: 128×64 = 8192.
+7. What is the suffix length for group 3?
+a) 7
+b) 6
+c) 5
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: 128 customers, each needs 64 addresses
+Suffix length = 6 (26=64).
+8. What is the prefix length for group 3?
+a) 28
+b) 26
+c) 24
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: 128 customers, each needs 64 addresses
+Suffix length = 6 (26=64)
+Prefix length = 32-6= 26.
+9. What is the first address of group 1?
+a) 190.100.0.0/24
+b) 190.100.0.0/16
+c) 190.100.63.255/24
+d) 190.100.0.255/16
+View Answer
+
+Answer: a
+Explanation: Find the IP address using basic networking concepts.
+10. What is the first address for customer 128 of group 2?
+a) 190.100.127.128/26
+b) 190.100.127.255/26
+c) 190.100.127.128/25
+d) 190.100.127.255/25
+View Answer
+
+Answer: a
+Explanation: Find the IP address using basic networking concepts.
+11. Loopback address is given by –
+a) 0.0.0.0
+b) 127.x.x.x
+c) 255.255.255.255
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Loopback address is given by 127.x.x.x
+12. Broadcast address is given by –
+a) 0.0.0.0
+b) 127.x.x.x
+c) 255.255.255.255
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Broadcast address is given by 255.255.255.255. This address is the last address in the range of addresses, and is the address whose host portion is set to all ones.
+13. Network address is given by –
+a) 0.0.0.0
+b) 127.x.x.x
+c) 255.255.255.255
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Network address is given by 0.0.0.0. It is reserved for communication when a host needs to send an IPv4 packet but it does not know its own address.
+1. In the SSLv3 the padding bits are ____________ with the secret key.
+a) Padded
+b) XORed
+c) Concatenated
+d) ANDed
+View Answer
+
+Answer: c
+Explanation: The padding bits are concatenated with the secret key.
+2. Which of the following is not a valid input to the PRF in SSLv3?
+a) secret value
+b) identifying label
+c) initialization vector
+d) secret value
+View Answer
+
+Answer: c
+Explanation: The PRF does not require an initialization vector.
+3. Which of the following alert codes is not supported by SSLv3?
+a) record_overflow
+b) no_certificate
+c) internal_error
+d) decode_error
+View Answer
+
+Answer: b
+Explanation: no_certificate is not supported by the SSLv3.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. We encounter the record_overflow error when the payload length exceeds –
+a) 214 + 1024
+b) 216 + 1024
+c) 214 + 2048
+d) 216 + 2048
+View Answer
+
+Answer: c
+Explanation: The overflow error is encountered when the length exceeds 214 + 2048.
+5. Which key exchange technique is not supported by SSLv3?
+a) Anonymous Diffie-Hellman
+b) Fixed Diffie-Hellman
+c) RSA
+d) Fortezza
+View Answer
+
+Answer: d
+Explanation: Fortezza is not supported in SSLv3.
+Check this: Computer Science Books | Computer Science MCQs
+6. Calculation of the certificate_verify in TLS involves the use of a finished_label. The finished_label is the string-
+a) client finished for the client
+b) client finished for the client, server finished for the server
+c) server finished for the server
+d) client finished for the server, server finished for the client
+View Answer
+
+Answer: b
+Explanation: The finished_label is the string client finished for the client, server finished for the server.
+7. In TLS padding cann be upto a maximum of –
+a) 79 bytes
+b) 127 bytes
+c) 255 bytes
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Padding can be upto a maximum of 255 bytes.
+8. URL stands for –
+a) Universal Remote Locator
+b) Universal Resource Language
+c) Uniform Resource Locator
+d) Uniform Resource Language
+View Answer
+
+Answer: c
+Explanation: URL stands for Uniform Resource Locator.
+9. HTTPS stands for Hypertext Transfer Protocol over TLS.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. HTTPS is HTTP invoked over SSL/TLS.
+10. An HTTP connection uses port _________ whereas HTTPS uses port ____________ and invokes SSL.
+a) 40; 80
+b) 60; 620
+c) 80; 443
+d) 620; 80
+View Answer
+
+Answer: c
+Explanation: HTTP uses 80 ports, whereas HTTPS uses 443 ports.

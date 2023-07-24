@@ -1,0 +1,351 @@
+This set of Automata Theory Questions and Answers for Experienced people focuses on “The Universal Language-Undecidability”.
+
+1. The decision problem is the function from string to ______________
+a) char
+b) int
+c) boolean
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: The decision problem requires checking of input (string) has some property or not. That is a string to boolean transaction.
+2. A language L is said to be ____________ if there is a turing machine M such that L(M)=L and M halts at every point.
+a) Turing acceptable
+b) decidable
+c) undecidable
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Decidability refers to the decision problem and existence of a effective method for determining membership, and return true and false accordingly rather that going into a loop forever.
+3. Which among the following are undecidable theories?
+a) The first order theory of boolean algebra
+b) The first order theory of Euclidean geomentry
+c) The first order theory of hyperbolic geometry
+d) The first order theory of the natural number with addition, multiplication, and equality
+View Answer
+
+Answer: d
+Explanation: Tarski and Mostowski in 1949, established that the first order theory of natural numbers with addition, multiplication, and equality is an undecidable theory. Others mentioned are decidable theories.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Rec-DFA = { | M is a DFA and M recognizes input w}.
+Fill in the blank:
+Rec-DFA is ___________
+a) Undecidable
+b) Decidable
+c) Non finite
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Under decidablity of regular language properties we have the following lemma which states that A DFA which recognizes an input w is decidable.
+5. Which among the following are semi decidable?
+a) Empty-DFA
+b) Rec-NFA
+c) Infinite-DFA
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are the properties of regular languages and all are decidable languages.
+Check this: Automata Theory Books | Computer Science MCQs
+6. The language accepted by a turing machine is called ____________
+a) Recursive Ennumerable
+b) Recursive
+c) Recursive Ennumerable and Recursive
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The language accepted by Turing machines are called recursively ennumerable (RE), and the subset of RE languages that are accepted by a turing machine that always halts are called recursive.
+7. Decidable can be taken as a synonym to:
+a) recursive
+b) non recursive
+c) recognizable
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: We can refer to languages as ‘recursive’ and problems as ‘decidable’. If a language is not recursive, then we call the problem expressed by that language undecidable.
+8. The problems which have no algorithm, regardless of whether or not they are accepted by a turing machine that fails to halts on some input are referred as:
+a) Decidable
+b) Undecidable
+c) Computable
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The problems that can be solved by a turing machine can divided into two classes:
+a) Those that have an algorithm
+b) Intractable problems: Those that are only solved by a turing machine that may run forever on inputs they do not accept.
+9. An algorithm is called efficient if it runs in ____________ time on a serial computer.
+a) polynomial
+b) non polynomial
+c) logarithmic
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Example: Runtimes of efficient algorithms
+O(n), O(nlogn), O(n3log2n)
+Runtimes of inefficient algorithms
+O(2n), O(n!)
+10. A problem is called __________ if its has an efficient algorithm for itself.
+a) tractable
+b) intractable
+c) computational
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: A problem is called intractable if there is an efficient (i.e. polynomial time) algorithm that solves it. A problem is called intractable if there exists no efficient algorithm that solves it.
+11. A formal language is recursive if :
+a) a total turing machine exists
+b) a turing machine that halts for every input
+c) turing machine rejects if the input does not belong to the language
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A formal language is called recursive if it is a recursive subset of the set of all possible finite sequences over the alphabet of the language.
+12. Recursive languages are also known as:
+a) decidable
+b) undecidable
+c) sometimes decidable
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: A language is recursive if there exists a turing machine such that it halts i.e. accepts if the input belongs to the language else rejects. It is better called Turing decidable language.
+13. The class of recursive language is known as:
+a) R
+b) RC
+c) RL
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: R is the set of all recursive languages, a class of decision problems solvable by turing machines. Although, R is also used for the class RP.
+14. Which of the following was not a part of Chomsky hierarchy?
+a) Context sensitive grammar
+b) Unrestricted grammar
+c) Recursive grammar
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: All recursive languages are recursively enumerable. All regular, context free and context sensitive languages are recursive.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Rice’s Theorem, Properties and PCP”.
+
+1. According to the rice’s theorem, If P is a non trivial property, Lp is :
+a) infinite
+b) decidable
+c) undecidable
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Rice’s theorem states that ‘Any non trivial property about the language recognized by a turing machine is undecidable’.
+2. Fill in the blank with reference to Rice’s theorem.
+For any non-trivial property of __________ no general or effective method can decide whether an algorithm computes it with that property.
+a) partial functions
+b) piecewise functions
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: A property of partial functions is called trivial if it holds for all partial computable functions or for none, and an effective decision method is called general if it decides correctly for every algorithm.
+3. Which of the following is incorrect according to rice theorem?
+Let S be a set of language hat is non trivial:
+a) there exists a TM that recognizes the language in S
+b) there exists a TM that recognizes the language not in S
+c) it is undecidable to determine whether the language recognized by an arbitrary turing machine lies in S
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: According to rice theorem, it is undecidable to determine whether the language recognized by an arbitrary turing machine lies in S.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the following set of computable functions are decidable?
+a) The class of computable functions that are constant, and its complement
+b) The class of indices for computable functions that are total
+c) The class of indices for recursively enumerable sets that are cofinite
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: According to Rice’s theorem, if there exists atleast one computable function in a particular class C of computable functions and another computable function not in C then the problem deciding whether a particular program computes a function in C is undecidable.
+5. Which of the following statements are undecidable?
+For a given Turing Machine M,
+a) does M halt on an empty input tape
+b) does M halt for anly inputs at all?
+c) is L(M) regular? Context free? Turing decidable?
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: All of the following mentioned are immediate results of Rice’s theorem and thus, undecidable.
+Check this: Computer Science Books | Automata Theory Books
+6. Post Correspondence problem is
+a) decidable decision problem
+b) undecidable decision problem
+c) not a decision problem
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Post Correspondence problem is an undecidable decision problem that was introduced by Emil Post in 1946. Being simpler than halting problem, it can be used in proofs of undecidability.
+7. State true or false:
+Statement: The difference between PCP and MPCP is that in MPCP, a solution is required to start with the first string on each list.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: The MPCP is : Given lists A and B of K strings, say A = w1, w2, …wk and B= x1, x2,…..xk does there exists a sequence of integers i1,i2,…ir such that w1wi1wi2…..wir = x1xi1xi2…xir?
+8. PCP stands for?
+a) Post Correspondence Problem
+b) Post Corresponding Problem
+c) Pre Correspondence problem
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: PCP or Post Correspondence problem is an undecidable decision problem.
+9. Can a Modified PCP problem be reduced to PCP?
+a) yes
+b) no
+View Answer
+
+Answer: a
+Explanation: Yes, it can be. There exists a theorem and as well as its proof which supports the assertion.
+10. Consider three decision problem A, B, C. A is decidable and B is not. Which of the following is a correct option?
+a) C is undecidable if C is reducible to B
+b) C is undecidable if B is reducible to C
+c) C is decidable if A is reducible to C
+d) C is decidable if C is reducible to B’s complement.
+View Answer
+
+Answer: b
+Explanation: As B is undecidable and it can be reduced to C, C is also an undecidable problem.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “The Diagonalization Languages”
+
+1. Which of the following technique is used to find whether a natural language isn’t recursive enumerable?
+a) Diagonalization
+b) Recursive Induction
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: To find a non recursively enumerable language, we use the technique of diagonalization.
+2. Diagonalization can be useful in:
+a) To find a non recursively enumerable language
+b) To prove undecidability of haltig problem
+c) To find a non recursively enumerable language & also proves undecidability of haltig problem
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Diagonalization is a technique we use for the following operations:
+a) To find a non recursively enumerable language.
+b) To prove undecidability of halting problem.
+3. Which of the following are undecidable problems?
+a) Determining whether two grammars generate the same language
+b) Determining whether a grammar is ambiguous
+c) Determining whether a grammar is ambiguous and two grammars generate the same language
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: In contrast we can put up an algorithm for checking whether two FA’s are equivalent and this program can be implemented as a program.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which of the following are incorrect options?
+a) Informally, problem is a yes/no question about an infinite set of possible instances
+b) Formally, a problem is a language
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Example: Does a graph G has a Hamilton cycle?
+=>Each undirected graph is an instance of Hamilton cycle problem.
+5. If a problem has an algorithm to answer it, we call it _________
+a) decidable
+b) solved
+c) recognizable
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: An algorithm is a TM that halts on all inputs,accepted or not. Putting other way, decidable problems are recursive languages.
+Check this: Computer Science MCQs | Computer Science Books
+6. Which of the following are decidable problems?
+a) Can a particular line of code in a program ever be executed?
+b) Do two given CFG’s generate the same language
+c) Is a given CFG ambiguous?
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: All of the mentioned problems are undecidable.
+7.Which one of the following is true for the given?
+A={(M,w)|M is a turing machine that accepts string w}
+a) A concrete undecidable problem
+b) A is recognizable but not decidable
+c) -A is not recognizable
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: We can proof A to be undecidable using the contradiction method.
+8. Which of the following are correct statements?
+a) TMs that always halt are known as Decidable problems
+b) TMs are not guaranteed to halt only on acceptance are recursive enumerable
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: There are two types of TMs on the basis of halting: Recursive and Recursively Enumerable(TM may or may not halt, could loop forever).
+9. Statement: If L id R.E., Lc needs to be R.E. Is it correct?
+a) Yes
+b) No
+c) Maybe
+d) Cannot predict
+View Answer
+
+Answer: b
+Explanation: Any recursive enumerable language is not closed under complementation.
+10. Which of the following is true for The Halting problem?
+a) It is recursively enumerable
+b) It is undecidable
+c) It is recursively enumerable and undecidable
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Halting problem: Does a given Turing machine M halt on a given input w?
+11. With reference to binary strings, state true or false:
+Statement: For any turing machine, the input alphabet is restricted to {0,1}.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: When turing machines are coded as Binary strings, we are restricted to take any input alphabet except {0,1}.
+12. With reference to enumeration of binary strings, the conversion of binary strings to integer is possible by treating the resulting string as a base ____ integer.
+a) 2
+b) 8
+c) 16
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: It makes sense to talk about the i-th binary string” and about “the i-th Turing machine. If i makes no sense as a TM, assume the i-th TM accepts nothing.

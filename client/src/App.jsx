@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import { Routes, Route, Link } from 'react-router-dom'
 import AllChapters from './pages/AllChapters'
 import CreateNew from './pages/CreateNew/CreateNew'
+import ChapterQuestionsPage from './pages/ChapterQuestionsPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,10 +18,14 @@ function App() {
       </header>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route exact path=':departmentid/subjects/' element={<Subjects/>}>
+        <Route exact path=':departmentid/subjects/' element={<Subjects />}>
         </Route>
         <Route path='subjects/:subjectid' element={<AllChapters />} />
         <Route path='/createnew/:subjectid/:chapterid' element={<CreateNew />} />
+
+        <Route path='/questions/chapter/:chapterid' element={<ChapterQuestionsPage />}>
+
+        </Route>
       </Routes>
     </div>
   )

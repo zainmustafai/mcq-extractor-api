@@ -1,0 +1,474 @@
+1. The language made up of binary coded instructions.
+a) Machine
+b) C
+c) BASIC
+d) High level
+View Answer
+
+Answer: a
+Explanation: The language made up of binary coded instructions built into the hardware of a particular computer and used directly by the computer is machine language.
+2. Binary code comprises of digits from 0 to 9.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. Binary as the word suggests contains only 2 digits : 0 and 1.
+0 denotes false and 1 denotes a truth value.
+3. The ___________ contains the address of the next instruction to be executed.
+a) IR
+b) PC
+c) Accumulator
+d) System counter
+View Answer
+
+Answer: b
+Explanation: PC stands for program counter (It contains the address of the next instruction to be executed).
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The memory unit is made up of _____ bytes.
+a) 256
+b) 124
+c) 4096
+d) 3096
+View Answer
+
+Answer: c
+Explanation: The memory unit is made up of 4,096 bytes. Memory unit is responsible for the storage of data. It is an important entity in the computer system.
+5. A document that specifies how many times and with what data the program must be run in order to thoroughly test it.
+a) addressing plan
+b) test plan
+c) validation plan
+d) verification plan
+View Answer
+
+Answer: b
+Explanation: Test plan is the A document that specifies how many times and with what data the program must be run in order to thoroughly test it. It comes under testing.
+Check this: Computer Science MCQs | Computer Fundamental Books
+6. An approach that designs test cases by looking at the allowable data values.
+a) Maintenance
+b) Evaluation
+c) Data coverage
+d) Validation
+View Answer
+
+Answer: c
+Explanation: Data coverage is the term used. It is responsible for designing the test cases.
+7. The formal grammar rules governing the construction of valid instruction.
+a) test case
+b) syntax
+c) program
+d) semantics
+View Answer
+
+Answer: b
+Explanation: Syntax determines the grammatical rules in a code. Semantics give meaning to the instructions.
+8. A program that reads each of the instructions in mnemonic form and translates it into the machine-language equivalent.
+a) Machine language
+b) Assembler
+c) Interpreter
+d) C program
+View Answer
+
+Answer: b
+Explanation: Assembler does this job. A language that uses mnemonic codes for the representation of machine-language instructions is called assembly language.
+9. An approach that designs test cases by looking at the allowable data values.
+a) Data coverage
+b) Code Coverage
+c) Debugging
+d) Validation
+View Answer
+
+Answer: a
+Explanation: Data coverage is an approach that designs test cases by looking at the allowable data values. Code coverage is an approach that designs test cases by looking at the code.
+10. The rules that give meaning to the instructions.
+a) Semantics
+b) Syntax
+c) Code
+d) Cases
+View Answer
+
+Answer: a
+Explanation: The answer is semantics. They are the rules that give meaning to the instructions. The syntax is the formal rules that ensure validation of code.
+1. Each personal computer has a _________ that manages the computer’s arithmetical, logical and control activities.
+a) Microprocessor
+b) Assembler
+c) Microcontroller
+d) Interpreter
+View Answer
+
+Answer: a
+Explanation: Microprocessor handles all these activities. Each family of processors has its own set of instructions for handling various operations like getting input from keyboard, displaying information on a screen and performing various other jobs.
+2. Assembly Language requires less memory and execution time.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true.
+Advantages of using assembly language are:
+• It requires less memory and execution time.
+• It allows hardware-specific complex jobs in an easier way.
+• It is suitable for time-critical jobs.
+3. The data size of a word is _________
+a) 2-byte
+b) 4-byte
+c) 8-byte
+d)16-byte
+View Answer
+
+Answer: a
+Explanation: The processor supports the following data sizes:
+• Word: a 2-byte data item
+• Double word: a 4-byte (32 bit) data item, etc.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. A direct reference of specific location.
+a) Segment Address
+b) Absolute Address
+c) Offset
+d) Memory Address
+View Answer
+
+Answer: b
+Explanation: There are two kinds of memory addresses:
+• An absolute address – a direct reference of specific location.
+• The segment address (or offset) – starting address of a memory segment with the offset value.
+5. A Borland Turbo Assembler.
+a) nasm
+b) tasm
+c) gas
+d) asm
+View Answer
+
+Answer: b
+Explanation: Tasm is the borland turbo assembler. Nasm is used with linux generally. Gas is the GNU assembler.
+Check this: BCA Books | BCA MCQs
+6. The instructions that tell the assembler what to do.
+a) Executable instructions
+b) Pseudo-ops
+c) Logical instructions
+d) Macros
+View Answer
+
+Answer: a
+Explanation: The executable instructions or simple instructions tell the processor what to do. Each instruction consists of an operation code (opcode). Each executable instruction generates one machine language instruction.
+7. The segment containing data values passed to functions and procedures within the program.
+a) Code
+b) Data
+c) Stack
+d) System
+View Answer
+
+Answer: c
+Explanation: The stack segment contains data values passed to functions and procedures within the program. The code segment defines an area in memory that stores the instruction codes.
+8. To speed up the processor operations, the processor includes some internal memory storage locations, called ___________
+a) Drives
+b) Memory
+c) Units
+d) Registers
+View Answer
+
+Answer: d
+Explanation: The processor has some internal memory storage locations, known as registers. The registers stores data elements for processing without having to access memory.
+9. To locate the exact location of data in memory, we need the starting address of the segment, which is found in the DS register and an offset value. This offset value is also called?
+a) Effective Address
+b) Direct offset address
+c) Memory address
+d) General Address
+View Answer
+
+Answer: a
+Explanation: When operands are specified in memory addressing mode, direct access to main memory, usually to the data segment, is required. This way of addressing results in slower processing of data. To get the exact location of data in memory, we need segment start address, which is found in the DS register and an offset value. This offset value is called an effective address.
+10. Each byte of character is stored as its ASCII value in _______
+a) Hexadecimal
+b) Binary
+c) Octal
+d) Decimal
+View Answer
+
+Answer: a
+Explanation: Assembly language deals with hexadecimal values only. Each decimal value is automatically converted to its 16-bit binary equivalent and stored as a hexadecimal number.
+1. Prolog comes under ___________
+a) Logic Programming
+b) Procedural Programming
+c) OOP
+d) Functional
+View Answer
+
+Answer: a
+Explanation: Prolog stands for Programming in Logic. The options mentioned are the four categories of programming. Prolog is a type of logic programming.
+2. Java is procedural programming.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. Java is a type of object oriented programming language. It involves solving real-life problems as well.
+3. A program that can execute high-level language programs.
+a) Compiler
+b) Interpreter
+c) Sensor
+d) Circuitry
+View Answer
+
+Answer: b
+Explanation: Interpreter is a program that can execute high-level language programs “directly,” without first being translated into machine language.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Executables might be called ________
+a) native code
+b) executable code
+c) complex code
+d) machine code
+View Answer
+
+Answer: a
+Explanation: The executables are sometimes called native code. HLL are translated to Machine language called the native code.
+5. Source program is compiled to an intermediate form called ___________
+a) Byte Code
+b) Smart code
+c) Executable code
+d) Machine code
+View Answer
+
+Answer: a
+Explanation: The Source program is compiled to an intermediate form called byte code. For each supported platform, write a “virtual machine” emulator that reads byte code and emulates its execution.
+Check this: Computer Fundamental Books | BCA MCQs
+6. _______________ is the assembly language for an imaginary architecture.
+a) Byte code
+b) Machine code
+c) Native code
+d) Executable code
+View Answer
+
+Answer: a
+Explanation: Source program is compiled to an intermediate form – byte code. Byte code is the assembly language for an imaginary architecture.
+7. JIT stands for?
+a) Just in time
+b) Jump in time
+c) Jump in text
+d) Jump in terms
+View Answer
+
+Answer: a
+Explanation: JIT stands for Just in time. JVMs actually compile each bytecode instruction to native code the first time it is used.
+8. JVM stands for?
+a) Java virtual machine
+b) Java visual machine
+c) JRE virtual machine
+d) JRE visual machine
+View Answer
+
+Answer: a
+Explanation: JVM stands for Java Virtual Machine. Other related terms are JRE which is java runtime environment and JDK which is java development kit.
+9. A language supported by MS. Net platform.
+a) C
+b) C++
+c) java
+d) C#
+View Answer
+
+Answer: d
+Explanation: C# is supported by MS. Net platform. JAVA was originally designed for web purposes.
+10. Which of the following isn’t a characteristic of High level languages?
+a) machine code
+b) platform independent
+c) interactive execution
+d) user-friendly
+View Answer
+
+Answer: a
+Explanation: HLL isn’t in machine language. It is converted to machine language for further processing.
+1. Which is interpreted language?
+a) C++
+b) C
+c) MATLAB
+d) Fortran
+View Answer
+
+Answer: c
+Explanation: MATLAB is an interpreted language. All the other languages are compiled languages. In the case of Interpreted language, the translation to machine-language is performed incrementally at run-time.
+2. In compiled language, the translation to machine-language is performed incrementally at run-time.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement is false. The translation is performed once, then executable file is run as frequently as needed without further translation.
+3. The first widely-used high level language developed in 1957.
+a) C
+b) Java
+c) Fortran
+d) Cobol
+View Answer
+
+Answer: c
+Explanation: Fortran which stands for Formula Translation was the first widely-used high level language. It was developed by IBM for scientific applications. The program was entered as punch cards.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A text file that contains our program is called as __________
+a) Exe file
+b) Doc file
+c) Obj file
+d) Source file
+View Answer
+
+Answer: d
+Explanation: A file that contains the code or the main program is called as the source file. Source code must be processed by a compiler to create an executable file.
+5. First statement in a fortran code is _________
+a) include statement
+b) import statement
+c) program statement
+d) @data statement
+View Answer
+
+Answer: c
+Explanation: It is the program statement. program statement is followed by the program name.
+Syntax : program xyz
+Become Top Ranker in Computer Fundamentals Now!
+6. A Fortran is not ___________
+a) System supported
+b) Source supported
+c) Case Sensitive
+d) Programmer supported
+View Answer
+
+Answer: c
+Explanation: Fortran is not a case sensitive language. For e.g. PROGRAM xyz also works. Also, multiple consecutive blank spaces are ignored.
+7. The delimiter in a FORTRAN code.
+a) Semicolon
+b) Blank space
+c) Colon
+d) Comma
+View Answer
+
+Answer: b
+Explanation: Delimiter separates the tokens we use in our code. In a FORTRAN code, single blank space serves as a delimiter. Though, multiple blank spaces are ignored.
+8. A program that reads the source code and converts it to a form usable by the computer.
+a) Interpreter
+b) Compiler
+c) Linker
+d) Assembler
+View Answer
+
+Answer: b
+Explanation: A compiler does this task. Internally, 3 steps are performed: preprocessing, checking and compiling. Further, assembler and linker do the work.
+9. A valid variable declaration in FORTRAN is __________
+a) real :: Celsius
+b) real Celsius;
+c) Celsius real;
+d) real : Celsius
+View Answer
+
+Answer: a
+Explanation: A variable declaration has the following syntax:
+Data type :: variable name
+10. In FORTRAN, the declarations of variables can be modified using the _____ parameter.
+a) kind
+b) make
+c) select
+d) change
+View Answer
+
+Answer: a
+Explanation: Kind can be used for this purpose. It can often be used for the precision of reals. If you want to change the precision, it can easily be done using one line of code.
+1. COBOL stands for _________
+a) Common Business Oriented Language
+b) Common Business Object Language
+c) Common Beneficial Oriented Language
+d) Common Beneficial Object Language
+View Answer
+
+Answer: a
+Explanation: COBOL stands for Common Business Oriented Language. It is designed for business purpose. It is fast and relatively simple to learn.
+2. COBOL is a language that keeps evolving.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true. COBOL has billions of lines of existing code with more added each year. It thus keeps updating itself.
+3. Which of the following is not a part of the program division in COBOL?
+a) Identification
+b) Environment
+c) Procedure
+d) Compilation
+View Answer
+
+Answer: d
+Explanation: COBOL has 4 basic parts in the division section: Identification, Environment, data and procedure. Each program is organized like a book.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is not a part of the Identification division?
+a) Paragraphs
+b) Entries
+c) Phrases
+d) Clauses
+View Answer
+
+Answer: c
+Explanation: The order of identification division is:
+Paragraphs
+Entries
+Clauses.
+5. D in COBOL stands for _________
+a) Data
+b) Draft
+c) Debugger
+d) Debugging lines
+View Answer
+
+Answer: d
+Explanation: It stands for debugging lines. Compiler fills in with the sequence numbers. There are certain coding rules that must be followed in COBOL.
+Check this: Computer Fundamental Books | Information Technology MCQs
+6. Comment in COBOL is denoted by ________
+a) *
+b) /
+c) //
+d) ;
+View Answer
+
+Answer: a
+Explanation: Comment is denoted by asterisk. (*) It denotes the comment line. Hyphen – denotes continuation.
+7. The data division is used to ________
+a) Declare program id
+b) Declare variables
+c) File control
+d) Input-Output section
+View Answer
+
+Answer: b
+Explanation: The data division is used to declare and create variables and constant fields. There are 3 basic data types in COBOL.
+8. Which is not a data type in COBOL?
+a) numeric
+b) alphanumeric
+c) alphabetic
+d) float
+View Answer
+
+Answer: d
+Explanation: There is no data type called as float in COBOL. It has only 3 basic data types: numeric, alphabetic and alphanumeric. Variables are created in the data division.
+9. What does S denote in a picture clause?
+a) A symbol
+b) A character
+c) A sign
+d) Alphanumeric sign
+View Answer
+
+Answer: c
+Explanation: It denotes a sign in a picture clause. Picture clause values usually use 9, X, V, S, A.
+10. _____________ denotes the format in which data is stored in memory.
+a) kind
+b) attach
+c) select
+d) usage
+View Answer
+
+Answer: d
+Explanation: Usage denotes the format in which data is stored in the memory. Normally the phrase usage is omitted in COBOL.

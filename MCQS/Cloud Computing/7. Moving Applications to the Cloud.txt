@@ -1,0 +1,376 @@
+1. The properties necessary to guarantee a reliable transaction in databases and other applications is referred to as _____________
+a) BASE
+b) ACID
+c) ATOM
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties that guarantee that database transactions are processed reliably.
+2. Point out the wrong statement.
+a) In theory, any application can run either completely or partially in the cloud
+b) The location of an application or service plays a fundamental role in how the application must be written
+c) An application or process that runs on a desktop or server is executed coherently, as a unit, under the control of an integrated program
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: An action triggers a program call, code executes, and a result is returned and may be acted upon.
+3. Which of the following is property of ACID principle?
+a) Atomicity
+b) Consistency
+c) Isolation
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The ACID principle is used today by any application that is reading and writing to a stored data set.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following ACID property states that the system must go from one known state to another and that the system integrity must be maintained?
+a) Atomicity
+b) Consistency
+c) Isolation
+d) Durability
+View Answer
+
+Answer: b
+Explanation: The ACID rules were developed by Jim Gray to apply to database technology in the late 1970s.
+5. Point out the wrong statement.
+a) Taken as a unit, “Request => Process => Response” is not an atomic transaction
+b) A coherent transaction either succeeds and is enacted, or fails and is rolled back
+c) When rollback is not possible due to optimistic transaction commitment in a multiuser application, durability requires correcting the condition
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Taken as a unit, “Request => Process => Response” is an atomic transaction.
+Get Free Certificate of Merit in Cloud Computing Now!
+6. Which of the following component is required for both online and local data access in hybrid application?
+a) local
+b) cloud
+c) both local and cloud
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: If the application needed to access data only when the client was online, then access to cloud-based storage would be the only data store your application would required.
+7. Which of the following factors might offset the cost of offline access in hybrid applications?
+a) scalability
+b) costs
+c) ubiquitous access
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: These factors make the cloud more attractive.
+8. An application that needed _______ storage alone might not benefit from a cloud deployment at all.
+a) online
+b) offline
+c) virtual
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: You could safely conclude that an application that gets the most value from a cloud deployment is one that uses online storage without the need for offline storage.
+9. The __________ property states that the system must have a mechanism to recover from committed transactions should that be necessary.
+a) Atomicity
+b) Consistency
+c) Isolation
+d) Durability
+View Answer
+
+Answer: d
+Explanation: The isolation property states that the system cannot have other transactions operate on data that is currently being processed by a transaction.
+10. Which of the following property defines a transaction as something that cannot be subdivided and must be completed or abandoned as a unit?
+a) Atomicity
+b) Consistency
+c) Isolation
+d) Durability
+View Answer
+
+Answer: a
+Explanation: The isolation property states that the system cannot have other transactions operate on data that is currently being processed by a transaction.
+1. Which of the following is best suited for the analysis of an application’s suitability to be ported to the cloud?
+a) Service Attributes
+b) Cloud Attributes
+c) Application Attributes
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: To support the application’s data access, you may also be faced with building a synchronization or replication feature, which adds more overhead to the application.
+2. Point out the correct statement.
+a) An application that runs as a service on the Internet has a client portion that makes a request and a server portion that responds to that request
+b) In a distributed system, the transaction is stateful
+c) In order to create a stateless system in a distributed architecture, a transaction manager or broker must be added so that the intermediary service can account for transactions and react accordingly when they succeed or fail
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The request has been decoupled from the response because the transaction is executing in two or more places.
+3. Which of the following is the first level applicable attribute?
+a) Availability
+b) Monitoring
+c) Configuring
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Availability defines the proportion of time that the system is functional and working.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following is a second level attribute in relation to scalability?
+a) Fault management
+b) Caching
+c) Expertise
+d) Geographic location
+View Answer
+
+Answer: c
+Explanation: Scalability is the ability of a system, network, or process to handle a growing amount of work in a capable manner or its ability to be enlarged to accommodate that growth.
+5. Point out the wrong statement.
+a) When applications get moved to the cloud, they do not retain the features of a three-layered architecture
+b) Virtual machines are not only stateless
+c) Some applications can be successfully ported to the cloud, while others suffer from the translation
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: When applications get moved to the cloud, they retain the features of a three-layered architecture.
+Take Cloud Computing Tests Now!
+6. Which of the following is not a second level attribute in relation to Data Management?
+a) Data exchange
+b) Staging
+c) Index
+d) Portability
+View Answer
+
+Answer: b
+Explanation: Staging is second level attribute in relation to scalability.
+7. Which of the following criteria needs to be met so that key drivers benefit from deployment to the cloud?
+a) Are mission critical
+b) Do have sensitive data to protect
+c) Do need to be customized
+d) Are legacy applications with no particular competitive advantage
+View Answer
+
+Answer: d
+Explanation: Each cloud platform also has its own set of attributes that need to be mapped.
+8. APIs and Deployment are second level application attributes in accordance with ____________
+a) application
+b) costs
+c) maintenance
+d) user interface
+View Answer
+
+Answer: c
+Explanation: Deconstructing an application’s critical functionality is only half the process.
+9. Which of the attributes is required for the best user interface?
+a) User interaction
+b) Ease of use
+c) Interface features
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: An attribute map is created to expose critical functionality.
+10. Which of the following is not a second level application attribute?
+a) Reliability
+b) Resource access
+c) Uptime
+d) costs
+View Answer
+
+Answer: d
+Explanation: Cost is influenced by the development and resources attribute.
+1. Which of the following is a key cloud service attribute?
+a) Abstraction
+b) Infrastructure
+c) User Interface
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Each provider has a unique solution, uses its own APIs, and provides unique services.
+2. Point out the correct statement.
+a) The cloud turns physical systems into virtual systems
+b) The printing service decided to eliminate infrastructure and streamline the process
+c) The first stage in the redeployment is to eliminate the local processing associated with the scanning machines
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Organizations choose to deploy systems to the cloud entirely when they can recreate the essential part of their process and eliminate infrastructure.
+3. Which of the following is the first level cloud service attribute?
+a) Accounting
+b) Application support
+c) Core Services
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Accounting is second level attribute in accordance with Core services.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is a second level cloud attribute in relation to Platform Features?
+a) Development environment
+b) Programming language support
+c) Deployment technology
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Testing and application attribute is also considered second level cloud attribute for platform features.
+5. Point out the correct statement.
+a) Virtual machines are not provisioned to process the scans
+b) Virtual machines are only stateless
+c) Infrastructure, storage, and the queuing system all come together to eliminate a great deal of cost and operational complexity
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: This is a pure cloud play.
+Check this: Cloud Computing Books | Information Science MCQs
+6. Which of the following is not a second level cloud attribute in relation to Storage?
+a) Non-relational
+b) SQL support
+c) Replication
+d) Language and locale
+View Answer
+
+Answer: d
+Explanation: Language and locale attribute is a second level attribute in relation to platform feature.
+7. Which of the following scenario can be referred to as cloud bursting?
+a) Part of the application is on a local system, and part is in the cloud
+b) Complete part of the application is on local system
+c) Complete part of the application is on local system
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Each cloud platform also has its own set of attributes that need to be mapped.
+8. Which of the following is not a first level cloud service attribute?
+a) Applications
+b) Infrastructure
+c) Core Services
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: These are key features for any cloud application.
+9. An application that provides for transaction overflow in a reservation system is an example of ____________
+a) cloud servicing
+b) cloud bursting
+c) cloud provisioning
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Most systems built to perform cloud bursting have a simple underlying design.
+10. Which of the following is not a second level cloud attribute?
+a) Applications
+b) Infrastructure
+c) Database
+d) Storage
+View Answer
+
+Answer: c
+Explanation: Database is a second level cloud attribute for Application.
+1. Which of the following mechanisms are contained by Cloud API for accessing cloud services?
+a) Abstraction
+b) Authentication
+c) Replication
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The cloud API contains the authentication and authorization mechanisms needed to access cloud services.
+2. Point out the correct statement.
+a) The nature of a cloud provider’s Cloud API will impact the ability to move an application to the cloud
+b) Cloud APIs are the Application Programming Interface to functions that exchange information in and with the cloud
+c) Each cloud vendor has its own specific API
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The nature of a cloud provider also affects the way many of your application features operate.
+3. Which of the following is cross-platform API based on generalizing the major cloud vendors APIs?
+a) Deltacloud
+b) Simple Cloud API
+c) Design Cloud
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Efforts are underway to create more standardized cloud APIs.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Applications using managed cloud storage are __________ as a Service Web service.
+a) Infrastructure
+b) Platform
+c) Service
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: In an IaaS model, a third-party provider hosts hardware, software, servers, storage and other infrastructure components on behalf of its users.
+5. Point out the wrong statement.
+a) Some APIs are both exposed as SOAP and REST
+b) Most APIs are exposed as SOAP
+c) Few APIs are exposed as REST
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Each API provides specific calls required by that vendor’s infrastructure and service.
+Check this: Computer Science Books | MCA MCQs
+6. Which of the following presents the developer with their own APIs?
+a) VMWare vCloud
+b) Racksapce Cloud Servers
+c) RimuHosting
+d) Racksapce Cloud Servers
+View Answer
+
+Answer: d
+Explanation: Individual services such as Windows Azure SQL, Flickr, and Google Maps present a service cloud API.
+7. Which of the following storage is presented to a user as if it is a ready-to-use disk drive?
+a) Managed
+b) Unmanaged
+c) Unavailable
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The user has little control over the nature of how the disk is used.
+8. Which of the following cloud storage involves the provisioning of a raw virtualized disk?
+a) Managed
+b) Unmanaged
+c) Unavailable
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Cloud storage can be either unmanaged or managed.
+9. Which of the following storage option is available for managed storage?
+a) formatting
+b) partitioning
+c) replicating data
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Applications using unmanaged cloud storage are Software as a Service (SaaS) Web services.
+10. Which of the following cloud storage is consumed by file sharing software?
+a) Managed
+b) Unmanaged
+c) UnAvailable
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Most user-oriented software such as file-sharing and backup consume unmanaged cloud storage.

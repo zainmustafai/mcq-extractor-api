@@ -1,0 +1,474 @@
+1. Which of the following should be used considering factors shown in the figure?
+Find RDS from the given diagram
+a) SimpleDB
+b) RDS
+c) Amazon EC2
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Use RDS when you have an existing MySQL database that could be ported and you want to minimize the amount of infrastructure and administrative management required.
+2. Point out the wrong statement.
+a) Amazon Machine Instances are sized at various levels and rented on a computing/hour basis
+b) The metrics obtained by CloudWatch may be used to enable a feature called Auto Scaling
+c) A number of tools are used to support EC2 services
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Through hardware virtualization on Xen hypervisors, Amazon.com has made it possible to create private virtual servers that you can run worldwide.
+3. Which of the following is an edge-storage or content-delivery system that caches data in different physical locations?
+a) Amazon Relational Database Service
+b) Amazon SimpleDB
+c) Amazon Cloudfront
+d) Amazon Associates Web Services
+View Answer
+
+Answer: c
+Explanation: Cloudfront is similar to systems such as Akamai.com, but is proprietary to Amazon.com and is set up to work with Amazon Simple Storage
+System (Amazon S3).
+4. Which of the following allows you to create instances of the MySQL database to support your Web sites?
+a) Amazon Elastic Compute Cloud
+b) Amazon Simple Queue Service
+c) Amazon Relational Database Service
+d) Amazon Simple Storage System
+View Answer
+
+Answer: c
+Explanation: RDS provides features such as automated software patching, database backups, and automated database scaling via an API call.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+5. Point out the correct statement.
+a) Amazon Elastic Cloud is a system for creating virtual disks(volume)
+b) SimpleDB interoperates with both Amazon EC2 and Amazon S3
+c) EC3 is an Analytics as a Service provider
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Amazon SimpleDB stores data in “buckets” and without requiring the creation of a database schema.
+6. Which of the following is a structured data store that supports indexing and data queries to both EC2 and S3?
+a) CloudWatch
+b) Amazon SimpleDB
+c) Amazon Cloudfront
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: SimpleDB isn’t a full database implementation.
+Check this: MCA MCQs | Computer Science MCQs
+7. Which of the following is the machinery for interacting with Amazon’s vast product data and eCommerce catalog function?
+a) Amazon Elastic Compute Cloud
+b) Amazon Associates Web Services
+c) Alexa Web Information Service
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: This service, which was called Amazon E-Commerce Service (ECS), is the means for vendors to add their products to the Amazon.com site
+and take orders and payments.
+8. Which of the following is a billing and account management service?
+a) Amazon Elastic MapReduce
+b) Amazon Mechanical Turk
+c) Amazon DevPay
+d) Multi-Factor Authentication
+View Answer
+
+Answer: c
+Explanation: DevPay provides a developer API that eliminates the need for application developers to build order pipelines.
+9. Which of the following is a means for accessing human researchers or consultants to help solve problems on a contractual or temporary basis?
+a) Amazon Elastic MapReduce
+b) Amazon Mechanical Turk
+c) Amazon DevPay
+d) Multi-Factor Authentication
+View Answer
+
+Answer: b
+Explanation: Problems solved by this human workforce have included object identification, video or audio recording, data duplication, and data research.
+10. Which of the following is built on top of a Hadoop framework using the Elastic Compute Cloud?
+a) Amazon Elastic MapReduce
+b) Amazon Mechanical Turk
+c) Amazon DevPay
+d) Multi-Factor Authentication
+View Answer
+
+Answer: a
+Explanation: Amazon Elastic MapReduce is an interactive data analysis tool for performing indexing.
+1. Which of the following correctly describes components roughly in their order of importance from top to down?
+a) Find the central application from the given diagram
+b) Find the AWS portfolio from the given diagram
+c) Find the amazon elastic compute cloud from the given diagram
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Amazon Elastic Compute Cloud is the central application in the AWS portfolio.
+2. Point out the wrong statement.
+a) Virtual private servers can provision virtual private clouds connected through virtual private networks
+b) Amazon Web Services is based on SOA standards
+c) Starting in 2012, Amazon.com made its Web service platform available to developers on a usage-basis model
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Through hardware virtualization on Xen hypervisors, Amazon.com has made it possible to create private virtual servers that you can run worldwide.
+3. Which of the following is the central application in the AWS portfolio?
+a) Amazon Elastic Compute Cloud
+b) Amazon Simple Queue Service
+c) Amazon Simple Notification Service
+d) Amazon Simple Storage System
+View Answer
+
+Answer: a
+Explanation: Amazon Elastic Compute Cloud enables the creation, use, and management of virtual private servers running the Linux or Windows operating system over a Xen hypervisor.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following is a message queue or transaction system for distributed Internet-based applications?
+a) Amazon Elastic Compute Cloud
+b) Amazon Simple Queue Service
+c) Amazon Simple Notification Service
+d) Amazon Simple Storage System
+View Answer
+
+Answer: b
+Explanation: In a loosely coupled SOA system, a transaction manager is required to ensure that messages are not lost when a component isn’t available.
+5. Point out the correct statement.
+a) SQL Server is having enormous impact on cloud computing
+b) Amazon.com’s services represent the largest pure Infrastructure as a Service (IAAS)
+c) EC2 is a Platform as a Service (PaaS) market
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: EC2 is estimated to run on over 40,000+ servers worldwide divided into six availability zones.
+Take Cloud Computing Tests Now!
+6. Which of the following is a system for creating block level storage devices that can be used for Amazon Machine Instances in EC2?
+a) CloudWatch
+b) Amazon Elastic Block Store
+c) AWS Import/Export
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The Load Balancing feature can detect when an instance is failing and reroute traffic to a healthy instance, even an instance in other AWS zones.
+7. Which of the following feature is used for scaling of EC2 sites?
+a) Auto Replica
+b) Auto Scaling
+c) Auto Ruling
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Autoscaling is part of Amazon Cloudwatch and available at no additional charge.
+8. Which of the following is a Web service that can publish messages from an application and deliver them to other applications or to subscribers?
+a) Amazon Elastic Compute Cloud
+b) Amazon Simple Queue Service
+c) Amazon Simple Notification Service
+d) Amazon Simple Storage System
+View Answer
+
+Answer: c
+Explanation: SNS provides a method for triggering actions, allowing clients or applications to subscribe to information (like RSS), or polling for new or changed information or perform updates.
+9. Which of the following metrics are used to support Elastic Load Balancing?
+a) CloudWatch
+b) Amazon Elastic Block Store
+c) AWS Import/Export
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Amazon Machine Instances (AMIs) in EC2 can be load balanced using the Elastic Load Balancing.
+10. Which of the following is an online backup and storage system?
+a) Amazon Elastic Compute Cloud
+b) Amazon Simple Queue Service
+c) Amazon Simple Notification Service
+d) Amazon Simple Storage System
+View Answer
+
+Answer: d
+Explanation: A high speed data transfer feature called AWS Import/Export can transfer data to and from AWS using Amazon’s own internal network to portable storage devices.
+1. Which of the following is a method for bidding on unused EC2 capacity based on the current spot price?
+a) On-Demand Instance
+b) Reserved Instances
+c) Spot Instance
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: This feature offers a significantly lower price, but it varies over time or may not be available when there is no excess capacity.
+2. Point out the wrong statement.
+a) The standard instances are not suitable for standard server applications
+b) High memory instances are useful for large data throughput applications such as SQL Server databases and data caching and retrieval
+c) FPS is exposed as an API that sorts transactions into packages called Quick Starts that makes it easy to implement
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The standard instances are deemed to be suitable for standard server applications.
+3. Which of the following instance has an hourly rate with no long-term commitment?
+a) On-Demand Instance
+b) Reserved Instances
+c) Spot Instance
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Pricing varies by zone, instance, and pricing model.
+4. Which of the following is a batch processing application?
+a) IBM sMash
+b) IBM WebSphere Application Server
+c) Condor
+d) Windows Media Server
+View Answer
+
+Answer: c
+Explanation: Condor is a powerful, distributed batch-processing system that lets you use otherwise idle CPU cycles in a cluster of workstations.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+5. Point out the correct statement.
+a) Security can be set through passwords, Kerberos tickets, or certificates
+b) Secure access to your EC2 AMIs is controlled by passwords, Kerberos, and 509 Certificates
+c) Most of the system image templates that Amazon AWS offers are based on Red Hat Linux
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Hundreds of free and paid AMIs can be found on AWS.
+6. How many EC2 service zones or regions exist?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: d
+Explanation: There are four different EC2 service zones or regions.
+Become Top Ranker in Cloud Computing Now!
+7. Amazon ______ cloud-based storage system allows you to store data objects ranging in size from 1 byte up to 5GB.
+a) S1
+b) S2
+c) S3
+d) S4
+View Answer
+
+Answer: c
+Explanation: In S3, storage containers are referred to as buckets.
+8. Which of the following can be done with S3 buckets through the SOAP and REST APIs?
+a) Upload new objects to a bucket and download them
+b) Create, edit, or delete existing buckets
+c) Specify where a bucket should be stored
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The REST API is preferred to the SOAP API because it is easier to work with large binary objects with REST.
+9. Which of the following operation retrieves the newest version of the object?
+a) PUT
+b) GET
+c) POST
+d) COPY
+View Answer
+
+Answer: b
+Explanation: Versioning also can be used for preserving data and for archiving purposes.
+10. Which of the following statement is wrong about Amazon S3?
+a) Amazon S3 is highly reliable
+b) Amazon S3 provides large quantities of reliable storage that is highly protected
+c) Amazon S3 is highly available
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: S3 excels in applications where storage is archival in nature.
+1. Which of the following service creates an application hosting environment?
+a) EBS
+b) Azure AppFabric
+c) ESW
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: AppFabric is a cloud-enabled version of the .NET Framework.
+2. Point out the wrong statement.
+a) Microsoft’s approach is to view cloud applications as software plus service
+b) Microsoft calls their cloud operating system the Windows Platform
+c) Azure is a combination of virtualized infrastructure to which the .NET Framework has been added as a set of .NET Services
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: In SaaS model, the cloud is another platform and applications can run locally and access cloud services or run entirely in the cloud and be accessed by browsers using standard Service Oriented Architecture (SOA) protocols.
+3. Which of the following is also known as Compute?
+a) set of virtual machine instances
+b) set of replicas
+c) set of commodity servers
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: Azure and its related services were built to allow developers to extend their applications into the cloud.
+4. Database marketplace based on SQL Azure Database is code-named ________
+a) Akamai
+b) Dallas
+c) Denali
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Azure is a virtualized infrastructure to which a set of additional enterprise services has been layered on top.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+5. Point out the correct statement.
+a) The Windows Azure service itself is a hosted environment of virtual machines enabled by a fabric called Windows Azure ApplicationFab
+b) Windows Azure service is a Compliance as a Service offering
+c) Windows Live Services is a collection of applications and services that run on the Web
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Some of these applications called Windows Live Essentials are add-ons to Windows and downloadable as applications.
+6. ________ Live Services can be used in applications that run in the Azure cloud.
+a) Microsoft
+b) Windows
+c) Yahoo
+d) Ruby
+View Answer
+
+Answer: b
+Explanation: Windows Live Services is a collection of services that runs on Windows Live.
+Check this: Computer Science MCQs | Computer Science Books
+7. Which of the following is based on Microsoft Dynamics?
+a) Static CRM
+b) Social CRM
+c) Dynamics CRM
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Dynamics CRM is an xRM (Anything Relations Management) service.
+8. Which of the following is based on Microsoft Sharepoint?
+a) Sharepoint Services
+b) .NET Services
+c) Windows Services
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: A document and collaboration service based on SharePoint is called SharePoint Service.
+9. Azure is Microsoft’s ___________ as a Service Web hosting service.
+a) Platform
+b) Software
+c) Infrastructure
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Windows Azure Platform is a competitor to Google’s App Engine.
+10. Which of the following is a pure infrastructure play?
+a) Azure
+b) Google App Engine
+c) AWS
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Microsoft has a very different vision for cloud services than either Amazon or Google does.
+1. Which of the following standard does Azure use?
+a) REST
+b) XML
+c) HTML
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The Azure Windows Services Platform API uses the industry standard REST, HTTP, and XML protocols that are part of any Service Oriented Architecture cloud infrastructure to allow applications to talk to Azure.
+2. Point out the wrong statement.
+a) An Amazon Machine Image can be provisioned with an operating system, an enterprise application, or application stack
+b) AWS is a deployment enabler
+c) Google Apps lets you create a scalable cloud-based application
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Google application can only work within the Google infrastructure, and the application is not easily ported to other environments.
+3. What does IPsec in the Azure platform refer to?
+a) Internet Protocol Security protocol suite
+b) Internet Standard
+c) Commodity servers
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: IPsec refers to the Internet Protocol Security protocol suite for creating a secure Internet connection between two endpoints.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following web applications can be deployed with Azure?
+a) ASP.NET
+b) PHP
+c) WCF
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Microsoft also has released SDKs for both Java and Ruby to allow applications written in those languages to place calls to the Azure Service Platform API to the AppFabric Service.
+5. Point out the correct statement.
+a) The Windows Azure service it The Windows Azure Platform allows a developer to modify his application so it can run in the cloud on virtual machines hosted in Microsoft datacenters
+b) Windows Azure serves as a cloud operating system
+c) With Azure’s architecture, an application can run locally, run in the cloud, or some combination of both
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Applications on Azure can be run as applications, as background processes or services, or as both.
+Check this: Computer Science Books | Computer Science MCQs
+6. A _________ role is a virtual machine instance running the Microsoft IIS Web server that can accept and respond to HTTP or HTTPS requests.
+a) Web
+b) Server
+c) Worker
+d) Client
+View Answer
+
+Answer: a
+Explanation: Worker roles can communicate with Azure Storage or through direct connections to clients.
+7. Which of the following element allows you to create and manage virtual machines that serve either in a Web role and a Worker role?
+a) Compute
+b) Application
+c) Storage
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Compute is the load-balanced Windows server computation and policy engine.
+8. Which of the following element is a non-relational storage system for large-scale storage?
+a) Compute
+b) Application
+c) Storage
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Azure Storage Service lets you create drives, manage queues, and store BLOBs.
+9. Azure Storage plays the same role in Azure that ______ plays in Amazon Web Services.
+a) S3
+b) EC2
+c) EC3
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: For relational database services, SQL Azure may be used.
+10. Which of the following element in Azure stands for management service?
+a) config
+b) application
+c) virtual machines
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Virtual machines are instances of Windows that run the applications and services that are part of a particular deployment.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------

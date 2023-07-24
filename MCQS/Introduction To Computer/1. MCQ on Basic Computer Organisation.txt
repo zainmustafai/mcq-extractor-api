@@ -1,0 +1,490 @@
+1. Which unit is responsible for converting the data received from the user into a computer understandable format?
+a) Memory Unit
+b) Arithmetic & Logic Unit
+c) Input Unit
+d) Output Unit
+View Answer
+
+Answer: c
+Explanation: The Input Unit converts the data, which the user enters into a language which the computer understands, i.e. it converts the data into binary format. The Output Unit is responsible for giving the results in user-understandable format. The Storage Unit is responsible for storing the data after immediate results of processing whereas; the ALU is responsible for various arithmetic and bitwise operations.
+2. The only language which the computer understands is ______________
+a) Assembly Language
+b) Binary Language
+c) BASIC
+d) C Language
+View Answer
+
+Answer: b
+Explanation: The Computer understands only binary language which is written in the form of 0s & 1s. A computer can understand assembly language but an assembler is required which converts the assembly language to binary language. Similarly, for understanding high level languages, compilers/interpreters are required.
+3. The smallest unit of data in computer is ________________
+a) Byte
+b) Nibble
+c) Bit
+d) KB
+View Answer
+
+Answer: c
+Explanation: A bit is defined as the smallest unit of data in a computer system. It is used as a short form of Binary Digit. A bit can have only two values 0 or 1. A nibble comprises of 4 bits, a byte is a collection of 8 bits whereas KB (Kilobyte) is equal to 1024 bytes.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. One nibble is equivalent to how many bits?
+a) 2
+b) 4
+c) 8
+d) 1
+View Answer
+
+Answer: b
+Explanation: A nibble is defined as a unit of data which comprises of 4 binary digits or half of 8-bit byte. Therefore, 1 nibble = 4 bits. A bit is the smallest unit of data in a computer system. A byte = 8 bits, therefore, half of a byte=4 bits=a nibble.
+5. Which of the following describes the correct format of an input instruction?
+a) IN 82
+b) INPUT 82
+c) INP 82
+d) 82 INP
+View Answer
+
+Answer: a
+Explanation: The input/output instructions are used to transfer information between external peripherals and the CPU. The correct format of an input instruction is: IN 8-bit port address.
+Here, IN 82 is the correct option, where 82 is the designated port address. All the other options are invalid.
+Take Computer Fundamentals Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. The input machine which originated in the United States around 1880s is a ___________
+a) Mouse
+b) Joystick
+c) Keyboard
+d) Bar Code Reader
+View Answer
+
+Answer: c
+Explanation: A keyboard is an input device which originated in the 1880s and is used to give instructions to the computer in the form of letters and numbers. Mouse is used for the selection of various objects on the screen, joystick is mainly used for gaming purpose and bar code readers are used for reading the bar-codes.
+7. What does the COMPUTER stand for?
+a) Commonly Operated Machines Used in Technical and Educational Research
+b) Commonly Occupied Machines Used in Technical and Educational Research
+c) Commonly Operated Machines Used in Technical and Environmental Research
+d) Commonly Oriented Machines Used in Technical and Educational Research
+View Answer
+
+Answer: a
+Explanation: The word COMPUTER is an abbreviation for the terms “Commonly Operated Machines Used in Technical and Educational Research”. The word COMPUTER also relates to the word COMPUTE which means to calculate. So, initially it was thought that a computer is a device which is used to perform calculations.
+8. 1 yottabyte = ______________
+a) 1024 TB
+b) 1024 EB
+c) 1024 ZB
+d) 1024 PB
+View Answer
+
+Answer: c
+Explanation: 1 yottabyte is equal to 1024 ZB, which stands for zettabyte. Further, 1 ZB=1024 EB (exabyte) and and 1 EB=1024PB (petabyte).
+9. Which of the following is not a function of the Input Unit?
+a) It reads instructions and data from the outside world
+b) It converts the data into computer acceptable format
+c) It makes the data into user understandable format
+d) It supplies the data and instructions to the computer for further processing
+View Answer
+
+Answer: c
+Explanation: The input unit converts the data into computer understandable format i.e. binary format and not the user understandable format. It is the duty of the output unit to make the data into user understandable format.
+10. Label the parts 1 and 2:
+computer-fundamentals-questions-answers-input-unit-q10
+a) 1.ALU 2. MU
+b) 1.Output unit 2.Input Unit
+c) 1.MU 2. ALU
+d) 1.Input Unit 2.Output Unit
+View Answer
+
+Answer: d
+Explanation: The above diagram is a simple explanation which describes how the instruction is given to the CPU, how it is processed, and then how the result is obtained.
+So here, the input unit is used to give instructions to the central processing unit and the output unit is responsible for giving the result to the user.
+1. The process of producing useful information for the user is called ___________
+a) Controlling
+b) Outputting
+c) Inputting
+d) Processing
+View Answer
+
+Answer: b
+Explanation: The Output Unit is responsible for giving the results to the user in the form of a printed report or visual display. The process is referred to as outputting. Controlling is nothing but the manner and sequence in which the instructions are being operated. Inputting means giving instructions to the system whereas, processing means performing certain operations and calculations.
+2. The output unit converts the data entered by the user into computer understandable form.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The Output unit is responsible for converting the computer obtained data into user understandable format. The Input Unit is responsible for converting the data in computer understandable format.
+3. VDU stands for __________
+a) Virtual Display Unit
+b) Visual Display Unit
+c) Virtual Detection Unit
+d) Visual Detection Unit
+View Answer
+
+Answer: b
+Explanation: A Visual Display unit is also referred to as the monitor who basically is used to give the results or outputs to the user. It comprises of a cathode ray tube internally.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. What does SVGA stand for?
+a) Standard Visual Graphics Array
+b) Super Visual Graphics Array
+c) Standard Video Graphics Array
+d) Super Video Graphics Array
+View Answer
+
+Answer: d
+Explanation: Super Video Graphics Array is a type of Visual Display Unit.It supports 1024 by 768 pixels with 16 million different operations.
+5. The devices that used to give single or multiple colored images and drawings are ____________
+a) Monitors
+b) Printers
+c) Plotters
+d) VDUs
+View Answer
+
+Answer: c
+Explanation: Plotters are the devices which are used to give colored images. They use ink pens or ink jets for drawing. Pens of different colors and shades are used for shading and styling.
+Become Top Ranker in Computer Fundamentals Now!
+6. A special request originated from some device to the CPU to acquire some of its time is called ___________
+a) Disturbance
+b) Attenuation
+c) Interrupt
+d) Noise
+View Answer
+
+Answer: c
+Explanation: An interrupt is a kind of request which takes control of the system bus for some time, then performs all the operations and gives back control to the CPU. It is usually identified by some number and is handled by the interrupt controller.
+7. Line Printers that print one line at a time are _________
+a) Laser Printers
+b) Inkjet Printers
+c) Drum Printers
+d) Chain Printers
+View Answer
+
+Answer: c
+Explanation: The drum printers have a solid cylindrical drum with characters embossed on its surface in the form of circular bands. It can only print a predefined set of characters.
+8. A ___________________ monitor looks like a television and are normally used with non-portable computer systems.
+a) CRT
+b) LCD
+c) LED
+d) Flat Panel Monitors
+View Answer
+
+Answer: a
+Explanation: A CRT (or the Cathode Ray Tube) Monitor looks like a television ideally. The flat panel monitors are thinner and lighter in comparison.
+9. Which of the following is not a function of the Output Unit?
+a) It produces results that can be easily understood by the user
+b) It accepts the results produced by the computer
+c) It supplies the data and instructions to the outside world
+d) It supplies the data and instructions to the computer for further processing
+View Answer
+
+Answer: d
+Explanation: The output unit is responsible for giving the results to the user in the form of a printed report or visual display. It is not responsible for giving the instructions back to the CPU for processing.
+10. PCI stands for _________
+a) Peripheral Component Interconnect
+b) Partial Component Interconnect
+c) Peripheral Component Interaction
+d) Partial Component Interaction
+View Answer
+
+Answer: a
+Explanation: PCI is a high-bandwidth bus that can function as a peripheral bus. Compared with others, it delivers better system performance.
+1. Components that provide internal storage to the CPU are ______
+a) Registers
+b) Program Counters
+c) Controllers
+d) Internal chips
+View Answer
+
+Answer: a
+Explanation: The Registers are the fast storage units. They are responsible for storing intermediate computational results in the CPU. The registers can be user accessible or inaccessible.
+2. Saving data and instructions to make them readily available is the job of __________
+a) Storage Unit
+b) Cache Unit
+c) Input Unit
+d) Output Unit
+View Answer
+
+Answer: a
+Explanation: The storage unit is responsible for storing the data. It makes the instructions readily available for additional or initial processing whenever required. The cache is a software component that stores data to serve the data requests in future. It can contain the result of some earlier computations.
+3. The two basic types of memory in a computer are ________
+computer-fundamentals-questions-answers-arithmetic-logic-unit-q3
+a) Primary and major
+b) Primary and Secondary
+c) Minor and Major
+d) Main and virtual
+View Answer
+
+Answer: b
+Explanation: There are two types of memories in a computer system: The Primary Memory and the Secondary Memory.
+The primary memory can be directly accessed by the CPU whereas the secondary memory cannot be directly accessed.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is used to hold running program instructions?
+a) Primary Storage
+b) Virtual Storage
+c) Internal Storage
+d) Minor Devices
+View Answer
+
+Answer: a
+Explanation: The primary storage is responsible for holding the data, intermediate results and the results of ongoing processes or jobs. Virtual storage is the main memory storage required for saving a large amount of data for future reference. The other options are invalid.
+5. Which of the following is non-volatile storage?
+a) Backup
+b) Secondary
+c) Primary
+d) Cache
+View Answer
+
+Answer: b
+Explanation: The secondary storage is the non-volatile storage unit because the data is not lost when the power supply is dissipated. Primary memory is the volatile memory.
+Check this: Computer Science MCQs | BCA MCQs
+6. Which of the following is used in main memory?
+a) SRAM
+b) DRAM
+c) PRAM
+d) DDR
+View Answer
+
+Answer: b
+Explanation: DRAM stands for dynamic random access memory. It is denser than SDRAM (Static) and therefore it is used in the main memory. They are in the form of semiconductor RAMs.
+7. Which of the following are types of ROMs?
+a) SROM & DROM
+b) PROM & EPROM
+c) Only one type there is no further classification
+d) PROM & EROM
+View Answer
+
+Answer: b
+Explanation: There are four types of Read Only Memories: MROM, PROM, EPROM, and EEPROM.
+MROM stands for Mask ROM
+PROM stands for Programmable ROM
+EPROM stands for Erasable Programmable ROM
+EEPROM stands for Electrically Erasable Programmable ROM
+When only a small number of ROMs with a particular memory content is needed, PROM is used and in case of EPROM, all the contents of the storage cells must be erased before the write operation.
+
+8. RAID stands for __________
+a) Redundant array of independent disks
+b) Redundant array of individual disks
+c) Reusable Array of independent disks
+d) Reusable array of individual disks
+View Answer
+
+Answer: a
+Explanation: RAID is a multiple-disk database design which is viewed as a single logical disk by the operating system. Data are distributed across the physical drives of the array. It guarantees the recovery of data in case of data failure.
+9. A non-erasable disk that stores digitized audio information is _____
+a) CD
+b) CD-ROM
+c) DVD-R
+d) DVD-RW
+View Answer
+
+Answer: a
+Explanation: A compact disk stores digitized audio information. The standard system uses 12 cm disks and can record more than 60 minutes of uninterrupted playing game.
+10. The first practical form of Random Access Memory was the __________
+a) SSEM
+b) Cathode Ray Tube
+c) William’s Tube
+d) Thomas’s Tube
+View Answer
+
+Answer: c
+Explanation: The first practical form of RAM was William’s Tube made in 1947. It stored data as electrically charged spots on the face of a Cathode Ray Tube.
+1. The ‘heart’ of the processor which performs many different operations _____________
+a) Arithmetic and logic unit
+b) Motherboard
+c) Control Unit
+d) Memory
+View Answer
+
+Answer: a
+Explanation: The Arithmetic and logic unit performs all the basic operations of the computer system. It performs all the arithmetic(+,-,*,/,etc) as well as the logical operations( AND, OR, NOT, etc.).
+2. ALU is the place where the actual executions of instructions take place during the processing operation.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: ALU is a combinational electronic circuit which basically performs all the logical or the bitwise operations and the arithmetic operations. Therefore, it is the place where the actual executions of instructions take place.
+3. Which of the following is not a bitwise operator?
+a) |
+b) ^
+c) .
+d) <<
+View Answer
+
+Answer: c
+Explanation: All except the dot(.) operator are bitwise operators.
+| : Bitwise OR
+^ : Bitwise XOR
+<< : Shift Left
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The sign magnitude representation of -1 is __________
+a) 0001
+b) 1110
+c) 1000
+d) 1001
+View Answer
+
+Answer: d
+Explanation: The first leftmost bit i.e. the most significant bit in the sign magnitude represents if the number is positive or negative. If the MSB is 1, the number is negative else if it is 0, the number is positive. Here, +1=0001 and for -1=1001.
+5. IEEE stands for ___________
+a) Instantaneous Electrical Engineering
+b) Institute of Emerging Electrical Engineers
+c) Institute of Emerging Electronic Engineers
+d) Institute of Electrical and electronics engineers
+View Answer
+
+Answer: d
+Explanation: The IEEE is an organization of professionals in the field of electronics and electrical engineering. IEEE has given certain standards of its own which are followed in the field of computer science and electrical engineering.
+Check this: BCA Books | Computer Science MCQs
+6. The ALU gives the output of the operations and the output is stored in the ________
+a) Memory Devices
+b) Registers
+c) Flags
+d) Output Unit
+View Answer
+
+Answer: b
+Explanation: Any output generated by the ALU gets stored in the registers. The registers are the temporary memory locations within the processor that are connected by signal paths to the CPU.
+7. The process of division on memory spaces is called ______________
+a) Paging
+b) Segmentation
+c) Bifurcation
+d) Dynamic Division
+View Answer
+
+Answer: b
+Explanation: The memory space is divided into segments of dynamic size. The programmer is aware of the segmentation and can reallocate the segments accordingly.
+8. Number of bits in ALU is _________
+a) 4
+b) 8
+c) 16
+d) 2
+View Answer
+
+Answer: c
+Explanation: Arithmetic and Logic Unit consists of 16bits. They perform certain Arithmetic and bitwise operations (add, subtract, AND, OR, XOR, Increment, decrement, shift).
+9. Which flag indicates the number of 1 bit that results from an operation?
+a) Zero
+b) Parity
+c) Auxiliary
+d) Carry
+View Answer
+
+Answer: b
+Explanation: The parity flag indicates the number of 1 bit in any operation. The resultant bit is called the parity bit. The main aim of the parity bit is to check for errors.
+10. The bitwise complement of 0 is ___________
+a) 00000001
+b) 10000000
+c) 11111111
+d) 11111110
+View Answer
+
+Answer: c
+Explanation: Bitwise complement is basically used to convert all the 0 digits to 1 and the 1s to 0s.
+So, for 0 = 00000000(in 8-bits) ::: 11111111(1s complement). The bitwise complement is often referred to as the 1s complement.
+1. ____________ is the raw material used as input and __________ is the processed data obtained as output of data processing.
+a) Data, Instructions
+b) Instructions, Program
+c) Data, Program
+d) Program, Code
+View Answer
+
+Answer: a
+Explanation: Data can be assumed as a raw material which, in turns after processing gives the desired output in the form of instructions. Further, a set of ordered and meaningful instructions is known as a program.
+2. Which of the following is not a characteristic of a computer?
+a) Diligence
+b) I.Q.
+c) Accuracy
+d) Versatility
+View Answer
+
+Answer: b
+Explanation: The Computer system has no I.Q. of its own. It does only what it is programmed to do. It cannot take decisions of its own.
+A computer is diligent because it can work continuously for hours without getting any errors or without getting grumbled.
+The accuracy of a computer is consistently high and its level of accuracy depends on its design. A computer can perform any task if, it can be broken down into a series of logical steps. Therefore, a computer is versatile.
+3. Fill in the blank in the diagram.
+computer-fundamentals-questions-answers-control-unit-q3
+a) Input Unit
+b) Memory Unit
+c) Control Unit
+d) I/O Unit
+View Answer
+
+Answer: c
+Explanation: The control unit manages and coordinates the operations of a computer system. The ALU is responsible for performing all the arithmetic and bitwise operations . Therefore, both these units combine to form the brain of the computer ,which is the central processing unit.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The part of a processor which contains hardware necessary to perform all the operations required by a computer:
+a) Data path
+b) Controller
+c) Registers
+d) Cache
+View Answer
+
+Answer: a
+Explanation: A processor is a part of the computer which does all the data manipulation and decision making. A processor comprises of:
+A data path which contains the hardware necessary to perform all the operations. A controller tells the data path what needs to be done.
+The registers act as intermediate storage for the data.
+5. What does MAR stand for?
+a) Main Address Register
+b) Memory Access Register
+c) Main Accessible Register
+d) Memory Address Register
+View Answer
+
+Answer: d
+Explanation: MAR is a type of register which is responsible for the fetch operation. MAR is connected to the address bus and it specifies the address for the read and write operations.
+Participate in Computer Fundamentals Certification Contest of the Month Now!
+6. If the control signals are generated by combinational logic, then they are generated by a type of _______________ controlled unit.
+a) Micro programmed
+b) Software
+c) Logic
+d) Hardwired
+View Answer
+
+Answer: d
+Explanation: The main task of a control unit is to generate control signals. There are two main types of control units:
+A hardwired control unit generates control signals by using combinational logic circuits and the Micro programmed control unit generates control signals by using some softwares.
+7. Which is the simplest method of implementing hardwired control unit?
+a) State Table Method
+b) Delay Element Method
+c) Sequence Counter Method
+d) Using Circuits
+View Answer
+
+Answer: a
+Explanation: There are 3 ways of implementing hardwired control unit:
+A state table is the simplest method in which a number of circuits are designed based on the cells in the table.
+A delay element method consists of a flowchart drawn for the circuit. A D-flip flop is used as a delay element.
+A sequence counter method used k-modulo counter as a replacement for k delay elements.
+8. A set of microinstructions for a single machine instruction is called ___________
+a) Program
+b) Command
+c) Micro program
+d) Micro command
+View Answer
+
+Answer: c
+Explanation: For every micro-operation, a set of microinstructions are written which indicate the control signals to be activated. A set of microinstructions is a micro program. The address of the next microinstruction is given by a Micro-program counter.
+9. Micro-program consists of a set of microinstructions which are strings of 0s and 1s.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The computer understands only binary language. So, the micro-program should have instructions which are in the form of 0s and 1s. Each output line of the micro-program corresponds to one control signal.
+10. A decoder is required in case of a ______________
+a) Vertical Microinstruction
+b) Horizontal Microinstruction
+c) Multilevel Microinstruction
+d) All types of microinstructions
+View Answer
+
+Answer: a
+Explanation: There are two types of microinstructions: Horizontal and Vertical.
+In a horizontal microinstruction, each bit represents a signal to be activated whereas, in case of vertical microinstruction bits are decoded and, the decoder then produces signals.

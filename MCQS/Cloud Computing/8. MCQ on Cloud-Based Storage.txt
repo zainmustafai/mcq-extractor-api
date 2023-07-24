@@ -1,0 +1,470 @@
+1. Which of the following is storage data interchange interface for stored data objects?
+a) OCC
+b) OCCI
+c) OCMI
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: OCCI stands for Open Cloud Computing Interface.
+2. Point out the correct statement.
+a) To determine whether your application will port successfully, you should perform a functionality mapping exercise
+b) Cloud computing supports some application features better than others
+c) Cloud bursting is an overflow solution that clones the application to the cloud and directs traffic to the cloud during times of high traffic
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Mapping process involves determining the critical application features and then matching them to the cloud provider’s offering to see if those features can be supported.
+3. ________ data represents more than 50 percent of the data created every day.
+a) Shadow
+b) Light
+c) Dark
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Lots of shadow data does get retained, having never been touched by a human being.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Cloud storage data usage in the year 2020 is estimated to be _____________ percent resident by IDC.
+a) 10
+b) 15
+c) 20
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: There will be a steady growth of cloud storage at the expense of online storage over the next decade.
+5. Point out the wrong statement.
+a) Some APIs are both exposed as SOAP and REST
+b) The role of a cloud vendor specific API has impact on porting an application
+c) There are mainly three types of cloud storage
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Cloud storage can be either unmanaged or managed.
+Participate in Cloud Computing Certification Contest of the Month Now!
+6. Which of the following system does not provision storage to most users?
+a) PaaS
+b) IaaS
+c) CaaS
+d) SaaS
+View Answer
+
+Answer: b
+Explanation: Cloud storage is storage accessed by a Web service API.
+7. The addition of a software package on top of a cloud storage volume makes most cloud storage offerings conform to a ________ as a Service model.
+a) Software
+b) Platform
+c) Analytics
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Most users interact with cloud storage using backup, synchronization, archiving, staging, caching, or some other sort of software.
+8. How many categories of storage devices broadly exist in cloud?
+a) 1
+b) 2
+c) 3
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Storage devices may be broadly categorized as either block storage devices or file storage devices.
+9. Which of the following storage devices exposes its storage to clients as Raw storage that can be partitioned to create volumes?
+a) block
+b) file
+c) disk
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: It is up to the operating system to create and manage the file system.
+10. Which of the following impose additional overhead on clients and offer faster transfer?
+a) Block storage
+b) File Storage
+c) File Server
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: File-oriented storage devices are generally slower, but require less overhead from attached clients.
+1. Which of the following cloud storage is mainly meant for developers and to support applications built using Web services?
+a) Managed
+b) Unmanaged
+c) Disk
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Managed cloud storage is provisioned and provided as a raw disk.
+2. Point out the correct statement.
+a) Cloud storage may be broadly categorized into four major classes of storage
+b) In unmanaged storage, the storage service provider makes storage capacity available to users
+c) In managed storage, the storage service provider makes storage capacity available to users
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Unmanaged storage defines the nature of the storage, how it may be used, and by what applications.
+3. Which of the following is the form of unmanaged cloud storage?
+a) XDrive
+b) OmniDrive
+c) iDrive
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: It is unmanaged storage in the sense that the storage is preconfigured for you, you can’t format as you like.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following is an example of an unmanaged storage utility set up to do automated backups?
+a) XDrive
+b) OmniDrive
+c) FreeDrive
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: FreeDrive provides web-based applications that allow internet users to store, retrieve, and share data on the internet.
+5. Point out the wrong statement.
+a) Unmanaged storage is reliable
+b) Managed storage is relatively cheap to use
+c) Most of the user-based applications that work with cloud storage are of unmanaged type
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Unmanaged storage is relatively cheap to use.
+Get Free Certificate of Merit in Cloud Computing Now!
+6. Which of the following factors led to the demise of many of the early SSPs and to many hosted file services?
+a) The Dot.com bust in 2000
+b) The inability of file-hosting companies to successfully monetize online storage
+c) The continued commoditization of large disk drives
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: SSP stands for Storage Service Provider.
+7. Which of the following is the simplest unmanaged cloud storage device?
+a) file transfer utility
+b) antivirus utility
+c) online image utility
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: File transfer services may be shared by other users you allow, and the files that are uploaded may be discoverable for some services.
+8. The service FreeDrive is storage that allows ________ users to view the content of others.
+a) Facebook
+b) Twitter
+c) Whatsapp
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: FreeDrive is a personal storage and file sharing service designed for users of social networks, such as Facebook, MySpace and Bebo.
+9. Which of the following file transfer utility creates a shared folder metaphor using a Web service?
+a) Dropbox
+b) Skype
+c) Drive
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Dropbox is a service that keeps your files safe, synced, and easy to share.
+10. Which of the following offers Storage size of 10GB free t0 100 GB paid?
+a) Adrive
+b) 4shared
+c) Badongo
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: As unmanaged storage offerings progressed in sophistication, they began to offer value-added software services such as folder synchronization and backup.
+1. Which of the following feature make cloud-based storage systems highly reliable?
+a) Redundant networks
+b) Redundant name servers
+c) Replication
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Failover can involve a system simply changing the pointers to the stored object’s location.
+2. Point out the correct statement.
+a) With Atmos, you can create your own cloud storage system or leverage a public cloud service with Atmos online
+b) IBM is a major player in cloud computing particularly for businesses
+c) In managed storage, the storage service provider makes storage capacity available to users
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: User pays for the storage using a pay-as-you-go model in managed cloud storage.
+3. Redundancy has to be implemented at the _________ architectural level for effective results in cloud computing.
+a) lower
+b) higher
+c) middle
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: ADrive provides online cloud storage and backup solutions for personal, business and enterprise-level data.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following can manage data from CIFS and NFS file systems over HTTP networks?
+a) StorageGRID
+b) DataGRID
+c) DiskGRID
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: StorageGRID can enforce policies and create a tiered storage system.
+5. Point out the wrong statement.
+a) AWS S3 essentially lets you create your own cloud storage
+b) AWS created “Availability Zones” within regions, which are sets of systems that are isolated from one another
+c) Amazon Web Services (AWS) adds redundancy to its IaaS systems by allowing EC2 virtual machine instances
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: In theory, instances in different availability zones shouldn’t fail at the same time.
+Check this: Computer Science MCQs | Information Science MCQs
+6. A ________ is a logical unit that serves as the target for storage operations, such as the SCSI protocol READs and WRITEs.
+a) GETs
+b) PUN
+c) LUN
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: In traditional pooled storage deployments, storage partitions can be assigned and provide a device label called a Logical Unit Number.
+7. Which of the following use LUNs to define a storage volume that appears to a connected computer as a device?
+a) SAN
+b) iSCSI
+c) Fibre Channel
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Unused LUNs are the equivalent of a raw disk from which one or more volumes may be created.
+8. Which of the following protocol is used for discovering and retrieving objects from a cloud?
+a) OCCI
+b) SMTP
+c) HTTP
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Making cloud storage data discoverable on a TCP/IP network using HTTP or some other protocol requires that objects be assigned a unique identifier.
+9. Which of the following disk operation is performed When a tenant is granted access to a virtual storage container?
+a) CRUD
+b) File system modifications
+c) Partitioning
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Data stored in a virtual storage container may be stored in chunks or buckets.
+10. Which of the following standard connect distributed hosts or tenants to their provisioned storage in the cloud?
+a) CDMI
+b) OCMI
+c) COA
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: CDMI stands for Cloud Data Management Interface.
+1. Which of the following flag is used by backup software to specify whether a file should be backed up or not?
+a) archive bit
+b) passive bit
+c) active bit
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: The bit is set on for backup and cleared when backup has copied the file.
+2. Point out the correct statement.
+a) To create an image backup of an active system, you may need to stop all application
+b) To create an incremental backup of an active system, you may need to stop all applications
+c) Differential backup allows a system to do what is referred to as a bare metal restore
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Full System backup is also referred to as image backup.
+3. Which of the following backups are faster and more efficient from a storage perspective?
+a) Point-in-time
+b) Incremental
+c) Reverse Delta backup
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Files in intervening incremental backups may be taken as temporary or scratch versions.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following backups creates a full backup first and then periodically synchronizes the full copy with the live version?
+a) Continuous Data Protection
+b) Open file backup
+c) Reverse Delta backup
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The older versions of files that have been changed are archived so that a historical record of the backup exists.
+5. Point out the wrong statement.
+a) To scale out, the service must allow for stored data to span additional storage systems
+b) The data is backed up, and then every so often changes are amended to the backup creating is referred to as an incremental backup
+c) A differential backup is related to a full system backup
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: A differential backup is related to an incremental backup.
+Check this: Computer Science MCQs | MCA MCQs
+6. Which of the following backup is used by Apple’s Time Machine?
+a) Continuous Data Protection
+b) Open file backup
+c) Reverse Delta backup
+d) Mirroring
+View Answer
+
+Answer: c
+Explanation: Software that uses reverse delta backup system is Apple’s Time Machine and the RDIFF-BACKUP utility.
+7. Which of the following backup create a cloned copy of your current data or drive?
+a) Continuous Data Protection
+b) Open file backup
+c) Reverse Delta backup
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: CDP is also referred to as mirroring.
+8. Which of the following backup systems are expensive and highly customized to a particular application such as SQL Server?
+a) Continuous Data Protection
+b) Open file backup
+c) Reverse Delta backup
+d) Data archival
+View Answer
+
+Answer: b
+Explanation: Some applications such as database systems and messaging systems are mission critical and cannot be shut down before being backed up.
+9. Which of the following is useful for legal compliance or to provide a long-term historical record?
+a) Continuous Data Protection
+b) Open file backup
+c) Reverse Delta backup
+d) Data archival
+View Answer
+
+Answer: d
+Explanation: Data archives are often confused with backups.
+10. Which of the following is used to specify the migration of data that is no longer in use to tertiary long-term data storage for retention?
+a) replicating
+b) scaling
+c) archiving
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: You can’t restore your current data set from an archive.
+1. If you have a local version of a file, then a version of that file stored in the cloud conforms to all three of the ______ backup rules.
+a) 3-2-1
+b) One-two-three
+c) 1-2-3
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Peter Krogh’s 3-2-1 Rule for data protection is a good one to follow.
+2. Point out the correct statement.
+a) Replication creates a copy of the data which is not synchronized
+b) An archive removes older information that is no longer operational and saves it for long-term storage
+c) Reverse delta backup allows a system to do what is referred to as a bare metal restore
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: A backup creates a copy of the data whereas an archive removes older information.
+3. Which of the following is the first rule according to 3-2-1 Backup Rule by Peter Krogh?
+a) Retain three copies of any file—an original and two backups
+b) Files must be on two different media types
+c) One copy must be stored offsite
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Files must be on two different media types such as hard drives and optical media to protect against different types of hazards.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following is an incorrect feature of cloud storage backup solution?
+a) Logon authentication
+b) Low Encryption
+c) Fast backup
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: High Encryption is provided by Cloud Backup Storage.
+5. Point out the wrong statement.
+a) In a differential backup, the backup software can obtain the up-to-date backup from the last full backup and the last incremental backup alone
+b) Incremental backup analyzes the transactions that are in progress
+c) A cloud storage system contains a certain built-in latency, so unless the original data set is quiescent, the mirror lags behind the original in concurrency
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: An open file backup analyzes the transactions that are in progress.
+Participate in Cloud Computing Certification Contest of the Month Now!
+6. Which of the following is the most important feature of cloud storage listed below?
+a) Logon authentication
+b) Bare file
+c) Multiplatform support
+d) Adequate bandwidth
+View Answer
+
+Answer: a
+Explanation: The interactive logon process is the first step in user authentication and authorization.
+7. How many bits of encryption is at least required for cloud backup storage solution?
+a) 56
+b) 84
+c) 128
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: High encryption of data transfers is carried out preferably end-to-end, but at least for the data that is transferred over the Internet.
+8. Which of the following is the most important client to back up in the cloud?
+a) Windows
+b) Mac
+c) Linux
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Cloud storage solution should have multiplatform support.
+9. Which of the following service does not support backup on the Linux platform?
+a) Backblaze
+b) Crashplan
+c) Datapreserve
+d) ADrive
+View Answer
+
+Answer: a
+Explanation: Data backed up to the cloud cannot be viewed without adequate safeguards or restrictions due to legal regulations.
+10. Which of the following is the least important feature of cloud storage listed below?
+a) Multisite storage or replication
+b) 24×7 technical support
+c) Data versioning
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Data versioning has the ability to retrieve historical versions of files from different backups.

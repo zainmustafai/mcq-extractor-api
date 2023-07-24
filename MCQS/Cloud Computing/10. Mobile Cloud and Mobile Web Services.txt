@@ -1,0 +1,473 @@
+1. Which of the following mobile platform support hundreds of thousands of third-party applications?
+a) iPhone
+b) Symbian
+c) Windows Mobile Phone
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The five major smartphone operating systems to consider are Google’s Android, Apple’s iOS (iPhone OS), RIM BlackBerry, Symbian, and Windows Mobile Phone.
+2. Point out the wrong statement.
+a) Cloud services are having a major impact on cellular phone technology, and vice versa
+b) Very few smartphones come with native applications that consume Web services
+c) Mobile application developers are staging their apps in the cloud, and a number of hosting services provide support for this
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Many smartphones come with native applications that consume Web services.
+3. In which of the following computing, mobile device serves as the presentation platform or the display?
+a) Soft
+b) Mobile
+c) JVS
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Most of the computing applications that run on mobile devices run on the local device itself, with a few exceptions.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following applications are processed locally on the phone?
+a) Google Earth
+b) Google Maps
+c) Google Voice
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Smartphones are essentially miniaturized computers that run locally.
+5. Point out the wrong statement.
+a) When you develop an application for the cloud, you need multiple type of developer and then all the connected phones can use that application
+b) When you develop an application for the cloud, you need just one of developer and then all the connected phones can use that application
+c) The codec that compresses the video content uses a block-oriented motion-compensation scheme
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: This is one of the main reasons why cloud computing represents a disruptive technology for mobile computing and cell phones.
+Get Free Certificate of Merit in Cloud Computing Now!
+6. Mobile Lite is an extension of the __________ cloud service.
+a) Salesforce.com
+b) Google.com
+c) aol.com
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Salesforce.com’s Mobile Lite illustrates an important trend in software to extend its products as cloud services for mobile access.
+7. ________ is slated to add both the Opera Mini 5 and Opera Mobile 10 browsers to the Brew mobile platform.
+a) Snapdragon
+b) Qualcomm
+c) Quadrangle
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: There’s little uniformity in the features and interoperability in the micro-browser arena, but that could change quickly.
+8. Which of the following are essential characteristics of smartphone in cloud?
+a) A smartphone offers advanced calling features such as video calls or conferencing
+b) A smartphone has a recognizable operating system
+c) A smartphone comes with a touchscreen
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Smartphones are small computers on which you can make phone calls, send messages, and access Internet data in real time.
+9. Which of the following factors needs to be considered while moving from smartphone execution to a virtual machine running in the cloud?
+a) Network bandwidth
+b) Memory
+c) Processing power
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: If you move smartphone execution to a virtual machine running in the cloud, smartphones are no longer constrained by their
+processing power, memory, or storage capacity.
+10. Which of the following was built to serve as a mobile platform for Internet computing?
+a) Windows Phone
+b) Android
+c) Symbian
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The Android software is based on Java and runs in a Dalvik virtual machine.
+1. Which of the following is the core module of Android for Internet computing?
+a) SQLite RDBMS
+b) SQL Server RDBMS
+c) OpenPL
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Android serve as consumer or client for cloud computing services.
+2. Point out the wrong statement.
+a) Google Chrome to Phone Extension sends links and information from a Chrome browser to an Android phone
+b) Voice Actions for Android is a voice command and speech recognition program
+c) Google Goggles is used for local search
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Google Chrome to Phone Extension places a button in your Chrome browser that can push links, maps, selected text, or phone numbers out to your Android phone.
+3. Which of the following Google Application can be found in Android?
+a) Google Translate
+b) Google Shopper
+c) My Tracks
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Google Translate is a language searching program.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following applications are processed locally on the phone?
+a) Google Earth
+b) Google Maps
+c) Google Voice
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Smartphones are essentially miniaturized computers which run locally.
+5. Point out the correct statement.
+a) Voice Actions for Android allows you to use spoken commands to control your Android phone
+b) The Android Market is not available on Android phones through the Market application
+c) Video is accessed with the microphone button inside the Google search box on the Android home screen
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: This includes dialing a contact, getting a map, sending text or email, playing a music file and browsing the Web.
+Take Cloud Computing Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following has not included support for Adobe Flash or Java on its platform?
+a) Microsoft
+b) Apple
+c) Google
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Many sites viewed within the Safari micro-browser are not completely rendered.
+7. Which of the following is Apple’s cloud service for hosted email service?
+a) MobileMe
+b) MobApp
+c) MobileCloud
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Apple’s Mobile Me contains a number of cloud services such as iDisk, hosted e-mail, and more.
+8. Which of the following programming medium is used by MobileMe to create the appearance of a desktop application inside a browser?
+a) HTML
+b) DHTML
+c) Jquery
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The central application in the suite is Apple’s hosted em-ail service.
+9. Which of the following is a photo and video sharing service by MobileMe?
+a) iDisk
+b) Find My iPhone
+c) iWeb Publish
+d) MobileMe Gallery
+View Answer
+
+Answer: d
+Explanation: iDisk is an online storage drive that can browsed and from which items can be shared.
+10. Which of the following is Apple’s instant messaging service that interoperates with AIM?
+a) iDisk
+b) iChat
+c) wechat
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: With MobileMe installed on Windows, you can synchronize data with your MobileMe account to Windows.
+1. Which of the following standard is used for publishing a Web service that is used in cloud computing?
+a) WSDL
+b) SMIL
+c) XML
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: WSDL standard contributes to the Service Oriented Architecture (SOA).
+2. Point out the wrong statement.
+a) Web services are useful only if they can be discovered by mobile devices
+b) If protocols are standard and open, the chances of being able to exchange information are decreased
+c) Web services are a form of publishing
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: If protocols are standard and open, the chances of being able to exchange information is increased.
+3. Which of the following service is an open registry of business services?
+a) USI
+b) UDDI
+c) UDDL
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: UDDI stands for Universa1, Description, Discovery, and Integration.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following page is published by UDDI?
+a) Black
+b) Yellow
+c) Blue
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Yellow pages with industry categorization based on standard schema or taxonomies is published by UDDI.
+5. Point out the correct statement.
+a) In WSDL, the service is described in terms of an endpoint that can be accessed to send information to and get information back from the service
+b) Several mechanisms exist for aggregating WSDL documents into a searchable form
+c) UDDI is an OASIS standard that is searchable and is in the XML format
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Documents stored in UDDI conform to the Web Service Inspection Language (WSIL) format.
+Take Cloud Computing Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following service provides a means for advertising services on small networks using a multicast protocol?
+a) WS-Discovery
+b) WS-API
+c) WS-WCF
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Typically, the service is delivered using SOAP over UDP.
+7. Which of the following pages IN UDDI specify the service endpoints?
+a) White
+b) Yellow
+c) Gren
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: White pages contain identification information.
+8. Microsoft uses ________ to provision network nodes such as computers, access points, printers, and other network-connected devices.
+a) Motorola Rally
+b) Windows Rally
+c) Sony Rally
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: WS-Discovery is an OASIS standard and is used as part of network discovery in Windows (WSDAPI).
+9. Which of the following standard aims to create a searchable global registry of business services?
+a) ebXML
+b) eXLST
+c) bXML
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: ebXML stands for Electronic Business using eXtensible Markup Language.
+10. Electronic Business using eXtensible Markup Language standard is maintained by ________ initiative.
+a) UN
+b) freebXM
+c) fbXM
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Electronic Business using eXtensible Markup Language is a joint standard of OASIS and UN/CEFACT.
+1. When a mobile user is connected to the mobile service, how many sets of information is exchanged?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: Two different sets of information is exchanged between user and mobile-logical and physical context.
+2. Point out the wrong statement.
+a) Each mobile device contains and is capable of transmitting a large amount of information concerning the condition or state of the device and the user who carries the device
+b) Location is the prime example of context
+c) When we search for something near us, the search engine returns results that are independent of location
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: When parsed properly, this information can provide intelligent systems with not only the user’s identification but the context in which that user finds himself.
+3. Which of the following context contains information derived from measurements made from the mobile device or its sensors?
+a) Physical
+b) External
+c) Logical
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Physical context provides location, ambient device conditions, device states, and more.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following context contains information derived from the user or from the manner in which the user has interacted with services over time?
+a) Physical
+b) External
+c) Logical
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Logical contexts are information about the purpose a location serves, a digital identity and its associated attributes, relationships, interests, past searches, Web sites visited, privileges, and preferences.
+5. Point out the correct statement.
+a) When a phone transmits its GPS coordinates to a service, that service may be able to compare that location to the customer’s registered home address
+b) Only one mechanisms exist for aggregating WSDL documents into a searchable form
+c) AJAX is an OASIS standard that is searchable and is in the JSON format
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: This will send information appropriate to each environment back to the user.
+Take Cloud Computing Tests Now!
+6. Which of the following provides a set of methods for using modules to construct loosely coupled complex systems from standard parts?
+a) SOA
+b) OCCI
+c) WCF
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Method of construction of the modules is abstracted out of the system and encapsulated in SOA.
+7. What is the role played by Web service in SOA?
+a) service consumer
+b) service provider
+c) service user
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: SOA requires a standard messaging protocol and a form of federated database system.
+8. Which of the following plays the role of the orchestrator providing programmed logic that works with the data parsed by the Context Parser?
+a) Context Logic Processor
+b) Context Physical Processor
+c) Context View Processor
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: The Context Parser takes all the input data (digital signals in many cases) and applies a logical schema to create the needed structured objects for the Logic Processor’s use.
+9. The specific ontology that applies to a mobile SOA is ______________
+a) WOL
+b) OWL
+c) oXML
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: WOL stands for Web Ontology Language.
+10. The concept of creating a structured representation of concepts and their relationship in a domain is referred to as ________
+a) analogy
+b) ontology
+c) generalization
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Ontology is a formal way of specifying a shared abstraction.
+1. Which of the following is the most commonly used standard for performing synchronization?
+a) SyncML
+b) SMIL
+c) SML
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: SyncML stands for Synchronization Markup Language.
+2. Point out the wrong statement.
+a) Data synchronization is an important Web service for mobile devices
+b) Contact, calendar, and information on devices often need to be synchronized between multiple systems
+c) SyncML is implemented using a SyncML server or alternatively as a SyncML hosted service
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: The client portion of SyncML is either a browser plug-in or client connector software.
+3. Which of the following data type may be synchronized by SyncML?
+a) Files
+b) Memos
+c) Tasks
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Different servers and clients allow for the synchronization of different data types.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following services is an example of an SMS gateway?
+a) Microsoft Live
+b) Direct to SMSC gateway
+c) Y-Mail service
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: An SMS gateway is more reliable and faster than SMS itself.
+5. Point out the correct statement.
+a) The CnML protocol finds support in a number of products from major mobile software and hardware vendors
+b) The desktop-to-mobile sync application Windows Mobile Device Center allows a mobile client to synchronize to a desktop
+c) Desktop ActiveSync is not supported by some third-party mail servers
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: An open-source version of ActiveSync called SynCE exists.
+Get Free Certificate of Merit in Cloud Computing Now!
+6. Which of the following allows you to attach sounds, pictures, icons, and even formatted text with your message?
+a) EMS
+b) SMS
+c) MMS
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Not all texting systems are SMS, even if they appear so. RIM BlackBerry and NTT DoCoMo i-mode use SMTP to send short messages.
+7. Which of the following uses a combination of WAP and SMS for its transport?
+a) EMS
+b) SMS
+c) MMS
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: MMS supports the sending of audio, video, and even animation with the SMS text.
+8. Which of the following protocol is used for transaction monitoring service based on a request/response mechanism?
+a) WTP
+b) WTLS
+c) WDP
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: WTP stands for Wireless Transaction Protocol.
+9. Which of the following public-key encryption methods is used for the same purpose as TLS?
+a) WTP
+b) WTLS
+c) WDP
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: WTLS stands for Wireless Transport Layer Security.
+10. Which of the following provides unreliable data transport data formatting?
+a) WTP
+b) WTLS
+c) WDP
+d) WAE
+View Answer
+
+Answer: c
+Explanation: WAE is a set of application specific markup languages.

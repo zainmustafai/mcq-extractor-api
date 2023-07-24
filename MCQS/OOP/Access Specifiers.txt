@@ -1,0 +1,751 @@
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Access Specifiers”.
+
+1. How many types of access specifiers are provided in OOP (C++)?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: c
+Explanation: Only 3 types of access specifiers are available. Namely, private, protected and public. All these three can be used according to the need of security of members.
+2. Which among the following can be used together in a single class?
+a) Only private
+b) Private and Protected together
+c) Private and Public together
+d) All three together
+View Answer
+
+Answer: d
+Explanation: All the classes can use any of the specifiers as needed. There is no restriction on how many of them can be used together.
+3. Which among the following can restrict class members to get inherited?
+a) Private
+b) Protected
+c) Public
+d) All three
+View Answer
+
+Answer: a
+Explanation: Private members of a class can’t be inherited. These members can only be accessible from members of its own class only. It is used to secure the data.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+4. Which access specifier is used when no access specifier is used with a member of class (java)?
+a) Private
+b) Default
+c) Protected
+d) Public
+View Answer
+
+Answer: b
+Explanation: Default access is used if the programmer doesn’t specify the specifier. This acts in a similar way as that of private. But since nothing is specified we call it to default access.
+5. Which specifier allows a programmer to make the private members which can be inherited?
+a) Private
+b) Default
+c) Protected
+d) Protected and default
+View Answer
+
+Answer: c
+Explanation: Protected access is used to make the members private. But those members can be inherited. This gives both security and code reuse capability to a program.
+Participate in Object Oriented Programming Certification Contest of the Month Now!
+6. Which among the following is false?
+a) Private members can be accessed using friend functions
+b) Member functions can be made private
+c) Default members can’t be inherited
+d) Public members are accessible from other classes also
+View Answer
+
+Answer: c
+Explanation: The default members can be inherited. Provided that they are in same package. It works in a little different way from private access specifier.
+7. If a class has all the private members, which specifier will be used for its implicit constructor?
+a) Private
+b) Public
+c) Protected
+d) Default
+View Answer
+
+Answer: b
+Explanation: The implicit constructor will always be public. Otherwise the class wouldn’t be able to have instances. In turn, no objects will be created and the class can only be used for inheritance.
+8. If class A has add() function with protected access, and few other members in public. Then class B inherits class A privately. Will the user will not be able to call _________ from the object of class B.
+a) Any function of class A
+b) The add() function of class A
+c) Any member of class A
+d) Private, protected and public members of class A
+View Answer
+
+Answer: d
+Explanation: Class B object will not be able to call any of the private, protected and public members of class A. It is not only about the function add(), but all the members of class A will become private members of class B.
+9. Which access specifier should be used in a class where the instances can’t be created?
+a) Private default constructor
+b) All private constructors
+c) Only default constructor to be public
+d) Only default constructor to be protected
+View Answer
+
+Answer: b
+Explanation: All the constructors must be made private. This will restrict the instance of class to be made anywhere in the program. Since the constructors are private, no instance will be able to call them and hence won’t be allocated with any memory space.
+10. On which specifier’s data, does the size of a class’s object depend?
+a) All the data members are added
+b) Only private members are added
+c) Only public members are added
+d) Only default data members are added
+View Answer
+
+Answer: a
+Explanation: All the data members are counted to calculate the size of an object of a class. The data member access specifier doesn’t play any role here. Hence all the data size will be added.
+11. If class B inherits class A privately. And class B has a friend function. Will the friend function be able to access the private member of class A?
+a) Yes, because friend function can access all the members
+b) Yes, because friend function is of class B
+c) No, because friend function can only access private members of friend class
+d) No, because friend function can access private member of class A also
+View Answer
+
+Answer: c
+Explanation: The friend function of class B will not be able to access private members of class A. Since B is inheriting class A privately, the members will become private in class B. But private members of class A won’t be inherited at all. Hence it won’t be accessible.
+12. If an abstract class has all the private members, then _________
+a) No class will be able to implement members of abstract class
+b) Only single inheritance class can implement its members
+c) Only other enclosing classes will be able to implement those members
+d) No class will be able to access those members but can implement.
+View Answer
+
+Answer: a
+Explanation: The classes which inherit the abstract class, won’t be able to implement the members of abstract class. The private members will not be inherited. This will restrict the subclasses to implement those members.
+13. Which access specifier should be used so that all the parent class members can be inherited and accessed from outside the class?
+a) Private
+b) Default or public
+c) Protected or private
+d) Public
+View Answer
+
+Answer: d
+Explanation: All the members must be of public access. So that the members can be inherited easily. Also, the members will be available from outside the class.
+14. Which access specifier is usually used for data members of a class?
+a) Private
+b) Default
+c) Protected
+d) Public
+View Answer
+
+Answer: a
+Explanation: All the data members should be made private to ensure the highest security of data. In special cases we can use public or protected access, but it is advised to keep the data members private always.
+15. Which specifier should be used for member functions of a class?
+a) Private
+b) Default
+c) Protected
+d) Public
+View Answer
+
+Answer: d
+Explanation: It is always advised that the member functions should be kept public so that those functions can be used from out of the class. This is usually done to ensure that the features provided by the class can be used at its maximum
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Public Access Specifier”.
+
+1. Which among the following is true for the code given below?
+
+class A
+{
+	int marks;
+	public : disp()
+	{ 
+		cout&lt;&lt;marks; 
+	}
+}
+class B: protected A
+{
+	char name[20];
+}
+A a; a.disp();
+B b; b.disp();
+a) Only object of class A can access disp() function
+b) Only object of class B can access disp() function
+c) Both instances can access disp() function
+d) Accessing disp() outside class is not possible
+View Answer
+
+Answer: a
+Explanation: The object of class A can access the disp() function. This is because the disp() function is public in definition of class A. But it can’t be accessed from instance of class B because the disp() function is protected in class B, since it was inherited as protected.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+2. If the members have to be accessed from anywhere in the program and other packages also, which access specifier should be used?
+a) Public
+b) Private
+c) Protected
+d) Default
+View Answer
+
+Answer: a
+Explanation: The access specifier must be public so as to access the members outside the class and anywhere within the program without using inheritance. This is a rule, predefined for the public members.
+3. Which among the following have least security according to the access permissions allowed?
+a) Private
+b) Default
+c) Protected
+d) Public
+View Answer
+
+Answer: d
+Explanation: The public members are available to the whole program. This makes the members most vulnerable to accidental changes, which may result in unwanted modification and hence unstable programming.
+Take Object Oriented Programming Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+4. Which among the following can be used for outermost class access specifier in java?
+a) Private
+b) Public
+c) Default
+d) Default or Public
+View Answer
+
+Answer: d
+Explanation: Either default or public access specifier must be used for outermost classes. Private can be used with inner classes. This is done so that all the members can access and use the utmost class and that program execution can be done from anywhere. Inner classes can be made private for security.
+5. We can reduce the visibility of inherited methods.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement given is false. This is because when we inherit the members they can either be made more secure or be at same access. But the visibility reduction is not possible, for example, if a member is protected in parent class, then it can only be made protected or private in subclass and not public in any case.
+6. If members of a super class are public, then________
+a) All those will be available in subclasses
+b) None of those will be available in subclasses
+c) Only data members will be available in subclass
+d) Only member functions will be available in subclass
+View Answer
+
+Answer: a
+Explanation: All the members will be available in subclasses. Though it is not guaranteed whether the members will be available in subsequent subclasses from the first subclass.
+7. How many public class(s) (outermost) can be there in a java program?
+a) 1
+b) 2
+c) 3
+d) As required
+View Answer
+
+Answer: a
+Explanation: There can be only one public class in a java program. The public class name must match the name of file. And there can’t be more than one class with same name in a single program in same scope. Hence it is not possible to have more than one public class in java program.
+8. What is the output of the following code?
+
+package pack1;
+class A
+{
+	public A()
+	{ 
+		System.out.print(“object created”); 
+	}   
+}
+package pack2;
+import pack1.*;
+class B
+{
+	A a=new A();
+}
+a) Output is: object created
+b) Output is: object createdobject created
+c) Compile time error
+d) Run time error
+View Answer
+
+Answer: c
+Explanation: The program will give compile time error. Class A is defined with default access specifier. This directly means that class A will be available within package only. Even if the constructor is public, the object will not be created.
+9. Which among the following for public specifier is false?
+a) The static members can’t be public
+b) The public members are available in other packages too
+c) The subclasses can inherit the public members privately
+d) There can be only one public class in java program
+View Answer
+
+Answer: a
+Explanation: The static members are not property of any object of the class. Instead, those are treated as property of class. This allows us to have public static members too.
+10. A class has its default constructor defined as public. Class B inherits class A privately. The class ___________
+a) B will not be able to have instances
+b) Only A can have instances
+c) Only B can have instances
+d) Both classes can have instances
+View Answer
+
+Answer: d
+Explanation: Class A can have instances as it has public default constructor. Class will have its own constructors defined. Hence both classes can have instances.
+11. Which specifier can be used to inherit protected members as protected in subclass but public as public in subclass?
+a) Private
+b) Default
+c) Public
+d) Protected
+View Answer
+
+Answer: c
+Explanation: The specifier that can make protected member’s protected in subclass and public member’s public in subclass, is public. This is done to maintain the security level of protected members of parent class.
+12. Which among the following is true for public class?
+a) There can be more than one public class in a single program
+b) Public class members can be used without using instance of class
+c) Public class is available only within the package
+d) Public classes can be accessed from any other class using instance
+View Answer
+
+Answer: d
+Explanation: The public class is a usual class. There is no special rule but the members of the class can be accessed from other classes using instance of the class. This is usually useful to define main() function.
+13. If a class doesn’t have public members, then________
+a) None of its members will be able to get inherited
+b) None of its instance creation will be allowed
+c) None of its member function can be called outside the class
+d) None of its data members will be able to get initial value
+View Answer
+
+Answer: c
+Explanation: According to rule of private, protected and default access specifiers, none of the members under these specifiers will be able to get invoked outside the class. We are not sure about the members of class specifically so other options doesn’t give a fixed answer.
+14. In multi-level inheritance(all public), the public members of parent/superclass will ________
+a) Will continue to get inherited subsequently
+b) Will not be inherited after one subclass inheritance
+c) Will not be available to be called outside class
+d) Will not be able to allocated with any memory space
+View Answer
+
+Answer: a
+Explanation: The public inheritance makes the public members of the base class, public in derived classes. This can be used when the same feature have to be redefined with each new class inheriting the base class.
+15. Which specifier allows to secure the public members of base class in inherited classes?
+a) Private
+b) Protected
+c) Public
+d) Private and Protected
+View Answer
+
+Answer: d
+Explanation: Both the private and protected specifiers can make the public members of the base class more secure. This is useful if we stop using the parent class members and use the classes which inherited the parent class, so as to secure data better.
+
+This set of Object Oriented Programming using C++ Question Bank focuses on “Protected Access Specifier”.
+
+1. Which among the following best describes the protected specifier?
+a) Members are most secure and can’t be used outside class
+b) Members are secure but can be used outside the class
+c) Members are secure as private, but can be inherited
+d) Members are secure like private, but can’t be inherited
+View Answer
+
+Answer: c
+Explanation: The members which are made protected, are most secure if inheritance is not used. But, this facility is provided to keep those members private and with that, they can be inherited by other classes. This is done to make the code more flexible.
+2. If a constructor is defined in protected access, then?
+a) It’s instance can be created inside the subclasses
+b) It’s instance can be created anywhere in the program
+c) It’s instance can be created inside the subclasses and main() function
+d) It’s instance can be created inside the parent class only
+View Answer
+
+Answer: a
+Explanation: The instances will be allowed to be created only inside the sub classes. This is because the protected members will be inherited and hence the constructor too. This will allow the subclasses to call the constructor whenever an object is created.
+3. For the following code, choose the correct option.
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+class A
+{  
+	int marks;
+	protected : A()
+	{ 
+		marks=100; 
+	}
+	public : A( int x)
+	{ 
+		marks=x;  
+	}
+};
+a) The instances can be created only in subclasses
+b) The instances can be created only in main() function
+c) The instances can be created only in parent class
+d) The instances can be created anywhere in the program
+View Answer
+
+Answer: d
+Explanation: The instances can be created anywhere in the program. The only restriction will be on which constructor will have to be called. The instances with zero arguments will be allowed to be created only inside the subclasses, but the instances with one argument can be created anywhere in the program.
+Take Object Oriented Programming Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+4. If the protected members are to be made accessible only to the nearest subclass and no further subclasses, which access specifier should be used in inheritance?
+a) The sub class should inherit the parent class privately
+b) The sub class should inherit the parent class as protected
+c) The sub class should inherit the parent class as public
+d) The sub class can use any access modifier
+View Answer
+
+Answer: a
+Explanation: The sub class should use private inheritance. This will allow only the nearest sub classes to inherit the protected members and then those members will become private. Hence further inheritance of those members will not be possible.
+5. What will be the output of the following code (all header files and required things are included)?
+
+class A
+{
+	int marks;
+	protected : A(int x)
+	{ 
+		marks=x; 
+	}
+	public : A()
+	{ 
+		marks=100; 
+	}
+}
+class B
+{
+	A a;
+	A b=100;
+};
+main()
+{
+	A a, b=100;
+	B c;
+}
+a) Program runs fine
+b) Program gives runtime error
+c) Program gives compile time error
+d) Program gives logical error
+View Answer
+
+Answer: c
+Explanation: The objects being created with assignment value are allowed, if the constructor accepts only 1 argument. But main() function will not be able to create the object here with assignment, as the constructor which accepts one argument is in protected mode in the class.
+6. Which among the following is true for the given code below?
+
+class A
+{
+	protected : int marks;
+	public : 
+	A()
+	{ 
+		marks=100; 
+	}
+	disp()
+	{ 
+		cout&lt;&lt;”marks=”&lt;&lt;marks; 
+	}
+};
+class B: protected A
+{
+};
+B b;
+b.disp();
+a) Object b can’t access disp() function
+b) Object b can access disp() function inside its body
+c) Object b can’t access members of class A
+d) Program runs fine
+View Answer
+
+Answer: a
+Explanation: The object of class B can’t access the members of A outside the class. This is because the class is being inherited in protected access, so all the members will become protected in subclass B.
+7. Protected members differ from default members as _______
+a) Protected members can be accessed outside package using inheritance, but default can’t
+b) Default members can be accessed outside package using inheritance, but protected can’t
+c) Protected members are allowed for inheritance but Default members are not allowed
+d) Both are same
+View Answer
+
+Answer: a
+Explanation: The protected members are allowed in the same package but can also be accessed in other packages using inheritance. But the default members can never be accessible in other packages.
+8. If all the members are defined in protected specifier then? (Constructors not considered)
+a) Instance of class can’t be created
+b) Instance of class can be created anywhere
+c) Instance of class can be created only in subclasses
+d) Instance of class can be created only in main() function
+View Answer
+
+Answer: b
+Explanation: The instances can be created anywhere in the program. This is because the constructors are not considered among the members defined in protected mode. Hence the default implicit constructor will be used whenever an object is created.
+9. Which among the following is correct for the code given?
+
+class A
+{
+    private: int marks;
+    A()
+    { 
+    }
+    Public : disp()
+    { 
+          cout&lt;&lt; marks; 
+     }
+};
+class B: public A
+{
+}
+B b;
+a) Instance of B will not be created
+b) Instance of B will be created
+c) Program gives compile time error
+d) Program gives runtime error
+View Answer
+
+Answer: a
+Explanation: Instance of B will not be created. When you try to create an instance of B, First the constructor of parent class will be called, but the parent class constructor is private, hence it won’t be able to initialize and allocate memory for parent class members. In turn, the object of B will not be created.
+10. If protected inheritance is used then _____
+a) Public members become public in subclass
+b) Protected members become public in subclass
+c) Protected members become protected in subclass
+d) Protected and Public members become protected in subclass
+View Answer
+
+Answer: d
+Explanation: The protected and public members of the parent class will become the protected members in subclass. This is predefined rule of inheritance. The reason behind is to maintain the level of security in subclass too.
+11. If protected members are to be accessed from outside the class then__________
+a) Members must be inherited publicly in subclass
+b) Members must accessed using class pointers
+c) Members must be accessed as usual
+d) Members must be made public
+View Answer
+
+Answer: d
+Explanation: The members must be made public, otherwise it is not possible. In every case, the protected members will act as private members if it’s about access specifier. It will only be inherited, that too will lead to make those members protected again, in subclasses.
+12. Which among the following can use protected access specifier?
+a) Members which may be used in other packages
+b) Members which have to be secure and should be used by other packages/subclass
+c) Members which have to be accessed from anywhere in the program
+d) Members which have to be as secure as private but can be used by main() function
+View Answer
+
+Answer: b
+Explanation: The members which have to be secure and might get used in other packages or subclasses can use protected access. This also allows the members to be safe from accidental modification.
+13. Protected access is same as default access that is given implicitly in java if no specifier is mentioned.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The statement given is true. The clear difference is protected members are available in other packages also, but the default members are available within the package only.
+14. If a class have default constructor defined in private access, and one parameter constructor in protected mode, how will it be possible to create instance of object?
+a) Define a constructor in public access with different signature
+b) Directly create the object in the subclass
+c) Directly create the object in main() function
+d) Not possible
+View Answer
+
+Answer: a
+Explanation: If a new constructor is defined in public access. That will be available to the whole program. Only restriction will be of the way to use it.
+15. What will be the output of the program given below?
+
+class A
+{
+	Public : A(int a=0)
+	{ 
+		cout&lt;&lt;”new A”;
+        }
+};
+A a;
+A b;
+A c;
+a) new A new A new A
+b) newAnewAnewA
+c) new Anew Anew A
+d) new A new Anew A
+View Answer
+
+Answer: c
+Explanation: The constructor has a default argument. Whenever the object is created, the constructor will be called and print the message in its definition. Since the argument is default valued, it is not mandatory to pass anything to the new object
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Private Access Specifier”.
+
+1. If a function has to be called only by using other member functions of the class, what should be the access specifier used for that function?
+a) Private
+b) Protected
+c) Public
+d) Default
+View Answer
+
+Answer: a
+Explanation: The function should be made private. In this way, the function will be available to be called only from the class member functions. Hence the function will be secure from the outside world.
+2. Which among the following is correct for the code given below?
+
+class student
+{  
+	private: student()
+	{  
+	}
+	public : student( int x) 
+	{ 
+		marks =x; 
+	}
+};
+a) The object can never be created
+b) The object can be created without parameters
+c) Only the object with only 1 parameter can be created
+d) Only the object with some parameters can be created
+View Answer
+
+Answer: c
+Explanation: For creating object without parameters, the default constructor must be defined in public access. But here, only parameterized constructor is public, hence the objects being created with only one parameter will only be allowed.
+Subscribe Now: Object Oriented Programming C++ Newsletter | Important Subjects Newsletters
+advertisement
+3. Which among the following is true for the code given below?
+
+Become Top Ranker in Object Oriented Programming Now!
+class A
+{
+	private : int marks; char name[20];
+	public :
+	A(int x=100)
+	{ 
+		marks=x;  
+	}
+};
+a) Objects can be created with one parameter or without parameter
+b) Object can be created only with one parameter
+c) Object can be created with more than one parameter
+d) Objects can be create only without parameter
+View Answer
+
+Answer: a
+Explanation: The constructor here has a default argument constructor. Hence we can pass one parameter, but that is optional. If an object is created without parameter, the default value will be used in the constructor definition.
+4. Which among the following is correct to call a private member from outside the class?
+a) object.memberfunction( parameters );
+b) object->memberfunction( parameters );
+c) object->memberfunction( parameteres); or object.memberfunction( parameters );
+d) Not possible
+View Answer
+
+Answer: d
+Explanation: The private member function will not be accessible from outside the class. Hence any syntax will not work to access the private members. If you have the address of the member, may be you can access those members, but that is a totally different case and concept.
+5. If private members have to be accessed directly from outside the class but the access specifier must not be changed, what should be done?
+a) Specifier must be changed
+b) Friend function should be used
+c) Other public members should be used
+d) It is not possible
+View Answer
+
+Answer: b
+Explanation: For calling the function directly, we can’t use another function because that will be indirect call. Using friend function, we can access the private members directly.
+6. Which access specifier is/are most secure during inheritance?
+a) Private
+b) Default
+c) Protected
+d) Private and default
+View Answer
+
+Answer: a
+Explanation: The private members are most secure in inheritance. The default members can still be in inherited in special cases, but the private members can’t be accessed in any case.
+7. Choose the correct option for the code given below.
+class A{ static int c=0; public: A(){ c++; } };
+a) Constructor will make c=1 for each object created
+b) Constructor will make c=0 for each object created
+c) Constructor will keep number of objects created
+d) Constructor will just initialize c=0 then increment by 1
+View Answer
+
+Answer: c
+Explanation: The constructor is using a static member to keep the count of the number of objects created. This is done because the variable c is static and hence the value will be common for all the objects created.
+8. Which option is false for the following code?
+
+class A
+{
+	private : int sum(int x, int y)
+	{ 
+		return x+y; 
+	}
+	public: A()
+	{  
+	}
+	A(int x, int y)
+	{ 
+		cout&lt;&lt;sum(x,y);  
+	}
+};
+a) Constructor can be created with zero argument
+b) Constructor prints sum, if two parameters are passed with object creation
+c) Constructor will give error if float values are passed
+d) Constructor will take 0 as default value of parameters if not passed
+View Answer
+
+Answer: d
+Explanation: Constructor is not having any default arguments hence no default value will be given to any parameters. Only integer values must be passed to the constructor if we need the sum as output, otherwise if float values are passed, type mismatch will be shown as error.
+9. Which member will never be used from the following class?
+
+class A()
+{ 
+	int marks; char name[20];
+	public : A()
+	{ 
+		marks=100; 
+	}
+	void disp()
+	{ 
+		cout&lt;&lt;”Marks= ”&lt'&lt;marks;
+		cout&lt;&lt;”Student”;
+	}
+};
+a) name variable will never be used
+b) marks variable will never be used
+c) constructor will never be used
+d) disp() function will never be used
+View Answer
+
+Answer: a
+Explanation: Variable name will never be used. It is a private member. None other than class members can access name, also, neither the constructor nor the disp() function are accessing the variable name. Hence it will never be accessible.
+10. Private member functions can be overloaded.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The private functions can also be overloaded. This can be done in usual way by having the same name of the member function and having different signature. Only thing is, they must be accessed from members of class only.
+11. Which among the following is true?
+a) Private member functions can’t be overloaded
+b) Private member functions can be overridden
+c) Private member functions can’t be overloaded with a public member
+d) Private member function can’t be overridden
+View Answer
+
+Answer: d
+Explanation: The private member functions can be overloaded but they can’t be overridden. This is because, overriding means a function with same name in derived class, gets more priority when called from object of derived class. Here, the member function is private so there is no way that it can be overridden.
+12. Which data member in following code will be used whenever an object is created?
+
+Class A
+{ 
+   int x; int y; int z;
+   public : A()
+   { 
+      y=100; x=100*y; 
+   }
+};
+a) x will be used
+b) y will be used
+c) z will be used
+d) All will be used
+View Answer
+
+Answer: c
+Explanation: Whenever an object will be created, the constructor will be called. Inside constructor we are using the data members x and y. Hence these two will always be used with each object creation.
+13. Which member can be considered most secure in the code below?
+
+class A()
+{
+	int a;
+	private : int b;
+	protected : int c;
+	public : int d;
+};
+a) a
+b) b
+c) c
+d) d
+View Answer
+
+Answer: b
+Explanation: The default variables can be inherited in some special cases but the public members can never be inherited. Hence the most secure data member in the class is b.
+14. Which among the following is correct for the code given below?
+
+class A
+{
+	private : A()
+	{ 
+	}
+	public : A(int x)
+	{  
+	}
+};
+A a;
+A b(100);
+a) Program will give compile time error
+b) Program will run fine
+c) Program will give runtime error
+d) Program will give logical error
+View Answer
+
+Answer: a
+Explanation: The program will be giving a compile time error as the default constructor is private in class. And, the logical errors are usually runtime so we can’t say that the program will give logical error. The program will not run.
+15. Which among the following is correct?
+a) Private specifier must be used before public specifier
+b) Private specifier must be used before protected specifier
+c) Private specifier must be used first
+d) Private specifier can be used anywhere in class
+View Answer
+
+Answer: d
+Explanation: The private specifier can be used anywhere in the class as required. It is not a rule to mention the private members first and then others. It is just followed to write first for better readability.

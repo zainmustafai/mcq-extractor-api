@@ -1,0 +1,498 @@
+1. What is multimedia file?
+a) is same as any other regular file
+b) must be accessed at specific rate
+c) stored on remote server can not be delivered to its client
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+2. In which type of streaming multimedia file is delivered to the client, but not shared?
+a) real-time streaming
+b) progressive download
+c) compression
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+3. Which one of the following is the characteristic of a multimedia system?
+a) high storage
+b) high data rates
+c) both high storage and high data rates
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The delay that occur during the playback of a stream is called ___________
+a) stream delay
+b) playback delay
+c) jitter
+d) event delay
+View Answer
+
+Answer: c
+Explanation: None.
+5. Which algorithm can be optimized to meet the timing deadlines and rate requirements of continuous media?
+a) Earliest-Deadline-First scheduling
+b) SCAN-EDF scheduling
+c) Both Earliest-Deadline-First scheduling & SCAN-EDF scheduling
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Check this: BCA MCQs | Computer Science MCQs
+6. Real time streaming protocol is used ___________
+a) to control streaming media servers
+b) for establishing and controlling media sessions between endpoints
+c) to provide real time control of playback of media files from the server
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+7. In teardown state of real time streaming protocol is ___________
+a) the server resources for client
+b) server delivers the stream to client
+c) server suspends delivery of stream
+d) server breaks down the connection
+View Answer
+
+Answer: d
+Explanation: None.
+8. CineBlitz multimedia server supports ___________
+a) real time clients
+b) non-real time clients
+c) both real time & non-real time clients
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+9. Multimedia system require hard real time scheduling ___________
+a) to ensure critical tasks will be serviced within timing deadlines
+b) to deliver the media file to the client
+c) to minimize the delay
+d) for security
+View Answer
+
+Answer: a
+Explanation: None.
+10. Which one of the following resource is not necessarily required on a file server?
+a) secondary storage
+b) processor
+c) network
+d) monitor
+View Answer
+
+Answer: d
+Explanation: None.
+1. The major difference between a multimedia file and a regular file is ___________
+a) the size
+b) the attributes
+c) the ownership
+d) the rate at which the file must be accessed
+View Answer
+
+Answer: d
+Explanation: Multimedia files must be accessed at a specific rate whereas accessing regular files requires no special timings.
+2. Video is represented as a series of images formally known as ___________
+a) pics
+b) shots
+c) frames
+d) snaps
+View Answer
+
+Answer: c
+Explanation: None.
+3. The faster the frames are displayed, ___________
+a) the rougher the video appears
+b) the smoother the video appears
+c) it gets blurry
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+Subscribe Now: Operating System Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The characteristic of the eye to retain the image for a short time after it has been presented is known as ___________
+a) persistence of vision
+b) learning power
+c) memory mapped input
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+5. When will Local playback be used?
+a) the multimedia data are delivered from a local file system
+b) a computer next to you is playing something
+c) a multimedia file is being played on a system in the local network
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Get Free Certificate of Merit in Operating System Now!
+6. Multimedia files stored on a remote server are delivered to a client across the network using a technique known as ___________
+a) download
+b) streaming
+c) flowing
+d) leaking
+View Answer
+
+Answer: b
+Explanation: None.
+7. What are the two types of streaming techniques?
+a) progressive download & real time streaming
+b) regular download & real time streaming
+c) real time & virtual time streaming
+d) virtual time streaming
+View Answer
+
+Answer: a
+Explanation: None.
+8. A media file containing audio or video is downloaded and stored on the client’s local file system in ___________
+a) progressive download
+b) regular download
+c) real time streaming
+d) virtual time streaming
+View Answer
+
+Answer: a
+Explanation: As the file is being downloaded, the client is able to play back the media file without having to wait for the file to be downloaded in its entirety.
+9. Progressive download is most useful for ___________
+a) short video clips
+b) long video clips
+c) extremely long and high quality videos
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. The media file is streamed to the client but is only played and not stored by the client in ___________
+a) progressive download
+b) regular download
+c) real time streaming
+d) virtual time streaming
+View Answer
+
+Answer: c
+Explanation: None.
+11. Real time streaming is most useful for ___________
+a) short video clips
+b) long video clips
+c) extremely short and low quality videos
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+1. The ability to move around within a media stream is known as ___________
+a) buffering
+b) random access
+c) access
+d) sequential access
+View Answer
+
+Answer: b
+Explanation: None.
+2. What are the two types of real time streaming?
+a) live & on demand streaming
+b) dead & static streaming
+c) static & on demand streaming
+d) on demand streaming
+View Answer
+
+Answer: a
+Explanation: None.
+3. Random access is not allowed in ___________
+a) live streaming
+b) dead streaming
+c) static streaming
+d) on demand streaming
+View Answer
+
+Answer: a
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The streaming that takes place as the event is occurring is ___________
+a) live streaming
+b) dead streaming
+c) static streaming
+d) on demand streaming
+View Answer
+
+Answer: d
+Explanation: None.
+5. For a computer to deliver continuous media it must guarantee the specific rate and timing requirements, also known as ___________
+a) deadline
+b) quality of service
+c) period
+d) burst time
+View Answer
+
+Answer: b
+Explanation: None.
+Take Operating System Tests Now!
+6. For QOS to be implemented properly ___________
+a) file systems must be efficient to meet the rate requirements of continuous media
+b) network protocols must support bandwidth requirements while minimizing delay and jitter
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+7. What will happen once a file is compressed?
+a) it has a better quality
+b) it takes up less space for storage
+c) it cannot be delivered to the client more quickly
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+8. Compression ratio is the ratio of ___________
+a) the original file size to the size of the compressed file
+b) the number of pixels in a frame of the original size to those in a frame of the compressed file
+c) compressed file size to the original file size
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+9. Lossy and lossless are classifications of ___________
+a) multimedia storage systems
+b) files
+c) compression algorithms
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+10. Lossy techniques provide ___________ when compared to lossless techniques.
+a) lower compression ratios
+b) much higher compression ratios
+c) similar compression ratios
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+1. A scheduling algorithm can use either ___________ priority or ________ priority.
+a) static, still
+b) static, dynamic
+c) live, dead
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+2. The priority of a process will ______________ if the scheduler assigns it a static priority.
+a) change
+b) remain unchanged
+c) depends on the operating system
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+3. As disks have relatively low transfer rates and relatively high latency rates, disk schedulers must reduce latency times to ___________
+a) ensure high bandwidth
+b) ensure low bandwidth
+c) make sure data is transferred
+d) reduce data transfer speeds
+View Answer
+
+Answer: a
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Servicing requests strictly according to deadline using EDF may result in ___________
+a) lower seek times
+b) lower bandwidth
+c) higher seek time
+d) higher bandwidth
+View Answer
+
+Answer: c
+Explanation: None.
+5. The hybrid algorithm that combines EDF with SCAN algorithm is known as ___________
+a) EDS
+b) SDF
+c) SCAN-EDF
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+Take Operating System Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. If several requests have different deadlines that are relatively close together, then using the SCAN – EDF algorithm ___________
+a) the SCAN ordering will service the requests in that batch
+b) the EDF ordering will service the requests in that batch
+c) the FCFS ordering will service the requests in that batch
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+7. Multimedia systems require _________ scheduling to ensure critical tasks will be serviced within timing deadlines.
+a) soft real time
+b) hard real time
+c) normal
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+8. The EDF scheduler uses ________ to order requests according to their deadlines.
+a) stack
+b) disks
+c) queue
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+9. In SCAN – EDF, requests with the same deadlines are ordered according to ___________
+a) SCAN policy
+b) EDF policy
+c) FCFS policy
+d) FIFO policy
+View Answer
+
+Answer: a
+Explanation: None.
+1. The three general methods for delivering content from a server to a client across a network are ___________
+a) unicasting
+b) multicasting
+c) broadcasting
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+2. Unicasting delivers the content to ___________
+a) a single client
+b) all clients, regardless whether they want the content or not
+c) a group of receivers who indicate they wish to receive the content
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+3. Broadcasting delivers the content to ___________
+a) a single client
+b) all clients, regardless whether they want the content or not
+c) a group of receivers who indicate they wish to receive the content
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Multicasting delivers the content to ___________
+a) a single client
+b) all clients, regardless whether they want the content or not
+c) a group of receivers who indicate they wish to receive the content
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+5. RTSP stands for ___________
+a) Real Time Streaming Policy
+b) Real Time Streaming Protocol
+c) Real Time Systems Protocol
+d) Read Time Streaming Policy
+View Answer
+
+Answer: b
+Explanation: None.
+Check this: Computer Science Books | Computer Science MCQs
+6. HTTP is __________
+a) a stateful protocol
+b) a stateless protocol
+c) a protocol that maintains the status of its connection with the client
+d) a stateless protocol that does not maintain the status of its connection with the client
+View Answer
+
+Answer: d
+Explanation: None.
+7. RTSP includes which of the following states?
+a) SETUP
+b) PLAY
+c) PAUSE
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+8. In the SETUP state ___________
+a) the server is setup
+b) the client is setup
+c) the server allocates resources for the client session
+d) the client sends requests to the server
+View Answer
+
+Answer: c
+Explanation: None.
+9. In the TEARDOWN state ___________
+a) the server breaks down the connection and releases the resources allocated for the session
+b) the client breaks down the connection and releases the resources allocated for the session
+c) the system crashes
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. RTP stands for ___________
+a) real time protocol
+b) real time transmission control protocol
+c) real time transmission protocol
+d) real time transport protocol
+View Answer
+
+Answer: d
+Explanation: None.
+11. The problem with unicast delivery is that the ___________
+a) memory allocation is difficult
+b) server must establish a separate unicast session for each client
+c) the routers must support unicasting
+d) the clients must be close to the server
+View Answer
+
+Answer: b
+Explanation: None.
+12. The difficulty with multicasting from a practical point of view is ___________
+a) memory allocation is difficult
+b) server must establish a separate unicast session for each client
+c) the routers must support multicasting
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+13. To let a client have random access to a media stream with ___________
+a) the protocol used must not be stateless
+b) the server must support download
+c) the stream should give access rights to the client
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.

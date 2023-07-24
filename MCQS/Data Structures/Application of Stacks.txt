@@ -1,0 +1,897 @@
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Prefix to Infix Conversion”.
+
+1. What would be the solution to the given prefix notation?
+
+- + 5 / 10 5 5
+a) 2
+b) 5
+c) 10
+d) 7
+View Answer
+
+Answer: a
+Explanation: The infix notation of the given prefix notation is 5+10/5-5 which gives us 2 as our answer.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+2. What would be the solution to the given prefix notation?
+
+/ / / 16 4 2 1
+a) 1
+b) 4
+c) 2
+d) 8
+View Answer
+
+Answer: c
+Explanation: The infix notation to the given prefix notation is 16/4/2/1 which gives us 2 as our answer. The infix notation is got from the prefix notation by traversing the equation from the right.
+= 16/4/2/1
+= 4/2/1 (16/4=4)
+= 2/1 (4/2=2)
+= 2 (2/1=2).
+Become Top Ranker in Data Structure I Now!
+3. What would be the solution to the given prefix notation?
+
++ 9 * 3 / 8 4
+a) 14
+b) 15
+c) 18
+d) 12
+View Answer
+
+Answer: b
+Explanation: The infix notation for the given prefix notation is (9+(3*(8/4))) which solves to 15. So 15 is correct answer.
+4. What would be the solution to the given prefix notation?
+
+- + 1 2 * 3 / 6 2
+a) 6
+b) -6
+c) 3
+d) -3
+View Answer
+
+Answer: b
+Explanation: The infix notation for the given prefix notation is (1+2)-3*(6/2). The result of the given equation is -6.
+5. What would be the solution to the given prefix notation?
+
+- * 1 5 / * / 6 3 6 2
+a) 1
+b) 0
+c) -1
+d) -2
+View Answer
+
+Answer: c
+Explanation: The infix notation for the given prefix notation is (1*5)-(6/3)*6/2. The result of the equation is -1.
+6. What would be the solution to the given prefix notation?
+
+* / + 1 2 / 4 2 + 3 5
+a) 12
+b) 7.5
+c) 9
+d) 13.5
+View Answer
+
+Answer: a
+Explanation: The infix notation of the given prefix notation is ((1+2)/(4/2))*(3+5) which solves to (3/2)*8 which by solving gives us 12.
+7. Given a prefix and a postfix notation what are the difference between them?
+a) The postfix equation is solved starting from the left whereas the prefix notation is solved from the right
+b) The postfix equation is solved starting from the right whereas the prefix notation is solved from the left
+c) Both equations are solved starting from the same side(right)
+d) Both equations are solved starting from the same side(left)
+View Answer
+
+Answer: a
+Explanation: The postfix notation is solved starting from left but whereas the prefix notation is reversed after creating them, therefore it’s solved starting from right.
+8. When converting the prefix notation into an infix notation, the first step to be followed is ________
+a) Reverse the equation
+b) Push the equation to the stack
+c) Push the equation onto the queue
+d) Push the equation to the stack or queue
+View Answer
+
+Answer: a
+Explanation: The steps that are followed are: the equation is reversed, pushed onto a stack, popped one by one and solved. Therefore the first step is reversing the equation.
+9. The time complexity of converting a prefix notation to infix notation is _________
+a) O(n) where n is the length of the equation
+b) O(n) where n is number of operands
+c) O(1)
+d) O(logn) where n is length of the equation
+View Answer
+
+Answer: a
+Explanation: The processes that are involved are reversing the equation (O(n)), pushing them all onto the stack(O(n)), and popping them one by one and solving them (O(n)). Hence the answer is O(n) where n is the length of the equation.
+10. Given two processes (conversion of postfix equation to infix notation and conversion of prefix notation to infix notation), which of the following is easier to implement?
+a) Both are easy to implement
+b) Conversion of postfix equation to infix equation is harder than converting a prefix notation to infix notation
+c) Conversion of postfix equation to infix equation is easier than converting a prefix notation to infix notation
+d) Insufficient data
+View Answer
+
+Answer: c
+Explanation: As the conversion of prefix notation to infix notation involves reversing the equation, the latter is harder to implement than postfix to infix process.
+
+This set of Data Structure Interview Questions and Answers for Experienced people focuses on “Decimal to Binary using Stacks”.
+
+1. Express -15 as a 6-bit signed binary number.
+a) 001111
+b) 101111
+c) 101110
+d) 001110
+View Answer
+
+Answer: b
+Explanation: The first 4 1s from the right represent the number 15, 2 more bits are padded to make it 6 digits and the leftmost bit is a 1 to represent that it is -15.
+2. Which of the following code snippet is used to convert decimal to binary numbers?
+a)
+
+public void convertBinary(int num)
+{
+     int bin[] = new int[50];
+     int index = 0;
+     while(num > 0)
+     {
+       bin[index++] = num%2;
+       num = num/2;
+     }
+     for(int i = index-1;i >= 0;i--)
+     {
+       System.out.print(bin[i]);
+     }
+}
+b)
+
+public void convertBinary(int num)
+{
+     int bin[] = new int[50];
+     int index = 0;
+     while(num > 0)
+     {
+       bin[++index] = num%2;
+       num = num/2;
+     }
+     for(int i = index-1;i >= 0;i--)
+     {
+       System.out.print(bin[i]);
+     }
+}
+c)
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+public void convertBinary(int num)
+{
+     int bin[] = new int[50];
+     int index = 0;
+     while(num > 0)
+     {
+         bin[index++] = num/2;
+         num = num%2;
+     }
+     for(int i = index-1;i >= 0;i--)
+     {
+         System.out.print(bin[i]);
+     }
+}
+d)
+
+Take Data Structure I Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+public void convertBinary(int num)
+ {
+     int bin[] = new int[50];
+     int index = 0;
+     while(num > 0)
+     {
+         bin[++index] = num/2;
+         num = num%2;
+     }
+     for(int i = index-1;i >= 0;i--)
+     {
+         System.out.print(bin[i]);
+     }
+  }
+View Answer
+Answer: a
+Explanation: Take the modulus by 2 of the number and store in an array while halving the number during each iteration and then display the contents of the array.
+ 
+ 
+3. Which is the predefined method available in Java to convert decimal to binary numbers?
+a) toBinaryInteger(int)
+b) toBinaryValue(int)
+c) toBinaryNumber(int)
+d) toBinaryString(int)
+View Answer
+Answer: d
+Explanation: The method toBinaryString() takes an integer argument and is defined in java.lang package. Usage is java.lang.Integer.toBinaryString(int) this returns the string representation of the unsigned integer value.
+4. Using stacks, how to obtain the binary representation of the number?
+a)
+
+public void convertBinary(int num)
+{
+    Stack<Integer> stack = new Stack<Integer>();
+    while (num != 0)
+    {
+        int digit = num / 2;
+        stack.push(digit);
+        num = num % 2;
+    } 
+    System.out.print("\nBinary representation is:");
+    while (!(stack.isEmpty() ))
+    {
+        System.out.print(stack.pop());
+    }
+ }
+b)
+
+public void convertBinary(int num)
+{
+    Stack<Integer> stack = new Stack<Integer>();
+    while (num != 0)
+    {
+        int digit = num % 2;
+        stack.push(digit);
+    } 
+    System.out.print("\nBinary representation is:");
+    while (!(stack.isEmpty() ))
+    {
+        System.out.print(stack.pop());
+    }
+ }
+c)
+
+public void convertBinary(int num)
+{
+    Stack<Integer> stack = new Stack<Integer>();
+    while (num != 0)
+    {
+        int digit = num % 2;
+        stack.push(digit);
+        num = num / 2;
+    } 
+    System.out.print("\nBinary representation is:");
+    while (!(stack.isEmpty() ))
+    {
+        System.out.print(stack.pop());
+    }
+ }
+d)
+
+public void convertBinary(int num)
+{
+    Stack<Integer> stack = new Stack<Integer>();
+    while (num != 0)
+    {
+        int digit = num % 2;
+        stack.push(digit%2);
+        num = num / 2;
+    } 
+    System.out.print("\nBinary representation is:");
+    while (!(stack.isEmpty() ))
+    {
+        System.out.print(stack.pop());
+    }
+ }
+View Answer
+Answer: c
+Explanation: Here instead of adding the digits to an array, you push it into a stack and while printing, pop it from the stack.
+ 
+ 
+5. What is the time complexity for converting decimal to binary numbers?
+a) O(1)
+b) O(n)
+c) O(logn)
+d) O(nlogn)
+View Answer
+Answer: c
+Explanation: Since each time you are halving the number, it can be related to that of a binary search algorithm, hence the complexity is O(logn).
+6. Write a piece of code which returns true if the string contains balanced parenthesis, false otherwise.
+a)
+
+public boolean isBalanced(String exp)
+{
+	int len = exp.length();
+	Stack<Integer> stk = new Stack<Integer>();
+	for(int i = 0; i < len; i++)
+        {
+		char ch = exp.charAt(i);
+                if (ch == '(')
+                stk.push(i);
+                else if (ch == ')')
+                {
+			if(stk.peek() == null)
+                        {
+				return false;
+			}
+			stk.pop();
+		}
+	}
+	return true;
+}
+b)
+
+public boolean isBalanced(String exp)
+{
+	int len = exp.length();
+	Stack<Integer> stk = new Stack<Integer>();
+	for(int i = 0; i < len; i++)
+            {
+		char ch = exp.charAt(i);
+                if (ch == '(')
+                stk.push(i);
+                else if (ch == ')')
+                {
+			if(stk.peek() != null)
+                        {
+				return true;
+			}
+			stk.pop();
+		}
+	}
+	return false;
+  }
+c)
+
+public boolean isBalanced(String exp)
+{
+	int len = exp.length();
+	Stack<Integer> stk = new Stack<Integer>();
+	for(int i = 0; i < len; i++)
+        {
+	       char ch = exp.charAt(i);
+               if (ch == ')')
+               stk.push(i);
+               else if (ch == '(')
+               {
+			if(stk.peek() == null)
+                        {
+				return false;
+			}
+			stk.pop();
+		}
+	}
+	return true;
+}
+d)
+
+public boolean isBalanced(String exp)
+{
+	int len = exp.length();
+	Stack<Integer> stk = new Stack<Integer>();
+	for(int i = 0; i < len; i++)
+        {
+		char ch = exp.charAt(i);
+                if (ch == '(')
+                stk.push(i);
+                else if (ch == ')')
+                {
+			if(stk.peek() != null)
+                        {
+				return false;
+			}
+			stk.pop();
+		}
+	}
+	return true;
+  }
+View Answer
+Answer: a
+Explanation: Whenever a ‘(‘ is encountered, push it into the stack, and when a ‘)’ is encountered check the top of the stack to see if there is a matching ‘(‘, if not return false, continue this till the entire string is processed and then return true.
+ 
+ 
+7. What is the time complexity of the following code?
+public boolean isBalanced(String exp)
+{
+	int len = exp.length();
+	Stack<Integer> stk = new Stack<Integer>();
+	for(int i = 0; i < len; i++)
+        {
+		char ch = exp.charAt(i);
+                if (ch == '(')
+                stk.push(i);
+                else if (ch == ')')
+                {
+			if(stk.peek() == null)
+                        {
+				return false;
+			}
+			stk.pop();
+		}
+	}
+	return true;
+}
+a) O(logn)
+b) O(n)
+c) O(1)
+d) O(nlogn)
+View Answer
+
+Answer: b
+Explanation: All the characters in the string have to be processed, hence the complexity is O(n).
+8. Which of the following program prints the index of every matching parenthesis?
+a)
+
+public void dispIndex(String exp)
+{
+    Stack<Integer> stk = new Stack<Integer>();
+    for (int i = 0; i < len; i++)
+    {    
+        char ch = exp.charAt(i);
+        if (ch == '(')
+        stk.push(i);
+        else if (ch == ')')
+        {
+          try
+          {
+            int p = stk.pop() + 1;
+            System.out.println("')' at index "+(i+1)+" matched with ')' at index "+p);
+          }
+          catch(Exception e)
+          {
+             System.out.println("')' at index "+(i+1)+" is unmatched");
+          }
+        }            
+    }
+    while (!stk.isEmpty() )
+    System.out.println("'(' at index "+(stk.pop() +1)+" is unmatched");
+}
+b)
+
+public void dispIndex(String exp)
+{
+    Stack<Integer> stk = new Stack<Integer>();
+    for (int i = 0; i < len; i++)
+    {    
+        char ch = exp.charAt(i);
+        if (ch == '(')
+        stk.push(i);
+        else if (ch == ')')
+        {
+           try
+           {
+             int p = stk.pop() + 1;
+             System.out.println("')' at index "+(i)+" matched with ')' at index "+p);
+           }
+           catch(Exception e)
+           {
+              System.out.println("')' at index "+(i)+" is unmatched");
+           }
+        }            
+    }
+    while (!stk.isEmpty() )
+    System.out.println("'(' at index "+(stk.pop() +1)+" is unmatched");
+}
+c)
+
+public void dispIndex(String exp)
+{
+    Stack<Integer> stk = new Stack<Integer>();
+    for (int i = 0; i < len; i++)
+    {    
+        char ch = exp.charAt(i);
+        if (ch == ')')
+        stk.push(i);
+        else if (ch == '(')
+        {
+          try
+          {
+            int p = stk.pop() +1;
+            System.out.println("')' at index "+(i+1)+" matched with ')' at index "+p);
+          }
+          catch(Exception e)
+          {
+             System.out.println("')' at index "+(i+1)+" is unmatched");
+          }
+        }            
+    }
+    while (!stk.isEmpty() )
+    System.out.println("'(' at index "+(stk.pop() +1)+" is unmatched");
+}
+d)
+
+public void dispIndex(String exp)
+{
+    Stack<Integer> stk = new Stack<Integer>();
+    for (int i = 0; i < len; i++)
+    {    
+        char ch = exp.charAt(i);
+        if (ch == ')')
+        stk.push(i);
+        else if (ch == '(')
+        {
+          try
+          {
+            int p = stk.pop();
+            System.out.println("')' at index "+(i+1)+" matched with ')' at index "+p);
+          }
+          catch(Exception e)
+          {
+            System.out.println("')' at index "+(i+1)+" is unmatched");
+          }
+        }            
+    }
+    while (!stk.isEmpty() )
+    System.out.println("'(' at index "+(stk.pop() +1)+" is unmatched");
+}
+View Answer
+Answer: a
+Explanation: Whenever a ‘(‘ is encountered, push the index of that character into the stack, so that whenever a corresponding ‘)’ is encountered, you can pop and print it
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Infix to Postfix Conversion”.
+
+1. When an operand is read, which of the following is done?
+a) It is placed on to the output
+b) It is placed in operator stack
+c) It is ignored
+d) Operator stack is emptied
+View Answer
+
+Answer: a
+Explanation: While converting an infix expression to a postfix expression, when an operand is read, it is placed on to the output. When an operator is read, it is placed in the operator stack.
+2. What should be done when a left parenthesis ‘(‘ is encountered?
+a) It is ignored
+b) It is placed in the output
+c) It is placed in the operator stack
+d) The contents of the operator stack is emptied
+View Answer
+
+Answer: c
+Explanation: When a left parenthesis is encountered, it is placed on to the operator stack. When the corresponding right parenthesis is encountered, the stack is popped until the left parenthesis and remove both the parenthesis.
+3. Which of the following is an infix expression?
+a) (a+b)*(c+d)
+b) ab+c*
+c) +ab
+d) abc+*
+View Answer
+
+Answer: a
+Explanation: (a+b)*(c+d) is an infix expression. +ab is a prefix expression and ab+c* is a postfix expression.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. What is the time complexity of an infix to postfix conversion algorithm?
+a) O(N log N)
+b) O(N)
+c) O(N2)
+d) O(M log N)
+View Answer
+
+Answer: b
+Explanation: The time complexity of an infix to postfix expression conversion algorithm is mathematically found to be O(N).
+5.What is the postfix expression for the corresponding infix expression?
+
+Become Top Ranker in Data Structure I Now!
+a+b*c+(d*e)
+a) abc*+de*+
+b) abc+*de*+
+c) a+bc*de+*
+d) abc*+(de)*+
+View Answer
+
+Answer: a
+Explanation: Using the infix to postfix expression conversion algorithm, the corresponding postfix expression is found to be abc*+de*+.
+6. Parentheses are simply ignored in the conversion of infix to postfix expression.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: When a parenthesis is encountered, it is placed on the operator stack. When the corresponding parenthesis is encountered, the stack is popped until the other parenthesis is reached and they are discarded.
+7. It is easier for a computer to process a postfix expression than an infix expression.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Computers can easily process a postfix expression because a postfix expression keeps track of precedence of operators.
+8. What is the postfix expression for the infix expression?
+
+a-b-c
+a) -ab-c
+b) ab – c –
+c) – -abc
+d) -ab-c
+View Answer
+
+Answer: b
+Explanation: The corresponding postfix expression for the given infix expression is found to be ab-c- and not abc- -.
+9. What is the postfix expression for the following infix expression?
+
+a/b^c-d
+a) abc^/d-
+b) ab/cd^-
+c) ab/^cd-
+d) abcd^/-
+View Answer
+
+Answer: a
+Explanation: Using the infix to postfix conversion algorithm, the corresponding postfix expression for the infix expression is found to be abc^/d-.
+10. Which of the following statement is incorrect with respect to infix to postfix conversion algorithm?
+a) operand is always placed in the output
+b) operator is placed in the stack when the stack operator has lower precedence
+c) parenthesis are included in the output
+d) higher and equal priority operators follow the same condition
+View Answer
+
+Answer: c
+Explanation: Parentheses are not included in the output. They are placed in the operator stack and then discarded.
+11. In infix to postfix conversion algorithm, the operators are associated from?
+a) right to left
+b) left to right
+c) centre to left
+d) centre to right
+View Answer
+
+Answer: b
+Explanation: In infix, prefix and postfix expressions, the operators are associated from left to right and not right to left.
+12. What is the corresponding postfix expression for the given infix expression?
+
+a*(b+c)/d
+a) ab*+cd/
+b) ab+*cd/
+c) abc*+/d
+d) abc+*d/
+View Answer
+
+Answer: d
+Explanation: Using the infix to postfix conversion algorithm, the corresponding postfix expression is obtained as abc+*d/.
+13. What is the corresponding postfix expression for the given infix expression?
+
+a+(b*c(d/e^f)*g)*h)
+a) ab*cdef/^*g-h+
+b) abcdef^/*g*h*+
+c) abcd*^ed/g*-h*+
+d) abc*de^fg/*-*h+
+View Answer
+
+Answer: b
+Explanation: Using the infix to postfix expression conversion algorithm using stack, the corresponding postfix expression is found to be abcdef^/*g*h*+.
+14. What is the correct postfix expression for the following expression?
+
+a+b*(c^d-e)^(f+g*h)-i
+a) abc^de-fg+*^*+i-
+b) abcde^-fg*+*^h*+i-
+c) abcd^e-fgh*+^*+i-
+d) ab^-dc*+ef^gh*+i-
+View Answer
+
+Answer: c
+Explanation: The postfix expression for the given infix expression is found to be abcd^e-fgh*+^*+i- when we use infix to postfix conversion algorithm.
+15. From the given Expression tree, identify the correct postfix expression from the list of options.
+The postfix expression is ab*cd-+ from the given Expression tree
+a) ab*cd*+
+b) ab*cd-+
+c) abcd-*+
+d) ab*+cd-
+View Answer
+
+Answer: b
+Explanation: From the given expression tree, the infix expression is found to be (a*b)+(c-d). Converting it to postfix, we get, ab*cd-+.
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Infix to Prefix Conversion”.
+
+1. What data structure is used when converting an infix notation to prefix notation?
+a) Stack
+b) Queue
+c) B-Trees
+d) Linked-list
+View Answer
+
+Answer: a
+Explanation: First you reverse the given equation and carry out the algorithm of infix to postfix expression. Here, the data structure used is stacks.
+2. What would be the Prefix notation for the given equation?
+
+A+(B*C)
+a) +A*CB
+b) *B+AC
+c) +A*BC
+d) *A+CB
+View Answer
+
+Answer: c
+Explanation: Reverse the equation or scan the equation from right to left. Apply the infix-postfix algorithm. The equation inside the bracket evaluates to CB* and outside the bracket evaluates to A+ therefore getting CB*A+. Reversing this and we get +A*BC.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+3. What would be the Prefix notation for the given equation?
+
+Get Free Certificate of Merit in Data Structure I Now!
+(A*B)+(C*D)
+a) +*AB*CD
+b) *+AB*CD
+c) **AB+CD
+d) +*BA*CD
+View Answer
+
+Answer: a
+Explanation: Reverse the equation or scan the equation from right to left. Apply the infix-postfix algorithm. The equation inside the brackets evaluate to DC* and BA* respectively giving us DC*BA*+ in the end. Reversing this we get the +*AB*CD.
+4. What would be the Prefix notation for the given equation?
+
+A+B*C^D
+a) +A*B^CD
+b) +A^B*CD
+c) *A+B^CD
+d) ^A*B+CD
+View Answer
+
+Answer: a
+Explanation: Reverse the equation or scan the equation from right to left. Apply the infix-prefix algorithm. The preference order in ascending order are as follows +*^. Operators are pushed into the stack and popped if its preference is greater than the one which is getting pushed. In the end all operators are popped. The equation evaluates to DC^B*A+. Reversing this we get our following answer.
+5. Out of the following operators (^, *, +, &, $), the one having highest priority is _________
+a) +
+b) $
+c) ^
+d) &
+View Answer
+
+Answer: c
+Explanation: According to the algorithm (infix-prefix), it follows that the exponentiation will have the highest priority.
+6. Out of the following operators (|, *, +, &, $), the one having lowest priority is ________
+a) +
+b) $
+c) |
+d) &
+View Answer
+
+Answer: c
+Explanation: According to the algorithm (infix-prefix), it follows that the logical OR will have the lowest priority.
+7. What would be the Prefix notation for the given equation?
+
+A^B^C^D
+a) ^^^ABCD
+b) ^A^B^CD
+c) ABCD^^^
+d) AB^C^D
+View Answer
+
+Answer: a
+Explanation: Reverse the equation or scan the equation from right to left. Apply the infix-prefix algorithm. Here we have to remember that the exponentiation has order of associativity from right to left. Therefore the stack goes on pushing ^. Therefore resulting in ^^^ABCD.
+8. What would be the Prefix notation for the given equation?
+
+a+b-c/d&e|f
+a) |&-+ab/cdef
+b) &|-+ab/cdef
+c) |&-ab+/cdef
+d) |&-+/abcdef
+View Answer
+
+Answer: a
+Explanation: Reverse the equation or scan the equation from right to left. Apply the infix-prefix algorithm. The preference order in ascending order are as follows |&+*/.
+9. What would be the Prefix notation for the given equation?
+
+(a+(b/c)*(d^e)-f)
+a) -+a*/^bcdef
+b) -+a*/bc^def
+c) -+a*b/c^def
+d) -a+*/bc^def
+View Answer
+
+10. What would be the Prefix notation and Postfix notation for the given equation?
+
+A+B+C
+a) ++ABC and AB+C+
+b) AB+C+ and ++ABC
+c) ABC++ and AB+C+
+d) ABC+ and ABC+
+View Answer
+
+Answer: a
+Explanation: For prefix notation there is a need of reversing the giving equation and solving it as a normal infix-postfix question. We see that it doesn’t result as same as normal infix-postfix conversion.
+11. What would be the Prefix notation for the given equation?
+
+a|b&c
+a) a|&bc
+b) &|abc
+c) |a&bc
+d) ab&|c
+View Answer
+
+Answer: c
+Explanation: The order of preference of operators is as follows (descending): & |.
+The equation a|b&c will be parenthesized as (a|(b&c)) for evaluation.
+Therefore the equation for prefix notation evaluates to |a&bc.
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Postfix to Infix Conversion”.
+
+1. Which of the following data structure is used to convert postfix expression to infix expression?
+a) Stack
+b) Queue
+c) Linked List
+d) Heap
+View Answer
+
+Answer: a
+Explanation: To convert the postfix expression into infix expression we need stack. We need stack to maintain the intermediate infix expressions. We use stack to hold operands.
+2. The postfix expression abc+de/*- is equivalent to which of the following infix expression?
+a) abc+-de*/
+b) (a+b)-d/e*c
+c) a-(b+c)*(d/e)
+d) abc+*-(d/e)
+View Answer
+
+Answer: c
+Explanation: Given postfix expression : abc+de/*-
+infix ⇒ a(b+c)(d/e)*-
+⇒ a(b+c)*(d/e)-
+⇒ a-(b+c)*(d/e)
+Hence, correct choice is a-(b+c)*(d/e).
+3. The equivalent infix expression and value for the postfix form 1 2 + 3 * 4 5 * – will be ___________
+a) 1 + 2 * 3 – 4 * 5 and -13
+b) (2 + 1) * (3 – 4) * 5 and 13
+c) 1 + 2 * (3 – 4) * 5 and -11
+d) (1 + 2) * 3 – (4 * 5) and -11
+View Answer
+
+Answer: d
+Explanation: Given postfix expression : 1 2 + 3 * 4 5 * –
+⇒ (1 + 2) 3 * 4 5 * –
+⇒ ((1 + 2) * 3) 4 5 * –
+⇒ ((1 + 2) * 3) (4 * 5) –
+⇒ ((1 + 2) * 3) – (4 * 5)
+So, the equivalent infix expression is (1 + 2) * 3 – (4 * 5) and it’s value is -11.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. What is the value of the postfix expression 2 3 + 4 5 6 – – *
+a) 19
+b) 21
+c) -4
+d) 25
+View Answer
+
+Answer: d
+Explanation: Given postfix expression : 2 3 + 4 5 6 – – *
+infix ⇒ (2 + 3)4 (5 – 6) – *
+⇒ (2 + 3)*4 – (5 – 6)
+Hence, value = (2 + 3) * (4 – (5 – 6)) = 5 *(4 – (-1)) = 5*5 = 25.
+5. The prefix expression of the postfix expression AB+CD-* is __________
+a) (A+B)*(C-D)
+b) +AB*-CD
+c) A+*BCD-
+d) *+AB-CD
+View Answer
+
+Answer: d
+Explanation: To convert from postfix to prefix, we first convert it to infix and then to prefix.
+postfix : AB+CD-*
+infix ⇒ (A+B) * (C-D)
+So, prefix ⇒ +AB*-CD,
+⇒ *+AB-CD.
+Therefore, correct choice is *+AB-CD.
+Take Data Structure I Tests Now!
+6. Consider the postfix expression 4 5 6 a b 7 8 a c, where a, b, c are operators. Operator a has higher precedence over operators b and c. Operators b and c are right associative. Then, equivalent infix expression is
+a) 4 a 5 6 b 7 8 a c
+b) 4 a 5 c 6 b 7 a 8
+c) 4 b 5 a 6 c 7 a 8
+d) 4 a 5 b 6 c 7 a 8
+View Answer
+
+Answer: c
+Explanation: Given postfix expression: 4 5 6 a b 7 8 a c
+infix ⇒ 4 (5 a 6) b (7 a 8) c
+⇒ (4 b (5 a 6)) (7 a 8) c
+⇒ (4 b (5 a 6)) c (7 a 8)
+So, the required infix expression is 4 b 5 a 6 c 7 a 8.
+7. To convert the postfix expression into the infix expression we use stack and scan the postfix expression from left to right.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Stack is used to postfix expression to infix expression. And to convert we follow the following steps: (i) Scan the expression from left to right. (ii) If operand is found, push it on stack.(iii) If operator is found, the two operands are popped and the combined infix expression is formed and pushed onto the stack.
+8. Which of the following is valid reverse polish expression?
+a) a op b
+b) op a b
+c) a b op
+d) both op a b and a b op
+View Answer
+
+Answer: c
+Explanation: The postfix expression is also known as the reverse polish expression. In postfix expressions, the operators come after the operands. So, the correct expression is a b op and hence a b op is correct.
+9. The result of the postfix expression 5 3 * 9 + 6 / 8 4 / + is _____________
+a) 8
+b) 6
+c) 10
+d) 9
+View Answer
+
+Answer: b
+Explanation: Given postfix expression: 5 3 * 9 + 6 / 8 4 / +
+Result = 5 3 * 9 + 6 / 8 4 / +
+= (5 * 3) 9 + 6 / (8 / 4) +
+= ((5 * 3) + 9) / 6 + ( 8 / 4) = ( 24 / 6) + 2 = 4 + 2 = 6.

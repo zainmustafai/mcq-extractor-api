@@ -13,6 +13,7 @@ import {
   getAllChaptersBySubjectId,
   getAllDepartments,
   getAllMCQs,
+  getAllMCQsByChapterId,
   getAllSubjects,
   getAllSubjectsByDepartmentId,
 } from "./controllers.js";
@@ -36,6 +37,7 @@ router.delete("/chapters/:chapterid",deleteChapterById);
 
 //mcqs:
 router.get("/mcqs",getAllMCQs);
+router.get("/mcqs/:chapterid",getAllMCQsByChapterId);
 
 router.post("/:subjectid/:chapterid/mcqs", createBulkMCQs);
 router.get("/:subjectid/:chapterid/mcqs", getAllMCQs);

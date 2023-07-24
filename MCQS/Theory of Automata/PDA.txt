@@ -1,0 +1,486 @@
+This set of Automata Theory Questions and Answers for Entrance exams focuses on “PDA-Acceptance by Final State”.
+
+1. A push down automaton employs ________ data structure.
+a) Queue
+b) Linked List
+c) Hash Table
+d) Stack
+View Answer
+
+Answer: d
+Explanation: A push down automata uses a stack to carry out its operations. They are more capable than the finite automatons but less than the turing model.
+2. State true or false:
+Statement: The operations of PDA never work on elements, other than the top.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: The term pushdown refers to the fact that the elements are pushed down in the stack and as per the LIFO principle, the operation is always performed on the top element of the stack.
+3. Which of the following allows stacked values to be sub-stacks rather than just finite symbols?
+a) Push Down Automaton
+b) Turing Machine
+c) Nested Stack Automaton
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: In computational theory, a nested stack automaton is a finite automaton which makes use of stack containing data which can be additional stacks.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. A non deterministic two way, nested stack automaton has n-tuple definition. State the value of n.
+a) 5
+b) 8
+c) 4
+d) 10
+View Answer
+
+Answer: d
+Explanation: The 10-tuple can be stated as: NSA= <Q,Σ,Γ,δ,q0,Z0,F,[,],]>.
+5. Push down automata accepts _________ languages.
+a) Type 3
+b) Type 2
+c) Type 1
+d) Type 0
+View Answer
+
+Answer: b
+Explanation: Push down automata is for Context free languages and they are termed as Type 2 languages according to Chomsky hierarchy.
+Check this: Automata Theory Books | Computer Science Books
+6. The class of languages not accepted by non deterministic, nonerasing stack automata is _______
+a) NSPACE(n2)
+b) NL
+c) CSL
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: NSPACE or non deterministic space is the computational resource describing the memory space for a non deterministic turing machine.
+7. A push down automaton with only symbol allowed on the stack along with fixed symbol.
+a) Embedded PDA
+b) Nested Stack automata
+c) DPDA
+d) Counter Automaton
+View Answer
+
+Answer: d
+Explanation: This class of automata can recognize a set of context free languages like {anbn|n belongs to N}
+8. Which of the operations are eligible in PDA?
+a) Push
+b) Delete
+c) Insert
+d) Add
+View Answer
+
+Answer: a
+Explanation: Push and pop are the operations we perform to operate a stack. A stack follows the LIFO principle, which states its rule as: Last In First Out.
+9. A string is accepted by a PDA when
+a) Stack is not empty
+b) Acceptance state
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: When we reach the acceptance state and find the stack to be empty, we say, the string has been accepted by the push down automata.
+10. The following move of a PDA is on the basis of:
+a) Present state
+b) Input Symbol
+c) Present state and Input Symbol
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The next operation is performed by PDA considering three factors: present state,symbol on the top of the stack and the input symbol.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Deterministic PDA”
+
+1. The transition a Push down automaton makes is additionally dependent upon the:
+a) stack
+b) input tape
+c) terminals
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: A PDA is a finite machine which has an additional stack storage. Its transitions are based not only on input and the correct state but also on the stack.
+2. A PDA machine configuration (p, w, y) can be correctly represented as:
+a) (current state, unprocessed input, stack content)
+b) (unprocessed input, stack content, current state)
+c) (current state, stack content, unprocessed input)
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: A machine configuration is an element of K×Σ*×Γ*.
+(p,w,γ) = (current state, unprocessed input, stack content).
+3. |-* is the __________ closure of |-
+a) symmetric and reflexive
+b) transitive and reflexive
+c) symmetric and transitive
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: A string w is accepted by a PDA if and only if (s,w, e) |-* (f, e, e)
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. With reference of a DPDA, which among the following do we perform from the start state with an empty stack?
+a) process the whole string
+b) end in final state
+c) end with an empty stack
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: The empty stack in the end is our requirement relative to finite state automatons.
+5. A DPDA is a PDA in which:
+a) No state p has two outgoing transitions
+b) More than one state can have two or more outgoing transitions
+c) Atleast one state has more than one transitions
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A Deterministic Push Down Automata is a Push Down Automata in which no state p has two or more transitions.
+Check this: Computer Science MCQs | Automata Theory Books
+6. State true or false:
+Statement: For every CFL, G, there exists a PDA M such that L(G) = L(M) and vice versa.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: There exists two lemma’s such that:
+a) Given a grammar G, construct the PDA and show the equivalence
+b) Given a PDA, construct a grammar and show the equivalence
+7. If the PDA does not stop on an accepting state and the stack is not empty, the string is:
+a) rejected
+b) goes into loop forever
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: To accept a string, PDA needs to halt at an accepting state and with a stack empty, else it is called rejected. Given a PDA M, we can construct a PDA M’ that accepts the same language as M, by both acceptance criteria.
+8. A language accepted by Deterministic Push down automata is closed under which of the following?
+a) Complement
+b) Union
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Deterministic Context free languages(one accepted by PDA by final state), are drastically different from the context free languages. For example they are closed under complementation and not union.
+9. Which of the following is a simulator for non deterministic automata?
+a) JFLAP
+b) Gedit
+c) FAUTO
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: JFLAP is a software for experimenting with formal topics including NFA, NPDA, multi-tape turing machines and L-systems.
+10. Finite-state acceptors for the nested words can be:
+a) nested word automata
+b) push down automata
+c) ndfa
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: The linear encodings of languages accepted by finite nested word automata gives the class of ‘visibly pushdown automata’.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “From PDA to Grammars”.
+
+1. The instantaneous PDA is has the following elements
+a) State
+b) Unconsumed input
+c) Stack content
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The instantaneous description of a PDA is represented by 3 tuple:
+(q,w,s)
+where q is the state, w is the unconsumed input and s is the stack content.
+2. The moves in the PDA is technically termed as:
+a) Turnstile
+b) Shifter
+c) Router
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A turnstile notation is used for connecting pairs od ID’s taht represents one or many moves of a PDA.
+3. Which of the following option resembles the given PDA?
+Find the option which resembles the given PDA
+a) {0n1n|n>=0}
+b) {0n12n|n>=0}
+c) {02n1n|n>=0}
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the following correctly resembles the given state diagram?
+The given state diagram resembles {wwr|w=(a+b)*}
+a) {wwr|w=(a+b)*}
+b) ε is called the initial stack symbol
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Initially we put a special symbol ‘#’ into the empty stack. At state q1, the w is being read. In state q2, each 0 or 1 is popped when it matches the input. If any other input is given, the PDA will go to a dead state. When we reach that special symbol ‘#’, we go to the accepting state q3.
+5. Which of the following assertion is false?
+a) If L is a language accepted by PDA1 by final state, there exist a PDA2 that accepts L by empty stack i.e. L=L(PDA1)=L(PDA2)
+b) If L is a CFL then there exists a push down automata P accepting CF; by empty stack i.e. L=M(P)
+c) Let L is a language accepted by PDA1 then there exist a CFG X such that L(X)=M(P)
+d) All of the mentioned
+View Answer
+
+Check this: Computer Science Books | Automata Theory Books
+6. A push down automata can represented using:
+a) Transition graph
+b) Transition table
+c) ID
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Yes, a PDA can be represented using a transition diagram, transition table and an instantaneous description.
+7. State true or false:
+Statement: Every context free grammar can be transformed into an equvalent non deterministic push down automata.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: Push down automata is the automaton machine for all the context free grammar or Type 2 languages.
+8. Which of the following statement is false?
+a) For non deterministic PDA, equivalence is undecidable
+b) For deterministic PDA, equivalence is decidable
+c) For deterministic PDA, equivalence is undecidable
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Geraud proved the equivalence problem decidable for Deterministic PDA .
+9. Which of the following are the actions that operates on stack top?
+a) Pushing
+b) Popping
+c) Replacing
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Push, pop and replace are all the basic and only operations that takes place on stack top.
+10. A push down automata is said to be _________ if it has atmost one transition around all configurations.
+a) Finite
+b) Non regular
+c) Non-deterministic
+d) Deterministic
+View Answer
+
+Answer: d
+Explanation: DPDA or Deterministic Push down automata has atmost one transition applicable to each configuration.
+
+This set of Basic Automata Theory Questions and Answers focuses on “From Grammars to Push Down Automata”.
+
+1. The production of the form A->B , where A and B are non terminals is called
+a) Null production
+b) Unit production
+c) Greibach Normal Form
+d) Chomsky Normal Form
+View Answer
+
+Answer: b
+Explanation: A->ε is termed as Null production while A->B is termed as Unit production.
+2. Halting states are of two types. They are:
+a) Accept and Reject
+b) Reject and Allow
+c) Start and Reject
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Halting states are the new tuple members introduced in turing machine and is of two types: Accept Halting State and Reject Halting State.
+3. A push down automata can be represented as:
+PDA= ε-NFA +[stack] State true or false:
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation:
+A push down automata can be represented as PDA = ε - NFA + [stack]
+Subscribe Now: Automata Theory Newsletter | Important Subjects Newsletters
+advertisement
+4. A pushdown automata can be defined as: (Q, ∑, G, q0, z0, A, d)
+What does the symbol z0 represents?
+a) an element of G
+b) initial stack symbol
+c) top stack alphabet
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: z0 is the initial stack symbol, is an element of G. Other symbols like d represents the transition function of the machine.
+5. Which of the following correctly recognize the symbol ‘|-‘ in context to PDA?
+a) Moves
+b) transition function
+c) or/not symbol
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Using this notation, we can define moves and further acceptance of a string by the machine.
+Check this: Automata Theory Books | Computer Science Books
+6. Which among the following is true for the given statement?
+Statement :If there are strings R and T in a language L so that R is prefix of T and R is not equivalent to T.
+a) No DPDA can accept L by empty stack
+b) DPDA can accept L by an empty stack
+c) L is regular
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: If M is a DPDA accepting L by an empty stsck, R and T are distinct strings in L, and R is a prefix of T, then the sequence of moves M must make in order to accept R leaves the stack empty, since R∈L. But then T cannot be accepted, since M cant move with an empty stack.
+7. Which of the following can be accepted by a DPDA?
+a) The set of even length palindrome over {a,b}
+b) The set of odd length palindrome over {a,b}
+c) {xxc| where c stands for the complement,{0,1}}
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Theorem: The language pal of palindromes over the alphabet {0,1} cannot be accepted by any finite automaton , and it is therefore not regular.
+8. For a counter automaton, with the symbols A and Z0, the string on the stack is always in the form of __________
+a) A
+b) AnZ0, n>=0
+c) Z0An, n>=0
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation:The possible change in the stack contents is a change in the number of A’s on the stack.
+9. State true or false:
+Statement: Counter Automaton can exist for the language L={0i1i|i>=0}
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: The PDA works as follows. Instead of saving excess 0’s or 1’s on the stack, we save *’s and use two different states to indicate which symbol there is currently a surplus of. The state q0 is the initial state and the only accepting state.
+10. Let ∑={0,1}* and the grammar G be:
+S->ε
+S->SS
+S->0S1|1S0
+State which of the following is true for the given
+a) Language of all and only Balanced strings
+b) It contains equal number of 0’s and 1’s
+c) Ambiguous Grammar
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: A string is said to be balanced if it consist of equal number of 0’s and 1’s.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “PDA-acceptance by Empty Stack”.
+
+1. If two sets, R and T has no elements in common i.e. RÇT=Æ, then the sets are called
+a) Complement
+b) Union
+c) Disjoint
+d) Connected
+View Answer
+
+Answer: c
+Explanation: Two sets are called disjoint if they have no elements in common i.e. RÇT=Æ.
+2. Which among the following is not a part of the Context free grammar tuple?
+a) End symbol
+b) Start symbol
+c) Variable
+d) Production
+View Answer
+
+Answer: a
+Explanation: The tuple definition of context free grammar is: (V, T, P, S) where V=set of variables, T=set of terminals, P=production, S= Starting Variable.
+3. A context free grammar is a ___________
+a) English grammar
+b) Regular grammar
+c) Context sensitive grammar
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Context free grammar is the set which belongs to the set of context free grammar. Similarly, Regular grammar is a set which belongs to the the set of Context free grammar.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. The closure property of context free grammar includes :
+a) Kleene
+b) Concatenation
+c) Union
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Context free grammars are closed under kleene operation, union and concatenation too.
+5. Which of the following automata takes stack as auxiliary storage?
+a) Finite automata
+b) Push down automata
+c) Turing machine
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Pushdown Automaton uses stack as an auxiliary storage for its operations. Turing machines use Queue for the same.
+Check this: Automata Theory Books | Computer Science MCQs
+6. Which of the following automata takes queue as an auxiliary storage?
+a) Finite automata
+b) Push down automata
+c) Turing machine
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Pushdown Automaton uses stack as an auxiliary storage for its operations. Turing machines use Queue for the same.
+7. A context free grammar can be recognized by
+a) Push down automata
+b) 2 way linearly bounded automata
+c) Push down automata & 2 way linearly bounded automata
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: A linearly bounded automata is a restricted non deterministic turing machine which is capable of accepting ant context free grammar.
+8. A null production can be referred to as:
+a) String
+b) Symbol
+c) Word
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Null production is always taken as a string in computational theory.
+9. The context free grammar which generates a Regular Language is termed as:
+a) Context Regular Grammar
+b) Regular Grammar
+c) Context Sensitive Grammar
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Regular grammar is a subset of Context free grammar. The CFGs which produces a language for which a finite automaton can be created is called Regular grammar.
+10. NPDA stands for
+a) Non-Deterministic Push Down Automata
+b) Null-Push Down Automata
+c) Nested Push Down Automata
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: NPDA stands for non-deterministic push down automata whereas DPDA stands for deterministic push down automata.

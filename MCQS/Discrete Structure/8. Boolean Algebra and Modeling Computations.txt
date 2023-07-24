@@ -1,0 +1,523 @@
+1. Algebra of logic is termed as ______________
+a) Numerical logic
+b) Boolean algebra
+c) Arithmetic logic
+d) Boolean number
+View Answer
+
+Answer: c
+Explanation: The variables that can have two discrete values False(0) and True(1) and the operations of logical significance are dealt with Boolean algebra.
+2. Boolean algebra can be used ____________
+a) For designing of the digital computers
+b) In building logic symbols
+c) Circuit theory
+d) Building algebraic functions
+View Answer
+
+Answer: a
+Explanation: For designing digital computers and building different electronic circuits boolean algebra is accepted widely.
+3. What is the definition of Boolean functions?
+a) An arithmetic function with k degrees such that f:Y–>Yk
+b) A special mathematical function with n degrees such that f:Yn–>Y
+c) An algebraic function with n degrees such that f:Xn–>X
+d) A polynomial function with k degrees such that f:X2–>Xn
+View Answer
+
+Answer: b
+Explanation: A Boolean function is a special mathematical function with n degrees and where Y = {0,1} is the Boolean domain with being a non-negative integer. It helps in describing the way in which the Boolean output is derived from Boolean inputs.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. F(X,Y,Z,M) = X`Y`Z`M`. The degree of the function is ________
+a) 2
+b) 5
+c) 4
+d) 1
+View Answer
+
+Answer: c
+Explanation: This is a function of degree 4 from the set of ordered pairs of Boolean variables to the set {0,1}.
+5. A ________ value is represented by a Boolean expression.
+a) Positive
+b) Recursive
+c) Negative
+d) Boolean
+View Answer
+
+Answer: d
+Explanation: A Boolean value is given by a Boolean expression which is formed by combining Boolean variables and logical connectives.
+Become Top Ranker in Discrete Mathematics Now!
+6. Which of the following is a Simplification law?
+a) M.(~M+N) = M.N
+b) M+(N.O) = (M+N)(M+O)
+c) ~(M+N) = ~M.~N
+d) M.(N.O) = (M.N).O
+View Answer
+
+Answer: a
+Explanation: By Simplification Law we can have X.(~X+Y) = X.Y and X+(~X.Y) = X+Y. By, De’ Morgan’s law ~(X+Y) = ~X.~Y. By commutative law we can say that A.(B.C) = (A.B).C.
+7. What are the canonical forms of Boolean Expressions?
+a) OR and XOR
+b) NOR and XNOR
+c) MAX and MIN
+d) SOM and POM
+View Answer
+
+Answer: d
+Explanation: There are two kinds of canonical forms for a Boolean expression-> 1)sum of minterms(SOM) form and
+2)product of maxterms(SOM) form.
+8. Which of the following is/are the universal logic gates?
+a) OR and NOR
+b) AND
+c) NAND and NOR
+d) NOT
+View Answer
+
+Answer: c
+Explanation: NAND and NOR gates are known as the universal logic gates. A universal gate is a gate which can implement any Boolean function without the help of 3 basic gate types.
+9. The logic gate that provides high output for same inputs ____________
+a) NOT
+b) X-NOR
+c) AND
+d) XOR
+View Answer
+
+Answer: b
+Explanation: The logic gate which gives high output for the same inputs, otherwise low output is known as X-NOR or Exclusive NOR gate.
+10. The ___________ of all the variables in direct or complemented from is a maxterm.
+a) addition
+b) product
+c) moduler
+d) subtraction
+View Answer
+
+Answer: a
+Explanation: The Boolean function is expressed as a sum of the 1-minterms and the inverse of function is represented as 0-minterms.
+1. What is the use of Boolean identities?
+a) Minimizing the Boolean expression
+b) Maximizing the Boolean expression
+c) To evaluate a logical identity
+d) Searching of an algebraic expression
+View Answer
+
+Answer: a
+Explanation: Boolean identities are used for minimizing the Boolean expression and transforming into an equivalent expression.
+2. _________ is used to implement the Boolean functions.
+a) Logical notations
+b) Arithmetic logics
+c) Logic gates
+d) Expressions
+View Answer
+
+Answer: c
+Explanation: To implement a Boolean function logic gates are used. Basic logic gates are AND, OR and NOT.
+3. Inversion of single bit input to a single bit output using _________
+a) NOT gate
+b) NOR gate
+c) AND gate
+d) NAND gate
+View Answer
+
+Answer: a
+Explanation: A NOT gate is used to invert a single bit input (say A) to a single bit of output (~A).
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. There are _________ numbers of Boolean functions of degree n.
+a) n
+b) 2(2*n)
+c) n3
+d) n(n*2)
+View Answer
+
+Answer: b
+Explanation: There are 2n different n-tuples of 0’s and 1’s. A Boolean function is an assignment of 0’s or 1’s to each of these 2 n different n-tuples. Hence, there are 2(2*n) different Boolean functions.
+5. A _________ is a Boolean variable.
+a) Literal
+b) String
+c) Keyword
+d) Identifier
+View Answer
+
+Answer: a
+Explanation: A literal is a Boolean variable or its complement. A maxterm is a sum of n literals and a minterm is a product of n literals.
+Take Discrete Mathematics Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Minimization of function F(A,B,C) = A*B*(B+C) is _________
+a) AC
+b) B+C
+c) B`
+d) AB
+View Answer
+
+Answer: d
+Explanation: AB(B+C)
+= ABB + ABC [Applying distributive rule]
+= AB + ABC [Applying Idempotent law]
+= AB (1+C)
+= AB*1 [As, 1+C=1]
+= AB.
+7. The set for which the Boolean function is functionally complete is __________
+a) {*, %, /}
+b) {., +, -}
+c) {^, +, -}
+d) {%, +, *}
+View Answer
+
+Answer: b
+Explanation: A Boolean function is represented by using three operators ., +, -. We can ﬁnd a smaller set of functionally complete operators if one of the three operators of this set can be expressed in terms of the other two.
+8. (X+Y`)(X+Z) can be represented by _____
+a) (X+Y`Z)
+b) (Y+X`)
+c) XY`
+d) (X+Z`)
+View Answer
+
+Answer: a
+Explanation: (X+Y`) (X+Z)
+= XX + XZ + XY`+ Y`Z
+= X + XZ + XY`+ Y`Z
+= X (1+Z) + XY`+ Y`Z
+= X.1 + XY`+ Y`Z
+= X (1+Y`) + Y`Z
+= X + Y`Z.
+9. __________ is a disjunctive normal form.
+a) product-of-sums
+b) product-of-subtractions
+c) sum-of-products
+d) sum-of-subtractions
+View Answer
+
+Answer: c
+Explanation: The sum of minterms that represents the function is called the sum-of-products expansion or the disjunctive normal form. A Boolean sum of minterms has the value 1 when exactly one of the minterms in the sum has the value 1. It has the value 0 for all other combinations of values of the variables.
+10. a ⊕ b = ________
+a) (a+b)(a`+b`)
+b) (a+b`)
+c) b`
+d) a` + b`
+View Answer
+
+Answer: a
+Explanation: a ⊕ b
+= a`b + ab`
+= a`b+aa` + bb` + ab` [As, a*a` = 0 and b*b` = 0]
+= a`(a+b) + b`(a+b)
+= (a+b)(a`+b`).
+1. Find the simplified expression A’BC’+AC’.
+a) B
+b) A+C
+c) (A+B)C’
+d) B’C
+View Answer
+
+Answer: c
+Explanation: Given: A’BC’ + AC’
+= C’(A’B + A)
+= C’(A + B).
+2. Evaluate the expression: (X + Z)(X + XZ’) + XY + Y.
+a) XY+Z’
+b) Y+XZ’+Y’Z
+c) X’Z+Y
+d) X+Y
+View Answer
+
+Answer: d
+Explanation: (X + Z)(X + XZ’) + XY + Y [Original Expression]
+= (x + z)X(1 + Z’) + XY + Y [Distributive]
+= (X + Z)X + XY + Y [Complement, Identity]
+= (X+Z)X + Y(X+1) [ Distributive]
+= (X+Z)X + Y [Idempotent]
+= XX + XZ + Y [Distributive]
+= X + XZ + Y [Identity]
+= X(1+Z) + Y
+= X + Y [Idempotent].
+3. Simplify the expression: A’(A + BC) + (AC + B’C).
+a) (AB’C+BC’)
+b) (A’B+C’)
+c) (A+ BC)
+d) AC
+View Answer
+
+Answer: b
+Explanation: Given: A’(A + BC) + (AC + B’C)
+= A’A + A’BC + AC + B’C
+= A’BC + C(A + B’)
+= C(A’B + A + B’)
+= C(A + B + B’)
+= C(A + 1)
+= AC.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What is the simplification value of MN(M + N’) + M(N + N’)?
+a) M
+b) MN+M’N’
+c) (1+M)
+d) M+N’
+View Answer
+
+Answer: b
+Explanation: Given: MN(M + N’) + M(N + N’)
+= MN(M+N’) + M.1
+= MNM + MNN’ + M
+= MN + 0 +M
+= M(N + 1)
+= M.
+5. Simplify the expression XZ’ + (Y + Y’Z) + XY.
+a) (1+XY’)
+b) YZ + XY’ + Z’
+c) (X + Y +Z)
+d) XY’+ Z’
+View Answer
+
+Check this: BCA Books | Computer Science Books
+6. Find the simplified term Y’ (X’ + Y’) (X + X’Y)?
+a) XY’
+b) X’Y
+c) X + Y
+d) X’Y’
+View Answer
+
+Answer: a
+Explanation: Given: Y’ (X’ + Y’) (X + X’Y)
+= Y’(X’ + Y’)(X + Y)
+= (X’Y’ + Y’)(X + Y)
+= (XX’Y’ + X’Y’Y + XY’ + YY’)
+= XY’.
+7. If an expression is given that x+x’y’z=x+y’z, find the minimal expression of the function F(x,y,z) = x+x’y’z+yz?
+a) y’ + z
+b) xz + y’
+c) x + z
+d) x’ + y
+View Answer
+
+Answer: c
+Explanation: We have, x+x’y’z+yz
+= x+y’z+yz [since, x+x’y’z=x+y’z]
+= x+z(y’+y)
+= x + z.
+8. Simplify the expression: XY’ + X’ + Y’X’.
+a) X’ + Y
+b) XY’
+c) (XY)’
+d) Y’ + X
+View Answer
+
+Answer: c
+Explanation: Given XY’+X’+Y’X’ = Y’(X+X’) + X’ = Y’.1 + X’ = X’ + Y’ = (XY)’ [De Morgan’s law].
+9. Minimize the Boolean expression using Boolean identities: A′B+ABC′+BC’+AB′C′.
+a) B(AC)’ + AC’
+b) AC’ + B’
+c) ABC + B’ + C
+d) BC’ + A’B
+View Answer
+
+Answer: a
+Explanation: Given: A′B+ABC′+BC’+AB′C′
+= A’B + BC’ (1 + A) + AB’C”
+= A’B + BC’ + AB’C’
+= A’B + BC’ + BC’ + AB’C’
+= B(A’ + C’) + C’(A + AB’)
+= B(AC)’ + C’ A(1 + B’)
+= B(AC)’ + AC’.
+10. Minimize the following Boolean expression using Boolean identities.
+F(A,B,C) = (A+BC’)(AB’+C)
+a) A + B + C’
+b) AC’ + B
+c) B + AC
+d) A(B’ + C)
+View Answer
+
+Answer: d
+Explanation: Given, F(A,B,C) = (A+BC’)(AB’+C)
+= (AAB’ + BC’AB’ + AC + BC’C)
+= (AB’ + 0 + AC + 0)
+= A(B’ + C).
+1. In order to make a luggage security alarm, a single _____ is used.
+a) NOR gate
+b) NAND gate
+c) X-NOR gate
+d) XOR gate
+View Answer
+
+Answer: b
+Explanation: The NAND gate consists of two inputs and if both of them are high the output is low. A luggage security alarm circuit is a system which is based on the NAND gate. It is used to generate an alarm when any authorized person tries to steal the luggage.
+2. In Boolean algebra, the data is a bit-representation of information consists of _________
+a) 0 and 1
+b) 2 and 5
+c) 1 and 15
+d) 4 and 8
+View Answer
+
+Answer: a
+Explanation: The data, in boolean algebra must be in a bit-representation form which can be in between two values 0 and 1.
+3. Using which component a shift register is implemented?
+a) register
+b) transistor
+c) latch
+d) flip-flop
+View Answer
+
+Answer: d
+Explanation: A shift register, in digital circuitry, is a combination of two or more flip-flops to share the bits of information by using the same clock. A shift register can have both parallel and serial inputs and outputs.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. How many NAND gates are required to make an XOR gate?
+a) 7
+b) 12
+c) 4
+d) 8
+View Answer
+
+Answer: c
+Explanation: An XOR gate is created by using four NAND gates. This construction gives a propagation delay three times to that of a single NAND gate.
+5. In Multiplexer gate, for selecting the inputs, two bits named _____ and _____ are required generally.
+a) selector bit, data bit
+b) parity bit. Generator bit
+c) input bit, inverted bit
+d) raising bit, sinking bit
+View Answer
+
+Answer: a
+Explanation: In multiplexer gate for selecting the inputs say, for 3 input bits, one bit is required as selector bit and two other bits are required as data bits.
+Get Free Certificate of Merit in Discrete Mathematics Now!
+6. A NOR gate can be derived from ______
+a) NAND gate
+b) XOR gate
+c) AND gate
+d) OR gate
+View Answer
+
+Answer: a
+Explanation: NAND and NOR gates are called universal gates. As we can generate any of the basic gates as well as other gates from these two gates. So, a NOR gate can be made by a NAND gate.
+7. In which logic gate the output state is usually the complement of the input state?
+a) NOT gate
+b) NOR gate
+c) X-NOR gate
+d) OR gate
+View Answer
+
+Answer: a
+Explanation: NOT gate is the simplest digital logic circuit which is also called an inverter because it takes the input in 0 or 1 form and gives the output as the complement of the input.
+8. In OR gate for 13 numbers of inputs what are the stages possible for it?
+a) 1239
+b) 213
+c) 13
+d) 1387
+View Answer
+
+Answer: b
+Explanation: OR gate works in a way such that if any of the input is binary low(or 0), the output of the gate is binary 1(or high). Here, the number of stage possible = 2n = 213.
+9. Which of the following is built exclusively from NOR gate?
+a) Plant guard machine
+b) Apollo Guidance Computer
+c) Street market app
+d) Dish washer
+View Answer
+
+Answer: b
+Explanation: The first embedded system is the Apollo Guidance Computer which was built exclusively from NOR gates. A logically inverted OR gate is a NOR gate and it can have two or more inputs.
+10. Which of the following gates is used to implement a logical conditional?
+a) OR gate
+b) Magnetic logic gate
+c) XOR gate
+d) IMPLY gate
+View Answer
+
+Answer: d
+Explanation: The IMPLY gate is a digital logic gate that is used to implements logical conditional. Two symbols are used to represent the IMPLY gates → the traditional symbol and the IEEE symbol. IMPLY gate can be made by two memristors.
+1. How many states are there in combinatorial FSM?
+a) 86
+b) 219
+c) 1
+d) 132
+View Answer
+
+Answer: c
+Explanation: As an FSM’s memory is limited by the number of states, it cannot perform the computational tasks that a Turing machine can do. A “Combinatorial FSM” is defined as a finite state machine with only one state and it allows actions based upon transition into a state.
+2. Which of the following algorithms transforms any NFA into its identical DFA?
+a) Minimal set construction
+b) Dynamic programming
+c) Powerset construction
+d) Huffman coding
+View Answer
+
+Answer: b
+Explanation: The powerset construction algorithm is a powerful algorithm that can transform any non-deterministic automaton into a more complex deterministic automaton with identical functionality.
+3. Which of the following is not a member of the set of a deterministic finite state machine?
+a) state-transition function
+b) initial state
+c) input symbols
+d) stack
+View Answer
+
+Answer: b
+Explanation: A deterministic finite state machine or acceptor deterministic finite state machine is a quintuple (Σ, G, s1, δ, F), where: Σ is the input alphabet (a finite, non-empty set of symbols), G is a finite, non-empty set of states, s1 is an initial state, an element of S, δ is the state-transition function: δ: G × Σ → G.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. In system engineering which of the following methods bridges the gap between the two ends of system development?
+a) ASM method
+b) VSM method
+c) Factor method
+d) FSM method
+View Answer
+
+Answer: a
+Explanation: An abstract state machine (ASM) has its operations on states that are arbitrary data structures as well as it can bridge the gap between the two ends of the system development. This method builds upon three basic concepts such as ASM, ground model and refinement.
+5. Optimisation of an FSM machine can be done by ________
+a) Naive-bias algorithm
+b) Huffman encoding scheme
+c) Pirate-plot algorithm
+d) Hopcroft minimization algorithm
+View Answer
+
+Answer: b
+Explanation: The job of fastest known algorithm, hopcroft minimization algorithm is to optimize and FSM system that means finding a machine with the minimum number of states which can have the same function to perform. Acyclic FSAs can be minimized in linear time.
+Check this: BCA Books | Information Technology MCQs
+6. A deterministic automaton system can have ______ transition for a given state of an input symbol.
+a) exactly one
+b) more than one
+c) no transition
+d) 2n transition
+View Answer
+
+Answer: a
+Explanation: In a deterministic automaton, for each possible input every state has exactly one transition. In a non-deterministic automaton, an input can have one, more than one, or no transition for a given state. In the study of computation, a transition system is used and it can be made of states and transitions between states, which may be labeled with labels chosen from a set.
+7. Which of the following techniques refer to the equivalence of DFA and N-DFA automata?
+a) subset construction
+b) superset construction
+c) powerset construction
+d) finite field construction
+View Answer
+
+Answer: b
+Explanation: For every N-DFA there is a corresponding DFA for every N-DFA, and the basic technique is described as subset construction because each state in the DFA corresponds to some subset of states of the NDFA.
+8. Equivalence of automata states that ____________
+a) two automata accept the same set of input strings
+b) two automata have same set of states
+c) two automata does not contain initial input symbols
+d) two automata share equal transition function
+View Answer
+
+Answer: a
+Explanation: The formal definition is if two automata J and K are equivalent then if there is a path from the start state of J to a final state of J and there is a path from the start state of k to a final state of K as well as if there is a path from the start state of K to a final state of K, where there is a path from the start state of J to a final state of J. Two automata J and K are said to be equivalent if both automata accept exactly the same set of input strings.
+9. In the operating system, newly started processes can have a start in the _________
+a) Blocked state
+b) Running sate
+c) Ready state
+d) Exit state
+View Answer
+
+Answer: c
+Explanation: In the behaviour of the processes, newly started processes start their execution in a Ready state and have to wait until the OS scheduler assigns a CPU to them. At that moment, the process starts running and it stays in this state until either the scheduler decides to take back the CPU (as a “time slice” has expired).
+10. In lexical analysis of a compiler______ is used.
+a) DFA
+b) NDFA
+c) NFA
+d) Turing machine
+View Answer
+
+Answer: a
+Explanation: A Deterministic Finite automaton system is used in the lexical analysis of the compiler.

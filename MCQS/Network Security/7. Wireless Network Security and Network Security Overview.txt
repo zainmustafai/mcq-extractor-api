@@ -1,0 +1,821 @@
+1. Wi-Fi stands for-
+a) Wireless Fidelity
+b) Wireless LAN
+c) Wireless FLAN
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Wi-Fi stands for Wireless Fidelity.
+2. Wired networks are far more susceptible to eavesdropping and jamming than wireless networks.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The converse is true.
+3. “A user intending to connect to one LAN may unintentionally lock onto a wireless access point from the neighboring network.” Which type of Wireless network threat would you classify this under?
+a) Malicious Threat
+b) Network Injection
+c) Denial Of Service
+d) Accidental Association
+View Answer
+
+Answer: d
+Explanation: This threat falls under Accidental Association.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. “When there is a lack of a central point of control.” Which type of Wireless network threat would you classify this under?
+a) Man in the middle attack
+b) Identity Theft
+c) Ad Hoc Networks
+d) Non-Traditional Networks
+View Answer
+
+Answer: c
+Explanation: This threat falls under Ad Hoc networks.
+5. “When fraud access points are created to access information such as passwords.” Which type of Wireless network threat would you classify this under?
+a) Identity Theft
+b) Network Injection
+c) Man in the middle attack
+d) Malicious Association
+View Answer
+
+Answer: d
+Explanation: This threat falls under Malicious Association.
+Check this: Computer Science Books | Cyber Security MCQ
+6. “When bogus reconfiguration commands are used to affect routers and switches to degrade network performance.” Which type of Wireless network threat would you classify this under?
+a) Network Injection
+b) Malicious Association
+c) Man in the middle attack
+d) Denial Of Service
+View Answer
+
+Answer: a
+Explanation: This threat falls under Network Injection.
+7. “When communication is unknowingly going through an adversary/intermediate.” Which type of Wireless network threat would you classify this under?
+a) Malicious Association
+b) Man in the middle attack
+c) Network Injection
+d) Accidental Association
+View Answer
+
+Answer: b
+Explanation: This threat falls under Man in the middle attack.
+8. “When an attacker is able to eavesdrop on network traffic and identify the MAC address of a computer with network previleges.” Which type of Wireless network threat would you classify this under?
+a) Identity Theft.
+b) Man in the middle attack
+c) Network Injection
+d) Accidental Association
+View Answer
+
+Answer: a
+Explanation: This threat falls under Identity Theft.
+9. SSID stands for –
+a) Secure Service Identifier
+b) Secure Set Independent Device
+c) Secure Set Identifier
+d) Service Set Independent Device
+View Answer
+
+Answer: c
+Explanation: SSID stands for Secure Set Identifier.
+10. Which of these is not a valid Signal-Hiding Technique for Wireless networks?
+a) reducing the signal strength to the lowest level such that it still provides requisite coverage
+b) using directional antennas and signal shielding techniques
+c) installing the wireless access point away from exteriors of the building
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: All of the mentioned are valid signal hiding techniques.
+11. Mobile Device security falls under 3 categories. Which of these is not a valid Mobile Device security category?
+a) Barrier security
+b) Traffic security
+c) Device security
+d) All of the above
+View Answer
+
+Answer: d
+Explanation: Mobile Device security falls under 3 categories which are – Barrier security, Device security and Traffic security.
+12. “Installation of third party applications are prohibited on many company hardware devices such as laptops, mobiles, etc.” Which Mobile Device security category of implementation does this fall under?
+a) Barrier security
+b) Traffic security
+c) Device security
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: This falls under Device Security.
+13. VPN stands for –
+a) Visual Performance Node
+b) Virtual Private Network
+c) Virtual Post Node
+d) Virtual Post Network
+View Answer
+
+Answer: b
+Explanation: VPN stands for Virtual Private Network.
+14. Another name for the Wireless Ethernet 802.11a is-
+a) Wi-Fi
+b) Wi-Fi4
+c) Wi-Fi5
+d) Wi-Fi6
+View Answer
+
+Answer: c
+Explanation: Another name for the Wireless Ethernet 802.11b is Wi-Fi5.
+15. WPA stands for –
+a) Wired Protected Access
+b) Wireless Protected Access
+c) Wireless Personal Access
+d) Wired Personal Access
+View Answer
+
+Answer: b
+Explanation: WPA stands for Wireless Protected Access.
+1. Which layer in the IEEE 802.11 protocol stack has the function of flow control and error control?
+a) Physical Layer
+b) Logic Link Control Layer
+c) Medium Access Layer
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Logic Link Layer has the function of flow control and error control.
+2. With respect to IEEE 802.11 Wireless LAN, MSDU stands for-
+a) MAC service data unit.
+b) Main server data user
+c) Multiframe service datagram usage
+d) MAC server device usage
+View Answer
+
+Answer: a
+Explanation: MSDU stands for MAC service data unit.
+3. Frequency band definition and Wireless signal encoding are functions of which layer?
+a) Physical Layer
+b) Logic Link Control Layer
+c) Medium Access Layer
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Frequency band definition and Wireless signal encoding are functions of the Physical Layer.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The correct order of the of the MAC header is-
+a) MAC Control, Destination MAC Address, Source MAC Address
+b) Destination MAC Address, Source MAC Address, MAC Control
+c) Source MAC Address, Destination MAC Address, MAC Control
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: The correct order of arrangement is MAC Control, Destination MAC Address, Source MAC Address.
+5. CRC is a component of the MAC trailer.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: CRC is a component of the MAC trailer. The statement is true.
+Check this: Computer Science MCQs | Cyber Security MCQ
+6. Reliable data delivery and Wireless access control protocols are functions of which layer?
+a) Physical Layer
+b) Logic Link Control Layer
+c) Medium Access Layer
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Reliable data delivery and Wireless access control protocols are functions of the Medium Access Layer.
+7. Which layer keeps track of the frames that have been transmitted and received?
+a) Physical Layer
+b) Logic Link Control Layer
+c) Medium Access Layer
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The LLC keeps track of the frames that have been transmitted and received.
+8. The smallest building block of a wireless LAN is –
+a) Unit server set
+b) Unit service set
+c) Basic server set
+d) Basic service set
+View Answer
+
+Answer: d
+Explanation: The smallest building block of a wireless LAN is Basic service set (BSS).
+9. In an IBSS system all communications are done via access points (APs).
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: IBSS stands for Independent Basic Service Set.
+1. __________ consists of two or more basic service sets interconnected by a distribution system.
+a) Extended Service Set
+b) Permuted Service Set
+c) Complex Service Set
+d) Multiplex Service Set
+View Answer
+
+Answer: a
+Explanation: Extended Service Set consists of two or more basic service sets interconnected by a distribution system.
+2. IEEE 802.11 defines ___________ services that need to be provided by the wireless LAN to achieve functionality equivalent to that which is inherent to wired LANs.
+a) 4
+b) 7
+c) 5
+d) 9
+View Answer
+
+Answer: d
+Explanation: There are 9 services provided by IEEE 802.11.
+3. ___________ services are used to control IEEE 302.11 LAN access and confidentiality.
+a) 4
+b) 5
+c) 2
+d) 3
+View Answer
+
+Answer: d
+Explanation: Three of the services provided by IEEE 302.11 LAN are used to control access and confidentiality.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. __________ services are used to control IEEE 302.11 LAN delivery of MDSUs between stations.
+a) 5
+b) 6
+c) 3
+d) 2
+View Answer
+
+Answer: b
+Explanation: 6 services are used to control IEEE 302.11 LAN delivery of MDSUs between stations.
+5. _________ services are implemented in every 802.11 station, including AP stations. _________ services are provided between BSSs.
+a) Station, Distribution
+b) Distribution, Station
+c) Extended, Basic
+d) Basic, Extended
+View Answer
+
+Answer: a
+Explanation: Station services are implemented in every 802.11 station, including AP stations. Distribution services are provided between BSSs.
+Check this: Cyber Security MCQ | Cryptography and Network Security Books
+6. The _________ service enables transfer of data between a station on an IEEE 802.11 LAN and a station on an integrated IEEE 802.x LAN.
+a) extension
+b) differentiation
+c) integration
+d) distribution
+View Answer
+
+Answer: c
+Explanation: The integration service enables transfer of data between a station on an IEEE 802.11 LAN and a station on an integrated IEEE 802.x LAN.
+7. When a station moves only within the direct communication range of the communication stations of a single BSS, it is referred to as –
+a) No transition
+b) BSS transition
+c) ESS transition
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: When a station moves only within the direct communication range of the communication stations of a single BSS, it is referred to as No transition.
+8. A station movement from one BSS in one ESS to a BSS within another ESS falls under –
+a) No transition
+b) BSS transition
+c) ESS transition
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: A station movement from one BSS in one ESS to a BSS within another ESS falls under ESS transition.
+9. “Enables an established association to be transferred from one AP to another, allowing a mobile station to move from one BSS to another.” This can be referred to as-
+a) Association
+b) Reassociation
+c) Disassociation
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: This is known as association.
+1. What was the security algorithm defined for the IEEE 802.11?
+a) WEP
+b) RSN
+c) WPA
+d) SSL
+View Answer
+
+Answer: a
+Explanation: Wired Equivalency Privacy was the security algorithm defined for the IEEE 802.11.
+2. The final form of the 802.11i standard is referred to as –
+a) Wi-Fi Protected Access
+b) Robust Security Network
+c) Wired Equivalency Privacy
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The final form of the 802.11i standard is the Robust Security Network (RSN).
+3. EAP stands for –
+a) Extended Application Protocol
+b) Extensible Authentication Protocol
+c) Embedded Application Protocol
+d) Embedded Authentication Protocol
+View Answer
+
+Answer: b
+Explanation: EAP stands for Extensible Authentication Protocol.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. TKIP is an access control protocol.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: TKIP stands for Temporal Key Integrity Protocol and falls under “Confidentiality, Data Origin Authentication and Integrity and Replay Protection.”
+5. In which phase of operation does the STA and AS prove their identities to each other?
+a) Discovery
+b) Authentication
+c) Key generation and distribution
+d) Protected data transfer
+View Answer
+
+Answer: b
+Explanation: The STA and AS prove their identities to each other in the Authentication phase.
+Check this: Cyber Security MCQ | Computer Science Books
+6. The specification of a protocol, along with the chosen key length (if variable) is known as –
+a) cipher suite
+b) system suite
+c) key set
+d) service set
+View Answer
+
+Answer: a
+Explanation: The specification of a protocol, along with the chosen key length (if variable) is known as cipher suite.
+7. Which the 3rd phase of operation in the IEEE 802.11i Protocol?
+a) Protected Data Transfer
+b) Discovery
+c) Authentication
+d) Key Management
+View Answer
+
+Answer: d
+Explanation: Key management is the 3rd Phase of operation in the IEEE 802.11i Protocol.
+8. Which phase uses the Extensible Authentication Protocol?
+a) Discovery
+b) Authentication
+c) Key Management
+d) Protected Data Transfer
+View Answer
+
+Answer: b
+Explanation: EAP belongs to the Authentication Phase and is defined in the IEEE 802.1X standard.
+9. There are a number of possible EAP exchanges that can be used during authentication phase. Typically the message flow between the STA and AP employs the ___________ protocol.
+a) RADUIS
+b) EAPOL
+c) TKIP
+d) KSN
+View Answer
+
+Answer: b
+Explanation: The message flow between the STA and AP employs the EAP over LAN (EAPOL) protocol.
+10. Another name for the AAA key (Authentication, Authorization and Accounting Key) is –
+a) pre-shared key
+b) pairwise transient key
+c) master session key
+d) key conformation key
+View Answer
+
+Answer: c
+Explanation: The AAA key (Authentication, Authorization and Accounting Key) is also known as master session key.
+1. What is the size of the Temporal Key for the case of TKIP?
+a) 64 bits
+b) 128 bits
+c) 256 bits
+d) 512 bits
+View Answer
+
+Answer: c
+Explanation: In the case of TKIP -256 bits and CCMP – 128 bits.
+2. What is a valid size of the Group Temporal Key (GTK) in WEP?
+a) 40 bits
+b) 128 bits
+c) 512 bits
+d) 80 bits
+View Answer
+
+Answer: a
+Explanation: GTK in WEP is of 40 bits or 104 bits.
+3. Which key in the PTK protects the confidentiality of keys and data during RSN associated procedure?
+a) EAPOL KCK
+b) EAPOL KEK
+c) TK
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: This is the function of the EAPOL Key Encryption Key.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What is the size of the Message Integrity Code Key?
+a) 64 bits
+b) 128 bits
+c) 256 bits
+d) 512 bits
+View Answer
+
+Answer: a
+Explanation: The MIC Key has a size of 64 bits and it is used by TCIP’s Michael MIS to provide integrity protection of messages.
+5. Which one of these is not a Traffic control key?
+a) GTK
+b) TK
+c) MIC Key
+d) WEP Key
+View Answer
+
+Answer: c
+Explanation: The MIC Key is a message integrity key.
+Check this: Computer Science Books | Cyber Security MCQ
+6. The MPDU exchange for distributing pairwise keys is known as __________
+a) 2-way handshake
+b) 4-way handshake
+c) 5 way handshake
+d) 3 way handshake
+View Answer
+
+Answer: b
+Explanation: The MPDU exchange for distributing pairwise keys is a 4 way handshaking process and hence the name.
+7. GTK is encrypted using:
+a) Either RC4 or AES
+b) DES
+c) Rabin
+d) ECC
+View Answer
+
+Answer: a
+Explanation: GTK is encrypted using either the RC4 or AES cipher system.
+8. Message Integrity Code (MIC) is generated by an algorithm called
+a) Susan
+b) Michael
+c) Barbara
+d) Rijndael
+View Answer
+
+Answer: b
+Explanation: Message Integrity Code (MIC) is generated by an algorithm called Michael.
+9. The TKIP and CCMP both provide 3 services: Message Integrity, Data Confidentiality and Protected Data Transfer.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The TKIP and CCMP both provide the services: Message Integrity and Data Confidentiality. Protected Data Transfer isn’t TKIP and CCMP functionality.
+10. CCMP uses which block cipher mode of operation?
+a) OFB
+b) CFB
+c) CTR
+d) CBC
+View Answer
+
+Answer: c
+Explanation: CCMP uses the CTR mode of operation for AES encryption
+
+d) 3 way handshake
+View Answer
+
+Answer: b
+Explanation: The MPDU exchange for distributing pairwise keys is a 4 way handshaking process and hence the name.
+7. GTK is encrypted using:
+a) Either RC4 or AES
+b) DES
+c) Rabin
+d) ECC
+View Answer
+
+Answer: a
+Explanation: GTK is encrypted using either the RC4 or AES cipher system.
+8. Message Integrity Code (MIC) is generated by an algorithm called
+a) Susan
+b) Michael
+c) Barbara
+d) Rijndael
+View Answer
+
+Answer: b
+Explanation: Message Integrity Code (MIC) is generated by an algorithm called Michael.
+9. The TKIP and CCMP both provide 3 services: Message Integrity, Data Confidentiality and Protected Data Transfer.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The TKIP and CCMP both provide the services: Message Integrity and Data Confidentiality. Protected Data Transfer isn’t TKIP and CCMP functionality.
+10. CCMP uses which block cipher mode of operation?
+a) OFB
+b) CFB
+c) CTR
+d) CBC
+View Answer
+
+Answer: c
+Explanation: CCMP uses the CTR mode of operation for AES encryption
+1. In CCMP a 128-bit AES Key is used for both integrity and confidentiality. The scheme uses a ___________ bit packet number to construct a nonce to prevent __________ attacks.
+a) 48, replay
+b) 64, replay
+c) 48, transient
+d) 64, transient
+View Answer
+
+Answer: a
+Explanation: The scheme uses a 48-bit packet number to construct a nonce to prevent replay attacks.
+2. HMAC SHA-1 produces a hash of length-
+a) 180 bits
+b) 240 bits
+c) 160 bits
+d) 40 bits
+View Answer
+
+Answer: c
+Explanation: The hash length and key length in HASH SHA-1 is 160 bits.
+3. In the IEEE 802.11i PRF, a nonce is generated by the following expression –
+nonce = PRF (Random Number, “InitCounter”, MAC || Time, Len)
+What is the value of the ‘Len’ (desirable number of pseudorandom bits)?
+a) 64
+b) 128
+c) 256
+d) 512
+View Answer
+
+Answer: c
+Explanation: Nonce = PRF (Random Number, “InitCounter”, MAC || Time, Len).
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Nonce = PRF (Random Number, “InitCounter”, MAC || Time, Len)
+What is the Key ‘K’ in the above expression?
+a) InitCounter
+b) Random Number
+c) PRF
+d) Time
+View Answer
+
+Answer: c
+Explanation: PRF is the secret key.
+5. What is ‘Len’ (desirable number of pseudorandom bits) field in the case of CCMP PTK computation?
+a) 256
+b) 384
+c) 568
+d) 298
+View Answer
+
+Answer: b
+Explanation: The ‘Len’ value in the case of CCMP is 128+128+128 = 384 bits.
+Check this: Computer Science MCQs | Computer Science Books
+6. The message input to the IEEE 802.11 pseudorandom Function consists of 4 items concatenated together. Which of the following option is not a part of this message input –
+a) the parameter B
+b) a byte with value FF (11111111)
+c) the parameter A
+d) counter value i
+View Answer
+
+Answer: b
+Explanation: The byte concatenated has a value 00h.
+7. A __________ is a secret key shared by the AP and a STA and installed in some fashion outside the scope of IEEE 802.11i.
+a) pre-shared key
+b) pairwise transient key
+c) master session key
+d) key conformation key
+View Answer
+
+Answer: a
+Explanation: A pre-shared key(PSK) is a secret key shared by the AP and a STA and installed in some fashion outside the scope of IEEE 802.11i.
+8. The Pairwise master key (PMK) can be derived from either PSK or MSK.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: If a PSK is used then the PSK becomes the PMK; if an MSK is used, then the PMK is derived from the MSK using truncation.
+PSK – Pre-shared Key
+MSK – Master shared key.
+9. The pairwise transient key (PTK) is derived from –
+a) Key Confirmation Key (KCK)
+b) Temporal Key (TK)
+c) Pairwise master Key (PMK)
+d) Pre-Shared Key (PSK)
+View Answer
+
+Answer: c
+Explanation: The pairwise transient key (PTK) is derived from the Pairwise master Key (PMK).
+10. The pairwise transient key (PTK) consists of ______________ keys.
+a) 3
+b) 4
+c) 5
+d) 2
+View Answer
+
+Answer: a
+Explanation: The pairwise transient key (PTK) consists of three keys, which are KCK KEK and TK.
+11. Which Hashing algorithm is used to derive the PTK for PMK?
+a) SHA-1
+b) SHA-2
+c) SHA-3
+d) MD-5
+View Answer
+
+Answer: a
+Explanation: SHA-1 is used to derive PMK from the PTK.
+1. __________ services are implemented in every 802.11 station, including AP stations. _________ services are provided between BSSs.
+a) Station, Distribution
+b) Distribution, Station
+c) Extended, Basic
+d) Basic, Extended
+View Answer
+
+Answer: a
+Explanation: Station services are implemented in every 802.11 station, including AP stations. Distribution services are provided between BSSs.
+2. There are a number of possible EAP exchanges that can be used during authentication phase. Typically the message flow between the STA and AP employs the _________ protocol.
+a) RADUIS
+b) EAPOL
+c) TKIP
+d) KSN
+View Answer
+
+Answer: b
+Explanation: The message flow between the STA and AP employs the EAP over LAN (EAPOL) protocol.
+3. What is a valid size of the Group Temporal Key (GTK) in WEP?
+a) 40 bits
+b) 128 bits
+c) 512 bits
+d) 80 bits
+View Answer
+
+Answer: a
+Explanation: GTK in WEP is of 40 bits or 104 bits.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. In the IEEE 802.11i PRF, a nonce is generated by the following expression:
+nonce = PRF (Random Number, “InitCounter”, MAC || Time, Len)
+What is the value of the ‘Len’ (desirable number of pseudorandom bits)?
+a) 64
+b) 128
+c) 256
+d) 512
+View Answer
+
+Answer: c
+Explanation: nonce = PRF (Random Number, “InitCounter”, MAC || Time, Len).
+5. Which Hashing algorithm is used to derive the PTK for PMK?
+a) SHA-1
+b) SHA-2
+c) SHA-3
+d) MD-5
+View Answer
+
+Answer: a
+Explanation: SHA-1 is used to derive PMK from the PTK.
+Check this: Computer Science MCQs | Cyber Security MCQ
+6. Which is the correct order of the SSH Transport Layer Protocol Packet Exchanges?
+a) Algorithm Negotiation; End of key exchange; Service request; Identification string exchange
+b) Identification string exchange; Algorithm Negotiation; End of key exchange; Service request
+c) Identification string exchange; End of key exchange; Service request; Algorithm Negotiation
+d) Algorithm Negotiation; Identification string exchange; End of key exchange; Service request
+View Answer
+
+Answer: b
+Explanation: The correct order is: Identification string exchange; Algorithm Negotiation; End of key exchange; Service request.
+7. In which port forwarding technique does the client act on the server’s behalf?
+a) Remote Forwarding
+b) Local Forwarding
+c) Stable Forwarding
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: In Remote forwarding, the client receives traffic with a given destination port number, places the teaffic on the correct port and sends it to the destination the user chooses.
+8. Which of the following are valid authentication methods?
+a) Public Key Based
+b) Password Based
+c) Host Based
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The server may require one or more of the three authentication methods mentioned above.
+9. The secure authentication connection is referred to as
+a) chisel
+b) tunnel
+c) zeroing
+d) handshaking
+View Answer
+
+Answer: b
+Explanation: The secure connection is referred to as tunnel.
+10. Broadcast address is given by
+a) 0.0.0.0
+b) 127.x.x.x
+c) 255.255.255.255
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Broadcast address is given by 255.255.255.255. This address is the last address in the range of addresses, and is the address whose host portion is set to all ones.
+1. On which port will the server generally listen to for SMTP?
+a) port 35
+b) port 63
+c) port 25
+d) port 65
+View Answer
+
+Answer: c
+Explanation: The server would have to listen on port 25 for the simple mail transfer protocol.
+2. In the alert protocol the first byte takes the value 1 or 2 which corresponds to ________ and _________ respectively.
+a) Select, Alarm
+b) Alert, Alarm
+c) Warning, Alarm
+d) Warning, Fatal
+View Answer
+
+Answer: d
+Explanation: The first byte takes the value warning(1) or fatal(2) to convey the severity of the message.
+3. In terms of Web Security Threats, “Impersonation of another user” is a Passive Attack.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Passive attacks include eavesdropping on network traffic between browser and server and gaining access to information on a website that is supposed to be restricted. Active attacks include impersonating another user, altering messages in transit between client and server, altering information on a website.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. In the SSL record protocol operation pad_1 is :
+a) is the byte 0x36 repeated 40 times for MD5
+b) is the byte 0x5C repeated 40 times for MD5
+c) is the byte 0x5C repeated 48 times for SHA-1
+d) is the byte 0x36 repeated 48 times for MD5
+View Answer
+
+Answer: d
+Explanation: pad_1 = is the byte 0x36 repeated 48 times for MD5.
+5. In the Phase 2 of the Handshake Protocol Action, the step server_key_exchange is not needed for which of the following cipher systems?
+a) Fortezza
+b) Anonymous Diffie-Hellman
+c) Fixed Diffie-Hellman
+d) RSA
+View Answer
+
+Answer: c
+Explanation: The Fixed Diffie-Helmann does not require the server_key_exchange step in the handshake protocol.
+Check this: Cyber Security MCQ | Cryptography and Network Security Books
+6. Which key exchange technique is not supported by SSLv3?
+a) Anonymous Diffie-Hellman
+b) Fixed Diffie-Hellman
+c) RSA
+d) Fortezza
+View Answer
+
+Answer: d
+Explanation: Fortezza is not supported in SSLv3.
+7. An HTTP connection uses port __________ whereas HTTPS uses port __________ and invokes SSL.
+a) 40; 80
+b) 60; 620
+c) 80; 443
+d) 620; 80
+View Answer
+
+Answer: c
+Explanation: HTTP uses 80 ports, whereas HTTPS uses 443 ports.
+8. SSID stands for
+a) Secure Service Identifier
+b) Secure Set Independent Device
+c) Secure Set Identifier
+d) Service Set Independent Device
+View Answer
+
+Answer: c
+Explanation: SSID stands for Secure Set Identifier.
+9. “When an attacker is able to eavesdrop on network traffic and identify the MAC address of a computer with network previleges.” Which type of Wireless network threat would you classify this under?
+a) Identity Theft
+b) Man in the middle attack
+c) Network Injection
+d) Accidental Association
+View Answer
+
+Answer: a
+Explanation: This threat falls under Identity Theft.
+10. Loopback address is given by:
+a) 0.0.0.0
+b) 127.x.x.x
+c) 255.255.255.255
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Loopback address is given by 127.x.x.x.

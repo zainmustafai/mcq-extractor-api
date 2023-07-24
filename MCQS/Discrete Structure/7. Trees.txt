@@ -1,0 +1,453 @@
+1. An undirected graph G which is connected and acyclic is called ____________
+a) bipartite graph
+b) cyclic graph
+c) tree
+d) forest
+View Answer
+
+Answer: c
+Explanation: An undirected graph G which is connected and acyclic is termed as a tree. G contains no cycles and if any edge is added to G a simple cycle is formed.
+2. An n-vertex graph has ______ edges.
+a) n2
+b) n-1
+c) n*n
+d) n*(n+1)/2
+View Answer
+
+Answer: b
+Explanation: Suppose G is a connected graph which has no cycles. Every subgraph of G includes at least one vertex with zero or one incident edges. It has n vertices and n-1 edges. Generally, the order-zero graph is not considered to be a tree.
+3. What is a star tree?
+a) A tree having a single internal vertex and n-1 leaves
+b) A tree having n vertices arranged in a line
+c) A tree which has 0 or more connected subtrees
+d) A tree which contains n vertices and n-1 cycles
+View Answer
+
+Answer: a
+Explanation: A star tree of order n is a tree with as many leaves as possible or in other words a star tree is a tree that consists of a single internal vertex and n-1 leaves. However, an internal vertex is a vertex of degree at least 2.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A polytree is called _______________
+a) directed acyclic graph
+b) directed cyclic graph
+c) bipartite graph
+d) connected graph
+View Answer
+
+Answer: a
+Explanation: A directed acyclic graph is known as a polytree whose underlying undirected graph is a tree. In other words, a directed tree is a directed graph which would be tree if the directions on the edges were ignored.
+5. The tree elements are called __________
+a) vertices
+b) nodes
+c) points
+d) edges
+View Answer
+
+Answer: b
+Explanation: Every tree element is called a node and the lines connecting the elements are called branches. A finite tree structure has a member that has no superior and is called the “root” Or root node. Nodes that have no child are called leaf nodes.
+Get Free Certificate of Merit in Discrete Mathematics Now!
+6. In an n-ary tree, each vertex has at most ______ children.
+a) n
+b) n4
+c) n*n
+d) n-1
+View Answer
+
+Answer: a
+Explanation: An n-ary tree is a rooted tree in which each vertex has at most n children. 2-ary trees are termed as binary trees, 3-ary trees are sometimes called ternary trees.
+7. A linear graph consists of vertices arranged in a line.
+a) false
+b) true
+c) either true or false
+d) cannot determined
+View Answer
+
+Answer: b
+Explanation: A linear graph also known as a path graph is a graph which consists of k vertices arranged in a line, so that vertices from i and i+1 are connected by an edge for i=0,…, k-1.
+8. Two labeled trees are isomorphic if ____________
+a) graphs of the two trees are isomorphic
+b) the two trees have same label
+c) graphs of the two trees are isomorphic and the two trees have the same label
+d) graphs of the two trees are cyclic
+View Answer
+
+Answer: c
+Explanation: The number of labeled trees of k number of vertices is kn-2. Two labeled trees are isomorphic if their graphs are isomorphic and the corresponding points of the two trees have the same labels.
+9. A graph which consists of disjoint union of trees is called ______
+a) bipartite graph
+b) forest
+c) caterpillar tree
+d) labeled tree
+View Answer
+
+Answer: b
+Explanation: A forest is an undirected acyclic graph in which all the connected components are individual trees. This graph contains a disjoint union of trees.
+10. What is a bipartite graph?
+a) a graph which contains only one cycle
+b) a graph which consists of more than 3 number of vertices
+c) a graph which has odd number of vertices and even number of edges
+d) a graph which contains no cycles of odd length
+View Answer
+
+Answer: d
+Explanation: A graph is called a bipartite graph if and only if it contains no cycle of odd length. Every tree is a bipartite graph and a median graph
+. If two cycle graphs Gm and Gn are joined together with a vertex, the number of spanning trees in the new graph is ______
+a) m+n-1
+b) m-n
+c) m*n
+d) m*n+1
+View Answer
+
+Answer: c
+Explanation: As there are n possible edges to be removed from G and m edges to be removed from G and the rest from a spanning tree so the number of spanning tree in the new graph is m*n.
+2. For an n-vertex undirected graph, the time required to find a cycle is ____________
+a) O(n)
+b) O(n2)
+c) O(n+1)
+d) O(logn)
+View Answer
+
+Answer: a
+Explanation: The existence of a cycle in directed and undirected graphs can be determined by depth-first search (DFS) of the graph finds an edge that points to an ancestor of the current vertex. In an undirected graph, finding any already visited vertex will indicate a back edge. All the back edges which DFS skips over are part of cycles. In the case of undirected graphs, only O(n) time is required to find a cycle in an n-vertex graph, since at most n − 1 edges can be tree edges.
+3. A binary cycle space forms a ______ over the two element field.
+a) triangular graph
+b) vector space
+c) binary tree
+d) hamiltonian graph
+View Answer
+
+Answer: b
+Explanation: The term cycle refers to an element of the cycle space of a graph. There are many cycle spaces. The most common is the binary cycle space, which contains the edge sets that have even degrees at every vertex and it forms a vector space over the two-element field.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. If G is a simple graph with n-vertices and n>=3, the condition for G has a Hamiltonian circuit is __________
+a) the degree of each vertex is at most n/2
+b) the degree of each vertex is equal to n
+c) the degree of every vertex is at least n+1/2
+d) the degree of every vertex in G is at least n/2
+View Answer
+
+Answer: d
+Explanation: A simple circuit in a graph G that passes through every vertex exactly once is called a Hamiltonian circuit. If there is a vertex of degree one in a graph then it is impossible for it to have a Hamiltonian circuit. If G is a simple graph with n-vertices and n>=3 such that the degree of every vertex in G is at least n/2, then G has a Hamiltonian circuit.
+5. What is a separable graph?
+a) A disconnected graph by deleting a vertex
+b) A disconnected graph by removing an edge
+c) A disconnected graph by removing one edge and a vertex
+d) A simple graph which does not contain a cycle
+View Answer
+
+Answer: a
+Explanation: By deletion of a vertex the graph is disconnected and the graph is called separable graph and the vertex is called cut vertex.
+Take Discrete Mathematics Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. How many edges are there in a complete graph of order 9?
+a) 35
+b) 36
+c) 45
+d) 19
+View Answer
+
+Answer: b
+Explanation: In a complete graph of order n, there are n*(n-1) number of edges and degree of each vertex is (n-1). Hence, for a graph of order 9 there should be 36 edges in total.
+7. How many cycles are there in a wheel graph of order 5?
+a) 6
+b) 10
+c) 25
+d) 7
+View Answer
+
+Answer: d
+Explanation: In a cycle of a graph G if we join all the vertices to the centre point, then that graph is called a wheel graph. There is always a Hamiltonian cycle in a wheel graph and there are n2-3n+3 cycles. So, for order 5 the answer should be 7.
+8. The time complexity to find a Eulerian path in a graph of vertex V and edge E is _____________
+a) O(V2)
+b) O(V+E-1)
+c) O(V+E)
+d) O(E+1)
+View Answer
+
+Answer: c
+Explanation: An undirected graph has Eulerian Path if the following two conditions are true: -a) All vertices with a non-zero degree are connected. A graph of vertices with zero degrees don’t belong to Eulerian Cycle or Path, b) If two vertices have odd degree and all other vertices have even degree. Thus, the time to find whether a graph has a Eulerian path or not is O(V+E) with V vertices and E edges.
+9. The time complexity to find shortest distances by using Dijkstra’s algorithm is __________
+a) O(E2)
+b) O(V+1-E)
+c) O(V+E)
+d) O(E+VlogV)
+View Answer
+
+Answer: d
+Explanation: Time complexity of finding shortest distance can be O(E + VLogV) using Fibonacci Heap. The reason is that Fibonacci Heap takes O(1) time for decrease-key operation while Binary Heap takes O(logn) time.
+10. Topological sorting of a graph represents _______ of a graph.
+a) linear probing
+b) linear ordering
+c) quadrilateral ordering
+d) insertion sorting
+View Answer
+
+Answer: b
+Explanation: Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge uv, vertex u comes before v in the ordering. If the graph is not a DAG, topological sorting for a graph is not possible.
+1. In preorder traversal of a binary tree the second step is ____________
+a) traverse the right subtree
+b) traverse the left subtree
+c) traverse right subtree and visit the root
+d) visit the root
+View Answer
+
+Answer: b
+Explanation: In a preorder traversal of a binary tree first is to visit the root, second traverse the left subtree of the tree and third traverse the right subtree of the tree.
+2. An important application of binary tree is ______
+a) Huffman coding
+b) stack implementation
+c) queue implementation
+d) traverse a cyclic graph
+View Answer
+
+Answer: a
+Explanation: A binary tree is used to sort a list of elements; the inorder traversal will do this automatically. Better tree sorting algorithm will involve balancing the trees. The binary coding, in particular for the Huffman coding is an immediate application of binary trees.
+3. From the following code identify the which traversal of a binary tree is this __________
+
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+//if node has left child
+  order(node.left)
+//if node has right child
+  order(node.right)
+  visit(node)
+a) Inorder traversal
+b) preorder traversal
+c) postorder traversal
+d) Euler tour traversal
+View Answer
+
+Answer: c
+Explanation: In a postorder traversal of a binary tree first is to traverse the left subtree, second traverse the right subtree of the tree and third is to visit the node.
+Become Top Ranker in Discrete Mathematics Now!
+4. What is the minimum height for a binary search tree with 60 nodes?
+a) 1
+b) 3
+c) 4
+d) 2
+View Answer
+
+Answer: d
+Explanation: If there are k nodes in a binary tree, maximum height of that tree should be k-1, and minimum height should be floor(log2k). By using the formula, minimum height must be 2 when there are 60 nodes in a tree.
+5. From the following code identify the which traversal of a binary tree is this __________
+
+function traversal(node)
+{
+    //Input:root node of the tree
+    //Output:None
+    visitLeft(node)
+    //if node has left child
+    traversal(node.left)
+    visit_Below(node)
+    //if node has right child
+    traversal(node.right)
+    visitRight(node)
+}
+a) Inorder traversal
+b) Euler Tour traversal
+c) Post-order traversal
+d) Pre-order Traversal
+View Answer
+
+Answer: b
+Explanation: The code signifies Euler Tour traversal which is a generic traversal of a binary tree. In this tree traversal we have to walk around the tree and visit each node three times:
+1. On the left (pre-order), 2. From below (in-order), 3. On the right (post-order) and Create subtrees for all the nodes.
+6. For the expression (7-(4*5))+(9/3) which of the following is the post order tree traversal?
+a) *745-93/+
+b) 93/+745*-
+c) 745*-93/+
+d) 74*+593/-
+View Answer
+
+Answer: c
+Explanation: First build a binary tree for the expression then find out the postorder traversal of that tree and after that the answer will be 745*-93/+.
+7. The time complexity of calculating the sum of all leaf nodes in an n-order binary tree is __________
+a) O(n2)
+b) O(n+1)
+c) O(1)
+d) O(n)
+View Answer
+
+Answer: d
+Explanation: The approach is to traverse the binary tree in any fashion and check if the node is the leaf node(child node)or not. After that, add node data to the sum variable. So, after summing up all leaf nodes, the time complexity of the operation should be O(n).
+8. An immediate application of a Depth First Search traversal is __________
+a) count the number of leaf nodes
+b) perform Inorder traversal in easy way
+c) count number of nodes
+d) implement preorder traversal
+View Answer
+
+Answer: a
+Explanation: Given an n-ary binary tree, by performing DFS traversal on that tree number of leaf nodes can be calculated and for that we need to maintain an array for the leaf count.
+9. Breadth First Search traversal of a binary tree finds its application in __________
+a) Cloud computing
+b) Peer to peer networks
+c) Weighted graph
+d) Euler path
+View Answer
+
+Answer: b
+Explanation: Breadth First Search traversal has diverse applications such as in the peer to peer networks like BitTorrent, BFS traversal is used to find all the neighbour nodes of the network.
+10. Worst case complexity of Breadth First Search traversal __________
+a) O(n*n)
+b) O(nlogn)
+c) O(n2 logn)
+d) O(n3)
+View Answer
+
+Answer: b
+Explanation: In an n-ary binary tree, we must have to visit all nodes from an adjacent node and repeat the same for next unvisited nodes. Hence, in worst case the time complexity should be O(nlogn).
+1. Evaluation of expression a/b+c*d-e in postfix notation.
+a) ab+cd/*-e
+b) ab/cd*+e-
+c) abc/+d*-e
+d) abcd/+*-e
+View Answer
+
+Answer: b
+Explanation: The expression=a/b+c*d-e
+={(ab/)+(cd*)}-e
+={(ab/)(cd*)+}-e
+={(ab/)(cd*)+}e-
+So the output is: ab/cd*+e-
+2. Evaluation of 4*5+3/2-9 in prefix notation.
+a) *45-/32+9
+b) *+453/-29
+c) -+*45/329
+d) *+/45932
+View Answer
+
+Answer: c
+Explanation: The expression=4*5+3/2-9
+={(4*5)+(3/2)-9}
+={(*45)+(/32)-9}
+={+(*45)(/32)}-9
+=-{+(*45)(/32)9
+So the output is; -+*45/329.
+3. What is the output of the following if funct1(7)?
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+Void main()
+{
+    int n;
+    long int func;
+    scanf(“%d”,&n);
+    func=func1 (n)
+    printf(“%ld!=%ld”,n,func);
+}
+long int func1(int n)
+{
+    if(n==0)
+    {
+        Return 1;
+    }
+    else
+    {
+        return(n*func1(n-1));
+    }
+}
+a) 128
+b) 4320
+c) 720
+d) 5040
+View Answer
+
+Take Discrete Mathematics Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+4. Infix to prefix conversion can be done using __________
+a) two queues
+b) two stacks
+c) one stack and two queues
+d) one stack
+View Answer
+
+Answer: b
+Explanation: In the infix expression, the operator appears between the operands and in infix notation if the operator appears before the operands in the expression. For the conversion between them two stacks are used efficiently. The idea is to use one stack for operators and other to store operands.
+5. Conversion from prefix to postfix expression can be done _______________
+a) using bubble sort
+b) using radix sort
+c) using two queues
+d) in a direct manner
+View Answer
+
+Answer: d
+Explanation: In a postfix expression, the operators appear after the operands. Conversion from prefix to postfix is done directly which is better than converting the prefix expression in infix and then infix to postfix expression. It gives better efficiency.
+6. What is the postfix expression of 9+3*5/(10-4)?
+a) 9 3 + * 5 / 10 4 –
+b) 9 3 5 + * / 10 4 –
+c) 9 3 + 5 * / 10 4 –
+d) 9 3 5 * / + 10 – 4
+View Answer
+
+Answer: c
+Explanation: The expression, 9+3*5/(10-4)
+= 9+3*5/(10 4-)
+= 9+35/*(10 4-)
+= 935/*+(10 4-)
+So the output is:9 3 5 / * + 10 4 -.
+7. What is the postfix expression of (A+B)-C*(D/E))+F?
+a) A B + C D E / * – F +
+b) A B C D E + / * F – +
+c) A B C + * D E / F + –
+d) A B + C – * D E / F +
+View Answer
+
+Answer: a
+Explanation: The expression is (A+B)-C*(D/E))+F
+= (A+B)-C*(DE/)+F
+= (A+B)-C*(DE/)F+
+= (A+B)-C(DE/)*F+
+= (A+B)C(DE/)*-F+
+= (AB+)C(DE/)*-F+
+So the output is: AB+CDE/*-F+.
+8. Convert the following expression into prefix notation.
+
+(g-(f^e/d+c)-ba)
+a) ^-/gfed+c-ab
+b) -ab/+-ec^dgf
+c) -ab-+c/d^efg
+d) ab/+-^cde-fg
+View Answer
+
+Answer: c
+Explanation: Convert it first in postfix notation, we can have
+(g-(f^e/d+c)-ba)
+= (g-(f^e/dc+)-ba)
+= (g-(f^ed/c+)-ba)
+= (g-(fe^d/c+)-ba)
+= (g-(fe^d/c+)ba-)
+= (gfe^d/c+-ba-)
+By reversing this expression gives the prefix expression, i.e
+-ab-+c/d^efg.
+9. What is the postfix expression of the given expression, (2*4-(5+7/3^4)-8)10?
+a) 2 4 5 * 7 3 4 ^ / + 8 – – 10
+b) 2 4 * ^ 5 7 3 4 / + 8 10 – –
+c) 2 4 * 5 7 ^ 3 4 / + – 8 10 –
+d) 2 4 * 5 7 3 4 ^ / + – 8 – 10
+View Answer
+
+Answer: d
+Explanation: By solving we can have,
+(2*4-(5+7/3^4)-8)10
+= (2*4-(5+7/34^)-8)10
+= (2*4-(5+734^/)-8)10
+= (2*4-(5734^/+)-8)10
+= (2*45734^/+–8)10
+= 2*45734^/+-8-10
+= 24*5734^/+-8-10
+So the output is: 2 4 * 5 7 3 4 ^ / + – 8 – 10.
+10. Prefix expression can be evaluated _________
+a) from right to left
+b) from left to right
+c) from the exact middle
+d) from second right element
+View Answer
+
+Answer: b
+Explanation: Expressions are usually evaluated from left to right manner. Prefix expressions follow the normal rule i.e from left to right. Postfix expressions can be evaluated from right to left.

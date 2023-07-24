@@ -1,0 +1,577 @@
+1. AES uses a ____________ bit block size and a key size of __________ bits.
+a) 128; 128 or 256
+b) 64; 128 or 192
+c) 256; 128, 192, or 256
+d) 128; 128, 192, or 256
+View Answer
+
+Answer: d
+Explanation: It uses a 128-bit block size and a key size of 128, 192, or 256 bits.
+2. Like DES, AES also uses Feistel Structure.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: AES does not use a Feistel structure. Instead, each full round consists of four separate functions:
+-byte substitution
+-Permutation
+-arithmetic operations over a finite field, and
+-XOR with a key.
+3. Which one of the following is not a cryptographic algorithm- JUPITER, Blowfish, RC6, Rijndael and Serpent?
+a) JUPITER
+b) Blowfish
+c) Serpent
+d) Rijndael
+View Answer
+
+Answer: a
+Explanation: JUPITER is not a cryptographic algorithm.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which algorithm among- MARS, Blowfish, RC6, Rijndael and Serpent -was chosen as the AES algorithm?
+a) MARS
+b) Blowfish
+c) RC6
+d) Rijndael
+View Answer
+
+Answer: a
+Explanation: In October 2000 the Rijndael algorithm was selected as the winner and NIIST officially announced that Rijndael has been chosen as Advanced Encryption Standard (AES) in November 2001.
+5. How many rounds does the AES-192 perform?
+a) 10
+b) 12
+c) 14
+d) 16
+View Answer
+
+Answer: b
+Explanation: AES 192 performs 12 rounds.
+Check this: Computer Science Books | Cyber Security MCQ
+6. How many rounds does the AES-256 perform?
+a) 10
+b) 12
+c) 14
+d) 16
+View Answer
+
+Answer: c
+Explanation: AES 256 performs 14 rounds.
+7. What is the expanded key size of AES-192?
+a) 44 words
+b) 60 words
+c) 52 words
+d) 36 words
+View Answer
+
+Answer: c
+Explanation: AES-192 has an expanded key size of 52 words.
+8. The 4×4 byte matrices in the AES algorithm are called
+a) States
+b) Words
+c) Transitions
+d) Permutations
+View Answer
+
+Answer: a
+Explanation: The matrices are called states.
+9. In AES the 4×4 bytes matrix key is transformed into a keys of size __________
+a) 32 words
+b) 64 words
+c) 54 words
+d) 44 words
+View Answer
+
+Answer: d
+Explanation: In AES the 4×4 bytes matrix key is transformed into a keys of size 44 bytes.
+10. For the AES-128 algorithm there are __________ similar rounds and _________ round is different.
+a) 2 pair of 5 similar rounds ; every alternate
+b) 9 ; the last
+c) 8 ; the first and last
+d) 10 ; no
+View Answer
+
+Answer: b
+Explanation: In the AES-128 there are 9 similar rounds and the last round is different.
+11. Which of the 4 operations are false for each round in the AES algorithm
+i) Substitute Bytes
+ii) Shift Columns
+iii) Mix Rows
+iv) XOR Round Key
+
+a) i) only
+b) ii) iii) and iv)
+c) ii) and iii)
+d) only iv)
+View Answer
+
+Answer: b
+Explanation: AES rounds involve substitute bytes, shift rows, mix columns and addition of round key.
+12. There is an addition of round key before the start of the AES round algorithms.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: In AES the final round contains only three transformations, and there is an initial single transformation (Add Round Key) before the first round which can be considered Round 0. Each transformation takes 4×4 matrixes as input and produces a 4×4 matrix as output.
+1. How many computation rounds does the simplified AES consists of?
+a) 5
+b) 2
+c) 8
+d) 10
+View Answer
+
+Answer: b
+Explanation: The simplified AES has only 2 rounds of computation.
+2. For the case of Mixed Columns and Inverse Mixed Columns, is it true that b(x) = a-1(x)mod(x4 + 1)
+where a(x) = {03}x3 + {01}x2 + {01}x + {02} and b(x) = {0B}x3 + {0D}x2 + {09}x + {0E}
+a) True
+b) False. The expression for a(x) is wrong.
+c) False. The expression for b(x) is wrong.
+d) False. Both a(x) and b(x) are faulty.
+View Answer
+
+Answer: a
+Explanation: The statment is true and can be checked as it is similar to the matrix forms of mixed columns and inverse mixed columns.
+3. For an inputs key of size 128 bits constituting of all zeros, what is w(7) ?
+a) {62 63 63 63}
+b) {62 62 62 62}
+c) {00 00 00 00}
+d) {63 63 63 62}
+View Answer
+
+Answer: a
+Explanation: Applying the key algorithm we get,
+w(0) = {00 00 00 00}; w(1) = {00 00 00 00}; w(2) = {00 00 00 00}; w(3) = {00 00 00 00};
+w(4) = {62 63 63 63}; w(5) = {62 63 63 63}; w(6) = {62 63 63 63}; w(7) = {62 63 63 63}.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. On comparing AES with DES, which of the following functions from DES does not have an equivalent AES function?
+a) f function
+b) permutation p
+c) swapping of halves
+d) xor of subkey with function f
+View Answer
+
+Answer: c
+Explanation: There is no equivalent to swapping of halves in the AES algorithm.
+5. On perform the Mix Columns transformation for the sequence of bytes “77 89 AB CD” we get output
+a) {01 55 EE 4A}
+b) {0A 44 EF 4A}
+c) {08 55 FF 3A}
+d) {09 44 DD 4A}
+View Answer
+
+Answer: c
+Explanation: Perform the mix columns transformation to obtain the output {08 55 FF 3A}.
+Check this: Computer Science Books | Cyber Security MCQ
+6.On perform the Mix Columns transformation for the sequence of bytes “67 89 AB CD” we get output
+a) {08 55 FF 18}
+b) {28 45 EF 08}
+c) {28 45 FF 18}
+d) {25 35 EF 08}
+View Answer
+
+Answer: b
+Explanation: Perform the mix columns transformation to obtain the output {28 45 EF 0A}.
+7. Is the following matrix the inverse matrix of the matrix used in the mix columns step?
+x3 + 1 x
+x x3 + 1
+
+a) Yes
+b) No
+c) Can’t say
+d) Insufficient Information
+View Answer
+
+Answer: a
+Explanation: On multiplying this matrix with the mix columns matrix we get the identity matrix, this proves that it is an inverse matrix.
+8. For the cipher text 0000 0111 0011 1000 and Key 0110 1111 0110 1011, apply the Simplified AES to obtain the plaintext. The plain text is
+a) 0110 1001 0111 0001
+b) 0110 1111 0110 1011
+c) 0010 1001 0110 1011
+d) 1111 0101 0111 1111
+View Answer
+
+Answer: b
+Explanation: On applying the simplified AES we would obtain 0110 1111 0110 1011 as the plain text.
+9. What is the block size in the Simplified AES algorithm?
+a) 8 bits
+b) 40 bits
+c) 16 bits
+d) 36 bits
+View Answer
+
+Answer: b
+Explanation: The block size for the AES algorithm is 16 bits.
+10. What is the key size in the S-AES algorithm?
+a) 16 bits
+b) 32 bits
+c) 24 bits
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The key size in the S-AES algorithm is 16 bits.
+11. S-AES and S-DES were both developed by the same person as an educational cryptography system to teach students
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+12. Which of the following is a faulty S-AES step function?
+a) Add round key
+b) Byte substitution
+c) Shift rows
+d) Mix Columns
+View Answer
+
+Answer: b
+Explanation: The correct version in S-AES would be nibble substitution as 4 bits are taken at a time
+1. How many step function do Round 1 and 2 each have in S-AES?
+a) 4 and 3
+b) Both 4
+c) 1 and 4
+d) 3 and 4
+View Answer
+
+Answer: a
+Explanation: Round 1 has four step functions whereas Round 2 has three step functions.
+2. For a key 25D5 and PT input A479 what is the output we obtain after the “add round key” function?
+a) F34D
+b) 81AC
+c) 79DF
+d) 327D
+View Answer
+
+Answer: b
+Explanation: Simply apply XOR to the state matrix PT with the key matrix to obatain the output which in this case is 81AC.
+3. The output of the previous question, on passing through “nibble substitution” gets us the output
+a) 3267
+b) 1344
+c) 64C0
+d) CA37
+View Answer
+
+Answer: c
+Explanation: 81AC after passing through the “nibble substitution” round produces an output 64C0. A corresponding substitution is referred to in this step.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The output of the previous question on passing through the “shift row” step function gives us the output
+a) C046
+b) 0C64
+c) 64C0
+d) 640C
+View Answer
+
+Answer: b
+Explanation: 64C0 after passing through the “shift row” round produces an output 640C. A one nibble shift is performed in the second row in this step.
+5. The output of the previous question on passing through the “mix columns” step function gives us the output
+a) 3252
+b) 3743
+c) 3425
+d) 3473
+View Answer
+
+Answer: d
+Explanation: 64C0 after passing through the “mix columns” round produces an output 3473. This is obtained by multiplying this matrix with the matrix 1441.
+Check this: Cyber Security MCQ | Cryptography and Network Security Books
+6. On performing the mix column transformation on the matrix
+On performing the mix column 1 transformation on the matrix
+(Verify for the first column only)
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation:
+On performing the mix column 2 transformation on the matrix
+7. The inverse transformation matrix times the forward transformation matrix equals the identity matrix.
+a) True
+b) False
+View Answer
+
+Answer: c
+Explanation: The statement is true. The inverse transformation matrix times the forward transformation matrix does equal the identity matrix.
+8. Which of the following are true
+i) In the AES key expansion algorithm, the function g() operates on w i+3
+ii) Perform a one-byte right circular rotation on the argument 4-byte word
+iii) The round constant follows the formula RC[j] = RC[j − 1]
+
+a) i) ii)
+b) ii) only
+c) i) only
+d) All
+View Answer
+
+Answer: c
+Explanation: Only the first option is true. There is a left circular rotation in AES key expansion. RC[j] = 2 × RC [j − 1] is the formula for the round constant.
+9. How many round keys are generated in the AES algorithm?
+a) 11
+b) 10
+c) 8
+d) 12
+View Answer
+
+Answer: a
+Explanation: 11 round keys are generated. One for each of the 10 rounds and one of the initial permutations (Round 0).
+10. Which function can be used in AES multiplication
+a) m(x)=x7+x4+x3
+b) m(x)=x8+x4+x3+x+1
+c) m(x)=x8+x3+x2+x+1
+d) m(x)=x8+x5+x3+x
+View Answer
+
+Answer: b
+Explanation: m(x)=x8+x4+x3+x+1 stands for 100011011 which is an irreducible polynomial. Others are not irreducible polynomials.
+1. How many modes of operation are there in in DES and AES?
+a) 4
+b) 3
+c) 2
+d) 5
+View Answer
+
+Answer: d
+Explanation: DES has 5 modes of operation.
+2. Which one of the following modes of operation in DES is used for operating short data?
+a) Cipher Feedback Mode (CFB)
+b) Cipher Block chaining (CBC)
+c) Electronic code book (ECB)
+d) Output Feedback Modes (OFB)
+View Answer
+
+Answer: c
+Explanation: The Electronic code book mode is used for operating on short data as the same key is used for each block. Thus repetitions in Plain Text lead to repetitions in Cipher Text.
+3. Which of the following is false for ECB mode of operation
+i) The Plain text is broken into blocks of size 128 bytes
+ii) Blocks can be swapped, repeated, replaced without recipient noticing
+iii) Good for short data
+iv) Encryption of each block is done separately using a randomly generated key for each block
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+a) i) only
+b) ii) and iii)
+c) i) and iv)
+d) i) ii) and iv)
+View Answer
+
+Answer: c
+Explanation: Block size is 64 bits. The same Key is used for each block.
+4. Which of the following statements are true
+i) In the CBC mode, the plaintext block is XORed with previous ciphertext block before encryption
+ii) The CTR mode does not require an Initialization Vector
+iii) The last block in the CBC mode uses an Initialization Vector
+iv) In CBC mode repetitions in plaintext do not show up in ciphertext
+
+Check this: Computer Science MCQs | Cryptography and Network Security Books
+a) iii)
+b) ii) and iv)
+c) All the Statements are true
+d) i) ii) and iv)
+View Answer
+
+Answer: d
+Explanation: The first block in CBC mode uses an IV.
+5. There is a dependency on the previous ‘s’ bits in every stage in CFB mode. Here ‘s’ can range from ___
+a) 8-16 bits
+b) 8-32 bits
+c) 4-16 bits
+d) 8-48 bits
+View Answer
+
+Answer: b
+Explanation: The range of the output of each stage of the cipher system is 8-32 bits for a 64 bit system.
+6. What is the fault in the above figure?
+The fault in the figure is Encrypt Box should be replaced by Decrypt Box
+
+a) The output of the XOR is sent to the next stage
+b) The “Encrypt” Box should be replaced by “Decrypt Box
+c) b-s bits are selected for the XOR operation
+d) No fault
+View Answer
+
+Answer: b
+Explanation: The algorithm is the Decryption algorithm for Cipher Feedback Mode (CBF)
+7. Which of the following can be classified under advantages and disadvantages of OFB mode?
+i) Transmission errors
+ii) A bit error in a ciphertext segment
+iii) Cannot recover from lost ciphertext segments
+iv) Ciphertext or segment loss
+
+a) Advantages: None; Disadvantages: All
+b) Advantages: All; Disadvantages: None
+c) Advantages: i); Disadvantages: ii) iii) iv)
+d) Advantages: i); ii) Disadvantages: iii) iv)
+View Answer
+
+Answer: d
+Explanation: Advantages:
+More resistant to transmission errors.
+A bit error in a ciphertext segment affects only the decryption of that segment.
+Disadvantages:
+Cannot recover from lost ciphertext segments.
+If a ciphertext segment is lost, all following segments will be decrypted incorrectly (if the receiver is not aware of the segment loss).
+8. In OFB Transmission errors do not propagate: only the current ciphertext is affected, since keys are generated “locally”.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Yes, transmission errors do not propagate in OFB mode because of the locally generated key.
+9. Which of the following modes does not implement chaining or “dependency on previous stage computations”?
+a) CTR, ECB
+b) CTR, CFB
+c) CFB, OFB
+d) ECB, OFB
+View Answer
+
+Answer: a
+Explanation: Only CTR and ECB do not implement chaining.
+10. The counter value in CTR modes repeats are a regular interval.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The Counter value in CTR mode should never be repeated, else it leads to vulnerability of the mode. We must ensure never reuse key/counter values; otherwise it could break (OFB).
+1. Which mode of operation has the worst “error propagation” among the following?
+a) OFB
+b) CFB
+c) CBC
+d) ECB
+View Answer
+
+Answer: d
+Explanation: The ECB or electronic code book mode of operation propagates the most errors. A single bit error is carried onto the next block and so on.
+2. Which block mode limits the maximum throughput of the algorithm to the reciprocal of the time for one execution?
+a) OFB
+b) CTR
+c) CBC
+d) ECB
+View Answer
+
+Answer: b
+Explanation: The CTR mode of operation limits the maximum throughput of the algorithm to the reciprocal of the time for one execution.
+3. Which mode requires the implementation of only the encryption algorithm?
+a) ECB
+b) CBC
+c) CTR
+d) OFB
+View Answer
+
+Answer: c
+Explanation: The CTR mode only requires the implementation of either the encryption or decryption phase. Both the phases are somewhat similar.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following modes of operation does not involve feedback?
+a) ECB
+b) CBC
+c) CTR
+d) OFB
+View Answer
+
+Answer: a
+Explanation: Electronic code book does not involve feedback.
+5. Which of the following is a natural candidates for stream ciphers?
+a) OFB
+b) CFB
+c) CBC
+d) ECB
+View Answer
+
+Answer: a
+Explanation: OFB and CTR both produce outputs that are independent of both PT and CT. Thus they are ideal candidates for stream ciphers.
+Check this: Computer Science MCQs | Cryptography and Network Security Books
+6. The XTS-AES mode was approved by NIST in
+a) 1999
+b) 2010
+c) 2006
+d) 2002
+View Answer
+
+Answer: b
+Explanation: The XTS-AES mode of operation was approved by NIST in 2010. It is the most recent mode of operation for block ciphers.
+7. The XTS-AES mode is based on the concept of tweakable block cipher.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The XTS-AES mode uses a tweak thus the name.
+8. The purpose of a ‘tweak’ in XTS-AES mode is to
+a) secure the public key
+b) provide security
+c) provide variability
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: The purpose of the ‘tweak’ in the XTS-AES mode is to provide variability in each round.
+9. A tweak is used in XTS-AES mode to provide a different output for the same input PT and same key.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true for XTS-AES mode of operation.
+10. XTS-AES mode of operation is a better version of
+a) OFB
+b) CFB
+c) CTR
+d) ECB
+View Answer
+
+Answer: d
+Explanation: XTS-AES mode overcomes the principle security weakness of ECB, which is that two encryptions of the same CT yeild the same PT.
+11. What is the size of the XTS-AES key?
+a) 1024 bits
+b) 64 bits
+c) 512 bits
+d) 128 bits
+View Answer
+
+Answer: c
+Explanation: The key size can be either 256 bits or 512 bits. There are 2 keys of the same size K1 and K2.
+12. Which of the following represent the tweak?
+a) j
+b) i
+c) alpha
+d) alphaj
+View Answer
+
+Answer: b
+Explanation: ‘i’ represents the tweak value.
+13. Which of the following is true for the tweak in XTS-AES mode?
+a) they are non-negative integers
+b) they are of size 128 bits
+c) they are assigned consecutively
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: All of the statements are true in relation to the tweak ‘i’ from the XTS-AES mode of operation.
+14. Which of the following is the correct encryption statement representation for the XTS-AES mode?
+a) E(K1,P) XOR T
+b) E(K2,T) XOR P
+c) E(K1,T XOR P) XOR P
+d) E(K1,P XOR T) XOR T
+View Answer
+
+Answer: d
+Explanation: The correct encryption representation would be : C = E(K1,P XOR T) XOR T.
+15. The last two blocks of the XTS-AES mode are –
+a) padded as 10*
+b) encrypted/ decrypted using ciphertext-stealing
+c) padded as 10*1
+d) padded and then swapped after encryption/ decryption
+View Answer
+
+Answer: b
+Explanation: The correct term used to encrypt/ decrypt the last 2 blocks is ‘cipher-text stealing’ where C(m) and C(m-1) are interchanged with each other.

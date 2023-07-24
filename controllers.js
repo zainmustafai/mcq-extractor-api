@@ -158,7 +158,7 @@ export const createBulkMCQs = async (req, res) => {
         return res.status(400).json({ message: "Cannot create MCQs" });
       }
       console.log("Data inserted successfully");
-      return res.status(201).json({ createdMCQs });
+      return res.status(200).json({ createdMCQs });
     }
   } catch (error) {
     console.log(error.message);
@@ -288,6 +288,29 @@ export const getAllMCQs = async (req, res) => {
       .json({ message: "Something went wrong. Cannot get MCQs" });
   }
 };
+
+export const getAllMCQsByChapterId = async (req, res) => {
+  try {
+    const { chapterid } = req.params;
+    console.log("Getting all MCQs by chapter id" + chapterid);
+    const chapter = await Chapter.findById(chapterid);
+    if (!chapter) {
+      return res.status(404).json({ message: "Chapter not found" });
+    };
+    const mcqs = await MCQ.find({ chapter: chapterid });
+    if (mcqs.length === 0) {
+      return res.status(200).json({ message: "No MCQs found", mcqs });
+    }
+    else{
+      return res.status(200).json({ mcqs });
+    }
+  } catch (error) {
+    console.log(error.message);
+    return res
+      .status(500)
+      .json({ message: "Something went wrong. Cannot get MCQs" });
+  };
+};
 /*********************************************************************************************************************************************** */
 /*********** DELETION CONTROLLERS ********************************************************* */
 
@@ -329,4 +352,4 @@ export const deleteMCQSByChapterId = async (req, res) => {
 
 /*********************************************************************************************************************************************** */
 
-const removeDuplicateQuestions = async (req, res) => {};
+const removeDuplicateQuestions = async (req, res) => { };

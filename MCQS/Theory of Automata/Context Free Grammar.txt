@@ -1,0 +1,588 @@
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Eliminating Unit Productions”.
+
+1. Which of the following is the format of unit production?
+a) A->B
+b) A->b
+c) B->Aa
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Any production of the format A-> B where A and B belongs to the V set, is called Unit production.
+2. Given Grammar G:
+S->aA
+A->a| A
+B->B
+The number of productions to be removed immediately as Unit productions:
+a) 0
+b) 1
+c) 2
+d) 3
+View Answer
+
+Answer: c
+Explanation: The productions in the format A-> A are removed immediately as they produce self and that is not a terminal or will not lead to a string. Hence, it is removed immediately.
+3. Given grammar:
+S->aA
+A->a
+A->B
+B-> A
+B->bb
+Which of the following is the production of B after simplification by removal of unit productions?
+a) A
+b) bb
+c) aA
+d) A| bb
+View Answer
+
+Answer: b
+Explanation: The simplified grammar can be presented as follows:
+S->aA| aB
+A->a
+B-> bb
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. If grammar G is unambiguous, G’ produced after the removal of Unit production will be:
+a) ambiguous
+b) unambiguous
+c) finite
+d) cannot be said
+View Answer
+
+Answer: b
+Explanation: With the simplification of Context free grammars, undesirable properties are introduced. It says, if grammar G, before simplification is unambiguous, after simplification will also be unambiguous.
+5. If C is A-derivable, C->B is a production, and B ¹ A, then B is
+a) nullable
+b) Non-derivable
+c) A-derivable
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation:
+If A-> B is a production, B is called A- derivable.
+If C is A-derivable, C->B is a production, and B ¹ A, then B is A -derivable.
+No other variables are A-derivable.
+Check this: Automata Theory Books | Computer Science MCQs
+6. A can be A-> derivable if and only if __________
+a) A-> A is actually a production
+b) A->B, B-> A exists
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The format says: If A->B is a production, B is called A-derivable.Thus A to be A-derivable, a production : A-> A need to exist.
+7. Given Grammar:
+T-> T+R| R
+R-> R*V| V
+V->(T)| u
+When unit productions are deleted we are left with
+T-> T+R| _______|(T)| u
+R->R*V|(T)| u
+V-> (T)| u
+Fill in the blank:
+a) T*V
+b) T+V
+c) R*T
+d) R*V
+View Answer
+
+Answer: d
+Explanation: The grammar produced after the elimination of unit production is:
+T-> T+R| R*V| (T)| u
+R->R*V|(T)| u
+V-> (T)| u
+8. Given grammar G:
+S-> ABA, A->aA|e, B-> bB|e
+Eliminate e and unit productions. State the number of productions the starting variable holds?
+a) 6
+b) 7
+c) 9
+d) 5
+View Answer
+
+Answer: b
+Explanation: After reduction the grammar looks like:
+S->ABA| AB| BA| AA| Aa| a| bB| b
+A->aA| a
+B->bB| b
+9. Given grammar G:
+S-> A| B| C
+A-> aAa| B
+B-> bB|bb
+C->aCaa|D
+D->baD|abD|aa
+Eliminate e and unit productions and state the number of variables left?
+a) 5
+b) 4
+c) 3
+d) 2
+View Answer
+
+Answer: a
+Explanation: The reduced production:
+S->aAa| bB|bb aCaa| baD| abD| aa, A->aAa| bB| bb, B->bB| bb, C->aCaa| baD| abD| aa, D-> baD| abD| aa
+10. Which of the following variables in the given grammar is called live variable?
+S->AB
+A->a
+a) S
+b) A
+c) B
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Any variable A for which there is a production A-> x with x Ε Σ* is called live.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Converting Regular Expressions to Automata”.
+
+1. What kind of expressions do we used for pattern matching?
+a) Regular Expression
+b) Rational Expression
+c) Regular & Rational Expression
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: In automata theory, Regular Expression(sometimes also called the Rational Expression ) is a sequence or set of characters that define a search pattern, mainly for the use in pattern matching with strings or string matching.
+2. Which of the following do Regexps do not find their use in?
+a) search engines
+b) word processors
+c) sed
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: Regexp processors are found in several search engines, seach and replace mechanisms, and text processing utilities.
+3. Which of the following languages have built in regexps support?
+a) Perl
+b) Java
+c) Python
+d) C++
+View Answer
+
+Answer: a
+Explanation: Many languages come with built in support of regexps like Perl, Javascript, Ruby etc. While some provide support using standard libraries like .NET, Java, Python, C++, C and POSIX.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. The following is/are an approach to process a regexp:
+a) Construction of NFA and subsequently, a DFA
+b) Thompson’s Contruction Algorithm
+c) Thompson’s Contruction Algorithm & Construction of NFA and subsequently, a DFA
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: A regexp processor translates the syntax into internal representation which can be executed and matched with a string and that internal representation can have several approaches like the ones mentioned.
+5. Are the given two patterns equivalent?
+(1) gray|grey
+(2) gr(a|e)y
+a) yes
+b) no
+View Answer
+
+Answer: a
+Explanation: Paranthesis can be used to define the scope and precedence of operators. Thus, both the expression represents the same pattern.
+Check this: Automata Theory Books | Computer Science Books
+6. Which of the following are not quantifiers?
+a) Kleene plus +
+b) Kleene star *
+c) Question mark ?
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: A quantifier after a token specifies how often the preceding element is allowed to occur. ?, *, +, {n}, {min, }, {min, max} are few quantifiers we use in regexps implementations.
+7. Which of the following cannot be used to decide whether and how a given regexp matches a string:
+a) NFA to DFA
+b) Lazy DFA algorithm
+c) Backtracking
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: There are at least three algorithms which decides for us, whether and how a regexp matches a string which included the transformation of Non deterministic automaton to deterministic finite automaton, The lazy DFA algorithm where one simulates the NFA directly, building each DFA on demand and then discarding it at the next step and the process of backtracking whose running time is exponential.
+8. What does the following segment of code output?
+
+$string1 = "Hello World\n";
+if ($string1 =~ m/(H..).(l..)/) {
+  print "We matched '$1' and '$2'.\n";
+}
+a) We matched ‘Hel’ and ‘ld’
+b) We matched ‘Hel’ and ‘lld’
+c) We matched ‘Hel’ and ‘lo ‘
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: () groups a series of pattern element to a single element.
+When we use pattern in parenthesis, we can use any of ‘$1’, ‘$2’ later to refer to the previously matched pattern.
+9. Given segment of code:
+
+$string1 = "Hello\nWorld\n";
+if ($string1 =~ m/d\n\z/) {
+  print "$string1 is a string ";
+  print "that ends with 'd\\n'.\n";
+}
+What does the symbol /z does?
+a) changes line
+b) matches the beginning of a string
+c) matches the end of a string
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: It matches the end of a string and not an internal line.The given segment of code outputs:
+Hello
+World
+is a string that ends with ‘d\n’
+10. Conversion of a regular expression into its corresponding NFA :
+a) Thompson’s Construction Algorithm
+b) Powerset Construction
+c) Kleene’s algorithm
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Thompson construction algorithm is an algorithm in automata theory used to convert a given regular expression into NFA. Similarly, Kleene algorithm is used to convert a finite automaton to a regular expression
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Chomsky Normal Form”.
+
+1. The format: A->aB refers to which of the following?
+a) Chomsky Normal Form
+b) Greibach Normal Form
+c) Backus Naur Form
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A context free grammar is in Greibach Normal Form if the right hand sides of all the production rules start with a terminal, optionally followed by some variables.
+2. Which of the following does not have left recursions?
+a) Chomsky Normal Form
+b) Greibach Normal Form
+c) Backus Naur Form
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The normal form is of the format:
+A->aB where the right hand side production tends to begin with a terminal symbo, thus having no left recursions.
+3. Every grammar in Chomsky Normal Form is:
+a) regular
+b) context sensitive
+c) context free
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: Conversely, every context frr grammar can be converted into Chomsky Normal form and to other forms.
+Subscribe Now: Automata Theory Newsletter | Important Subjects Newsletters
+advertisement
+4. Which of the production rule can be accepted by Chomsky grammar?
+a) A->BC
+b) A->a
+c) S->e
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: in CNF, the production rules are of the form:
+A->BC
+A-> a
+S->e
+5. Given grammar G:
+(1)S->AS
+(2)S->AAS
+(3)A->SA
+(4)A->aa
+Which of the following productions denies the format of Chomsky Normal Form?
+a) 2,4
+b) 1,3
+c) 1, 2, 3, 4
+d) 2, 3, 4
+View Answer
+
+Answer: a
+Explanation: The correct format: A->BC, A->a, X->e.
+Check this: Automata Theory Books | Computer Science MCQs
+6. Which of the following grammars are in Chomsky Normal Form:
+a) S->AB|BC|CD, A->0, B->1, C->2, D->3
+b) S->AB, S->BCA|0|1|2|3
+c) S->ABa, A->aab, B->Ac
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: We can eliminate the options on the basis of the format we are aware of: A->BC, B->b and so on.
+7. With reference to the process of conversion of a context free grammar to CNF, the number of variables to be introduced for the terminals are:
+S->ABa
+A->aab
+B->Ac
+a) 3
+b) 4
+c) 2
+d) 5
+View Answer
+
+Answer: a
+Explanation: According to the number of terminals present in the grammar, we need the corresponding that number of terminal variables while conversion.
+8. In which of the following, does the CNF conversion find its use?
+a) CYK Algorithm
+b) Bottom up parsing
+c) Preprocessing step in some algorithms
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Besides the theoretical significance of CNF, it conversion scheme is helpful in algorithms as a preprocessing step, CYK algorithms and the bottom up parsing of context free grammars.
+9. Let G be a grammar. When the production in G satisfy certain restrictions, then G is said to be in ___________
+a) restricted form
+b) parsed form
+c) normal form
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: When the production in G satisfy certain restrictions, then G is said to be in ‘normal form’.
+10. Let G be a grammar: S->AB|e, A->a, B->b
+Is the given grammar in CNF?
+a) Yes
+b) No
+View Answer
+
+Answer: a
+Explanation: e is allowed in CNF only if the starting variable does not occur on the right hand side of the derivation.
+
+This set of Automata Theory Questions and Answers for Campus interviews focuses on “Pumping Lemma for Context Free Language”.
+
+1. Which of the following is called Bar-Hillel lemma?
+a) Pumping lemma for regular language
+b) Pumping lemma for context free languages
+c) Pumping lemma for context sensitive languages
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In automata theory, the pumping lemma for context free languages, also kmown as the Bar-Hillel lemma, represents a property of all context free languages.
+2. Which of the expressions correctly is an requirement of the pumping lemma for the context free languages?
+a) uvnwxny
+b) uvnwnxny
+c) uv2nwx2ny
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Let L be a CFL. Then there is an integer n so that for any u that belong to language L satisfying |t| >=n, there are strings u, v, w, x, y and z satisfying
+t=uvwxy
+|vx|>0
+|vwx|<=n For any m>=0, uvnwxny ∈ L
+3.Let L be a CFL. Then there is an integer n so that for any u that belong to language L satisfying
+|t|>=n, there are strings u, v, w, x, y and z satisfying
+t=uvwxy.
+Let p be the number of variables in CNF form of the context free grammar. The value of n in terms of p is
+a) 2p
+b) 2p
+c) 2p+1
+d) p2
+View Answer
+
+Answer: c
+Explanation: This inequation has been derived from derivation tree for t which must have height at least p+2(It has more than 2p leaf nodes, and therefore its height is >p+1).
+Subscribe Now: Automata Theory Newsletter | Important Subjects Newsletters
+advertisement
+4. Which of the following gives a positive result to the pumping lemma restrictions and requirements?
+a) {aibici|i>=0}
+b) {0i1i|i>=0}
+c) {ss|s∈{a,b}*}
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A positive result to the pumping lemma shows that the language is a CFL and ist contradiction or negative result shows that the given language is not a Context Free language.
+5. Using pumping lemma, which of the following cannot be proved as ‘not a CFL’?
+a) {aibici|i>=0}
+b) {ss|s∈{a,b}*}
+c) The set legal C programs
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: There are few rules in C that are context dependent. For example, declaration of a variable before it can be used.
+Check this: Computer Science Books | Automata Theory Books
+6. State true or false:
+Statement: We cannot use Ogden’s lemma when pumping lemma fails.
+a) true
+b) false
+View Answer
+
+Answer: b
+Explanation: Although the pumping lemma provides some information about v and x that are pumped, it says little about the location of these substrings in the string t. It can be used whenever the pumping lemma fails. Example: {apbqcrds|p=0 or q=r=s}, etc.
+7. Which of the following cannot be filled in the blank below?
+Statement: There are CFLs L1 nad L2 so that ___________is not a CFL.
+a) L1∩L2
+b) L1′
+c) L1*
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: A set of context free language is closed under the following operations:
+a) Union
+b) Concatenation
+c) Kleene
+8. The pumping lemma is often used to prove that a language is:
+a) Context free
+b) Not context free
+c) Regular
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The pumping lemma is often used to prove that a given language L is non-context-free, by showing that arbitrarily long strings s are in L that cannot be “pumped” without producing strings outside L.
+9. What is the pumping length of string of length x?
+a) x+1
+b) x
+c) x-1
+d) x2
+View Answer
+
+Answer: a
+Explanation: There exists a property of all strings in the language that are of length p, where p is the constant-called the pumping length .For a finite language L, p is equal to the maximum string length in L plus 1.
+10. Which of the following does not obey pumping lemma for context free languages ?
+a) Finite languages
+b) Context free languages
+c) Unrestricted languages
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Finite languages (which are regular hence context free ) obey pumping lemma where as unrestricted languages like recursive languages do not obey pumping lemma for context free languages.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Eliminating Epsilon Productions”.
+
+1. The use of variable dependency graph is in:
+a) Removal of useless variables
+b) Removal of null productions
+c) Removal of unit productions
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: We use the concept of dependency graph inorder to check, whether any of the variable is reachable from the starting variable or not.
+2. The variable which produces an epsilon is called:
+a) empty variable
+b) nullable
+c) terminal
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: Any variable A for which the derivation: A->*e is possible is called Nullable.
+3. Statement:
+For A-> e ,A can be erased. So whenever it appears on the left side of a production, replace with another production without the A.
+State true or false:
+a) true
+b) false
+View Answer
+
+Answer: b
+Explanation: A can be erased. So whenever it appears on the right side of the production, replace with another production without the A.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Simplify the given grammar:
+S->aXb
+X->aXb | e
+a) S->aXb | ab, X-> aXb | ab
+b) S->X | ab, X-> aXb | ab
+c) S->aXb | ab, X-> S | ab
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: As X is nullable, we replace every right hand side presence of X with e and produce the simplified result.
+5. Consider the following grammar:
+A->e
+B->aAbC
+B->bAbA
+A->bB
+The number of productions added on the removal of the nullable in the given grammar:
+a) 3
+b) 4
+c) 2
+d) 0
+View Answer
+
+Answer: b
+Explanation: The modified grammar aftyer the removal of nullable can be shown as:
+B->aAbC| abC
+B->bAbA| bbA| bAb| bb
+A->bB
+Check this: Computer Science Books | Automata Theory Books
+6. Let G=(V, T, P, S) be a CFG such that _____________. Then there exists an equivalent grammar G’ having no e productions.
+a) e ∈ L(G)
+b) w ∉ L(G)
+c) e ∉ L(G)
+d) w ∈ L(G)
+View Answer
+
+Answer: c
+Explanation: Theorem: Let G = (V, T, S, P) be a CFG such that e ∉ L(G). Then there exists an equivalent grammar G’ having no e-productions.
+7. For each production in P of the form:
+A-> x1x2x3…xn
+put into P’ that production as well as all those generated by replacing null variables with e in all possible combinations. If all x(i) are nullable,
+a) A->e is put into P’
+b) A->e is not put into P’
+c) e is a member of G’
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: It is an exception that A->e is not put into P’ if all x(i) are nullable variables.
+8. For the given grammar G:
+S->ABaC
+A->BC
+B->b| e
+C->D| e
+D-> d
+Remove the e productions and generate the number of productions from S in the modified or simplified grammar.
+a) 6
+b) 7
+c) 5
+d) 8
+View Answer
+
+Answer: d
+Explanation: The grammar after the removal of epsilon production can be shown as:
+S->ABaC| AaC| ABa| Aa| a| aC| Ba| BaC
+A->BC| B| C
+B->b
+C->D
+D-> d
+9. Consider G=({S,A,B,E}, {a,b,c},P,S), where P consists of S →AB, A →a, B →b and E →c.
+Number of productions in P’ after removal of useless symbols:
+a) 4
+b) 3
+c) 2
+d) 5
+View Answer
+
+Answer: a
+Explanation:
+P’= S->AB, A->a, B-> b,
+V’={S, A, B},
+∑’={a, b}
+10. Given grammar G:
+S->aS| AB
+A-> e
+B-> e
+D-> b
+Reduce the grammar, removing all the e productions:
+a) S->aS| AB| A| B, D-> b
+b) S->aS| AB| A| B| a, D-> b
+c) S->aS| AB| A| B
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: We will replace all the nullables wherever they appear in the right hand side of any production. D will not be erased as we are just removing nullable variables not completely simplifying the grammar.

@@ -1,0 +1,488 @@
+1. Software Maintenance includes
+a) Error corrections
+b) Enhancements of capabilities
+c) Deletion of obsolete capabilities
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+2. Maintenance is classified into how many categories ?
+a) two
+b) three
+c) four
+d) five
+View Answer
+
+Answer: c
+Explanation: Adaptive, corrective, perfective and preventive are the four types of software maintenance.
+3. The modification of the software to match changes in the ever changing environment, falls under which category of software maintenance?
+a) Corrective
+b) Adaptive
+c) Perfective
+d) Preventive
+View Answer
+
+Answer: b
+Explanation: None.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. How many phases are there in Taute Maintenance Model?
+a) six
+b) seven
+c) eight
+d) nine
+View Answer
+
+Answer: c
+Explanation: None.
+5. What type of software testing is generally used in Software Maintenance?
+a) Regression Testing
+b) System Testing
+c) Integration Testing
+d) Unit Testing
+View Answer
+
+Answer: a
+Explanation: All other options are known as levels of software testing which further have types of software testing.
+Become Top Ranker in Software Engineering Now!
+6. Regression testing is a very expensive activity.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: As regression testing is performed many times over the life of the software product, it becomes a costly affair.
+7. Selective retest techniques may be more economical than the “retest-all”technique.How many selective retest techniques are there?
+a) two
+b) three
+c) four
+d) five
+View Answer
+
+Answer: b
+Explanation: The three categories include: Coverage, Minimization and Safe techniques.
+8. Which selective retest technique selects every test case that causes a modified program to produce a different output than its original version?
+a) Coverage
+b) Minimization
+c) Safe
+d) Maximization
+View Answer
+
+Answer: c
+Explanation: Safe techniques do not focus on coverage criteria, instead they select every test case that cause a modified program to produce different output than its original version.
+9. ______________ measures the ability of a regression test selection technique to handle realistic applications.
+a) Efficiency
+b) Precision
+c) Generality
+d) Inclusiveness
+View Answer
+
+Answer: c
+Explanation: Generality measures the ability of a technique to handle realistic and diverse language constructs, arbitrarily complex modifications, and realistic testing applications.
+10. Which regression test selection technique exposes faults caused by modifications?
+a) Efficiency
+b) Precision
+c) Generality
+d) Inclusiveness
+View Answer
+
+Answer: d
+Explanation: Inclusiveness measures the extent to which a technique chooses test cases that will cause the modified program to produce different output than the original program, and thereby expose faults caused by modifications.
+1. The process of generating analysis and design documents is known as
+a) Software engineering
+b) Software re-engineering
+c) Reverse engineering
+d) Re-engineering
+View Answer
+
+Answer: c
+Explanation: Reverse engineering is the process followed in order to find difficult, unknown and hidden information about a software system..
+2. What is a software patch?
+a) Required or Critical Fix
+b) Emergency Fix
+c) Daily or routine Fix
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A software patch is an emergency fix which is worked upon the obsolete version whenever a vulnerability is encountered.
+3. Which one of the following is not a maintenance model?
+a) Waterfall model
+b) Reuse-oriented model
+c) Iterative enhancement model
+d) Quick fix model
+View Answer
+
+Answer: a
+Explanation: Waterfall model is a software development model.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What does ACT stands for in In Boehm model for software maintenance?
+a) Actual change track
+b) Annual change track
+c) Annual change traffic
+d) Actual change traffic
+View Answer
+
+Answer: c
+Explanation: None.
+5. Choose the suitable options with respect to regression testing.
+a) It helps in development of software
+b) It helps in maintenance of software
+c) It helps in development & maintenance of software
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Regression testing preserves the quality and reliability of software and ensures the software’s continued operation.
+Check this: Software Engineering Books | Computer Science MCQs
+6. What are legacy systems?
+a) new systems
+b) old systems
+c) under-developed systems
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Legacy systems are the existing systems which may require some modification or maintenance.
+7. Which of the following manuals is not a user documentation?
+a) Beginner’s Guide
+b) Installation guide
+c) Reference Guide
+d) SRS
+View Answer
+
+Answer: d
+Explanation: SRS provides information on exact requirements of system as agreed between user and developers.
+8. Which of the following manuals is a user documentation?
+a) SRS -Software Requirement Specification
+b) SDD -Software Design Document
+c) System Overview
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: System overview provides general description of the system’s functions.
+9. The process of transforming a model into source code is known as
+a) Forward engineering
+b) Reverse engineering
+c) Re-engineering
+d) Reconstructing
+View Answer
+
+Answer: a
+Explanation: None.
+10. How many stages are there in Iterative-enhancement model used during software maintenance?
+a) two
+b) three
+c) four
+d) five
+View Answer
+
+Answer: b
+Explanation: The stages include: analysis of existing system, characterize proposed modifications, redesign and implement current version.
+1. Which of the following is a field related to certification ?
+a) Person
+b) Process
+c) Product
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: During software certification all given options are targeted.
+2. Which of the following is a software process certification ?
+a) JAVA Certified
+b) IBM Certified
+c) ISO-9000
+d) Microsoft Certified
+View Answer
+
+Answer: c
+Explanation: None.
+3. Which standard is followed in aviation industry ?
+a) CTRADO-172B
+b) RTCADO-178B
+c) RTRADO-178B
+d) CTCADO-178B
+View Answer
+
+Answer: b
+Explanation: RTCADO-178B is a popular aviation standard that has become a defacto standard.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. How many levels, does the DO-178B certification targeted by RTCADO-178B has ?
+a) two
+b) three
+c) four
+d) five
+View Answer
+
+Answer: d
+Explanation: The levels are A, B, C, D, E.
+5. Third Party Certification for software standards is based on
+a) Ul 1998, Second Edition
+b) UT 1998, Second Edition
+c) Ul 1992, Second Edition
+d) Ul 1996, Second Edition
+View Answer
+
+Answer: a
+Explanation: None.
+Get Free Certificate of Merit in Software Engineering Now!
+6. What are the goals to gain Laboratory Accreditation ?
+a) Increase availability of testing services through third-party laboratories
+b) Increase availability of testing market to encourage development of software testing industry
+c) Reduce cost by increasing supply of testing services
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The goal is to promote development of competitive market, hence option d.
+7. National Voluntary Laboratory Accreditation Program approve accreditation in
+a) Environmental standards
+b) Computers and electronics
+c) Product testing
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: National Voluntary Laboratory Accreditation Program Works with other national metrology institutes to establish criteria for mutual recognition of test results.
+8. CSTE stands for
+a) Certified Software Technology
+b) Certified Software Tester
+c) Certified Software Trainee
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+9. CSQA stands for
+a) Certified Software Quality Analyst
+b) Certified Software Quality Approved
+c) Certified Software Quality Acclaimed
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. Which of the following companies provide certifications for their own products?
+a) CISCO
+b) ORACLE
+c) Microsoft
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+1. “Robustness” answers which of the following description?
+a) CASE tools be used to support the process activities
+b) Process errors are avoided or trapped before they result in product errors
+c) Defined process is acceptable and usable by the engineers responsible for producing the software
+d) Process continues in spite of unexpected problems
+View Answer
+
+Answer: d
+Explanation: None.
+2. Process improvement is the set of activities, methods, and transformations that developers use to develop and maintain information systems.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The definition is of a system development process.
+3. “Understandability” answers which of the following description?
+a) The extent to which the process is explicitly defined
+b) Process errors are avoided or trapped before they result in product errors
+c) Defined process is acceptable and usable by the engineers responsible for producing the software product
+d) Process continues in spite of unexpected problems
+View Answer
+
+Answer: a
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. How many stages are there in process improvement?
+a) three
+b) four
+c) five
+d) six
+View Answer
+
+Answer: a
+Explanation: Process measurement, analysis and change are the three stages.
+5. In which stage of process improvement bottlenecks and weaknesses are identified?
+a) Process measurement
+b) Process analysis
+c) Process change
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In Process analysis the current process is assessed and bottlenecks and weaknesses are identified.
+Take Software Engineering Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Prototypes and 4GL business systems are categorized under which process?
+a) Informal
+b) Managed
+c) Methodical
+d) Supported
+View Answer
+
+Answer: a
+Explanation: Here the development team chose their own way of working.
+7. The documentation of a process which records the tasks, the roles and the entities used is called
+a) Process metric
+b) Process analysis
+c) Process modelling
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Process models may be presented from different perspectives.
+8. It is always best to start process analysis with a new test model.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: It is always best to start process analysis with an existing model. People then may extend and change this.
+9. What is a tangible output of an activity that is predicted in a project plan?
+a) Deliverable
+b) Activity
+c) Condition
+d) Process
+View Answer
+
+Answer: a
+Explanation: None.
+10. What is often undefined and is left to the ingenuity of the project managers and engineers?
+a) Role
+b) Exception
+c) Activity
+d) Process
+View Answer
+
+Answer: b
+Explanation: Exceptions are often undefined and it is left to the ingenuity of the project managers and engineers to handle the exception.
+11. Which of the following is not a part of process change?
+a) Introducing new practices, methods or processes
+b) Introducing new team members to existing project
+c) Introducing or removing deliverable
+d) Introducing new roles or responsibilities
+View Answer
+
+Answer: b
+Explanation: Adding more developers aid to process completion rather than changing it.
+12. The Capability Maturity Model (CMM) is a continuous model.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The CMM is discrete rather than continuous.
+13. The CMMI assessment is based on a x-point scale. What is the value of x?
+a) 0
+b) 2
+c) 4
+d) 6
+View Answer
+
+Answer: d
+Explanation: Not performed, performed, managed, defined, quantitatively managed, and optimizing are the six points.
+1. Which of the following is not included in failure costs?
+a) rework
+b) repair
+c) failure mode analysis
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: Failure costs are those that would disappear if no defects appeared before shipping a product to customers.
+2. Which requirements are the foundation from which quality is measured?
+a) Hardware
+b) Software
+c) Programmers
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Lack of conformance to requirements is lack of quality.
+3. Which of the following is not a SQA plan for a project?
+a) evaluations to be performed
+b) amount of technical work
+c) audits and reviews to be performed
+d) documents to be produced by the SQA group
+View Answer
+
+Answer: b
+Explanation: All other options support a SQA plan.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Degree to which design specifications are followed in manufacturing the product is called
+a) Quality Control
+b) Quality of conformance
+c) Quality Assurance
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+5. Which of the following is not included in External failure costs?
+a) testing
+b) help line support
+c) warranty work
+d) complaint resolution
+View Answer
+
+Answer: a
+Explanation: External failure costs are associated with defects found after the product has been shipped to the customer.
+Get Free Certificate of Merit in Software Engineering Now!
+6. Which of the following is not an appraisal cost in SQA?
+a) inter-process inspection
+b) maintenance
+c) quality planning
+d) testing
+View Answer
+
+Answer: c
+Explanation: It is associated prevention cost.
+7. Who identifies, documents, and verifies that corrections have been made to the software?
+a) Project manager
+b) Project team
+c) SQA group
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+8. The primary objective of formal technical reviews is to find _________ during the process so that they do not become defects after release of the software.
+a) errors
+b) equivalent faults
+c) failure cause
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Errors lead to faults
+9. What is not included in prevention costs?
+a) quality planning
+b) formal technical reviews
+c) test equipment
+d) equipment calibration and maintenance
+View Answer
+
+Answer: d
+Explanation: The cost of quality includes all costs incurred in the pursuit of quality or in performing quality-related activities.
+10. Software quality assurance consists of the auditing and reporting functions of management.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.

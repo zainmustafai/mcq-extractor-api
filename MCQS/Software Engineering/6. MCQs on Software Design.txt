@@ -1,0 +1,463 @@
+1. Which is the first step in the software development life cycle ?
+a) Analysis
+b) Design
+c) Problem/Opportunity Identification
+d) Development and Documentation
+View Answer
+
+Answer: c
+Explanation: None.
+2. Which tool is use for structured designing ?
+a) Program flowchart
+b) Structure chart
+c) Data-flow diagram
+d) Module
+View Answer
+
+Answer: b
+Explanation: A Structure Chart (SC) in software engineering and organizational theory, is a chart which shows the breakdown of a system to its lowest manageable levels.
+3. A step by step instruction used to solve a problem is known as
+a) Sequential structure
+b) A List
+c) A plan
+d) An Algorithm
+View Answer
+
+Answer: d
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. In the Analysis phase, the development of the ____________ occurs, which is a clear statement of the goals and objectives of the project.
+a) documentation
+b) flowchart
+c) program specification
+d) design
+View Answer
+
+Answer: c
+Explanation: Program specification is the definition of what a computer program is expected to do.
+5. Actual programming of software code is done during the ____________ step in the SDLC.
+a) Maintenance and Evaluation
+b) Design
+c) Analysis
+d) Development and Documentation
+View Answer
+
+Answer: d
+Explanation: The developer has to find in the technical documentation enough information to start coding.
+Take Software Engineering Tests Now!
+6. Who designs and implement database structures.
+a) Programmers
+b) Project managers
+c) Technical writers
+d) Database administrators
+View Answer
+
+Answer: d
+Explanation: The role of database administrators includes the development and design of database strategies, system monitoring and improving database performance and capacity, and planning for future expansion requirements.
+7. ____________ is the process of translating a task into a series of commands that a computer will use to perform that task.
+a) Project design
+b) Installation
+c) Systems analysis
+d) Programming
+View Answer
+
+Answer: d
+Explanation: None.
+8. Debugging is:
+a) creating program code
+b) finding and correcting errors in the program code
+c) identifying the task to be computerized
+d) creating the algorithm
+View Answer
+
+Answer: b
+Explanation: Debugging is a methodical process of finding and reducing the number of bugs, or defects, in a computer program or a piece of electronic hardware, thus making it behave as expected.
+9. In Design phase, which is the primary area of concern ?
+a) Architecture
+b) Data
+c) Interface
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Part of the design phase is to create structural and behavioral models of the system which is covered by architecture, data and the interface of the product.
+10. The importance of software design can be summarized in a single word which is:
+a) Efficiency
+b) Accuracy
+c) Quality
+d) Complexity
+View Answer
+
+Answer: c
+Explanation: Software functional quality reflects how well it complies with or conforms to a given design, based on functional requirements or specifications.
+11. Cohesion is a qualitative indication of the degree to which a module
+a) can be written more compactly
+b) focuses on just one thing
+c) is able to complete its function in a timely manner
+d) is connected to other modules and the outside world
+View Answer
+
+Answer: b
+Explanation: Cohesion of a single module/component is the degree to which its responsibilities form a meaningful unit.
+12. Coupling is a qualitative indication of the degree to which a module
+a) can be written more compactly
+b) focuses on just one thing
+c) is able to complete its function in a timely manner
+d) is connected to other modules and the outside world
+View Answer
+
+Answer: d
+Explanation: Coupling between modules/components is their degree of mutual interdependence.
+1. Java packages and Fortran subroutine are examples of__________
+a) Functions
+b) Modules
+c) Classes
+d) Sub procedures
+View Answer
+
+Answer: b
+Explanation: A modular system consist of well defined manageable units with well defined interfaces among the units.
+2. Which of the property of software modularity is incorrect with respect to benefits software modularity?
+a) Modules are robust
+b) Module can use other modules
+c) Modules Can be separately compiled and stored in a library
+d) Modules are mostly dependent
+View Answer
+
+Answer: d
+Explanation: Modularity cannot bring benefits unless the modules are autonomous or independent.
+3. _______________ is a measure of the degree of interdependence between modules.
+a) Cohesion
+b) Coupling
+c) None of the mentioned
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Coupling or dependency is the degree to which each program module relies on each one of the other modules.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following is the best type of module coupling?
+a) Control Coupling
+b) Stamp Coupling
+c) Data Coupling
+d) Content Coupling
+View Answer
+
+Answer: c
+Explanation: The dependency between module A and B is said to be data coupled if their dependency is based on the fact they communicate by only passing of data.
+5. Which of the following is the worst type of module coupling?
+a) Control Coupling
+b) Stamp Coupling
+c) External Coupling
+d) Content Coupling
+View Answer
+
+Answer: c
+Explanation: Content coupling occurs when module A changes data of module B or when control is passed from one module to the middle of another.
+Become Top Ranker in Software Engineering Now!
+6. Which of the following is the worst type of module cohesion?
+a) Logical Cohesion
+b) Temporal Cohesion
+c) Functional Cohesion
+d) Coincidental Cohesion
+View Answer
+
+Answer: d
+Explanation: Coincidental cohesion exists in modules that contain instructions that have little or no relationship to one another.
+7. Which of the following is the best type of module cohesion?
+a) Functional Cohesion
+b) Temporal Cohesion
+c) Functional Cohesion
+d) Sequential Cohesion
+View Answer
+
+Answer: a
+Explanation: Functional Cohesion is a type of cohesion in which the tasks performed by a software module all contribute to the performance of a single function.
+8. A software engineer must design the modules with the goal of high cohesion and low coupling.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: If the software is not properly modularized, a host of seemingly trivial enhancement or changes will result into death of the project.
+9. In what type of coupling, the complete data structure is passed from one module to another?
+a) Control Coupling
+b) Stamp Coupling
+c) External Coupling
+d) Content Coupling
+View Answer
+
+Answer: b
+Explanation: None.
+10. If all tasks must be executed in the same time-span, what type of cohesion is being exhibited?
+a) Functional Cohesion
+b) Temporal Cohesion
+c) Functional Cohesion
+d) Sequential Cohesion
+View Answer
+
+Answer: b
+Explanation: A Module exhibits temporal cohesion when it contains tasks that are related by the fact that all tasks must be executed in the same time-span.
+1. Choose the option that does not define Function Oriented Software Design.
+a) It consists of module definitions
+b) Modules represent data abstraction
+c) Modules support functional abstraction
+d) None of the mentioned
+View Answer
+
+Answer:b
+Explanation: Option b defines an Object Oriented Design.
+2. Which of the following is a complementary approach to function-oriented approach ?
+a) Object oriented analysis
+b) Object oriented design
+c) Structured approach
+d) Both Object oriented analysis and design
+View Answer
+
+Answer:d
+Explanation: None.
+3. Function-oriented design techniques starts with functional requirements specified in
+a) SDD
+b) SRS
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer:b
+Explanation: None.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Structured Analysis is based on the principles of
+a) Top-down decomposition approach
+b) Divide and conquer principle
+c) Graphical representation of results using DFDs
+d) All of the mentioned
+View Answer
+
+Answer:d
+Explanation: None.
+5. Which of the following is/are true with respect to functions ?
+a) A function such as “search-book” is represented using a circle
+b) Functions represent some activity
+c) Function symbol is known as a process symbol or a bubble in DFD
+d) All of the mentioned
+View Answer
+
+Answer:d
+Explanation: All the options are correct with respect to Function Oriented Software Design.
+Become Top Ranker in Software Engineering Now!
+6. Which of the following is not a use of a CASE tool ?
+a) Support structured analysis and design (SA/SD)
+b) Maintains the data dictionary
+c) Checks whether DFDs are balanced or not
+d) It complies with the available system
+View Answer
+
+Answer:d
+Explanation: It takes long time to establish the system in order to comply with the available system.
+7. What DFD notation is represented by the Rectangle?
+a) Transform
+b) Data Store
+c) Function
+d) None of the mentioned
+View Answer
+
+Answer:b
+Explanation: None.
+8. Structural decomposition is concerned with function calls.
+a) True
+b) False
+View Answer
+
+Answer:a
+Explanation: Structural decomposition is concerned with developing a model of the design which shows the dynamic structure.
+9. A function-oriented design focuses on the entities in the system rather than the data processing activities.
+a) True
+b) False
+View Answer
+
+Answer:b
+Explanation: It is an object oriented design which focus on entities.
+10. In DFDs, user interactions with the system is denoted by
+a) Circle
+b) Arrow
+c) Rectangle
+d) Triangle
+View Answer
+
+Answer:a
+Explanation: None.
+1. Choose the incorrect statement in terms of Objects.
+a) Objects are abstractions of real-world
+b) Objects can’t manage themselves
+c) Objects encapsulate state and representation information
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Objects are independent.
+2. What encapsulates both data and data manipulation functions ?
+a) Object
+b) Class
+c) Super Class
+d) Sub Class
+View Answer
+
+Answer: a
+Explanation: None.
+3. Which of the following is a mechanism that allows several objects in an class hierarchy to have different methods with the same name?
+a) Aggregation
+b) Polymorphism
+c) Inheritance
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: In polymorphism instances of each subclass will be free to respond to messages by calling their own version of the method.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Inherited object classes are self-contained.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Inherited object classes are not self-contained. They cannot be understood without reference to their super-classes.
+5. Which of the following points related to Object-oriented development (OOD) is true?
+a) OOA is concerned with developing an object model of the application domain
+b) OOD is concerned with developing an object-oriented system model to implement requirements
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The answer is in support with the OOD.
+Check this: Information Technology MCQs | Computer Science MCQs
+6. How is generalization implemented in Object Oriented programming languages?
+a) Inheritance
+b) Polymorphism
+c) Encapsulation
+d) Abstract Classes
+View Answer
+
+Answer: a
+Explanation: None.
+7. Which of the following is a disadvantage of OOD ?
+a) Easier maintenance
+b) Objects may be understood as stand-alone entities
+c) Objects are potentially reusable components
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the options define the characteristics of OOD.
+8. Which of the following describes”Is-a-Relationship” ?
+a) Aggregation
+b) Inheritance
+c) Dependency
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+9. Object that collects data on request rather than autonomously is known as
+a) Active Object
+b) Passive Object
+c) Multiple instance
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A passive object holds data, but does not initiate control.
+10. Objects are executed
+a) sequentially
+b) in Parallel
+c) sequentially & Parallel
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: Objects may be distributed and may execute sequentially or in parallel.
+1. How many layers are present in the OO design pyramid?
+a) three
+b) four
+c) five
+d) one
+View Answer
+
+Answer: b
+Explanation: The four layers are: Subsystem layer, class and object layer, message layer and responsibilities layer
+2. Which of the following early OOD methods incorporates both a “micro development process” and a “macro development process.” ?
+a) Booch method
+b) Rumbaugh method
+c) Wirfs-Brock method
+d) Coad and Yourdon method
+View Answer
+
+Answer: a
+Explanation: The macro development process includes the architectural planning and micro developments process defines rules that govern the use of operations and attributes and the domain-specific
+policies for memory management, error handling, and other infrastructure
+functions.
+3. Grady Booch, James Rumbaugh, and Ivar Jacobson combined the best features of their individual object-oriented analysis into a new method for object oriented design known as
+a) HTML
+b) XML
+c) UML
+d) SGML
+View Answer
+
+Answer: c
+Explanation: The Unified Modeling Language (UML) has become
+widely used throughout the industry as the standard approach to OOD.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. A design description of an object is known as a class
+a) instance
+b) object
+c) case
+d) both instance and object
+View Answer
+
+Answer: d
+Explanation: None.
+5. Which of the following is conceptually similar to objects?
+a) PACKAGE
+b) PROC
+c) PRIVATE
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A package is a namespace that organizes a set of related classes and interfaces.
+Get Free Certificate of Merit in Software Engineering Now!
+6. A design description in OOD includes
+a) Protocol Description
+b) Implementation Description
+c) Type Description
+d) both Protocol and Implementation Description
+View Answer
+
+Answer: d
+Explanation: None.
+7. Which of the following is not an operation as per OOD algorithms and data structures?
+a) operations that manipulate data in some way
+b) operations that perform a computation
+c) operations that check for syntax errors
+d) operations that monitor an object for the occurrence of a controlling event
+View Answer
+
+Answer: c
+Explanation: Operations that check for syntax errors is concerned with the programming language used, so it will be handled by the compiler.
+8. Throughout the OOD process, a software engineer should look for every opportunity for creating new design process.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: A software engineer should look for every opportunity to reuse existing design patterns whenever they meet the needs of the design rather than creating new ones.

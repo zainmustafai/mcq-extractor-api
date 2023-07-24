@@ -1,0 +1,328 @@
+1. If one or more devices use a common set of wires to communicate with the computer system, the connection is called ______
+a) CPU
+b) Monitor
+c) Wirefull
+d) Bus
+View Answer
+
+Answer: d
+Explanation: None.
+2. A ____ a set of wires and a rigidly defined protocol that specifies a set of messages that can be sent on the wires.
+a) port
+b) node
+c) bus
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+3. When device A has a cable that plugs into device B, and device B has a cable that plugs into device C and device C plugs into a port on the computer, this arrangement is called a _________
+a) port
+b) daisy chain
+c) bus
+d) cable
+View Answer
+
+Answer: b
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. The _________ present a uniform device-access interface to the I/O subsystem, much as system calls provide a standard interface between the application and the operating system.
+a) Devices
+b) Buses
+c) Device drivers
+d) I/O systems
+View Answer
+
+Answer: c
+Explanation: None.
+5. A ________ is a collection of electronics that can operate a port, a bus, or a device.
+a) controller
+b) driver
+c) host
+d) bus
+View Answer
+
+Answer: a
+Explanation: None.
+Take Operating System Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. An I/O port typically consists of four registers status, control, ________ and ________ registers.
+a) system in, system out
+b) data in, data out
+c) flow in, flow out
+d) input, output
+View Answer
+
+Answer: b
+Explanation: None.
+7. The ______ register is read by the host to get input.
+a) flow in
+b) flow out
+c) data in
+d) data out
+View Answer
+
+Answer: c
+Explanation: None.
+8. The ______ register is written by the host to send output.
+a) status
+b) control
+c) data in
+d) data out
+View Answer
+
+Answer: d
+Explanation: None.
+9. The hardware mechanism that allows a device to notify the CPU is called _______
+a) polling
+b) interrupt
+c) driver
+d) controlling
+View Answer
+
+Answer: b
+Explanation: None.
+10. The CPU hardware has a wire called __________ that the CPU senses after executing every instruction.
+a) interrupt request line
+b) interrupt bus
+c) interrupt receive line
+d) interrupt sense line
+View Answer
+
+Answer: a
+Explanation: None.
+11. The _________ determines the cause of the interrupt, performs the necessary processing and executes a return from the interrupt instruction to return the CPU to the execution state prior to the interrupt.
+a) interrupt request line
+b) device driver
+c) interrupt handler
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+12. In general the two interrupt request lines are ____________
+a) maskable & non maskable interrupts
+b) blocked & non maskable interrupts
+c) maskable & blocked interrupts
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+13. The _________ are reserved for events such as unrecoverable memory errors.
+a) non maskable interrupts
+b) blocked interrupts
+c) maskable interrupts
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+1. The ________ can be turned off by the CPU before the execution of critical instruction sequences that must not be interrupted.
+a) nonmaskable interrupt
+b) blocked interrupt
+c) maskable interrupt
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+2. The __________ is used by device controllers to request service.
+a) nonmaskable interrupt
+b) blocked interrupt
+c) maskable interrupt
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+3. The interrupt vector contains ____________
+a) the interrupts
+b) the memory addresses of specialized interrupt handlers
+c) the identifiers of interrupts
+d) the device addresses
+View Answer
+
+Answer: b
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Division by zero, accessing a protected or non existent memory address, or attempting to execute a privileged instruction from user mode are all categorized as ________
+a) errors
+b) exceptions
+c) interrupt handlers
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+5. For large data transfers, _________ is used.
+a) dma
+b) programmed I/O
+c) controller register
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Check this: Computer Science Books | Computer Science MCQs
+6. A character stream device transfers ____________
+a) bytes one by one
+b) block of bytes as a unit
+c) with unpredictable response times
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+7. A block device transfers ____________
+a) bytes one by one
+b) block of bytes as a unit
+c) with unpredictable response times
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+8. What is a dedicated device?
+a) opposite to a sharable device
+b) same as a sharable device
+c) can be used concurrently by several processes
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+9. A keyboard is an example of a device that is accessed through a __________ interface.
+a) block stream
+b) set of blocks
+c) character stream
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+10. In polling ____________
+a) busy – wait cycles wait for I/O from device
+b) interrupt handler receives interrupts
+c) interrupt-request line is triggered by I/O device
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+11. A non blocking system call _________________
+a) halts the execution of the application for an extended time
+b) does not halt the execution of the application
+c) does not block the interrupts
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+12. An asynchronous call ____________
+a) returns immediately, without waiting for the I/O to complete
+b) does not return immediately and waits for the I/O to complete
+c) consumes a lot of time
+d) is too slow
+View Answer
+
+Answer: a
+Explanation: None.
+1. Buffering is done to ____________
+a) cope with device speed mismatch
+b) cope with device transfer size mismatch
+c) maintain copy semantics
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+2. Caching is ________ spooling.
+a) same as
+b) not the same as
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+3. Caching ____________
+a) holds a copy of the data
+b) is fast memory
+c) holds the only copy of the data
+d) holds output for a device
+View Answer
+
+Answer: a
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Spooling ____________
+a) holds a copy of the data
+b) is fast memory
+c) holds the only copy of the data
+d) holds output for a device
+View Answer
+
+Answer: c
+Explanation: None.
+5. The ________ keeps state information about the use of I/O components.
+a) CPU
+b) OS
+c) kernel
+d) shell
+View Answer
+
+Answer: c
+Explanation: None.
+Check this: Computer Science MCQs | Operating System Books
+6. The kernel data structures include ____________
+a) process table
+b) open file table
+c) close file table
+d) all of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+7. Windows NT uses a __________ implementation for I/O.
+a) message – passing
+b) draft – passing
+c) secondary memory
+d) cache
+View Answer
+
+Answer: a
+Explanation: None.
+8. A ________ is a full duplex connection between a device driver and a user level process.
+a) Bus
+b) I/O operation
+c) Stream
+d) Flow
+View Answer
+
+Answer: c
+Explanation: None.
+9. I/O is a _________ in system performance.
+a) major factor
+b) minor factor
+c) does not matter
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. If the number of cycles spent busy – waiting is not excessive, then ____________
+a) interrupt driven I/O is more efficient than programmed I/O
+b) programmed I/O is more efficient than interrupt driven I/O
+c) both programmed and interrupt driven I/O are equally efficient
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None

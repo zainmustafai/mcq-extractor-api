@@ -1,0 +1,386 @@
+1. In affine block cipher systems if f(m)=Am + t, what is f(m1+m2) ?
+a) f(m1) + f(m2) + t
+b) f(m1) + f(m2) + 2t
+c) f(m1) + t
+d) f(m1) + f(m2)
+View Answer
+
+Answer: a
+Explanation: In general f(∑(i=1 to n) m_i = ∑(i=1 to n) f(m_i) + tδ_n) where δ_n=0 if n is odd and 1 if n is even.
+2. In affine block cipher systems if f(m)=Am + t, what is f(m1+m2+m3) ?
+a) f(m1) + f(m2) + f(m3) + t
+b) f(m1) + f(m2) + f(m3) +2t
+c) f(m1) + f(m2) + f(m3)
+d) 2(f(m1) + f(m2) + f(m3))
+View Answer
+
+Answer: c
+Explanation: In general f(∑(i=1 to n) m_i =∑(i=1 to n) f(m_i ) + tδ_n) where δ_n=0 if n is odd and 1 if n is even.
+3. If the block size is ‘s’, how many affine transformations are possible ?
+a) 2s (2s-1)(2s-1)(2s-12)………(2s-1(s-1))
+b) 2s (2s-1)(2s-2)(2s-22)………(2s-2(s-2))
+c) 2ss (2s-1)(2s-2)(2s-22)………(2s-2(s-1))
+d) 2s (2s-1)(2s-2)(2s-22)………(2s-2(s-3))
+View Answer
+
+Answer: c
+Explanation: 2s (2s-1)(2s-2)(2s-22)………(2s-2(s-1)) is the maximum number of affine transformations possible for a block size ‘s’ matrix.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. What is the number of possible 3 x 3 affine cipher transformations ?
+a) 168
+b) 840
+c) 1024
+d) 1344
+View Answer
+
+Answer: d
+Explanation: Since ‘A’ cannot have columns of ‘0’s. so there are ‘7’ choices i.e. 001/010/011/100/101/110/111. ‘a1’ is chosen for first column of ‘A.
+We have ‘6’ choices for second column, let ‘a2’ be chosen for second column.
+The final column can be any 3-tuple except 0, a1, a2, a1+a2. That means any one of the remaining ‘4’ 3-tuples may be chosen for the final column.
+(Total number of@ possibilities for A)}=k=7×6×4=168
+(Number of affine@ block cipher transformation)}=k×t=8×168 =1344
+5. Super-Encipherment using two affine transformations results in another affine transformation.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: f(g(m))=A_1 g(m)+c_1
+f(g(m))=A_1 (A_2 m+c_2)+c_1 f(g(m))=A_1 A_2 m+A_1 c_2+c_1 f(x)=A_3 m+c_3
+where
+A_3=A_1 A_2
+c_3=A_1 c_2+c_1
+This results in another affine transformation, and does not improve the security.
+Check this: Computer Science MCQs | Cyber Security MCQ
+6. If the key is 110100001, the output of the SP network for the plaintext: 101110001 is
+a) 110100011
+b) 110101110
+c) 010110111
+d) 011111010
+View Answer
+
+Answer: b
+Explanation:
+The output of SP network for the plaintext: 101110001 is 110101110 if key is 110100001
+7. If the key is 110100001 where,
+If ki=0, then S_i (x)=((1 1 0 | 0 1 1 | 1 0 0 ))x+((1 1 1))
+and If ki=1, then S_i (x)=((0 1 1 | 1 0 1 | 1 0 0))x+((0 1 1))
+then the output of the SP network for the plaintext: 101110001 is
+a) 010110011
+b) 111000011
+c) 110110111
+d) 010110110
+View Answer
+
+Answer: a
+Explanation:
+The output of SP network for the plaintext: 101110001 is 010110011 if the key is 11010000
+8. Confusion hides the relationship between the ciphertext and the plaintext.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Confusion hides the relationship between the ciphertext and the key.
+9. The S-Box is used to provide confusion, as it is dependent on the unknown key.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The S-Box is used to provide confusion, as it is dependent on the unknown key.
+The P-Box is fixed, and there is no confusion due to it, but it provides diffusion.
+10. This is an example of
+The figure is the example of the Feistel Cipher Structure
+
+a) SP Networks
+b) Feistel Cipher
+c) Hash Algorithm
+d) Hill Cipher
+View Answer
+
+Answer: b
+Explanation: The figure is the Feistel Cipher Structure.
+11. Which of the following slows the cryptographic algorithm –
+1) Increase in Number of rounds
+2) Decrease in Block size
+3) Decrease in Key Size
+4) Increase in Sub key Generation
+
+a) 1 and 3
+b) 2 and 3
+c) 3 and 4
+d) 2 and 4
+View Answer
+
+Answer: b
+Explanation: Increase in any of the above 4 leads to slowing of the cipher algorithm i.e. more computational time will be required.
+1. DES follows
+a) Hash Algorithm
+b) Caesars Cipher
+c) Feistel Cipher Structure
+d) SP Networks
+View Answer
+
+Answer: c
+Explanation: DES follows Feistel Cipher Structure.
+2. The DES Algorithm Cipher System consists of ____________rounds (iterations) each with a round key
+a) 12
+b) 18
+c) 9
+d) 16
+View Answer
+
+Answer: d
+Explanation: The DES Algorithm Cipher System consists of 16 rounds (iterations) each with a round key.
+3. The DES algorithm has a key length of
+a) 128 Bits
+b) 32 Bits
+c) 64 Bits
+d) 16 Bits
+View Answer
+
+Answer: c
+Explanation: DES encrypts blocks of 64 bits using a 64 bit key.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+4. In the DES algorithm, although the key size is 64 bits only 48bits are used for the encryption procedure, the rest are parity bits.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: 56 bits are used, the rest 8 bits are parity bits.
+5. In the DES algorithm the round key is __________ bit and the Round Input is ____________bits.
+a) 48, 32
+b) 64,32
+c) 56, 24
+d) 32, 32
+View Answer
+
+Answer: a
+Explanation: The round key is 48 bits. The input is 32 bits.
+Check this: Cyber Security MCQ | Computer Science Books
+6. In the DES algorithm the Round Input is 32 bits, which is expanded to 48 bits via ____________
+a) Scaling of the existing bits
+b) Duplication of the existing bits
+c) Addition of zeros
+d) Addition of ones
+View Answer
+
+Answer: a
+Explanation: The round key is 48 bits. The input is 32 bits. This input is first expanded to 48 bits (permutation plus an expansion), that involves duplication of 16 of the bits.
+7. The Initial Permutation table/matrix is of size
+a) 16×8
+b) 12×8
+c) 8×8
+d) 4×8
+View Answer
+
+Answer: c
+Explanation: There are 64 bits to permute and this requires a 8×8 matrix.
+8. The number of unique substitution boxes in DES after the 48 bit XOR operation are
+a) 8
+b) 4
+c) 6
+d) 12
+View Answer
+
+Answer: a
+Explanation: The substitution consists of a set of 8 S-boxes, each of which accepts 6 bits as input and produces 4 bits as output.
+9. In the DES algorithm the 64 bit key input is shortened to 56 bits by ignoring every 4th bit.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Every 8th bit is ignored to shorten the key length.
+1. During decryption, we use the Inverse Initial Permutation (IP-1) before the IP.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: IP-1 is the first step and the last step is IP during decryption.
+2. A preferable cryptographic algorithm should have a good avalanche effect.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Thus statement is true as a change in one bit of the plaintext or one bit of the key should produce a change in many bits of the ciphertext. This is referred to as the avalanche effect.
+3. The number of tests required to break the DES algorithm are
+a) 2.8×1014
+b) 4.2×109
+c) 1.84×1019
+d) 7.2×1016
+View Answer
+
+Answer: d
+Explanation: There are 256 keys =7.2×1016.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The number of tests required to break the Double DES algorithm are
+a) 2112
+b) 2111
+c) 2128
+d) 2119
+View Answer
+
+Answer: b
+Explanation: For Double DES key is 2112 bits, should require 2111 tests to break.
+5. How many keys does the Triple DES algorithm use?
+a) 2
+b) 3
+c) 2 or 3
+d) 3 or 4
+View Answer
+
+Answer: c
+Explanation: For Triple DES we can either have 2 or 3 keys.
+Using two keys: c = Ek1(Dk2(Ek1(m)))
+Using three keys: c = Ek3(Ek2(Ek1(m))).
+Check this: Cryptography and Network Security Books | Cyber Security MCQ
+6. In triple DES, the key size is ___ and meet in the middle attack takes ___ tests to break the key.
+a) 2192 ,2112
+b) 2184,2111
+c) 2168,2111
+d) 2168,2112
+View Answer
+
+Answer: d
+Explanation: The key size is 2168 and meet in the middle attack takes 2112 tests to break.
+7. Using Differential Crypt-analysis, the minimum computations required to decipher the DES algorithm is
+a) 256
+b) 243
+c) 255
+d) 247
+View Answer
+
+Answer: d
+Explanation: Differential Crypt-analysis requires only 247 computations to decipher the DES algorithm.
+8.Using Linear Crypt-analysis, the minimum computations required to decipher the DES algorithm is
+a) 248
+b) 243
+c) 256
+d) 264
+View Answer
+
+Answer: b
+Explanation: Linear Crypt-analysis requires only 243 computations to decipher the DES algorithm.
+1. What is the size of the key in the SDES algorithm?
+a) 24 bits
+b) 16 bits
+c) 20 bits
+d) 10 bits
+View Answer
+
+Answer: d
+Explanation: The size of the key in the SDES algorithm is 10 bits.
+2. Assume input 10-bit key, K: 1010000010 for the SDES algorithm. What is K1?
+a) 10100100
+b) 01011011
+c) 01101000
+d) 10100111
+View Answer
+
+Answer: a
+Explanation: The permuted key P10 = 1000001100. Input to P8: 0000111000 and
+K1 is 10100100.
+3. Assume input 10-bit key, K: 1010000010 for the SDES algorithm. What is K2?
+a) 10100111
+b) 01000011
+c) 00100100
+d) 01011010
+View Answer
+
+Answer: b
+Explanation: Input to P8: 0010000011 and K2 is 01000011.
+4. The Ciphertext for the Plaintext 01110010, given that the keys K1 is 10100100 and K2 is 01000011 is
+a) 01110111
+b) 10010110
+c) 01010110
+d) 01000101
+View Answer
+
+Answer: a
+Explanation: Perform the SDES algorithm and compute the cipher text.
+5. The Ciphertext for the Plaintext 11010101, given that the key is 0111010001 is
+a) 00010001
+b) 10110010
+c) 11010010
+d) 01110011
+View Answer
+
+Answer: d
+Explanation: Perform the SDES Encryption algorithm and compute the cipher text.
+Subscribe Now: Cryptography and Network Security Newsletter | Important Subjects Newsletters
+advertisement
+
+Check this: Computer Science Books | Cyber Security MCQ
+6. The Plaintext for the Ciphertext 00100010, given that the key is 1111111111 is
+a) 01100111
+b) 00001010
+c) 01001000
+d) 01001100
+View Answer
+
+Answer: d
+Explanation: Perform the SDES Decryption algorithm and compute the cipher text.
+7. In SDES, Encryption algorithm can be written as a composition of functions:
+IP-1 o fK2 o fK1 o SW o IP
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The SDES algorithm follows the order – IP-1 o fK2 o SW o fK1 o IP.
+8. Assume input 10-bit key, K: 0010010111 for the SDES algorithm. What is K1?
+a) 00101111
+b) 01011011
+c) 01101000
+d) 10100111
+View Answer
+
+Answer: a
+Explanation: The permuted key P10 = 1000010111. Input to P8: 0000101111 and K1 is 00101111.
+9. The Plaintext for the Ciphertext 00001111, given that the key is 1111111111 is
+a) 01100111
+b) 00001010
+c) 11111111
+d) 01101101
+View Answer
+
+Answer: c
+Explanation: Perform the SDES Decryption algorithm and compute the cipher text.
+10. The Plaintext for the Ciphertext 11110000, given that the key is 0000000000 is
+a) 01100111
+b) 00000000
+c) 01001000
+d) 01101100
+View Answer
+
+Answer: b
+Explanation: Perform the SDES Decryption algorithm and compute the cipher text.
+11. Assume input 10-bit key, K: 0010010111 for the SDES algorithm. What is K2?
+a) 11101010
+b) 11011011
+c) 01101000
+d) 10101111
+View Answer
+
+Answer: a
+Explanation: The permuted key P10 = 0000101111. Input to P8: 0010011101 and K2 is 11101010.
+12.The Plaintext for the Ciphertext 10100101, given that the key is 0010010111 is
+a) 01100111
+b) 00110110
+c) 01001000
+d) 01001100
+View Answer
+
+Answer: b
+Explanation: Perform the SDES Decryption algorithm and compute the cipher text

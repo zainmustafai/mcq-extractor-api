@@ -1,0 +1,487 @@
+1. Physical or logical arrangement of network is __________
+a) Topology
+b) Routing
+c) Networking
+d) Control
+View Answer
+
+Answer: a
+Explanation: Topology in networks is the structure or pattern in which each and every node in the network is connected. There are many topologies in networking like bus, tree, ring, star, mesh, and hybrid topology. There is no particular best topology and a suitable topology can be chosen based on the kind of application of the network .
+2. Which network topology requires a central controller or hub?
+a) Star
+b) Mesh
+c) Ring
+d) Bus
+View Answer
+
+Answer: a
+Explanation: In star topology, no computer is connected to another computer directly but all the computers are connected to a central hub. Every message sent from a source computer goes through the hub and the hub then forwards the message only to the intended destination computer.
+3. _______ topology requires a multipoint connection.
+a) Star
+b) Mesh
+c) Ring
+d) Bus
+View Answer
+
+Answer: d
+Explanation: In bus topology, there is a single cable to which all the network nodes are connected. So whenever a node tries to send a message or data to other nodes, this data passes through all other nodes in the network through the cable. It is really simple to install but it’s not secure enough to be used in most of the computer network applications.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Data communication system spanning states, countries, or the whole world is ________
+a) LAN
+b) WAN
+c) MAN
+d) PAN
+View Answer
+
+Answer: b
+Explanation: WAN is the abbreviation for Wide Area Network. This network extends over a large geographical area. WANs are used to connect cities, states or even countries. A wireless connection is required to build a WAN. The best example of WAN is the Internet.
+5. Data communication system within a building or campus is________
+a) LAN
+b) WAN
+c) MAN
+d) PAN
+View Answer
+
+Answer: a
+Explanation: LAN is an abbreviation for Local Area Network. This network interconnects computers in a small area such as schools, offices, residence etc. It is the most versatile kind of data communication system where most of the computer network concepts can be visibly used.
+Take Computer Networks Tests Now!
+6. WAN stands for __________
+a) World area network
+b) Wide area network
+c) Web area network
+d) Web access network
+View Answer
+
+Answer: b
+Explanation: WAN is the abbreviation for Wide Area Network. This network extends over a large geographical area. These are used to connect cities, states or even countries. They can be connected through leased lines or satellites.
+7. In TDM, slots are further divided into __________
+a) Seconds
+b) Frames
+c) Packets
+d) Bits
+View Answer
+
+Answer: b
+Explanation: TDM is the abbreviation for Time division multiplexing. It is technique for combining several low rate channels to a single high rate channel. For a certain time slot, the several channels could use the maximum bandwidth. Each channel is inactive for a period of time too. Some other multiplexing techniques are Frequency division multiplexing and Phase division multiplexing.
+8. _____ is the multiplexing technique that shifts each signal to a different carrier frequency.
+a) FDM
+b) TDM
+c) Both FDM & TDM
+d) PDM
+View Answer
+
+Answer: a
+Explanation: FDM is an abbreviation for Frequency Division Multiplexing. This technique is used when the bandwidth of the channel is greater than the combined bandwidth of all the signals which are to be transmitted. The channel is active at all times unless a collision occurs with another channel trying to use the same frequency. Some other multiplexing techniques are Time division multiplexing and Phase division multiplexing.
+1. The sharing of a medium and its link by two or more devices is called _________
+a) Fully duplexing
+b) Multiplexing
+c) Micropleixng
+d) Duplexing
+View Answer
+
+Answer: b
+Explanation: Multiplexing is a method using which one can send multiples signals through a shared medium at the same time. This helps in using less resources and thus saving the cost of sending messages.
+2. Multiplexing is used in _______
+a) Packet switching
+b) Circuit switching
+c) Data switching
+d) Packet & Circuit switching
+View Answer
+
+Answer: b
+Explanation: Circuit switching is a switching method by which one can obtain a physical path between end points. Circuit switching method is also called a connection oriented network. Two nodes must be physically and logically connected to each other to create a circuit switching network.
+3. Which multiplexing technique used to transmit digital signals?
+a) FDM
+b) TDM
+c) WDM
+d) FDM & WDM
+View Answer
+
+Answer: b
+Explanation: TDM abbreviation for Time Division Multiplexing is a method used for digital signals. Whereas FDM and WDM abbreviation for Frequency Division Multiplexing, and Wavelength Division Multiplexing, are used for analog signals. TDM is used in applications like ISDN (Integrated Services Digital Network) and PSTN (Public Switched Telephone Network).
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. If there are n signal sources of same data rate, then the TDM link has _______ slots.
+a) n
+b) n/2
+c) n*2
+d) 2n
+View Answer
+
+Answer: a
+Explanation: In TDM, the total unit of time is divided equally among all the signal sources and each and every source has access to the complete channel bandwidth during its allotted time slot. When the time slot of the source is not active, it remains idle and waits for its slot to begin.
+5. If link transmits 4000frames per second, and each slot has 8 bits, the transmission rate of circuit this TDM is _________
+a) 32kbps
+b) 500bps
+c) 500kbps
+d) 32bps
+View Answer
+
+Answer: a
+Explanation: Transmission rate= frame rate * number of bits in a slot.
+Given: Frame rate = 4000/sec and number of bits in slot = 8
+Thus, Transmission rate = (4000 * 8) bps
+= 32000bps
+= 32kbps
+Participate in Computer Networks Certification Contest of the Month Now!
+6. The state when dedicated signals are idle are called __________
+a) Death period
+b) Poison period
+c) Silent period
+d) Stop period
+View Answer
+
+Answer: c
+Explanation: There are instances when connection between two endpoints has been established, but no communication or transfer of messages occurs. This period of time is called silent period. The silent period ends when either of the two endpoints starts the communication.
+7. Multiplexing provides _________
+a) Efficiency
+b) Privacy
+c) Anti jamming
+d) Both Efficiency & Privacy
+View Answer
+
+Answer: d
+Explanation: Multiplexing helps us to transfer our messages over a shared channel. This brings up the issue of privacy and efficiency. Fortunately, Multiplexing has high efficiency and high privacy when implemented because in the implementation, the transport layer of the OSI network model handles the function of multiplexing through interfaces called ports which provide the required efficiency and privacy.
+8. In TDM, the transmission rate of a multiplexed path is always _______ the sum of the transmission rates of the signal sources.
+a) Greater than
+b) Lesser than
+c) Equal to
+d) Equal to or greater than
+View Answer
+
+Answer: a
+Explanation: In TDM the transmission rate provided by the path that is multiplexed will always be greater than the sum of transmission rates of the single sources. This happens because the transmission rate is provided to each source only for a small period of time.
+9. In TDM, slots are further divided into _________
+a) Seconds
+b) Frames
+c) Packets
+d) Bits
+View Answer
+
+Answer: b
+Explanation: TDM is the abbreviation for Time division multiplexing. It is technique for combining several low rate channels to a single high rate channel. For a certain time slot, the several channels could use the maximum bandwidth. Each channel is inactive for a period of time too. Some other multiplexing techniques are Frequency division multiplexing and Phase division multiplexing.
+1. _____________ allows LAN users to share computer programs and data.
+a) Communication server
+b) Print server
+c) File server
+d) Network
+View Answer
+
+Answer: c
+Explanation: A file server allows LAN users to share computer programs and data. It uses the File Transfer Protocol to provide this feature on ports 20 and 21. The file server works as a medium for the transfer.
+2. With respect to physical media, STP cables stands for _________
+a) Shielded Twisted Pair Cable
+b) Spanning Tree Protocol Cable
+c) Static Transport Protocol Cable
+d) Shielded Two Power Cable
+View Answer
+
+Answer: a
+Explanation: For physical media, STP cable stands for Shielded twisted pair cable. 100 Mbps is the max data capacity of STP cable and its default connector is RJ45. It is popularly used in LANs due to its ease of maintenance and installation.
+3. A standalone program that has been modified to work on a LAN by including concurrency controls such as file and record locking is an example of ___________
+a) LAN intrinsic software
+b) LAN aware software
+c) Groupware
+d) LAN ignorant software
+View Answer
+
+Answer: a
+Explanation: A standalone program that has been modified to work on a LAN by including concurrency controls such as file and record locking is an example of LAN intrinsic software. They are used to give better functionality of the program and the applications working over it to the users of the LAN.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The __________ portion of LAN management software restricts access, records user activities and audit data, etc.
+a) Configuration management
+b) Security management
+c) Performance management
+d) Recovery management
+View Answer
+
+Answer: b
+Explanation: The Security management portion of LAN management software restricts access, records user activities, and audit data. It is responsible for controlling access to the network based on predefined policy. The security management ensures authentication, confidentiality, and integrity in the LAN.
+5. What is the max length of the Shielded twisted pair cable?
+a) 100 ft
+b) 200 ft
+c) 100 m
+d) 200 m
+View Answer
+
+Answer: c
+Explanation: The max the Shielded twisted pair cable is 100 meters. If the length exceeds 100 meters, the loss of signals flowing through the cable would be really high. Thus, STP cable is more suitable for smaller networks like LANs.
+Get Free Certificate of Merit in Computer Networks Now!
+6. What is the max data transfer rate of STP cables?
+a) 10 Mbps
+b) 100 Mbps
+c) 1000 Mbps
+d) 10000 Mbps
+View Answer
+
+Answer: b
+Explanation: 100 Mbps is the max data transfer rate that can be handled by STP cables, and its default connector is RJ-45. 100 Mbps is a feasible data transfer rate for small networks like LANs.
+7. Which connector does the STP cable use?
+a) BNC
+b) RJ-11
+c) RJ-45
+d) RJ-69
+View Answer
+
+Answer: c
+Explanation: RJ-45 is used for STP cable. 100 Mbps is the max data transfer rate that can be handled by STP. RJ-45 is popularly used to connect to modern-day routers, computer network cards, and other network devices.
+8. What is the central device in star topology?
+a) STP server
+b) Hub/switch
+c) PDC
+d) Router
+View Answer
+
+Answer: b
+Explanation: In star topology, no computer is connected to another computer directly but all the computers are connected to a central switch or hub. Every message sent from a source computer goes through the switch or hub and the switch or hub then forwards the message only to the intended destination computer.
+9. What is the max data transfer rate for optical fiber cable?
+a) 10 Mbps
+b) 100 Mbps
+c) 1000 Mbps
+d) 10000 Mbps
+View Answer
+
+Answer: d
+Explanation: Fiber channel speeds have been increasing over the years. 10000 Mbps is the max data transfer rate for optical fiber cables. It is said to be the fastest among the other kinds of cables like STP cables and co-axial cables. People are now using optical fiber cables instead of STP cables for LANs due to their fast data transfer capability.
+10. Which of the following architecture uses the CSMA/CD access method?
+a) ARC net
+b) Ethernet
+c) Router
+d) STP server
+View Answer
+
+Answer: b
+Explanation: Collision detection is not possible in Ethernet without extensions. Collision detection techniques for multiple access like CSMA/CD are used to detect collisions in the Ethernet architecture
+1. The attacker using a network of compromised devices is known as _____________
+a) Internet
+b) Botnet
+c) Telnet
+d) D-net
+View Answer
+
+Answer: b
+Explanation: Botnet is a network of compromised devices used by the attacker without the owner’s knowledge to perform unethical activities such as spamming. The attacker usually uses the least secure devices to create the botnet.
+2. Which of the following is a form of DoS attack?
+a) Vulnerability attack
+b) Bandwidth flooding
+c) Connection flooding
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: In a DoS attack, the attacker won’t let the victims access the network by using a certain method that ensures that an essential network resource is unavailable to the victim. In vulnerability attack, the attacker exploits any obvious vulnerable entity in the network to deny the victim access into the network. In bandwidth flooding, the attacker floods the victim with a huge flow of packets and uses up all the bandwidth. In connection flooding, the attacker floods the victim network with a huge number of connections, so that, no other machine can connect to it.
+3. The DoS attack, in which the attacker establishes a large number of half-open or fully open TCP connections at the target host is ________
+a) Vulnerability attack
+b) Bandwidth flooding
+c) Connection flooding
+d) UDP flooding
+View Answer
+
+Answer: c
+Explanation: In Vulnerability attack, the attacker exploits the vulnerable control points of the network to deny access to the victims. In Bandwidth flooding, the attacker intentionally uses up all the bandwidth by flooding the victim with a deluge of packets and makes sure that the victim can’t use any bandwidth. In UDP flooding, too many UDP packets are sent by the attacker to the victim at random ports.
+Subscribe Now: Computer Network Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The DoS attack, in which the attacker sends deluge of packets to the targeted host is ________
+a) Vulnerability attack
+b) Bandwidth flooding
+c) Connection flooding
+d) UDP flooding
+View Answer
+
+Answer: b
+Explanation: In Bandwidth flooding, the attacker floods the victim machine with a deluge of packets to make sure that no bandwidth is available. The victim then cannot utilize the complete bandwidth to perform its operation.
+5. Packet sniffers involve ____________
+a) Active receiver
+b) Passive receiver
+c) Legal receiver
+d) Partially-active receiver
+View Answer
+
+Answer: b
+Explanation: The function of packet sniffers is to just silently receive the packets flowing in the channel. If they inject any packets into the channel, they might alert the other users about the intrusion.
+Get Free Certificate of Merit in Computer Networks Now!
+6. Sniffers can be prevented by using _______________
+a) Wired environment
+b) WiFi
+c) Ethernet LAN
+d) Switched network
+View Answer
+
+Answer: d
+Explanation: Switches make sure that the packet is sent to the intended receiver and no one else, thus preventing Sniffers to perform their function. Intelligent switches are hence used preferably for the network.
+7. Firewalls are often configured to block ___________
+a) UDP traffic
+b) TCP traffic
+c) Sensitive traffic
+d) Best-effort traffic
+View Answer
+
+Answer: a
+Explanation: UDP is more vulnerable to attacks, so firewalls are often configured to block suspicious UDP traffic.
+8. In a network, If P is the only packet being transmitted and there was no earlier transmission, which of the following delays could be zero?
+a) Propagation delay
+b) Queuing delay
+c) Transmission delay
+d) Processing delay
+View Answer
+
+Answer: b
+Explanation: Since there is no other packet to be transmitted, there is no need for a queue. Therefore, the delay caused due to the queuing would be none i.e. 0.
+1. Which of this is not a guided media?
+a) Fiber optical cable
+b) Coaxial cable
+c) Wireless LAN
+d) Copper wire
+View Answer
+
+Answer: c
+Explanation: Wireless LAN is unguided media.
+2. UTP is commonly used in __________
+a) DSL
+b) FTTP
+c) HTTP
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Unshielded twisted pair(UTP) is commonly used in home access.
+3. Coaxial cable consists of _______ concentric copper conductors.
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: Coaxial cable has an inner conductor surrounded by a insulating layer, which is surrounded by a conducting shield. Coaxial cable is used to carry high frequency signals with low losses.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Fiber optics posses following properties __________
+a) Immune electromagnetic interference
+b) Very less signal attenuation
+c) Very hard to tap
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: In fibre optics the transmission of information is in the form of light or photons. Due to all above properties mentioned in options fibre optics can be submerged in water and are used at more risk environments.
+5. If an Optical Carrier is represented as OC-n, generally the link speed equals(in Mbps) __________
+a) n*39.8
+b) n*51.8
+c) 2n*51.8
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The base unit of transmission rates in optical fibre is 51.8 Mbits/s. So an optical carrier represented as OC-n has n*51.8 Mbits/s transmission speed. For eg. OC-3 has 3*51.8 Mbits/s speed.
+Check this: Computer Science MCQs | Computer Network Books
+6. Terrestrial radio channels are broadly classifed into _____ groups.
+a) 2
+b) 3
+c) 4
+d) 1
+View Answer
+
+Answer: b
+Explanation: The three types are those that operate over very short distance, those that operate in local areas, those that operate in the wide area.
+7. Radio channels are attractive medium because __________
+a) Can penetrate walls
+b) Connectivity can be given to mobile user
+c) Can carry signals for long distance
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Radio channels can penetrate walls, can be used to provide connectivity to mobile users and can also carry signals for long distances.
+8. Geostationary satellites ___________
+a) Are placed at a fixed point above the earth
+b) Rotate the earth about a fixed axis
+c) Rotate the earth about a varying axis
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: They are placed in orbit at 36,000km above Earth’s surface.
+1. A local telephone network is an example of a _______ network.
+a) Packet switched
+b) Circuit switched
+c) Bit switched
+d) Line switched
+View Answer
+
+Answer: b
+Explanation: Circuit switching is connection oriented switching technique, whereas in the case of packet switching, it is connectionless. Circuit switching is implemented in the Physical layer, whereas packet switching is implemented in the Network layer. Internet too is based on the concept of circuit switching.
+2. Most packet switches use this principle ____________
+a) Stop and wait
+b) Store and forward
+c) Store and wait
+d) Stop and forward
+View Answer
+
+Answer: b
+Explanation: The packet switch will not transmit the first bit to outbound link until it receives the entire packet. If the entire packet is not received and the time-out period expires, the packet switch will inform the sender to resend the part of packet or the entire packet based on the algorithm being used.
+3. If there are N routers from source to destination, the total end to end delay in sending packet P(L-> number of bits in the packet R-> transmission rate) is equal to ______________
+a) N
+b) (N*L)/R
+c) (2N*L)/R
+d) L/R
+View Answer
+
+Answer: b
+Explanation: The equation to find the end to end delay when no. of bits, transmission rate and no. of routers is given by (N*L)/R. The total end to end delay, that is, nodal delay is the sum of all, the processing delay, queuing delay, transmission delay and propagation delay.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What are the Methods to move data through a network of links and switches?
+a) Packet switching and Line switching
+b) Circuit switching and Line switching
+c) Line switching and bit switching
+d) Packet switching and Circuit switching
+View Answer
+
+Answer: d
+Explanation: Packet switching and Circuit switching are two different types of switching methods used to connect the multiple communicating devices with one another. Packet switching is used in conventional LAN systems and circuit switching is used in telephonic systems.
+5. The required resources for communication between end systems are reserved for the duration of the session between end systems in ________ method.
+a) Packet switching
+b) Circuit switching
+c) Line switching
+d) Frequency switching
+View Answer
+
+Answer: b
+Explanation: In circuit switching, a physical path between the sender and receiver is established. This path is maintained until the connection is needed. Circuit switching is implemented in the Physical layer and is used in telephonic systems.
+Check this: Computer Science Books | Computer Science MCQs
+6. As the resources are reserved between two communicating end systems in circuit switching, ___________ is achieved.
+a) authentication
+b) guaranteed constant rate
+c) reliability
+d) store and forward
+View Answer
+
+Answer: b
+Explanation: Circuit switching is connection oriented and is always implemented in the physical layer. Once a path is set, all transmission occurs through the same path. It is used since the early times in telephonic systems.
+7. In _________ systems, resources are allocated on demand.
+a) packet switching
+b) circuit switching
+c) line switching
+d) frequency switching
+View Answer
+
+Answer: a
+Explanation: In packet switching, the bits are received in out of order and need to be assembled at the receiver end, whereas in the case of Circuit switching, all the bits are received in order. All transmissions may not occur through the same path in case of packet switching.
+8. Which of the following is not an application layer service?
+a) Network virtual terminal
+b) File transfer, access, and management
+c) Mail service
+d) Error control
+View Answer
+
+Answer: d
+Explanation: Application layer is the topmost layer in the OSI model. Network virtual terminal, mail service, file transfer, access and management are all services of the application layer. It uses protocols like HTTP, FTP, and DNS etc. to provide these services.

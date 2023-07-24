@@ -1,0 +1,472 @@
+1. Which does C in FCAPS stand for?
+a) Consistency
+b) Contact
+c) Configuration
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Your management responsibilities depend on the particular service model for your cloud deployment.
+2. Point out the wrong statement.
+a) Cloud computing deployments must be monitored and managed in order to be optimized for best performance
+b) To the problems associated with analyzing distributed network applications, the cloud adds the complexity of virtual infrastructure
+c) Cloud management software provides capabilities for managing faults
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Framework products are being re-positioned to work with cloud systems.
+3. Which of the following aims to deploy methods for measuring various aspects of cloud performance in a standard way?
+a) RIM
+b) SIM
+c) SMI
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: SMI stands for Service Measurement Index.
+4. Which of the following is not the feature of Network management systems?
+a) Accounting
+b) Security
+c) Performance
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Most network management packages have one or more of these characteristics.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+5. Point out the correct statement.
+a) Cloud management includes not only managing resources in the cloud but managing resources on-premises
+b) The management of resources in the cloud requires new technology
+c) Management of resources on-premises allows vendors to use well-established network management technologies
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The lifecycle of a cloud application includes six defined parts, and each must be managed.
+6. Which of the following package provides all five elements of FCAPS?
+a) FrameIt
+b) RackStar
+c) Unicenter
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: No single package provides all five elements of FCAPS.
+Check this: Computer Science Books | Cloud Computing Books
+7. ___________ is a framework tool for managing cloud infrastructure.
+a) IBM Tivoli Service Automation Manager
+b) Microsoft Tivoli Service Automation Manager
+c) Google Service Automation Manager
+d) Windows Live Hotmail
+View Answer
+
+Answer: a
+Explanation: Tivoli Service Automation Manager lets you create and stage cloud-based servers.
+8. Which of the following “cloudly” characteristics that cloud management service must have?
+a) Billing is on a pay-as-you-go basis
+b) The management service is extremely scalable
+c) The management service is ubiquitous
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Communication between the cloud and other systems uses cloud networking standards.
+9. How many categories need to be monitored for entire cloud computing?
+a) 1
+b) 2
+c) 4
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: To monitor an entire cloud computing deployment stack, you monitor six different categories.
+10. Which of the following is a standard protocol for network monitoring and discovery?
+a) SNMP
+b) CMDB
+c) WMI
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: WMI stands for Windows Management Instrumentation (WMI).
+1. When you deploy an application on Google’s PaaS App Engine cloud service, the Administration Console provides you with the which of the following monitoring capabilities?
+a) View data and error logs
+b) Analyze your network traffic
+c) View the application’s scheduled tasks
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: However, you have almost no operational control.
+2. Point out the wrong statement.
+a) In the cloud, the particular service model you are using directly affects the type of monitoring you are responsible for
+b) In AaaS, you can alter aspects of your deployment
+c) You can monitor your usage of resources through Amazon CloudWatch
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In IaaS, you can alter aspects of your deployment.
+3. Which of the following provides tools for managing Windows servers and desktops?
+a) Microsoft System Center
+b) System Service
+c) System Cloud
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Microsoft System Center is an example of how management products are being adapted for the cloud.
+4. Which of the following is not a phase of cloud lifecycle management?
+a) The definition of the service as a template for creating instances
+b) Client interactions with the service
+c) Management of the operation of instances and routine maintenance
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: A management program has to touch on each of the six different stages in that lifecycle.
+Subscribe Now: Cloud Computing Newsletter | Important Subjects Newsletters
+advertisement
+
+5. Point out the wrong statement.
+a) Google App Engine lets you deploy the application and monitor it
+b) From the standpoint of the client, a cloud service provider is different than any other networked service
+c) The full range of network management capabilities may be brought to bear to solve mobile, desktop, and local server issues
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: From the standpoint of the client, a cloud service provider is different than any other networked service.
+6. Which of the following is the Virtual machine conversion cloud?
+a) BMC Cloud Computing Initiative
+b) Amazon CloudWatch
+c) AbiCloud
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: BMC Cloud Computing Initiative is used for Cloud planning, lifecycle management, optimization, and guidance.
+Participate in Cloud Computing Certification Contest of the Month Now!
+7. _______ is Microsoft’s cloud-based management service for Windows systems.
+a) Intune
+b) Utunes
+c) Outtunes
+d) Windows Live Hotmail
+View Answer
+
+Answer: a
+Explanation: The management services include an Operations Manager, the Windows Service Update Service (WSUS), a Configuration Manager for asset management, a Data Protection Manager, and a Virtual Machine Manager, among other components.
+8. Which of the following is a virtualization provisioning system that will be rolled into Dell’s AIM?
+a) Dell Scalent
+b) CloudKick
+c) Elastra
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: AIM stands for Advanced Infrastructure Manager.
+9. Which of the following is used for Web site monitoring and analytics?
+a) Gomez
+b) Ganglia
+c) Elastra
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Ganglia is a distributed network monitoring software.
+10. Which of the following is used for performance management for virtualized Java Apps with VMware integration?
+a) Hyperic
+b) Internetseer
+c) RightScale
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Internetseer is a Web site monitoring service.
+1. Which of the following service provider provides the least amount of built in security?
+a) SaaS
+b) PaaS
+c) IaaS
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: You get the least amount of built in security with an Infrastructure as a Service provider, and the most with a Software as a Service provider.
+2. Point out the correct statement.
+a) Different types of cloud computing service models provide different levels of security services
+b) Adapting your on-premises systems to a cloud model requires that you determine what security mechanisms are required and mapping those to controls that exist in your chosen cloud service provider
+c) Data should be transferred and stored in an encrypted format for security purpose
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: When you identify missing security elements in the cloud, you can use mapping to work to close the gap.
+3. Which of the following services that need to be negotiated in Service Level Agreements?
+a) Logging
+b) Auditing
+c) Regulatory compliance
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Logging, auditing, and regulatory compliance are all features that require planning in cloud computing systems.
+4. The following flowchart is intended to evaluate __________ in any cloud.
+Risk flowchar diagram
+a) risk
+b) errors
+c) inconsistencies
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Your risks in any cloud deployment are dependent upon the particular cloud service model chosen and the type of cloud on which you deploy your applications.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+5. Point out the wrong statement.
+a) You can use proxy and brokerage services to separate clients from direct access to shared cloud storage
+b) Any distributed application has a much greater attack surface than an application that is closely held on a Local Area Network
+c) Cloud computing doesn’t have vulnerabilities associated with Internet applications
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Additional vulnerabilities arise from pooled, virtualized, and outsourced resources.
+6. Which of the following area of cloud computing is uniquely troublesome?
+a) Auditing
+b) Data integrity
+c) e-Discovery for legal compliance
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Storing data in the cloud is of particular concern.
+Take Cloud Computing Tests Now!
+7. Which of the following is the operational domain of CSA?
+a) Scalability
+b) Portability and interoperability
+c) Flexibility
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: CSA is an industry working group that studies security issues in cloud computing and offers recommendations to its members.
+8. Which of the following is considered an essential element in cloud computing by CSA?
+a) Multi-tenancy
+b) Identity and access management
+c) Virtualization
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Multi-tenancy adds a number of additional security concerns to cloud computing that need to be accounted for.
+9. Which of the following is used for Web performance management and load testing?
+a) VMware Hyperic
+b) Webmetrics
+c) Univa UD
+d) Tapinsystems
+View Answer
+
+Answer: b
+Explanation: CA Cloud Insight is a cloud metrics measurement service.
+10. Which of the following is application and infrastructure management software for hybrid multi-clouds?
+a) VMware Hyperic
+b) Webmetrics
+c) Univa UD
+d) Tapinsystems
+View Answer
+
+Answer: c
+Explanation: Tapinsystems is provisioning and management service.
+1. Which of the following service provider provides the highest level of service?
+a) SaaS
+b) PaaS
+c) IaaS
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: As you move upward in the stack, each service model inherits the capabilities of the model beneath it, as well as all the inherent security concerns and risk factors.
+2. Point out the correct statement.
+a) PaaS supplies the infrastructure
+b) IaaS adds application development frameworks, transactions, and control structures
+c) SaaS is an operating environment with applications, management, and the user interface
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: IaaS has the least levels of integrated functionality and the lowest levels of integrated security, and SaaS has the most.
+3. Which of the following functional cloud computing hardware/software stack is the Cloud Reference Model?
+a) CAS
+b) CSA
+c) SAC
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Cloud Security Alliance (CSA) is a not-for-profit organization with a mission to “promote the use of best practices for providing security assurance within Cloud.
+4. For the _________ model, the security boundary may be defined for the vendor to include the software framework and middleware layer.
+a) SaaS
+b) PaaS
+c) IaaS
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: In the PaaS model, the customer would be responsible for the security of the application and UI at the top of the stack.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+5. Point out the wrong statement.
+a) Each different type of cloud service delivery model creates a security boundary
+b) Any security mechanism below the security boundary must be built into the system
+c) Any security mechanism above the security boundary must be maintained by the customer
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: As you move up the stack, it becomes more important to make sure that the type and level of security is part of your Service Level Agreement.
+6. Which of the following model allows vendor to provide security as part of the Service Level Agreement?
+a) SaaS
+b) PaaS
+c) IaaS
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Compliance, governance, and liability levels are stipulated under the contract for the entire stack.
+Take Cloud Computing Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+7. Which of the following cloud does not require mapping?
+a) Public
+b) Private
+c) Hybrid
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Private cloud may be internal or external to an organization.
+8. Which of the following service model is owned in terms of infrastructure by both vendor and customer?
+a) Public
+b) Private
+c) Hybrid
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Infrastructure location is both on- and off-premises.
+9. Which of the following model type is not trusted in terms of security?
+a) Public
+b) Private
+c) Hybrid
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: It is owned by a vendor.
+10. Which of the following has infrastructure security managed and owned by the vendor?
+a) Hybrid
+b) Private/Community
+c) Public
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Cloud computing has a tendency to blur the location of the defined security perimeter in such a way that the previous notions of network firewalls and edge defenses often no longer apply.
+1. Which of the following is a compliance standard?
+a) PCI-DSS
+b) HIPPA
+c) GLBA
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: A compliance standard can be any government regulatory framework.
+2. Point out the correct statement.
+a) The cloud service model you choose does not determine the variety of security features, compliance auditing, and other requirements
+b) To determine the particular security mechanisms you need, you must perform a mapping of the particular cloud service model to the particular application you are deploying
+c) A security control model includes the security that you normally use for your applications only
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: These mechanisms must be supported by the various controls that are provided by your service provider, your organization, or a third party.
+3. Which of the following is a key mechanism for protecting data?
+a) Access control
+b) Auditing
+c) Authentication
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Whatever service model you choose should have mechanisms operating in all above mentioned areas that meet your security requirements.
+4. How many security accounts per client is provided by Microsoft?
+a) 1
+b) 3
+c) 5
+d) 7
+View Answer
+
+Answer: c
+Explanation: On Amazon Web Service, you can create multiple keys and rotate those keys during different sessions.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+5. Point out the wrong statement.
+a) Securing data sent to, received from, and stored in the cloud is the single largest security concern
+b) The problem with the data you store in the cloud is that it can be located anywhere in the cloud service provider’s system
+c) One and only approach to isolating storage in the cloud from direct client access is to create layered access to the data
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: The location of the proxy and the broker is not important.
+6. Which of the following are a common means for losing encrypted data?
+a) lose the keys
+b) lose the encryption standard
+c) lose the account
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: Keys should have a defined life cycle.
+Check this: MCA MCQs | Computer Science MCQs
+7. Which of the following is the standard for interoperable cloud-based key management?
+a) KMIP
+b) PMIK
+c) AIMK
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: KMIP stands for Key Management Interoperability Protocol.
+8. Which of the following was one of the weaker aspects of early cloud computing service offerings?
+a) Logging
+b) Integrity checking
+c) Consistency checking
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Cloud service providers often have proprietary log formats.
+9. Which of the following is one of the most actively developing and important areas of cloud computing technology?
+a) Logging
+b) Auditing
+c) Regulatory compliance
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: For any company with clients in multiple countries, the burden of regulatory compliance is onerous.
+10. Amazon Web Services supports ________ Type II Audits.
+a) SAS70
+b) SAS20
+c) SAS702
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Becoming a cloud service provider requires a large investment.

@@ -1,0 +1,406 @@
+1. The number of values applicable in Boolean Algebra.
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: Boolean algebra is based on binary number system. It therefore comprises only 2 bits : 0 and 1. Hence, only two values are applicable to Boolean algebra.
+2. Boolean Algebra can deal with any number system.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Boolean Algebra can only be used with the binary number system. Boolean deals with only two values 0 and 1. In Boolean System, if the result is tautology it returns 1 otherwise 0.
+3. The symbol + in Boolean is also known as the ____________ operator.
+a) AND
+b) OR
+c) ADD
+d) SUMMATION
+View Answer
+
+Answer: b
+Explanation: The symbol + is also called as the OR operator. It is used for logical addition. It follows the law of binary addition.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which operator has the highest precedence?
+a) +
+b) .
+c) !
+d) *
+View Answer
+
+Answer: c
+Explanation: The NOT operator has the highest precedence. It is denoted by ! or – sign. Further, AND (.) operations are performed and then the OR terms are evaluated.
+5. In the expression Y + X’.Y, which operator will be evaluated first?
+a) ‘
+b) +
+c) .
+d) ,
+View Answer
+
+Answer: a
+Explanation: In Boolean Algebra, complement of a number is given the highest precedence. Therefore, complement which is denoted by the ‘ (apostrophe) symbol is evaluated first.
+Participate in Computer Fundamentals Certification Contest of the Month Now!
+6. Which of the following is false?
+a) x+y=y+x
+b) x.y=y.x
+c) x.x’=1
+d) x+x’=1
+View Answer
+
+Answer: c
+Explanation: The first and second option describes the commutative law. The fourth option holds true since if x=1, then x’=0, and x+x’=1. Third option is incorrect because on multiplication of a boolean value with its complement the result will always be 0.
+7. As per idempotent law, X + X will always be equal to ________
+a) 0
+b) 1
+c) X
+d) 2X
+View Answer
+
+Answer: c
+Explanation: It will always return the same value X. Since, boolean deals with only two numbers 0 and 1, if we add 0+0, the answer is 0. Similarly, if we add 1+1 the answer is 1.
+8. The expression for involution law is _________
+a) x+y=y+x
+b) x+1=1
+c) (x’)’=x
+d) x.x=x
+View Answer
+
+Answer: c
+Explanation: The involution law states that the complement of complement of a number is the number itself. The third option justifies the statement. Thus, (x’)’=x.
+9. Who proposed the use of Boolean algebra in the design of relay switching circuits?
+a) George Boole
+b) Claude E. Shannon
+c) Claude E. Boole
+d) George Shannon
+View Answer
+
+Answer: b
+Explanation: Claude E Shannon suggested the use of Boolean in relay switching circuits. George Boole, a mathematician introduced it for simplifying representations and manipulation of propositional logic.
+10. Truth table is used to represent Boolean __________
+a) functions
+b) algebra
+c) operators
+d) addition
+View Answer
+
+Answer: a
+Explanation: The Boolean functions are represented using the truth tables. Truth tables represent the tautology and fallacy for terms.
+1. Boolean Function is of the form of ________
+a) Truth values
+b) K=f(X,Y,X)
+c) Algebraic Expression
+d) Truth Table
+View Answer
+
+Answer: c
+Explanation: The boolean function is of the form of algebraic expressions or truth table. A boolean function is of the form as that of option K=f(X,Y,X). The result obtained from a boolean function can be a truth value or a fallacy.
+2. The result of X+X.Y is X.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: This is a boolean expression. It can be evaluated as :
+X+X.Y = X(1+Y) = X.
+Since 1+Y=1 by boolean laws.
+3. In the boolean function w=f(X,Y,Z), what is the RHS referred to as ________
+a) right hand side
+b) expression
+c) literals
+d) boolean
+View Answer
+
+Answer: b
+Explanation: The RHS is commonly referred to as the expression. The symbols X, Y and Z are commonly referred to as the literals of the function.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. The general form for calculating the number of rows in a truth table is ________
+a) 2n
+b) 2n+1
+c) 2n
+d) 2n+1
+View Answer
+
+Answer: c
+Explanation: The general form for the calculation of rows in a truth table is 2n . Here, n= number of literals in the function.
+5. The number of literals in the expression F=X.Y’ + Z are _____________
+a) 4
+b) 3
+c) 2
+d) 1
+View Answer
+
+Answer: b
+Explanation: Literals the generally the number of variables used in any boolean expression. Here, since there are 3 variables X, Y and Z, therefore the answer is 3.
+Check this: Computer Science MCQs | Information Technology MCQs
+6. The complement term for X’.Y’.Z + X.Y will be _____________
+a) XYZ’+X’Y’
+b) (X+Y+Z’)(X’+Y’)
+c) (X+Y+Z’)(X’+Y)
+d) (X+Y+Z’)(X’+Y)
+View Answer
+
+Answer: b
+Explanation: The OR and AND operators are interchanged. The complement terms are reduced to normal terms and the result is obtained.
+7. What is the complement of X’Y’Z?
+a) X+YZ
+b) X’+Y+’Z’
+c) X+Y+Z’
+d) XYZ’
+View Answer
+
+Answer: c
+Explanation: The complement is obtained by converting the complement terms to normal terms and vice versa. Also, the OR and AND operators are interchanged. Here, X’Y’Z gets converted to X+Y+Z’.
+8. The minterm of any expression is denoted by ___________
+a) Mt
+b) m
+c) M
+d) min
+View Answer
+
+Answer: b
+Explanation: The variables forming an AND term is generally the minterm. It is denoted by m. (lower case letter).
+9. The min term when X=Y=Z=0 is _____________
+a) x’+y’+z’
+b) xyz
+c) x’y’z’
+d) x+y+z
+View Answer
+
+Answer: c
+Explanation: There minterm expression is obtained using the AND term. Here, when X=Y=Z=0, the expression obtained is x’y’z’.
+10. The max term when X=Y=Z=1 is ________
+a) x’+y’+z’
+b) xyz
+c) x’y’z’
+d) x+y+z
+View Answer
+
+Answer: a
+Explanation: The max term consists of variables forming an OR term. Here, when X=Y=Z=1, the expression is x’+y’+z’.
+1. Electronic circuits that operate on one or more input signals to produce standard output _______
+a) Series circuits
+b) Parallel Circuits
+c) Logic Signals
+d) Logic Gates
+View Answer
+
+Answer: d
+Explanation: The logic gates operate on one or more input signals to produce a standard output.
+Logic gates give the output in the form of 0 and 1.
+The Boolean algebra can be applied to the logic gates.
+2. Logic Gates are the building blocks of all circuits in a computer.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The statement is true.
+Logic gates are idealized to implement a boolean function in all circuits of a computer.
+The signals are directed as per the outputs of the logic gates in the form of 0 and 1.
+3. A __________ gate gives the output as 1 only if all the inputs signals are 1.
+a) AND
+b) OR
+c) EXOR
+d) NOR
+View Answer
+
+Answer: a
+Explanation: The AND gate gives a 1 only if all the input signals are 1.
+The Boolean expression for evaluating an AND signal is: Y=A.B.
+Subscribe Now: Computer Fundamental Newsletter | Important Subjects Newsletters
+advertisement
+
+4. The boolean expression of an OR gate is _______
+a) A.B
+b) A’B+AB’
+c) A+B
+d) A’B’
+View Answer
+
+Answer: c
+Explanation: An OR gate gives the result as 1 if any one of the inputs is one.
+Its expression is A+B.
+An OR gate gives a 0 only if both the inputs are 0.
+5. The gate which is used to reverse the output obtained is _____
+a) NOR
+b) NAND
+c) EXOR
+d) NOT
+View Answer
+
+Answer: d
+Explanation: NOT gate is used to reverse the output from 0 to 1 and vice-versa.
+The Boolean expression for NOT gate is Y=A’.
+Therefore, it gives the complement of the result obtained.
+Get Free Certificate of Merit in Computer Fundamentals Now!
+6. Which of the following gate will give a 0 when both of its inputs are 1?
+a) AND
+b) OR
+c) NAND
+d) EXOR
+View Answer
+
+Answer: c
+Explanation: The NAND gate gives 0 as the output when both of its inputs are 1 or any one of the input is 1.
+It returns a 1 only if both the inputs are 0.
+7. When logic gates are connected to form a gating/logic network it is called as a ______________ logic circuit.
+a) combinational
+b) sequential
+c) systematic
+d) hardwired
+View Answer
+
+Answer: a
+Explanation: It is referred to as a combinational circuit as it comprises a number of gates.
+It is connected to evaluate a result of a Boolean expression.
+8. The universal gate that can be used to implement any Boolean expression is __________
+a) NAND
+b) EXOR
+c) OR
+d) AND
+View Answer
+
+Answer: a
+Explanation: NAND gate can be used to implement any Boolean expression.
+It is a universal gate. A universal gate can be used to implement any other Boolean function without using any other logic gate.
+9. The gate which is called an inverter is called _________
+a) NOR
+b) NAND
+c) EXOR
+d) NOT
+View Answer
+
+Answer: d
+Explanation: Inverter is used to reverse the output. A NOT gate is used to invert or change the output from 0 to 1 and vice-versa.
+10. The expression of an EXOR gate is ____________
+a) A’B+AB’
+b) AB+A’B’
+c) A+A.B
+d) A’+B’
+View Answer
+
+Answer: a
+Explanation: The expression for an EXOR gate is A’B+AB’.
+An EXOR gate is nothing but an exclusive OR gate
+1. A ____________ is a circuit with only one output but can have multiple inputs.
+a) Logic gate
+b) Truth table
+c) Binary circuit
+d) Boolean circuit
+View Answer
+
+Answer: a
+Explanation: A logic gate is used to evaluate a Boolean expression.
+It can have multiple inputs but can have only one output.
+The different types of logic gates are AND, OR, NOT etc.
+2. There are 5 universal gates.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: There are only 2 main universal gates: NAND and NOR.
+A NAND gate as well as the NOR gate can be used to implement any other Boolean expression thus it is called as a universal gate.
+3. The Output is LOW if any one of the inputs is HIGH in case of a _________ gate.
+a) NOR
+b) NAND
+c) OR
+d) AND
+View Answer
+
+Answer: a
+Explanation: In case of NOR Gate the Output is Low (i.e. 0) when any of the Input is High (i.e. 1).
+TRUTH TABLE of NOR Gate:-
+A	B	Output
+0	0	1 (High)
+0	1	0 (Low)
+1	0	0 (Low)
+1	1	0 (Low)
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+This proves it.
+4. The following figure shows a ___________ gate.
+computer-fundamentals-questions-answers-universal-gates-q4
+a) NOR
+b) NAND
+c) EXOR
+d) OR
+View Answer
+
+Answer: a
+Explanation: The figure is that of a NOR gate.
+The bubble signifies that it is a NOR gate.
+It is a type of universal gate and can be used to implement all the boolean expressions.
+Take Computer Fundamentals Tests Now!
+5. The complement of the input given is obtained in case of:
+a) NOR
+b) AND+NOR
+c) NOT
+d) EX-OR
+View Answer
+
+Answer: c
+Explanation: The NOT gate, also called as the inverter gate is used to reverse the input which is given.
+It gives an inverted output, thus gives the complement.
+Expression for NOT gate: Y=A’, where A is the input.
+6. How many AND gates are required to realize the following expression Y=AB+BC?
+a) 4
+b) 8
+c) 1
+d) 2
+View Answer
+
+Answer: d
+Explanation: 2 AND gates are required to realize the expression.
+1 AND gate will be used to connect the inputs A and B whereas the other will be used to connect the inputs B and C.
+7. Number of outputs in a half adder _____________
+a) 1
+b) 2
+c) 3
+d) 0
+View Answer
+
+Answer: b
+Explanation: A half adder gives two outputs.
+One is called the sum and the other is carry.
+Half adder can be implemented using an EXOR gate and an AND gate.
+8. The ________ gate is an OR gate followed by a NOT gate.
+a) NAND
+b) EXOR
+c) NOR
+d) EXNOR
+View Answer
+
+Answer: c
+Explanation: A NOR gate is a universal gate which is an OR gate followed by a NOT gate.
+It therefore reverses the output obtained by an OR gate.
+It can be used to implement any Boolean expression.
+9. The expression of a NAND gate is_______
+a) A.B
+b) A’B+AB’
+c) (A.B)’
+d) (A+B)’
+View Answer
+
+Answer: c
+Explanation: A NAND gate is an AND gate followed by a NOT gate.
+It therefore inverts the output of an AND gate.
+NAND gate is also a universal gate.
+10. Which of the following correctly describes the distributive law.
+a)( A+B)(C+D)=AB+CD
+b) (A+B).C=AC+BC
+c) (AB)(A+B)=AB
+d) (A.B)C=AC.AB
+View Answer
+
+Answer: b
+Explanation: The second option correctly describes the distributive law.
+(A+B).C =AC+BC.
+Boolean Laws are used to implementing and simplifying Boolean expression.

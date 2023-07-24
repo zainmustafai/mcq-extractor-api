@@ -1,0 +1,1795 @@
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Trees using Array”.
+
+1. How many children does a binary tree have?
+a) 2
+b) any number of children
+c) 0 or 1 or 2
+d) 0 or 1
+View Answer
+
+Answer: c
+Explanation: Can have atmost 2 nodes.
+2. What is/are the disadvantages of implementing tree using normal arrays?
+a) difficulty in knowing children nodes of a node
+b) difficult in finding the parent of a node
+c) have to know the maximum number of nodes possible before creation of trees
+d) difficult to implement
+View Answer
+
+Answer: c
+Explanation: The size of array is fixed in normal arrays. We need to know the number of nodes in the tree before array declaration. It is the main disadvantage of using arrays to represent binary trees.
+3. What must be the ideal size of array if the height of tree is ‘l’?
+a) 2l-1
+b) l-1
+c) l
+d) 2l
+View Answer
+
+Answer: a
+Explanation: Maximum elements in a tree (complete binary tree in worst case) of height ‘L’ is 2L-1. Hence size of array is taken as 2L-1.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. What are the children for node ‘w’ of a complete-binary tree in an array representation?
+a) 2w and 2w+1
+b) 2+w and 2-w
+c) w+1/2 and w/2
+d) w-1/2 and w+1/2
+View Answer
+
+Answer: a
+Explanation: The left child is generally taken as 2*w whereas the right child will be taken as 2*w+1 because root node is present at index 0 in the array and to access every index position in the array.
+5. What is the parent for a node ‘w’ of a complete binary tree in an array representation when w is not 0?
+a) floor(w-1/2)
+b) ceil(w-1/2)
+c) w-1/2
+d) w/2
+View Answer
+
+Answer: a
+Explanation: Floor of w-1/2 because we can’t miss a node.
+Take Data Structure I Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. If the tree is not a complete binary tree then what changes can be made for easy access of children of a node in the array?
+a) every node stores data saying which of its children exist in the array
+b) no need of any changes continue with 2w and 2w+1, if node is at i
+c) keep a seperate table telling children of a node
+d) use another array parallel to the array with tree
+View Answer
+
+Answer: a
+Explanation: Array cannot represent arbitrary shaped trees. It can only be used in case of complete trees. If every node stores data saying that which of its children exists in the array then elements can be accessed easily.
+7. What must be the missing logic in place of missing lines for finding sum of nodes of binary tree in alternate levels?
+
+  //e.g:-consider -complete binary tree:-height-3, [1,2,3,4,5,6,7]-answer must be 23
+  n=power(2,height)-1; //assume input is height and a[i] contains tree elements
+  for(i=1;i<=n;)
+  {
+        //present level is initialized to 1 and sum is initialized to  0
+        for(j=1;j<=pow(2,currentlevel-1);j++) 
+        {
+           sum=sum+a[i];
+           i=i+1;
+        }
+     //missing logic
+  }
+a)
+
+   i=i+pow(2,currentlevel);
+   currentlevel=currentlevel+2;
+   j=1;
+b)
+
+   i=i+pow(2,currentlevel);
+   currentlevel=currentlevel+2;
+   j=0;
+c)
+
+   i=i-pow(2,currentlevel);
+   currentlevel=currentlevel+2;
+   j=1;
+d)
+
+   i=i+pow(2,currentlevel);
+   currentlevel=currentlevel+1;
+   j=1;
+View Answer
+Answer: a
+Explanation: The i value must skip through all nodes in the next level and current level must be one+next level.
+ 
+ 
+8. Consider a situation of writing a binary tree into a file with memory storage efficiency in mind, is array representation of tree is good?
+a) yes because we are overcoming the need of pointers and so space efficiency
+b) yes because array values are indexable
+c) No it is not efficient in case of sparse trees and remaning cases it is fine
+d) No linked list representation of tree is only fine
+View Answer
+
+Answer: c
+Explanation: In case of sparse trees (where one node per level in worst cases), the array size (2h)-1 where h is height but only h indexes will be filled and (2h)-1-h nodes will be left unused leading to space wastage.
+9. Why is heap implemented using array representations than tree(linked list) representations though both tree representations and heaps have same complexities?
+
+for binary heap
+-insert: O(log n)
+-delete min: O(log n)
+ 
+for a tree
+-insert: O(log n)
+-delete: O(log n)
+Then why go with array representation when both are having same values ?
+a) arrays can store trees which are complete and heaps are not complete
+b) lists representation takes more memory hence memory efficiency is less and go with arrays and arrays have better caching
+c) lists have better caching
+d) In lists insertion and deletion is difficult
+View Answer
+
+Answer: b
+Explanation: In memory the pointer address for next node may not be adjacent or nearer to each other and also array have wonderful caching power from os and manipulating pointers is a overhead. Heap data structure is always a complete binary tree.
+10. Can a tree stored in an array using either one of inorder or post order or pre order traversals be again reformed?
+a) Yes just traverse through the array and form the tree
+b) No we need one more traversal to form a tree
+c) No in case of sparse trees
+d) Yes by using both inorder and array elements
+View Answer
+
+Answer: b
+Explanation: We need any two traversals for tree formation but if some additional stuff or techniques are used while storing a tree in an array then one traversal can facilitate like also storing null values of a node in array.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “AVL Tree”.
+
+1. What is an AVL tree?
+a) a tree which is balanced and is a height balanced tree
+b) a tree which is unbalanced and is a height balanced tree
+c) a tree with three children
+d) a tree with atmost 3 children
+View Answer
+
+Answer: a
+Explanation: It is a self balancing tree with height difference atmost 1.
+2. Why we need to a binary tree which is height balanced?
+a) to avoid formation of skew trees
+b) to save memory
+c) to attain faster memory access
+d) to simplify storing
+View Answer
+
+Answer: a
+Explanation: In real world dealing with random values is often not possible, the probability that u are dealing with non random values(like sequential) leads to mostly skew trees, which leads to worst case. hence we make height balance by rotations.
+3. Which of the below diagram is following AVL tree property?
+i.AVL tree property height balanced tree with difference of 1 between left & right subtrees
+ii.AVL tree property is binary search tree
+a) only i
+b) only i and ii
+c) only ii
+d) i is not a binary search tree
+View Answer
+
+Answer: b
+Explanation: The property of AVL tree is it is height balanced tree with difference of atmost 1 between left and right subtrees. All AVL trees are binary search tree.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. What is the maximum height of an AVL tree with p nodes?
+a) p
+b) log(p)
+c) log(p)/2
+d) p⁄2
+View Answer
+
+Answer: b
+Explanation: Consider height of tree to be ‘he’, then number of nodes which totals to p can be written in terms of height as N(he)=N(he-1)+1+N(he-2). since N(he) which is p can be written in terms of height as the beside recurrence relation which on solving gives N(he)= O(logp) as worst case height.
+5. To restore the AVL property after inserting a element, we start at the insertion point and move towards root of that tree. is this statement true?
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: It is interesting to note that after insertion, only the path from that point to node or only that subtrees are imbalanced interms of height.
+Check this: Design & Analysis of Algorithms MCQ | Computer Science MCQs
+6. Given an empty AVL tree, how would you construct AVL tree when a set of numbers are given without performing any rotations?
+a) just build the tree with the given input
+b) find the median of the set of elements given, make it as root and construct the tree
+c) use trial and error
+d) use dynamic programming to build the tree
+View Answer
+
+Answer: b
+Explanation: Sort the given input, find the median element among them, make it as root and construct left and right subtrees with elements lesser and greater than the median element recursively. this ensures the subtrees differ only by height 1.
+7. What maximum difference in heights between the leafs of a AVL tree is possible?
+a) log(n) where n is the number of nodes
+b) n where n is the number of nodes
+c) 0 or 1
+d) atmost 1
+View Answer
+
+Answer: a
+Explanation: At every level we can form a tree with difference in height between subtrees to be atmost 1 and so there can be log(n) such levels since height of AVL tree is log(n).
+8. Consider the pseudo code:
+
+  int avl(binarysearchtree root):
+     if(not root)
+       return 0
+     left_tree_height = avl(left_of_root)
+ 
+     if(left_tree_height== -1) 
+       return left_tree_height
+ 
+     right_tree_height= avl(right_of_root)
+ 
+     if(right_tree_height==-1)
+       return right_tree_height
+Does the above code can check if a binary search tree is an AVL tree?
+a) yes
+b) no
+View Answer
+
+Answer: a
+Explanation: The condition to check the height difference between left and right subtrees is missing. if (absolute(left_tree_height – right_tree_height)>1) must be added.
+9. Consider the below left-left rotation pseudo code where the node contains value pointers to left, right child nodes and a height value and Height() function returns height value stored at a particular node.
+
+ avltree leftrotation(avltreenode z):
+   avltreenode w =x-left
+   x-left=w-right
+   w-right=x
+   x-height=max(Height(x-left),Height(x-right))+1 
+   w-height=max(missing)+1   
+  return w
+What is missing?
+a) Height(w-left), x-height
+b) Height(w-right), x-height
+c) Height(w-left), x
+d) Height(w-left)
+View Answer
+
+Answer: a
+Explanation: In the code we are trying to make the left rotation and so we need to find maximum of those two values.
+10. Why to prefer red-black trees over AVL trees?
+a) Because red-black is more rigidly balanced
+b) AVL tree store balance factor in every node which costs space
+c) AVL tree fails at scale
+d) Red black is more efficient
+View Answer
+
+Answer: b
+Explanation: Every node in an AVL tree need to store the balance factor (-1, 0, 1) hence space costs to O(n), n being number of nodes. but in red-black we can use the sign of number (if numbers being stored are only positive) and hence save space for storing balancing information. there are even other reasons where redblack is mostly prefered.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Search Tree”.
+
+1. Which of the following is false about a binary search tree?
+a) The left child is always lesser than its parent
+b) The right child is always greater than its parent
+c) The left and right sub-trees should also be binary search trees
+d) In order sequence gives decreasing order of elements
+View Answer
+
+Answer: d
+Explanation: In order sequence of binary search trees will always give ascending order of elements. Remaining all are true regarding binary search trees.
+2. How to search for a key in a binary search tree?
+a)
+
+public Tree search(Tree root, int key)
+{
+	if( root == null || root.key == key )
+        {
+		return root;
+	}
+	if( root.key < key )
+        {
+		return search(root.right,key);
+	}
+	else
+	return search(root.left,key);
+}
+b)
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+public Tree search(Tree root, int key)
+{
+	if( root == null || root.key == key )
+        {
+		return root;
+	}
+	if( root.key < key )
+        {
+		return search(root.left,key);
+	}
+	else
+	return search(root.right,key);
+}
+c)
+
+Check this: Programming MCQs | Data Structure Books
+public Tree search(Tree root, int key)
+{
+	if( root == null)
+        {
+		return root;
+	}
+	if( root.key < key )
+        {
+		return search(root.right,key);
+	}
+	else
+		return search(root.left,key);
+}
+d)
+
+public Tree search(Tree root, int key)
+{
+	if( root == null)
+        {
+		return root;
+	}
+	if( root.key < key )
+        {
+		return search(root.right.right,key);
+	}
+	else
+		return search(root.left.left,key);
+}
+View Answer
+Answer: a
+Explanation: As we know that the left child is lesser than the parent, if the root’s key is greater than the given key, we look only into the left sub-tree, similarly for right sub-tree.
+ 
+ 
+3. What is the speciality about the inorder traversal of a binary search tree?
+a) It traverses in a non increasing order
+b) It traverses in an increasing order
+c) It traverses in a random fashion
+d) It traverses based on priority of the node
+View Answer
+
+Answer: b
+Explanation: As a binary search tree consists of elements lesser than the node to the left and the ones greater than the node to the right, an inorder traversal will give the elements in an increasing order.
+4. What does the following piece of code do?
+
+public void func(Tree root)
+{
+	func(root.left());
+	func(root.right());
+	System.out.println(root.data());
+}
+a) Preorder traversal
+b) Inorder traversal
+c) Postorder traversal
+d) Level order traversal
+View Answer
+
+Answer: c
+Explanation: In a postorder traversal, first the left child is visited, then the right child and finally the parent.
+5. What does the following piece of code do?
+
+public void func(Tree root)
+{
+	System.out.println(root.data());
+	func(root.left());
+	func(root.right());
+}
+a) Preorder traversal
+b) Inorder traversal
+c) Postorder traversal
+d) Level order traversal
+View Answer
+
+Answer: a
+Explanation: In a preorder traversal, first the parent is visited, then the left child and finally the right child.
+6. How will you find the minimum element in a binary search tree?
+a)
+
+public void min(Tree root)
+{
+	while(root.left() != null)
+	{
+		root = root.left();
+	}
+	System.out.println(root.data());
+}
+b)
+
+public void min(Tree root)
+{
+	while(root != null)
+	{
+		root = root.left();
+	}
+	System.out.println(root.data());
+}
+c)
+
+public void min(Tree root)
+{
+	while(root.right() != null)
+	{
+		root = root.right();
+	}
+	System.out.println(root.data());
+}
+d)
+
+public void min(Tree root)
+{
+	while(root != null)
+	{
+		root = root.right();
+	}
+	System.out.println(root.data());
+}
+View Answer  
+ 
+7. How will you find the maximum element in a binary search tree?
+a)
+
+public void max(Tree root)
+{
+	while(root.left() != null)
+	{
+		root = root.left();
+	}
+	System.out.println(root.data());
+}
+b)
+
+public void max(Tree root)
+{
+	while(root != null)
+	{
+		root = root.left();
+	}
+	System.out.println(root.data());
+}
+c)
+
+public void max(Tree root)
+{
+	while(root.right() != null)
+	{
+		root = root.right();
+	}
+	System.out.println(root.data());
+}
+d)
+
+public void max(Tree root)
+{
+	while(root != null)
+	{
+		root = root.right();
+	}
+	System.out.println(root.data());
+}
+View Answer
+Answer: c
+Explanation: Since all the elements greater than a given node are towards the right, iterating through the tree to the rightmost leaf of the root will give the maximum element in a binary search tree.
+ 
+ 
+8. What are the worst case and average case complexities of a binary search tree?
+a) O(n), O(n)
+b) O(logn), O(logn)
+c) O(logn), O(n)
+d) O(n), O(logn)
+View Answer
+
+Answer: d
+Explanation: Worst case arises when the tree is skewed(either to the left or right) in which case you have to process all the nodes of the tree giving O(n) complexity, otherwise O(logn) as you process only the left half or the right half of the tree.
+9. Given that 2 elements are present in the tree, write a function to find the LCA(Least Common Ancestor) of the 2 elements.
+a)
+
+public void lca(Tree root,int n1, int n2)
+{
+	while (root != NULL)
+        {
+            if (root.data() > n1 && root.data() > n2)
+            root = root.right();
+            else if (root.data() < n1 && root.data() < n2)
+            root = root.left();
+	    else break;
+        }
+        System.out.println(root.data());
+}
+b)
+
+public void lca(Tree root,int n1, int n2)
+{
+    while (root != NULL)
+    {
+        if (root.data() > n1 && root.data() < n2)
+        root = root.left();
+        else if (root.data() < n1 && root.data() > n2)
+        root = root.right();
+	else break;
+    }
+    System.out.println(root.data());
+}
+c)
+
+public void lca(Tree root,int n1, int n2)
+{
+    while (root != NULL)
+    {
+        if (root.data() > n1 && root.data() > n2)
+        root = root.left();
+        else if (root.data() < n1 && root.data() < n2)
+        root = root.right();
+	else break;
+    }
+    System.out.println(root.data());
+}
+d)
+
+public void lca(Tree root,int n1, int n2)
+{
+    while (root != NULL)
+    {
+        if (root.data() > n1 && root.data() > n2)
+        root = root.left.left();
+        else if (root.data() < n1 && root.data() < n2)
+        root = root.right.right();
+	else break;
+    }
+    System.out.println(root.data());
+}
+View Answer
+Answer: c
+Explanation: The property of a binary search tree is that the lesser elements are to the left and greater elements are to the right, we use this property here and iterate through the tree such that we reach a point where the 2 elements are on 2 different sides of the node, this becomes the least common ancestor of the 2 given elements.
+ 
+ 
+10. What are the conditions for an optimal binary search tree and what is its advantage?
+a) The tree should not be modified and you should know how often the keys are accessed, it improves the lookup cost
+b) You should know the frequency of access of the keys, improves the lookup time
+c) The tree can be modified and you should know the number of elements in the tree before hand, it improves the deletion time
+d) The tree should be just modified and improves the lookup time
+View Answer
+
+Answer: a
+Explanation: For an optimal binary search The tree should not be modified and we need to find how often keys are accessed. Optimal binary search improves the lookup cost.
+11. Construct a binary search tree with the below information.
+The preorder traversal of a binary search tree 10, 4, 3, 5, 11, 12.
+a) The preorder traversal of a binary search tree 10, 4, 3, 5, 11, 12 - option a
+b) The preorder traversal of a binary search tree 10, 4, 3, 5, 11, 12 - option b
+c) The preorder traversal of a binary search tree 10, 4, 3, 5, 11, 12 - option c
+d) The preorder traversal of a binary search tree 10, 4, 3, 5, 11, 12 - option d
+View Answer
+
+Answer: c
+Explanation: Preorder Traversal is 10, 4, 3, 5, 11, 12. Inorder Traversal of Binary search tree is equal to ascending order of the nodes of the Tree. Inorder Traversal is 3, 4, 5, 10, 11, 12. The tree constructed using Preorder and Inorder traversal is
+The tree constructed using Preorder & Inorder traversal is 3, 4, 5, 10, 11, 12
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Balanced Binary Tree”.
+
+1. What will be the height of a balanced full binary tree with 8 leaves?
+a) 8
+b) 5
+c) 6
+d) 4
+View Answer
+
+Answer: d
+Explanation: A balanced full binary tree with l leaves has height h, where h = log2l + 1.
+So, the height of a balanced full binary tree with 8 leaves = log28 + 1 = 3 + 1 = 4.
+2. The balance factor of a node in a binary tree is defined as _____
+a) addition of heights of left and right subtrees
+b) height of right subtree minus height of left subtree
+c) height of left subtree minus height of right subtree
+d) height of right subtree minus one
+View Answer
+
+Answer: c
+Explanation: For a node in a binary tree, the difference between the heights of its left subtree and right subtree is known as balance factor of the node.
+3. Figure below is a balanced binary tree. If a node inserted as child of the node R, how many nodes will become unbalanced?
+The node P will become unbalanced if a node inserted as child of the node R
+a) 2
+b) 1
+c) 3
+d) 0
+View Answer
+
+Answer: b
+Explanation: Only the node P will become unbalanced, with balance factor +2.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. A binary tree is balanced if the difference between left and right subtree of every node is not more than ____
+a) 1
+b) 3
+c) 2
+d) 0
+View Answer
+
+Answer: a
+Explanation: In a balanced binary tree the heights of two subtrees of every node never differ by more than 1.
+5. Which of the following tree data structures is not a balanced binary tree?
+a) AVL tree
+b) Red-black tree
+c) Splay tree
+d) B-tree
+View Answer
+
+Answer: d
+Explanation: All the tree data structures given in options are balanced, but B-tree can have more than two children.
+Check this: Programming MCQs | Computer Science MCQs
+6. Which of following figures is a balanced binary tree?
+a)The figures is a balanced binary tree - option a
+b) The figures is a balanced binary tree - option b
+c) The figures is a balanced binary tree - option c
+d)The figures is a balanced binary tree - option d
+View Answer
+
+Answer: b
+Explanation: In Some tree diagrams, the root of tree has balance factor +2, so the tree is not balanced. If every node in the tree is balanced, then it’s a balanced tree.
+7. Balanced binary tree with n items allows the lookup of an item in ____ worst-case time.
+a) O(log n)
+b) O(nlog 2)
+c) O(n)
+d) O(1)
+View Answer
+
+Answer: a
+Explanation: Searching an item in balanced binary is fast and worst-case time complexity of the search is O(log n).
+8. Which of the following data structures can be efficiently implemented using height balanced binary search tree?
+a) sets
+b) priority queue
+c) heap
+d) both sets and priority queue
+View Answer
+
+Answer: d
+Explanation: Height-Balanced binary search tree can provide an efficient implementation of sets, priority queues.
+9. Two balanced binary trees are given with m and n elements respectively. They can be merged into a balanced binary search tree in ____ time.
+a) O(m+n)
+b) O(mn)
+c) O(m)
+d) O(mlog n)
+View Answer
+
+Answer: a
+Explanation: First we store the in-order traversals of both the trees in two separate arrays and then we can merge these sorted sequences in O(m+n) time. And then we construct the balanced tree from this final sorted array.
+10. Which of the following is an advantage of balanced binary search tree, like AVL tree, compared to binary heap?
+a) insertion takes less time
+b) deletion takes less time
+c) searching takes less time
+d) construction of the tree takes less time than binary heap
+View Answer
+
+Answer: a
+Explanation: Insertion and deletion, in both the binary heap and balanced binary search tree takes O(log n). But searching in balanced binary search tree requires O(log n) while binary heap takes O(n). Construction of balanced binary search tree takes O(nlog n) time while binary heap takes O(n).
+11. AVL trees are more balanced than Red-black trees.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: AVL tree is more balanced than a Red-black tree because AVL tree has less height than Red-black tree given that both trees have the same number of elements.
+12. The figure shown below is a balanced binary tree. If node P is deleted, which of the following nodes will get unbalanced?
+Node U will get unbalanced if node P is deleted in a balanced binary tree
+a) U
+b) M
+c) H
+d) A
+View Answer
+
+Answer: a
+Explanation: Node U will get unbalanced if node P is deleted, because it’s balance factor will become -2.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Tree Properties”.
+
+1. The number of edges from the root to the node is called __________ of the tree.
+a) Height
+b) Depth
+c) Length
+d) Width
+View Answer
+
+Answer: b
+Explanation: The number of edges from the root to the node is called depth of the tree.
+2. The number of edges from the node to the deepest leaf is called _________ of the tree.
+a) Height
+b) Depth
+c) Length
+d) Width
+View Answer
+
+3. What is a full binary tree?
+a) Each node has exactly zero or two children
+b) Each node has exactly two children
+c) All the leaves are at the same level
+d) Each node has exactly one or two children
+View Answer
+
+Answer: a
+Explanation: A full binary tree is a tree in which each node has exactly 0 or 2 children.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. What is a complete binary tree?
+a) Each node has exactly zero or two children
+b) A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from right to left
+c) A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right
+d) A tree In which all nodes have degree 2
+View Answer
+
+Answer: c
+Explanation: A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right is called complete binary tree. A Tree in which each node has exactly zero or two children is called full binary tree. A Tree in which the degree of each node is 2 except leaf nodes is called perfect binary tree.
+5. What is the average case time complexity for finding the height of the binary tree?
+a) h = O(loglogn)
+b) h = O(nlogn)
+c) h = O(n)
+d) h = O(log n)
+View Answer
+
+Answer: d
+Explanation: The nodes are either a part of left sub tree or the right sub tree, so we don’t have to traverse all the nodes, this means the complexity is lesser than n, in the average case, assuming the nodes are spread evenly, the time complexity becomes O(logn).
+Check this: Data Structure Books | Computer Science Books
+6. Which of the following is not an advantage of trees?
+a) Hierarchical structure
+b) Faster search
+c) Router algorithms
+d) Undo/Redo operations in a notepad
+View Answer
+
+Answer: d
+Explanation: Undo/Redo operations in a notepad is an application of stack. Hierarchical structure, Faster search, Router algorithms are advantages of trees.
+7. In a full binary tree if number of internal nodes is I, then number of leaves L are?
+a) L = 2*I
+b) L = I + 1
+c) L = I – 1
+d) L = 2*I – 1
+View Answer
+
+Answer: b
+Explanation: Number of Leaf nodes in full binary tree is equal to 1 + Number of Internal Nodes i.e L = I + 1
+8. In a full binary tree if number of internal nodes is I, then number of nodes N are?
+a) N = 2*I
+b) N = I + 1
+c) N = I – 1
+d) N = 2*I + 1
+View Answer
+
+Answer: d
+Explanation: Relation between number of internal nodes(I) and nodes(N) is N = 2*I+1.
+9. In a full binary tree if there are L leaves, then total number of nodes N are?
+a) N = 2*L
+b) N = L + 1
+c) N = L – 1
+d) N = 2*L – 1
+View Answer
+
+Answer: d
+Explanation: The relation between number of nodes(N) and leaves(L) is N=2*L-1.
+10. Which of the following is incorrect with respect to binary trees?
+a) Let T be a binary tree. For every k ≥ 0, there are no more than 2k nodes in level k
+b) Let T be a binary tree with λ levels. Then T has no more than 2λ – 1 nodes
+c) Let T be a binary tree with N nodes. Then the number of levels is at least ceil(log (N + 1))
+d) Let T be a binary tree with N nodes. Then the number of levels is at least floor(log (N + 1))
+View Answer
+
+Answer: d
+Explanation: In a binary tree, there are atmost 2k nodes in level k and 2k-1 total number of nodes. Number of levels is at least ceil(log(N+1)).
+11. Construct a binary tree by using postorder and inorder sequences given below.
+Inorder: N, M, P, O, Q
+Postorder: N, P, Q, O, M
+a) A binary tree by using postorder & inorder sequences - option a
+b) A binary tree by using postorder & inorder sequences - option b
+c) A binary tree by using postorder & inorder sequences - option c
+d) A binary tree by using postorder & inorder sequences - option d
+View Answer
+
+Answer: d
+Explanation: Here,
+Postorder Traversal: N, P, Q, O, M
+Inorder Traversal: N, M, P, O, Q
+Root node of tree is the last visiting node in Postorder traversal. Thus, Root Node = ‘M’.
+The partial tree constructed is:
+The partial tree with the postorder traversal is O
+The second last node in postorder traversal is O. Thus, node P becomes left child of node O and node Q becomes right child of node Q. Thus, the final tree is:
+Final tree with node P become left child of node O & node Q become right child of node Q
+12. Construct a binary search tree by using postorder sequence given below.
+Postorder: 2, 4, 3, 7, 9, 8, 5.
+a) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option a
+b) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option b
+c) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option c
+d) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option d
+View Answer
+
+Answer: b
+Explanation: Postorder sequence is 2, 4, 3, 7, 9, 8, 5.
+Inorder sequence is the ascending order of nodes in Binary search tree. Thus, Inorder sequence is 2, 3, 4, 5, 7, 8, 9. The tree constructed using Postorder and Inorder sequence is
+13. Construct a binary tree using inorder and level order traversal given below.
+Inorder Traversal: 3, 4, 2, 1, 5, 8, 9
+Level Order Traversal: 1, 4, 5, 9, 8, 2, 3
+a) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option a
+b) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option b
+c) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option c
+d) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option d
+View Answer
+
+Answer: a
+Explanation: Inorder Traversal: 3, 4, 2, 1, 5, 8, 9
+Level Order Traversal: 1, 4, 5, 9, 8, 2, 3
+In level order traversal first node is the root node of the binary tree.
+Thus the partially formed tree is:
+In level order traversal first node is the root node of the binary tree
+In level order traversal, the second node is 4. Then, node 3 becomes left child of node 4 and node 2 becomes right child of node 4. Third node of level order traversal is 8. Then, node 5 becomes left child of node 8 and node 9 becomes right child of node 8. Thus, the final tree is:
+In level order traversal second node is 4 & node 3 becomes left child of node 4
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Binary Tree Operations”.
+
+1. What is the maximum number of children that a binary tree node can have?
+a) 0
+b) 1
+c) 2
+d) 3
+View Answer
+
+Answer: c
+Explanation: In a binary tree, a node can have atmost 2 nodes (i.e.) 0,1 or 2 left and right child.
+2. The following given tree is an example for?
+Tree is example for binary tree since with two children & the left & right children
+a) Binary tree
+b) Binary search tree
+c) Fibonacci tree
+d) AVL tree
+View Answer
+
+Answer: a
+Explanation: The given tree is an example for binary tree since has got two children and the left and right children do not satisfy binary search tree’s property, Fibonacci and AVL tree.
+3. A binary tree is a rooted tree but not an ordered tree.
+a) true
+b) false
+View Answer
+
+Answer: b
+Explanation: A binary tree is a rooted tree and also an ordered tree (i.e) every node in a binary tree has at most two children.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. How many common operations are performed in a binary tree?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: c
+Explanation: Three common operations are performed in a binary tree- they are insertion, deletion and traversal.
+5. What is the traversal strategy used in the binary tree?
+a) depth-first traversal
+b) breadth-first traversal
+c) random traversal
+d) Priority traversal
+View Answer
+
+Answer: b
+Explanation: Breadth first traversal, also known as level order traversal is the traversal strategy used in a binary tree. It involves visiting all the nodes at a given level.
+Check this: Programming Books | Computer Science Books
+6. How many types of insertion are performed in a binary tree?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: b
+Explanation: Two kinds of insertion operation is performed in a binary tree- inserting a leaf node and inserting an internal node.
+7. What operation does the following diagram depict?
+Diagram is of deleting node with 0 or 1 child since node D which has 1 child is deleted
+a) inserting a leaf node
+b) inserting an internal node
+c) deleting a node with 0 or 1 child
+d) deleting a node with 2 children
+View Answer
+
+Answer: c
+Explanation: The above diagram is a depiction of deleting a node with 0 or 1 child since the node D which has 1 child is deleted.
+8. General ordered tree can be encoded into binary trees.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: General ordered tree can be mapped into binary tree by representing them in a left-child-right-sibling way.
+9. How many bits would a succinct binary tree occupy?
+a) n+O(n)
+b) 2n+O(n)
+c) n/2
+d) n
+View Answer
+
+Answer: b
+Explanation: A succinct binary tree occupies close to minimum possible space established by lower bounds. A succinct binary tree would occupy 2n+O(n) bits.
+10. The average depth of a binary tree is given as?
+a) O(N)
+b) O(√N)
+c) O(N2)
+d) O(log N)
+View Answer
+
+Answer: b
+Explanation: The average depth of a binary tree is given as O(√N). In case of a binary search tree, it is O(log N).
+11. How many orders of traversal are applicable to a binary tree (In General)?
+a) 1
+b) 4
+c) 2
+d) 3
+View Answer
+
+Answer: d
+Explanation: The three orders of traversal that can be applied to a binary tree are in-order, pre-order and post order traversal.
+12. If binary trees are represented in arrays, what formula can be used to locate a left child, if the node has an index i?
+a) 2i+1
+b) 2i+2
+c) 2i
+d) 4i
+View Answer
+
+Answer: a
+Explanation: If binary trees are represented in arrays, left children are located at indices 2i+1 and right children at 2i+2.
+13. Using what formula can a parent node be located in an array?
+a) (i+1)/2
+b) (i-1)/2
+c) i/2
+d) 2i/2
+View Answer
+
+Answer: b
+Explanation: If a binary tree is represented in an array, parent nodes are found at indices (i-1)/2.
+14. Which of the following properties are obeyed by all three tree – traversals?
+a) Left subtrees are visited before right subtrees
+b) Right subtrees are visited before left subtrees
+c) Root node is visited before left subtree
+d) Root node is visited before right subtree
+View Answer
+
+Answer: a
+Explanation: In preorder, inorder and postorder traversal the left subtrees are visited before the right subtrees. In Inorder traversal, the Left subtree is visited first then the Root node then the Right subtree. In postorder traversal, the Left subtree is visited first, then Right subtree and then the Root node is visited.
+15. Construct a binary tree using the following data.
+The preorder traversal of a binary tree is 1, 2, 5, 3, 4. The inorder traversal of the same binary tree is 2, 5, 1, 4, 3.
+a) Preorder traversal is 1, 2, 5, 3, 4 & inorder traversal tree is 2, 5, 1, 4 - option a
+b) Preorder traversal is 1, 2, 5, 3, 4 & inorder traversal tree is 2, 5, 1, 4 - option b
+c) Preorder traversal is 1, 2, 5, 3, 4 & inorder traversal tree is 2, 5, 1, 4 - option c
+d) Preorder traversal is 1, 2, 5, 3, 4 & inorder traversal tree is 2, 5, 1, 4 - option d
+View Answer
+
+Answer: d
+Explanation: Here,
+Preorder Traversal is 1, 2, 5, 3, 4
+Inorder Traversal is 2, 5, 1, 4, 3
+Root node of binary tree is the first node in Preorder traversal.
+The rough sketch of tree is:
+The rough sketch of tree with first node in Preorder traversal
+Second node in preorder traversal is 2. This makes 5 as right child to node 2. The fourth node in preorder traversal is 3. This makes 4 as right child to node 3. Thus the final tree is:
+The final tree with fourth node in preorder traversal is 3
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Tree Properties”.
+
+1. The number of edges from the root to the node is called __________ of the tree.
+a) Height
+b) Depth
+c) Length
+d) Width
+View Answer
+
+Answer: b
+Explanation: The number of edges from the root to the node is called depth of the tree.
+2. The number of edges from the node to the deepest leaf is called _________ of the tree.
+a) Height
+b) Depth
+c) Length
+d) Width
+View Answer
+
+3. What is a full binary tree?
+a) Each node has exactly zero or two children
+b) Each node has exactly two children
+c) All the leaves are at the same level
+d) Each node has exactly one or two children
+View Answer
+
+Answer: a
+Explanation: A full binary tree is a tree in which each node has exactly 0 or 2 children.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. What is a complete binary tree?
+a) Each node has exactly zero or two children
+b) A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from right to left
+c) A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right
+d) A tree In which all nodes have degree 2
+View Answer
+
+Answer: c
+Explanation: A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right is called complete binary tree. A Tree in which each node has exactly zero or two children is called full binary tree. A Tree in which the degree of each node is 2 except leaf nodes is called perfect binary tree.
+5. What is the average case time complexity for finding the height of the binary tree?
+a) h = O(loglogn)
+b) h = O(nlogn)
+c) h = O(n)
+d) h = O(log n)
+View Answer
+
+Answer: d
+Explanation: The nodes are either a part of left sub tree or the right sub tree, so we don’t have to traverse all the nodes, this means the complexity is lesser than n, in the average case, assuming the nodes are spread evenly, the time complexity becomes O(logn).
+Check this: Data Structure Books | Computer Science Books
+6. Which of the following is not an advantage of trees?
+a) Hierarchical structure
+b) Faster search
+c) Router algorithms
+d) Undo/Redo operations in a notepad
+View Answer
+
+Answer: d
+Explanation: Undo/Redo operations in a notepad is an application of stack. Hierarchical structure, Faster search, Router algorithms are advantages of trees.
+7. In a full binary tree if number of internal nodes is I, then number of leaves L are?
+a) L = 2*I
+b) L = I + 1
+c) L = I – 1
+d) L = 2*I – 1
+View Answer
+
+Answer: b
+Explanation: Number of Leaf nodes in full binary tree is equal to 1 + Number of Internal Nodes i.e L = I + 1
+8. In a full binary tree if number of internal nodes is I, then number of nodes N are?
+a) N = 2*I
+b) N = I + 1
+c) N = I – 1
+d) N = 2*I + 1
+View Answer
+
+Answer: d
+Explanation: Relation between number of internal nodes(I) and nodes(N) is N = 2*I+1.
+9. In a full binary tree if there are L leaves, then total number of nodes N are?
+a) N = 2*L
+b) N = L + 1
+c) N = L – 1
+d) N = 2*L – 1
+View Answer
+
+Answer: d
+Explanation: The relation between number of nodes(N) and leaves(L) is N=2*L-1.
+10. Which of the following is incorrect with respect to binary trees?
+a) Let T be a binary tree. For every k ≥ 0, there are no more than 2k nodes in level k
+b) Let T be a binary tree with λ levels. Then T has no more than 2λ – 1 nodes
+c) Let T be a binary tree with N nodes. Then the number of levels is at least ceil(log (N + 1))
+d) Let T be a binary tree with N nodes. Then the number of levels is at least floor(log (N + 1))
+View Answer
+
+Answer: d
+Explanation: In a binary tree, there are atmost 2k nodes in level k and 2k-1 total number of nodes. Number of levels is at least ceil(log(N+1)).
+11. Construct a binary tree by using postorder and inorder sequences given below.
+Inorder: N, M, P, O, Q
+Postorder: N, P, Q, O, M
+a) A binary tree by using postorder & inorder sequences - option a
+b) A binary tree by using postorder & inorder sequences - option b
+c) A binary tree by using postorder & inorder sequences - option c
+d) A binary tree by using postorder & inorder sequences - option d
+View Answer
+
+Answer: d
+Explanation: Here,
+Postorder Traversal: N, P, Q, O, M
+Inorder Traversal: N, M, P, O, Q
+Root node of tree is the last visiting node in Postorder traversal. Thus, Root Node = ‘M’.
+The partial tree constructed is:
+The partial tree with the postorder traversal is O
+The second last node in postorder traversal is O. Thus, node P becomes left child of node O and node Q becomes right child of node Q. Thus, the final tree is:
+Final tree with node P become left child of node O & node Q become right child of node Q
+12. Construct a binary search tree by using postorder sequence given below.
+Postorder: 2, 4, 3, 7, 9, 8, 5.
+a) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option a
+b) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option b
+c) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option c
+d) Binary search tree by using postorder sequence postorder: 2, 4, 3, 7, 9, 8, 5 - option d
+View Answer
+
+Answer: b
+Explanation: Postorder sequence is 2, 4, 3, 7, 9, 8, 5.
+Inorder sequence is the ascending order of nodes in Binary search tree. Thus, Inorder sequence is 2, 3, 4, 5, 7, 8, 9. The tree constructed using Postorder and Inorder sequence is
+13. Construct a binary tree using inorder and level order traversal given below.
+Inorder Traversal: 3, 4, 2, 1, 5, 8, 9
+Level Order Traversal: 1, 4, 5, 9, 8, 2, 3
+a) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option a
+b) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option b
+c) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option c
+d) Binary tree with traversal inorder Traversal: 3, 4, 2, 1, 5, 8, 9 - option d
+View Answer
+
+Answer: a
+Explanation: Inorder Traversal: 3, 4, 2, 1, 5, 8, 9
+Level Order Traversal: 1, 4, 5, 9, 8, 2, 3
+In level order traversal first node is the root node of the binary tree.
+Thus the partially formed tree is:
+In level order traversal first node is the root node of the binary tree
+In level order traversal, the second node is 4. Then, node 3 becomes left child of node 4 and node 2 becomes right child of node 4. Third node of level order traversal is 8. Then, node 5 becomes left child of node 8 and node 9 becomes right child of node 8. Thus, the final tree is:
+In level order traversal second node is 4 & node 3 becomes left child of node 4
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Binary Trees using Linked Lists”.
+
+1. Advantages of linked list representation of binary trees over arrays?
+a) dynamic size
+b) ease of insertion/deletion
+c) ease in randomly accessing a node
+d) both dynamic size and ease in insertion/deletion
+View Answer
+
+Answer: d
+Explanation: It has both dynamic size and ease in insertion and deletion as advantages.
+2. Disadvantages of linked list representation of binary trees over arrays?
+a) Randomly accessing is not possible
+b) Extra memory for a pointer is needed with every element in the list
+c) Difficulty in deletion
+d) Random access is not possible and extra memory with every element
+View Answer
+
+Answer: d
+Explanation: Random access is not possible with linked lists.Also it includes extra memory space for each element thereby increasing its space complexity.
+3. Which of the following traversing algorithm is not used to traverse in a tree?
+a) Post order
+b) Pre order
+c) Post order
+d) Randomized
+View Answer
+
+Answer: d
+Explanation: Generally, all nodes in a tree are visited by using preorder, inorder and postorder traversing algorithms.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Level order traversal of a tree is formed with the help of
+a) breadth first search
+b) depth first search
+c) dijkstra’s algorithm
+d) prims algorithm
+View Answer
+
+Answer: a
+Explanation: Level order is similar to bfs.
+5. Identify the reason which doesn’t play a key role to use threaded binary trees?
+a) The storage required by stack and queue is more
+b) The pointers in most of nodes of a binary tree are NULL
+c) It is Difficult to find a successor node
+d) They occupy less size
+View Answer
+
+Answer: d
+Explanation: Threaded binary trees are introduced to make the Inorder traversal faster without using any stack or recursion. Stack and Queue require more space and pointers in the majority of binary trees are null and difficulties are raised while finding successor nodes. Size constraints are not taken on threaded binary trees, but they occupy less space than a stack/queue.
+Check this: Computer Science MCQs | Design & Analysis of Algorithms MCQ
+6. The following lines talks about deleting a node in a binary tree.(the tree property must not be violated after deletion)
+i) from root search for the node to be deleted
+ii)
+iii) delete the node at
+what must be statement ii) and fill up statement iii)
+a) ii)-find random node,replace with node to be deleted. iii)- delete the node
+b) ii)-find node to be deleted. iii)- delete the node at found location
+c) ii)-find deepest node,replace with node to be deleted. iii)- delete a node
+d) ii)-find deepest node,replace with node to be deleted. iii)- delete the deepest node
+View Answer
+
+Answer: d
+Explanation: We just replace a to be deleted node with last leaf node of a tree. this must not be done in case of BST or heaps.
+7. What may be the psuedo code for finding the size of a tree?
+a) find_size(root_node–>left_node) + 1 + find_size(root_node–>right_node)
+b) find_size(root_node–>left_node) + find_size(root_node–>right_node)
+c) find_size(root_node–>right_node) – 1
+d) find_size(root_node–>left_node + 1
+View Answer
+
+Answer: a
+Explanation: Draw a tree and analyze the expression. we are always taking size of left subtree and right subtree and adding root value(1) to it and finally printing size.
+8. What is missing in this logic of finding a path in the tree for a given sum (i.e checking whether there will be a path from roots to leaf nodes with given sum)?
+
+checkSum(struct bin-treenode *root , int sum) :
+  if(root==null)
+    return sum as 0
+  else :
+     leftover_sum=sum-root_node-->value
+     //missing
+a) code for having recursive calls to either only left tree or right trees or to both subtrees depending on their existence
+b) code for having recursive calls to either only left tree or right trees
+c) code for having recursive calls to either only left tree
+d) code for having recursive calls to either only right trees
+View Answer
+
+Answer: a
+Explanation: if(left subtree and right subtree) then move to both subtrees
+else if only left subtree then move to left subtree carrying leftover_sum parameter
+else if only right subtree then move to right subtree carrying leftover_sum parameter.
+9. What must be the missing logic below so as to print mirror of a tree as below as an example?
+The swapping of left & right nodes to print mirror of a tree as an example
+
+if(rootnode):
+  mirror(rootnode-->left)
+  mirror(rootnode-->right)
+ 
+  //missing
+ 
+end
+a) swapping of left and right nodes is missing
+b) swapping of left with root nodes is missing
+c) swapping of right with root nodes is missing
+d) nothing is missing
+View Answer
+
+Answer: a
+Explanation: Mirror is another tree with left and right children of nodes are interchanged as shown in the figure.
+10. What is the code below trying to print?
+
+void print(tree *root,tree *node)
+{
+  if(root ==null) return 0
+  if(root-->left==node || root-->right==node) || print(root->left,node)
+  ||printf(root->right,node)
+  {
+     print(root->data)
+  }
+}
+a) just printing all nodes
+b) not a valid logic to do any task
+c) printing ancestors of a node passed as argument
+d) printing nodes from leaf node to a node passed as argument
+View Answer
+
+Answer: c
+Explanation: We are checking if left or right node is what the argument sent or else if not the case then move to left node or right node and print all nodes while searching for the argument node.
+
+This set of Data Structures & Algorithms Multiple Choice Questions & Answers (MCQs) focuses on “Postorder Traversal”.
+
+1. In postorder traversal of binary tree right subtree is traversed before visiting root.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Post-order method of traversing involves – i) Traverse left subtree in post-order, ii) Traverse right subtree in post-order, iii) visit the root.
+2. What is the possible number of binary trees that can be created with 3 nodes, giving the sequence N, M, L when traversed in post-order.
+a) 15
+b) 3
+c) 5
+d) 8
+View Answer
+
+Answer: c
+Explanation: 5 binary trees are possible and they are,
+The possible number of binary trees that can be created with 3 nodes is 5
+3. The post-order traversal of a binary tree is O P Q R S T. Then possible pre-order traversal will be ________
+a) T Q R S O P
+b) T O Q R P S
+c) T Q O P S R
+d) T Q O S P R
+View Answer
+
+Answer: c
+Explanation: The last, second last nodes visited in post-order traversal are root and it’s right child respectively. Option T Q R S O P can’t be a pre-order traversal, because nodes O, P are visited after the nodes Q, R, S. Option T O Q R P S, can’t be valid, because the pre-order sequence given in option T O Q R P S and given post-order traversal creates a tree with node T as root and node O as left subtree. Option T Q O P S R is valid. Option T Q O S P R is not valid as node P is visited after visiting node S.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. A binary search tree contains values 7, 8, 13, 26, 35, 40, 70, 75. Which one of the following is a valid post-order sequence of the tree provided the pre-order sequence as 35, 13, 7, 8, 26, 70, 40 and 75?
+a) 7, 8, 26, 13, 75, 40, 70, 35
+b) 26, 13, 7, 8, 70, 75, 40, 35
+c) 7, 8, 13, 26, 35, 40, 70, 75
+d) 8, 7, 26, 13, 40, 75, 70, 35
+View Answer
+
+Answer: d
+Explanation: The binary tree contains values 7, 8, 13, 26, 35, 40, 70, 75. The given pre-order sequence is 35, 13, 7, 8, 26, 70, 40 and 75. So, the binary search tree formed is
+The binary tree with values 7, 8, 13, 26, 35, 40, 70, 75 in given figure
+Thus post-order sequence for the tree is 8, 7, 26, 13, 40, 75, 70 and 35.
+5. Which of the following pair’s traversals on a binary tree can build the tree uniquely?
+a) post-order and pre-order
+b) post-order and in-order
+c) post-order and level order
+d) level order and preorder
+View Answer
+
+Answer: b
+Explanation: A binary tree can uniquely be created by post-order and in-order traversals.
+Become Top Ranker in Data Structure I Now!
+6. A full binary tree can be generated using ______
+a) post-order and pre-order traversal
+b) pre-order traversal
+c) post-order traversal
+d) in-order traversal
+View Answer
+
+Answer: a
+Explanation: Every node in a full binary tree has either 0 or 2 children. A binary tree can be generated by two traversals if one of them is in-order. But, we can generate a full binary tree using post-order and pre-order traversals.
+7. The maximum number of nodes in a tree for which post-order and pre-order traversals may be equal is ______
+a) 3
+b) 1
+c) 2
+d) any number
+View Answer
+
+Answer: b
+Explanation: The tree with only one node has post-order and pre-order traversals equal.
+8. The steps for finding post-order traversal are traverse the right subtree, traverse the left subtree or visit the current node.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Left subtree is traversed first in post-order traversal, then the right subtree is traversed and then the output current node.
+9. The pre-order and in-order are traversals of a binary tree are T M L N P O Q and L M N T O P Q. Which of following is post-order traversal of the tree?
+a) L N M O Q P T
+b) N M O P O L T
+c) L M N O P Q T
+d) O P L M N Q T
+View Answer
+
+Answer: a
+Explanation: The tree generated by using given pre-order and in-order traversal is
+The tree generated by using given pre-order & in-order traversal is L N M O Q P T
+Thus, L N M O Q P T will be the post-order traversal.
+10. For a binary tree the first node visited in in-order and post-order traversal is same.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Consider a binary tree,
+A binary tree the first node visited in in-order & post-order traversal is same
+Its in-order traversal – 13 14 16 19
+Its post-order traversal- 14 13 19 16. Here the first node visited is not same.
+11. Find the postorder traversal of the binary tree shown below.
+Find the postorder traversal of the binary tree shown
+a) P Q R S T U V W X
+b) W R S Q P V T U X
+c) S W T Q X U V R P
+d) S T W U X V Q R P
+View Answer
+
+Answer: c
+Explanation: In postorder traversal the left subtree is traversed first and then the right subtree and then the current node. So, the posturer traversal of the tree is, S W T Q X U V R P.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Preorder Traversal”.
+
+1. For the tree below, write the pre-order traversal.
+The pre-order traversal is 2, 7, 2, 6, 5, 11, 5, 9, 4 follows NLR
+a) 2, 7, 2, 6, 5, 11, 5, 9, 4
+b) 2, 7, 5, 2, 6, 9, 5, 11, 4
+c) 2, 5, 11, 6, 7, 4, 9, 5, 2
+d) 2, 7, 5, 6, 11, 2, 5, 4, 9
+View Answer
+
+Answer: a
+Explanation: Pre order traversal follows NLR(Node-Left-Right).
+2. For the tree below, write the post-order traversal.
+The post-order traversal is 2, 5, 11, 6, 7, 4, 9, 5, 2 follows LRN
+a) 6, 2, 7, 2, 5, 11, 9, 5, 4
+b) 6, 5, 11, 2, 7, 5, 9, 4, 2
+c) 6, 5, 2, 11, 7, 4, 9, 5, 2
+d) 6, 2, 7, 2, 11, 5, 5, 9, 4
+View Answer
+
+Answer: c
+Explanation: Post order traversal follows LRN(Left-Right-Node).
+3. Select the code snippet which performs pre-order traversal.
+a)
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+public void preorder(Tree root)
+{
+	System.out.println(root.data);
+	preorder(root.left);
+	preorder(root.right);
+}
+b)
+
+Check this: Programming MCQs | Data Structure Books
+public void preorder(Tree root)
+{
+	preorder(root.left);
+	System.out.println(root.data);
+	preorder(root.right);
+}
+c)
+
+public void preorder(Tree root)
+{
+	System.out.println(root.data);
+	preorder(root.right);
+	preorder(root.left);
+}
+d)
+
+public void preorder(Tree root)
+{
+	preorder(root.right);
+	preorder(root.left);
+        System.out.println(root.data); 
+}
+View Answer
+Answer: a
+Explanation: Pre-order traversal follows NLR(Node-Left-Right).
+ 
+ 
+4. Select the code snippet which performs post-order traversal.
+a)
+public void postorder(Tree root)
+{
+	System.out.println(root.data);
+	postorder(root.left);
+	postorder(root.right);
+}
+b)
+
+public void postorder(Tree root)
+{
+	postorder(root.left);
+	postorder(root.right);
+	System.out.println(root.data);
+}
+c)
+
+public void postorder(Tree root)
+{
+	System.out.println(root.data);
+	postorder(root.right);
+	postorder(root.left);
+}
+d)
+
+public void postorder(Tree root)
+{
+	postorder(root.right);
+        System.out.println(root.data);
+	postorder(root.left);
+}
+View Answer
+Answer: b
+Explanation: Post order traversal follows NLR(Left-Right-Node).
+ 
+ 
+5. Select the code snippet that performs pre-order traversal iteratively.
+a)
+public void preOrder(Tree root) 
+{   
+        if (root == null) return;
+	Stack<Tree> stk = new Stack<Tree>();
+        st.add(root);        
+	while (!stk.empty()) 
+        {
+            Tree node = stk.pop();           
+            System.out.print(node.data + " ");
+			if (node.left != null) stk.push(node.left);
+            if (node.right != null) stk.push(node.right);
+        }
+}
+b)
+
+public void preOrder(Tree root) 
+{   
+        if (root == null) return;
+		Stack<Tree> stk = new Stack<Tree>();      
+	while (!stk.empty()) 
+        {
+            Tree node = stk.pop();           
+            System.out.print(node.data + " ");
+            if (node.right != null) stk.push(node.right);
+            if (node.left != null) stk.push(node.left);
+        }
+}
+c)
+
+public void preOrder(Tree root) 
+{   
+        if (root == null) return;
+	Stack<Tree> stk = new Stack<Tree>();
+        st.add(root);        
+	while (!stk.empty()) 
+        {
+            Tree node = stk.pop();           
+            System.out.print(node.data + " ");
+            if (node.right != null) stk.push(node.right);
+            if (node.left != null) stk.push(node.left);
+        }
+}
+d)
+
+public void preOrder(Tree root) 
+{   
+        if (root == null) return;
+	Stack<Tree> stk = new Stack<Tree>();
+        st.add(root);        
+	while (!stk.empty()) 
+        {
+            Tree node = stk.pop();           
+            System.out.print(node.data + " ");
+            if (node.right != null) stk.push(node.left);
+            if (node.left != null) stk.push(node.right);
+        }
+}
+View Answer
+Answer: c
+Explanation: Add the root to the stack first, then continously check for the right and left children of the top-of-the-stack.
+ 
+ 
+6. Select the code snippet that performs post-order traversal iteratively.
+a)
+public void postorder(Tree root)
+{
+        if (root == null)
+        return;
+	Stack<Tree> stk = new Stack<Tree>();
+        Tree node = root;
+	while (!stk.isEmpty() || node != null)
+        {
+            while (node != null)
+            {
+                if (node.right != null)
+                    stk.add(node.left);
+                stk.add(node);
+                node = node.right;
+            }
+	    node = stk.pop();
+	    if (node.right != null && !stk.isEmpty() && node.right == stk.peek())
+            {
+                Trees nodeRight = stk.pop();
+                stk.push(node);
+                node = nodeRight;
+            } else
+            {
+                System.out.print(node.data + " ");
+                node = null;
+            }
+        }
+}
+b)
+
+public void postorder(Tree root)
+{
+        if (root == null)
+        return;
+	Stack<Tree> stk = new Stack<Tree>();
+        Tree node = root;
+	while (!stk.isEmpty() || node != null)
+        {
+            while (node != null)
+            {
+                if (node.right != null)
+                    stk.add(node.right);
+                stk.add(node);
+                node = node.left;
+            }
+            node = stk.pop();
+	    if (node.right != null && !stk.isEmpty() && node.right == stk.peek())
+            {
+                Trees nodeRight = stk.pop();
+                stk.push(node);
+                node = nodeRight;
+            } else
+            {
+                System.out.print(node.data + " ");
+                node = null;
+            }
+        }
+}
+c)
+
+public void postorder(Tree root)
+{
+        if (root == null)
+            return;
+	Stack<Tree> stk = new Stack<Tree>();
+        Tree node = root;
+	while (!stk.isEmpty() || node != null)
+        {
+            while (node != null)
+            {
+                if (node.right != null)
+                    stk.add(node.right);
+                stk.add(node);
+                node = node.left;
+            }
+	    node = stk.pop();
+            if (node.right != null)
+            {
+                Trees nodeRight = stk.pop();
+                stk.push(node);
+                node = nodeRight;
+            } else
+            {
+                System.out.print(node.data + " ");
+                node = null;
+            }
+        }
+}
+d)
+
+public void postorder(Tree root)
+{
+        if (root == null)
+            return;
+	Stack<Tree> stk = new Stack<Tree>();
+        Tree node = root;
+	while (!stk.isEmpty() || node != null)
+        {
+            while (node != null)
+            {
+                if (node.right != null)
+                    stk.add(node.left);
+                stk.add(node);
+                node = node.left;
+            }
+	    node = stk.pop();
+            if (node.right != null)
+            {
+                Trees nodeRight = stk.pop();
+                stk.push(node);
+                node = nodeLeft;
+            } else
+            {
+                System.out.print(node.data + " ");
+                node = null;
+            }
+        }
+}
+View Answer
+Answer: b
+Explanation: The left and right children are added first to the stack, followed by the node, which is then popped. Post-order follows LRN policy.
+ 
+ 
+7. What is the time complexity of pre-order traversal in the iterative fashion?
+a) O(1)
+b) O(n)
+c) O(logn)
+d) O(nlogn)
+View Answer
+
+Answer: b
+Explanation: Since you have to go through all the nodes, the complexity becomes O(n).
+8. What is the space complexity of the post-order traversal in the recursive fashion? (d is the tree depth and n is the number of nodes)
+a) O(1)
+b) O(nlogd)
+c) O(logd)
+d) O(d)
+View Answer
+
+Answer: d
+Explanation: In the worst case we have d stack frames in the recursive call, hence the complexity is O(d).
+9. To obtain a prefix expression, which of the tree traversals is used?
+a) Level-order traversal
+b) Pre-order traversal
+c) Post-order traversal
+d) In-order traversal
+View Answer
+
+Answer: b
+Explanation: As the name itself suggests, pre-order traversal can be used.
+10. Consider the following data. The pre order traversal of a binary tree is A, B, E, C, D. The in order traversal of the same binary tree is B, E, A, D, C. The level order sequence for the binary tree is _________
+a) A, C, D, B, E
+b) A, B, C, D, E
+c) A, B, C, E, D
+d) D, B, E, A, C
+View Answer
+
+Answer: c
+Explanation: The inorder sequence is B, E, A, D, C and Preorder sequence is A, B, E, C, D. The tree constructed with the inorder and preorder sequence is
+The tree constructed with the inorder & preorder sequence is A, B, C, E, D
+The levelorder traversal (BFS traversal) is A, B, C, E, D.
+11. Consider the following data and specify which one is Preorder Traversal Sequence, Inorder and Postorder sequences.
+S1: N, M, P, O, Q
+S2: N, P, Q, O, M
+S3: M, N, O, P, Q
+a) S1 is preorder, S2 is inorder and S3 is postorder
+b) S1 is inorder, S2 is preorder and S3 is postorder
+c) S1 is inorder, S2 is postorder and S3 is preorder
+d) S1 is postorder, S2 is inorder and S3 is preorder
+View Answer
+
+Answer: c
+Explanation: Preorder traversal starts from the root node and postorder and inorder starts from the left child node of the left subtree. The first node of S3 is different and for S1 and S2 it’s the same. Thus, S3 is preorder traversal and the root node is M. Postorder traversal visits the root node at last. S2 has the root node(M) at last that implies S2 is postorder traversal. S1 is inorder traversal as S2 is postorder traversal and S3 is preorder traversal. Therefore, S1 is inorder traversal, S2 is postorder traversal and S3 is preorder traversal.
+
+This set of Data Structure Multiple Choice Questions & Answers (MCQs) focuses on “Red Black Tree”.
+
+1. What is the special property of red-black trees and what root should always be?
+a) a color which is either red or black and root should always be black color only
+b) height of the tree
+c) pointer to next node
+d) a color which is either green or black
+View Answer
+
+Answer: a
+Explanation: An extra attribute which is a color red or black is used. root is black because if it is red then one of red-black tree property which states that number of black nodes from root to null nodes must be same, will be violated.
+2. Why do we impose restrictions like
+. root property is black
+. every leaf is black
+. children of red node are black
+. all leaves have same black
+a) to get logarithm time complexity
+b) to get linear time complexity
+c) to get exponential time complexity
+d) to get constant time complexity
+View Answer
+
+Answer: a
+Explanation: We impose such restrictions to achieve self balancing trees with logarithmic complexities for insertions, deletions, search.
+3. Cosider the below formations of red-black tree.
+50-black root, 18-red left subtree, 100-red right subtree of red-black tree
+All the above formations are incorrect for it to be a redblack tree. then what may be the correct order?
+a) 50-black root, 18-red left subtree, 100-red right subtree
+b) 50-red root, 18-red left subtree, 100-red right subtree
+c) 50-black root, 18-black left subtree, 100-red right subtree
+d) 50-black root, 18-red left subtree, 100-black right subtree
+View Answer
+
+Answer: a
+Explanation: Considering all the properties of red-black tree, 50 must be the black root and there are two possibilities for subtrees. one is option “50-black root, 18-red left subtree, 100-red right subtree” and other is making all nodes of the tree to be black.
+Subscribe Now: Data Structure Newsletter | Important Subjects Newsletters
+advertisement
+4. What are the operations that could be performed in O(logn) time complexity by red-black tree?
+a) insertion, deletion, finding predecessor, successor
+b) only insertion
+c) only finding predecessor, successor
+d) for sorting
+View Answer
+
+Answer: a
+Explanation: We impose restrictions to achieve logarithm time complexities.
+impose restrictions are:
+. root property is black
+. every leaf is black
+. children of red node are black
+. all leaves have same black.
+5. Which of the following is an application of Red-black trees and why?
+a) used to store strings efficiently
+b) used to store integers efficiently
+c) can be used in process schedulers, maps, sets
+d) for efficient sorting
+View Answer
+
+Answer: c
+Explanation: RB tree is used for Linux kernel in the form of completely fair scheduler process scheduling algorithm. It is used for faster insertions, retrievals.
+Participate in Data Structure I Certification Contest of the Month Now!
+6. When it would be optimal to prefer Red-black trees over AVL trees?
+a) when there are more insertions or deletions
+b) when more search is needed
+c) when tree must be balanced
+d) when log(nodes) time complexity is needed
+View Answer
+
+Answer: a
+Explanation: Though both trees are balanced, when there are more insertions and deletions to make the tree balanced, AVL trees should have more rotations, it would be better to use red-black. but if more search is required AVL trees should be used.
+7. Why Red-black trees are preferred over hash tables though hash tables have constant time complexity?
+a) no they are not preferred
+b) because of resizing issues of hash table and better ordering in redblack trees
+c) because they can be implemented using trees
+d) because they are balanced
+View Answer
+
+Answer: b
+Explanation: Redblack trees have O(logn) for ordering elements in terms of finding first and next elements. also whenever table size increases or decreases in hash table you need to perform rehashing which can be very expensive in real time. also red black stores elements in sorted order rather than input order.
+8. How can you save memory when storing color information in Red-Black tree?
+a) using least significant bit of one of the pointers in the node for color information
+b) using another array with colors of each node
+c) storing color information in the node structure
+d) using negative and positive numbering
+View Answer
+
+Answer: a
+Explanation: The node pointers can be used to store color with the help of significant bits. the exceptions of this method are in languages like java where pointers are not used this may not work.
+9. When to choose Red-Black tree, AVL tree and B-trees?
+a) many inserts, many searches and when managing more items respectively
+b) many searches, when managing more items respectively and many inserts respectively
+c) sorting, sorting and retrieval respectively
+d) retrieval, sorting and retrieval respectively
+View Answer
+
+Answer: a
+Explanation: Red black when frequent inserts and deletes, AVL when less frequent inserts and deletes, B-tree when using paging from a slow storage device.
+10. What is the below pseudo code trying to do, where pt is a node pointer and root pointer?
+
+  redblack(Node root, Node pt) :
+    if (root == NULL)
+       return pt
+ 
+    if (pt.data < root.data)
+    {
+        root.left  =   redblack(root.left, pt);
+        root.left.parent = root
+    }
+    else if (pt.data > root.data)
+    {
+        root.right = redblackt(root.right, pt)
+        root.right.parent = root
+    }
+   return root
+a) insert a new node
+b) delete a node
+c) search a node
+d) count the number of nodes
+View Answer
+
+Answer: a
+Explanation: The code is taking the root node and to be inserted node and is performing insertion operation.

@@ -24,6 +24,7 @@ const CreateNew = () => {
   };
   /***************************************************************************HANDLE SUBMISSION****************************************************************************************** */
   const handleSubmit = async (e) => {
+    console.clear();
     try {
       e.preventDefault();
       const URL = `http://localhost:8081/api/${subjectid}/${chapterid}/mcqs`;
@@ -36,6 +37,8 @@ const CreateNew = () => {
         alert("MCQs have been added successfully");
         console.log(response.data);
       }
+      setMCQs([]);
+      setString("");
     } catch (err) {
       console.log(err.message);
     }

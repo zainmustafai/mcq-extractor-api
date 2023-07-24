@@ -1,0 +1,777 @@
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Converting Regular Expressions to Automata”.
+
+1. What kind of expressions do we used for pattern matching?
+a) Regular Expression
+b) Rational Expression
+c) Regular & Rational Expression
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: In automata theory, Regular Expression(sometimes also called the Rational Expression ) is a sequence or set of characters that define a search pattern, mainly for the use in pattern matching with strings or string matching.
+2. Which of the following do Regexps do not find their use in?
+a) search engines
+b) word processors
+c) sed
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: Regexp processors are found in several search engines, seach and replace mechanisms, and text processing utilities.
+3. Which of the following languages have built in regexps support?
+a) Perl
+b) Java
+c) Python
+d) C++
+View Answer
+
+Answer: a
+Explanation: Many languages come with built in support of regexps like Perl, Javascript, Ruby etc. While some provide support using standard libraries like .NET, Java, Python, C++, C and POSIX.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. The following is/are an approach to process a regexp:
+a) Construction of NFA and subsequently, a DFA
+b) Thompson’s Contruction Algorithm
+c) Thompson’s Contruction Algorithm & Construction of NFA and subsequently, a DFA
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: A regexp processor translates the syntax into internal representation which can be executed and matched with a string and that internal representation can have several approaches like the ones mentioned.
+5. Are the given two patterns equivalent?
+(1) gray|grey
+(2) gr(a|e)y
+a) yes
+b) no
+View Answer
+
+Answer: a
+Explanation: Paranthesis can be used to define the scope and precedence of operators. Thus, both the expression represents the same pattern.
+Check this: Automata Theory Books | Computer Science Books
+6. Which of the following are not quantifiers?
+a) Kleene plus +
+b) Kleene star *
+c) Question mark ?
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: A quantifier after a token specifies how often the preceding element is allowed to occur. ?, *, +, {n}, {min, }, {min, max} are few quantifiers we use in regexps implementations.
+7. Which of the following cannot be used to decide whether and how a given regexp matches a string:
+a) NFA to DFA
+b) Lazy DFA algorithm
+c) Backtracking
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: There are at least three algorithms which decides for us, whether and how a regexp matches a string which included the transformation of Non deterministic automaton to deterministic finite automaton, The lazy DFA algorithm where one simulates the NFA directly, building each DFA on demand and then discarding it at the next step and the process of backtracking whose running time is exponential.
+8. What does the following segment of code output?
+
+$string1 = "Hello World\n";
+if ($string1 =~ m/(H..).(l..)/) {
+  print "We matched '$1' and '$2'.\n";
+}
+a) We matched ‘Hel’ and ‘ld’
+b) We matched ‘Hel’ and ‘lld’
+c) We matched ‘Hel’ and ‘lo ‘
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: () groups a series of pattern element to a single element.
+When we use pattern in parenthesis, we can use any of ‘$1’, ‘$2’ later to refer to the previously matched pattern.
+9. Given segment of code:
+
+$string1 = "Hello\nWorld\n";
+if ($string1 =~ m/d\n\z/) {
+  print "$string1 is a string ";
+  print "that ends with 'd\\n'.\n";
+}
+What does the symbol /z does?
+a) changes line
+b) matches the beginning of a string
+c) matches the end of a string
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: It matches the end of a string and not an internal line.The given segment of code outputs:
+Hello
+World
+is a string that ends with ‘d\n’
+10. Conversion of a regular expression into its corresponding NFA :
+a) Thompson’s Construction Algorithm
+b) Powerset Construction
+c) Kleene’s algorithm
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Thompson construction algorithm is an algorithm in automata theory used to convert a given regular expression into NFA. Similarly, Kleene algorithm is used to convert a finite automaton to a regular expression.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Operators of Regular Expression”.
+
+1. A finite automaton accepts which type of language:
+a) Type 0
+b) Type 1
+c) Type 2
+d) Type 3
+View Answer
+
+Answer: d
+Explanation: Type 3 refers to Regular Languages which is accepted by a finite automaton.
+2. Which among the following are incorrect regular identities?
+a) εR=R
+b) ε*=ε
+c) Ф*=ε
+d) RФ=R
+View Answer
+
+Answer: d
+Explanation: There are few identities over Regular Expressions which include: RФ=ФR=Ф≠R
+3. Simplify the following regular expression:
+ε+1*(011) *(1*(011) *) *
+a) (1+011) *
+b) (1*(011) *)
+c) (1+(011) *) *
+d) (1011) *
+View Answer
+
+Answer: a
+Explanation: ε+1*(011) *(1*(011) *) *
+ε + RR*= ε + R*R= ε + R+= R*
+Subscribe Now: Automata Theory Newsletter | Important Subjects Newsletters
+advertisement
+4. P, O, R be regular expression over ∑, P is not ε, then
+R=Q + RP has a unique solution:
+a) Q*P
+b) QP*
+c) Q*P*
+d) (P*O*) *
+View Answer
+
+Answer: b
+Explanation: The given statement is the Arden’s Theorem and it tends to have a unique solution as QP*.
+Let P and Q be regular expressions,
+R=Q+RP
+R=Q+(Q+RP) P
+R=Q+((Q+RP) +RP) +P=Q+QP+RPP+RPP=Q+QP+(Q+RP) PP+(Q+RP) PP=Q+QP+QPP+RPPP+QPP+RPPP,
+If we do this recursively, we get:
+R= QP*
+5. Arden’s theorem is true for:
+a) More than one initial states
+b) Null transitions
+c) Non-null transitions
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Arden’s theorem strictly assumes the following;
+a) No null transitions in the transition diagrams
+b) True for only single initial state
+Check this: Automata Theory Books | Computer Science MCQs
+6. The difference between number of states with regular expression (a + b) and (a + b) * is:
+a) 1
+b) 2
+c) 3
+d) 0
+View Answer
+
+Answer: a
+Explanation:
+7. In order to represent a regular expression, the first step to create the transition diagram is:
+a) Create the NFA using Null moves
+b) Null moves are not acceptable, thus should not be used
+c) Predict the number of states to be used in order to construct the Regular expression
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Two steps are to be followed while converting a regular expression into a transition diagram:
+a) Construct the NFA using null moves.
+b) Remove the null transitions and convert it into its equivalent DFA.
+8. (0+ε) (1+ε) represents
+a) {0, 1, 01, ε}
+b) {0, 1, ε}
+c) {0, 1, 01 ,11, 00, 10, ε}
+d) {0, 1}
+View Answer
+
+Answer: a
+Explanation: The regular expression is fragmented and the set of the strings eligible is formed. ‘+’ represents union while ‘.’ Represents concatenation.
+9. The minimum number of states required to automate the following Regular Expression:
+(1) *(01+10) (1) *
+a) 4
+b) 3
+c) 2
+d) 5
+View Answer
+
+Answer: a
+Explanation: None.
+10. Regular Expression denote precisely the ________ of Regular Language.
+a) Class
+b) Power Set
+c) Super Set
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Regular Expression denote precisely the class of regular language. Given any regular expression, L(R) is a regular language. Given any regular language L, there is a regular expression R, such that L(R)=L.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “DFA to Regular Expressions”.
+
+1. Which of the following is same as the given DFA?
+(0+1)*001(0+1)* is same as the given DFA in the string as an essential substring
+a) (0+1)*001(0+1)*
+b) 1*001(0+1)*
+c) (01)*(0+0+1)(01)*
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: There needs to be 001 together in the string as an essential substring. Thus, the other components can be anything, 0 or 1 or e.
+2. Which of the following statements is not true?
+a) Every language defined by any of the automata is also defined by a regular expression
+b) Every language defined by a regular expression can be represented using a DFA
+c) Every language defined by a regular expression can be represented using NFA with e moves
+d) Regular expression is just another representation for any automata definition
+View Answer
+
+Answer: b
+Explanation: Using NFA with e moves, we can represent all the regular expressions as an automata. As regular expressions include e, we need to use e moves.
+3. The total number of states required to automate the given regular expression
+(00)*(11)*
+a) 3
+b) 4
+c) 5
+d) 6
+View Answer
+
+Answer: c
+Explanation: The total number of states required to automate is 5
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Which of the given regular expressions correspond to the automata shown?
+The regular expressions correspond to the automata is (110+11)*0
+a) (110+1)*0
+b) (11+110)*1
+c) (110+11)*0
+d) (1+110)*1
+View Answer
+
+Answer: c
+Explanation: There is no state change for union operation, but has two different paths while for concatenation or dot operation, we have a state change for every element of the string.
+5. Generate a regular expression for the following problem statement:
+Password Validation: String should be 8-15 characters long. String must contain a number, an Uppercase letter and a Lower case letter.
+a) ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,15}$
+b) ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{9,16}$
+c) ^(?=.[a-z])(?=.[A-Z])(?=.\d).{8,15}$
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Passwords like abc123, 123XYZ, should not be accepted . If one also wants to include special characters as one of the constraint, one can use the following regular expression:
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-za-Z]).{8,15}$
+Check this: Automata Theory Books | Computer Science MCQs
+6. Generate a regular expression for the following problem statement:
+P(x): String of length 6 or less for å={0,1}*
+a) (1+0+e)6
+b) (10)6
+c) (1+0)(1+0)(1+0)(1+0)(1+0)(1+0)
+d) More than one of the mentioned is correct
+View Answer
+
+Answer: a
+Explanation: As the input variables are under Kleene Operation, we need to include e,thus option c is not correct,thereby option (a) is the right answer.
+7. The minimum number of states required in a DFA (along with a dumping state) to check whether the 3rd bit is 1 or not for |n|>=3
+a) 3
+b) 4
+c) 5
+d) 1
+View Answer
+
+Answer: c
+Explanation:The minimum number of states required in a DFA is 5
+8. Which of the regular expressions corresponds to the given problem statement:
+P(x): Express the identifiers in C Programming language
+l=letters
+d=digits
+a) (l+_)(d+_)*
+b) (l+d+_)*
+c) (l+_)(l+d+_)*
+d) (_+d)(l+d+_)*
+View Answer
+
+Answer: c
+Explanation: Identifiers in C Programming Language follows the following identifiers rule:
+a) The name of the identifier should not begin with a digit.
+b) It can only begin with a letter or a underscore.
+c) It can be of length 1 or more.
+9. Generate a regular expression for the given language:l
+L(x): {xÎ{0,1}*| x ends with 1 nd does not contain a substring 01}
+a) (0+01)*
+b) (0+01)*1
+c) (0+01)*(1+01)
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: (a) and (b) are the general cases where we restrict the acceptance of a string witrh substring 00 but we ignore the case where the string needs to end with 1 which therby, does not allows the acceptance of e.
+10. The minimum number of transitions to pass to reach the final state as per the following regular expression is:
+{a,b}*{baaa}
+a) 4
+b) 5
+c) 6
+d) 3
+View Answer
+
+Answer: a
+Explanation: The minimum number of transitions to pass to reach the final state is 4
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Converting Regular Expressions to Automata”.
+
+1. What kind of expressions do we used for pattern matching?
+a) Regular Expression
+b) Rational Expression
+c) Regular & Rational Expression
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: In automata theory, Regular Expression(sometimes also called the Rational Expression ) is a sequence or set of characters that define a search pattern, mainly for the use in pattern matching with strings or string matching.
+2. Which of the following do Regexps do not find their use in?
+a) search engines
+b) word processors
+c) sed
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: Regexp processors are found in several search engines, seach and replace mechanisms, and text processing utilities.
+3. Which of the following languages have built in regexps support?
+a) Perl
+b) Java
+c) Python
+d) C++
+View Answer
+
+Answer: a
+Explanation: Many languages come with built in support of regexps like Perl, Javascript, Ruby etc. While some provide support using standard libraries like .NET, Java, Python, C++, C and POSIX.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. The following is/are an approach to process a regexp:
+a) Construction of NFA and subsequently, a DFA
+b) Thompson’s Contruction Algorithm
+c) Thompson’s Contruction Algorithm & Construction of NFA and subsequently, a DFA
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: A regexp processor translates the syntax into internal representation which can be executed and matched with a string and that internal representation can have several approaches like the ones mentioned.
+5. Are the given two patterns equivalent?
+(1) gray|grey
+(2) gr(a|e)y
+a) yes
+b) no
+View Answer
+
+Answer: a
+Explanation: Paranthesis can be used to define the scope and precedence of operators. Thus, both the expression represents the same pattern.
+Check this: Automata Theory Books | Computer Science Books
+6. Which of the following are not quantifiers?
+a) Kleene plus +
+b) Kleene star *
+c) Question mark ?
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: A quantifier after a token specifies how often the preceding element is allowed to occur. ?, *, +, {n}, {min, }, {min, max} are few quantifiers we use in regexps implementations.
+7. Which of the following cannot be used to decide whether and how a given regexp matches a string:
+a) NFA to DFA
+b) Lazy DFA algorithm
+c) Backtracking
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: There are at least three algorithms which decides for us, whether and how a regexp matches a string which included the transformation of Non deterministic automaton to deterministic finite automaton, The lazy DFA algorithm where one simulates the NFA directly, building each DFA on demand and then discarding it at the next step and the process of backtracking whose running time is exponential.
+8. What does the following segment of code output?
+
+$string1 = "Hello World\n";
+if ($string1 =~ m/(H..).(l..)/) {
+  print "We matched '$1' and '$2'.\n";
+}
+a) We matched ‘Hel’ and ‘ld’
+b) We matched ‘Hel’ and ‘lld’
+c) We matched ‘Hel’ and ‘lo ‘
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: () groups a series of pattern element to a single element.
+When we use pattern in parenthesis, we can use any of ‘$1’, ‘$2’ later to refer to the previously matched pattern.
+9. Given segment of code:
+
+$string1 = "Hello\nWorld\n";
+if ($string1 =~ m/d\n\z/) {
+  print "$string1 is a string ";
+  print "that ends with 'd\\n'.\n";
+}
+What does the symbol /z does?
+a) changes line
+b) matches the beginning of a string
+c) matches the end of a string
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: It matches the end of a string and not an internal line.The given segment of code outputs:
+Hello
+World
+is a string that ends with ‘d\n’
+10. Conversion of a regular expression into its corresponding NFA :
+a) Thompson’s Construction Algorithm
+b) Powerset Construction
+c) Kleene’s algorithm
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Thompson construction algorithm is an algorithm in automata theory used to convert a given regular expression into NFA. Similarly, Kleene algorithm is used to convert a finite automaton to a regular expression
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Regular Expression-Introduction”.
+
+1. L is a regular Language if and only If the set of __________ classes of IL is finite.
+a) Equivalence
+b) Reflexive
+c) Myhill
+d) Nerode
+View Answer
+
+Answer: a
+Explanation: According to Myhill Nerode theorem, the corollary proves the given statement correct for equivalence classes.
+2. A language can be generated from simple primitive language in a simple way if and only if
+a) It is recognized by a device of infinite states
+b) It takes no auxiliary memory
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A language is regular if and only if it can be accepted by a finite automaton. Secondly, It supports no concept of auxiliary memory as it loses the data as soon as the device is shut down.
+3. Which of the following does not represents the given language?
+Language: {0,01}
+a) 0+01
+b) {0} U {01}
+c) {0} U {0}{1}
+d) {0} ^ {01}
+View Answer
+
+Answer: d
+Explanation: The given option represents {0, 01} in different forms using set operations and Regular Expressions. The operator like ^, v, etc. are logical operation and they form invalid regular expressions when used.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. According to the given language, which among the following expressions does it corresponds to?
+Language L={xϵ{0,1}|x is of length 4 or less}
+a) (0+1+0+1+0+1+0+1)4
+b) (0+1)4
+c) (01)4
+d) (0+1+ε)4
+View Answer
+
+Answer: d
+Explanation: The extended notation would be (0+1)4 but however, we may allow some or all the factors to be ε. Thus ε needs to be included in the given regular expression.
+5. Which among the following looks similar to the given expression?
+((0+1). (0+1)) *
+a) {xϵ {0,1} *|x is all binary number with even length}
+b) {xϵ {0,1} |x is all binary number with even length}
+c) {xϵ {0,1} *|x is all binary number with odd length}
+d) {xϵ {0,1} |x is all binary number with odd length}
+View Answer
+
+Answer: a
+Explanation: The given regular expression corresponds to a language of binary strings which is of even length including a length of 0.
+Check this: Computer Science Books | Computer Science MCQs
+6. If R represents a regular language, which of the following represents the Venn-diagram most correctly?
+The diagram represents the Venn-diagram of R*
+a) An Irregular Set
+b) R*
+c) R complement
+d) R reverse
+View Answer
+
+Answer: b
+Explanation: The given diagram represents the Kleene operation over the Regular Language R in which the final states become the initial and the initial state becomes final.
+7. The given NFA corresponds to which of the following Regular expressions?
+The given NFA corresponds to (0+1) *(00+11) (0+1) *
+a) (0+1) *(00+11) (0+1) *
+b) (0+1) *(00+11) *(0+1) *
+c) (0+1) *(00+11) (0+1)
+d) (0+1) (00+11) (0+1) *
+View Answer
+
+Answer: a
+Explanation: The transition states shown are the result of breaking down the given regular expression in fragments. For dot operation, we change a state, for union (plus) operation, we diverge into two transitions and for Kleene Operation, we apply a loop.
+8. Concatenation Operation refers to which of the following set operations:
+a) Union
+b) Dot
+c) Kleene
+d) Two of the options are correct
+View Answer
+
+Answer: b
+Explanation: Two operands are said to be performing Concatenation operation AB = A•B = {xy: x ∈ A & y ∈ B}.
+9. Concatenation of R with Ф outputs:
+a) R
+b) Ф
+c) R.Ф
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: By distributive property (Regular expression identities), we can prove the given identity to be Ф.
+10. RR* can be expressed in which of the forms:
+a) R+
+b) R-
+c) R+ U R-
+d) R
+View Answer
+
+Answer: a
+Explanation: RR*=R+ as R+ means the occurrence to be at least once.
+
+This set of Automata Theory Quiz focuses on “Building Regular Expressions”.
+
+1. Which of the following is correct?
+Statement 1: ε represents a single string in the set.
+Statement 2: Ф represents the language that consist of no string.
+a) Statement 1 and 2 both are correct
+b) Statement 1 is false but 2 is correct
+c) Statement 1 and 2 both are false
+d) There is no difference between both the statements, ε and Ф are different notation for same reason
+View Answer
+
+Answer: a
+Explanation: ε represents a single string in the set namely, the empty string while Statement 2 is also correct.
+2. The appropriate precedence order of operations over a Regular Language is
+a) Kleene, Union, Concatenate
+b) Kleene, Star, Union
+c) Kleene, Dot, Union
+d) Star, Union, Dot
+View Answer
+
+Answer: c
+Explanation: If a regular language expression is given, the appropriate order of precedence if the parenthesis is ignored is: Star or Kleene, Dot or Concatenation, Union or Plus.
+3. Regular Expression R and the language it describes can be represented as:
+a) R, R(L)
+b) L(R), R(L)
+c) R, L(R)
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: When we wish to distinguish between a regular expression R and the language it represents; we write L(R) to be the language of R.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Let for ∑= {0,1} R= (∑∑∑) *, the language of R would be
+a) {w | w is a string of odd length}
+b) {w | w is a string of length multiple of 3}
+c) {w | w is a string of length 3}
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: This regular expression can be used to eliminate the answers and get the result. The length can be even and as well more than 3 when R= (∑∑∑) (∑∑∑) (particular case).
+5. If ∑= {0,1}, then Ф* will result to:
+a) ε
+b) Ф
+c) ∑
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The star operation brings together any number of strings from the language to get a string in the result. If the language is empty, the star operation can put together 0 strings, resulting only the empty string.
+Check this: Computer Science Books | Computer Science MCQs
+6. The given NFA represents which of the following NFA
+a) (ab U a) *
+b) (a*b* U a*)
+c) (ab U a*)
+d) (ab)* U a*
+View Answer
+
+Answer: a
+Explanation: The Regular expression (ab U a) * is converted to NFA in a sequence of stages as it can be clearly seen in the diagram. This NFA consist of 8 stated while its minimized form only contains 2 states.
+7. Which of the following represents a language which has no pair of consecutive 1’s if ∑= {0,1}?
+a) (0+10)*(1+ε)
+b) (0+10)*(1+ε)*
+c) (0+101)*(0+ε)
+d) (1+010)*(1+ε)
+View Answer
+
+Answer: a
+Explanation: All the options except ‘a’ accept those strings which comprises minimum one pair of 1’s together.
+8. The finite automata accept the following languages:
+a) Context Free Languages
+b) Context Sensitive Languages
+c) Regular Languages
+d) All the mentioned
+View Answer
+
+Answer: c
+Explanation: A finite automaton accepts the languages which are regular and for which a DFA can be constructed.
+9. (a + b*c) most correctly represents:
+a) (a +b) *c
+b) (a)+((b)*.c)
+c) (a + (b*)).c
+d) a+ ((b*).c)
+View Answer
+
+Answer: d
+Explanation: Following the rules of precedence, Kleene or star operation would be done first, then concatenation and finally union or plus operation.
+10. Which of the following regular expressions represents the set of strings which do not contain a substring ‘rt’ if ∑= {r, t}
+a) (rt)*
+b) (tr)*
+c) (r*t*)
+d) (t*r*)
+View Answer
+
+Answer: d
+Explanation: As Kleene operation is not on the whole of the substring, it will not repeat and maintain the order of t, r.
+11. According to the precedence rules, x-y-z is equivalent to which of the following?
+a) (x-y)-z
+b) x-(y-z)
+c) Both (x-y)-z and x-(y-z)
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: In arithmetic, we group two of the same operators from the left, hence x-y-z is equivalent to (x-y)-z and not x-(y—z).
+12. Dot operator in regular expression resembles which of the following?
+a) Expressions are juxtaposed
+b) Expressions are multiplied
+c) Cross operation
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Dot operation or concatenation operation means that the two expressions are juxtaposed i.e. there are no intervening operators in between. In fact, UNIX regular expressions use the dot for an entirely different purpose: representing any ASCII character.
+13. Which among the following is not an associative operation?
+a) Union
+b) Concatenation
+c) Dot
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: It does not matter in which order we group the expression with the operators as they are associative. If one gets a chance to group the expression, one should group them from left for convenience. For instance, 012 is grouped as (01)2.
+14.Which among the following is equivalent to the given regular expression?
+01*+1
+a) (01)*+1
+b) 0((1)*+1)
+c) (0(1)*)+1
+d) ((0*1)1*)*
+View Answer
+
+Answer: c
+Explanation: Using the rules of precedence on the give expression, c is the appropriate choice with the order of: Bracket>Kleene>Dot>Union
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Regular Language & Expression”.
+
+1. A regular language over an alphabet a is one that can be obtained from
+a) union
+b) concatenation
+c) kleene
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+2. Regular expression {0,1} is equivalent to
+a) 0 U 1
+b) 0 / 1
+c) 0 + 1
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are equivalent to union operation.
+3. Precedence of regular expression in decreasing order is
+a) * , . , +
+b) . , * , +
+c) . , + , *
+d) + , a , *
+View Answer
+
+Answer: a
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Regular expression Φ* is equivalent to
+a) ϵ
+b) Φ
+c) 0
+d) 1
+View Answer
+
+Answer: a
+Explanation: None.
+5. a? is equivalent to
+a) a
+b) a+Φ
+c) a+ϵ
+d) wrong expression
+View Answer
+
+Answer: c
+Explanation: Zero or one time repetition of previous character .
+Check this: Computer Science MCQs | Automata Theory Books
+6. ϵL is equivalent to
+a) ϵ
+b) Φ
+c) L
+d) Φϵ
+View Answer
+
+Answer: c
+Explanation: None.
+7. (a+b)* is equivalent to
+a) b*a*
+b) (a*b*)*
+c) a*b*
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+8. ΦL is equivalent to
+a) LΦ & Φ
+b) Φ & L
+c) L & L
+d) ϵ & L
+View Answer
+
+Answer: a
+Explanation: None.
+9. Which of the following pair of regular expression are not equivalent?
+a) 1(01)* and (10)*1
+b) x(xx)* and (xx)*x
+c) (ab)* and a*b*
+d) x+ and x*x+
+View Answer
+
+Answer: c
+Explanation: (ab)*=(a*b*)*.
+10. Consider following regular expression
+i) (a/b)* ii) (a*/b*)* iii) ((ϵ/a)b*)*
+Which of the following statements is correct
+a) i,ii are equal and ii,iii are not
+b) i,ii are equal and i,iii are not
+c) ii,iii are equal and i,ii are not
+d) all are equal
+View Answer
+
+Answer: d
+Explanation: All are equivalent to (a+b)*.

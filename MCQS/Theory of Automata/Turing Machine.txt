@@ -1,0 +1,415 @@
+This set of Automata Theory Interview Questions and Answers for freshers focuses on “Turing Machine – Notation and Transition Diagrams”.
+
+1. A turing machine is a
+a) real machine
+b) abstract machine
+c) hypothetical machine
+d) more than one option is correct
+View Answer
+
+Answer: d
+Explanation: A turing machine is abstract or hypothetical machine thought by mathematician Alan Turing in 1936 capable of simulating any algorithm, however complicated it is.
+2. A turing machine operates over:
+a) finite memory tape
+b) infinite memory tape
+c) depends on the algorithm
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: The turing machine operates on an infinite memory tape divided into cells. The machine positions its head over the cell and reads the symbol.
+3. Which of the functions are not performed by the turing machine after reading a symbol?
+a) writes the symbol
+b) moves the tape one cell left/right
+c) proceeds with next instruction or halts
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: After the read head reads the symbol from the input tape, it performs the following functions:
+a) writes a symbol(some model allow symbol erasure/no writing)
+b) moves the tape left or right (some models allows no motion)
+c) proceeds with subsequent instruction or goes either into accepting halting state or rejecting halting state.
+Subscribe Now: Automata Theory Newsletter | Important Subjects Newsletters
+advertisement
+4. ‘a’ in a-machine is :
+a) Alan
+b) arbitrary
+c) automatic
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The turing machine was invented by Alan turing in 1936. He named it as a-machine(automatic machine).
+5. Which of the problems were not answered when the turing machine was invented?
+a) Does a machine exists that can determine whether any arbitrary machine on its tape is circular.
+b) Does a machine exists that can determine whether any arbitrary machine on its tape is ever prints a symbol
+c) Hilbert Entscheidungs problem
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Invention of turing machine answered a lot of questions which included problems like decision problem, etc.) . Alan was able to prove the properties of computation using such model.
+Check this: Computer Science Books | Automata Theory Books
+6. The ability for a system of instructions to simulate a Turing Machine is called _________
+a) Turing Completeness
+b) Simulation
+c) Turing Halting
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Turing Completeness the ability for a system of instructions to simulate a Turing machine. A programming language that is Turing complete is theoretically capable of expressing all tasks accomplishable by computers; nearly all programming languages are Turing complete.
+7. Turing machine can be represented using the following tools:
+a) Transition graph
+b) Transition table
+c) Queue and Input tape
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: We can represent a turing machine, graphically, tabularly and diagramatically.
+8. Which of the following is false for an abstract machine?
+a) Turing machine
+b) theoretical model of computer
+c) assumes a discrete time paradigm
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A n abstract machine also known as abstract computer, is a theoretical model of computer or hardware system in automata theory. Abstraction in computing process usually assumes a discrete time paradigm.
+9. Fill in the blank with the most appropriate option.
+Statement: In theory of computation, abstract machines are often used in ___________ regarding computability or to analyze the complexity of an algorithm.
+a) thought experiments
+b) principle
+c) hypothesis
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: A thought experiment considers some hypothesis, theory or principle for the purpose of thinking through its consequences.
+10. State true or false:
+Statement: RAM model allows random access to indexed memory locations.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: In computer science, Random access machine is an abstract machine in the general class of register machines. Random access machine should not be confused with Random access memory.
+
+This set of Automata Theory Questions and Answers for Freshers focuses on ” The Language of Turing Machine-2″.
+
+1. The class of recursively enumerable language is known as:
+a) Turing Class
+b) Recursive Languages
+c) Universal Languages
+d) RE
+View Answer
+
+Answer: d
+Explanation: RE or recursively enumerable is only called the class of recursively enumerable language.
+2. A language L is said to be Turing decidable if:
+a) recursive
+b) TM recognizes L
+c) TM accepts L
+d) recursive & TM recognizes L
+View Answer
+
+Answer: d
+Explanation: A language L is recursively enumerable if there is a turing machine that accepts L, and recursive if there is a TM that recognizes L.(Sometimes these languages are alse called Turing-acceptable and Turing-decidable respectively).
+3. Which of the following statements are false?
+a) Every recursive language is recursively enumerable
+b) Recursively enumerable language may not be recursive
+c) Recursive languages may not be recursively enumerable
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Every recursive language is recursively enumerable but there exists recursively enumerable languages that are not recursive. If L is accepted by a Non deterministic TM T, and every possible sequence of moves of T causes it to halt, then L is recursive.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Choose the correct option:
+Statement: If L1 and L2 are recursively enumerable languages over S, then the following is/are recursively enumerable.
+a) L1 U L2
+b) L2 ∩ L2
+c) Both L1 U L2 and L2 ∩ L2
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Both the union and intersection operations preserve the property of recursive enumerablity(Theorem).
+5. If L is a recursive language, L’ is:
+a) Recursive
+b) Recursively Enumerable
+c) Recursive and Recursively Enumerable
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: If T is a turing machine recognizing L, we can make it recognize L’ by interchanging the two outputs. And every recursive language is recursively enumerable.
+Check this: Computer Science Books | Automata Theory Books
+6. Choose the appropriate option:
+Statement: If a language L is recursive, it is closed under the following operations:
+a) Union
+b) Intersection
+c) Complement
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: The closure property of recursive languages include union, intersection and complement operations.
+7. A recursively enumerable language L can be recursive if:
+a) L’ is recursively enumerable
+b) Every possible sequence of moves of T, the TM which accept L, causes it to halt
+c) L’ is recursively enumerable and every possible sequence of moves of T, the TM which accept L, causes it to halt
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Theorem- If L is a recursively enumerable language whose complement is recursively enumerable, then L is recursive.
+8. A language L is recursively enumerable if L=L(M) for some turing machine M.
+Language L is recursively enumerable if L=L(M) for some turing machine M
+Which among the following cannot be among A, B and C?
+a) yes w ∈ L
+b) no w ∉ L
+c) M does not halt w ∉ L
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation:
+For turing machine M language L is recursively enumerable if L is L(M)
+9. State true or false:
+Statement: An enumerator is a turing machine with extra output tape T, where symbols, once written, are never changed.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: To enumerate a set means to list the elements once at a time, and to say that a set is enumerable should perhaps mean that there exists an algorithm for enumerating it.
+10. A Language L may not be accepted by a Turing Machine if:
+a) It is recursively enumerable
+b) It is recursive
+c) L can be enumerated by some turing machine
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A language L is recursively enumerable if and only if it can be enumerated by some turing machine. A recursive enumerable language may or may not be recursive.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “The Language of Turing Machine”.
+
+1. A turing machine that is able to simulate other turing machines:
+a) Nested Turing machines
+b) Universal Turing machine
+c) Counter machine
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A more mathematically oriented definition with the same universal nature was introduced by church and turing together called the Church-Turing thesis(formal theory of computation).
+2. Which of the problems are unsolvable?
+a) Halting problem
+b) Boolean Satisfiability problem
+c) Halting problem & Boolean Satisfiability problem
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Alan turing proved in 1936 that a general algorithm to solve the halting problem for all possible program-input pairs cannot exist.
+3. Which of the following a turing machine does not consist of?
+a) input tape
+b) head
+c) state register
+d) none of the mentioned
+View Answer
+
+Answer: d
+Explanation: A state register is one which stores the state of the turing machine, one of the finitely many. Among these is the special start state with which the state register is initialized.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. The value of n if turing machine is defined using n-tuples:
+a) 6
+b) 7
+c) 8
+d) 5
+View Answer
+
+Answer: b
+Explanation:
+The 7-tuple definition of turing machine: (Q, S, G, d, q0, B, F)
+where Q= The finite set of states of finite control
+S= The finite set of input symbols
+G= The complete set of tape symbols
+d= The transition function
+q0= The start state, a member of Q, in which the finite control is found initially.
+B= The blank symbol
+F= The set of final or accepting states, a subset of Q.
+5. If d is not defined on the current state and the current tape symbol, then the machine ______
+a) does not halts
+b) halts
+c) goes into loop forever
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: If we reach hA or hR, we say TM halts. Once it has halted, it cannot move further, since d is not defined at any pair (hA,X) or (hR,X) where hA = accept halting state and hR = reject halting state.
+Check this: Automata Theory Books | Computer Science Books
+6. Statement: Instantaneous descriptions can be designed for a Turing machine.
+State true or false:
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: Inorder to describe formally what a Turing machine does, we need to develop a notation for configurations or Instantaneous descriptions(ID).
+7. Which of the following are the models equivalent to Turing machine?
+a) Multi tape turing machine
+b) Multi track turing machine
+c) Register machine
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Many machines that might be thought to have more computational capability than a simple UTM can be shown to have no more power. They might compute faster or use less memory but cannot compute more powerfully i.e. more mathematical questions.
+8. Which among the following is incorrect for o-machines?
+a) Oracle Turing machines
+b) Can be used to study decision problems
+c) Visualizes Turing machine with a black box which is able to decide cerain decion problems in one operation
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: In automata theory, an o- machine or oracle machine is a abstract machine used to study decision problems. The problem the oracle solves can be of any complexity class. Even undecidable problems like halting problems can be used.
+9. RASP stands for:
+a) Random access storage program
+b) Random access stored program
+c) Randomly accessed stored program
+d) Random access storage programming
+View Answer
+
+Answer: b
+Explanation: RASP or Random access stored program is an abstract machine that has instances like modern stored computers.
+10. Which of the following is not true about RASP?
+a) Binary search can be performed more quickly using RASP than a turing machine
+b) Stores its program in memory external to its state machines instructions
+c) Has infinite number of distinguishable, unbounded registers
+d) Binary search can be performed less quickly using RASP than a turing machine
+e) More than two options are incorrect
+View Answer
+
+Answer: d
+Explanation: In theoretical computer science, the random access stored program( RASP ) machine model is an abstract machine used for the purpose of algorithm development and algorithm complexity theory.
+11. State true or false:
+Statement: RASP is to RAM like UTM is to turing machine.
+a) true
+b) false
+View Answer
+
+Answer: a
+Explanation: The Rasp is a random access machine model that, unlike the RAM has its program in its registers together with its input. The registers are unbounded(infinite in capacity); whether the number of registers is finite is model-specific.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Turing Machine and Halting”.
+
+1. Which of the following regular expression resembles the given diagram?
+The given diagram is a transition graph for a turing machine
+a) {a}*{b}*{a,b}
+b) {a,b}*{aba}
+c) {a,b}*{bab}
+d) {a,b}*{a}*{b}*
+View Answer
+
+Answer: b
+Explanation: The given diagram is a transition graph for a turing machine which accepts the language with the regular expression {a,b}*{aba}.
+2. Construct a turing machine which accepts a string with ‘aba’ as its substring.
+a)The turing machine which accepts a string with ‘aba’ as its substring - option a
+b)The turing machine which accepts a string with ‘aba’ as its substring - option b
+c)The turing machine which accepts a string with ‘aba’ as its substring - option c
+d)The turing machine which accepts a string with ‘aba’ as its substring - option d
+View Answer
+
+Answer: c
+Explanation: The language consist of strings with a substring ‘aba’ as fixed at its end and the left part can be anything including epsilon. Thus the turing machine uses five states to express the language excluding the rejection halting state which if allowed can modify the graph as:
+The turing machine uses 5 states to express language excluding rejection halting state
+3. The number of states required to automate the last question i.e. {a,b}*{aba}{a,b}* using finite automata:
+a) 4
+b) 3
+c) 5
+d) 6
+View Answer
+
+Answer: a
+Explanation: The finite automata can be represented as:
+The finite automata of number of states required to automate the last question
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. The machine accept the string by entering into hA or it can:
+a) explicitly reject x by entering into hR
+b) enter into an infinte loop
+c) explicitly reject x by entering into hR and enter into an infinte loop
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Three things can occur when a string is tested over a turing machine:
+a) enter into accept halting state
+b) enter into reject halting state
+c) goes into loop forever
+5. d(q,X)=(r,Y,D) where D cannot be:
+D is direction in which automata moves forward as per the queue
+a) L
+b) R
+c) S
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: D represents the direction in which automata moves forward as per the queue which surely cannot be a starting variable.
+Check this: Automata Theory Books | Computer Science Books
+6. Which of the following can accept even palindrome over {a,b}
+a) Push down Automata
+b) Turing machine
+c) NDFA
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: A language generating strings which are palindrome is not regular, thus cannot b represented using a finite automaton.
+7. Which of the functions can a turing machine not perform?
+a) Copying a string
+b) Deleting a symbol
+c) Accepting a pal
+d) Inserting a symbol
+View Answer
+
+Answer: d
+Explanation: Different turing machines exist for operations like copying a string, deleting a symbol, inserting a symbol and accepting palindromes.
+8. If T1 and T2 are two turing machines. The composite can be represented using the expression:
+a) T1T2
+b) T1 U T2
+c) T1 X T2
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: If T1 and T2 are TMs, with disjoint sets of non halting states and transition function d1 and d2, respectively, we write T1T2 to denote this composite TM.
+9. The following turing machine acts like:
+The turing machine acts like Delete a symbol
+a) Copies a string
+b) Delete a symbol
+c) Insert a symbol
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A turing machine does the deletion by changing the tape contents from yaz to yz, where y belongs to (S U {#})*.
+10. What does the following transition graph shows:
+The composite TM accepts the language of palindromes over {a, b}
+a) Copies a symbol
+b) Reverses a string
+c) Accepts a pal
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The composite TM accepts the language of palindromes over {a, b} by comparing the input string to its reverse and accepting if and only if the two are equal.

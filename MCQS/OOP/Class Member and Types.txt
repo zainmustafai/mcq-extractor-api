@@ -1,0 +1,612 @@
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Data Members”.
+
+1. What is the term used to indicate the variable and constants of a class?
+a) Data members
+b) Variables of class
+c) Data characters
+d) Constants
+View Answer
+
+Answer: a
+Explanation: The variables inside a class are termed data members of the class. It is not a mandatory rule but variables are used to refer to usual variables used in functions or globally. The term is given because the values stored in those variables represent some kind of data related to class.
+2. Data members ________________ (C++)
+a) Can be initialized with declaration in classes
+b) Can be initialized only with help of constructors
+c) Can be initialized either in declaration or by constructor
+d) Can’t be initialized
+View Answer
+
+Answer: b
+Explanation: The data members are not property of class, those are property of the instances of the class. And the memory for the data members are not reserved until a constructor is called. Hence we use constructors for their initialization after the memory is reserved.
+3. Which among the following is true for data members?
+a) Private data members can be initialized with declaration in class
+b) Static members are initialized in constructors
+c) Protected data members can be initialized in class directly
+d) Static data members are defined outside class, not in constructor
+View Answer
+
+Answer: d
+Explanation: Static members are not property of instances of classes. Those are shared by all the object of classes. Hence those are defined outside the constructor, so as to make them common for all the objects.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. What should be done for data member to be of user defined structure type?
+a) The structure must have been defined before class.
+b) The structure must have been defined after the class definition
+c) The structure must be predefined
+d) The structure type data members can’t be used
+View Answer
+
+Answer: a
+Explanation: The structure must have been defined prior to its use. If the structure is not defined, then the memory space will not be allocated for its members. This leads to undefined use of new data types.
+5. How many data members can a class contain?
+a) 27
+b) 255
+c) 1024
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: Any class can have as many data members as required. The only restriction that may arise is when there is not enough memory space. This gives flexibility to define a class with best properties possible.
+Take Object Oriented Programming Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. How to access data members of a class?
+a) Dot operator
+b) Arrow operator
+c) Dot or arrow as required
+d) Dot, arrow or direct call
+View Answer
+
+Answer: c
+Explanation: The data members can never be called directly. Dot operator is used to access the members with help of object of class. Arrow is usually used if pointers are used.
+7. To create a pointer to a private data member of a class, outside the class, which among the following is correct?
+a) Return the address of the private data member using a member function
+b) Access the private member using a pointer outside class
+c) Declare the member as pointer inside the class
+d) Not possible to create pointer to a private member
+View Answer
+
+Answer: a
+Explanation: We can call a public member function and return the address of any private data member. Though the pointer being returned must be defined inside class itself. And the returned address can be stored in a pointer.
+8. Which among the following is true for use of setter() and getter() function?
+a) Considered best for manipulating data values
+b) Considered the only proper way to manipulate the values
+c) Considered specially for private members manipulation
+d) Considered a red flag, and not recommended for large scale use
+View Answer
+
+Answer: d
+Explanation: This concept of getter and setter functions is not acceptable if used too much. This is considered to be inappropriate in OOP perspective. Though it is commonly used, it doesn’t work according to OOP concepts at some higher level of understanding.
+9. What is the output of following code?
+
+int n=10;		// global
+class A()
+{
+	private : int n;
+	public : int m;
+	A()
+	{ 
+		n=100; m=50;
+	}
+void disp()
+{
+	cout<<”n”<<m<<n;
+};
+a) 1050100
+b) 1005010
+c) n5010
+d) n50100
+View Answer
+
+Answer: d
+Explanation: In cout we have specified n as a string to be printed. And m is a variable so its value gets printed. And global variable will not be used since local variable have more preference.
+10. The static member functions can only use ________
+a) Static data members
+b) Private data members
+c) Protected data members
+d) Constant data members
+View Answer
+
+Answer: a
+Explanation: The static member functions can only access static data members. This is because the static member function can’t work with the properties that change object to object. It is mandatory that only the common properties of all the objects be used. And only static data members are common to all as those are property of class.
+11. A class can have self-referential data members.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The data members in a class can never refer to own class type. This is not possible because the data members should have some memory allocated for its object before the self-reference is used, but class must call constructor for that. Hence not possible.
+12. What is the keyword used to make data members have same value?
+a) static
+b) const
+c) double
+d) abstract
+View Answer
+
+Answer: b
+Explanation: The keyword const can be used anywhere to make the variable have same value all the time. This restriction is made to use the same value whenever required. Also, this can restrict accidental changes.
+13. Which data members can be inherited but are private to a class?
+a) Private
+b) Protected
+c) Protected and Static
+d) Privately inherited
+View Answer
+
+Answer: b
+Explanation: Static members inheritance also depends on the type of specifier they have. Only the protected members can be inherited but remain private to class. If static members are defined in private access, they won’t be allowed for inheritance.
+14. The arguments passed to member functions by reference are considered as data members of class.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: This is a wrong statement. As only the data defined inside class is considered as its member. But even if a variable is passed by reference it would be the same variable that is outside the class. Hence it can’t be considered class member.
+15. Which among the following is not allowed for data member declaration?
+a) int a;
+b) static int a;
+c) abstract a;
+d) Boolean a;
+View Answer
+
+Answer: c
+Explanation: The abstract keyword in the declaration of data members is not allowed. This is because the abstract keyword features can’t be used with the data members of the class. We can have all other syntax given, but not abstract
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Local Class”.
+
+1. What are local classes?
+a) Classes declared inside a package
+b) Classes declared inside a function
+c) Classes declared inside a class
+d) Classes declared inside structure
+View Answer
+
+Answer: b
+Explanation: The classes declared inside a package are available to all the functions and classes, hence can’t be called local. This is somewhat similar concept that we use to denote variables of a function. The classes declared inside functions will be local to them.
+2. All member functions of a local class must be ___________
+a) Defined outside class body
+b) Defined outside the function definition
+c) Defined inside the class body
+d) Defined at starting of program
+View Answer
+
+Answer: c
+Explanation: There is a restriction on where the member functions of the local class should be define. Those must be defined inside the class body only. This is to reduce the ambiguity and complexity of program.
+3. Can local class members access/use the general local variables (except static, abstract etc.) of the function in which it is defined?
+a) Yes, it can access with arrow operator
+b) No, it can’t access with dot operator
+c) Yes, it can access using dot operator
+d) No, it can’t access In anyway
+View Answer
+
+Answer: d
+Explanation: The local variables of the functions are not available to the member functions of the class. This is done to reduce the ambiguity in variables and their access rules.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which type of data can a local class access from the function in which it is defined?
+a) Static and extern
+b) Abstract and static
+c) Void and extern
+d) Const and static
+View Answer
+
+Answer: a
+Explanation: The local classes have this feature to access the static and extern variables of the function in which those are defined. This feature is available since these type of data are common to the program and is created only one time. Run time creation and destruction of these variables is not done. The only restriction that may apply is those members must be constants.
+5. Local classes can access the type names and enumerators defined by the enclosing function.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: This is a little tricky part with local classes. Though the local class can’t access the general variables of the function but can access the types that are defined inside the function. This is because the whole definition of that type would be existing inside the class.
+Check this: MCA MCQs | Computer Science Books
+6. Can static variables be declared inside a local class?
+a) Yes, with public access specifier
+b) Yes, anywhere as required
+c) No, not possible in private access specifier
+d) No, not possible anyway
+View Answer
+
+Answer: d
+Explanation: No, the static variables can’t be declared inside a local class. This is because each time the function is called, all the variables get created again and are destroyed as soon as the function is returned. This would have been possible id the static variable was of function.
+7. All the member functions of local classes are __________ by default.
+a) Static
+b) Inline
+c) Abstract
+d) Virtual
+View Answer
+
+Answer: c
+Explanation: All the members are defined inside the class body. And when the member functions are defined inside the class body, they are made inline by default. If the definition is too complex, those are made normal functions.
+8. The enclosing function has no special access to the members of the local class.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: This is a rule that the enclosing function doesn’t have any special access to the members of the local class. This is done to maintain the security of class members. And to adhere to the rules of OOP.
+9. Which language can use inheritance with local classes?
+a) Kotlin
+b) Java
+c) SmallTalk
+d) SAP ABAP
+View Answer
+
+Answer: d
+Explanation: Other language might support inheritance with local classes but those doesn’t provide all the proper features of inheritance. Language SAP ABAP provides a way to implement inheritance with local classes efficiently.
+10. How many local classes can be defined inside a single function?
+a) Only 1
+b) Only 3
+c) Only 5
+d) As many as required
+View Answer
+
+Answer: d
+Explanation: The local classes can be defined as required. There is no restriction on the number of local classes that can be defined inside a function. But all those classes must follow the rules and restrictions.
+11. All the data members of local class must be ___________
+a) Defined with declaration
+b) Defined in constructor
+c) Declared and defined in constructor
+d) Declared using a member function
+View Answer
+
+Answer: b
+Explanation: The data members follow the same rules as of simple classes. Hence the data members must be declared first. Then their definition must be given using the constructors.
+12. Can two different functions have local class with same name?
+a) Yes, since local
+b) No, names must be different
+c) No, scope doesn’t work here
+d) No, ambiguity arises
+View Answer
+
+Answer: a
+Explanation: The local classes can have same name if they belong to different functions. The classes would be local to those specific functions and hence can have same name. This is same as that of local variables concept.
+13. What is the scope of local class?
+a) Within the class only
+b) Within the function
+c) Within the program
+d) One time creation and live till end of program
+View Answer
+
+Answer: b
+Explanation: The scope of a local class is limited only within the function definition. The function can use the class as usual as local variables. The class gets destroyed as soon as the function is returned.
+14. Can a function, other than the enclosing function of local class, access the class members?
+a) Yes, using object
+b) Yes, using direct call
+c) Yes, using pointer
+d) No, can’t access
+View Answer
+
+Answer: d
+Explanation: The local classes are local to the specific enclosing function. Other functions can’t access the class. Even if the pointers are used, the class must be alive when the pointer is used. But this will not happen if the enclosing function is returned.
+15. Which among the following is the main advantage of using local classes?
+a) Make program more efficient
+b) Makes program execution faster
+c) Helps to add extra functionality to a function
+d) Helps to add more members to a function
+View Answer
+
+Answer: c
+Explanation: The closest answer is to add more functionalities to a function or to make some specific functions to be generic. Adding more members to a function can be done directly but to add some special functionality that are encapsulated, can be done using local classes.
+
+This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Member Functions”.
+
+1. Which among the following best describes member functions?
+a) Functions which are defined within the class
+b) Functions belonging a class
+c) Functions in public access of a class
+d) Functions which are private to class
+View Answer
+
+Answer: b
+Explanation: We can’t say that only functions that are defined inside class are member functions. There can be some inherited functions. Though they doesn’t belong to the class but are property of the objects once inheritance is used. So the nearest definition is functions belonging to a class.
+2. How many types of member functions are generally there in C++?
+a) 2
+b) 3
+c) 4
+d) 5
+View Answer
+
+Answer: d
+Explanation: There are 5 types of member functions that are generally provided in C++. Namely, simple, static, const, inline and friend member functions. Member functions are specific to classes.
+3. How can a static member function be called in the main function?
+a) Using dot operator
+b) Using arrow operator
+c) Using dot or arrow operator
+d) Using dot, arrow or using scope resolution operator with class name
+View Answer
+
+Answer: d
+Explanation: The member functions can be called using only the dot operator or the arrow operator. But the static members can be called using directly the class name followed by the scope resolution operator and static member function name. This is useful when you don’t have any object to call the member.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. What are inline member functions?
+a) Member functions which can be called without object
+b) Member functions whose definition is expanded in place of its call
+c) Member functions whose definition is faster than simple function
+d) Member function which is defined in single line
+View Answer
+
+Answer: b
+Explanation: The member functions whose definition is expanded at the call, and no jump to function and return happened, are termed as inline functions. This is used to make the program faster and more efficient.
+5. What happens if non static members are used in static member function?
+a) Compile time error
+b) Runtime error
+c) Executes fine
+d) Executes if that member function is not used
+View Answer
+
+Answer: a
+Explanation: There must be specific memory space allocated for the data members before the static member functions uses them. But the space is not reserved if object is not declared. Hence only if static members are not used, it leads to compile time error.
+Check this: Information Science MCQs | MCA MCQs
+6. Static member functions _____________
+a) Contains “this” pointer for data members
+b) Contains “this” pointer if used for member functions
+c) Doesn’t contain “this” pointer
+d) Doesn’t contain “this” pointer if member functions are referred
+View Answer
+
+Answer: c
+Explanation: The static member functions doesn’t contain “this” pointer. Static member functions can’t be defined as const or volatile also. These are restrictions on static member functions.
+7. How to access members of the class inside a member function?
+a) Using this pointer only
+b) Using dot operator
+c) Using arrow operator
+d) Used directly or with this pointer
+View Answer
+
+Answer: d
+Explanation: The members of a class can be used directly inside a member function. We can use this pointer when there is a conflict between data members of class and arguments/local function variable names.
+8. For overloading “( )”, “[ ]” or “->” operators, a class __________
+a) Must use static member functions
+b) Must use non-static member functions
+c) Must be non-static member and should not be friend of class
+d) Must use static member function or a friend member function
+View Answer
+
+Answer: c
+Explanation: For overloading those operators for a class, the class must use non-static member function so that doesn’t remain common to all the objects, and each object can use it independently. The friend functions is also restricted so as to keep the security of data.
+9. If a virtual member function is defined ___________
+a) It should not contain any body and defined by subclasses
+b) It must contain body and overridden by subclasses
+c) It must contain body and be overloaded
+d) It must not contain any body and should not be derived
+View Answer
+
+Answer: a
+Explanation: The virtual functions are defined using virtual keyword. These are made in order to make all the classes to define them as the class gets inherited. Increases code understanding.
+10. Member functions of a generic class are _____________
+a) Not generic
+b) Automatically generic
+c) To be made generic explicitly
+d) Given default type as double
+View Answer
+
+Answer: b
+Explanation: When generic type is used in a class, the functions are automatically generic. This is so because the functions would use the same type as defined to make the class generic. The functions will get to know the type of data as soon as the generic class is used. It’s inbuilt feature.
+11. Member function of a class can ____________
+a) Access all the members of the class
+b) Access only Public members of the class
+c) Access only the private members of the class
+d) Access subclass members
+View Answer
+
+Answer: a
+Explanation: The member functions has access to all the members of the class. Whenever data members of a class, which might be private, have to be modified, we make use of these member functions. This is more secure way to manipulate data.
+12. Which among the following is proper syntax for class given below?
+
+class A
+{ 
+	int a,b;
+	public : void disp();
+}
+a) void disp::A(){ }
+b) void A::disp(){ }
+c) void A:disp() { cout<<a<<b ; }
+d) void disp:A(){ cout<<a<<b; }
+View Answer
+
+Answer: b
+Explanation: The syntax in option void A::disp(){ } is correct. We use scope resolution to represent the member function of a class and to write its definition. It is not necessary for a function to have anything in its definition.
+13. A member function can _______________ of the same class.
+a) Call other member functions
+b) Call only private member functions
+c) Call only static member functions
+d) Call only const member functions
+View Answer
+
+Answer: a
+Explanation: We can call one function inside another function to access some data of class. A public member function can be used to call a private member function which directly manipulates the private data of class.
+14. Which member function doesn’t require any return type?
+a) Static
+b) Constructor
+c) Const
+d) Constructor and destructor
+View Answer
+
+Answer: d
+Explanation: All the member functions work same as normal functions with syntax. But the constructor and destructor are also considered as member functions of a class, and they never have any data type.
+15. Which among the following is not possible for member function?
+a) Access protected members of parent class
+b) Definition without return type
+c) Access public members of subclass
+d) Access static members of class
+View Answer
+
+Answer: c
+Explanation: A member function of a class can only have the access to the members of its own class and parent classes if inheritance used. Otherwise a member function can never access the members of a subclass. Accessing static members of a class is possible by normal and static member functions.
+
+ This set of Object Oriented Programming (OOPs) using C++ Multiple Choice Questions & Answers (MCQs) focuses on “Nested Class”.
+
+1. Which among the following best describes a nested class?
+a) Class inside a class
+b) Class inside a function
+c) Class inside a package
+d) Class inside a structure
+View Answer
+
+Answer: a
+Explanation: If a class is defined inside another class, the inner class is termed as nested class. The inner class is local to the enclosing class. Scope matters a lot here.
+2. Which feature of OOP reduces the use of nested classes?
+a) Encapsulation
+b) Inheritance
+c) Binding
+d) Abstraction
+View Answer
+
+Answer: b
+Explanation: Using inheritance we can have the security of the class being inherited. The subclass can access the members of parent class. And have more feature than a nested class being used.
+3. How many categories are nested classes divided into?
+a) 2
+b) 3
+c) 4
+d) 5
+View Answer
+
+Answer: a
+Explanation: The nested classes are divided into two main categories. Namely, Static and non-static. The categories define how the classes can be used inside another class.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Non-static nested classes have access to _____________ from enclosing class.
+a) Private members
+b) Protected members
+c) Public members
+d) All the members
+View Answer
+
+Answer: d
+Explanation: The non-static nested class can access all the members of the enclosing class. All the data members and member functions can be accessed from the nested class. Even if the members are private, they can be accessed.
+5. Static nested classes doesn’t have access to _________________ from enclosing class.
+a) Private members
+b) Protected members
+c) Public members
+d) Any other members
+View Answer
+
+Answer: d
+Explanation: The static nested class doesn’t have access to any other members of the enclosing class. This is a rule that is made to ensure that only the data which can be common to all the object is being accessed by the static nested class.
+Check this: Object Oriented Programming Books | Information Science MCQs
+6. The nested class can be declared ___________________
+a) Public
+b) Private
+c) Protected
+d) Public, Protected, Private or Package private
+View Answer
+
+Answer: d
+Explanation: The nested class can be declared with any specifier, unlike the outer classes which can only be declared public or package private. This is flexibility given for the nested class being a member of enclosing class.
+7. Use of nested class ____________ encapsulation.
+a) Increases
+b) Decreases
+c) Doesn’t affect
+d) Slightly decreases
+View Answer
+
+Answer: a
+Explanation: The use of nested class increases encapsulation as the inner class is getting even more grouped into the enclosing class. Firstly the class encapsulate the data, having nested classes can increase the encapsulation even further.
+8. Which among the following is the correct advantage/disadvantage of nested classes?
+a) Makes the code more complex
+b) Makes the code unreadable
+c) Makes the code efficient and readable
+d) Makes the code multithreaded
+View Answer
+
+Answer: c
+Explanation: The use of nested classes makes the code more streamed towards a single concept. This allows to group the most similar and related classes together and makes it even more efficient and readable.
+9. How to access static nested classes?
+a) OuterClass.StaticNestedClass
+b) OuterClass->StaticNestedClass
+c) OuterClass(StaticNestedClass)
+d) OuterClass[StaticNestedClass]
+View Answer
+
+Answer: a
+Explanation: Like any other member of the class, the static nested class uses the dot operator to be accessed. The reason behind is, the static classes can’t work with instances, hence we use enclosing class name to access static nested class.
+10. A nested class can have its own static members.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The nested classes are associated with the object of the enclosing class. Hence have direct access to the members of that object. Hence the inner class can’t have any static members of its own. Otherwise the rule of static members would be violated using enclosing class instance.
+11. How to create object of the inner class?
+a) OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+b) OuterClass.InnerClass innerObject = new InnerClass();
+c) InnerClass innerObject = outerObject.new InnerClass();
+d) OuterClass.InnerClass = outerObject.new InnerClass();
+View Answer
+
+Answer: a
+Explanation: An instance of inner class can exist only within instance of outer class. To instantiate the inner class, one must instantiate the outer class first. This can be done by the correct syntax above.
+12. What will be the output of the following code?
+
+public class Test
+{
+    public int a=0;
+    class innerClass
+    {
+	public int a=1;
+	void innermethod(int x)
+	{
+	    System.out.println(“value of x = ” + x);
+	    System.out.println(“value of this.x = ” + this.x);
+	    System.out.println(“value of Test.this.x = ” + Test.T=this.x);
+	}
+    }
+}	
+public static void main( String args[] )
+{
+	Test t=new Test();
+	Test.innerClass im=t.new innerClass();
+	im.innermethod(55);
+}
+a)
+
+  value of x = 55
+  value of this.x = 0
+  value of Test.this.x = 1
+b)
+
+  value of x = 1
+  value of this.x = 0
+  value of Test.this.x = 55
+c)
+
+  value of x = 55
+  value of this.x = 1
+  value of Test.this.x = 0
+d)
+
+  value of x = 0
+  value of this.x = 55
+  value of Test.this.x = 1
+View Answer
+Answer: c
+Explanation: The variable x denotes the parameter of the function. And this.x is the variable of the inner class. Test.this.x is the variable of the outer class. Hence we get this output.
+ 
+ 
+13. Instance of inner class can exist only _______________ enclosing class.
+a) Within
+b) Outside
+c) Private to
+d) Public to
+View Answer
+
+Answer: a
+Explanation: The class defined inside another class is local to the enclosing class. This means that the instance of inner class will not be valid outside the enclosing class. There is no restriction for instance to be private or public always.
+14. If a declaration of a member in inner class has the same name as that in the outer class, then ________________ enclosing scope.
+a) Outer declaration shadows inner declaration in
+b) Inner declaration shadows outer declaration in
+c) Declaration gives compile time error
+d) Declaration gives runtime error
+View Answer
+
+Answer: b
+Explanation: The inner class will have more preference for its local members than those of the enclosing members. Hence it will shadow the enclosing class members. This process is known as shadowing.
+15. A static nested class is _____________ class in behavior that is nested in another _________ class.
+a) Top level, top level
+b) Top level, low level
+c) Low level, top level
+d) Low level, low level
+View Answer
+
+Answer: a
+Explanation: Top level class encloses the other classes or have same preference as that of other top level classes. Having a class inside the top level class is indirectly having a top level class which higher degree of encapsulation 

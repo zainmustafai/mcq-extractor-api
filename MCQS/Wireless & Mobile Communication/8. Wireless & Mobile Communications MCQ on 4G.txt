@@ -1,0 +1,367 @@
+1. Which UE category supports 64 QAM on the uplink?
+a) Only category 5
+b) Only category 4
+c) Only category 3
+d) Category 3,4 and 5
+View Answer
+
+Answer: a
+Explanation: Category information is used to allow the eNB to communicate effectively with all the UEs connected to it. The UE-category defines a combined uplink and downlink capability. Only UE category 5 supports 64 QAM on the uplink.
+2. What type of handovers is supported by LTE?
+a) Hard handover only
+b) Soft handover only
+c) Hard and soft handover
+d) Hard, soft and softest handover
+View Answer
+
+Answer: a
+Explanation: LTE supports only hard handover. It does not receive data from two frequencies at the same time because switching between different carrier frequencies is very fast so soft handover is not required.
+3. What is the minimum amount of RF spectrum needed for an FDD LTE radio channel?
+a) 1.4 MHz
+b) 2.8 MHz
+c) 5 MHz
+d) 20 MHz
+View Answer
+
+Answer: b
+Explanation: In telecommunication, Long-Term Evolution (LTE) is a standard for high-speed wireless communication for mobile devices and data terminals, based on the GSM/EDGE and UMTS/HSPA technologies. The minimum amount of RF spectrum needed for an FDD LTE radio channel is 2.8 MHz.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which organization is responsible for developing LTE standards?
+a) UMTS
+b) 3GPP
+c) 3GPP2
+d) ISO
+View Answer
+
+Answer: b
+Explanation: The 3rd Generation Partnership Project (3GPP) is a collaboration between groups of telecommunications standards associations, known as the Organizational Partners. LTE (Long Term Evolution) introduced in 3GPP R8, is the access part of the Evolved Packet System (EPS).
+5. Which channel indicates the number of symbols used by the PDCCH?
+a) PHICH
+b) PDCCH
+c) PBCH
+d) PCFICH
+View Answer
+
+Answer: d
+Explanation: PCFIH channel indicates the number of symbols used by the PDCCH. The actual number of OFDM symbols occupied in any given subframe is indicated in the PCFICH (Physical Control Format Indicator Channel), which is located in the first OFDM symbol of each subframe.
+Check this: Electrical Engineering MCQs | Electrical Engineering Books
+6. How often can resources be allocated to the UE?
+a) Every symbol
+b) Every slot
+c) Every subframe
+d) Every frame
+View Answer
+
+Answer: c
+Explanation: Resources can be located to the UE every subframe. CCE Index is the CCE number at which the control channel data (PDCCH) is allocated. Normally this index changes for each subframe, i.e. even the same PDCCH data (e.g, a PDCCH for the same UE) allocated in each subframe changes subframe by subframe.
+7. What is the largest channel bandwidth a UE is required to support in LTE?
+a) 10 MHz
+b) 20 MHz
+c) 1.4 MHz
+d) 5 MHz
+View Answer
+
+Answer: b
+Explanation: The LTE format was first proposed by NTT DoCoMo of Japan and has been adopted as the international standard. LTE-Advanced accommodates the geographically available spectrum for channels above 20 MHz.
+8. In LTE, what is the benefit of PAPR reduction in the uplink?
+a) Improved uplink coverage
+b) Lower UE power consumption
+c) Reduced equalizer complexity
+d) Improved uplink coverage, lower UE power consumption and reduced equalizer
+View Answer
+
+Answer: d
+Explanation: PAPR is the relation between the maximum power of a sample in a given OFDM transmit symbol divided by the average power of that OFDM symbol. PAPR reduction in the uplink leads to improved uplink coverage, lower UE power consumption and reduced equalizer complexity.
+9. Which RLC mode adds the least amount of delay to user traffic?
+a) Unacknowledged mode (UM)
+b) Acknowledged mode (AM)
+c) Low latency mode (LM)
+d) Transparent mode (TM)
+View Answer
+
+Answer: d
+Explanation: The transparent mode entity in RLC does not add any overhead to the upper layer SDUs. The entity just transmits the SDUs coming from upper layer to MAC.
+10. How much bandwidth is required to transmit the primary and secondary synchronization signals?
+a) 1.08 MHz
+b) 1.4 MHz
+c) 930 kHz
+d) 20 MHz
+View Answer
+
+Answer: a
+Explanation: Cell synchronization is the very first step when UE wants to camp on any cell. 1.08 MHZ is required to transmit the primary and secondary synchronization signals.
+1. Which type of cell provides the best level of service for average subscribers?
+a) Acceptance cell
+b) Barred cell
+c) Reserved cell
+d) Suitable cell
+View Answer
+
+Answer: d
+Explanation: A suitable cell is a cell on which the UE may camp on to obtain normal service. The UE shall have a valid USIM and such a cell shall fulfil all the following requirements. It provides the best level of service for average subscribers.
+2. With the normal cyclic prefix, how many symbols are contained in 1 frame?
+a) 7
+b) 140
+c) 12
+d) 40
+View Answer
+
+Answer: b
+Explanation: There are two different type of Cyclic Prefix. One is normal Cyclic Prefix and the other is ‘Extended Cyclic Prefix’ which is longer than the Normal Cyclic Prefix. Normal cyclic prefix contains 140 symbols in 1 frame.
+3. What is the PBCH scrambled with?
+a) Current frame number
+b) Physical cell ID
+c) UE’s CRNTI
+d) Not scrambled
+View Answer
+
+Answer: b
+Explanation: The PBCH is scrambled prior to modulation with a cell-specific sequence that depends on the cells’ identity. In contrast to the synchronization signals, the PBCH is transmitted on the 72 reserved subcarriers, which are QPSK-modulated.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. What is the length of the shortest possible PDCCH in bits?
+a) 144
+b) 288
+c) 72
+d) 576
+View Answer
+
+Answer: c
+Explanation: PDCCH is a physical channel that carries downlink control information (DCI). Shortest possible PDCCH is 72 bits.
+5. What is the average uploading speed of 4G LTE network?
+a) 1-3 Gbps
+b) 2-5 Gbps
+c) 1-3 Mbps
+d) 2-5 Mbps
+View Answer
+
+Answer: d
+Explanation: Verizon 4G LTE wireless broadband is 10 times faster than 3G able to handle download speeds between 5 and 12 Mbps (Megabits per second) and upload speeds between 2 and 5 Mbps.
+Check this: Electrical Engineering MCQs | Electrical Engineering Books
+6. Which of the following is not a part of the characteristic of 4G network?
+a) Multirate management
+b) Fully converged services
+c) Software dependency
+d) Diverse user devices
+View Answer
+
+Answer: a
+Explanation: 4G is the fourth generation of broadband cellular network technology, succeeding 3G. Its characteristics include fully converged services, software dependency and diverse user devices.
+7. What does SGSN stands for?
+a) Serving GPRS Support Node
+b) Supporting GGSN Support Node
+c) Supporting GPRS Support Node
+d) Supporting Gateway Support Node
+View Answer
+
+Answer: a
+Explanation: The Serving GPRS Support Node (SGSN) is a main component of the GPRS network, which handles all packet switched data within the network, e.g. the mobility management and authentication of the users. The SGSN performs the same functions as the MSC for voice traffic.
+8. What location management feature is supported by 4G?
+a) Concatenated Location Registration
+b) Concurrent Location Register
+c) Concatenated Management
+d) Collated Location Registration
+View Answer
+
+Answer: a
+Explanation: 4G supports concatenated location registration. Concatenated location registration reports to the network that they are concatenated to a common object.
+9. In 2007 ____________ announced its plan to transmit its network to 4G standard LTE with joint efforts of Vodafone group.
+a) Verizon Wireless
+b) AirTouch
+c) Netflix
+d) V Cast
+View Answer
+
+Answer: a
+Explanation: In 2007, Verizon announced plans to develop and deploy its fourth generation mobile broadband network using LTE, the technology developed within the Third Generation Partnership Project (3GPP) standards organization.
+10. Hybrid ARQ is part of the ____________ layer.
+a) PDCP
+b) RLC
+c) MAC
+d) PHY
+View Answer
+
+Answer: c
+Explanation: Hybrid automatic repeat request (hybrid ARQ or HARQ) is a combination of high-rate forward error-correcting coding and ARQ error-control. It is part of the MAC layer.
+1. OFDMA stands for ________
+a) omnidirectional frequency division multiple access
+b) orthogonal frequency duplex multiple access
+c) orthogonal frequency divider multiple access
+d) orthogonal frequency division multiple access
+View Answer
+
+Answer: d
+Explanation: Orthogonal frequency-division multiple access (OFDMA) is a multi-user version of the popular orthogonal frequency-division multiplexing (OFDM) digital modulation scheme. Multiple access is achieved in OFDMA by assigning subsets of subcarriers to individual users.
+2. Why is a cyclic prefix required in an OFDMA?
+a) To ensure symbol time is an integer number
+b) To help overcome multipath and ISI
+c) To maintain orthogonality
+d) To make OFDMA scalable
+View Answer
+
+Answer: b
+Explanation: Use of cyclic prefix is a key element of enabling the OFDM signal to operate reliably. The cyclic prefix acts as a buffer region or guard interval to protect the OFDM signals from intersymbol interference.
+3. What does the DC subcarrier indicate?
+a) Identity of the cell
+b) Antenna configuration
+c) Center of OFDM channel
+d) Format of data channel
+View Answer
+
+Answer: c
+Explanation: All the subcarriers of an OFDM symbol do not carry useful data. In OFDM and OFDMA PHY layers, the DC subcarrier is the subcarrier whose frequency is equal to the RF centre frequency of the transmitting station.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. What processing step combines multiple OFDM subcarriers into a single signal for transmission?
+a) FFT
+b) IFFT
+c) RF combining
+d) Channel mapping
+View Answer
+
+Answer: b
+Explanation: IFFT combines multiple OFDM subcarriers into a single signal for transmission. These transforms are important from the OFDM perspective because they can be viewed as mapping digitally modulated input data (data symbols) onto orthogonal subcarriers.
+5. Which property of OFDMA system allows adjacent subcarriers to be used without interference?
+a) Orthogonality
+b) Orthodoxy
+c) Octagonality
+d) Originality
+View Answer
+
+Answer: a
+Explanation: Orthogonality of sub-carriers simply means their correlation is zero. Orthogonality in OFDMA system allows adjacent subcarriers to be used without interference.
+Become Top Ranker in Wireless and Mobile Communications Now!
+6. In OFDMA, what is the relationship between the subcarrier spacing f and symbol time t?
+a) f=t
+b) f=1/2t
+c) f=1/t
+d) no relation
+View Answer
+
+Answer: c
+Explanation: In OFDMA, the relationship between the subcarrier spacing f and symbol time t is f=1/t. They are inversely proportional.
+7. OFDM is a technique for 3G mobile communication.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: OFDM has developed into a popular scheme for wideband digital communication, used in applications such as digital television and audio broadcasting, DSL internet access, wireless networks, power line networks, and 4G mobile communications.
+8. OFDM uses complex equalizers.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: ODMA does not use complex equalizers. In OFDM, the equalizer only has to multiply each detected sub-carrier (each Fourier coefficient) in each OFDM symbol by a constant complex number, or a rarely changed value.
+9. When we divide band of Orthogonal Frequency Division Multiplexing (OFDM) into sub bands, it diminishes effects of __________
+a) noise
+b) collision
+c) interference
+d) signals absence
+View Answer
+
+Answer: c
+Explanation: OFDM uses the same bandwidth to deliver roughly the same data rate as a single carrier modulation by introducing multiple lower-bandwidth channels. Each of the lower-bandwidth channels has a lower rate, and by combining them together, the original rate is achieved.
+10. Common data rates of IEEE 802.11 OFDM are ____________
+a) 18 Mbps
+b) 200 Mbps
+c) 50 Mbps
+d) 54 Mbps
+View Answer
+
+Answer: a
+Explanation: The IEEE 802.11a standard specifies a modulation that divides a high-speed serial information signal into multiple lower-speed sub signals. Common data rates of IEEE 802.11 OFDM is 18 Mbps.
+1. MIMO stands for _______
+a) Many input many output
+b) Multiple input multiple output
+c) Major input minor output
+d) Minor input minor output
+View Answer
+
+Answer: b
+Explanation: MIMO stands for Multiple Input and Multiple Output. It refers to the technology where there are multiple antennas at the base station and multiple antennas at the mobile device.
+2. In MIMO, which factor has the greatest influence on data rates?
+a) The size of antenna
+b) The height of the antenna
+c) The number of transmit antennas
+d) The area of receive antennas
+View Answer
+
+Answer: c
+Explanation: By increasing the number of receiving and transmitting antennas, it is possible to linearly increase the throughput of the channel with every pair of antennas added to the system.
+3. MIMO was initially developed in the year __________
+a) 1980
+b) 1990
+c) 1980
+d) 1975
+View Answer
+
+Answer: b
+Explanation: Since the initial development in the year 1990, MIMO Wireless Communications have become integral part of the most forthcoming commercial and next generation wireless data communication systems.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. MIMO is a smart antenna technology.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: MIMO is one of several forms of smart antenna technology, the others being MISO (multiple input, single output) and SIMO (single input, multiple output). It is an antenna technology for wireless communications in which multiple antennas are used at both the source and the destination.
+5. MIMO technology makes advantage of a natural radio wave phenomenon called _________
+a) Reflection
+b) Multipath
+c) Refraction
+d) Diffraction
+View Answer
+
+Answer: b
+Explanation: MIMO technology makes use of multipath phenomenon to maximize transmission by receiving bounced signals from obstructions. Multipath is a phenomenon in wave propagation.
+Take Wireless and Mobile Communications Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following technology does not use MIMO?
+a) 4G
+b) Wifi
+c) WiMax
+d) AMPS
+View Answer
+
+Answer: d
+Explanation: MIMO is used in mobile radio telephone standards such as recent 3GPP and 3GPP2. In 3GPP, High-Speed Packet Access plus (HSPA+) and Long Term Evolution (LTE) standards take MIMO into account. Moreover, MIMO is also used in Wifi and WiMax.
+7. MIMO means both transmitter and receiver have multiple antennas.
+a) True
+b) False
+View Answer
+
+8. _______ is a technique of transmit diversity used in UMTSS third-generation cellular systems.
+a) STTD
+b) SM
+c) Collaborative Uplink MIMO
+d) MU-MIMO
+View Answer
+
+Answer: a
+Explanation: Space Time Transmit Diversity (STTD) is a technique of transmit diversity used in UMTSS third-generation cellular systems. Space Time Transmit Diversity is optional in the UTRANN air interface, but compulsory for user equipment.
+9. _______ is a transmission method used in MIMO wireless communications to transmit encoded data signals independently.
+a) STTD
+b) SM
+c) Collaborative Uplink MIMO
+d) MU-MIMO
+View Answer
+
+Answer: b
+Explanation: Spatial multiplexing is a transmission method used in MIMO wireless communications to transmit encoded data signals independently and separately (so-called streams) from each of the multiple transmit antennas.
+10. _______ is an additional open-loop MIMO technique considered by the WiMAX vendors.
+a) STTD
+b) SM
+c) Collaborative Uplink MIMO
+d) MU-MIMO
+View Answer
+
+Answer: c
+Explanation: Collaborative MIMO is an open-loop MIMO technique considered by the WiMAX vendors to surge the spectral efficiency and capacity of the uplink communications path. It is compared with the regular spatial multiplexing, wherein data streams are transmitted multiplying from multiple antennas on the same device.

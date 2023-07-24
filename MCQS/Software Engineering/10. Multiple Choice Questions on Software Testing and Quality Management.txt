@@ -1,0 +1,954 @@
+1. Which of the following term describes testing?
+a) Finding broken code
+b) Evaluating deliverable to find errors
+c) A stage of all projects
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Software testing is the process of evaluation a software item to detect differences between given input and expected output.
+2. What is Cyclomatic complexity?
+a) Black box testing
+b) White box testing
+c) Yellow box testing
+d) Green box testing
+View Answer
+
+Answer: b
+Explanation: Cyclomatic complexity measures the amount of decision logic in the program module.Cyclomatic complexity gives the minimum number of paths that can generate all possible paths through the module.
+3. Lower and upper limits are present in which chart?
+a) Run chart
+b) Bar chart
+c) Control chart
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A run chart is used to monitor the behavior of a variable over time for a process or system. Run charts graphically display cycles, trends, shifts, or non-random patterns in behavior over time. It contains lower and upper limits.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Maintenance testing is performed using which methodology?
+a) Retesting
+b) Sanity testing
+c) Breadth test and depth test
+d) Confirmation testing
+View Answer
+
+Answer: c
+Explanation: Maintenance Testing is done on the already deployed software. The deployed software needs to be enhanced, changed or migrated to other hardware. The Testing done during this enhancement, change and migration cycle is known as maintenance testing.
+5. White Box techniques are also classified as
+a) Design based testing
+b) Structural testing
+c) Error guessing technique
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The structural testing is the testing of the structure of the system or component. Structural testing is often referred to as ‘white box’ or ‘glass box’ or ‘clear-box testing’ because in structural testing we are interested in what is happening ‘inside the system/application’.
+Check this: Information Technology MCQs | Computer Science MCQs
+6. Exhaustive testing is
+a) always possible
+b) practically possible
+c) impractical but possible
+d) impractical and impossible
+View Answer
+
+Answer: c
+Explanation: Exhaustive testing is the testing where we execute single test case for multiple test data.It means if we are using single test case for different product or module under manual testing.
+testing .
+7. Which of the following is/are White box technique?
+a) Statement Testing
+b) Decision Testing
+c) Condition Coverage
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Statement testing, decision testing, condition coverage all of them uses white box technique.
+8. What are the various Testing Levels?
+a) Unit Testing
+b) System Testing
+c) Integration Testing
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Unit, system, integration testing all of them are levels in testing.
+9. Boundary value analysis belong to?
+a) White Box Testing
+b) Black Box Testing
+c) White Box & Black Box Testing
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Boundary value analysis is based on testing at the boundaries between partitions and checks the output with expected output.
+10. Alpha testing is done at
+a) Developer’s end
+b) User’s end
+c) Developer’s & User’s end
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Alpha testing takes place at the developer’s end. Developers observe the users and note problems. Alpha testing is testing of an application when development is about to complete. Minor design changes can still be made as a result of alpha testing.
+1. The testing in which code is checked
+a) Black box testing
+b) White box testing
+c) Red box testing
+d) Green box testing
+View Answer
+
+Answer: b
+Explanation: White-box testing is a method of testing software that tests internal structures or workings of an application, as opposed to its functionality .
+2. Testing done without planning and Documentation is called
+a) Unit testing
+b) Regression testing
+c) Adhoc testing
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Adhoc testing is used term for software testing performed without planning and documentation. The tests are intended to be run only once, unless a defect is discovered.
+3. Acceptance testing is also known as
+a) Grey box testing
+b) White box testing
+c) Alpha Testing
+d) Beta testing
+View Answer
+
+Answer: d
+Explanation: Acceptance testing is a test conducted to determine if the requirements of a specification or contract are met and is done by users.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is non-functional testing?
+a) Black box testing
+b) Performance testing
+c) Unit testing
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Performance testing is in general testing performed to determine how a system performs in terms of responsiveness and stability under a particular workload.
+5. Beta testing is done at
+a) User’s end
+b) Developer’s end
+c) User’s & Developer’s end
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: In beta testing the user evaluates the product and gives his feedback.
+Check this: Computer Science Books | Software Engineering Books
+6. SPICE stands for
+a) Software Process Improvement and Compatibility Determination
+b) Software Process Improvement and Control Determination
+c) Software Process Improvement and Capability Determination
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: SPICE stands for Software Process Improvement and Control Determination.
+7. Unit testing is done by
+a) Users
+b) Developers
+c) Customers
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Unit testing is a method by which individual units of source code, sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures are tested to determine if they are fit for use.
+8. Behavioral testing is
+a) White box testing
+b) Black box testing
+c) Grey box testing
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Black-box testing is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.
+9. Which of the following is black box testing
+a) Basic path testing
+b) Boundary value analysis
+c) Code path analysis
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Boundary value analysis is a software testing technique in which tests are designed to include representatives of boundary values.
+10. Which of the following is not used in measuring the size of the software
+a) KLOC
+b) Function Points
+c) Size of module
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: KLOC and function points both can be used as size measurement for measuring the size of the software.
+1. Software Debugging is a set of activities that can be planned in advance and conducted systematically.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Software Testing is a set of such activities.
+2. Which of the following is not a software testing generic characteristics?
+a) Different testing techniques are appropriate at different points in time
+b) Testing is conducted by the developer of the software or an independent test group
+c) Testing and debugging are different activities, but debugging must be accommodated in any testing strategy
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+3. ITG stands for
+a) instantaneous test group
+b) integration testing group
+c) individual testing group
+d) independent test group
+View Answer
+
+Answer: d
+Explanation: The role of an independent test group (ITG) is to remove the inherent problems
+associated with letting the builder test the thing that has been built.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. By collecting ________ during software testing, it is possible to develop meaningful guidelines to halt the testing process.
+a) Failure intensity
+b) Testing time
+c) Metrics
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: It answers questions like: “When are we done with testing?”.
+5. Which of the following issues must be addressed if a successful software testing strategy is to be implemented?
+a) Use effective formal technical reviews as a filter prior to testing
+b) Develop a testing plan that emphasizes “rapid cycle testing.”
+c) State testing objectives explicitly
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the mentioned options are carried out for the purpose.
+Check this: Computer Science MCQs | BCA MCQs
+6. Test cases should uncover errors like
+a) Nonexistent loop termination
+b) Comparison of different data types
+c) Incorrect logical operators or precedence
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Test cases should uncover errors such as all the explained options and much more.
+7. Which of the following errors should not be tested when error handling is evaluated?
+a) Error description is unintelligible
+b) Error noted does not correspond to error encountered
+c) Error condition causes system intervention prior to error handling
+d) Error description provide enough information to assist in the location of the cause of the error
+View Answer
+
+Answer: a
+Explanation: Actually, error description does not provide enough information to assist in the location of the cause of the error.
+8. What is normally considered as an adjunct to the coding step
+a) Integration testing
+b) Unit testing
+c) Completion of Testing
+d) Regression Testing
+View Answer
+
+Answer: b
+Explanation: After source level code has been developed, reviewed, and verified for correspondence to component level design, unit test case design begins.
+9. Which of the following is not regression test case?
+a) A representative sample of tests that will exercise all software functions
+b) Additional tests that focus on software functions that are likely to be affected by the change
+c) Tests that focus on the software components that have been changed
+d) Low-level components are combined into clusters that perform a specific software sub-function
+View Answer
+
+Answer: d
+Explanation: Regression testing may be conducted manually, by re-executing a subset of all test cases or using automated capture or playback tools
+10. Which testing is an integration testing approach that is commonly used when “shrink-wrapped” software products are being developed?
+a) Regression Testing
+b) Integration testing
+c) Smoke testing
+d) Validation testing
+View Answer
+
+Answer: c
+Explanation: Smoke testing is designed as a pacing mechanism for time-critical projects, allowing the software team to assess its project on a frequent basis.
+11. In which testing level the focus is on customer usage?
+a) Alpha Testing
+b) Beta Testing
+c) Validation Testing
+d) Both Alpha and Beta
+View Answer
+
+Answer: d
+Explanation: Alpha testing is done at developer’s end while beta testing is done at user’s end.
+12. Validation refers to the set of tasks that ensure that software correctly implements a specific function.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Its verification, while validation refers to a different set of tasks that ensure that the software that has been built is traceable to customer requirements.
+1. The architecture of object-oriented software results in a series of layered subsystems that encapsulate collaborating classes.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: It is necessary to test an OO system at a variety of different levels in an effort to uncover errors that may occur as classes collaborate with one another and subsystems communicate across architectural layers.
+2.The construction of object-oriented software begins with the creation of
+a) design model
+b) analysis model
+c) code levels
+d) both design and analysis model
+View Answer
+
+Answer: d
+Explanation: It is due to the evolutionary nature of the OO software engineering paradigm, these models begin as relatively informal representations of system requirements and evolve into detailed models of classes, class connections and relationships, system design and allocation, and object design.
+3. Which testing integrates the set of classes required to respond to one input or event for the system?
+a) cluster testing
+b) thread-based testing
+c) use-based testing
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Each thread is integrated and tested individually. Regression testing is applied to ensure that no side effects occur.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is one of the steps in the integration testing of OO software?
+a) cluster testing
+b) thread-based testing
+c) use-based testing
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: Here, a cluster of collaborating classes is exercised by designing test cases that attempt to uncover errors in the collaborations.
+5. __________ methods can be used to drive validations tests
+a) Yellow-box testing
+b) Black-box testing
+c) White-box testing
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Black-box testing methods are as appropriate for OO systems as they are for systems developed using conventional software engineering methods.
+Check this: BCA MCQs | Software Engineering Books
+6. Which of the following is a part of testing OO code?
+a) Validation tests
+b) Integration tests
+c) Class tests
+d) System tests
+View Answer
+
+Answer: c
+Explanation: None.
+7. The object of ___________within an OO system is to design tests that have a high likelihood of uncovering plausible bugs.
+a) Fault-based testing
+b) Integration testing
+c) Use-based testing
+d) Scenario-based testing
+View Answer
+
+Answer: a
+Explanation: The object of fault-based testing within an OO system is to design tests that have a high likelihood of uncovering plausible faults.
+8. What refers to the externally observable structure of an OO program?
+a) Deep structure
+b) Surface structure
+c) Core structure
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Surface structure refers to the externally observable structure of an OO program which is immediately obvious to an end-user.
+9. _____________ categorizes class operations based on the generic function that each performs.
+a) Category-based partitioning
+b) Attribute-based partitioning
+c) State-based partitioning
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: For example, operations in the account class can be categorized in initialization operations (open, setup), computational operations (deposit,withdraw) etc.
+10. Which of the following is black-box oriented and can be accomplished by applying the same black-box methods discussed for conventional software?
+a) Conventional testing
+b) OO system validation testing
+c) Test case design
+d) Both Conventional testing and OO system validation testing
+View Answer
+
+Answer: d
+Explanation: None.
+11. In which of the following testing strategies, a smallest testable unit is the encapsulated class or object?
+a) Unit testing
+b) Integration testing
+c) System testing
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+12. Which of the following testing types is not a part of system testing?
+a) Recovery testing
+b) Stress testing
+c) System testing
+d) Random testing
+View Answer
+
+Answer: d
+Explanation: It is a testing method at class level.
+1. What is testing process’ first goal?
+a) Bug prevention
+b) Testing
+c) Execution
+d) Analyses
+View Answer
+
+Answer: a
+Explanation: Its better to prevent a bug rather than putting time in its testing and removal.
+2. Software mistakes during coding are known as
+a) errors
+b) failures
+c) bugs
+d) defects
+View Answer
+
+Answer: c
+Explanation: A software bug is an error, flaw, failure, or fault in a computer program or system that causes it to produce an incorrect or unexpected result.
+3. Name an evaluation technique to assess the quality of test cases.
+a) Mutation analysis
+b) Validation
+c) Verification
+d) Performance analysis
+View Answer
+
+Answer: a
+Explanation: Mutation analysis is used to design new software tests and evaluate the quality of existing software tests.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Test should be conducted for every possible
+a) data
+b) case
+c) variable
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: It increases the scope for code inspection.
+5. Which of the following is not a part of bug report?
+a) Test case
+b) Output
+c) Software Version
+d) LOC
+View Answer
+
+Answer: d
+Explanation: Line of code(LOC) is immaterial during testing, as it is an exhaustive process.
+Take Software Engineering Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is not a part of Execution Flow during debugging?
+a) Step Over
+b) Step Into
+c) Step Up
+d) Step Out
+View Answer
+
+Answer: c
+Explanation: Step Into executes code, Step Out continues execution until bound value and Step Over is to execute code without stopping.
+7. Cyclomatic Complexity method comes under which testing method.
+a) Yellow box
+b) White box
+c) Gray box
+d) Black box
+View Answer
+
+Answer: b
+Explanation: Cyclomatic Complexity tells us about the number of independent paths in a program which is covered in white box testing.
+8. Which is a black box testing technique appropriate to all levels of testing?
+a) Acceptance testing
+b) Regression testing
+c) Equivalence partitioning
+d) Quality assurance
+View Answer
+
+Answer: c
+Explanation: Equivalence partitioning is a software testing technique that divides the input data of a software unit into partitions of equivalent data from which test cases can be derived.
+9. Which of the following is the way of ensuring that the tests are actually testing code?
+a) Control structure testing
+b) Complex path testing
+c) Code coverage
+d) Quality assurance of software
+View Answer
+
+Answer: c
+Explanation: None.
+10. Effective testing will reduce _______ cost.
+a) maintenance
+b) design
+c) coding
+d) documentation
+View Answer
+
+Answer: a
+Explanation: Remaining options are a part of development process.
+11. Which of the following is a common pointwer problem?
+a) Data sharing errors
+b) Accessing data elements of the wrong type
+c) Attempting to use memory areas after freeing them
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: These are the common errors programmers make while coding.
+1. Standard Enforcer is a
+a) Static Testing Tool
+b) Dynamic Testing
+c) Static & Dynamic Testing
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Static Testing tools are those that perform analysis of the the program without executing them at all.
+2. Many applications using static analysis find 0.1-0.2% NCSS. NCSS stands for
+a) Non-Code Source Statement
+b) Non Comment Source Sentence
+c) Non-Comment Source Statement
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+3. Which testing tool does a simple job of enforcing standards in a uniform way of many programs?
+a) Static Analyzer
+b) Code Inspector
+c) Standard Enforcer
+d) Both Code Inspector & Standard Enforcer
+View Answer
+
+Answer: d
+Explanation: A standard enforcer is just like a code inspector, except that the rules are generally simpler. Standard enforcer looks at only single statements while the static analyzer looks at whole programs.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Software Testing with real data in real environment is known as
+a) alpha testing
+b) beta testing
+c) regression testing
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Beta testing is the last stage of testing, and normally can involve sending the product to beta test sites outside the company for real-world exposure or offering the product for a free trial download over the Internet.
+5. Which of the following testing tools examine program systematically & automatically ?
+a) Code Inspector
+b) Static Analyzer
+c) Standard Enforcer
+d) Coverage Analyzer
+View Answer
+
+Answer: b
+Explanation: A static analyzer operates from a pre-computed database o descriptive information derived from the source text of the program.
+Check this: Computer Science Books | Software Engineering Books
+6. Which testing tool is responsible for documenting programs ?
+a) Test/File Generator
+b) Test Harness System
+c) Test Archiving Systems
+d) Coverage Analyzer
+View Answer
+
+Answer: c
+Explanation: The answer is self-explanatory.
+7. Beta Testing is done by
+a) Developers
+b) Testers
+c) Users
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+8. Standard enforcer tool looks at the whole program.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: This tool looks at only single statements.
+9. Debugging Program is a program which runs concurrently with the program under test & provide commands to
+a) examine memory & registers
+b) stop execution at a particular point
+c) search for references for particular variables, constant and registers
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Debugging is a methodical process of finding and reducing the number of bugs, or defects, in a computer program or a piece of electronic hardware, thus making it behave as expected.
+10. Execution Verifier is a dynamic tool that is also known as
+a) Test File Generator
+b) Coverage Analyzer
+c) Output Comparator
+d) Test Harness System
+View Answer
+
+Answer: b
+Explanation: None.
+1. Why is software difficult to build ?
+a) Controlled changes
+b) Lack of reusability
+c) Lack of monitoring
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Monitoring is a key aspect which requires much attention for a successful build.
+2. Which of the following is not a conflict in software development team?
+a) Simultaneous updates
+b) Shared and common code
+c) Versions
+d) Graphics issues
+View Answer
+
+Answer: d
+Explanation: These are part of design, which can be handled by the design team.
+3. Which of the following lasts for the duration of the project and covers the development process?
+a) Monitoring all key parameters like cost, schedule, risks
+b) Taking corrective actions when needed
+c) Providing information on the development process in terms of metrics
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following is not a typical environment in communication facilitation ?
+a) Multiple teams
+b) Multiple user groups
+c) Multiple fests
+d) Multiple locations
+View Answer
+
+Answer: c
+Explanation: The answer is not related to the question.
+5. Which of the following is a software process ?
+a) Analysis and design
+b) Configuration and management
+c) Business modeling
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+Check this: BCA MCQs | Computer Science Books
+6. Which of the following is not included in Issues Meetings?
+a) Issues gathered the day before
+b) Regular schedule of meeting
+c) Discussion with business
+d) Attendance
+View Answer
+
+Answer: c
+Explanation: Discussion with business is planning in QA Meetings.
+7. Which of the following is not a part of Software Configuration Management Basics?
+a) Identification
+b) Version
+c) Auditing and Reviewing
+d) Status Accounting
+View Answer
+
+Answer: b
+Explanation: None.
+8. What is a collection of software elements treated as a unit for the purposes of SCM?
+a) Software Configuration Item
+b) Baseline
+c) Configuration
+d) Configuration Control Board
+View Answer
+
+Answer: a
+Explanation: Software Configuration Item is a collection of software elements treated as a unit for the purposes of SCM.
+9. What is one or more software configuration items that have been formally reviewed and agreed upon and serve as a basis for further development?
+a) Configuration
+b) Baseline
+c) Software
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Baseline – One or more software configuration items that have been formally reviewed and agreed upon and serve as a basis for further development.
+10. What is validating the completeness of a product?
+a) Identification
+b) Software
+c) Auditing and Reviewing
+d) Status Accounting
+View Answer
+
+Answer: c
+Explanation: Auditing and Reviewing is validating the completeness of a product and that SCM procedures are being followed.
+11. What is group with the responsibility for reviewing and approving changes to baselines?
+a) Software Configuration Item
+b) Baseline
+c) Configuration
+d) Configuration Control Board
+View Answer
+
+Answer: d
+Explanation: Configuration Control Board (CCB) is the group with the responsibility for reviewing and approving changes to baselines.
+12. In many settings PM is a center of communication hub
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+13. What is a specific instance of a baseline or configuration item?
+a) Software
+b) Configuration
+c) Version
+d) Status Accounting
+View Answer
+
+Answer: c
+Explanation: Even the smallest development projects should utilize some sort of version and baseline control tool.
+1. SCM stands for
+a) Software Control Management
+b) Software Configuration Management
+c) Software Concept Management
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: In software engineering, software configuration management (SCM) is the task of tracking and controlling changes in the software, part of the larger cross-discipline field of configuration management.
+2. When code is made available to others, it goes in a/an
+a) hard drive
+b) access-controlled library
+c) servers
+d) access control
+View Answer
+
+Answer: b
+Explanation: None.
+3. Which of the following is not a main phase in Configuration Management (CM) Process?
+a) CM Planning
+b) Executing the CM process
+c) CM audits
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are main phases of CM.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. CM is about managing the different items in the product, and changes in them.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+5. What allows different projects to use the same source files at the same time?
+a) Version Control
+b) Access control
+c) CM Process
+d) Version Control and Access control
+View Answer
+
+Answer: a
+Explanation: It allows software engineers to continue development along a branch even when a line of development is frozen.
+Take Software Engineering Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is not a change management process?
+a) Log the changes
+b) Estimate impact on effort and schedule
+c) Review impact with stakeholders
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are required for a change.
+7. Configuration management (CM) is needed to deliver product to the client
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+8. What is one or more software configuration items that have been formally reviewed and agreed upon and serve as a basis for further development?
+a) Baseline
+b) Cumulative changes
+c) CM
+d) Change Control
+View Answer
+
+Answer: a
+Explanation: In configuration management, a “baseline” is an agreed-to description of the attributes of a product, at a point in time, which serves as a basis for defining change.
+9. How are baselines verified?
+a) By reviews
+b) By inspections
+c) By testing of code
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Testing verifies the agreed-to description.
+10. Which of the following is a example of Configuration Items ?
+a) SCM procedures
+b) Source code
+c) Software design descriptions
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All are covered in CM.
+11. SCM controls only the products of the development process.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+12. CCB stands for
+a) Change Control Board
+b) Change Control Baseline
+c) Cumulative Changes in Baseline
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+13. What information is required to process a change to a baseline?
+a) Reasons for making the changes
+b) A description of the proposed changes
+c) List of other items affected by the changes
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: A baseline is an agreed-to description of the product, changes require multiple reasons..
+1. Quality Management in software engineering is also known as
+a) SQA
+b) SQM
+c) SQI
+d) SQA and SQM
+View Answer
+
+Answer: a
+Explanation: Quality Management is also called software quality assurance (SQA) which serves as an umbrella activity that is applied throughout the software process.
+2. Quality also can be looked at in terms of user satisfaction which includes
+a) A compliant product
+b) Good quality output
+c) Delivery within budget and schedule
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: This focuses on how well the implementation follows the design and how well the resulting system meets its requirements .
+3. Inspections and testing are what kinds of Quality Costs?
+a) Prevention
+b) Internal Failure
+c) External Failure
+d) Appraisal
+View Answer
+
+Answer: d
+Explanation: Inspections, equipment calibration, maintenance and testing appraisal costs is quality management.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. According to Pareto’s principle, x% of defects can be traced to y% of all causes. What are the values of x and y?
+a) 60, 40
+b) 70, 30
+c) 80, 20
+d) No such principle exists
+View Answer
+
+Answer: c
+Explanation: The Pareto principle (also known as the 80–20 rule) states that, for many events, roughly 80% of the effects come from 20% of the causes.
+5. What is Six Sigma?
+a) It is the most widely used strategy for statistical quality assurance
+b) The “Six Sigma” refers to six standard deviations
+c) It is the most widely used strategy for statistical quality assurance AND The “Six Sigma” refers to six standard deviations
+d) A Formal Technical Review(FTR) guideline for quality walkthrough or inspection
+View Answer
+
+Answer: c
+Explanation: The Six Sigma uses data and statistical analysis to measure and improve a company’s operational performance .
+Check this: Software Engineering Books | BCA MCQs
+6. Which of the following is not a core step of Six Sigma?
+a) Define
+b) Control
+c) Measure
+d) Analyse
+View Answer
+
+Answer: b
+Explanation: It is an additional step added for existing processes and can be done in parallel.
+7. Non-conformance to software requirements is known as
+a) Software availability
+b) Software reliability
+c) Software failure
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Given a set of valid requirements, all software failures can be traced to design or implementation problems.
+8. Software safety is equivalent to software reliability.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Software reliability uses statistical analysis to determine the likelihood that a software failure will occur; however, the failure may not necessarily result in a hazard or mishap.
+9. Misinterpretation of customer communication is a sample of possible cause defects.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Translation gap between the client and the developer often leads to software defects.
+10. What kind of quality cost is incurred when an error is detected in a product prior to shipment?
+a) Prevention
+b) Internal Failure
+c) External Failure
+d) Appraisal
+View Answer
+
+Answer: b
+Explanation: This includes rework, repair, and failure mode analysis.
+11. The degree to which the design specifications are followed during manufacturing is known as
+a) Quality of design
+b) Quality of conformance
+c) Quality of testing
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: This focuses on how well the implementation follows the design and how well the resulting system meets its requirements.
+12. Quality of design encompasses requirements and specifications of the system.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The characteristic that designers specify for an item are cover in quality of design.
+13. According to ISO 9001, inspection and testing comes under which management responsibility?
+a) Process control
+b) Document control
+c) Control of nonconforming products
+d) Servicing
+View Answer
+
+Answer: a
+Explanation: None.

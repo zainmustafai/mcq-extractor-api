@@ -1,0 +1,627 @@
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Mean and Variance of Distribution”.
+
+1. The expectation of a random variable X (E(X)) can be written as _________
+a) \(\frac{d}{dt} [M_X (t)](t=0) \)
+b) \(\frac{d}{dx} [M_X (t)](t=0) \)
+c) \(\frac{d^2}{dt^2} [M_X (t)](t=0) \)
+d) \(\frac{d^2}{dx^2} [M_X (t)](t=0) \)
+View Answer
+
+Answer: a
+Explanation: Expectation of a random variable X can be written as the first differentiation of Moment generating function, which can be written as \(\frac{d}{dt} [M_X (t)](t=0). \)
+2. If the probability of hitting the target is 0.4, find mean and variance.
+a) 0.4, 0.24
+b) 0.6, 0.24
+c) 0.4, 0.16
+d) 0.6, 0.16
+View Answer
+
+Answer: a
+Explanation: p = 0.4
+q = 1-p
+= 1-0.4 = 0.6
+Therefore, mean = p = 0.4 and
+Variance = pq = (0.4) (0.6) = 0.24.
+3. If the probability that a bomb dropped from a place will strike the target is 60% and if 10 bombs are dropped, find mean and variance?
+a) 0.6, 0.24
+b) 6, 2.4
+c) 0.4, 0.16
+d) 4, 1.6
+View Answer
+
+Answer: b
+Explanation: Here, p = 60% = 0.6 and q = 1-p = 40% = 0.4 and n = 10
+Therefore, mean = np = 6
+Variance = npq = (10)(0.6)(0.4)
+= 2.4.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. If P(1) = P(3) in Poisson’s distribution, what is the mean?
+a) \(\sqrt{2} \)
+b) \(\sqrt{3} \)
+c) \(\sqrt{6} \)
+d) \(\sqrt{7} \)
+View Answer
+
+Answer: c
+Explanation: \(P(x) = \frac{(e^{-λ} λ^x)}{x!} \)
+Therefore, \(P(3) = \frac{(e^{-λ} λ^3)}{3!} \)
+and \(P(1) = \frac{(e^{-λ} λ^1)}{1!} \)
+P(1) = P(2)
+\(λ=\frac{λ^3}{6} \)
+Therefore, \(λ=\sqrt{6}. \)
+5. What is the mean and variance for standard normal distribution?
+a) Mean is 0 and variance is 1
+b) Mean is 1 and variance is 0
+c) Mean is 0 and variance is ∞
+d) Mean is ∞ and variance is 0
+View Answer
+
+Answer: a
+Explanation: The mean and variance for the standard normal distribution is 0 and 1 respectively.
+Check this: Engineering Mathematics MCQ | Numerical Methods MCQ
+6. Find λ in Poisson’s distribution if the probabilities of getting a head in biased coin toss as \(\frac{3}{4} \) and 6 coins are tossed.
+a) 3.5
+b) 4.5
+c) 5.5
+d) 6.6
+View Answer
+
+Answer: b
+Explanation: p = 3⁄4
+λ = np = (6) 3⁄4 = 4.5.
+7. If P(6) = λP(1) in Poisson’s distribution, what is the mean?(Approximate value)
+a) 4
+b) 6
+c) 5
+d) 7
+View Answer
+
+Answer: c
+Explanation: \(\frac{e^{-λ} λ^6}{6!}= λ \frac{e^{-λ} λ^1}{1!} \)
+λ4 = 6! = 720
+Therefore λ = 5.18 = 5.
+8. Find f(2) in normal distribution if mean is 0 and variance is 1.
+a) 0.1468
+b) 0.1568
+c) 0.1668
+d) 0.1768
+View Answer
+
+Answer: a
+Explanation: Given mean = 0
+Variance = 1
+\(f(2) = \frac{1}{(\sqrt{2π})} e^{\frac{-1}{2} \frac{2}{1}}= 0.1468. \)
+9. Find the mean of tossing 8 coins.
+a) 2
+b) 4
+c) 8
+d) 1
+View Answer
+
+Answer: b
+Explanation: p = 1⁄2
+n = 8
+q = 1⁄2
+Therefore, mean = np = 8 * 1⁄2 = 4.
+10. Mean and variance of Poisson’s distribution is the same.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The mean and variance of Poisson’s distribution are the same which is equal to λ
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Random Variables”.
+
+1. Consider a dice with the property that that probability of a face with n dots showing up is proportional to n. The probability of face showing 4 dots is?
+a) \(\frac{1}{7} \)
+b) \(\frac{5}{42} \)
+c) \(\frac{1}{21} \)
+d) \(\frac{4}{21} \)
+View Answer
+
+Answer: d
+Explanation: P (n) is proportional to n where n=
+1,2,3,…6 is random variable.
+P(n) = kn
+P(1)+P(2)….P (6) = 1
+K(1+2+3+4+5+6) = 1
+\(K=\frac{1}{21} \)
+Hence P(4) = 4K = \(\frac{4}{21}. \)
+2. Let X be a random variable with probability distribution function f (x)=0.2 for |x|<1
+= 0.1 for 1 < |x| < 4
+= 0 otherwise
+The probability P (0.5 < x < 5) is _____
+a) 0.3
+b) 0.5
+c) 0.4
+d) 0.8
+View Answer
+
+Answer: c
+Explanation: P (0.5 < x < 5) = Integrating f (x) from
+0.5 to 5 by splitting in 3 parts that is from 0.5 to 1
+and from 1 to 4 and 4 to 5 we get
+P (0.5 < x < 5) = 0.1 + 0.3 + 0
+P (0.5 < x < 5) = 0.4.
+3. Runs scored by batsman in 5 one day matches are 50, 70, 82, 93, and 20. The standard deviation is ______
+a) 25.79
+b) 25.49
+c) 25.29
+d) 25.69
+View Answer
+
+Answer: a
+Explanation: The mean of 5 innings is
+(50+70+82+93+20)÷5 = 63
+S.D = [1⁄n (x(n)-mean)2]0.5
+S.D = 25.79.
+Subscribe Now: Probability and Statistics Newsletter | Important Subjects Newsletters
+advertisement
+4. Find median and mode of the messages received on 9 consecutive days 15, 11, 9, 5, 18, 4, 15, 13, 17.
+a) 13, 6
+b) 13, 18
+c) 18, 15
+d) 15, 16
+View Answer
+
+Answer: b
+Explanation: Arranging the terms in ascending order 4, 5, 9, 11, 13, 14, 15, 18, 18.
+Median is \(\frac{(n+1)}{2} \) term as n = 9 (odd) = 13.
+Mode = 18 which is repeated twice.
+5. Mode is the value of x where f(x) is a maximum if X is continuous.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: For a continuous variable mode is defined as the value where f(x) is a maximum or it is defined as the quantity repeated maximum number of times.
+Check this: Engineering Mathematics MCQ | Probability and Statistics Books
+6. E (XY)=E (X)E (Y) if x and y are independent.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: By the property of Expectation
+E (XY) = E (X) E (Y).
+That is the Expectation of a composite function XY is the product of the individual expectations of X and Y.
+7. A coin is tossed up 4 times. The probability that tails turn up in 3 cases is ______
+a) \(\frac{1}{2} \)
+b) \(\frac{1}{3} \)
+c) \(\frac{1}{4} \)
+d) \(\frac{1}{6} \)
+View Answer
+
+Answer: a
+Explanation: p=0.5 (Probability of tail)
+q=1-0.5=0.5
+n=4 and x is binomial variate.
+P (X=x) = nCx px qn-x.
+P (X=3) = 4C3 (0.5)3 = 1⁄2.
+8. If E denotes the expectation the variance of a random variable X is denoted as?
+a) (E(X))2
+b) E(X2)-(E(X))2
+c) E(X2)
+d) 2E(X)
+View Answer
+
+Answer: b
+Explanation: By property of Expectation
+V (X) = E (X2)-(E(X))2.
+9. X is a variate between 0 and 3. The value of E(X2) is ______
+a) 8
+b) 7
+c) 27
+d) 9
+View Answer
+
+Answer: d
+Explanation: Integrating f(x) = x2 from 0 to 3 we get E(X2) = 32 = 9.
+10. The random variables X and Y have variances 0.2 and 0.5 respectively. Let Z= 5X-2Y. The variance of Z is?
+a) 3
+b) 4
+c) 5
+d) 7
+View Answer
+
+Answer: d
+Explanation: Var(X) = 0.2, Var(Y) = 0.5
+Z = 5X – 2Y
+Var(Z) = Var(5X-2Y)
+= Var(5X) + Var(2Y)
+= 25Var(X) + 4Var(Y)
+Var(Z) = 7.
+
+This set of Probability and Statistics Problems focuses on “Probability Distributions – 2”.
+
+1. If the values taken by a random variable are negative, the negative values will have ___________
+a) Positive probability
+b) Negative Probability
+c) May have negative or positive probabilities
+d) Insufficient data
+View Answer
+
+Answer: a
+Explanation: Probabilities are always positive and not greater than 1.
+2. If f(x) is a probability density function of a continuous random variable, then \(\int_{-∞}^∞\)f(x)=?
+a) 0
+b) 1
+c) undefined
+d) Insufficient data
+View Answer
+
+Answer: b
+Explanation: Sum of all probabilities of a sample space is always 1.
+3. The variable that assigns a real number value to an event in a sample space is called ___________
+a) Random variable
+b) Defined variable
+c) Uncertain variable
+d) Static variable
+View Answer
+
+Answer: a
+Explanation: The above given statement is the definition of a random variable.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. A random variable that assumes a finite or a countably infinite number of values is called ___________
+a) Continuous random variable
+b) Discrete random variable
+c) Irregular random variable
+d) Uncertain random variable
+View Answer
+
+Answer: b
+Explanation: The given statement is the definition of a discrete random variable.
+5. A random variable that assume a infinite or a uncountably infinite number of values is called ___________
+a) Continuous random variable
+b) Discrete random variable
+c) Irregular random variable
+d) Uncertain random variable
+View Answer
+
+Answer: a
+Explanation: The given statement is the definition of a continuous random variable.
+Check this: Probability and Statistics Books | Numerical Methods MCQ
+6. If Σ P(x) = k2 – 8 then, the value of k is?
+a) 0
+b) 1
+c) 3
+d) Insufficient data
+View Answer
+
+Answer: c
+Explanation: Σ P(x) = k2 – 8 = 1
+On solving, we get k = 3.
+7. If P(x) = 0.5 and x = 4, then E(x) = ?
+a) 1
+b) 0.5
+c) 4
+d) 2
+View Answer
+
+Answer: d
+Explanation: E(x) = x P(x) = 0.5 * 4 = 2.
+8. In a discrete probability distribution, the sum of all probabilities is always?
+a) 0
+b) Infinite
+c) 1
+d) Undefined
+View Answer
+
+Answer: c
+Explanation: It is based on the basic axiom of probability distribution.
+9. The expected value of a random variable is its ___________
+a) Mean
+b) Standard Deviation
+c) Mean Deviation
+d) Variance
+View Answer
+
+Answer: a
+Explanation: Expected value and Mean are one and the same.
+10. The covariance of two independent random variable is ___________
+a) 1
+b) 0
+c) – 1
+d) Undefined
+View Answer
+
+Answer: b
+Explanation: Two random variables are said to be independent if their covariance is zero.
+11. The weight of persons in a state is a ___________
+a) Continuous random variable
+b) Discrete random variable
+c) Irregular random variable
+d) Not a random variable
+View Answer
+
+Answer: a
+Explanation: Since the distribution is continuous, its a continuous random variable.
+12. In random experiment, observations of random variable are classified as ___________
+a) Events
+b) Composition
+c) Trials
+d) Functions
+View Answer
+
+Answer: a
+Explanation: None.
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Probability Distributions – 1”.
+
+1. Which of the following mentioned standard Probability density functions is applicable to discrete Random Variables?
+a) Gaussian Distribution
+b) Poisson Distribution
+c) Rayleigh Distribution
+d) Exponential Distribution
+View Answer
+
+Answer: b
+Explanation: None.
+2. What is the area under a conditional Cumulative density function?
+a) 0
+b) Infinity
+c) 1
+d) Changes with CDF
+View Answer
+
+Answer: c
+Explanation: Area under any conditional CDF is 1.
+3. When do the conditional density functions get converted into the marginally density functions?
+a) Only if random variables exhibit statistical dependency
+b) Only if random variables exhibit statistical independency
+c) Only if random variables exhibit deviation from its mean value
+d) If random variables do not exhibit deviation from its mean value
+View Answer
+
+Answer: b
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Mutually Exclusive events ___________
+a) Contain all sample points
+b) Contain all common sample points
+c) Does not contain any sample point
+d) Does not contain any common sample point
+View Answer
+
+Answer: d
+Explanation: Events are said to be mutually exclusive if they do not have any common sample point.
+5. What would be the probability of an event ‘G’ if H denotes its complement, according to the axioms of probability?
+a) P (G) = 1 / P (H)
+b) P (G) = 1 – P (H)
+c) P (G) = 1 + P (H)
+d) P (G) = P (H)
+View Answer
+
+Answer: b
+Explanation: According to the given statement P(G) + P(H) = 1.
+Check this: Probability and Statistics Books | Numerical Methods MCQ
+6. A table with all possible value of a random variable and its corresponding probabilities is called ___________
+a) Probability Mass Function
+b) Probability Density Function
+c) Cumulative distribution function
+d) Probability Distribution
+View Answer
+
+Answer: d
+Explanation: The given statement is the definition of a probability distribution.
+7. A variable that can assume any value between two given points is called ___________
+a) Continuous random variable
+b) Discrete random variable
+c) Irregular random variable
+d) Uncertain random variable
+View Answer
+
+Answer: a
+Explanation: This is the definition of a continuous random variable.
+8. If a variable can certain integer values between two given points is called ___________
+a) Continuous random variable
+b) Discrete random variable
+c) Irregular random variable
+d) Uncertain random variable
+View Answer
+
+Answer: b
+Explanation: This is the definition of a discrete random variable.
+9. The expected value of a discrete random variable ‘x’ is given by ___________
+a) P(x)
+b) ∑ P(x)
+c) ∑ x P(x)
+d) 1
+View Answer
+
+Answer: c
+Explanation: Expected value refers to mean which is given by http://mathurl.com/zqymzn7 in case of discrete probability distribution.
+10. If ‘X’ is a continuous random variable, then the expected value is given by ___________
+a) P(X)
+b) ∑ x P(x)
+c) ∫ X P(X)
+d) No value such as expected value
+View Answer
+
+Answer: c
+Explanation: Since X is a continuous random variable, its expected value is given by c.
+11. Out of the following values, which one is not possible in probability?
+a) P(x) = 1
+b) ∑ x P(x) = 3
+c) P(x) = 0.5
+d) P(x) = – 0.5
+View Answer
+
+Answer: d
+Explanation: In probability P(x) is always greater than or equal to zero.
+12. If E(x) = 2 and E(z) = 4, then E(z – x) =?
+a) 2
+b) 6
+c) 0
+d) Insufficient data
+View Answer
+
+Answer: a
+Explanation: E(z – x) = E(z) – E(x)
+= 4 – 2 = 2.
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Mathematical Expectation”.
+
+1. The expectation of a random variable X(continuous or discrete) is given by _________
+a) ∑xf(x), ∫xf(x)
+b) ∑x2 f(x), ∫x2 f(x)
+c) ∑f(x), ∫f(x)
+d) ∑xf(x2), ∫xf(x2)
+View Answer
+
+Answer: a
+Explanation: The expectation of a random variable X is given by the summation (integral) of x times the function in its interval. If it is a continuous random variable, then summation is used and if it is discrete random variable, then integral is used.
+2. Mean of a random variable X is given by _________
+a) E(X)
+b) E(X2)
+c) E(X2) – (E(X))2
+d) (E(X))2
+View Answer
+
+Answer: a
+Explanation: Mean is defined as the sum of the function in its domain multiplied with the random variable’s value. Hence mean is given by E(X) where X is a random variable.
+3. Variance of a random variable X is given by _________
+a) E(X)
+b) E(X2)
+c) E(X2) – (E(X))2
+d) (E(X))2
+View Answer
+
+Answer: c
+Explanation: Variance of a random variable is nothing but the expectation of the square of the random variable subtracted by the expectation of X (mean of X) to the power 2. Therefore the variance is given by E(X2) – (E(X))2.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Mean of a constant ‘a’ is ___________
+a) 0
+b) a
+c) a/2
+d) 1
+View Answer
+
+Answer: b
+Explanation: Let f(x) be the pdf of the random variable X.
+Now, E(a) = ∫af(x)
+= a∫f(x)
+= a(1) = a.
+5. Variance of a constant ‘a’ is _________
+a) 0
+b) a
+c) a/2
+d) 1
+View Answer
+
+Answer: a
+Explanation: V(a) = E(a2) – (E(X))2
+= a2 – a2
+= 0.
+Check this: Engineering Mathematics MCQ | Numerical Methods MCQ
+6. Find the mean and variance of X?
+
+x	0	1	2	3	4
+f(x)	1/9	2/9	3/9	2/9	1/9
+a) 2, 4/3
+b) 3, 4/3
+c) 2, 2/3
+d) 3, 2/3
+View Answer
+
+Answer: a
+Explanation: Mean = \(E(X) = ∑f(x) = 0(\frac{1}{9}) + 1(\frac{2}{9}) + 2(\frac{3}{9}) + 3(\frac{2}{9}) + 4(1/9) \)
+= 2
+Variance \( = E(X^2)-(E(X))^2 = (0 + \frac{2}{9} + \frac{12}{9} + \frac{28}{9} + \frac{26}{9}) – 4 \)
+\( = \frac{4}{3} \).
+7. Find the expectation of a random variable X?
+
+x	0	1	2	3
+f(x)	1/6	2/6	2/6	1/6
+a) 0.5
+b) 1.5
+c) 2.5
+d) 3.5
+View Answer
+
+Answer: b
+Explanation: \(E(X) = 0(\frac{1}{6}) + 1(\frac{2}{6}) + 2(\frac{2}{6}) + 3(\frac{1}{6}) = 1.5. \)
+8. Find the expectation of a random variable X if f(x) = ke-x for x>0 and 0 otherwise.
+a) 0
+b) 1
+c) 2
+d) 3
+View Answer
+
+Answer: b
+Explanation: \(\int_0^∞ ke^{-x} dx = 1 \)
+kГ(1) = 1
+k = 1
+Now, \(E(X) = \int_0^∞ xe^{-x} dx = Г(2) = 1.\)
+9. Find the mean of a random variable X if f(x) = x – 5⁄2 for 0<x<1 and 2x for 1<x<2 and 0 otherwise.
+a) 3.5
+b) 3.75
+c) 2.5
+d) 2.75
+View Answer
+
+Answer: b
+Explanation: \(E(X) = \int_0^1 (x-5/2)dx+∫_1^2(2x)dx+0 \)
+\(= (\frac{x^3}{3} – \frac{5x^2}{4}) \) {from 0 to 1} \( + (\frac{2x^3}{3}) \) {from 1 to 2}
+\(= \frac{1}{3} – \frac{5}{4} + \frac{16}{3} – \frac{2}{3} \)
+= 3.75.
+10. Find the mean of a continuous random variable X if f(x) = 2e-x for x>0 and -ex for x<0.
+a) 0
+b) 1
+c) 2
+d) 3
+View Answer
+
+Answer: d
+Explanation: \(E(X) = \int_0^∞ 2xe^{-x} dx + \int_{-∞}^0 xe^x dx \)
+= 2 Г(2) + Г(2) = 3.
+11. What is moment generating function?
+a) Mx(t) = E(etx)
+b) Mx(t) = E(e-tx)
+c) Mx(t) = E(e2tx)
+d) Mx(t) = E(et)
+View Answer
+
+Answer: a
+Explanation: Moment generating function is nothing but the expectation of etX. So, the function is multiplied with etX before performing the integration or summation.
+12. Find the Moment Generating Function of f(x) = x for 0<x<1 and 2-x for 1<x<2 and 0 otherwise.
+a) \((\frac{e^t-1}{t})^2 \)
+b) \((\frac{e^{-t}-1}{t})^2 \)
+c) \((\frac{e^{2t}-1}{t})^2 \)
+d) \((\frac{e^{2t}-1}{t^2}) \)
+View Answer
+
+Answer: a
+Explanation: Mx(t) = E(etx) = \(\int_0^1 xe^{tx} dx+\int_1^2 (2-x) e^{tx} dx + 0 = (\frac{e^t-1}{t})^2. \)
+13. E(X) = npq is for which distribution?
+a) Bernoulli’s
+b) Binomial
+c) Poisson’s
+d) Normal
+View Answer
+
+Answer: b
+Explanation: In binomial distribution, probability of success is given by p and that of failure is given by q and the event is done n times. The mean of this distribution is given by npq.
+14. E(X) = λ is for which distribution?
+a) Bernoulli’s
+b) Binomial
+c) Poisson’s
+d) Normal
+View Answer
+
+Answer: c
+Explanation: In Poisson’s distribution, there is a positive constant λ which is the mean of the distribution and variance of the distribution.
+15. E(X) = μ and V(X) = σ2 is for which distribution?
+a) Bernoulli’s
+b) Binomial
+c) Poisson’s
+d) Normal
+View Answer
+
+Answer: d
+Explanation: In Normal distribution, the mean and variance is given by μ and σ2 respectively. In case of standard normal distribution the mean is 0 and the variance is 1.

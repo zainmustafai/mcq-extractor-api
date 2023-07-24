@@ -1,0 +1,385 @@
+1. Which of the following is the task of project indicators:
+a) help in assessment of status of ongoing project
+b) track potential risk
+c) help in assessment of status of ongoing project & track potential risk
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+2. Which of the following does not affect the software quality and organizational performance?
+a) Market
+b) Product
+c) Technology
+d) People
+View Answer
+
+Answer: a
+Explanation: Market is a collection of competitors, stakeholders, users each having different views on the product. So it does not affect the software quality.
+3. The intent of project metrics is:
+a) minimization of development schedule
+b) for strategic purposes
+c) assessing project quality on ongoing basis
+d) minimization of development schedule and assessing project quality on ongoing basis
+View Answer
+
+Answer: d
+Explanation: A project metric is a quantitative measure of the degree to which a system, component or process possesses an attribute.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following is not a direct measure of SE process?
+a) Efficiency
+b) Cost
+c) Effort Applied
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Efficiency is an indirect measure.
+5. Which of the following is an indirect measure of product?
+a) Quality
+b) Complexity
+c) Reliability
+d) All of the Mentioned
+View Answer
+
+Answer: d
+Explanation: All the mentioned options are indirect measures of a product.
+Take Software Engineering Tests Now!
+6. In size oriented metrics, metrics are developed based on the ___________________
+a) number of Functions
+b) number of user inputs
+c) number of lines of code
+d) amount of memory usage
+View Answer
+
+Answer: c
+Explanation: None.
+7. Which of the following is not an information domain required for determining function point in FPA ?
+a) Number of user Input
+b) Number of user Inquiries
+c) Number of external Interfaces
+d) Number of errors
+View Answer
+
+Answer: d
+Explanation: FPA includes five domains namely input, output, inquiries, interface and logical files.
+8. Usability can be measured in terms of:
+a) Intellectual skill to learn the system
+b) Time required to become moderately efficient in system usage
+c) Net increase in productivity
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+9. A graphical technique for finding if changes and variation in metrics data are meaningful is known as
+a) DRE (Defect Removal Efficiency)
+b) Function points analysis
+c) Control Chart
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Others options are formulas.
+10. Defects removal efficiency (DRE)depends on:
+a) E – errors found before software delivery
+b) D – defects found after delivery to user
+c) Both E and D
+d) Varies with project
+View Answer
+
+Answer: c
+Explanation: DRE = E / (E + d).
+1. The user has no control over the contents of a static web page.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Static web pages are just for information purposes.
+2. Which metric gives the idea about the contents on a web page ?
+a) Word Token
+b) Word Count
+c) Word Size
+d) Word Length
+View Answer
+
+Answer: b
+Explanation: The word count metric gives the total number of words on a web page.
+3. How is the complexity of a web page related to link count ?
+a) Directly
+b) Indirectly
+c) No relation
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: If link count is more, complexity will be more.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. It is expected to have less number of connections for a good web application.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: More the link count, more the complexity and the web page dependence factor will increase.
+5. Number of dynamic web pages provides an idea about________ for a web page that is to be built.
+a) size
+b) complexity
+c) effort
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+Check this: Information Technology MCQs | Computer Science MCQs
+6. Which of the following web engineering metric measures the extent of relatedness between two or more web pages ?
+a) Number of Static Content Objects
+b) Number of Dynamic Content Objects
+c) Web Page Similarity
+d) Number of Internal Page Links
+View Answer
+
+Answer: c
+Explanation: None.
+7. Which of the following is not a classification of the web engineering metric, Web Page Similarity ?
+a) Content based
+b) Link based
+c) Usage based
+d) Traffic based
+View Answer
+
+Answer: d
+Explanation: Similarity between two web pages is not judged upon its traffic activity.
+8. The static content objects are dependent on the actions of the user.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Dynamic Objects are user dependent
+9. Link based measures rely on ___________ structure of a web graph to obtain related pages.
+a) Embedded
+b) Hyperlink
+c) Dynamic
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: Only option b answers the blank, rest are not in accordance to the question.
+10. Which of the following is not a web engineering project metric ?
+a) Number of Static Content Objects
+b) Number of Dynamic Content Objects
+c) Number of Inherited Objects
+d) Word Count
+View Answer
+
+Answer: c
+Explanation: There is no such metric as an inherited object’s count.
+1. Which of the following is not a metric for design model?
+a) Interface design metrics
+b) Component-level metrics
+c) Architectural metrics
+d) Complexity metrics
+View Answer
+
+Answer: d
+Explanation: Complexity metrics measure the logical complexity of source code.
+2. Statement and branch coverage metrics are part of
+a) Analysis Model
+b) Testing
+c) Design Model
+d) Source Code
+View Answer
+
+Answer: b
+Explanation: These metrics lead to the design of test cases that provide program coverage.
+3. Function Points in software engineering was first proposed by
+a) Booch
+b) Boehm
+c) Albrecht
+d) Jacobson
+View Answer
+
+Answer: c
+Explanation: First proposed by Albrecht in 1979, hundreds of books and papers have been written on functions points since then.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+
+4. How many Information Domain Values are used for Function Point Computation?
+a) three
+b) four
+c) five
+d) six
+View Answer
+
+Answer: c
+Explanation: The five values are: External Inputs, External Outputs, External Inquiries, Internal Logical Files and External Interface Files.
+5. Function Point Computation is given by the formula
+a) FP = [count total * 0.65] + 0.01 * sum(Fi)
+b) FP = count total * [0.65 + 0.01 * sum(Fi)].
+c) FP = count total * [0.65 + 0.01] * sum(Fi)
+d) FP = [count total * 0.65 + 0.01] * sum(Fi)
+View Answer
+
+Answer: b
+Explanation: Option b is the correct formula for Function Point Computation.
+Become Top Ranker in Software Engineering Now!
+6. Architectural Design Metrics are ___________ in nature.
+a) Black Box
+b) White Box
+c) Gray Box
+d) Green Box
+View Answer
+
+Answer: a
+Explanation: They are “black box” in that they do not require any knowledge of the inner workings of a particular software component.
+7. Structural complexity of a module i is given as S(i) = f*f (i). What does f symbolizes here?
+a) “fan check-out” of module i
+b) “fan check-in” of module i
+c) “fan in” of module i
+d) “fan out” of module i
+View Answer
+
+Answer: d
+Explanation: Fan out is number of modules directly invoked by module i.
+8. SMI stands for
+a) Software Mature Indicator
+b) Software Maturity Index
+c) Software Mature Index
+d) Software Maturity Indicator
+View Answer
+
+Answer: b
+Explanation: None.
+9. As the SMI approaches 1.0, the software product starts becoming unstable
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: As the SMI approaches 1.0, the software product begins to stabilize.
+10. SMI = [Mt – (Fa + Fc + Fd)]/Mt. Here Mt is the number of modules
+a) in the current release
+b) in the current release that have been changed
+c) from the preceding release that were deleted in the current release
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+11. The amount of time that the software is available for use is known as
+a) Reliability
+b) Usability
+c) Efficiency
+d) Functionality
+View Answer
+
+Answer: a
+Explanation: None.
+12. Usability in metric analysis is defined as the degree to which the software
+a) stated needs
+b) is easy to use
+c) makes optimal use of system resources
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+1. Size and Complexity are a part of
+a) Product Metrics
+b) Process Metrics
+c) Project Metrics
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Product Metrics describe the characteristics of product.
+2. Cost and schedule are a part of
+a) Product Metrics
+b) Process Metrics
+c) Project Metrics
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: Project Metrics describe the project characteristics and execution.
+3. Number of errors found per person hours expended is an example of a
+a) measurement
+b) measure
+c) metric
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: Metric is a quantitative measure of the degree to which a system, component, or process possesses a given attribute.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following is not categorized under Product Operation of McCall’s Software Quality Factors?
+a) Flexibility
+b) Reliability
+c) Usability
+d) Integrity
+View Answer
+
+Answer: a
+Explanation: Flexibility is a part of Product revision as per McCall’s Software Quality Factors.
+5. The arc-to-node ratio is given as r = a/n. What does ‘a’ represent in the ratio?
+a) maximum number of nodes at any level
+b) longest path from the root to a leaf
+c) number of modules
+d) lines of control
+View Answer
+
+Answer: d
+Explanation: ‘a’ represents the arcs or the lines of control.
+Take Software Engineering Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Which of the following is not categorized under Component-Level Design Metrics?
+a) Complexity Metrics
+b) Cohesion Metrics
+c) Morphology Metrics
+d) Coupling Metrics
+View Answer
+
+Answer: c
+Explanation: Morphology metrics are a part of High level design metrics.
+7. Percentage of modules that were inspected is a part of
+a) Product Metrics
+b) Process Metrics
+c) Project Metrics
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+8. Metric is the act of obtaining a measure.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Measurement is the act of obtaining a measure.
+9. MTTC falls the the category of
+a) correctness
+b) integrity
+c) maintainability
+d) all of the mentioned
+View Answer
+
+Answer: c
+Explanation: Mean time to change (MTTC) is the time it takes to analyze the change request, design an appropriate modification, implement the change, test it, and distribute the change to all users.
+10. Identify the correct option with reference to Software Quality Metrics.
+a) Integrity = [Sigma(1 – threat)] * (1 – security)
+b) Integrity = [1 – Sigma(threat)] * (1 – security)
+c) Integrity = [1 – threat * Sigma(1 – security)].
+d) Integrity = Sigma[1 – threat * (1 – security)].
+View Answer
+
+Answer: d
+Explanation: None.

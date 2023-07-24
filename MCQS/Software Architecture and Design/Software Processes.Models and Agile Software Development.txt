@@ -1,0 +1,455 @@
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Fourth Generation Techniques”.
+
+1. Identify a fourth generation language(4GL) from the given below.
+a) FORTRAN
+b) COBOL
+c) Unix shell
+d) C++
+View Answer
+
+Answer: c
+Explanation: Rest all are third generation languages(3GL).
+2. Arrange the following activities for making a software product using 4GT.
+i. Design strategy
+ii. Transformation into product
+iii. Implementation
+iv. Requirement gathering
+a) 1, 4, 3, 2
+b) 4, 3, 1, 2
+c) 4, 1, 3, 2
+d) 1, 3, 4, 2
+View Answer
+
+Answer: c
+Explanation: The sequence of activities mentioned in option c represents the Fourth Generation Techniques(4GT)Model.
+3. 4GL is an example of ______________ processing.
+a) White Box
+b) Black Box
+c) Functional
+d) Both Black Box & Functional
+View Answer
+
+Answer: d
+Explanation: Functional processing/testing is also referred to as black box testing in which contents of the black box are not known.Almost anything might be referred to as a black box:an algorithm or the human mind.Functionality of the black box is understood in terms of its inputs and outputs.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+4. The 4GT Model is a package of ______________
+a) CASE Tools
+b) Software tools
+c) Software Programs
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: 4GT encompasses a broad array of software tools enabling the software engineer to specify the characteristics at a high level leading to an automatically generated source code based on these specifications.
+5. Which of the following is not a type of a 4GL? One originating ______________
+a) on Lisp machine
+b) on report generators
+c) from database query languages
+d) from GUI creators
+View Answer
+
+Answer: a
+Explanation: Fifth-generation programming language are built on LISP.
+Become Top Ranker in Software Engineering Now!
+6. In 4GT, we can specify the user requirements in graphic notation or small abbreviated language form.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+7. Productivity of software engineers is reduced in using a 4GT.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: 4GLs are more programmer-friendly and enhance programming efficiency with usage of English-like words and phrases, thereby increasing the productivity of professionals able to engage in software development.
+8. Which of the following 4GLs invented at IBM and subsequently adopted by ANSI and ISO as the standard language for managing structured data?
+a) SQL
+b) PROLOG
+c) C
+d) JAVA
+View Answer
+
+Answer: a
+Explanation: C & JAVA are third generation languages(3GLs) whereas PROLOG is a 5GL.
+9. What is a major advantage of using a 4GT Model for producing small scale products,
+applications or programs ?
+a) Improved productivity of software engineers
+b) Reduction in software development time
+c) 4GT helped by CASE tools and code generators offers a credible solution to many software problems
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Since automated coding is done using CASE tools & code generators proponents claim a dramatic reduction in software development time.
+10. Which of the following model has a major disadvantage in terms of the coding phase of a software life cycle model ?
+a) Spiral Model
+b) Waterfall Model
+c) Rad Model
+d) 4GT Model
+View Answer
+
+Answer: d
+Explanation: Since coding phase is eliminated in 4GT Model,more expertise is required for analysis,design and testing activities.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Agile Software Development”.
+
+1. Select the option that suits the Manifesto for Agile Software Development
+a) Individuals and interactions
+b) Working software
+c) Customer collaboration
+d) All of the mentioned
+View Answer
+
+Answer:d
+Explanation: None.
+2. Agile Software Development is based on
+a) Incremental Development
+b) Iterative Development
+c) Linear Development
+d) Both Incremental and Iterative Development
+View Answer
+
+Answer:d
+Explanation: The software is developed in increments with the customer specifying the requirements to be included in each increment and the highest priority is to satisfy the customer through early and continuous delivery of valuable software. They are iterative because they work on one iteration followed by improvements in next iteration
+3. Which on of the following is not an agile method?
+a) XP
+b) 4GT
+c) AUP
+d) All of the mentioned
+View Answer
+
+Answer:b
+Explanation: The 4GT approach does not incorporate iteration and the continuous feedback,which is the fundamental aspect of an agile method.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Agility is defined as the ability of a project team to respond rapidly to a change.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The aim of agile methods is to reduce overheads in the software process and to be able to respond quickly to changing requirements without excessive rework.
+5. How is plan driven development different from agile development ?
+a) Outputs are decided through a process of negotiation during the software development process
+b) Specification, design, implementation and testing are interleaved
+c) Iteration occurs within activities
+d) All of the mentioned
+View Answer
+
+Answer:c
+Explanation: A plan-driven approach to software engineering is based around separate development stages with the outputs to be produced at each of these stages planned in advance.
+Check this: BCA MCQs | Software Engineering Books
+6. How many phases are there in Scrum ?
+a) Two
+b) Three
+c) Four
+d) Scrum is an agile method which means it does not have phases
+View Answer
+
+Answer:b
+Explanation: There are three phases in Scrum.The initial phase is an outline planning phase followed by a series of sprint cycles and project closure phase.
+7. Agile methods seem to work best when team members have a relatively high skill level.
+a) True
+b) False
+View Answer
+
+Answer:a
+Explanation: None.
+8. Which of the following does not apply to agility to a software process?
+a) Uses incremental product delivery strategy
+b) Only essential work products are produced
+c) Eliminate the use of project planning and testing
+d) All of the mentioned
+View Answer
+
+Answer:c
+Explanation: Testing is a major part of each software development process which can’t be avoided.
+9. Which three framework activities are present in Adaptive Software Development(ASD) ?
+a) analysis, design, coding
+b) requirements gathering, adaptive cycle planning, iterative development
+c) speculation, collaboration, learning
+d) all of the mentioned
+View Answer
+
+Answer:c
+Explanation: None.
+10. In agile development it is more important to build software that meets the customers’ needs today than worry about features that might be needed in the future.
+a) True
+b) False
+View Answer
+
+Answer:a
+Explanation: None
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Extreme Programming”.
+
+1. Incremental development in Extreme Programming (XP) is supported through a system release once every month.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Incremental development is supported through small, frequent system releases.
+2. In XP, as soon as the work on a task is complete, it is integrated into the whole system.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: XP follows a continuous integration approach.After any such integration, all the unit tests in the system must pass.
+3. In XP Increments are delivered to customers every _______ weeks.
+a) One
+b) Two
+c) Three
+d) Four
+View Answer
+
+Answer: b
+Explanation: Extreme Programming (XP) takes an ‘extreme’ approach to iterative development.New versions may be built several times per day, hence delivering the increment for approval every 2nd week after testing the new version.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. User requirements are expressed as __________ in Extreme Programming.
+a) implementation tasks
+b) functionalities
+c) scenarios
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: User requirements are expressed as scenarios or user stories.These are written on cards and the development team break them down into implementation tasks. These tasks are the basis of schedule and cost estimates.
+5. Is a customer involved test development and validation in XP ?
+a) Yes
+b) No
+c) It may vary from Customer to Customer
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: The role of the customer in the testing process is to help develop acceptance tests for the stories that are to be implemented in the next release of the system.However, people adopting the customer role have limited time available and so cannot work full-time with the development team. They may feel that providing the requirements was enough of a contribution and so may be reluctant to get involved in the testing process.
+Take Software Engineering Mock Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. Programmers prefer programming to testing and sometimes they take shortcuts when writing tests. For example, they may write incomplete tests that do not check for all possible exceptions that may occur.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: In XP Some tests can be very difficult to write incrementally.For example, in a complex user interface, it is often difficult to write unit tests for the code that implements the ‘display logic’ and workflow between screens.
+7. Tests are automated in Extreme Programming.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Automated test harnesses are used to run all component tests each time that a new release is built.
+8. In XP an automated unit test framework is used to write tests for a new piece of functionality before that functionality itself is implemented.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: XP follows Test-first development approach.
+9. Developers work individually on a release and they compare their results with other developers before forwarding that release to customers.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: XP follows the principle of pair programming which means developers work in pairs, checking each other’s work and providing the support to always do a good job.
+10. Which four framework activities are found in the Extreme Programming(XP) ?
+a) analysis, design, coding, testing
+b) planning, analysis, design, coding
+c) planning, design, coding, testing
+d) planning, analysis, coding, testing
+View Answer
+
+Answer: c
+Explanation: XP involves the mentioned four activities, and in the same in order.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Selection of a Life Cycle Model”.
+
+1. Selection of a model is based on
+a) Requirements
+b) Development team & Users
+c) Project type and associated risk
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Each model has to have some requirements, a team of developers, users and the risk involved in developing a project.
+2. Which two models doesn’t allow defining requirements early in the cycle?
+a) Waterfall & RAD
+b) Prototyping & Spiral
+c) Prototyping & RAD
+d) Waterfall & Spiral
+View Answer
+
+Answer: b
+Explanation: Prototyping Model starts with a requirements analysis phase including techniques like FAST, QFD, Brainstorming.In case of Spiral model the first phase involves activities related to customer communication like determining objectives.
+3. Which of the following life cycle model can be chosen if the development team has less experience on similar projects?
+a) Spiral
+b) Waterfall
+c) RAD
+d) Iterative Enhancement Model
+View Answer
+
+Answer: a
+Explanation: Relying on risk assessment/analysis provides more flexibility than required for many applications which overcomes the criteria of less experienced developers.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. If you were a lead developer of a software company and you are asked to submit a project/product within a stipulated time-frame with no cost barriers, which model would you select?
+a) Waterfall
+b) Spiral
+c) RAD
+d) Incremental
+View Answer
+
+Answer: c
+Explanation: RAD model is inapplicable to develop cheaper products/software/projects as the cost of modeling, hiring highly skilled developers/designers and automated code generation is very high.But here the cost is not an issue, so one can select this model as it reduces development time.
+5. Which two of the following models will not be able to give the desired outcome if user’s participation is not involved?
+a) Waterfall & Spiral
+b) RAD & Spiral
+c) RAD & Waterfall
+d) RAD & Prototyping
+View Answer
+
+Answer: d
+Explanation: Active Participation of user is involved in all the four phases of RAD model and in case of the Prototyping model we need user’s presence/involvement every time a new prototype is build or designed.
+Check this: Software Engineering Books | Information Technology MCQs
+6. A company is developing an advance version of their current software available in the market, what model approach would they prefer ?
+a) RAD
+b) Iterative Enhancement
+c) Both RAD & Iterative Enhancement
+d) Spiral
+View Answer
+
+Answer: c
+Explanation: None.
+7. One can choose Waterfall Model if the project development schedule is tight.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Real projects rarely follow the sequential flow and iterations in this model are handled indirectly. This changes can cause confusion as the project proceeds thereby delaying the delivery date.
+8. Choose the correct option from given below:
+a) Prototyping Model facilitates reusability of components
+b) RAD Model Model facilitates reusability of components
+c) Both RAD & Prototyping Model facilitates reusability of components
+d) None
+View Answer
+
+Answer: c
+Explanation: None.
+9. Spiral Model has high reliability requirements.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: None.
+10. RAD Model has high reliability requirements.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: None.
+
+This set of Software Engineering Questions and Answers for Campus interviews focuses on “Evolutionary Software Process Models”.
+
+1. Which one of the following is not an Evolutionary Process Model?
+a) WINWIN Spiral Model
+b) Incremental Model
+c) Concurrent Development Model
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+2. The Incremental Model is a result of combination of elements of which two models?
+a) Build & FIX Model & Waterfall Model
+b) Linear Model & RAD Model
+c) Linear Model & Prototyping Model
+d) Waterfall Model & RAD Model
+View Answer
+
+Answer: c
+Explanation: Each linear sequence produces a deliverable “increment” of the software and particularly when we have to quickly deliver a limited functionality system.
+3. What is the major advantage of using Incremental Model?
+a) Customer can respond to each increment
+b) Easier to test and debug
+c) It is used when there is a need to get a product to the market early
+d) Easier to test and debug & It is used when there is a need to get a product to the market early
+View Answer
+
+Answer: d
+Explanation: Incremental Model is generally easier to test and debug than other methods of software development because relatively smaller changes are made during each iteration and is popular particularly when we have to quickly deliver a limited functionality system.However, option “a” can be seen in other models as well like RAD model,hence option “d” answers the question.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+4. The spiral model was originally proposed by
+a) IBM
+b) Barry Boehm
+c) Pressman
+d) Royce
+View Answer
+
+Answer: b
+Explanation: None.
+5. The spiral model has two dimensions namely _____________ and ____________
+a) diagonal, angular
+b) radial, perpendicular
+c) radial, angular
+d) diagonal, perpendicular
+View Answer
+
+Answer: c
+Explanation: The radial dimension of the model represents the cumulative costs and the angular dimension represents the progress made in completing each cycle. Each loop of the spiral from X-axis clockwise through 360o represents one phase.
+Get Free Certificate of Merit in Software Engineering Now!
+6. How is WINWIN Spiral Model different from Spiral Model?
+a) It defines tasks required to define resources, timelines, and other project related information
+b) It defines a set of negotiation activities at the beginning of each pass around the spiral
+c) It defines tasks required to assess both technical and management risks
+d) It defines tasks required to construct, test, install, and provide user support
+View Answer
+
+Answer: b
+Explanation: Except option “b” all other tasks/activities are present in Spiral Model as well.
+7. Identify the disadvantage of Spiral Model.
+a) Doesn’t work well for smaller projects
+b) High amount of risk analysis
+c) Strong approval and documentation control
+d) Additional Functionality can be added at a later date
+View Answer
+
+Answer: a
+Explanation: All other options are the advantages of Spiral Model.
+8. Spiral Model has user involvement in all its phases.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: None.
+9. How is Incremental Model different from Spiral Model?
+a) Progress can be measured for Incremental Model
+b) Changing requirements can be accommodated in Incremental Model
+c) Users can see the system early in Incremental Model
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. If you were to create client/server applications, which model would you go for?
+a) WINWIN Spiral Model
+b) Spiral Model
+c) Concurrent Model
+d) Incremental Model
+View Answer
+
+Answer: c
+Explanation: When applied to client/server applications, the concurrent process model defines activities in two dimensions: a system dimension and a component dimension.Thus Concurrency is achieved by system and component activities occurring simultaneously and can be modeled using the state-oriented approach.

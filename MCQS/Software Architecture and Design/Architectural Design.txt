@@ -1,0 +1,288 @@
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Application Architectures”.
+
+1. Which of the following examples is/are models of application architectures?
+a) a means of assessing components for reuse
+b) a design checklist
+c) a vocabulary for talking about types of applications
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: Application architectures encapsulate the principal characteristics of a class of systems.
+2. ERP stands for
+a) Enterprise Research Planning
+b) Enterprise Resource Planning
+c) Enterprise Resource Package
+d) Enterprise Research Package
+View Answer
+
+Answer: b
+Explanation: None.
+3. Which of the following type describes application architectures?
+a) Transaction processing applications
+b) Language processing systems
+c) Client management systems
+d) Transaction processing applications and Language processing systems
+View Answer
+
+Answer: d
+Explanation: Transaction processing applications are database-centered applications that process user requests for information and update the information in a database, while language processing systems are systems in which the user’s intentions are expressed in a formal language.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. All the operations in a transaction need to be completed before the database changes are made ________
+a) functional
+b) available to the users
+c) permanent
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: This ensures that failure of operations within the transaction does not lead to inconsistencies in the database.
+5. Systems that involve interaction with a shared database can be considered as.
+a) software-based
+b) transaction-based
+c) server-based
+d) client-based
+View Answer
+
+Answer: b
+Explanation: Such systems with a shared database are also referred to as transaction based information systems.
+Check this: BCA MCQs | Software Engineering Books
+6. What translates a natural or an artificial language into another representation of that language and, for programming languages also execute the resulting code?
+a) ERP systems
+b) Transaction-based information systems
+c) Language processing systems
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: In software engineering, compilers translate an artificial programming language into machine code.
+7. Properties of a system such as performance and security are independent of the architecture used.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Properties such as performance, security, and availability are influenced by the architecture used.
+8. Which of the following is/are commonly used architectural pattern(s)?
+a) Model-View-Controller
+b) Layered Architecture
+c) Client–server
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Commonly used architectural patterns include Model-View-Controller, Layered Architecture, Repository, Client–server, and Pipe and Filter.
+9. A language-processing systems may translate an XML data description into
+a) a machine code
+b) an alternative XML representation
+c) machine code and alternative XML representation
+d) a software module
+View Answer
+
+Answer: c
+Explanation: Such is the property and function of language processing system.
+10. Transaction processing systems may be organized as a _________ architecture with system components responsible for input, processing, and output.
+a) Repository
+b) Client–server
+c) Model-View-Controller
+d) Pipe and Filter
+View Answer
+
+Answer: d
+Explanation: None.
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Architectural Design”.
+
+1. Architectural design is a creative process satisfying only functional-requirements of a system.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: In architectural design you design a system organization satisfying the functional and non-functional requirements of a system.
+2. A ________ view shows the system hardware and how software components are distributed across the processors in the system.
+a) physical
+b) logical
+c) process
+d) all of the mentioned
+View Answer
+
+Answer: a
+Explanation: A physical view is implemented by system engineers implementing the system hardware.
+3. The UML was designed for describing _________
+a) object-oriented systems
+b) architectural design
+c) SRS
+d) Both object-oriented systems and Architectural design
+View Answer
+
+Answer: d
+Explanation: The UML was designed for describing object-oriented systems and, at the architectural design stage, you often want to describe systems at a higher level of abstraction.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which of the following view shows that the system is composed of interacting processes at run time?
+a) physical
+b) development
+c) logical
+d) process
+View Answer
+
+Answer: d
+Explanation: This view is useful for making judgments about non-functional system characteristics such as performance and availability.
+5. Which of the following is an architectural conflict?
+a) Using large-grain components improves performance but reduces maintainability
+b) Introducing redundant data improves availability but makes security more difficult
+c) Localizing safety-related features usually means more communication so degraded performance
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: High availability architecture can be affected by several design factors that are required to be maintained to ensure that no single points of failure exist in such design.
+Check this: Computer Science MCQs | Information Technology MCQs
+6. Which of the following is not included in Architectural design decisions?
+a) type of application
+b) distribution of the system
+c) architectural styles
+d) testing the system
+View Answer
+
+Answer: d
+Explanation: Architectural design decisions include decisions on the type of application, the distribution of the system, the architectural styles to be used, and the ways in which the architecture should be documented and evaluated.
+7. Architecture once established can be applied to other products as well.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: Systems in the same domain often have similar architectures that reflect domain concepts.
+8. Which of the following pattern is the basis of interaction management in many web-based systems?
+a) architecture
+b) repository pattern
+c) model-view-controller
+d) different operating system
+View Answer
+
+Answer: c
+Explanation: Model-View-Controller pattern is the basis of interaction management in many web-based systems.
+9. What describes how a set of interacting components can share data?
+a) model-view-controller
+b) architecture pattern
+c) repository pattern
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: The majority of systems that use large amounts of data are organized around a shared database or repository.
+10. Which view in architectural design shows the key abstractions in the system as objects or object classes?
+a) physical
+b) development
+c) logical
+d) process
+View Answer
+
+Answer: c
+Explanation: It is possible to relate the system requirements to entities in a logical view.
+11. Which of the following is a type of Architectural Model?
+a) Static structural model
+b) Dynamic process model
+c) Distribution model
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All these models reflects the basic strategy that is used to structure a system
+
+This set of Software Engineering Multiple Choice Questions & Answers (MCQs) focuses on “Architectural Patterns”.
+
+1. Which of these following sensor is a useful as part of a burglar alarm system for commercial buildings?
+a) Movement detector
+b) Door sensor
+c) Window sensor
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: A burglar alarm system for commercial buildings include movement detectors in individual rooms, door sensors that detect corridor doors opening, and window sensors on ground-floor windows that can detect when a window has been opened.
+2. Which of the following is not real-time architectural patterns that are commonly used?
+a) Asynchronous communication
+b) Observe and React
+c) Environmental Control
+d) Process Pipeline
+View Answer
+
+Answer: a
+Explanation: These patterns can be combined and you will often see more than one of them in a single system.
+3. A monitoring system examines its environment through
+a) operating system
+b) communication
+c) set of sensors
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: If some exceptional event or sensor state is detected by the system, the monitoring system takes some action. Often, this involves raising an alarm to draw an operator’s attention to the event.
+Subscribe Now: Software Engineering Newsletter | Important Subjects Newsletters
+advertisement
+4. Which of the following is applicable on software radio?
+a) Environmental Control
+b) Process Pipeline
+c) Distributed system
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: A software radio accepts incoming packets of digital data representing the radio transmission and transforms these into a sound signal that people can listen to.
+5. An example of a system that may use a process pipeline is a high-speed
+a) data distributing system
+b) data acquisition system
+c) data collector system
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Data acquisition systems collect data from sensors for subsequent processing and analysis.
+Get Free Certificate of Merit in Software Engineering Now!
+6. Monitoring systems are an important class of embedded real-time systems.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: A monitoring system examines its environment through a set of sensors and, usually, displays the state of the environment in some way.
+7. Which of the following is an example of a controller for a car braking system?
+a) Observe and React
+b) Process Pipeline
+c) Environmental Control
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: An anti-skid braking system in a car monitors the car’s wheels and brake system .
+8. ETL stands for
+a) Data Extraction Transformation & Loading
+b) Data Execution Transformation & Loading
+c) Extraction Transformation & Loading
+d) Execution Transformation & Loading
+View Answer
+
+Answer: a
+Explanation: None.
+9. Control systems may make use of the Environmental Control pattern, which is a general control pattern that includes _________processes.
+a) sensor
+b) actuator
+c) pipeline
+d) both sensor and actuator
+View Answer
+
+Answer: d
+Explanation: Such patterns are quite common in Environmental Control Systems.
+10. ________ can be associated with a separate processor or core, so that the processing steps can be carried out in parallel.
+a) Process Pipeline
+b) Environmental Control
+c) Observe and React
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: The Process Pipeline pattern makes this rapid processing possible by breaking down the required data processing into a sequence of separate transformations, with each transformation carried out by an independent process.

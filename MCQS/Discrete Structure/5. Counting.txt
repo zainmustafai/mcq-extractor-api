@@ -1,0 +1,576 @@
+1. How many even 4 digit whole numbers are there?
+a) 1358
+b) 7250
+c) 4500
+d) 3600
+View Answer
+
+Answer: c
+Explanation: The thousands digit cannot be zero, so there are 9 choices. There are 10 possibilities for the hundreds digit and 10 possibilities for the tens digit. The units digit can be 0, 2, 4, 6 or 8, so there are 5 choices. By the basic counting principle, the number of even five digit whole numbers is 9 × 10 × 10 × 5 = 45,00.
+2. In a multiple-choice question paper of 15 questions, the answers can be A, B, C or D. The number of different ways of answering the question paper are ________
+a) 65536 x 47
+b) 194536 x 45
+c) 23650 x 49
+d) 11287435
+View Answer
+
+Answer: a
+Explanation: There are 415 = 65536 x 47 different ways of answering the exam paper of 15 MCQs.
+3. How many words with seven letters are there that start with a vowel and end with an A? Note that they don’t have to be real words and letters can be repeated.
+a) 45087902
+b) 64387659
+c) 12765800
+d) 59406880
+View Answer
+
+Answer: d
+Explanation: The first letter must be a vowel, so there are 5 choices. The second letter can be any one of 26, the third letter can be any one of 26, the fourth letter can be any one of 26 and fifth and sixth letters can be any of 26 choices. The last letter must be an A, so there is only 1 choice. By the basic counting principle, the number of ‘words’ is 5 × 26 × 26 × 26 × 26 × 26 × 1 = 59406880.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Neela has twelve different skirts, ten different tops, eight different pairs of shoes, three different necklaces and five different bracelets. In how many ways can Neela dress up?
+a) 50057
+b) 14400
+c) 34870
+d) 56732
+View Answer
+
+Answer: b
+Explanation: By the basic counting principle, the number of different ways = 12 × 10 × 8 × 3 × 5 = 14400. Note that shoes come in pairs. So she must choose one pair of shoes from ten pairs, not one shoe from twenty.
+5. How many five-digit numbers can be made from the digits 1 to 7 if repetition is allowed?
+a) 16807
+b) 54629
+c) 23467
+d) 32354
+View Answer
+
+Answer: a
+Explanation: 75 = 16807 ways of making the numbers consisting of five digits if repetition is allowed.
+Check this: Discrete Mathematics Books | BCA MCQs
+6. For her English literature course, Ruchika has to choose one novel to study from a list of ten, one poem from a list of fifteen and one short story from a list of seven. How many different choices does Rachel have?
+a) 34900
+b) 26500
+c) 12000
+d) 10500
+View Answer
+
+Answer: d
+Explanation: By the Basic Counting Principle, the number of different choices is 10 × 15 × 7 = 10500.
+7. There are two different Geography books, five different Natural Sciences books, three different History books and four different Mathematics books on a shelf. In how many different ways can they be arranged if all the books of the same subjects stand together?
+a) 353450
+b) 638364
+c) 829440
+d) 768700
+View Answer
+
+Answer: c
+Explanation: There are four groups of books which can be arranged in 4! different ways. Among those books, two are Geography books, five are Natural Sciences books, three are History books and four are Mathematics books. Therefore, there are 4! × 2! × 5! × 3! × 4! = 829440 ways to arrange the books.
+8. The code for a safe is of the form PPPQQQQ where P is any number from 0 to 9 and Q represents the letters of the alphabet. How many codes are possible for each of the following cases? Note that the digits and letters of the alphabet can be repeated.
+a) 874261140
+b) 537856330
+c) 549872700
+d) 456976000
+View Answer
+
+Answer: d
+Explanation: 103 × 264 = 456976000 possible codes are formed for the safe with the alphanumeric digits.
+9. Amit must choose a seven-digit PIN number and each digit can be chosen from 0 to 9. How many different possible PIN numbers can Amit choose?
+a) 10000000
+b) 9900000
+c) 67285000
+d) 39654900
+View Answer
+
+Answer: a
+Explanation: By the basic counting principle, the total number of PIN numbers Amit can choose is 10 × 10 × 10 × 10 × 10 × 10 × 10 = 10,000000.
+10. A head boy, two deputy head boys, a head girl and 3 deputy head girls must be chosen out of a student council consisting of 14 girls and 16 boys. In how many ways can they are chosen?
+a) 98072
+b) 27384
+c) 36428
+d) 44389
+View Answer
+
+Answer: b
+Explanation: There are 16 × 15 × 14 + 14 × 13 × 12 × 11 = 27384 ways to choose from a student council.
+1. How many substrings (of all lengths inclusive) can be formed from a character string of length 8? (Assume all characters to be distinct)
+a) 14
+b) 21
+c) 54
+d) 37
+View Answer
+
+Answer: d
+Explanation: Let’s consider the given string is CLEAN, so set of string of length 1 = {C,L,E,A,N} ; cardinality of set = 5 set of string of length 2 = {CL,EE,EA,NN}, set of string of length 3 = {CLE,LEE,EAN}, set of strings of length 4 = {CLEN,LEAN}, set of strings of length 5 = {CLEAN} and set of string of length 0 = {} and we cannot have any substring of length 6 as given string has only 5 length. So total no of substrings are possible = 0 length substring + 1 length substring + 2 length substrings +3 length substrings + 4 length substrings + 5 length substrings = 1 + 5 + 4 + 3 + 2 + 1 = 16 means for 1 length string to n length substrings it will sum of the n natural no from 1 to n.
+so 1+2+3+…+n = n(n+1)2 so total no substrings possible = 0 length strings + n(n+1)2 = 1+ [n(n+1)2] so total no of substrings possible in n length string (All length inclusive )= 1 + [n(n+1)2]=8(8+1)2 = 37.
+2. The number of diagonals can be drawn in a hexagon is ______
+a) 9
+b) 32
+c) 16
+d) 21
+View Answer
+
+Answer: a
+Explanation: A hexagon has 6 sides. We obtain the diagonals by joining the vertices in pairs.
+Total number of sides and diagonals = 6C2 = 6∗52∗1 = 5×3 = 15. This includes its 6 sides also. So, Diagonals = 15 – 6 = 9. Hence, the number of diagonals is 9.
+3. The number of binary strings of 17 zeros and 8 ones in which no two ones are adjacent is ___________
+a) 43758
+b) 24310
+c) 32654
+d) 29803
+View Answer
+
+Answer: a
+Explanation: First place 17 zeroes side by side _ 0 _ 0 _ 0 … 0 _ and 8 1’s can be placed in any of the (17+1) available gaps hence the number of ways = n+1Ck = 43758.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. How many words that can be formed with the letters of the word ‘SWIMMING’ such that the vowels do not come together? Assume that words are of with or without meaning.
+a) 430
+b) 623
+c) 729
+d) 1239
+View Answer
+
+Answer: c
+Explanation: The word ‘SWIMMING contains 8 letters. Of which, I occurs twice and M occurs twice. Therefore, the number of words formed by this word = 8!2!∗2! = 10080. In order to find the number of permutations that can be formed where the two vowels I and I come together, we group the letters that should come together and consider that group as one letter. So, the letters are S, W, M, M, N, G, (I, I). So, the number of letters are 7 the number of ways in which 7 letters can be arranged is 7! = 5040. In I and I, the number of ways in which I and I can be arranged is 2!. Hence, the total number of ways in which the letters of the ‘SWIMMING’ can be arranged such that vowels are always together are 7!2!∗2! = 5040 ways. The number of words in which the vowels do not come together is = (10080 – 5040) = 5040.
+5. A number lock contains 6 digits. How many different zip codes can be made with the digits 0–9 if repetition of the digits is allowed upto 3 digits from the beginning and the first digit is not 0?
+a) 254307
+b) 453600
+c) 458760
+d) 972340
+View Answer
+
+Answer: b
+Explanation: For the first position, there are 9 possible choices (since 0 is not allowed). After that number is chosen, there are 10 possible choices (since 0 is now allowed) for the second digit, for the third digit there are 10 possible choices, 9 possible choices for the fourth digit and 8 possible choices for the fifth digit and 7 possible choices for the sixth digit. The count of number locks = 453600.
+Take Discrete Mathematics Tests Now!
+6. Let M be a sequence of 9 distinct integers sorted in ascending order. How many distinct pairs of sequences, N and O are there such that i) each are sorted in ascending order, ii) N has 5 and O has 4 elements, and iii) the result of merging N and O gives that sequence?
+a) 84
+b) 35
+c) 194
+d) 138
+View Answer
+
+Answer: a
+Explanation: Selecting any 3 elements from given 9 elements gives 9C3 = 84 number of distinct pairs of sequences.
+7. 14 different letters of alphabet are given, words with 6 letters are formed from these given letters. How many number of words are there which have at least one letter repeated?
+a) 892742
+b) 999988
+c) 213216
+d) 786730
+View Answer
+
+Answer: b
+Explanation: Number of words which have at least one letter replaced = total number of words – total number of words in which no letter is repeated, => 106 – 12P6 => 1000000 − 924 = 999988.
+8. In how many ways can 10 boys be seated in a row having 28 seats such that no two friends occupy adjacent seats?
+a) 13P5
+b) 9P29
+c) 19P10
+d) 15P7
+View Answer
+
+Answer: c
+Explanation: First let us take the 18 unoccupied seats. They create 19 slots i.e., one on the left of each seat and one on the right of the last one. So we can place the 10 boys in any of these 19 slots that are, 19P10 ways.
+9. In how many ways can the letters of the word SANFOUNDRY be rearranged such that the vowels always appear together?
+a) (8+3)!2!
+b) 6!2!
+c) 8!*3!
+d) 4!8!
+View Answer
+
+Answer: c
+Explanation: Take AOU together and treat it like 1 entity and arrange SNFNDRY in 8! Ways. Then, the AOU can be arranged in 3! ways. So, total arrangements = 8! * 3! = 40320 * 6 = 241920.
+10. How many ways can 8 prizes be given away to 7 students, if each student is eligible for all the prizes?
+a) 40325
+b) 40320
+c) 40520
+d) 40720
+View Answer
+
+Answer: b
+Explanation: Now the first student is eligible to receive any of the 8 available prizes (so 8 ways), the second student will receive a prize from rest 7 available prizes (so 7 ways), the third student will receive his prize from the rest 6 prizes available(so 6 ways) and so on. So total ways would be 8! = 8*7*6*5*4*3*2*1 = 40320. Hence, the 7 prizes can be distributed in 40320 ways
+1. There are 6 equally spaced points A, B, C, D, E and F marked on a circle with radius R. How many convex heptagons of distinctly different areas can be drawn using these points as vertices?
+a) 7! * 6
+b) 7C5
+c) 7!
+d) same area
+View Answer
+
+Answer: d
+Explanation: Since all the points are equally spaced; hence the area of all the convex heptagons will be the same.
+2. There are 2 twin sisters among a group of 15 persons. In how many ways can the group be arranged around a circle so that there is exactly one person between the two sisters?
+a) 15 *12! * 2!
+b) 15! * 2!
+c) 14C2
+d) 16 * 15!
+View Answer
+
+Answer: a
+Explanation: We know that n objects can be arranged around a circle in [Math Processing Error]. If we consider the two sisters and the person in between the brothers as a block, then there will 12 others and this block of three people to be arranged around a circle. The number of ways of arranging 13 objects around a circle is in 12! ways. Now the sisters can be arranged on either side of the person who is in between the sisters in 2! ways. The person who sits in between the two sisters can be any of the 15 in the group and can be selected in 15 ways. Therefore, the total number of ways 15 *12! * 2!.
+3. The number of words of 4 consonants and 3 vowels can be made from 15 consonants and 5 vowels, if all the letters are different is ________
+a) 3! * 12C5
+b) 16C4 * 4C4
+c) 15! * 4
+d) 15C4 * 5C3 * 7!
+View Answer
+
+Answer: d
+Explanation: There are 4 consonants out of 15 can be selected in 15C4 ways and 3 vowels can be selected in 5C3 ways. Therefore, the total number of groups each containing 4 consonants and 3 vowels = 15C4 * 4C3. Each group contains 7 letters which can be arranged in 7! ways. Hence, required number of words = 15C4 * 5C3 * 7!.
+Subscribe Now: Discrete Mathematics Newsletter | Important Subjects Newsletters
+advertisement
+
+4. How many ways are there to arrange 7 chocolate biscuits and 12 cheesecake biscuits into a row of 19 biscuits?
+a) 52347
+b) 50388
+c) 87658
+d) 24976
+View Answer
+
+Answer: b
+Explanation: Consider the situation as having 19 spots and filling them with 7 chocolate biscuits and 19 cheesecake biscuits. Then we just choose 7 spots for the chocolate biscuits and let the other 10 spots have cheesecake biscuits. The number of ways to do this job is 19C7 = 50388.
+5. If a, b, c, d and e are five natural numbers, then find the number of ordered sets(a, b, c, d, e) possible such that a+b+c+d+e=75.
+a) 65C5
+b) 58C6
+c) 72C7
+d) 74C4
+View Answer
+
+Answer: d
+Explanation: Let assumes that there are 75 identical balls which are to be arranged in 5 different compartments (Since a, b, c, d, e are distinguishable). If the balls are arranged in the row. We have 74 gaps where we can place a ball in each gap since we need 5 compartments we need to place only 4 balls. We can do this in 74C4 ways.
+Become Top Ranker in Discrete Mathematics Now!
+6. There are 15 people in a committee. How many ways are there to group these 15 people into 3, 5, and 4?
+a) 846
+b) 2468
+c) 658
+d) 1317
+View Answer
+
+Answer: d
+Explanation: The number of ways to choose 3 people out of 9 is 15C3. Then, number of ways to choose 5 people out of (15-3) = 12 is 12C5. Finally, the number of ways to choose 4 people out of (12-4) = 8 is 8C4. Hence, by the rule of product, 15C3 + 12C5 + 8C4 = 1317.
+7. There are six movie parts numbered from 1 to 6. Find the number of ways in which they be arranged so that part-1 and part-3 are never together.
+a) 876
+b) 480
+c) 654
+d) 237
+View Answer
+
+Answer: b
+Explanation: The total number of ways in which 6 part can be arranged = 6! = 720. The total number of ways in which part-1 and part-3 are always together: = 5!*2! = 240. Therefore, the total number of arrangements, in which they are not together is = 720 − 240 = 480.
+8. How many ways are there to divide 4 Indian countries and 4 China countries into 4 groups of 2 each such that at least one group must have only Indian countries?
+a) 6
+b) 45
+c) 12
+d) 76
+View Answer
+
+Answer: a
+Explanation: The number of ways to divide 4+4=8 countries into 4 groups of 2 each is as follows: (10C2 * 10C2 * 10C2 * 10C2)/4! = 30. Since it is required that at least one group must have only Indian countries, we need to subtract 30 from the number of possible groupings where all 4 groups have 1 Indian country and 1 China country each. This is equivalent to the number of ways to match each of the 4 Indian countries with one China country: 4! = 24. Therefore, the answer is 30 – 24 = 6.
+9. Find the number of factors of the product 58 * 75 * 23 which are perfect squares.
+a) 47
+b) 30
+c) 65
+d) 19
+View Answer
+
+Answer: b
+Explanation: Any factor of this number should be of the form 5a * 7b * 2c. For the factor to be a perfect square a, b, c has to be even. a can take values 0, 2, 4, 6, 8, b can take values 0, 2, 4 and c can take values 0, 2. Total number of perfect squares = 5 * 3 * 2 = 30.
+10. From a group of 8 men and 6 women, five persons are to be selected to form a committee so that at least 3 women are there on the committee. In how many ways can it be done?
+a) 686
+b) 438
+c) 732
+d) 549
+View Answer
+
+Answer: a
+Explanation: We may have (2 men and 3 women) or (1 men and 4 woman) or (5 women only). The Required number of ways = (8C2 × 6C3) + (8C1 × 6C4) + (6C5) = 686.
+1. Calculate sum of divisors of n = 1900.
+a) 6530
+b) 5346
+c) 3387
+d) 4123
+View Answer
+
+Answer: d
+Explanation: The prime factorization of 1800 is 19 * 22 * 52 and
+S(22) = 1 + 2 + 4 = 7
+S(52) = 1 + 5 + 25 = 31
+Therefore, S(1800) = 19 * 7 * 31 = 4123.
+2. Given the factorization of a number n, then the sum of divisors can be computed in _______
+a) linear time
+b) polynomial time
+c) O(logn)
+d) o(n+1)
+View Answer
+
+Answer: b
+Explanation: The exact number of running time depends on the computational model. When analyzing arithmetic with large numbers, we usually count either bit operations or arithmetic operations of size O(logn) (where n is the input size). Now, given the factorization of a number n, then the sum of divisors can be computed in polynomial time.
+3. Calculate the sum of divisors of N = 9600.
+a) 23250
+b) 47780
+c) 54298
+d) 31620
+View Answer
+
+Answer: d
+Explanation: The prime factorization of 1800 is 3 * 27 * 52 and
+S(3) = 1 + 3 = 4
+S(22) = 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255
+S(52) = 1 + 5 + 25 = 31
+Therefore, S(1800) = 4 * 255 * 31 = 31620.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Find the number of odd positive integers of the number 456.
+a) 54
+b) 27
+c) 16
+d) 8
+View Answer
+
+Answer: d
+Explanation: To find the number of odd factors (which includes 1), we can exclude any power of 2 and do the same. So, for 456, we have (3 + 1)(1 + 1) = 8 odd positive factors.
+5. The number of even positive integers of 3200 is _______
+a) 24
+b) 32
+c) 164
+d) 209
+View Answer
+
+Answer: a
+Explanation: To find the number of even factors, we can multiply the number of even factors by the power of 2. For 3200, we have (5 + 1)(1 + 1)(2) = 24 even factors.
+Check this: Information Technology MCQs | BCA MCQs
+6. What is the sum of divisors of the number 1872?
+a) 12493
+b) 5438
+c) 45862
+d) 654
+View Answer
+
+Answer: a
+Explanation: The prime factorization of 1872 is 13 * 32 * 24 and S(24) = 1 + 2 + 4 + 8 + 16 = 31, S(52) = 1 + 5 + 25 = 31. Therefore, S(1872) = 31 * 31 * 13 = 12493.
+7. Find the odd positive integer of the number 6500.
+a) 43
+b) 17
+c) 12
+d) 87
+View Answer
+
+Answer: c
+Explanation: To find the number of odd factors, we can exclude any power of 2 and do the same. So, for 6500, we have (5 + 1)(1 + 1) = 6 * 2 = 12 odd positive factors.
+8. How many even positive integers are there in the number 7362?
+a) 16
+b) 58
+c) 35
+d) 165
+View Answer
+
+Answer: a
+Explanation: To find the number of even factors, we can multiply the number of even factors by the power of 2. For 5065, we have (3 + 1)(1 + 1)(2) = 4 * 2 * 2 = 16 even factors.
+9. Calculate sum of divisors of n = 8620.
+a) 7549
+b) 54201
+c) 18102
+d) 654
+View Answer
+
+Answer: c
+Explanation: The prime factorization of 1800 is 431 * 22 * 5 and
+S(22) = 1 + 2 + 4 = 7
+S(52) = 1 + 5 = 6
+Therefore, S(1800) = 6 * 7 * 431 = 18102.
+10. Find the odd positive integer of the number 4380.
+a) 108
+b) 48
+c) 75
+d) 8
+View Answer
+
+Answer: b
+Explanation: To find the number of odd factors, we can exclude any power of 2 and do the same. So, for 6500, we have (5 + 1)(3 + 1)(1 + 1) = 6 * 4 * 2 = 48 odd positive factors.
+1. For a gaming competition, 8 girls are planning on splitting up into 3 (non-empty) groups. How many ways can they split up into these groups?
+a) 465
+b) 1056
+c) 966
+d) 3215
+View Answer
+
+Answer: c
+Explanation: Using the inclusion-exclusion principle, the total number of ways of splitting the girls into 3 groups is 38 + 3.(28) + 3.(18). However, since the three groups are identical we need to divide by 3!. Hence, the answer is 966.
+2. In a picnic with 20 persons where 6 chocolates will be given to the top 8 children(the chocolates are distinct: first, second). How many ways can this be done?
+a) 18C6
+b) 20P6
+c) 25C4 * 6!
+d) 19P5
+View Answer
+
+Answer: b
+Explanation: This is a permutation problem since the chocolates are distinct. The answer is P(20, 6) -> the number of ways to arrange 20 things taken 6 at a time -> which is [Math Processing Error] = 20*19*18*17*16*15.
+3. How many ways can one choose 20 cookies from 45 different types (assuming there are at least 20 of each type)?
+a) 64C21 * 15
+b) 64C20
+c) 44C20 * 2!
+d) 65C22
+View Answer
+
+Answer: b
+Explanation: Imagine the 20 cookies one is choosing are indistinguishable dots. The 45 different types of cookies are like 45 distinguishable boxes and so the answer is C(45 + 20-1, 20) = 64C20.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Assume that it is an afternoon. What is the time on the 24 hour clock after 146 hours?
+a) 12:10 pm
+b) 8:30 am
+c) 3 am
+d) 2 pm
+View Answer
+
+Answer: d
+Explanation: Divide 146 with 24. The remainder is the time on the 24 hour clock. So, 146 = 6*24 + 2 and the result is 2pm.
+5. There are 28 identical oranges that are to be distributed among 8 distinct girls. How many ways are there to distribute the oranges?
+a) 22P7
+b) 34C6
+c) 35C7
+d) 28C8
+View Answer
+
+Answer: c
+Explanation: By the definition of star and bar problem, there are n+r-1Cr-1 possible distributions of n identical objects among r distinct bins. Now, there are n = 28 identical objects and r = 8 distinct bins. Using the formula above, there are 35C7 ways to distribute the oranges.
+Check this: Computer Science Books | BCA MCQs
+6. There are 5 distinct fruits. How many ways can they be planted into identical fruit plants?
+a) 87
+b) 52
+c) 76
+d) 128
+View Answer
+
+Answer: b
+Explanation: These fruits can be placed into 1, 2, 3, 4 or 5 fruit plants. The number of distributions of fruits into fruit plants will thus be the sum of Stirling numbers of the second kind: S(5,1) + S(5,2) + S(5,3) + S(5,4) + S(5,5) = 1 + 15 + 25 + 10 + 1 = 52.
+7. A woman has 14 identical pens to distribute among a group of 10 distinct students. How many ways are there to distribute the 14 pens such that each student gets at least one pencil?
+a) 15C10
+b) 10C5 * 11
+c) 15C8 * 4!
+d) 13C9
+View Answer
+
+Answer: d
+Explanation: For this type of problem, n>=r must be true and so according to stars and bars model, the number of possible arrangements of stars and bars is n-1Cr-1 or equivalently, there are n-1Cr-1 distributions of n identical objects into r distinct non-empty bins. In this example, there are n = 14 identical objects to be distributed among r=10 distinct bins. Using the above formula, the number of possible distributions is 13C9.
+8. Suppose that M is the product of k distinct primes. Find the number of ways to write N as the product of positive integers(>1), where the order of terms does not matter.
+a) MCN-k
+b) NCM
+c) N * Bk
+d) Bk
+View Answer
+
+Answer: d
+Explanation: To solve the problem first find the prime factorization of each term of the product, and place the factors of each term into a box. Then, since N is the product of distinct prime factors, each prime factor appears in a unique box. Since the product of all of these terms is N, each prime factor must be in a box. Conversely, for any arrangement of these n distinct primes into r identical boxes, multiply the primes in a box to create a term and the product of these terms results in N. This establishes the bijection and the number of ways is Bk which is Bell number.
+9. How many ways are there to place 7 differently colored toys into 5 identical urns if the urns can be empty? Note that all balls have to be used.
+a) 320
+b) 438
+c) 1287
+d) 855
+View Answer
+
+Answer: d
+Explanation: The problem can be described as distinct objects into any number of identical bins and this number can be found with B7 = ∑S(7,k), where S(7,k) is the number of distributions of 5 distinct objects into k identical non-empty bins, so that S(7,1) = 1, S(7,2) = 63, S(7,3) = 301, S(7,4) = 350 and S(7,5) = 140. These values can be found using the recurrence relation identity for Stirling numbers of the second kind. Thus, B7 = 1 + 63 + 301 + 350 + 140 = 855.
+10. Suppose, there are 7 of your friends who want to eat pizza (8 distinct people in total). You order a 16-cut pizza (16 identical slices). How many distributions of pizza slices are there if each person gets at least one slice of pizza?
+a) 346
+b) 6435
+c) 3214
+d) 765
+View Answer
+
+Answer: b
+Explanation: This problem can be viewed as identical objects distributed into distinct non-empty bins. Using the formula for these kind of distributions n-1Cr-1 = 15C7 = 6435. Thus, there are distributions of the pizza slices.
+1. The linear system Cx = d is known as _________ if d! = 0.
+a) homogeneous
+b) heterogeneous
+c) nonhomogeneous
+d) augmented system
+View Answer
+
+Answer: c
+Explanation: A linear system Cx = d is known as a homogeneous system if d! = 0. The homogeneous linear system Ax = 0 is called its corresponding homogeneous linear system.
+2. Every linear equation determines a _______ in n-dimensional space for n variables.
+a) shipshape
+b) hyperplane
+c) cone
+d) pyramid
+View Answer
+
+Answer: b
+Explanation: In an m-dimensional space, every linear equation produces a hyperplane for n variables. The solution set is the intersection of these hyperplanes and is planar which may have any dimension smaller than m.
+3. Determine all possibilities for the number of solutions of the system of 7 equations in 5 unknowns and it has x1 = 0, x2 = −6, and x3 = 4 as a solution.
+a) unique or infinitely many
+b) unique
+c) finitely many
+d) zero
+View Answer
+
+Answer: a
+Explanation: Let i be the number of equations and j be the number of unknowns in the given system. Since i> j, the system has at least one solution x1 = 0, x2 = −6, and x3 = 4 and so it is consistent. Thus, it results in either a unique solution or infinitely many solutions.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Determine all possibilities for the solution set of the homogeneous system that has y1 = 6, y2 = −4, y3 = 0 as a solution.
+a) zero
+b) infinitely many
+c) finitely many
+d) only one
+View Answer
+
+Answer: b
+Explanation: Since m<n, the system is either inconsistent or has infinitely many solutions. Since y1 = 6, y2 = −4, y3 = 0 is a solution of the system, the system is not inconsistent. Thus the only possibility is infinitely many solutions.
+5. Determine all possibilities for the solution set of the homogeneous system of 5 equations in 3 unknowns and the rank of the system is 3.
+a) more than two
+b) only one
+c) zero
+d) infinite
+View Answer
+
+Answer: c
+Explanation: Since the rank of this homogeneous system(which is always consistent) and the number of unknowns are equal, the only possible solution is zero and it is a unique solution.
+Take Discrete Mathematics Tests Now!
+6. Determine all possibilities for the solution set of a homogeneous system that has y1 = 5, y2 = −3, y3 = 2 as a solution.
+a) one
+b) finitely many
+c) infinitely many
+d) either one or infinitely many
+View Answer
+
+Answer: c
+Explanation: The possibilities for the solution set for any homogeneous system is either a unique solution or infinitely many solutions. Since the homogeneous system has the zero solution and y1 = 5, y2 = −3, y3 = 2 is another solution, it has at least two distinct solution. Thus the only possibility is infinitely many solutions.
+7. Determine all possibilities for the solution set of the system of 2 equations in 3 unknowns that has x1 = 4, x2 = −7, x3 = 0 as a solution.
+a) one or finitely many
+b) infinite
+c) finite
+d) zero
+View Answer
+
+Answer: b
+Explanation: Since m1 = 4, x2 = −7, x3 = 0 is a solution of the system, the system is not inconsistent. Thus the only possibility is infinitely many solutions.
+8. Determine all possibilities for the solution set of a homogeneous system of 4 equations in 4 unknowns.
+a) only one
+b) finitely many or zero
+c) zero
+d) one or infinitely many
+View Answer
+
+Answer: b
+Explanation: Here the number of equations and the number of unknowns are equal and the system is homogeneous, so it may have the zero solution or infinitely many solutions.
+9. Determine all possibilities for the solution set of a homogeneous system of 6 equations in 5 unknowns.
+a) only one
+b) zero
+c) one or infinitely many
+d) finitely many
+View Answer
+
+Answer: c
+Explanation: Since the system is homogeneous and there are more equations than the number of unknowns, so the possibilities are either a unique solution or infinitely many solutions. However, if the rank r of the system is 5, then it can be a unique solution as well as if r<5, then there are infinitely many solutions.
+10. Determine all possibilities for the solution set of a homogeneous system of 5 equations in 4 unknowns and the rank of the system is 3.
+a) finite
+b) zero or finitely many
+c) only one
+d) infinite
+View Answer
+
+Answer: d
+Explanation: A homogeneous system is consistent. The rank is r = 3 and the number of variables is n = 4. Hence there is n – r = 1 free variable. Thus there are infinitely many solutions.

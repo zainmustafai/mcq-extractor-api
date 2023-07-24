@@ -1,0 +1,376 @@
+1. In distributed system, each processor has its own ___________
+a) local memory
+b) clock
+c) both local memory and clock
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+2. If one site fails in distributed system then ___________
+a) the remaining sites can continue operating
+b) all the sites will stop working
+c) directly connected sites will stop working
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+3. Network operating system runs on ___________
+a) server
+b) every system in the network
+c) both server and every system in the network
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Subscribe Now: Operating System Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which technique is based on compile-time program transformation for accessing remote data in a distributed-memory parallel system?
+a) cache coherence scheme
+b) computation migration
+c) remote procedure call
+d) message passing
+View Answer
+
+Answer: b
+Explanation: None.
+5. Logical extension of computation migration is ___________
+a) process migration
+b) system migration
+c) thread migration
+d) data migration
+View Answer
+
+Answer: a
+Explanation: None.
+Participate in Operating System Certification Contest of the Month Now!
+6. Processes on the remote systems are identified by ___________
+a) host ID
+b) host name and identifier
+c) identifier
+d) process ID
+View Answer
+
+Answer: b
+Explanation: None.
+7. Which routing technique is used in a distributed system?
+a) fixed routing
+b) virtual routing
+c) dynamic routing
+d) all of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+8. In distributed systems, link and site failure is detected by ___________
+a) polling
+b) handshaking
+c) token passing
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+9. The capability of a system to adapt the increased service load is called ___________
+a) scalability
+b) tolerance
+c) capacity
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. Internet provides _______ for remote login.
+a) telnet
+b) http
+c) ftp
+d) rpc
+View Answer
+
+Answer: a
+Explanation: None.
+1. What is not true about a distributed system?
+a) It is a collection of processor
+b) All processors are synchronized
+c) They do not share memory
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+2. What are the characteristics of processor in distributed system?
+a) They vary in size and function
+b) They are same in size and function
+c) They are manufactured with single purpose
+d) They are real-time devices
+View Answer
+
+Answer: a
+Explanation: None.
+3. What are the characteristics of a distributed file system?
+a) Its users, servers and storage devices are dispersed
+b) Service activity is not carried out across the network
+c) They have single centralized data repository
+d) There are multiple dependent storage devices
+View Answer
+
+Answer: a
+Explanation: None.
+Subscribe Now: Operating System Newsletter | Important Subjects Newsletters
+advertisement
+
+4. What is not a major reason for building distributed systems?
+a) Resource sharing
+b) Computation speedup
+c) Reliability
+d) Simplicity
+View Answer
+
+Answer: d
+Explanation: None.
+5. What are the types of distributed operating system?
+a) Network Operating system
+b) Zone based Operating system
+c) Level based Operating system
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+Get Free Certificate of Merit in Operating System Now!
+6. What are characteristic of Network Operating Systems?
+a) Users are aware of multiplicity of machines
+b) They are transparent
+c) They are simple to use
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+7. How is access to resources of various machines is done?
+a) Remote logging using ssh or telnet
+b) Zone are configured for automatic access
+c) FTP is not used
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+8. What are the characteristics of Distributed Operating system?
+a) Users are aware of multiplicity of machines
+b) Access is done like local resources
+c) Users are aware of multiplicity of machines
+d) They have multiple zones to access files
+View Answer
+
+Answer: b
+Explanation: None.
+9. What are the characteristics of data migration?
+a) transfer data by entire file or immediate portion required
+b) transfer the computation rather than the data
+c) execute an entire process or parts of it at different sites
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: None.
+10. What are the characteristics of computation migration?
+a) transfer data by entire file or immediate portion required
+b) transfer the computation rather than the data
+c) execute an entire process or parts of it at different sites
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: None.
+11. What are the characteristics of process migration?
+a) transfer data by entire file or immediate portion required
+b) transfer the computation rather than the data
+c) execute an entire process or parts of it at different sites
+d) none of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+1. What are the parts of network structure?
+a) Workstation
+b) Gateway
+c) Laptop
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+2. What is a valid network topology?
+a) Multiaccess bus
+b) Ring
+c) Star
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+3. What are sites in network topology compared?
+a) Basic cost
+b) Communication cost
+c) Reliability
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which design features of a communication network are important?
+a) Naming and name resolution
+b) Routing strategies
+c) Connection strategies
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+5. What are the characteristics of Naming and Name resolution?
+a) name systems in the network
+b) address messages with the process-id
+c) virtual circuit
+d) message switching
+View Answer
+
+Answer: b
+Explanation: None.
+Take Operating System Tests Now!
+6. What are routing strategies which is not used in distributed systems?
+a) Fixed routing
+b) Token routing
+c) Virtual circuit
+d) Dynamic routing
+View Answer
+
+Answer: c
+Explanation: None.
+7. What are the connection strategies not used in distributed systems?
+a) Circuit switching
+b) Message switching
+c) Token switching
+d) Packet switching
+View Answer
+
+Answer: c
+Explanation: None.
+8. How is are collisions avoided in network?
+a) Carrier sense with multiple access (CSMA); collision detection (CD)
+b) Carrier sense multiple access with collision avoidance
+c) Message slots
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+9. What is a common problem found in distributed system?
+a) Process Synchronization
+b) Communication synchronization
+c) Deadlock problem
+d) Power failure
+View Answer
+
+Answer: c
+Explanation: None.
+1. How many layers does the Internet model ISO consist of?
+a) Three
+b) Five
+c) Seven
+d) Eight
+View Answer
+
+Answer: c
+Explanation: None.
+2. Which layer is responsible for The process-to-process delivery?
+a) Network
+b) Transport
+c) Application
+d) Physical
+View Answer
+
+Answer: b
+Explanation: None.
+3. Which layer is the layer closest to the transmission medium?
+a) Physical
+b) Data link
+c) Network
+d) Transport
+View Answer
+
+Answer: a
+Explanation: None.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Header are ______ when data packet moves from upper to the lower layers?
+a) Modified
+b) Removed
+c) Added
+d) All of the mentioned
+View Answer
+
+Answer: c
+Explanation: None.
+5. Which layer lies between the transport layer and data link layer?
+a) Physical
+b) Network
+c) Application
+d) Session
+View Answer
+
+Answer: b
+Explanation: None.
+Check this: BCA MCQs | Computer Science MCQs
+6. Which of the following is an application layer service?
+a) Mail service
+b) File transfer
+c) Remote access
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+7. What are the different ways distributed may suffer?
+a) Failure of a link
+b) Failure of a site
+c) Loss of message
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+8. What are design issues in distributed system structure?
+a) Scalability
+b) Fault-tolerance
+c) Clustering
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: None.
+9. In which OSI layer encryption and decryption happens?
+a) Application
+b) Presentation
+c) Transport
+d) Data Link
+View Answer
+
+Answer: b
+Explanation: None.
+10. What are the important steps followed when recovery from failure happens?
+a) Post repairing integration with main system should happen smoothly and gracefully
+b) Upon link failure both parties at end must not be notified
+c) Fault recovery system must me adjusted
+d) Failures are logged systematically
+View Answer
+
+Answer: a
+Explanation: None.

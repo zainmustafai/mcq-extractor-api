@@ -1,0 +1,1 @@
+export const getAllMCQsBySubjectID = async (subjectid) => {};

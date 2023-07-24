@@ -1,0 +1,636 @@
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Moore Machine”.
+
+1. Moore Machine is an application of:
+a) Finite automata without input
+b) Finite automata with output
+c) Non Finite automata with output
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Finite automaton with output is categorized din two parts: Moore M/C and Mealy M/C.
+2. In Moore machine, output is produced over the change of:
+a) transitions
+b) states
+c) all of the mentioned
+d) none of the mentioned
+View Answer
+
+Answer: b
+Explanation: Moore machine produces an output over the change of transition states while mealy machine does it so for transitions itself.
+3. For a give Moore Machine, Given Input=’101010’, thus the output would be of length:
+a) |Input|+1
+b) |Input|
+c) |Input-1|
+d) Cannot be predicted
+View Answer
+
+Answer: a
+Explanation: Initial state, from which the operations begin is also initialized with a value.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. Statement 1: Null string is accepted in Moore Machine.
+Statement 2: There are more than 5-Tuples in the definition of Moore Machine.
+Choose the correct option:
+a) Statement 1 is true and Statement 2 is true
+b) Statement 1 is true while Statement 2 is false
+c) Statement 1 is false while Statement 2 is true
+d) Statement 1 and Statement 2, both are false
+View Answer
+
+Answer: a
+Explanation: Even ε, when passed as an input to Moore machine produces an output.
+5. The total number of states and transitions required to form a moore machine that will produce residue mod 3.
+a) 3 and 6
+b) 3 and 5
+c) 2 and 4
+d) 2 and 5
+View Answer
+
+Answer: a
+Explanation:
+The total number of states & transitions required to form a moore machine is 3 & 6
+Check this: Automata Theory Books | Computer Science Books
+6. Complete the given table according to the given Moore machine.
+The table represents Q0, Q2, 0 to the given Moore machine
+
+Present State
+Next State
+Output
+
+0
+1
+
+Q0
+Q1
+Q2
+1
+Q1
+Q2
+
+1
+Q2
+
+Q0
+a) Q0, Q2, 0
+b) Q0, Q2, 1
+c) Q1, Q2, 1
+d) Q1, Q0, 0
+View Answer
+
+Answer: a
+Explanation: The table can be filled accordingly seeing the graph.
+7. What is the output for the given language?
+Language: A set of strings over ∑= {a, b} is taken as input and it prints 1 as an output “for every occurrence of a, b as its substring. (INPUT: abaaab)
+a) 0010001
+b) 0101010
+c) 0111010
+d) 0010000
+View Answer
+
+Answer: a
+Explanation: The outputs are as per the input, produced.
+8. The output alphabet can be represented as:
+a) δ
+b) ∆
+c) ∑
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: Source-The tuple definition of Moore and mealy machine comprises one new member i.e. output alphabet as these are finite machines with output.
+9. The O/P of Moore machine can be represented in the following format:
+a) Op(t)=δ(Op(t))
+b) Op(t)=δ(Op(t)i(t))
+c) Op(t): ∑
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Op(t)=δ(Op(t)) is the defined definition of how the output is received on giving a specific input to Moore machine.
+10. Which of the following is a correct statement?
+a) Moore machine has no accepting states
+b) Mealy machine has accepting states
+c) We can convert Mealy to Moore but not vice versa
+d) All of the mentioned
+View Answer
+
+Answer: a
+Explanation: Statement a and b is correct while c is false. Finite machines with output have no accepting states and can be converted within each other
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “The Language of DFA”
+
+1. How many languages are over the alphabet R?
+a) countably infinite
+b) countably finite
+c) uncountable finite
+d) uncountable infinite
+View Answer
+
+Answer: d
+Explanation: A language over an alphabet R is a set of strings over A which is uncountable and infinite.
+2. According to the 5-tuple representation i.e. FA= {Q, ∑, δ, q, F}
+Statement 1: q ϵ Q’; Statement 2: FϵQ
+a) Statement 1 is true, Statement 2 is false
+b) Statement 1 is false, Statement 2 is true
+c) Statement 1 is false, Statement 2 may be true
+d) Statement 1 may be true, Statement 2 is false
+View Answer
+
+Answer: b
+Explanation: Q is the Finite set of states, whose elements i.e. the states constitute the finite automata.
+3. δˆ tells us the best:
+a) how the DFA S behaves on a word u
+b) the state is the dumping state
+c) the final state has been reached
+d) Kleene operation is performed on the set
+View Answer
+
+Answer: a
+Explanation: δ or the Transition function describes the best, how a DFA behaves on a string where to transit next, which direction to take.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Which of the following option is correct?
+A = {{abc, aaba}. {ε, a, bb}}
+a) abcbb ₵ A
+b) ε₵A
+c) ε may not belong to A
+d) abca ₵ A
+View Answer
+
+Answer: b
+Explanation: As the question has dot operation, ε will not be a part of the concatenated set. Had it been a union operation, ε would be a part of the operated set.
+5. For a DFA accepting binary numbers whose decimal equivalent is divisible by 4, what are all the possible remainders?
+a) 0
+b) 0,2
+c) 0,2,4
+d) 0,1,2,3
+View Answer
+
+Answer: d
+Explanation: All the decimal numbers on division would lead to only 4 remainders i.e. 0,1,2,3 (Property of Decimal division).
+Check this: Computer Science Books | Computer Science MCQs
+6. Which of the following x is accepted by the given DFA (x is a binary string ∑= {0,1})?
+The given DFA accepts all binary strings that they are divisible by 3 & 2
+a) divisible by 3
+b) divisible by 2
+c) divisible by 2 and 3
+d) divisible by 3 and 2
+View Answer
+
+Answer: d
+Explanation: The given DFA accepts all the binary strings such that they are divisible by 3 and 2.Thus, it can be said that it also accepts all the strings which is divisible by 6.
+7. Given:
+L1= {xϵ ∑*|x contains even no’s of 0’s}
+L2= {xϵ ∑*|x contains odd no’s of 1’s}
+No of final states in Language L1 U L2?
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: c
+Explanation:
+The number of final states in Language L1 U L2 is 3
+8. The maximum number of transition which can be performed over a state in a DFA?
+∑= {a, b, c}
+a) 1
+b) 2
+c) 3
+d) 4
+View Answer
+
+Answer: c
+Explanation: The maximum number of transitions which a DFA allows for a language is the number of elements the transitions constitute.
+9. The maximum sum of in degree and out degree over a state in a DFA can be determined as:
+∑= {a, b, c, d}
+a) 4+4
+b) 4+16
+c) 4+0
+d) depends on the Language
+View Answer
+
+Answer: d
+Explanation: The out degree for a DFA I fixed while the in degree depends on the number of states in the DFA and that cannot be determined without the dependence over the Language.
+10. The sum of minimum and maximum number of final states for a DFA n states is equal to:
+a) n+1
+b) n
+c) n-1
+d) n+2
+View Answer
+
+Answer: a
+Explanation: The maximum number of final states for a DFA can be total number of states itself and minimum would always be 1, as no DFA exits without a final state. Therefore, the solution is n+1.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Finite Automata-Introduction”.
+
+1. Assume the R is a relation on a set A, aRb is partially ordered such that a and b are _____________
+a) reflexive
+b) transitive
+c) symmetric
+d) reflexive and transitive
+View Answer
+
+Answer: d
+Explanation: A partially ordered relation refers to one which is Reflexive, Transitive and Antisymmetric.
+2. The non- Kleene Star operation accepts the following string of finite length over set A = {0,1} | where string s contains even number of 0 and 1
+a) 01,0011,010101
+b) 0011,11001100
+c) ε,0011,11001100
+d) ε,0011,11001100
+View Answer
+
+Answer: b
+Explanation: The Kleene star of A, denoted by A*, is the set of all strings obtained by concatenating zero or more strings from A.
+3. A regular language over an alphabet ∑ is one that cannot be obtained from the basic languages using the operation
+a) Union
+b) Concatenation
+c) Kleene*
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: Union, Intersection, Concatenation, Kleene*, Reverse are all the closure properties of Regular Language.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Statement 1: A Finite automata can be represented graphically; Statement 2: The nodes can be its states; Statement 3: The edges or arcs can be used for transitions
+Hint: Nodes and Edges are for trees and forests too.
+Which of the following make the correct combination?
+a) Statement 1 is false but Statement 2 and 3 are correct
+b) Statement 1 and 2 are correct while 3 is wrong
+c) None of the mentioned statements are correct
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: It is possible to represent a finite automaton graphically, with nodes for states, and arcs for transitions.
+5. The minimum number of states required to recognize an octal number divisible by 3 are/is
+a) 1
+b) 3
+c) 5
+d) 7
+View Answer
+
+Answer: b
+Explanation: According to the question, minimum of 3 states are required to recognize an octal number divisible by 3.
+Check this: Computer Science MCQs | Computer Science Books
+6. Which of the following is not a part of 5-tuple finite automata?
+a) Input alphabet
+b) Transition function
+c) Initial State
+d) Output Alphabet
+View Answer
+
+Answer: d
+Explanation: A FA can be represented as FA = (Q, ∑, δ, q0, F) where Q=Finite Set of States, ∑=Finite Input Alphabet, δ=Transition Function, q0=Initial State, F=Final/Acceptance State).
+7. If an Infinite language is passed to Machine M, the subsidiary which gives a finite solution to the infinite input tape is ______________
+a) Compiler
+b) Interpreter
+c) Loader and Linkers
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: A Compiler is used to give a finite solution to an infinite phenomenon. An example of an infinite phenomenon is Language C, etc.
+8. The number of elements in the set for the Language L={xϵ(∑r) *|length if x is at most 2} and ∑={0,1} is _________
+a) 7
+b) 6
+c) 8
+d) 5
+View Answer
+
+Answer: a
+Explanation: ∑r = {1,0} and a Kleene* operation would lead to the following set=COUNT{ε,0,1,00,11,01,10} = 7.
+9. For the following change of state in FA, which of the following codes is an incorrect option?
+a) δ (m, 1) = n
+b) δ (0, n) = m
+c) δ (m,0) = ε
+d)
+
+s: accept = false; cin >> char;
+if char = "0" goto n;
+View Answer
+Answer: b
+Explanation: δ(QX∑) = Q1 is the correct representation of change of state. Here, δ is called the Transition function.
+10. Given: ∑= {a, b}
+L= {xϵ∑*|x is a string combination}
+∑4 represents which among the following?
+a) {aa, ab, ba, bb}
+b) {aaaa, abab, ε, abaa, aabb}
+c) {aaa, aab, aba, bbb}
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: ∑* represents any combination of the given set while ∑x represents the set of combinations with length x where x ϵ I.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Mealy Machine”.
+
+1. In mealy machine, the O/P depends upon?
+a) State
+b) Previous State
+c) State and Input
+d) Only Input
+View Answer
+
+Answer: c
+Explanation: Definition of Mealy Machine.
+2. Which of the given are correct?
+a) Moore machine has 6-tuples
+b) Mealy machine has 6-tuples
+c) Both Mealy and Moore has 6-tuples
+d) None of the mentioned
+View Answer
+
+Answer: c
+Explanation: Finite Automaton with Output has a common definition for both the categories.
+3. The following mealy machine outputs which of the following?
+The following mealy machine outputs 2’s Complement
+a) 9’s Complement
+b) 2’s Complement
+c) 1’s Complement
+d) 10’s Complement
+View Answer
+
+Answer: b
+Explanation: The input can be taken in form of a binary string and can be verified.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. The O/P of Mealy machine can be represented in the following format:
+a) Op(t)= δ(Op(t))
+b) Op(t)= δ(Op(t)i(t))
+c) Op(t): ∑
+d) None of the mentioned
+View Answer
+
+Answer: b
+Explanation: The output of mealy machine depends on the present state as well as the input to that state.
+5.The ratio of number of input to the number of output in a mealy machine can be given as:
+a) 1
+b) n: n+1
+c) n+1: n
+d) none of the mentioned
+View Answer
+
+Answer: a
+Explanation: The number of output here follows the transitions in place of states as in Moore machine.
+Check this: Computer Science Books | Automata Theory Books
+6. Mealy and Moore machine can be categorized as:
+a) Inducers
+b) Transducers
+c) Turing Machines
+d) Linearly Bounder Automata
+View Answer
+
+Answer: b
+Explanation: They are collectively known as Transducers.
+7. The major difference between Mealy and Moore machine is about:
+a) Output Variations
+b) Input Variations
+c) All of the mentioned
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Mealy and Moore machine vary over how the outputs depends on prior one (transitions) and on the latter one(states).
+8. Statement 1: Mealy machine reacts faster to inputs.
+Statement 2: Moore machine has more circuit delays.
+Choose the correct option:
+a) Statement 1 is true and Statement 2 is true
+b) Statement 1 is true but Statement 2 is false
+c) Statement 1 is false and Statement 2 is true
+d) None of the mentioned is true
+View Answer
+
+Answer: a
+Explanation: Being an input dependent and output capable FSM, Mealy machine reacts faster to inputs.
+9. Which of the following does the given Mealy machine represents?
+The following mealy machine outputs 1’s Complement
+a) 9’s Complement
+b) 2’s Complement
+c) 1’s Complement
+d) 10’s Complement
+View Answer
+
+Answer: c
+Explanation: Inputs can be taken and can be verified.
+10. Which one of the following is true?
+A mealy machine
+a) produces a language
+b) produces a grammar
+c) can be converted to NFA
+d) has less circuit delays
+View Answer
+
+Answer: d
+Explanation: It does not produce a language or grammar or can be converted to a NFA.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “Equivalence of NFA and DFA”.
+
+1. Under which of the following operation, NFA is not closed?
+a) Negation
+b) Kleene
+c) Concatenation
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: NFA is said to be closed under the following operations:
+a) Union
+b) Intersection
+c) Concatenation
+d) Kleene
+e) Negation
+2. It is less complex to prove the closure properties over regular languages using
+a) NFA
+b) DFA
+c) PDA
+d) Can’t be said
+View Answer
+
+Answer: a
+Explanation: We use the construction method to prove the validity of closure properties of regular languages. Thus, it can be observe, how tedious and complex is the construction of a DFA as compared to an NFA with respect to space.
+3. Which of the following is an application of Finite Automaton?
+a) Compiler Design
+b) Grammar Parsers
+c) Text Search
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: There are many applications of finite automata, mainly in the field of Compiler Design and Parsers and Search Engines.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. John is asked to make an automaton which accepts a given string for all the occurrence of ‘1001’ in it. How many number of transitions would John use such that, the string processing application works?
+a) 9
+b) 11
+c) 12
+d) 15
+View Answer
+
+Answer: a
+Explanation:
+Number of transitions for the string processing application works is 9
+5. Which of the following do we use to form an NFA from a regular expression?
+a) Subset Construction Method
+b) Power Set Construction Method
+c) Thompson Construction Method
+d) Scott Construction Method
+View Answer
+
+Answer: c
+Explanation: Thompson Construction method is used to turn a regular expression in an NFA by fragmenting the given regular expression through the operations performed on the input alphabets.
+Check this: Automata Theory Books | Computer Science Books
+6. Which among the following can be an example of application of finite state machine(FSM)?
+a) Communication Link
+b) Adder
+c) Stack
+d) None of the mentioned
+View Answer
+
+Answer: a
+Explanation: Idle is the state when data in form of packets is send and returns if NAK is received else waits for the NAK to be received.
+7. Which among the following is not an application of FSM?
+a) Lexical Analyser
+b) BOT
+c) State charts
+d) None of the mentioned
+View Answer
+
+Answer: d
+Explanation: Finite state automation is used in Lexical Analyser, Computer BOT (used in games), State charts, etc.
+8. L1= {w | w does not contain the string tr }
+L2 = {w | w does contain the string tr}
+Given ∑ = {t, r}, The difference of the minimum number of states required to form L1 and L2?
+a) 0
+b) 1
+c) 2
+d) Cannot be said
+View Answer
+
+Answer: a
+Explanation:
+The difference of the minimum number of states required to form L1 & L2 is 0
+9. Predict the number of transitions required to automate the following language using only 3 states:
+L = {w | w ends with 00}
+a) 3
+b) 2
+c) 4
+d) Cannot be said
+View Answer
+
+Answer: a
+Explanation:
+The number of transitions required to automate is 3
+10. The total number of states to build the given language using DFA:
+L = {w | w has exactly 2 a’s and at least 2 b’s}
+a) 10
+b) 11
+c) 12
+d) 13
+View Answer
+
+Answer: a
+Explanation: We need to make the number of a as fixed i.e. 2 and b can be 2 or more. Thus, using this condition a finite automata can be created using 1 states.
+
+This set of Automata Theory Multiple Choice Questions & Answers (MCQs) focuses on “The Language of NFA”.
+
+1. Subset Construction method refers to:
+a) Conversion of NFA to DFA
+b) DFA minimization
+c) Eliminating Null references
+d) ε-NFA to NFA
+View Answer
+
+Answer: a
+Explanation: The conversion of a non-deterministic automata into a deterministic one is a process we call subset construction or power set construction.
+2. Given Language:
+Ln= {xϵ {0,1} * | |x|≥n, nth symbol from the right in x is 1}
+How many state are required to execute L3 using NFA?
+a) 16
+b) 15
+c) 8
+d) 7
+View Answer
+
+Answer: b
+Explanation: The finite automaton for the given language is made and thus, the answer can be obtained.
+3. Which of the following does the given NFA represent?
+The given diagram represents {11, 110} * {0} the given NFA
+a) {11, 101} * {01}
+b) {110, 01} * {11}
+c) {11, 110} * {0}
+d) {00, 110} * {1}
+View Answer
+
+Answer: c
+Explanation: The given diagram can be analysed and thus the option can be seeked.
+Subscribe Now: Automata Theory Newsletter | Important Subjects Newsletters
+advertisement
+4. The number of transitions required to convert the following into equivalents DFA:
+The number of transitions required to convert is 2
+a) 2
+b) 3
+c) 1
+d) 0
+View Answer
+
+Answer: a
+Explanation:
+Transitions required to convert the following into equivalents DFA
+5. If L is a regular language, Lc and Lr both will be:
+a) Accepted by NFA
+b) Rejected by NFA
+c) One of them will be accepted
+d) Cannot be said
+View Answer
+
+Answer: a
+Explanation: If L is a regular Language, Lc and Lr both are regular even.
+Check this: Computer Science MCQs | Computer Science Books
+6. In NFA, this very state is like dead-end non final state:
+a) ACCEPT
+b) REJECT
+c) DISTINCT
+d) START
+View Answer
+
+Answer: b
+Explanation: REJECT state will be like a halting state which rejects a particular invalid input.
+7. We can represent one language in more one FSMs, true or false?
+a) TRUE
+b) FALSE
+c) May be true
+d) Cannot be said
+View Answer
+
+Answer: a
+Explanation: We can represent one language in more one FSMs, example for a same language we have a DFA and an equivalent NFA.
+8. The production of form non-terminal -> ε is called:
+a) Sigma Production
+b) Null Production
+c) Epsilon Production
+d) All of the mentioned
+View Answer
+
+Answer: b
+Explanation: The production of form non-terminal ->ε is call null production.
+9. Which of the following is a regular language?
+a) String whose length is a sequence of prime numbers
+b) String with substring wwr in between
+c) Palindrome string
+d) String with even number of Zero’s
+View Answer
+
+Answer: d
+Explanation: DFSM’s for the first three option is not possible; hence they aren’t regular.
+10. Which of the following recognizes the same formal language as of DFA and NFA?
+a) Power set Construction
+b) Subset Construction
+c) Robin-Scott Construction
+d) All of the mentioned
+View Answer
+
+Answer: d
+Explanation: All the three option refers to same technique if distinguishing similar constructions for different type of automata.

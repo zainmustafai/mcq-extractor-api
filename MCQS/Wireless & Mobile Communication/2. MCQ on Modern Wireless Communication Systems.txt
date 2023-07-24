@@ -1,0 +1,589 @@
+1. Which of the following multiple access techniques are used by second generation cellular systems?
+a) FDMA/FDD and TDMA/FDD
+b) TDMA/FDD and CDMA/FDD
+c) FDMA/FDD and CDMA/FDD
+d) FDMA/FDD only
+View Answer
+
+Answer: b
+Explanation: First generation cellular system used FDMA/FDD techniques. Second generation standards uses TDMA/FDD and CDMA/FDD multiple access techniques. 2G networks are digital.
+2. Which one is not a TDMA standard of second generation networks?
+a) GSM
+b) IS-136
+c) AMPS
+d) PDC
+View Answer
+
+Answer: c
+Explanation: GSM (Global System Mobile), IS-136 (Interim Standard 136) and PDC (Pacific Digital Cellular) are the three most popular TDMA standards of second generation. AMPS is a first generation standard.
+3. Which of the following is a CDMA standard of second generation network?
+a) IS-95
+b) IS-136
+c) ETACS
+d) EDGE
+View Answer
+
+Answer: a
+Explanation: Interim Standard 95 (IS-95) is the most popular CDMA standard of second generation networks. IS-136 is a TDMA standard of 2G. EDGE is a standard of 2.5G and ETACS is a 1G standard.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Popular 2G CDMA standard IS-95 is also known as ______________
+a) CdmaOne
+b) CdmaTwo
+c) IS-136
+d) IS-95B
+View Answer
+
+Answer: a
+Explanation: The popular 2G CDMA standard, Interim Standard (IS-95) is also known as CdmaOne. The 2.5G CDMA standard, IS-95B is called CdmaTwo. And IS-136 is a TDMA standard for 2G.
+5. How many users or voice channels are supported for each 200 KHz channel in GSM?
+a) Eight
+b) Three
+c) Sixty four
+d) Twelve
+View Answer
+
+Answer: a
+Explanation: GSM is a circuit switched system that divides each 200 KHz channel into eight 25 KHz time slots, i.e. each radio channel is divided into eight voice channels.
+Check this: Wireless and Mobile Communication Books | Electronics & Communication Engineering Books
+6. How many voice channels are supported for each 30 KHz radio channel in IS-136?
+a) Eight
+b) Thirty
+c) Three
+d) Sixteen
+View Answer
+
+Answer: c
+Explanation: Interim Standard 136 (IS-136) was popularly known as North American Digital Cellular (NADC) system. It divides each 30 KHz radio channel into three time slots, each of 10 KHz.
+7. How many users are supported in IS-95 for each 1.25 MHz?
+a) Eight
+b) Sixty four
+c) Sixteen
+d) Twenty five
+View Answer
+
+Answer: b
+Explanation: IS-95 supports upto 64 users which are orthogonally coded and simultaneously transmitted on each 1.25 MHz. The services of IS-95 standard are short messaging service, slotted paging, over-the-air activation, enhanced mobile station identities etc.
+8. Which modulation technique is used by GSM?
+a) GMSK
+b) BPSK
+c) QPSK
+d) GFSK
+View Answer
+
+Answer: a
+Explanation: GSM uses a form of modulation known as GMSK (Gaussian Minimum Shift Keying). It is a form of modulation with no phase discontinuities and provides data transmission with efficient spectrum usage.
+9. IS-95 uses which modulation technique?
+a) GMSK
+b) BPSK
+c) QAM
+d) AFSK
+View Answer
+
+Answer: b
+Explanation: IS- 95 uses BPSK (Binary Phase Shift Keying) with quadrature spreading. It is regarded as one of the most robust digital modulation technique and is used for long distance wireless communication.
+10. IS-136 uses which modulation technique?
+a) π/4 DQPSK
+b) BPSK
+c) GMSK
+d) AFSK
+View Answer
+
+Answer: a
+Explanation: IS-136 uses π/4 DQPSK modulation technique. This technique allows a bit rate of 48.6 Kbit/s with 30 KHz channel spacing which gives a bandwidth efficiency of 1.62 bit/s/Hz.
+11. Which is one of the disadvantages of 2G standards?
+a) Short Messaging Service (SMS)
+b) Digital modulation
+c) Limited capacity
+d) Limited Internet Browsing
+View Answer
+
+Answer: d
+Explanation: 2G technologies use circuit switched data modems that limits data users to a single circuit switched voice channel. The advantages of 2G network are that they are digital in nature and supports SMS service.
+12. GSM (Global System for Mobile) was earlier also known as _____________
+a) Group System Mobile
+b) Global Special Meaning
+c) Group Special Mobile
+d) Global Special Mobile
+View Answer
+
+Answer: c
+Explanation: GSM was earlier known as Group Special Mobile. As it became more global, the meaning of acronym was changed to Global System for Mobile.
+13. 2G CDMA standard, IS-95, was proposed by which company?
+a) Nippon Telephone and Telegraph (NTT)
+b) Qualcomm
+c) Bellcore and Motorola
+d) AT&T Bell Laboratories
+View Answer
+
+Answer: b
+Explanation: IS-95 was proposed by Qualcomm in early 1990s. Later it was adopted as a standard by Telecommunications Industry Association in TIA/EIA/IS-95 release published in 1995.
+14. Which one of the following 2G standard is used in Japan?
+a) IS-136
+b) GSM
+c) PDC
+d) AMPS
+View Answer
+
+Answer: c
+Explanation: PDC (Personal Digital Cellular) was standardized by Japanese Ministry of Posts and Telecommunication in 1991. It is similar to IS- 136, but with 25 KHz voice channels to be compatible with the Japanese analog channels.
+15. The 2G GSM technology uses a carrier separation of _____________
+a) 1.25 MHz
+b) 200 KHz
+c) 30 KHz
+d) 300 KHz
+View Answer
+
+Answer: b
+Explanation: The Global System for Mobile (GSM) uses a carrier separation of 200 KHz, each channel supporting upto eight users.
+1. What is the name of the web browsing format language supported by 2.5G technology?
+a) Wireless Application Protocol
+b) Hypertext Markup Language
+c) Extensible Markup Language
+d) Hypertext Transfer Protocol
+View Answer
+
+Answer: a
+Explanation: 2.5G technology supports a new web browsing format language, which is called Wireless Application Protocol (WAP). It allows standard web pages to be viewed in a compressed format specifically designed for small, portable hand held wireless devices.
+2. What is the name of the internet microbrowser technology used by NTT DoCoMo in Japan?
+a) Wireless Application Protocol
+b) I-mode
+c).W-mode
+d) Hypertext Markup Language
+View Answer
+
+Answer: b
+Explanation: I-mode is a wireless data service and Internet microbrowser technology introduced by NTT DoCoMo on its PDC network in 1998. It is currently used by other wireless services throughout the world.
+3. 2.5G upgrade path for a particular wireless carrier does not match the original 2G technology choice made earlier by the same carrier.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: As 2.5G is the upgradation of 2G technology, 2.5G upgradation path must match the original 2G technology. For example, 2.5G upgrade solution designed for GSM must dovetail with original GSM interface so that change of hardware is not required.
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+
+4. Which of the following is not a TDMA standard of 2.5G network?
+a) HSCSD
+b) GPRS
+c) EDGE
+d) GSM
+View Answer
+
+Answer: d
+Explanation: GSM (Global System for Mobile) is a TDMA standard for 2G network. HSCSD (High Speed Circuit Switched Data), GPRS (General Packet Radio Service) and EDGE (Enhanced Data rates for GSM Evolution) are TDMA standards of 2.5G technology.
+5. Which of the following is a 2.5G CDMA standard?
+a) IS-95
+b) Cdma2000
+c) IS-95B
+d) CdmaOne
+View Answer
+
+Answer: c
+Explanation: IS-95B (Interim Standard 95B) is code division multiple access standard for 2.5G. It is an upgradation of IS- 95 which is a second generation standard of CDMA.
+Take Wireless and Mobile Communications Practice Tests - Chapterwise!
+Start the Test Now: Chapter 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+6. HSCSD supports which 2G standard?
+a) GSM
+b) IS-136
+c) GSM and IS-136
+d) PDC
+View Answer
+
+Answer: a
+Explanation: High Speed Circuit Switched Data (HSCDC) supports the Global system for Mobile (GSM) standard. It only requires a software upgrade at the base station.
+7. How does HSCSD differs from the GSM to obtain higher speed data rate?
+a) By allowing single user to use one specific time slot
+b) By allowing single user to use consecutive user time slots
+c) By using 8-PSK modulation technique
+d) By allowing multiple users to use individual time slot
+View Answer
+
+Answer: b
+Explanation: HSCSD allows individual data users to use consecutive time slots in order to obtain higher speed data access on the GSM network. In case of GSM, it limits each user to use only one specific time slot.
+8. GPRS and EDGE supports which 2G standard?
+a) GSM only
+b) IS-136 only
+c) GSM and IS-136 both
+d) PDC
+View Answer
+
+9. How is HSCSD different from GPRS?
+a) Infrastructure
+b) Multiple Access Scheme
+c) Modulation technique
+d) Switching Technique
+View Answer
+
+Answer: d
+Explanation: GPRS is a packet based network. HSCSD dedicates circuit switched channels to specific users whereas GPRS supports many more users, but in a bursty manner.
+10. What changes GPRS need to acquire while upgrading itself from GSM?
+a) A whole new base station
+b) New transceiver at base station
+c) New channel cards
+d) New packet overlay including routers and gateways
+View Answer
+
+Answer: d
+Explanation: GPRS requires a GSM operator to install new routers and Internet gateways at the base station along with new software upgrade. New base station RF hardware is not required.
+11. Which new modulation technique is used by EDGE?
+a) BPSK
+b) 8- PSK
+c) DQPSK
+d) AFSK
+View Answer
+
+Answer: b
+Explanation: EDGE uses a new digital modulation format, 8- PSK (Octal Phase Shift Keying). It is used in addition to GSM’s standard GMSK (Gaussian Minimum Shift Keying) modulation.
+12. Various air interface formats used by EDGE are also known as ___________
+a) Modulation and coding schemes
+b) Coding schemes
+c) Modulating air interface
+d) Air interface coding schemes
+View Answer
+
+Answer: a
+Explanation: EDGE allows nine different air interface formats known as multiple modulation and coding schemes (MCS). Each MCS state may use either GMSK or 8- PSK modulation for network access, depending upon the instantaneous demands of the network and the operating conditions.
+13. EDGE is sometimes also referred as ____________
+a) HSCSD
+b) 3GPP
+c) EGPRS
+d) EGSCSD
+View Answer
+
+Answer: c
+Explanation: EDGE is sometimes also referred as Enhanced GPRS (EGPRS). It is an enhancement of a GSM network in which EDGE is introduced on top of the General Packet Radio Service (GPRS). It is used to transfer data in a packet switched mode on various time slots.
+14. What is one disadvantage of EDGE in comparison to HSCSD and GPRS?
+a) Low data rates
+b) Small coverage range
+c) Low speed
+d) No advancement
+View Answer
+
+Answer: b
+Explanation: Because of the higher data rates and relaxed error control covering in many of the selectable air interface formats, the coverage range is smaller in EDGE than in HSCSD or GPRS.
+1. Which of the following is not a characteristic of 3G network?
+a) Communication over VoIP
+b) Unparalleled network capacity
+c) Multi-megabit Internet access
+d) LTE based network
+View Answer
+
+Answer: d
+Explanation: Multi-megabit Internet access, communication using Voice over internet Protocol (VoIP), voice activated calls, unparalleled network capacity are some of the characteristics of 3G network. 3G systems promise unparalleled wireless access which is not possible in 2G systems. LTE (Long term Evolution) is a standard of 4G systems.
+2. What is the term used by ITU for a set of global standards of 3G systems?
+a) IMT 2000
+b) GSM
+c) CDMA
+d) EDGE
+View Answer
+
+Answer: a
+Explanation: International Telecommunications Union (ITU) used the term IMT-2000 in 1998. It is used for a set of global standards for third generation (3G) mobile telecoms services and equipment.
+3. Which of the following leads to evolution of 3G networks in CDMA systems?
+a) IS-95
+b) IS-95B
+c) CdmaOne
+d) Cdma2000
+View Answer
+
+Answer: d
+Explanation: 3G evolution of CDMA system leads to cdma2000. It is based on the fundamentals of IS-95 and IS-95B. IS-95 is a 2G standard for CDMA systems. IS-95B is a CDMA system for 2.5G networks.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+
+4. Which of the following leads to the 3G evolution of GSM, IS-136 and PDC systems?
+a) W-CDMA
+b) GPRS
+c) EDGE
+d) HSCSD
+View Answer
+
+Answer: a
+Explanation: The 3G evolution for GSM, IS-136 and PDC systems leads to W-CDMA (Wideband CDMA). It is based on the network fundamentals of GSM, as well as merged versions of GSM and IS-136 through EDGE. GPRS, EDGE and HSCSD are 2.5G networks.
+5. What is 3GPP?
+a) Project based on W-CDMA
+b) Project based on cdma2000
+c) Project based on 2G standards
+d) Project based on 2.5G standards
+View Answer
+
+Answer: a
+Explanation: 3GPP is a 3G Partnership Project for Wideband CDMA standards based on backward compatibility with GSM and IS-136. The project was established in December 1998. Its initial scope was to make a globally applicable third generation mobile phone system.
+Check this: Electrical Engineering Books | Electronics & Communication Engineering Books
+6. What is 3GPP2?
+a) Project based on W-CDMA
+b) Project based on cdma2000
+c) Project based on 2G standards
+d) Project based on 2.5G standards
+View Answer
+
+Answer: b
+Explanation: 3GPP2 is a 3G Partnership Project for Cdma2000 standards based on backward compatibility with earlier CdmaOne 2G CDMA technology. It was initiated by IMT-2000 to cover high speed, broadband and Internet Protocol (IP) based mobile systems. It mainly focuses on North American and Asian regions.
+7. Which of the following is not a standard of 3G?
+a) UMTS
+b) Cdma2000
+c) TD-SCDMA
+d) LTE
+View Answer
+
+Answer: d
+Explanation: UMTS (Universal Mobile Telecommunication System), TD-SCDMA (Time Division Synchronous Code Division Multiple Access), Cdma2000 are the standards defined for 3G networks. LTE (Long Term Evolution) is a 4G standard for high speed wireless communication.
+8. Which of the following 3G standard is used in Japan?
+a) Cdma2000
+b) TD-SCDMA
+c) UMTS
+d) UTRA
+View Answer
+
+Answer: c
+Explanation: Japan uses UMTS (W-CDMA) standard for its 3G network. The standards used are UMTS 800, UMTS 900, UMTS 1500, UMTS 1700 and UMTS 2100. They are standardized by ARIB (Association of Radio industries and Business).
+9. What does the number 2000 in IMT-2000 signifies?
+a) Year
+b) Number of subscribers per cell
+c) Number of cells
+d) Area (Km)
+View Answer
+
+Answer: a
+Explanation: The International Telecommunication Union (ITU) defined the third generation (3G) of mobile telephony standards, IMT-2000 to facilitate growth, increase bandwidth, and support more diverse applications. The number 2000 in IMT-2000 indicates the start of the system (year 2000) and the spectrum used (around 2000 MHz).
+10. Which of the following is not an application of third generation network?
+a) Global Positioning System (GPS)
+b) Video conferencing
+c) Mobile TV
+d) Downloading rate upto 1 Gbps
+View Answer
+
+Answer: d
+Explanation: 3G applications include GPS (Global Positioning System), MMS (Multimedia Messaging System), video conferencing, location based services, video on demand, wireless voice telephony and high data rates with peak downloading rate of 100 Mbps. For 4G networks, the peak downloading rate is 1 Gbps.
+1. What is the full form of WLAN?
+a) Wide Local Area Network
+b) Wireless Local Area Network
+c) Wireless Land Access Network
+d) Wireless Local Area Node
+View Answer
+
+Answer: b
+Explanation: WLAN stands for Wireless Local Area Network. Wireless networks is increasingly used as a replacement for wires within homes, buildings, and office settings through the deployment of wireless local area networks (WLANs).
+2. WLANs use high power levels and generally require a license for spectrum use.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: WLANs use low power and generally do not require a license for spectrum. They provide ad hoc high data transmission rate connections deployed by individuals. In the late 1980s, FCC provided licence free bands for low power spread spectrum devices in ISM band, which is used by WLAN.
+3. What is the name of 300 MHz of unlicensed spectrum allocated by FCC in ISM band?
+a) UNII
+b) Unlicensed PCS
+c) Millimetre wave
+d) Bluetooth
+View Answer
+
+Answer: a
+Explanation: FCC allocated 300 MHz of unlicensed spectrum in the ISM bands. This allocation is called the Unlicensed National Information Infrastructure (UNII) band. It was allocated for the express purpose of supporting low power license free spread spectrum data communication.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Which of the following specifies a set of media access control (MAC) and physical layer specifications for implementing WLANs?
+a) IEEE 802.16
+b) IEEE 802.3
+c) IEEE 802.11
+d) IEEE 802.15
+View Answer
+
+Answer: c
+Explanation: IEEE 802.11 is a set of media access control and physical layer specification for implementing WLAN computer communication. It was founded in 1987 to begin standardization of spread spectrum WLANs for use in the ISM bands.
+5. Which of the following is not a standard of WLAN?
+a) HIPER-LAN
+b) HIPERLAN/2
+c) IEEE 802.11b
+d) AMPS
+View Answer
+
+Answer: d
+Explanation: AMPS is a standard of first generation network. HIPERLAN is a WLAN standard developed in Europe in mid 1990s. HIPERLAN/2 is also developed in Europe that provides upto 54 Mbps of user data.
+Participate in Wireless and Mobile Communications Certification Contest of the Month Now!
+6. Which of the following is the 802.11 High Rate Standard?
+a) IEEE 802.15
+b) IEEE 802.15.4
+c) IEEE 802.11g
+d) IEEE 802.11b
+View Answer
+
+Answer: d
+Explanation: IEEE 802.11b was a high rate standard approved in 1999. It provided new data rate capabilities of 11 Mbps, 5.5 Mbps in addition to the original 2 Mbps and 1 Mbps user rates of IEEE 802.11.
+7. Which of the following spread spectrum techniques were used in the original IEEE 802.11 standard?
+a) FHSS and DSSS
+b) THSS and FHSS
+c) THSS and DSSS
+d) Hybrid technique
+View Answer
+
+Answer: a
+Explanation: Original IEEE 802.11 used both the approaches of FHSS (Frequency Hopping Spread Spectrum) and DSSS (Direct Sequence Spread Spectrum). But from late 2001s, only DSSS modems are used within IEEE 802.11.
+8. Which of the following WLAN standard has been named Wi-Fi?
+a) IEEE 802.6
+b) IEEE 802.15.4
+c) DSSS IEEE 802.11b
+d) IEEE 802.11g
+View Answer
+
+Answer: c
+Explanation: The DSSS IEEE 802.11b standard has been named Wi-Fi by the Wireless Ethernet Compatibility Alliance. It is a group that promotes adoption of 802.11 DSSS WLAN.
+9. Which of the following is developing CCK-OFDM?
+a) IEEE 802.11a
+b) IEEE 802.11b
+c) IEEE 802.15.4
+d) IEEE 802.11g
+View Answer
+
+Answer: d
+Explanation: IEEE 802.11g is developing CCK-OFDM (Complementary Code Keying Orthogonal Frequency Division Multiplexing) standards. It will support roaming capabilities and dual band use for public WLAN networks. It also has backward compatibility with 802.11b technologies.
+10. What is the data rate of HomeRF 2.0?
+a) 10 Mbps
+b) 54 Mbps
+c) 200 Mbps
+d) 1 Mbps
+View Answer
+
+Answer: a
+Explanation: HomeRF 2.0 has data rate of the order of 10 Mbps. The FHSS proponents of IEEE 802.11 have formed the HomeRF standard that supports the frequency hopping equipment. In 2001, HomeRF developed a 10 Mbps FHSS standard called HomeRF 2.0.
+11. HIPER-LAN stands for ____________
+a) High Precision Radio Local Area Network
+b) High Performance Radio Local Area Network
+c) High Precision Radio Land Area Network
+d) Huge Performance Radio Link Access Node
+View Answer
+
+Answer: b
+Explanation: HIPER-LAN stands for High Performance Radio Local Area Network. It was developed in Europe in mid 1990s. It was intended to provide individual wireless LANs for computer communication.
+12. What is the range of asynchronous user data rates provided by HIPER-LAN?
+a) 1-100 Mbps
+b) 50-100 Mbps
+c) 1-20 Mbps
+d) 500 Mbps to 1 Gbps
+View Answer
+
+Answer: c
+Explanation: HIPER-LAN provides asynchronous user data rates of between 1 to 20 Mbps, as well as time bounded messaging of rates of 64 kbps to 2.048 Mbps. It uses 5.2 GHz and 17.1 GHz frequency bands.
+13. What is the name of the European WLAN standard that provides user data rate upto 54 Mbps?
+a) UNII
+b) WISP
+c) MMAC
+d) HIPERLAN/2
+View Answer
+
+Answer: d
+Explanation: HIPERLAN/2 has emerged as the next generation European WLAN standard. It provides upto 54 Mbps of user data to a variety of networks. The networks includes the ATM backbone, IP based networks and the UMTS network.
+14. What is WISP?
+a) Wideband Internet Service Protocol
+b) Wireless Internet Service Provider
+c) Wireless Instantaneous Source Provider
+d) Wideband Internet Source Protocol
+View Answer
+
+Answer: b
+Explanation: WISP is wireless Internet Service Provider used to explore public LANs (publican). It builds a nationwide infrastructure of WLAN access points in selected hotels, restaurants or airports. It then charges a monthly subscription fee to users who wish to have always on Internet access in those selected locations.
+15. The price of WLAN hardware is more than 3G telephones and fixed wireless equipment.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: As, WLAN could be used to provide access for the last 100 meters into homes and businesses. Therefore, the price of WLAN hardware is far below 3G telephones and fixed wireless equipment.
+1. Which of the following is not an open standard?
+a) Bluetooth
+b) WWW
+c) HTML
+d) VPN
+View Answer
+
+Answer: d
+Explanation: An open standard is a standard that is publicly available. It has various rights to use associated with it. Bluetooth is an open standard that has been embraced by over thousand manufacturers of electronic appliances. VPN (Virtual Private Network) is a private network.
+2. What is the nominal range of Bluetooth?
+a) 1 Km
+b) 10 m
+c) 1 m
+d) 10 Km
+View Answer
+
+Answer: b
+Explanation: The power of the transmitter governs the range over which a Bluetooth device can operate. Generally, Bluetooth devices are said to fall into one of three classes. The most common kind is class 2, and it operates in 10 m range.
+3. Bluetooth standard is named after ___________
+a) King Ronaldo Bluetooth
+b) Pope Vincent Bluetooth
+c) King Herald Bluetooth
+d) Pope Francis Bluetooth
+View Answer
+
+Answer: c
+Explanation: Bluetooth standard is named after King Harald Bluetooth. He was the 10th century Viking who united Denmark and Norway. The Bluetooth standard aims to unify the connectivity chores of appliances within the personal workspace of an individual.
+Subscribe Now: Wireless and Mobile Communication Newsletter | Important Subjects Newsletters
+advertisement
+
+4. Bluetooth operates in which band?
+a) Ka Band
+b) L Band
+c) Ku Band
+d) 2.4 GHz ISM Band
+View Answer
+
+Answer: d
+Explanation: Bluetooth is a radio technology operating in 2.4 GHz frequency band. Bluetooth is best suited for low-bandwidth applications like transferring sound data with telephones (i.e. with a Bluetooth headset) or byte data with hand-held computers (transferring files) or keyboard.
+5. Which of the following scheme is used by Bluetooth?
+a) Frequency hopping TDD scheme
+b) Frequency hopping FDD scheme
+c) DSSS TDD scheme
+d) DSSS FDD scheme
+View Answer
+
+Answer: a
+Explanation: Frequency hopping TDD (Time Division Duplexing) scheme is used by Bluetooth. Frequency hopping provides a form of multiple access among co-located devices in different piconets.
+Participate in Wireless and Mobile Communications Certification Contest of the Month Now!
+6. What is the range of time slot in Bluetooth?
+a) 120 milliseconds
+b) 625 microseconds
+c) 577 microseconds
+d) 5.7 seconds
+View Answer
+
+Answer: b
+Explanation: Bluetooth uses a timeslot of 625 microseconds. A data channel hops randomly 1600 times per second between 79 RF channels. Thus, each channel is divided into time slots 625 microseconds.
+7. Which modulation scheme is used by Bluetooth?
+a) DQPSK
+b) MSK
+c) GFSK
+d) BPSK
+View Answer
+
+Answer: c
+Explanation: Bluetooth uses GFSK (Gaussian Frequency Shift Keying). When GFSK is used for Bluetooth modulation, the frequency of the carrier is shifted to carry the modulation. By doing this the Bluetooth modulation achieves a bandwidth of 1 MHz with stringent filter requirements to prevent interference on other channels.
+8. What is the channel symbol rate in Bluetooth for each user?
+a) 270.833 Kbps
+b) 1 Gbps
+c) 100 Mbps
+d) 1 Mbps
+View Answer
+
+Answer: d
+Explanation: Each user in Bluetooth uses a radio channel symbol rate of 1 Mbps using GFSK modulation. The frequency hopping scheme of each Bluetooth user is determined from a cyclic code with a length of 1027-1.
+9. What is the raw channel bit error rate of Bluetooth?
+a) 10-3
+b) 10-10
+c) 103
+d) 10-1
+View Answer
+
+Answer: a
+Explanation: Bluetooth has a bit error rate (BER) of 10-3. Bluetooth uses a number of forward error control (FEC) coding and automatic repeat request (ARR) schemes to achieve this bit rate.
+10. Which of the following standard committee specifies Bluetooth and other Personal Area Networks (PAN)?
+a) IEEE 802.11b
+b) IEEE 802.15
+c) IEEE 802.11g
+d) IEEE 802.16
+View Answer
+
+Answer: b
+Explanation: IEEE 802.15 standards committee is formed to provide an international forum for developing Bluetooth and other PANs. PANs are used to interconnect pocket PCs, personal digital assistants (PDAs), cell phones, light projectors and other appliances.

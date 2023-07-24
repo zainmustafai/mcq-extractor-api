@@ -1,0 +1,682 @@
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Theorem of Total Probability”.
+
+1. If 40% of boys opted for maths and 60% of girls opted for maths, then what is the probability that maths is chosen if half of the class’s population is girls?
+a) 0.5
+b) 0.6
+c) 0.7
+d) 0.4
+View Answer
+
+Answer: a
+Explanation: Let E be the event of electing boy or a girl and A be the event of selecting a maths student.
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2)
+\(= (\frac{1}{2})(\frac{40}{100}) + (\frac{1}{2}) (\frac{60}{100}) \)
+= 0.5.
+2. Company A produces 10% defective products, Company B produces 20% defective products and C produces 5% defective products. If choosing a company is an equally likely event, then find the probability that the product chosen is defective.
+a) 0.22
+b) 0.12
+c) 0.11
+d) 0.21
+View Answer
+
+Answer: b
+Explanation: Let A be the event of selecting a defective item. Let Ei be the event of selecting a company. Then,
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2) + P(E3) P(A|E3)
+\( = (\frac{1}{3})(\frac{10}{100}) + (\frac{1}{3})(\frac{20}{100}) + (\frac{1}{3})(\frac{5}{100}) \)
+\( = \frac{0.35}{3} = 0.12. \)
+3. Suppose 5 men out of 100 men and 10 women out of 250 women are colour blind, then find the total probability of colour blind people. (Assume that both men and women are in equal numbers.)
+a) 0.45
+b) 0.045
+c) 0.05
+d) 0.5
+View Answer
+
+Answer: b
+Explanation: Let A be the event of selecting a colour blind person and Ei be the event of selecting a person. Then,
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2)
+\(= (\frac{1}{2})(\frac{5}{100}) + (\frac{1}{2})(\frac{10}{250}) \)
+= 0.045.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. A problem is given to 5 students P, Q, R, S, T. If the probability of solving the problem individually is 1/2, 1/3, 2/3, 1/5, 1/6 respectively, then find the probability that the problem is solved.
+a) 0.47
+b) 0.37
+c) 0.57
+d) 0.27
+View Answer
+
+Answer: b
+Explanation: Let A be the event that the problem is solved. Let Ei be the event that a student is chosen. Then,
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2) + P(E3) P(A|E3) + P(E4) P(A|E4) + P(E5) P(A|E5)
+\( = (\frac{1}{5})(\frac{1}{2}) + (\frac{1}{5})(\frac{1}{3}) + (\frac{1}{5})(\frac{2}{3}) + (\frac{1}{5})(\frac{1}{5}) + (\frac{1}{5})(\frac{1}{6}) \)
+= 0.37.
+5. The probability that the political party A does a particular work is 30% and the political party B doing the same work is 40%. Then find the probability that the work is completed if the probability of choosing the political party A is 40% and that of B is 60%.
+a) 0.12
+b) 0.24
+c) 0.36
+d) 0.48
+View Answer
+
+Answer: c
+Explanation: Let A be the event of completing the work and Ei be the event of selecting the political party. Then,
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2)
+\( = (\frac{40}{100})(\frac{30}{100}) + (\frac{60}{100})(\frac{40}{100}) \)
+= 0.36.
+Check this: Engineering Mathematics MCQ | Probability and Statistics Books
+6. Total probability theorem is used in Baye’s theorem.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: Total probability theorem is used in Baye’s theorem. Baye’s theorem is given by
+\(P(E_{i}|A) = \frac{P(Ei)P(A∨Ei)}{∑P (Ei)P(A∨Ei)}. \)
+7. Theorem of total probability is given by P(A) = P(E1) P(A|E1) + P(E2) P(A|E2) +…..(n terms).
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The total probability P(A) is given by the sum of the product of the probability of a particular event and the probability of A given the particular event. Hence the formula is true.
+8. In badminton practice session, the probability that the player A serves properly is 0.8 and that he player B serves properly is 0.9. If there are only two players, then find the probability that it is serves properly.
+a) 0.75
+b) 0.85
+c) 0.95
+d) 0.55
+View Answer
+
+Answer: b
+Explanation: Let A be the event that the service is done properly and Ei be the event that a player is selected. Then,
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2)
+\( = (\frac{1}{2})(\frac{8}{10}) + (\frac{1}{2})(\frac{9}{10}) \)
+= 0.85.
+9. The probability that person A completes all the tasks assigned is 50% and that of person B is 20%. Find the probability that all the tasks are completed.
+a) 0.15
+b) 0.25
+c) 0.35
+d) 0.45
+View Answer
+
+Answer: c
+Explanation: Let A be the event that all tasks are completed and Ei is the event that a person is selected.
+Then,
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2)
+\( =(\frac{1}{2})(\frac{50}{100}) + (\frac{1}{2})(\frac{20}{100}) \)
+= 0.35
+10. Let there be two newly launched phones A and B. The probability that phone A has good battery life is 0.7 and the probability that phone B has good battery life is 0.8. Then find the probability that a phone has a good battery life.
+a) 0.65
+b) 0.75
+c) 0.85
+d) 0.45
+View Answer
+
+Answer: b
+Explanation: Let A be the event thtat a phome has a good battery life and Ei be the event that a phone is selected. Then,
+P(A) = P(E1) P(A|E1) + P(E2) P(A|E2)
+\( = (\frac{1}{2})(0.7) + (\frac{1}{2})(0.8) \)
+= 0.75.
+
+This set of Probability and Statistics Assessment Questions and Answers focuses on “Set Theory of Probability – 2”.
+
+1. If P(B⁄A) = p(b), then P(A ∩ B) = ____________
+a) p(b)
+b) p(a)
+c) p(b).p(a)
+d) p(a) + p(b)
+View Answer
+
+Answer: c
+Explanation: P(B/A) = p(b) implies A and B are independent events
+Therefore, P(A ∩ B) = p(a).p(b).
+2. Two unbiased coins are tossed. What is the probability of getting at most one head?
+a) 1⁄2
+b) 1⁄3
+c) 1⁄6
+d) 3⁄4
+View Answer
+
+Answer: d
+Explanation: Total outcomes = (HH, HT, TH, TT)
+Favorable outcomes = (TT, HT, TH)
+At most one head refers to maximum one head,
+Therefore, probability = 3⁄4.
+3. If A and B are two events such that p(a) > 0 and p(b) is not a sure event, then P(A/B) = ?
+a) 1 – P(A /B)
+b) \(P\frac{(\bar{A})}{(\bar{B})}\)
+c) Not Defined
+d) \(\frac{1-P(A \cup B)}{P(\bar{B}}\)
+View Answer
+
+Answer: d
+Explanation: From definition of conditional probability we have
+\(P(\bar{A}/\bar{B})=\frac{\bar{A}\cap\bar{B}}{P(\bar{B})}\)
+Using De Morgan’s Law
+=\(\frac{P(\bar{A \cup B})}{(\bar{B}}\)
+=\(\frac{1-P(A \cup B)}{P(\bar{B}}\)
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+4. If A and B are two events, then the probability of exactly one of them occurs is given by ____________
+a) P(A ∩ B) + P(A ∩ B)
+b) P(A) + P(B) – 2P(A) P(B)
+c) P(A) + P(B) – 2P(A) P(B)
+d) P(A) + P(B) – P(A ∩ B)
+View Answer
+
+Answer: a
+Explanation: The set corresponding to the required outcome is
+(A ∩ B) ∪ (A ∩ B)
+Hence the required probability is
+P(P(A ∩ B) ∪ (A ∩ B)) = (A ∩ B) + P(A ∩ B).
+5. The probability that at least one of the events M and N occur is 0.6. If M and N have probability of occurring together as 0.2, then P(M) + P(N) is?
+a) 0.4
+b) 1.2
+c) 0.8
+d) Indeterminate
+View Answer
+
+Answer: b
+Explanation: Given : P(M ∪ N) = 0.6, P(M ∩ N) = 0.2
+P(M ∪ N) + P(M ∩ N) = P(M) + P(N)
+2 – (P(M ∪ N) + P(M ∩ N)) = 2 – (P(M) + P(N))
+= (1 – P(M)) + (1 – P(N))
+2 – (0.6 + 0.2) = P(M) + P(N)
+P(M) + P(N) = 2 – 0.8
+= 1.2
+Check this: Numerical Methods MCQ | Engineering Mathematics MCQ
+6. A jar contains ‘y’ blue colored balls and ‘x’ red colored balls. Two balls are pulled from the jar without replacing. What is the probability that the first ball Is blue and second one is red?
+a) \(\frac{xy-y}{x^2+y^2+2xy-(x+y)}\)
+b) \(\frac{xy}{x^2+y^2+2xy-(x+y)}\)
+c) \(\frac{y^2-y}{x^2+y^2+2xy-(x+y)}\)
+d) \(\frac{xy-y}{x^2+y^2+2xy-(x-y)}\)
+View Answer
+
+Answer: b
+Explanation: Number of blue balls = y
+Number of Red balls = x
+Total number of balls = x + y
+Probability of Blue ball first = y / x + y
+No. of balls remaining after removing one = x + y – 1
+Probability of pulling secondball as Red=\(\frac{x}{x+y-1}\)
+Required porbability=\(\frac{y}{(x+y)}\frac{x}{(x+y-1)}=\frac{xy}{x^2+y^2+2xy-(x+y)}\)
+7. A survey determines that in a locality, 33% go to work by Bike, 42% go by Car, and 12% use both. The probability that a random person selected uses neither of them is?
+a) 0.29
+b) 0.37
+c) 0.61
+d) 0.75
+View Answer
+
+Answer: b
+Explanation: Given: p(b) = 0.33, P(c) = 0.42
+P(B ∩ C) = 0.12
+P(B ∩ C) = ?
+P(B ∩ C) = 1 – P(B ∪ C)
+= 1 – p(b) – P(c) + P(B ∩ C)
+= 1 – 0.22 – 0.42 + 0.12
+= 0.37.
+8. A coin is biased so that its chances of landing Head is 2⁄3. If the coin is flipped 3 times, the probability that the first 2 flips are heads and the 3rd flip is a tail is?
+a) 4⁄27
+b) 8⁄27
+c) 4⁄9
+d) 2⁄9
+View Answer
+
+Answer: a
+Explanation: Required probability = 2⁄3 x 2⁄3 x 1⁄3 = 4⁄27.
+9. Husband and wife apply for two vacant spots in a company. If the probability of wife getting selected and husband getting selected are 3/7 and 2/3 respectively, what is the probability that neither of them will be selected?
+a) 2⁄7
+b) 5⁄7
+c) 4⁄21
+d) 17⁄21
+View Answer
+
+Answer: c
+Explanation:Let H be the event of husband getting selected
+W be the event of wife getting selected
+Then, the event of neither of them getting selected is = (H ∩ W)
+P (H ∩ W) = P (H) x P (W)
+= (1 – P (H)) x (1 – P (W))
+= (1 – 2⁄3) x (1 – 3⁄7)
+= 4⁄21.
+10. For two events A and B, if P (B) = 0.5 and P (A ∪ B) = 0.5, then P (A|B) = ?
+a) 0.5
+b) 0
+c) 0.25
+d) 1
+View Answer
+
+Answer: d
+Explanation: We know that,
+P (A│B) = P(A ∩ B)/P(B)
+= P((A ∪ B)/P(B))
+= (1 – P(A ∪ B)) /P(B)
+= (1 – 0.5)/0.5
+= 1.
+11. A fair coin is tossed thrice, what is the probability of getting all 3 same outcomes?
+a) 3⁄4
+b) 1⁄4
+c) 1⁄2
+d) 1⁄6
+View Answer
+
+Answer: b
+Explanation:S = {HHH, HHT, HTH, HTT, THH, THT, TTH, TTT}
+All 3 same outcomes mean either all head or all tail
+Total outcomes = 8
+Favourable outcomes = {HHH, TTT} = 2
+∴ required probability = 2⁄8 = 1⁄4.
+12. A bag contains 5 red and 3 yellow balls. Two balls are picked at random. What is the probability that both are of the same colour?
+a) \(\frac{C_2^5}{C_2^8}+\frac{C_2^3}{C_2^8}\)
+b) \(\frac{C_2^5 * C_2^3}{C_2^8}\)
+c) \(\frac{C_1^5 * C_1^3}{C_2^8}\)
+d) 0.5
+View Answer
+
+Answer: a
+Explanation:Total no.of balls = 5R+3Y = 8
+No.of ways in which 2 balls can be picked = 8C2
+Probability of picking both balls as red = 5C2 /8C2
+Probability of picking both balls as yellow = 3C2 /8C2
+∴ required probability \(\frac{C_2^5}{C_2^8}+\frac{C_2^3}{C_2^8}\).
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Set Theory of Probability – 1”.
+
+1. A and B are two events such that P(A) = 0.4 and P(A ∩ B) = 0.2 Then P(A ∩ B) is equal to ___________
+a) 0.4
+b) 0.2
+c) 0.6
+d) 0.8
+View Answer
+
+Answer: a
+Explanation: P(A ∩ B) = P(A – (A ∩ B))
+= P(A) – P(A ∩ B)
+= 0.6 – 0.2 Using P(A) = 1 – P(A)
+= 0.4.
+2. A problem in mathematics is given to three students A, B and C. If the probability of A solving the problem is 1⁄2 and B not solving it is 1⁄4. The whole probability of the problem being solved is 63⁄64 then what is the probability of solving it?
+a) 1⁄8
+b) 1⁄64
+c) 7⁄8
+d) 1⁄2
+View Answer
+
+Answer: c
+Explanation:
+Let A be the event of A solving the problem
+Let B be the event of B solving the problem
+Let C be the event of C solving the problem
+Given P(a) = 1⁄2, P(~B) = 1⁄4 and P(A ∪ B ∪ C) = 63/64
+We know P(A ∪ B ∪ C) = 1 – P(A ∪ B ∪ C)
+
+Note: Join free Sanfoundry classes at Telegram or Youtube
+advertisement
+= 1 – P(A ∩ B ∩ C)
+
+= 1 – P(A) P(B) P(C)
+
+Check this: Numerical Methods MCQ | Probability and Statistics Books
+Let P(C) = p
+ie 63⁄64 = 1 – (1⁄2)(1⁄4)(p)
+
+= 1 – p⁄8
+⇒ P =1/8 = P(C)
+⇒P(C) = 1 – P = 1 – 1⁄8 = 7⁄8.
+3. Let A and B be two events such that P(A) = 1⁄5 While P(A or B) = 1⁄2. Let P(B) = P. For what values of P are A and B independent?
+a) 1⁄10 and 3⁄10
+b) 3⁄10 and 4⁄5
+c) 3⁄8 only
+d) 3⁄10
+view Answer
+
+Answer: c
+Explanation: For independent events,
+P(A ∩ B) = P(A) P(B)
+P(A ∪ B) = P(A) + P(B) – P(A ∩ B)
+= P(A) + P(B) – P(A) P(B)
+= 1⁄5 + P (1⁄5)P
+⇒ 1⁄2 = 1⁄5 + 4⁄5P
+⇒ P= 3⁄8.
+4. If A and B are two mutually exclusive events with P(~A) = 5⁄6 and P(b) = 1⁄3 then P(A /~B) is equal to ___________
+a) 1⁄4
+b) 1⁄2
+c) 0, since mutually exclusive
+d) 5⁄18
+View Answer
+
+Answer: a
+Explanation: As A and B are mutually exclusive we have
+\(A\cap\bar{B}\)
+And Hence
+\(P(A/\bar{B})=\frac{P(A\cap\bar{B})}{P(\bar{B})}\)
+\(\frac{1-P(\bar{A})}{1-P(\bar{B})}=\frac{1-\frac{5}{6}}{1-\frac{1}{3}}\)
+\(P(A/\bar{B})=\frac{1}{4}\)
+5. If A and B are two events such that P(a) = 0.2, P(b) = 0.6 and P(A /B) = 0.2 then the value of P(A /~B) is ___________
+a) 0.2
+b) 0.5
+c) 0.8
+d) 1⁄3
+View Answer
+
+Answer: a
+Explanation: For independent events,
+P(A /~B) = P(a) = 0.2.
+6. If A and B are two mutually exclusive events with P(a) > 0 and P(b) > 0 then it implies they are also independent.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: P(A ∩ B) = 0 as (A ∩ B) = ∅
+But P(A ∩ B) ≠ 0 , as P(a) > 0 and P(b) > 0
+P(A ∩ B) = P(A) P(B), for independent events.
+7. Let A and B be two events such that the occurrence of A implies occurrence of B, But not vice-versa, then the correct relation between P(a) and P(b) is?
+a) P(A) < P(B)
+b) P(B) ≥ P(A)
+c) P(A) = P(B)
+d) P(A) ≥ P(B)
+View Answer
+
+Answer: b
+Explanation: Here, according to the given statement A ⊆ B
+P(B) = P(A ∪ (A ∩ B)) (∵ A ∩ B = A)
+= P(A) + P(A ∩ B)
+Therefore, P(B) ≥ P(A)
+8. In a sample space S, if P(a) = 0, then A is independent of any other event.
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: P(a) = 0 (impossible event)
+Hence, A is not dependent on any other event.
+9. If A ⊂ B and B ⊂ A then,
+a) P(A) > P(B)
+b) P(A) < P(B)
+c) P(A) = P(B)
+d) P(A) < P(B)
+View Answer
+
+Answer: c
+Explanation: A ⊂ B and B ⊂ A => A = B
+Hence P(a) = P(b).
+10. If A ⊂ B then?
+a) P(a) > P(b)
+b) P(A) ≥ P(B)
+c) P(B) = P(A)
+d) P(B) = P(B)
+View Answer
+
+Answer: b
+Explanation: A ⊂ B => B ⊂ A
+Therefore, P(A) ≥ P(B)
+11. If A is a perfect subset of B and P(a < Pb), then P(B – A) is equal to ____________
+a) P(a) / P(b)
+b) P(a)P(b)
+c) P(a) + P(b)
+d) P(b) – P(a)
+View Answer
+
+Answer: d
+Explanation: From Basic Theorem of probability,
+P(B – A) = P(b) – P(a), this is true only if the condition given in the question is true.
+12. What is the probability of an impossible event?
+a) 0
+b) 1
+c) Not defined
+d) Insufficient data
+View Answer
+
+Answer: a
+Explanation: If the probability of an event is 0, then it is called as an impossible event.
+13. If A = A1 ∪ A2……..∪ An, where A1…An are mutually exclusive events then?
+a) \(\sum_{i=0}^n P(A_i)\)
+b) \(\sum_{i=1}^n P(A_i)\)
+c) \(\prod_{i=0}^n P(A_i)\)
+d) Not defined
+View Answer
+
+Answer: b
+Explanation: A = A1 ∪ A2……..∪ An, where A1…An
+Since A1…An are mutually exclusive
+P(a) = P(A1) + P(A2) + … + P(An)
+Therefore p(a)=\(\sum_{i=1}^n P(A_i)\
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Permutations and Combinations”.
+
+1. If 16Pr-1 : 15Pr-1 = 16 : 7 then find r.
+a) 10
+b) 12
+c) 7
+d) 8
+View Answer
+
+Answer: a
+Explanation: We know that \(^nP_r = \frac{n!}{(n-r)!} \)
+Hence \(^{16}P_{r-1} : \, ^{15}P_{r-1} = 16 : 7 \)
+\([\frac{16!}{16-(r-1)!}] ÷ [\frac{15!}{15-(r-1)}] = 16 ÷ 7 \)
+16 ÷ (17 – r) = 16 ÷ 7
+17 – r = 7
+Hence r = 10.
+2. In a colony, there are 55 members. Every member posts a greeting card to all the members. How many greeting cards were posted by them?
+a) 990
+b) 890
+c) 2970
+d) 1980
+View Answer
+
+Answer: c
+Explanation: First player can post greeting cards to the remaining 54 players in 54 ways. Second player can post greeting card to the 54 players. Similarly, it happens with the rest of the players. The total numbers of greeting cards posted are
+54 + 54 + 54 …
+54 (55times) = 54 x 55 = 2970.
+3. Find the number of ways of arranging the letters of the words DANGER, so that no vowel occupies odd place.
+a) 36
+b) 48
+c) 144
+d) 96
+View Answer
+
+Answer: c
+Explanation: The given word is DANGER. Number of letters is 6. Number of vowels is 2 (i.e., A, E). Number of consonants is 4 (i.e., D,N,G,R). As the vowels cannot occupy odd places, they can be arranged in even places. Two vowels can be arranged in 3 even places in 3P2 ways i.e., 6. Rest of the consonants can arrange in the remaining 4 places in 4! ways. The total number of arrangements is 6 x 4! = 144.
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+advertisement
+4. Find the sum of all four digit numbers that can be formed by the digits 1, 3, 5, 7, 9 without repetition.
+a) 666700
+b) 666600
+c) 678860
+d) 665500
+View Answer
+
+Answer: b
+Explanation: The given digits are 1, 3, 5, 7, 9
+Sum of r digit number= n-1Pr-1
+(Sum of all n digits)×(1111… r times)
+N is the number of non zero digits.
+Here n=5, r=4
+The sum of 4 digit numbers
+4P3 (1+3+5+7+9)(1111)=666600.
+5. If nPr = 3024 and nCr = 126 then find n and r.
+a) 9, 4
+b) 10, 3
+c) 12, 4
+d) 11, 4
+View Answer
+
+Answer: a
+Explanation: \(\frac{^nP_r}{^nC_r} = \frac{3024}{126} \)
+\(^nP_r = \frac{n!}{(n-r)!} \)
+\(^nC_r = \frac{n!}{(n-r)!×r!} \)
+Hence \( [\frac{n!}{(n-r)!}]÷[\frac{n!}{(n-r)!×r!}] \) = 24
+24 = r!
+Hence r = 4
+Now nP4 = 3024
+\(\frac{n!}{(n-4)!} = 3024 \)
+n(n-1)(n-2)(n-3) = 9.8.7.6
+n = 9.
+Check this: Engineering Mathematics MCQ | Probability and Statistics Books
+6. Find the number of rectangles and squares in an 8 by 8 chess board respectively.
+a) 296, 204
+b) 1092, 204
+c) 204, 1092
+d) 204, 1296
+View Answer
+
+Answer: b
+Explanation: Chess board consists of 9 horizontal 9 vertical lines. A rectangle can be formed by any two horizontal and two vertical lines. Number of rectangles = 9C2 × 9C2 = 1296. For squares there is one 8 by 8 square four 7 by 7 squares, nine 6 by 6 squares and like this
+Number of squares on chess board = 12+22…..82 = 204
+Only rectangles = 1296-204 = 1092.
+7. There are 20 points in a plane, how many triangles can be formed by these points if 5 are colinear?
+a) 1130
+b) 550
+c) 1129
+d) 1140
+View Answer
+
+Answer: a
+Explanation: Number of points in plane n = 20.
+Number of colinear points m = 5.
+Number of triangles from by joining n points of which m are colinear = nC3 – mC3
+Therefore the number of triangles = 20C3 – 5C3 = 1140-10 = 1130.
+8. In how many ways can we select 6 people out of 10, of which a particular person is not included?
+a) 10C3
+b) 9C5
+c) 9C6
+d) 9C4
+View Answer
+
+Answer: c
+Explanation: One particular person is not included we have to select 6 persons out of 9 which can be done in 9C6 ways.
+9. Number of circular permutations of different things taken all at a time is n!.
+a) True
+b) False
+View Answer
+
+Answer: b
+Explanation: The number of circular permutations of different things taken all at a time is n-1! and the number of linear permutations of different things taken all at a time is n!.
+10. Is the given statement true or false?
+nCr= nCn-r
+a) True
+b) False
+View Answer
+
+Answer: a
+Explanation: The property of combination states nCr= nCn-r
+As \(^nC_r = \frac{n!}{(n-r)!×r!} \)
+\(^nC_{n-r} = \frac{n!}{r!×(n-r)!} = ^nC_r. \)
+
+This set of Probability and Statistics Multiple Choice Questions & Answers (MCQs) focuses on “Baye’s Theorem”.
+
+1. Three companies A, B and C supply 25%, 35% and 40% of the notebooks to a school. Past experience shows that 5%, 4% and 2% of the notebooks produced by these companies are defective. If a notebook was found to be defective, what is the probability that the notebook was supplied by A?
+a) 44⁄69
+b) 25⁄69
+c) 13⁄24
+d) 11⁄24
+View Answer
+
+Answer: b
+Explanation: Let A, B and C be the events that notebooks are provided by A, B and C respectively.
+Let D be the event that notebooks are defective
+Then,
+P(A) = 0.25, P(B) = 0.35, P(C) = 0.4
+P(D|A) = 0.05, P(D|B) = 0.04, P(D|C) = 0.02
+P(A│D) = (P(D│A)*P(A))/(P(D│A) * P(A) + P(D│B) * P(B) + P(D│C) * P(C) )
+= (0.05*0.25)/((0.05*0.25)+(0.04*0.35)+(0.02*0.4)) = 2000/(80*69)
+= 25⁄69.
+2. A box of cartridges contains 30 cartridges, of which 6 are defective. If 3 of the cartridges are removed from the box in succession without replacement, what is the probability that all the 3 cartridges are defective?
+a) \(\frac{(6*5*4)}{(30*30*30)}\)
+b) \(\frac{(6*5*4)}{(30*29*28)}\)
+c) \(\frac{(6*5*3)}{(30*29*28)}\)
+d) \(\frac{(6*6*6)}{(30*30*30)}\)
+View Answer
+
+Answer: b
+Explanation: Let A be the event that the first cartridge is defective. Let B be the event that the second cartridge is defective. Let C be the event that the third cartridge is defective. Then probability that all 3 cartridges are defective is P(A ∩ B ∩ C)
+Hence,
+P(A ∩ B ∩ C) = P(A) * P(B|A) * P(C | A ∩ B)
+= (6⁄30) * (5⁄29) * (4⁄28)
+= (6 * 5 * 4)⁄(30 * 29 * 28).
+3. Two boxes containing candies are placed on a table. The boxes are labelled B1 and B2. Box B1 contains 7 cinnamon candies and 4 ginger candies. Box B2 contains 3 cinnamon candies and 10 pepper candies. The boxes are arranged so that the probability of selecting box B1 is 1⁄3 and the probability of selecting box B2 is 2⁄3. Suresh is blindfolded and asked to select a candy. He will win a colour TV if he selects a cinnamon candy. What is the probability that Suresh will win the TV (that is, she will select a cinnamon candy)?
+a) 7⁄33
+b) 6⁄33
+c) 13⁄33
+d) 20⁄33
+View Answer
+
+Answer: c
+Explanation: Let A be the event of drawing a cinnamon candy.
+Let B1 be the event of selecting box B1.
+Let B2 be the event of selecting box B2.
+Then, P(B1) =1⁄3 and P(B2) = 2⁄3
+P(A) = P(A ∩ B1) + P(A ∩ B2)
+= P(A|B1) * P(B1) + P(A|B2)*P(B2)
+= (7⁄11) * (1⁄3) + (3⁄11) * (2⁄3)
+= 13⁄33.
+Subscribe Now: Probability and Statistics Newsletter | Important Subjects Newsletters
+advertisement
+4. Two boxes containing candies are placed on a table. The boxes are labelled B1 and B2. Box B1 contains 7 cinnamon candies and 4 ginger candies. Box B2 contains 3 cinnamon candies and 10 pepper candies. The boxes are arranged so that the probability of selecting box B1 is 1⁄3 and the probability of selecting box B2 is 2⁄3. Suresh is blindfolded and asked to select a candy. He will win a colour TV if he selects a cinnamon candy. If he wins a colour TV, what is the probability that the marble was from the first box?
+a) 7⁄13
+b) 13⁄7
+c) 7⁄33
+d) 6⁄33
+View Answer
+
+Answer: a
+Explanation: Let A be the event of drawing a cinnamon candy.
+Let B1 be the event of selecting box B1.
+Let B2 be the event of selecting box B2.
+Then, P(B1) = 1⁄3 and P(B2) = 2⁄3
+Given that Suresh won the TV, the probability that the cinnamon candy was selected from B1 is
+P(B1|A) = (P(A|B1) * P( B1))/( P(A│B1) * P( B1) + P(A│B1) * P(B2))
+\(\frac{(\frac{7}{11})*(\frac{1}{3})}{(\frac{7}{11})*(\frac{1}{3})+(\frac{3}{11})*(\frac{2}{3})}\)
+= 7⁄13.
+
+Check this: Probability and Statistics Books | Engineering Mathematics MCQ
+5. Suppose box A contains 4 red and 5 blue coins and box B contains 6 red and 3 blue coins. A coin is chosen at random from the box A and placed in box B. Finally, a coin is chosen at random from among those now in box B. What is the probability a blue coin was transferred from box A to box B given that the coin chosen from box B is red?
+a) 15⁄29
+b) 14⁄29
+c) 1⁄2
+d) 7⁄10
+View Answer
+
+Answer: a
+Explanation: Let E represent the event of moving a blue coin from box A to box B. We want to find the probability of a blue coin which was moved from box A to box B given that the coin chosen from B was red. The probability of choosing a red coin from box A is P(R) = 7⁄9 and the probability of choosing a blue coin from box A is P(B) = 5⁄9. If a red coin was moved from box A to box B, then box B has 7 red coins and 3 blue coins. Thus the probability of choosing a red coin from box B is 7⁄10 . Similarly, if a blue coin was moved from box A to box B, then the probability of choosing a red coin from box B is 6⁄10.
+Hence, the probability that a blue coin was transferred from box A to box B given that the coin chosen from box B is red is given by
+\(P(E|R)=\frac{P(R|E)*P(E)}{P(R)}\)
+=\(\frac{(\frac{6}{10})*(\frac{5}{9})}{(\frac{7}{10})*(\frac{4}{9})+(\frac{6}{10})*(\frac{5}{9})}\)
+= 15⁄29.
+6. An urn B1 contains 2 white and 3 black chips and another urn B2 contains 3 white and 4 black chips. One urn is selected at random and a chip is drawn from it. If the chip drawn is found black, find the probability that the urn chosen was B1.
+a) 4⁄7
+b) 3⁄7
+c) 20⁄41
+d) 21⁄41
+View Answer
+
+Answer: d
+Explanation: Let E1, E2 denote the vents of selecting urns B1 and B2 respectively.
+Then P(E1) = P(E2) = 1⁄2
+Let B denote the event that the chip chosen from the selected urn is black .
+Then we have to find P(E1 /B).
+By hypothesis P(B /E1) = 3⁄5
+and P(B /E2) = 4⁄7
+By Bayes theorem P(E1 /B) = (P(E1)*P(B│E1))/((P(E1) * P(B│E1)+P(E2) * P(B│E2)) )
+= ((1/2) * (3/5))/((1/2) * (3/5)+(1/2)*(4/7) ) = 21/41.
+7. At a certain university, 4% of men are over 6 feet tall and 1% of women are over 6 feet tall. The total student population is divided in the ratio 3:2 in favour of women. If a student is selected at random from among all those over six feet tall, what is the probability that the student is a woman?
+a) 2⁄5
+b) 3⁄5
+c) 3⁄11
+d) 1⁄100
+View Answer
+
+Answer: c
+Explanation: Let M be the event that student is male and F be the event that the student is female. Let T be the event that student is taller than 6 ft.
+P(M) = 2⁄5 P(F) = 3⁄5 P(T|M) = 4⁄100 P(T|F) = 1⁄100
+P(F│T) = (P(T│F) * P(F))/(P(T│F) * P(F) + P(T│M) * P(M))
+= ((1/100) * (3/5))/((1/100) * (3/5) + (4/100) * (2/5) )
+= 3⁄11.
+8. Previous probabilities in Bayes Theorem that are changed with help of new available information are classified as _________________
+a) independent probabilities
+b) posterior probabilities
+c) interior probabilities
+d) dependent probabilities
+View Answer
+
+Answer: b
+Explanation: None.
