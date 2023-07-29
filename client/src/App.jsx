@@ -6,6 +6,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import AllChapters from './pages/AllChapters'
 import CreateNew from './pages/CreateNew/CreateNew'
 import ChapterQuestionsPage from './pages/ChapterQuestionsPage'
+import EditorPage from './pages/EditorPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <div className=''>
       <header className='p-4 text-xl font-bold shadow-sm flex items-center'>
         <Link to={'/'} className='mx-4' > Home </Link>
+        <Link to={'/editor'} className='mx-4' > Editor </Link>
         <Link to={'/subjects'} className='mx-4' > See all Subjects </Link>
       </header>
       <Routes>
@@ -23,9 +25,8 @@ function App() {
         <Route path='subjects/:subjectid' element={<AllChapters />} />
         <Route path='/createnew/:subjectid/:chapterid' element={<CreateNew />} />
 
-        <Route path='/questions/chapter/:chapterid' element={<ChapterQuestionsPage />}>
-
-        </Route>
+        <Route path='/questions/chapter/:chapterid' element={<ChapterQuestionsPage />}></Route>
+        <Route path='/editor' element={<EditorPage />} />
       </Routes>
     </div>
   )
