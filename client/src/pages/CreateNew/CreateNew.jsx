@@ -27,7 +27,7 @@ const CreateNew = () => {
     console.clear();
     try {
       e.preventDefault();
-      const URL = `http://localhost:8081/api/${subjectid}/${chapterid}/mcqs`;
+      const URL = `${process.env.REACT_APP_API_URL}/${subjectid}/${chapterid}/mcqs`;
       console.log(URL);
       const response = await axios.post(URL, {
         mcqs: MCQs,
@@ -74,10 +74,10 @@ const CreateNew = () => {
                 key={index}
                 className="border border-blue-400 mx-3 px-4 my-4"
               >
-                
-                { MCQ.question ? <h1 className="text-center text-xl font-bold underline my-4">
+
+                {MCQ.question ? <h1 className="text-center text-xl font-bold underline my-4">
                   {index} ---p {MCQ.question}
-                </h1> : <strong className="bg-red-600">QUESTION DOES NOT EXIST</strong> 
+                </h1> : <strong className="bg-red-600">QUESTION DOES NOT EXIST</strong>
                 }
 
 
@@ -87,12 +87,12 @@ const CreateNew = () => {
                   <span>3 {MCQ.options[2]}</span> <br />
                   <span>4 {MCQ.options[3]}</span> <br />
                 </div>
-                
-                
-                { MCQ.answer ? <h2 className="my-3 text-lg font-bold">{MCQ.answer}</h2> : <strong className="bg-red-600">ANSWER DOES NOT EXIST</strong>}
-                
+
+
+                {MCQ.answer ? <h2 className="my-3 text-lg font-bold">{MCQ.answer}</h2> : <strong className="bg-red-600">ANSWER DOES NOT EXIST</strong>}
+
                 <p> <strong>Explanation EXISTS</strong> {MCQ.explanation}</p>
-                
+
                 <button
                   type="button"
                   className="bg-gray-300 hover:bg-blue-500 transition-all duration-150 border-2 border-black p-2 m-2 w-full"
