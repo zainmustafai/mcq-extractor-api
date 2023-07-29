@@ -12,7 +12,7 @@ const Subjects = () => {
     try {
       console.log(`Deleting subject with id ${subjectid}`);
       const response = await axios.delete(
-        `http://localhost:8081/api/subjects/${subjectid}`
+        `${import.meta.env.VITE_API_URL}/subjects/${subjectid}`
       );
       console.log(response.data);
       setSubjects(subjects.filter((subject) => subject._id !== subjectid));
@@ -26,7 +26,7 @@ const Subjects = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `http://localhost:8081/api/departments/${departmentid}/subjects`,
+        `${import.meta.env.VITE_API_URL}/departments/${departmentid}/subjects`,
         { name: subjectName }
       );
       console.log(response.data);
@@ -44,7 +44,7 @@ const Subjects = () => {
     const fetchSubjects = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8081/api/departments/${departmentid}/subjects`
+          `${import.meta.env.VITE_API_URL}/departments/${departmentid}/subjects`
         );
         console.log(response.data);
         setSubjects(response.data.subjects);

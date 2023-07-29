@@ -10,7 +10,7 @@ const AllChapters = () => {
     try {
       e.preventDefault();
       const response = await axios.post(
-        `http://localhost:8081/api/subjects/${subjectid}/chapters`,
+        `${import.meta.env.VITE_API_URL}/subjects/${subjectid}/chapters`,
         { name: chapterName }
       );
       console.log(response.data);
@@ -30,7 +30,7 @@ const AllChapters = () => {
   useEffect(() => {
     const fetchChapters = async () => {
       try {
-        const URL = `http://localhost:8081/api/subjects/${subjectid}/chapters`;
+        const URL = `${import.meta.env.VITE_API_URL}/subjects/${subjectid}/chapters`;
         console.log(URL);
         const response = await axios.get(URL);
         console.log(response.data);

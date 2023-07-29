@@ -9,7 +9,7 @@ const ChapterQuestionsPage = () => {
     useEffect(() => {
         try {
             const fetchQuestions = async () => {
-                const response = await axios.get(`http://localhost:8081/api/mcqs/${chapterid}`);
+                const response = await axios.get(`${import.meta.env.VITE_API_URL}/mcqs/${chapterid}`);
                 console.log(response.data.mcqs);
                 setQuestions(response.data.mcqs);
             };

@@ -1,14 +1,17 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-
+const ENVIRONMENT = import.meta.env;
 const Home = () => {
+  
+  console.log(ENVIRONMENT.VITE_API_URL);
+
   const [departments, setDepartments] = useState([]);
   const [name, setName] = useState('');
 
   const handleDelete = async (id) => {
     try {
-      const response = await axios.delete(`http://localhost:8081/api/departments/${id}`);
+      const response = await axios.delete(`${import.meta.env.VITE_API_URL}/departments/${id}`);
       console.log(response.data);
       setDepartments(departments.filter((department) => department._id !== id));
     } catch (err) {
@@ -19,7 +22,7 @@ const Home = () => {
     e.preventDefault();
     if (!name) return;
     try {
-      const response = await axios.post(`http://localhost:8081/api/departments`, { name });
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/departments`, { name });
       console.log(response.data);
       setDepartments([...departments, response.data.department]);
       setName('');
@@ -31,7 +34,7 @@ const Home = () => {
   useEffect(() => {
     const fetchDepartments = async () => {
       try {
-        const response = await axios.get(`http://localhost:8081/api/departments`);
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/departments`);
         console.log(response.data);
         setDepartments(response.data.departments);
       } catch (err) {

@@ -27,7 +27,7 @@ const CreateNew = () => {
     console.clear();
     try {
       e.preventDefault();
-      const URL = `${process.env.REACT_APP_API_URL}/${subjectid}/${chapterid}/mcqs`;
+      const URL = `${import.meta.env.VITE_API_URL}/${subjectid}/${chapterid}/mcqs`;
       console.log(URL);
       const response = await axios.post(URL, {
         mcqs: MCQs,
